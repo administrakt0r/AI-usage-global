@@ -24,16 +24,16 @@ const Blog = ({ blogPosts = allBlogPosts.slice(0, 3) }: BlogProps) => {
         <div className="space-y-4">
           <Badge
             variant="outline"
-            className="rounded-full border-brand-blue/20 bg-brand-blue/10 px-3 py-1 text-[0.72rem] font-semibold uppercase tracking-[0.18em] text-brand-blue"
+            className="rounded-full border-brand-green/20 bg-brand-green/10 px-3 py-1 text-[0.72rem] font-semibold uppercase tracking-[0.18em] text-brand-green"
           >
-            Povezano
+            Related
           </Badge>
           <h2 className="font-serif text-3xl tracking-tight text-foreground md:text-4xl">
-            Pročitajte i ovo
+            Read more
           </h2>
           <p className="max-w-2xl text-base leading-7 text-muted-foreground">
-            Još nekoliko objava koje šire kontekst oko tema, kompanija i AI
-            trendova iz ove priče.
+            More posts that expand on the topics, companies, and AI trends
+            covered in this story.
           </p>
         </div>
 
@@ -41,7 +41,7 @@ const Blog = ({ blogPosts = allBlogPosts.slice(0, 3) }: BlogProps) => {
           {blogPosts.map((post) => (
             <Card
               key={post.slug}
-              className="group h-full overflow-hidden border-border/75 bg-card/95 py-0 shadow-sm shadow-brand-blue/5 transition-all duration-300 hover:-translate-y-1 hover:border-brand-blue/25 hover:shadow-lg hover:shadow-brand-blue/10"
+              className="group h-full overflow-hidden border-border/75 bg-card/95 py-0 shadow-sm shadow-brand-green/5 transition-all duration-300 hover:-translate-y-1 hover:border-brand-green/25 hover:shadow-lg hover:shadow-brand-green/10"
             >
               <CardContent className="flex h-full flex-col gap-4 px-5 py-5">
                 <Link
@@ -65,7 +65,7 @@ const Blog = ({ blogPosts = allBlogPosts.slice(0, 3) }: BlogProps) => {
                       {formatPostDisplayDate(post)}
                     </time>
                   </div>
-                  <Badge className="rounded-full bg-brand-blue/10 text-brand-blue border-0 text-[0.7rem] font-semibold uppercase tracking-[0.16em]">
+                  <Badge className="rounded-full bg-brand-green/10 text-brand-green border-0 text-[0.7rem] font-semibold uppercase tracking-[0.16em]">
                     {post.category}
                   </Badge>
                 </div>
@@ -93,7 +93,7 @@ const Blog = ({ blogPosts = allBlogPosts.slice(0, 3) }: BlogProps) => {
                     <Link href={`/blog-detail/${post.slug}`}>
                       <ArrowRightIcon className="size-4 -rotate-45" />
                       <span className="sr-only">
-                        Pročitaj više: {post.title}
+                        Read more: {post.title}
                       </span>
                     </Link>
                   </Button>
