@@ -3,8 +3,7 @@ import { type BlogPost, comparePostsByPublishedAt } from "@/lib/blog";
 const DEFAULT_AUTHOR = "AUG Bot";
 const DEFAULT_AVATAR = "/images/avatars/1.webp";
 
-const NEWS = "Usage News" as const;
-const ANALYSIS = "Analysis" as const;
+const AI_USAGE = "AI Usage" as const;
 
 export const getPostImagePath = (slug: string) => `/images/posts/${slug}.webp`;
 export const getPostSocialImagePath = (slug: string) =>
@@ -22,7 +21,7 @@ export const slugify = (value: string) =>
 
 type SourcePost = Omit<
   BlogPost,
-  "author" | "avatarUrl" | "imageUrl" | "socialImageUrl" | "slug" | "contentSlug"
+  "author" | "avatarUrl" | "imageUrl" | "socialImageUrl" | "slug" | "contentSlug" | "category"
 > & {
   slug: string;
 } & Partial<Pick<BlogPost, "author" | "avatarUrl" | "imageUrl">>;
@@ -45,6 +44,7 @@ const createPost = (post: SourcePost): BlogPost => {
     slug,
     imageUrl: imageUrl ?? getPostImagePath(slug),
     socialImageUrl: getPostSocialImagePath(slug),
+    category: AI_USAGE,
     ...rest,
   };
 };
@@ -58,7 +58,6 @@ export const blogPosts: BlogPost[] = [
       "AI Usage Global launches as a daily publication tracking the real cost of AI — water consumption, energy use, rising compute costs, and environmental impact worldwide.",
     imageAlt: "AI Usage Global launch announcement",
     publishedOn: "2026-04-22",
-    category: NEWS,
     readTime: 2,
     featured: true,
   }),

@@ -202,7 +202,7 @@ const Blog = ({ stats }: BlogProps) => {
           )}
 
           <h2 className="text-2xl font-semibold md:text-3xl lg:text-4xl">
-            AI Usage & Analysis
+            AI Usage Tracking
           </h2>
 
           <p className="text-muted-foreground text-lg md:text-xl">
