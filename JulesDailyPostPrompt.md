@@ -194,7 +194,7 @@ Rules:
 - write a short English `description` focused on the resource usage angle
 - write an English `imageAlt`
 - set `publishedOn` to today in `YYYY-MM-DD`
-- use `"AI Usage"` as the category — there is only one category on this site
+- set `category` to the `AI_USAGE` constant (already defined at the top of the file) — do NOT use any other constant or string literal
 - set `readTime` to a sensible whole number
 - set `featured: false` unless the story is exceptionally major
 

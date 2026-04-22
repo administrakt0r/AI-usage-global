@@ -4,6 +4,8 @@ const DEFAULT_AUTHOR = "AUG Bot";
 const DEFAULT_AVATAR = "/images/avatars/1.webp";
 
 const AI_USAGE = "AI Usage" as const;
+// eslint-disable-next-line @typescript-eslint/no-unused-vars -- used by bot-generated PRs
+const NEWS = AI_USAGE;
 
 export const getPostImagePath = (slug: string) => `/images/posts/${slug}.webp`;
 export const getPostSocialImagePath = (slug: string) =>
