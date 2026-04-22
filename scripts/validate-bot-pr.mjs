@@ -36,17 +36,9 @@ const normalizeRepoPath = value => value.replaceAll('\\', '/')
 const getBranchConfig = branchName => {
   if (branchName.startsWith('post/')) {
     return {
-      branchKind: 'news',
-      expectedCategory: 'AI News',
+      branchKind: 'post',
+      expectedCategory: 'AI Usage',
       requiresPublishedLog: true
-    }
-  }
-
-  if (branchName.startsWith('opinion/')) {
-    return {
-      branchKind: 'opinion',
-      expectedCategory: 'Analysis',
-      requiresPublishedLog: false
     }
   }
 

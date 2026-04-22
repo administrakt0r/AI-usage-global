@@ -1,7 +1,7 @@
 {
-  "name": "AI Usage Global - Daily AI News on Usage, Regulation, and Impact",
+  "name": "AI Usage Global - Daily Reporting on AI Water, Power, Costs, and Impact",
   "short_name": "AI Usage",
-  "description": "AI Usage Global publishes daily English-language AI news focused on real-world usage, adoption, regulation, impact, and major product rollouts worldwide.",
+  "description": "AI Usage Global tracks the real cost of AI — water consumption, energy use, rising compute costs, and environmental impact worldwide.",
   "lang": "en",
   "start_url": "/",
   "scope": "/",

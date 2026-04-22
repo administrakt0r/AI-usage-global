@@ -3,8 +3,9 @@ import { type BlogPost, comparePostsByPublishedAt } from "@/lib/blog";
 const DEFAULT_AUTHOR = "AUG Bot";
 const DEFAULT_AVATAR = "/images/avatars/1.webp";
 
-const NEWS = "AI News" as const;
-const ANALYSIS = "Analysis" as const;
+const AI_USAGE = "AI Usage" as const;
+// eslint-disable-next-line @typescript-eslint/no-unused-vars -- used by bot-generated PRs
+const NEWS = AI_USAGE;
 
 export const getPostImagePath = (slug: string) => `/images/posts/${slug}.webp`;
 export const getPostSocialImagePath = (slug: string) =>
@@ -22,7 +23,7 @@ export const slugify = (value: string) =>
 
 type SourcePost = Omit<
   BlogPost,
-  "author" | "avatarUrl" | "imageUrl" | "socialImageUrl" | "slug" | "contentSlug"
+  "author" | "avatarUrl" | "imageUrl" | "socialImageUrl" | "slug" | "contentSlug" | "category"
 > & {
   slug: string;
 } & Partial<Pick<BlogPost, "author" | "avatarUrl" | "imageUrl">>;
@@ -45,6 +46,7 @@ const createPost = (post: SourcePost): BlogPost => {
     slug,
     imageUrl: imageUrl ?? getPostImagePath(slug),
     socialImageUrl: getPostSocialImagePath(slug),
+    category: AI_USAGE,
     ...rest,
   };
 };
@@ -55,22 +57,20 @@ export const blogPosts: BlogPost[] = [
     slug: "ai-usage-global-is-now-live",
     title: "AI Usage Global is now live",
     description:
-      "AI Usage Global is a daily English-language AI news site focused on real-world usage, regulation, adoption, and impact. Our autonomous publishing system will begin posting daily stories shortly.",
+      "AI Usage Global launches as a daily publication tracking the real cost of AI — water consumption, energy use, rising compute costs, and environmental impact worldwide.",
     imageAlt: "AI Usage Global launch announcement",
     publishedOn: "2026-04-22",
-    category: NEWS,
     readTime: 2,
     featured: true,
   }),
   createPost({
     id: 2,
-    slug: "iea-ai-data-center-energy-triple-2030",
+    slug: "iea-ai-data-center-energy-use-set-to-triple-by-2030",
     title: "IEA: AI data center energy use set to triple by 2030",
     description:
       "Electricity demand from AI-focused data centers is projected to triple by 2030 as the sector faces infrastructure bottlenecks and surging capital investments.",
     imageAlt: "Data center energy infrastructure",
     publishedOn: "2026-04-22",
-    category: NEWS,
     readTime: 3,
     featured: false,
   }),

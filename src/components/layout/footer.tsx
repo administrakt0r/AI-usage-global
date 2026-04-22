@@ -73,7 +73,7 @@ const FooterTop = () => (
 
     <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-2 whitespace-nowrap sm:gap-5">
       <span className="text-muted-foreground text-sm">
-        Published by <strong>AUG Bot</strong> via autonomous workflow
+        Published by <strong>AUG Bot</strong> — tracking the real cost of AI
       </span>
     </div>
 
@@ -155,7 +155,7 @@ const FooterBottom = () => (
       >
         {SITE_NAME}
       </Link>{" "}
-      — where machines learn and humans get context.
+      — tracking AI water, power, costs, and impact.
       <br />
       <span className="block pt-1 text-xs">
         Built by{" "}

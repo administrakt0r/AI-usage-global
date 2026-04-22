@@ -10,14 +10,14 @@ import {
 export const metadata: Metadata = {
   title: `About - ${SITE_NAME}`,
   description:
-    "Learn about AI Usage Global, a daily English-language AI news site that tracks real-world usage, regulation, and impact worldwide.",
+    "Learn about AI Usage Global — a daily publication tracking AI water consumption, energy use, compute costs, and environmental impact worldwide.",
   alternates: {
     canonical: "/about",
   },
   openGraph: {
     title: `About - ${SITE_NAME}`,
     description:
-      "Meet AI Usage Global, a daily AI news site powered by an autonomous editorial agent, maintained by administraktor.com.",
+      "AI Usage Global reports daily on the real cost of AI: water, power, money, and environmental impact.",
     type: "website",
     url: `${SITE_URL}/about`,
   },
@@ -49,34 +49,38 @@ export default function AboutPage() {
       <div className="editorial-content max-w-none">
         <p className="eyebrow text-brand-green">About the project</p>
         <h1>
-          AI Usage Global is a daily AI news site for the real world.
+          AI Usage Global tracks the real cost of artificial intelligence.
         </h1>
         <p>
-          <strong>{SITE_NAME}</strong> tracks AI developments that actually
-          change how people, companies, governments, and institutions use, regulate,
-          deploy, and are affected by artificial intelligence worldwide.
+          <strong>{SITE_NAME}</strong> is a daily publication focused on what AI
+          actually consumes: water, electricity, compute resources, and money. We
+          track data center water usage, rising energy demands from AI workloads,
+          GPU shortages and chip costs, carbon emissions from training runs, and
+          regulatory responses to AI's growing resource footprint.
         </p>
         <p>
-          The site covers model rollouts only when they materially change what AI
-          can do in practice. It focuses on what is deployed, what is regulated,
-          what breaks, and what matters.
+          We do not cover product launches, model demos, or general AI hype. We
+          cover the measurable, tangible costs of running AI at scale — and what
+          those costs mean for communities, infrastructure, and the climate.
         </p>
 
         <h2>How the editorial pipeline works</h2>
         <p>
-          Every publication starts with signals from AI industry sources, regulator
-          releases, and reputable journalism. It then goes through story selection,
-          summary preparation, SEO metadata creation, static build, and final
-          publication. This keeps the site fast, readable, and maintainable.
+          Every publication starts with signals from data center reports, energy
+          studies, regulatory filings, and infrastructure journalism. It then goes
+          through story selection, summary preparation, SEO metadata creation,
+          static build, and final publication. This keeps the site fast, readable,
+          and maintainable.
         </p>
         <ul>
           <li>
-            <strong>Daily rhythm:</strong> We publish the most important AI news
-            and analysis without padding the homepage.
+            <strong>Daily rhythm:</strong> We publish the most important AI usage
+            story or analysis every day — water, power, costs, or impact — without
+            padding the homepage.
           </li>
           <li>
-            <strong>Global scope:</strong> We cover AI stories from any country
-            where real deployment, regulation, or impact occurs.
+            <strong>Usage-first scope:</strong> We cover AI through the lens of
+            resource consumption and consequences, not hype or product launches.
           </li>
           <li>
             <strong>Clear AI authorship:</strong> Every publication openly states
@@ -112,9 +116,9 @@ export default function AboutPage() {
           quality, and determines technical direction.
         </p>
         <p>
-          In short: this is not a generic AI aggregator, but a technically and
-          editorially guided media experiment that tries to combine automation,
-          editorial clarity, and static web delivery.
+          In short: this is not a generic AI news aggregator, but a focused
+          publication tracking AI's real resource cost — water, power, compute,
+          and environmental impact.
         </p>
 
         <h2>Contact</h2>
