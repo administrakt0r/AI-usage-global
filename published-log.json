@@ -1,0 +1,5 @@
+{
+  "published": [],
+  "version": 2,
+  "description": "Log of published source URLs with structured metadata for duplicate prevention. Each entry includes canonical URL, normalized URL, title, normalized title, publication date, primary entity, and event fingerprint."
+}

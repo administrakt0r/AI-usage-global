@@ -1,0 +1,123 @@
+name: Auto Merge PR
+
+on:
+  workflow_run:
+    workflows:
+      - PR Checks
+    types:
+      - completed
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  auto-merge:
+    if: >-
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.event == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Merge eligible pull request
+        env:
+          AUTO_MERGE_TOKEN: ${{ secrets.AUTO_MERGE_TOKEN }}
+          FALLBACK_GITHUB_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          RUN_HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+          RUN_ID: ${{ github.event.workflow_run.id }}
+        run: |
+          set -euo pipefail
+
+          # Prefer a dedicated PAT because GitHub's workflow token can be
+          # blocked from merging PRs in private repositories.
+          if [ -n "${AUTO_MERGE_TOKEN:-}" ]; then
+            export GH_TOKEN="$AUTO_MERGE_TOKEN"
+          else
+            export GH_TOKEN="$FALLBACK_GITHUB_TOKEN"
+          fi
+
+          pr_number="$(gh api "repos/$REPO/actions/runs/$RUN_ID" --jq '.pull_requests[0].number // empty')"
+
+          if [ -z "$pr_number" ]; then
+            echo "No pull request is associated with this workflow run."
+            exit 0
+          fi
+
+          pr_json=''
+          merge_state='UNKNOWN'
+
+          # GitHub can briefly report UNKNOWN or UNSTABLE immediately after a
+          # successful workflow_run before the PR becomes mergeable.
+          for attempt in 1 2 3 4 5 6; do
+            pr_json="$(gh pr view "$pr_number" --repo "$REPO" --json state,baseRefName,isDraft,mergeStateStatus,headRefName,headRefOid)"
+            merge_state="$(printf '%s' "$pr_json" | jq -r '.mergeStateStatus')"
+
+            case "$merge_state" in
+              UNKNOWN|UNSTABLE)
+                echo "mergeStateStatus is still $merge_state for #$pr_number (attempt $attempt)."
+                sleep 10
+                ;;
+              *)
+                break
+                ;;
+            esac
+          done
+
+          state="$(printf '%s' "$pr_json" | jq -r '.state')"
+          base_ref="$(printf '%s' "$pr_json" | jq -r '.baseRefName')"
+          is_draft="$(printf '%s' "$pr_json" | jq -r '.isDraft')"
+          head_ref="$(printf '%s' "$pr_json" | jq -r '.headRefName')"
+          head_sha="$(printf '%s' "$pr_json" | jq -r '.headRefOid')"
+
+          if [ "$state" != "OPEN" ]; then
+            echo "Pull request #$pr_number is not open."
+            exit 0
+          fi
+
+          if [ "$base_ref" != "main" ]; then
+            echo "Pull request #$pr_number does not target main."
+            exit 0
+          fi
+
+          if [ "$is_draft" != "false" ]; then
+            echo "Pull request #$pr_number is still a draft."
+            exit 0
+          fi
+
+          case "$head_ref" in
+            post/*|opinion/*)
+              ;;
+            *)
+              echo "Pull request #$pr_number uses branch '$head_ref', which is not auto-merge eligible."
+              exit 0
+              ;;
+          esac
+
+          if [ "$head_sha" != "$RUN_HEAD_SHA" ]; then
+            echo "Workflow run SHA $RUN_HEAD_SHA is stale for #$pr_number; current PR head is $head_sha."
+            exit 0
+          fi
+
+          case "$merge_state" in
+            CLEAN|HAS_HOOKS)
+              ;;
+            *)
+              echo "Current merge_state for #$pr_number: $merge_state"
+              echo "Exiting without merge because merge_state is not clean."
+              exit 0
+              ;;
+          esac
+
+          gh api \
+            --method PUT \
+            -H "Accept: application/vnd.github+json" \
+            "repos/$REPO/pulls/$pr_number/merge" \
+            -f merge_method='squash' \
+            -f sha="$head_sha"
+
+          if ! gh api \
+            --method DELETE \
+            -H "Accept: application/vnd.github+json" \
+            "repos/$REPO/git/refs/heads/$head_ref" >/dev/null 2>&1; then
+            echo "Merged #$pr_number, but branch deletion was skipped."
+          fi

@@ -1,0 +1,101 @@
+{
+  "feeds": [
+    {
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog/rss.xml",
+      "type": "official"
+    },
+    {
+      "name": "Anthropic Newsroom",
+      "url": "https://www.anthropic.com/feed",
+      "type": "official"
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "type": "official"
+    },
+    {
+      "name": "Google DeepMind Blog",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "type": "official"
+    },
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "type": "official"
+    },
+    {
+      "name": "NVIDIA News",
+      "url": "https://nvidianews.nvidia.com/releases.rss",
+      "type": "official"
+    },
+    {
+      "name": "EU AI Office",
+      "url": "https://digital-strategy.ec.europa.eu/en/rss/topic/artificial-intelligence",
+      "type": "regulator"
+    },
+    {
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "type": "journalism"
+    },
+    {
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "type": "journalism"
+    },
+    {
+      "name": "Ars Technica AI",
+      "url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+      "type": "journalism"
+    },
+    {
+      "name": "Reuters Technology",
+      "url": "https://www.reuters.com/rssFeed/technologyNews",
+      "type": "journalism"
+    },
+    {
+      "name": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+      "type": "journalism"
+    },
+    {
+      "name": "The Register AI",
+      "url": "https://www.theregister.com/software/ai_ml/headlines.atom",
+      "type": "journalism"
+    },
+    {
+      "name": "Wired AI",
+      "url": "https://www.wired.com/feed/tag/ai/latest/rss",
+      "type": "journalism"
+    }
+  ],
+  "watch_pages": [
+    {
+      "name": "FTC AI",
+      "url": "https://www.ftc.gov/news-events/topics/artificial-intelligence",
+      "type": "regulator"
+    },
+    {
+      "name": "ICO AI",
+      "url": "https://ico.org.uk/about-the-ico/what-we-do/ai/",
+      "type": "regulator"
+    },
+    {
+      "name": "NIST AI",
+      "url": "https://www.nist.gov/artificial-intelligence",
+      "type": "regulator"
+    },
+    {
+      "name": "Microsoft AI Blog",
+      "url": "https://www.microsoft.com/en-us/ai/blog",
+      "type": "official"
+    },
+    {
+      "name": "Meta AI Blog",
+      "url": "https://ai.meta.com/blog/",
+      "type": "official"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+User-Agent: *
+Allow: /
+
+# AI crawlers and search assistants
+User-Agent: GPTBot
+Allow: /
+
+User-Agent: Google-Extended
+Allow: /
+
+User-Agent: ChatGPT-User
+Allow: /
+
+User-Agent: anthropic-ai
+Allow: /
+
+User-Agent: PerplexityBot
+Allow: /
+
+# Sitemap
+Sitemap: https://ai-usage-global.pages.dev/sitemap.xml

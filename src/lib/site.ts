@@ -1,0 +1,33 @@
+const previewSiteUrl = process.env.CF_PAGES_URL
+  ? `https://${process.env.CF_PAGES_URL}`
+  : undefined;
+
+export const SITE_URL =
+  process.env.NEXT_PUBLIC_APP_URL ??
+  previewSiteUrl ??
+  "https://ai-usage-global.pages.dev";
+
+export const SITE_NAME = "AI Usage Global";
+export const SITE_DESCRIPTION =
+  "AI Usage Global publishes daily English-language AI news focused on real-world usage, adoption, regulation, impact, and major product rollouts worldwide.";
+export const SITE_SHORT_DESCRIPTION =
+  "Daily global AI news on real-world usage, regulation, and impact.";
+export const SITE_TAGLINE =
+  "AI news for people who need to understand what actually changes.";
+
+export const SITE_LANGUAGE = "en";
+export const SITE_LANGUAGE_TAG = "en-US";
+export const SITE_OG_LOCALE = "en_US";
+
+export const SITE_OG_IMAGE_PATH = "/images/og-image.png";
+export const SITE_THEME_COLOR = "#16a34a";
+export const SITE_BACKGROUND_COLOR = "#f0fdf4";
+export const SITE_ICON_PATH = "/favicon/favicon-32x32.png";
+export const SITE_FAVICON_PATH = "/favicon/favicon.ico";
+export const SITE_APP_ICON_192_PATH = "/favicon/android-chrome-192x192.png";
+export const SITE_APP_ICON_512_PATH = "/favicon/android-chrome-512x512.png";
+export const SITE_APPLE_TOUCH_ICON_PATH = "/favicon/apple-touch-icon.png";
+
+export const CONTACT_EMAIL = "contact@ai-usage-global.pages.dev";
+export const RESPONSIBLE_AI_INITIATIVE_URL =
+  "https://responsible-ai-usage.vercel.app";

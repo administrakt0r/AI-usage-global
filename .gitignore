@@ -1,0 +1,38 @@
+/.next
+/out
+/node_modules
+/.wrangler
+/out
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Generated content
+/public/images/posts/*.webp
+/public/images/posts/*.png
+/public/images/og-image.png
+/public/rss.xml
+/dev_output.log
+/dev_server.log
+/next_dev_output.log
+/verification.png
+
+# Package manager logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test and coverage output
+/coverage
+/playwright-report
+/test-results
+/.tools
+
+# OS/editor noise
+.DS_Store
+
+# TypeScript incremental cache
+tsconfig.tsbuildinfo
