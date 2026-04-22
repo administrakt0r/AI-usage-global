@@ -8,7 +8,7 @@ const siteUrl =
   process.env.NEXT_PUBLIC_APP_URL ??
   (process.env.CF_PAGES_URL
     ? `https://${process.env.CF_PAGES_URL}`
-    : 'https://ai-usage-global.pages.dev')
+    : 'https://aiusageglobal.pages.dev')
 
 const siteName = 'AI Usage Global'
 

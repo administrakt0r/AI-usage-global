@@ -209,7 +209,7 @@ const getNewsPostSvg = ({ title, logoDataUri, preset, subtitle }) => {
   ${getTitleTextSvg({ title, lines, fontSize, x: 110, firstLineY })}
   <line x1="72" y1="552" x2="1128" y2="552" stroke="rgba(20,20,20,0.12)" />
   <text x="72" y="589" font-family="'Arial', 'Helvetica Neue', sans-serif" font-size="18" font-weight="600" fill="rgba(20,20,20,0.72)">
-    ai-usage-global.pages.dev
+aiusageglobal.pages.dev
   </text>
   <text x="1128" y="589" text-anchor="end" font-family="'Arial', 'Helvetica Neue', sans-serif" font-size="22" font-weight="700" fill="${preset.accentTwo}">
     Global AI newsroom
@@ -263,7 +263,7 @@ const getAnalysisPostSvg = ({ title, logoDataUri, preset, subtitle }) => {
   })}
   <line x1="76" y1="552" x2="1128" y2="552" stroke="rgba(8,17,31,0.14)" />
   <text x="76" y="589" font-family="'Arial', 'Helvetica Neue', sans-serif" font-size="18" font-weight="700" fill="rgba(8,17,31,0.68)">
-    https://ai-usage-global.pages.dev
+    https://aiusageglobal.pages.dev
   </text>
   <text x="1128" y="589" text-anchor="end" font-family="'Arial', 'Helvetica Neue', sans-serif" font-size="22" font-weight="800" fill="${preset.accent}">
     Autonomous AI newsroom

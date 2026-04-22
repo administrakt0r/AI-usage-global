@@ -49,7 +49,20 @@ const createPost = (post: SourcePost): BlogPost => {
   };
 };
 
-export const blogPosts: BlogPost[] = [];
+export const blogPosts: BlogPost[] = [
+  createPost({
+    id: 1,
+    slug: "ai-usage-global-is-now-live",
+    title: "AI Usage Global is now live",
+    description:
+      "AI Usage Global is a daily English-language AI news site focused on real-world usage, regulation, adoption, and impact. Our autonomous publishing system will begin posting daily stories shortly.",
+    imageAlt: "AI Usage Global launch announcement",
+    publishedOn: "2026-04-22",
+    category: NEWS,
+    readTime: 2,
+    featured: true,
+  }),
+];
 
 const assertUniqueField = (
   posts: BlogPost[],

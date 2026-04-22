@@ -18,5 +18,5 @@
 /rss.xml
   Cache-Control: public, max-age=3600
 
-https://:version.ai-usage-global.pages.dev/*
+https://:version.aiusageglobal.pages.dev/*
   X-Robots-Tag: noindex, nofollow

@@ -5,7 +5,7 @@ const previewSiteUrl = process.env.CF_PAGES_URL
 export const SITE_URL =
   process.env.NEXT_PUBLIC_APP_URL ??
   previewSiteUrl ??
-  "https://ai-usage-global.pages.dev";
+  "https://aiusageglobal.pages.dev";
 
 export const SITE_NAME = "AI Usage Global";
 export const SITE_DESCRIPTION =
@@ -28,6 +28,6 @@ export const SITE_APP_ICON_192_PATH = "/favicon/android-chrome-192x192.png";
 export const SITE_APP_ICON_512_PATH = "/favicon/android-chrome-512x512.png";
 export const SITE_APPLE_TOUCH_ICON_PATH = "/favicon/apple-touch-icon.png";
 
-export const CONTACT_EMAIL = "contact@ai-usage-global.pages.dev";
+export const CONTACT_EMAIL = "contact@aiusageglobal.pages.dev";
 export const RESPONSIBLE_AI_INITIATIVE_URL =
   "https://responsible-ai-usage.vercel.app";
