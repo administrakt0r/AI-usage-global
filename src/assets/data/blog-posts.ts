@@ -63,6 +63,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 2,
     featured: true,
   }),
+  createPost({
+    id: 2,
+    slug: "iea-ai-data-center-energy-use-set-to-triple-by-2030",
+    title: "IEA: AI data center energy use set to triple by 2030",
+    description:
+      "Electricity demand from AI-focused data centers is projected to triple by 2030 as the sector faces infrastructure bottlenecks and surging capital investments.",
+    imageAlt: "Data center energy infrastructure",
+    publishedOn: "2026-04-22",
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (

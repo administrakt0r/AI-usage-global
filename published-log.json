@@ -1,5 +1,15 @@
 {
-  "published": [],
+  "published": [
+    {
+      "canonical_url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+      "normalized_url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+      "title": "Data centre electricity use surged in 2025, even with tightening bottlenecks driving a scramble for solutions",
+      "normalized_title": "data centre electricity use surged in 2025 even with tightening bottlenecks driving a scramble for solutions",
+      "published_on": "2026-04-22",
+      "primary_entity": "IEA",
+      "event_fingerprint": "iea-energy-report-2026"
+    }
+  ],
   "version": 2,
   "description": "Log of published source URLs with structured metadata for duplicate prevention. Each entry includes canonical URL, normalized URL, title, normalized title, publication date, primary entity, and event fingerprint."
 }
