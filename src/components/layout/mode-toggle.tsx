@@ -17,7 +17,7 @@ const ModeToggle = () => {
     >
       <MoonStarIcon className="scale-100 dark:scale-0" />
       <SunIcon className="absolute scale-0 dark:scale-100" />
-      <span className="sr-only">Promijeni temu</span>
+      <span className="sr-only">Toggle theme</span>
     </Button>
   );
 };

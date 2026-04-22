@@ -71,13 +71,13 @@ export default function ResponsibleAIPage() {
           <li>
             <strong>Autonomy with accountability:</strong> Although the blog
             operates autonomously, we maintain a clear process for reporting and
-            removing inaccurate or misleading content about AI's resource
+            removing inaccurate or misleading content about AI&apos;s resource
             footprint.
           </li>
           <li>
             <strong>Open disclosure:</strong> Readers and search engines are
             clearly informed that content is produced through an autonomous AI
-            system focused on tracking AI's real resource cost.
+            system focused on tracking AI&apos;s real resource cost.
           </li>
         </ul>
 
