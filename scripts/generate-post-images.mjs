@@ -203,7 +203,7 @@ const getNewsPostSvg = ({ title, logoDataUri, preset, subtitle }) => {
     ${escapeXml(subtitle)}
   </text>
   <rect x="72" y="176" width="188" height="42" rx="21" fill="${preset.accent}" />
-  <text x="104" y="203" font-family="'Arial', 'Helvetica Neue', sans-serif" font-size="18" font-weight="800" fill="#ffffff" letter-spacing="1.8">AI VIJESTI</text>
+  <text x="104" y="203" font-family="'Arial', 'Helvetica Neue', sans-serif" font-size="18" font-weight="800" fill="#ffffff" letter-spacing="1.8">USAGE NEWS</text>
   <rect x="72" y="236" width="962" height="286" rx="38" fill="${preset.heroPanel}" />
   <rect x="1030" y="236" width="98" height="286" rx="28" fill="${preset.accentTwo}" opacity="0.92" />
   ${getTitleTextSvg({ title, lines, fontSize, x: 110, firstLineY })}
@@ -212,7 +212,7 @@ const getNewsPostSvg = ({ title, logoDataUri, preset, subtitle }) => {
 aiusageglobal.pages.dev
   </text>
   <text x="1128" y="589" text-anchor="end" font-family="'Arial', 'Helvetica Neue', sans-serif" font-size="22" font-weight="700" fill="${preset.accentTwo}">
-    Global AI newsroom
+    Tracking AI resource costs
   </text>
 </svg>`;
 };
@@ -266,7 +266,7 @@ const getAnalysisPostSvg = ({ title, logoDataUri, preset, subtitle }) => {
     https://aiusageglobal.pages.dev
   </text>
   <text x="1128" y="589" text-anchor="end" font-family="'Arial', 'Helvetica Neue', sans-serif" font-size="22" font-weight="800" fill="${preset.accent}">
-    Autonomous AI newsroom
+    Tracking the real cost of AI
   </text>
 </svg>`;
 };
@@ -324,8 +324,8 @@ const generatePostImages = async () => {
 
       const subtitle =
         post.category === "Analysis"
-          ? "Context, argument, and signal"
-          : "Stories that get to the point";
+          ? "Usage costs, context, and consequence"
+          : "Water, power, money, and impact";
 
       const svg =
         post.category === "Analysis"
@@ -350,10 +350,10 @@ const generatePostImages = async () => {
   );
 
   const siteSvg = getNewsPostSvg({
-    title: "AI news, analysis, and signal for the real world",
+    title: "AI water, power, costs, and impact reported daily",
     logoDataUri,
     preset: sitePreset,
-    subtitle: "Daily AI briefing",
+    subtitle: "Tracking AI resource usage",
   });
 
   await renderImage(siteSvg, sharedOgPath, "png");

@@ -204,8 +204,8 @@ export default async function BlogDetailPage({
                     <BreadcrumbSeparator />
                     <BreadcrumbItem>
                       <BreadcrumbLink href="/#categories">
-                        AI News & Analysis
-                      </BreadcrumbLink>
+AI Usage & Analysis
+                       </BreadcrumbLink>
                     </BreadcrumbItem>
                     <BreadcrumbSeparator />
                     <BreadcrumbItem>
@@ -353,7 +353,7 @@ export default async function BlogDetailPage({
                   {
                     "@type": "ListItem",
                     position: 2,
-                    name: "AI News & Analysis",
+                    name: "AI Usage & Analysis",
                     item: `${SITE_URL}/#categories`,
                   },
                   {

@@ -3,7 +3,7 @@ import { type BlogPost, comparePostsByPublishedAt } from "@/lib/blog";
 const DEFAULT_AUTHOR = "AUG Bot";
 const DEFAULT_AVATAR = "/images/avatars/1.webp";
 
-const NEWS = "AI News" as const;
+const NEWS = "Usage News" as const;
 const ANALYSIS = "Analysis" as const;
 
 export const getPostImagePath = (slug: string) => `/images/posts/${slug}.webp`;
@@ -55,7 +55,7 @@ export const blogPosts: BlogPost[] = [
     slug: "ai-usage-global-is-now-live",
     title: "AI Usage Global is now live",
     description:
-      "AI Usage Global is a daily English-language AI news site focused on real-world usage, regulation, adoption, and impact. Our autonomous publishing system will begin posting daily stories shortly.",
+      "AI Usage Global launches as a daily publication tracking the real cost of AI — water consumption, energy use, rising compute costs, and environmental impact worldwide.",
     imageAlt: "AI Usage Global launch announcement",
     publishedOn: "2026-04-22",
     category: NEWS,

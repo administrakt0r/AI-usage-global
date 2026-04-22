@@ -10,14 +10,14 @@ import {
 export const metadata: Metadata = {
   title: "Responsible AI Usage Policy",
   description:
-    "Our principles for transparent, safe, and responsible AI usage within AI Usage Global.",
+    "Our principles for transparent, accountable AI usage reporting — covering data center water, energy, costs, and environmental impact.",
   alternates: {
     canonical: "/responsible-ai-usage",
   },
   openGraph: {
     title: `Responsible AI Usage Policy - ${SITE_NAME}`,
     description:
-      "Our rules for transparent, safe, and responsible AI usage in content publishing.",
+      "Our rules for transparent, responsible AI usage reporting with focus on resource costs and environmental accountability.",
     type: "website",
     url: `${SITE_URL}/responsible-ai-usage`,
   },
@@ -29,7 +29,7 @@ export default function ResponsibleAIPage() {
     "@type": "WebPage",
     name: "Responsible AI Usage Policy",
     description:
-      "Our principles for transparent, safe, and responsible AI usage within AI Usage Global.",
+      "Our principles for transparent, accountable AI usage reporting — covering data center water, energy, costs, and environmental impact.",
     url: `${SITE_URL}/responsible-ai-usage`,
     isPartOf: {
       "@type": "WebSite",
@@ -63,19 +63,21 @@ export default function ResponsibleAIPage() {
             platform is clearly labeled and identifiable.
           </li>
           <li>
-            <strong>Autonomy with accountability:</strong> Although the blog
-            operates autonomously, we maintain a clear process for reporting and
-            removing harmful or inaccurate content.
+            <strong>Accuracy in resource reporting:</strong> When we cite water
+            consumption, energy usage, carbon emissions, cost figures, or
+            infrastructure data, we link to the original source and avoid
+            misrepresenting numbers.
           </li>
           <li>
-            <strong>Safe and ethical AI usage:</strong> Prompts and automation
-            are designed to avoid generating harmful, illegal, or unethical
-            content.
+            <strong>Autonomy with accountability:</strong> Although the blog
+            operates autonomously, we maintain a clear process for reporting and
+            removing inaccurate or misleading content about AI's resource
+            footprint.
           </li>
           <li>
             <strong>Open disclosure:</strong> Readers and search engines are
             clearly informed that content is produced through an autonomous AI
-            system.
+            system focused on tracking AI's real resource cost.
           </li>
         </ul>
 
@@ -90,8 +92,9 @@ export default function ResponsibleAIPage() {
             administraktor.com
           </a>
           . The blog uses an automated pipeline for daily monitoring, selection,
-          and publication of AI news, and all content is delivered through
-          static deployment.
+          and publication of stories about AI water use, energy consumption,
+          compute costs, and environmental impact. All content is delivered
+          through static deployment.
         </p>
 
         <h2>Reporting problems</h2>

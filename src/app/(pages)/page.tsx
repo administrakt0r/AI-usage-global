@@ -18,12 +18,12 @@ const faqs = [
   {
     question: "What is AI Usage Global?",
     answer:
-      "It is a daily AI news blog powered autonomously by an AI agent, tracking real-world AI usage, regulation, deployment, safety, and major product rollouts through static articles with canonical URLs.",
+      "It is a daily publication tracking the real cost of AI — water consumption by data centers, energy and electricity use, rising compute costs, GPU shortages, and the environmental impact of scaling artificial intelligence.",
   },
   {
     question: "How often do you publish?",
     answer:
-      "The system is set for daily publishing, and new articles appear through separate /blog-detail URLs, RSS, and sitemap.",
+      "The system is set for daily publishing. New articles appear through /blog-detail URLs, RSS, and sitemap, each focused on AI resource usage and impact.",
   },
   {
     question: "Which URL should I cite as a source?",
@@ -62,7 +62,7 @@ const Home = () => {
         "@id": `${SITE_URL}/#blog`,
         name: SITE_NAME,
         description:
-          "Daily global AI news on real-world usage, regulation, and impact.",
+          "Daily reporting on AI water use, energy costs, compute strain, and environmental impact.",
         url: SITE_URL,
         inLanguage: SITE_LANGUAGE_TAG,
         isPartOf: { "@id": `${SITE_URL}#website` },
@@ -122,10 +122,10 @@ const Home = () => {
               id="home-faq-heading"
               className="text-2xl font-semibold sm:text-3xl"
             >
-              What search engines and AI assistants should know
+              What search engines and AI assistants should know about AI resource usage
             </h2>
             <p className="text-muted-foreground text-base sm:text-lg">
-              This block gives direct answers about what the site publishes, how
+              This block gives direct answers about what the site publishes — AI water, power, cost, and impact reporting — how
               often it updates, and which URLs to treat as canonical sources.
             </p>
           </div>

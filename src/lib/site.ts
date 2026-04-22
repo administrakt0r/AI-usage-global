@@ -9,11 +9,11 @@ export const SITE_URL =
 
 export const SITE_NAME = "AI Usage Global";
 export const SITE_DESCRIPTION =
-  "AI Usage Global publishes daily English-language AI news focused on real-world usage, adoption, regulation, impact, and major product rollouts worldwide.";
+  "AI Usage Global tracks the real cost of AI — water consumption, energy use, rising compute costs, data center strain, and environmental impact. Daily reporting on how AI usage affects the world.";
 export const SITE_SHORT_DESCRIPTION =
-  "Daily global AI news on real-world usage, regulation, and impact.";
+  "Daily reporting on AI water use, energy costs, compute strain, and environmental impact.";
 export const SITE_TAGLINE =
-  "AI news for people who need to understand what actually changes.";
+  "Tracking the real cost of AI — water, power, money, and impact.";
 
 export const SITE_LANGUAGE = "en";
 export const SITE_LANGUAGE_TAG = "en-US";

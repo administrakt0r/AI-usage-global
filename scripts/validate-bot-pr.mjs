@@ -37,7 +37,7 @@ const getBranchConfig = branchName => {
   if (branchName.startsWith('post/')) {
     return {
       branchKind: 'news',
-      expectedCategory: 'AI News',
+      expectedCategory: 'Usage News',
       requiresPublishedLog: true
     }
   }

@@ -7,7 +7,7 @@ import { SITE_LANGUAGE_TAG, SITE_NAME, SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: `Contact - ${SITE_NAME}`,
   description:
-    "Contact AI Usage Global for inquiries, corrections, partnerships, or feedback about AI news coverage.",
+    "Contact AI Usage Global for inquiries, corrections, partnerships, or feedback about AI resource usage reporting.",
   alternates: {
     canonical: "/contact-us",
   },
@@ -28,7 +28,7 @@ const jsonLd = {
       "@id": `${SITE_URL}#contact`,
       name: `Contact - ${SITE_NAME}`,
       description:
-        "Contact AI Usage Global for inquiries, partnerships, feedback, or reporting inaccurate content.",
+        "Contact AI Usage Global for inquiries, partnerships, feedback, or reporting inaccurate content about AI resource usage.",
       url: `${SITE_URL}/contact-us`,
       inLanguage: SITE_LANGUAGE_TAG,
     },

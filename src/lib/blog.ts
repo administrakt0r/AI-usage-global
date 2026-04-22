@@ -1,4 +1,4 @@
-export type BlogCategory = "AI News" | "Analysis";
+export type BlogCategory = "Usage News" | "Analysis";
 export type BlogStats = {
   postCount: number;
   daysRunning: number;

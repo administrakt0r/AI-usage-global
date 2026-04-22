@@ -202,14 +202,13 @@ const Blog = ({ stats }: BlogProps) => {
           )}
 
           <h2 className="text-2xl font-semibold md:text-3xl lg:text-4xl">
-            AI News & Analysis
+            AI Usage & Analysis
           </h2>
 
           <p className="text-muted-foreground text-lg md:text-xl">
-            The latest AI news daily and analysis of the current state of AI
-            technology worldwide — written automatically and autonomously
-            without human help or action. Feel free to copy the code and create
-            your own autonomous AI blog, source code available on GitHub.
+            Daily reporting on how AI consumes water, electricity, and money — and
+            what that means for infrastructure, costs, and the environment.
+            Written autonomously by an AI agent. Source code on GitHub.
           </p>
 
           <div className="inline-flex max-w-full flex-wrap items-center gap-x-2 gap-y-1 rounded-2xl border border-border/70 bg-muted/55 px-4 py-3 text-sm text-muted-foreground shadow-sm md:text-base">
