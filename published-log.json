@@ -8,6 +8,15 @@
       "published_on": "2026-04-22",
       "primary_entity": "CUDO Compute",
       "event_fingerprint": "uk-ai-offshoring-energy-costs"
+    },
+    {
+      "canonical_url": "https://www.theregister.com/2026/04/23/ai_now_gobbling_up_power/",
+      "normalized_url": "https://www.theregister.com/2026/04/23/ai_now_gobbling_up_power",
+      "title": "AI now gobbling up power and management chips for servers",
+      "normalized_title": "ai now gobbling up power and management chips for servers",
+      "published_on": "2026-04-23",
+      "primary_entity": "TrendForce",
+      "event_fingerprint": "ai-server-component-shortages"
     }
   ],
   "version": 2,
