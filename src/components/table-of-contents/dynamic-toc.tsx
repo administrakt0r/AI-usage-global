@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 interface TocItem {
   id: string;
@@ -179,11 +179,12 @@ export const DynamicToc = ({
 }: DynamicTocProps) => {
   const { tocItems, activeId, handleClick } = useDynamicToc(contentContainerId);
 
+  // Memoize grouping to avoid recomputing on every active-id change.
+  const groupedItems = useMemo(() => groupTocItems(tocItems), [tocItems]);
+
   if (tocItems.length === 0) {
     return null;
   }
-
-  const groupedItems = groupTocItems(tocItems);
 
   return (
     <div className="sticky top-24">

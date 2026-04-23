@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -34,6 +34,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
+import { useDebouncedValue } from "@/hooks/use-debounced-value";
 
 const allCategoryLabel = "All";
 const nonFeaturedPosts = sortedBlogPosts.filter((post) => !post.featured);
@@ -130,28 +131,41 @@ const Blog = ({ stats }: BlogProps) => {
   const [currentPage, setCurrentPage] = useState(1);
   const POSTS_PER_PAGE = 9;
 
-  const filteredPosts = nonFeaturedPosts.filter((post) => {
-    const matchesCategory =
-      selectedTab === allCategoryLabel || post.category === selectedTab;
+  // Debounce search input to avoid re-rendering and re-filtering the entire
+  // post list on every keystroke. As the blog grows, this keeps typing responsive.
+  const debouncedSearchQuery = useDebouncedValue(searchQuery, 300);
 
-    const normalizedQuery = searchQuery.trim().toLowerCase();
+  // Memoize filtered list so we only recompute when the debounced query or
+  // selected category actually changes — not on every parent render.
+  const filteredPosts = useMemo(() => {
+    const normalizedQuery = debouncedSearchQuery.trim().toLowerCase();
 
-    if (!normalizedQuery) {
-      return matchesCategory;
-    }
+    return nonFeaturedPosts.filter((post) => {
+      const matchesCategory =
+        selectedTab === allCategoryLabel || post.category === selectedTab;
 
-    const matchesSearch =
-      post.title.toLowerCase().includes(normalizedQuery) ||
-      post.description.toLowerCase().includes(normalizedQuery);
+      if (!normalizedQuery) {
+        return matchesCategory;
+      }
 
-    return matchesCategory && matchesSearch;
-  });
+      const matchesSearch =
+        post.title.toLowerCase().includes(normalizedQuery) ||
+        post.description.toLowerCase().includes(normalizedQuery);
+
+      return matchesCategory && matchesSearch;
+    });
+  }, [debouncedSearchQuery, selectedTab]);
 
   const totalPages = Math.ceil(filteredPosts.length / POSTS_PER_PAGE);
 
-  const paginatedPosts = filteredPosts.slice(
-    (currentPage - 1) * POSTS_PER_PAGE,
-    currentPage * POSTS_PER_PAGE,
+  // Memoize pagination slice to avoid creating a new array on every render.
+  const paginatedPosts = useMemo(
+    () =>
+      filteredPosts.slice(
+        (currentPage - 1) * POSTS_PER_PAGE,
+        currentPage * POSTS_PER_PAGE,
+      ),
+    [filteredPosts, currentPage],
   );
 
   const resultsSummary =
@@ -159,7 +173,7 @@ const Blog = ({ stats }: BlogProps) => {
       ? "No posts match the current search and filters."
       : `Showing ${paginatedPosts.length} of ${filteredPosts.length} ${
           filteredPosts.length === 1 ? "post" : "posts"
-        }${selectedTab !== allCategoryLabel ? ` in ${selectedTab}` : ""}${searchQuery ? ` for "${searchQuery}"` : ""}.`;
+        }${selectedTab !== allCategoryLabel ? ` in ${selectedTab}` : ""}${debouncedSearchQuery ? ` for "${debouncedSearchQuery}"` : ""}.`;
 
   const handleTabChange = (tab: string) => {
     setCurrentPage(1);
