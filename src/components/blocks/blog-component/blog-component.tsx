@@ -61,7 +61,7 @@ const BlogGrid = ({
       {posts.map((post) => (
         <Card
           key={post.slug}
-          className="group h-full cursor-pointer overflow-hidden shadow-none transition-all duration-300"
+          className="group h-full overflow-hidden shadow-none transition-all duration-300"
         >
           <CardContent className="space-y-3.5">
             <Link href={`/blog-detail/${post.slug}`} className="block">
@@ -200,15 +200,16 @@ const Blog = ({ stats }: BlogProps) => {
             <Breadcrumb>
               <BreadcrumbList>
                 <BreadcrumbItem>
-                  <BreadcrumbLink
-                    href="#"
-                    onClick={(event) => {
-                      event.preventDefault();
-                      setSelectedTab(allCategoryLabel);
-                      setSearchQuery("");
-                    }}
-                  >
-                    Posts
+                  <BreadcrumbLink asChild>
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setSelectedTab(allCategoryLabel);
+                        setSearchQuery("");
+                      }}
+                    >
+                      Posts
+                    </button>
                   </BreadcrumbLink>
                 </BreadcrumbItem>
                 <BreadcrumbSeparator />

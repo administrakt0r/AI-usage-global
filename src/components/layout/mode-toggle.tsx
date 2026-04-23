@@ -13,10 +13,16 @@ const ModeToggle = () => {
       variant="outline"
       size="icon"
       className="relative rounded-full"
+      aria-label={
+        resolvedTheme === "dark"
+          ? "Switch to light theme"
+          : "Switch to dark theme"
+      }
+      aria-pressed={resolvedTheme === "dark"}
       onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
     >
-      <MoonStarIcon className="scale-100 dark:scale-0" />
-      <SunIcon className="absolute scale-0 dark:scale-100" />
+      <MoonStarIcon className="scale-100 dark:scale-0" aria-hidden="true" />
+      <SunIcon className="absolute scale-0 dark:scale-100" aria-hidden="true" />
       <span className="sr-only">Toggle theme</span>
     </Button>
   );
