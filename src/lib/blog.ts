@@ -55,6 +55,7 @@ export const getPostRssDate = (post: PostDateSource) =>
 
 export const formatDisplayDate = (publishedOn: string) => {
   const date = new Date(`${publishedOn}T00:00:00Z`);
+
   return date.toLocaleDateString("en-US", {
     year: "numeric",
     month: "long",
@@ -70,6 +71,7 @@ export const formatDisplayTime = (publishedTime?: string) => {
 
   const [hour, minute] = publishedTime.split(":").map(Number);
   const date = new Date(Date.UTC(2000, 0, 1, hour, minute));
+
   return date.toLocaleTimeString("en-US", {
     hour: "numeric",
     minute: "2-digit",

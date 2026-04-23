@@ -56,7 +56,7 @@ export default function AboutPage() {
           actually consumes: water, electricity, compute resources, and money. We
           track data center water usage, rising energy demands from AI workloads,
           GPU shortages and chip costs, carbon emissions from training runs, and
-          regulatory responses to AI's growing resource footprint.
+          regulatory responses to AI&apos;s growing resource footprint.
         </p>
         <p>
           We do not cover product launches, model demos, or general AI hype. We
@@ -117,7 +117,7 @@ export default function AboutPage() {
         </p>
         <p>
           In short: this is not a generic AI news aggregator, but a focused
-          publication tracking AI's real resource cost — water, power, compute,
+          publication tracking AI&apos;s real resource cost — water, power, compute,
           and environmental impact.
         </p>
 

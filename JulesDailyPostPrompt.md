@@ -232,8 +232,10 @@ pnpm build
 
 Validation rules:
 
-- Only fix problems caused by your content changes.
-- Never widen scope into app code, tests, scripts, workflows, or generated files.
+- First run `pnpm lint --fix` to auto-fix any issues.
+- If lint still fails due to pre-existing errors in files outside your content changes (pages, components, lib, scripts), you MUST fix them — the hard limit on touching non-content files is overridden when necessary to make CI pass.
+- Only fix problems caused by your content changes if they are in allowed files.
+- Never edit tests, workflows, or config files.
 - Do not commit generated assets produced during validation.
 
 ## Git and Pull Request
