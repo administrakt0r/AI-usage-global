@@ -158,7 +158,8 @@ const TocItemButton = ({
   <button
     type="button"
     onClick={() => onClick(id)}
-    className={`flex items-start gap-2 text-left transition-colors ${
+    aria-current={isActive ? "true" : undefined}
+    className={`flex items-start gap-2 text-left transition-colors focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none ${
       isActive
         ? "font-medium text-foreground"
         : "text-muted-foreground hover:text-foreground"
@@ -187,7 +188,7 @@ export const DynamicToc = ({
   return (
     <div className="sticky top-24">
       <h3 className="mb-3.5 text-[0.72rem] font-semibold uppercase tracking-[0.18em] text-brand-blue">
-        Sadržaj objave
+        Table of Contents
       </h3>
       <nav>
         <ul className="space-y-3">
