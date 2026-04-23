@@ -1,5 +1,15 @@
 {
-  "published": [],
+  "published": [
+    {
+      "canonical_url": "https://www.theregister.com/2026/04/22/brit_firms_look_to_deploy/",
+      "normalized_url": "https://www.theregister.com/2026/04/22/brit_firms_look_to_deploy",
+      "title": "Forget call centers, local energy prices mean Britain's latest offshoring wave is AI projects",
+      "normalized_title": "forget call centers local energy prices mean britains latest offshoring wave is ai projects",
+      "published_on": "2026-04-22",
+      "primary_entity": "CUDO Compute",
+      "event_fingerprint": "uk-ai-offshoring-energy-costs"
+    }
+  ],
   "version": 2,
   "description": "Log of published source URLs with structured metadata for duplicate prevention. Each entry includes canonical URL, normalized URL, title, normalized title, publication date, primary entity, and event fingerprint."
 }

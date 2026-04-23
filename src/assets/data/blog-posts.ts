@@ -26,6 +26,7 @@ type SourcePost = Omit<
   "author" | "avatarUrl" | "imageUrl" | "socialImageUrl" | "slug" | "contentSlug" | "category"
 > & {
   slug: string;
+  category?: typeof AI_USAGE;
 } & Partial<Pick<BlogPost, "author" | "avatarUrl" | "imageUrl">>;
 
 const createPost = (post: SourcePost): BlogPost => {
@@ -62,6 +63,18 @@ export const blogPosts: BlogPost[] = [
     publishedOn: "2026-04-22",
     readTime: 2,
     featured: true,
+  }),
+  createPost({
+    id: 2,
+    slug: "uk-ai-offshoring-energy-costs",
+    title: "UK Firms Offshoring AI Workloads Due to High Energy Costs",
+    description:
+      "A new report finds that 20% of UK firms have moved AI workloads abroad as high electricity prices and grid bottlenecks hinder domestic AI infrastructure growth.",
+    imageAlt: "Data center infrastructure and energy grid",
+    publishedOn: "2026-04-22",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
   }),
 ];
 
