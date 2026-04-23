@@ -1,0 +1,287 @@
+npm warn Unknown project config "auto-install-peers". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm warn exec The following package was not found and will be installed: serve@14.2.6
+ INFO  Accepting connections at http://localhost:3000
+ HTTP  4/23/2026 8:11:02 AM ::1 GET /
+ HTTP  4/23/2026 8:11:02 AM ::1 Returned 200 in 21 ms
+ HTTP  4/23/2026 8:11:02 AM ::1 GET /_next/static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2
+ HTTP  4/23/2026 8:11:02 AM ::1 GET /_next/static/chunks/a8695e8e151be44a.css
+ HTTP  4/23/2026 8:11:02 AM ::1 GET /_next/static/media/248e1dc0efc99276-s.p.8a6b2436.woff2
+ HTTP  4/23/2026 8:11:02 AM ::1 Returned 200 in 5 ms
+ HTTP  4/23/2026 8:11:02 AM ::1 Returned 200 in 6 ms
+ HTTP  4/23/2026 8:11:02 AM ::1 Returned 200 in 5 ms
+ HTTP  4/23/2026 8:11:02 AM ::1 GET /aug-logo.svg
+ HTTP  4/23/2026 8:11:02 AM ::1 GET /_next/static/chunks/ba9bbbcdb1c82971.js
+ HTTP  4/23/2026 8:11:02 AM ::1 GET /_next/static/chunks/ea2563349347eb29.js
+ HTTP  4/23/2026 8:11:02 AM ::1 GET /_next/static/chunks/e48f85ab95b5a184.js
+ HTTP  4/23/2026 8:11:02 AM ::1 GET /_next/static/chunks/2538acbce4b29c0e.js
+ HTTP  4/23/2026 8:11:02 AM ::1 GET /_next/static/chunks/turbopack-2b6ccf28b9285acb.js
+ HTTP  4/23/2026 8:11:02 AM ::1 Returned 200 in 10 ms
+ HTTP  4/23/2026 8:11:02 AM ::1 Returned 200 in 8 ms
+ HTTP  4/23/2026 8:11:02 AM ::1 Returned 200 in 8 ms
+ HTTP  4/23/2026 8:11:02 AM ::1 Returned 200 in 7 ms
+ HTTP  4/23/2026 8:11:02 AM ::1 Returned 200 in 11 ms
+ HTTP  4/23/2026 8:11:02 AM ::1 GET /_next/static/chunks/46111fb8eda633b2.js
+ HTTP  4/23/2026 8:11:02 AM ::1 Returned 200 in 13 ms
+ HTTP  4/23/2026 8:11:02 AM ::1 GET /_next/static/chunks/9a026403bc7d8fa2.js
+ HTTP  4/23/2026 8:11:02 AM ::1 Returned 200 in 13 ms
+ HTTP  4/23/2026 8:11:02 AM ::1 GET /_next/static/chunks/0985d6fb72f6257f.js
+ HTTP  4/23/2026 8:11:02 AM ::1 GET /_next/static/chunks/93e31069ed21b44b.js
+ HTTP  4/23/2026 8:11:02 AM ::1 Returned 200 in 22 ms
+ HTTP  4/23/2026 8:11:02 AM ::1 Returned 200 in 12 ms
+ HTTP  4/23/2026 8:11:02 AM ::1 Returned 200 in 12 ms
+ HTTP  4/23/2026 8:11:02 AM ::1 GET /_next/static/chunks/26b777fa1fd137ea.js
+ HTTP  4/23/2026 8:11:02 AM ::1 GET /_next/static/chunks/102c5c33610c4bd0.js
+ HTTP  4/23/2026 8:11:02 AM ::1 GET /_next/static/chunks/03490bf131023c36.js
+ HTTP  4/23/2026 8:11:02 AM ::1 Returned 200 in 8 ms
+ HTTP  4/23/2026 8:11:02 AM ::1 Returned 200 in 8 ms
+ HTTP  4/23/2026 8:11:02 AM ::1 Returned 200 in 7 ms
+ HTTP  4/23/2026 8:11:02 AM ::1 GET /_next/static/chunks/f3bd72b1067c51f5.js
+ HTTP  4/23/2026 8:11:02 AM ::1 Returned 200 in 4 ms
+ HTTP  4/23/2026 8:11:02 AM ::1 GET /images/posts/uk-firms-offshoring-ai-workloads-due-to-high-energy-costs.webp
+ HTTP  4/23/2026 8:11:02 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /_next/static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /_next/static/chunks/a8695e8e151be44a.css
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /_next/static/media/248e1dc0efc99276-s.p.8a6b2436.woff2
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 2 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /aug-logo.svg
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /_next/static/chunks/ba9bbbcdb1c82971.js
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /_next/static/chunks/ea2563349347eb29.js
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /_next/static/chunks/e48f85ab95b5a184.js
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /_next/static/chunks/2538acbce4b29c0e.js
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /_next/static/chunks/turbopack-2b6ccf28b9285acb.js
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 2 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 2 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 2 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 2 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 2 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /_next/static/chunks/46111fb8eda633b2.js
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 4 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /_next/static/chunks/9a026403bc7d8fa2.js
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 3 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /_next/static/chunks/0985d6fb72f6257f.js
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /_next/static/chunks/93e31069ed21b44b.js
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /_next/static/chunks/26b777fa1fd137ea.js
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 8 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 9 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /_next/static/chunks/102c5c33610c4bd0.js
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 9 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 5 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /_next/static/chunks/03490bf131023c36.js
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 4 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /_next/static/chunks/f3bd72b1067c51f5.js
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /images/posts/uk-firms-offshoring-ai-workloads-due-to-high-energy-costs.webp
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 HEAD /blog-detail/ai-usage-global-is-now-live
+ HTTP  4/23/2026 8:11:37 AM ::1 HEAD /blog-detail/uk-firms-offshoring-ai-workloads-due-to-high-energy-costs
+ HTTP  4/23/2026 8:11:37 AM ::1 HEAD /contact-us
+ HTTP  4/23/2026 8:11:37 AM ::1 HEAD /
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 304 in 1 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 5 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 4 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 4 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /blog-detail/ai-usage-global-is-now-live/__next._tree.txt?_rsc=1r34m
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /blog-detail/uk-firms-offshoring-ai-workloads-due-to-high-energy-costs/__next._tree.txt?_rsc=1r34m
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /contact-us/__next._tree.txt?_rsc=1r34m
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /__next._tree.txt?_rsc=1r34m
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 8 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 5 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 5 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 5 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /blog-detail/ai-usage-global-is-now-live/__next._head.txt?_rsc=1pn8p
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /blog-detail/ai-usage-global-is-now-live/__next._index.txt?_rsc=nn07o
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /blog-detail/ai-usage-global-is-now-live/__next.!KHBhZ2VzKQ.txt?_rsc=1qjlv
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /blog-detail/ai-usage-global-is-now-live/__next.!KHBhZ2VzKQ.blog-detail.txt?_rsc=1y913
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 5 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 5 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 3 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 3 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /blog-detail/ai-usage-global-is-now-live/__next.!KHBhZ2VzKQ.blog-detail.$d$slug.txt?_rsc=19sie
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /blog-detail/ai-usage-global-is-now-live/__next.!KHBhZ2VzKQ.blog-detail.$d$slug.__PAGE__.txt?_rsc=nabqb
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /_next/static/chunks/e29edb87ed184915.js
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /blog-detail/uk-firms-offshoring-ai-workloads-due-to-high-energy-costs/__next._head.txt?_rsc=1pn8p
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /blog-detail/uk-firms-offshoring-ai-workloads-due-to-high-energy-costs/__next.!KHBhZ2VzKQ.blog-detail.$d$slug.txt?_rsc=19sie
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 9 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 9 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 9 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 5 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 4 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /blog-detail/uk-firms-offshoring-ai-workloads-due-to-high-energy-costs/__next.!KHBhZ2VzKQ.blog-detail.$d$slug.__PAGE__.txt?_rsc=nabqb
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /contact-us/__next._head.txt?_rsc=1pn8p
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /contact-us/__next.!KHBhZ2VzKQ.contact-us.txt?_rsc=1941j
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 3 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /contact-us/__next.!KHBhZ2VzKQ.contact-us.__PAGE__.txt?_rsc=vvor8
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 4 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 3 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /__next._head.txt?_rsc=1pn8p
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 3 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /__next.!KHBhZ2VzKQ.__PAGE__.txt?_rsc=1mlg6
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /_next/static/chunks/f51ddc428b34000a.js
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 3 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 2 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /_next/static/chunks/e29edb87ed184915.js
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 304 in 1 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /images/avatars/1.webp
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:11:37 AM ::1 GET /images/posts/ai-usage-global-is-now-live.webp
+ HTTP  4/23/2026 8:11:37 AM ::1 Returned 200 in 3 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /_next/static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /_next/static/chunks/a8695e8e151be44a.css
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /_next/static/media/248e1dc0efc99276-s.p.8a6b2436.woff2
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 2 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /aug-logo.svg
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 0 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /_next/static/chunks/ba9bbbcdb1c82971.js
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /_next/static/chunks/ea2563349347eb29.js
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /_next/static/chunks/e48f85ab95b5a184.js
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /_next/static/chunks/2538acbce4b29c0e.js
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 2 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 2 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /_next/static/chunks/turbopack-2b6ccf28b9285acb.js
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /_next/static/chunks/46111fb8eda633b2.js
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 2 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /_next/static/chunks/9a026403bc7d8fa2.js
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /_next/static/chunks/0985d6fb72f6257f.js
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 10 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 10 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /_next/static/chunks/93e31069ed21b44b.js
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /_next/static/chunks/26b777fa1fd137ea.js
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /_next/static/chunks/102c5c33610c4bd0.js
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 2 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /_next/static/chunks/03490bf131023c36.js
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /_next/static/chunks/f3bd72b1067c51f5.js
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 2 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /images/posts/uk-firms-offshoring-ai-workloads-due-to-high-energy-costs.webp
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 2 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 HEAD /blog-detail/ai-usage-global-is-now-live
+ HTTP  4/23/2026 8:12:07 AM ::1 HEAD /blog-detail/uk-firms-offshoring-ai-workloads-due-to-high-energy-costs
+ HTTP  4/23/2026 8:12:07 AM ::1 HEAD /contact-us
+ HTTP  4/23/2026 8:12:07 AM ::1 HEAD /
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 304 in 1 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 4 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 4 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 3 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /blog-detail/ai-usage-global-is-now-live/__next._tree.txt?_rsc=1r34m
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /blog-detail/uk-firms-offshoring-ai-workloads-due-to-high-energy-costs/__next._tree.txt?_rsc=1r34m
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /contact-us/__next._tree.txt?_rsc=1r34m
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /__next._tree.txt?_rsc=1r34m
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 4 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 3 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 3 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /blog-detail/ai-usage-global-is-now-live/__next._head.txt?_rsc=1pn8p
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /blog-detail/ai-usage-global-is-now-live/__next._index.txt?_rsc=nn07o
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /blog-detail/ai-usage-global-is-now-live/__next.!KHBhZ2VzKQ.txt?_rsc=1qjlv
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /blog-detail/ai-usage-global-is-now-live/__next.!KHBhZ2VzKQ.blog-detail.txt?_rsc=1y913
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /blog-detail/ai-usage-global-is-now-live/__next.!KHBhZ2VzKQ.blog-detail.$d$slug.txt?_rsc=19sie
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /_next/static/chunks/e29edb87ed184915.js
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /blog-detail/ai-usage-global-is-now-live/__next.!KHBhZ2VzKQ.blog-detail.$d$slug.__PAGE__.txt?_rsc=nabqb
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /blog-detail/uk-firms-offshoring-ai-workloads-due-to-high-energy-costs/__next._head.txt?_rsc=1pn8p
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 2 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /blog-detail/uk-firms-offshoring-ai-workloads-due-to-high-energy-costs/__next.!KHBhZ2VzKQ.blog-detail.$d$slug.txt?_rsc=19sie
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /blog-detail/uk-firms-offshoring-ai-workloads-due-to-high-energy-costs/__next.!KHBhZ2VzKQ.blog-detail.$d$slug.__PAGE__.txt?_rsc=nabqb
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /contact-us/__next._head.txt?_rsc=1pn8p
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /contact-us/__next.!KHBhZ2VzKQ.contact-us.txt?_rsc=1941j
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /contact-us/__next.!KHBhZ2VzKQ.contact-us.__PAGE__.txt?_rsc=vvor8
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 2 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 2 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /__next._head.txt?_rsc=1pn8p
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /__next.!KHBhZ2VzKQ.__PAGE__.txt?_rsc=1mlg6
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 2 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:12:07 AM ::1 GET /_next/static/chunks/f51ddc428b34000a.js
+ HTTP  4/23/2026 8:12:07 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /_next/static/chunks/e29edb87ed184915.js
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 304 in 1 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /images/avatars/1.webp
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 200 in 3 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /images/posts/ai-usage-global-is-now-live.webp
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /_next/static/media/b2ea385cb5ae8625-s.866357a4.woff2
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 200 in 5 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /about
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 200 in 2 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /_next/static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 304 in 2 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /_next/static/chunks/a8695e8e151be44a.css
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /_next/static/media/248e1dc0efc99276-s.p.8a6b2436.woff2
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 304 in 1 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 304 in 0 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /aug-logo.svg
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /_next/static/chunks/ba9bbbcdb1c82971.js
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 304 in 2 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 304 in 3 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /_next/static/chunks/ea2563349347eb29.js
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 304 in 2 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /_next/static/chunks/e48f85ab95b5a184.js
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /_next/static/chunks/2538acbce4b29c0e.js
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /_next/static/chunks/turbopack-2b6ccf28b9285acb.js
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 304 in 3 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 304 in 2 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /_next/static/chunks/46111fb8eda633b2.js
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /_next/static/chunks/9a026403bc7d8fa2.js
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 304 in 2 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 304 in 0 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 304 in 1 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /_next/static/chunks/0985d6fb72f6257f.js
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /_next/static/chunks/93e31069ed21b44b.js
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /_next/static/chunks/26b777fa1fd137ea.js
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /_next/static/chunks/102c5c33610c4bd0.js
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /_next/static/chunks/03490bf131023c36.js
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 304 in 2 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 304 in 1 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 304 in 2 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 304 in 2 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 304 in 1 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 HEAD /contact-us
+ HTTP  4/23/2026 8:12:08 AM ::1 HEAD /
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 304 in 0 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 200 in 2 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /__next._tree.txt?_rsc=17qq4
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 200 in 0 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /contact-us/__next._tree.txt?_rsc=17qq4
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 200 in 2 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /__next._head.txt?_rsc=m0ktk
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /__next._index.txt?_rsc=4433z
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /__next.!KHBhZ2VzKQ.txt?_rsc=nw49j
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 200 in 2 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 200 in 3 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 200 in 3 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /contact-us/__next._head.txt?_rsc=m0ktk
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /contact-us/__next.!KHBhZ2VzKQ.contact-us.txt?_rsc=16raw
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 200 in 2 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /contact-us/__next.!KHBhZ2VzKQ.contact-us.__PAGE__.txt?_rsc=cr21c
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 200 in 1 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /__next.!KHBhZ2VzKQ.__PAGE__.txt?_rsc=1qw5g
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /_next/static/chunks/f3bd72b1067c51f5.js
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 304 in 1 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 200 in 2 ms
+ HTTP  4/23/2026 8:12:08 AM ::1 GET /_next/static/chunks/f51ddc428b34000a.js
+ HTTP  4/23/2026 8:12:08 AM ::1 Returned 304 in 1 ms
