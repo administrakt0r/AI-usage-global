@@ -81,13 +81,19 @@ const BlogGrid = ({
                 <span>{formatPostDisplayDate(post)}</span>
               </div>
               <Badge
-                className="bg-primary/10 text-primary rounded-full border-0 text-sm"
-                onClick={(event) => {
-                  event.stopPropagation();
-                  onCategoryClick(post.category);
-                }}
+                asChild
+                className="bg-primary/10 text-primary hover:bg-primary/20 cursor-pointer rounded-full border-0 text-sm"
               >
-                {post.category}
+                <button
+                  type="button"
+                  onClick={(event) => {
+                    event.stopPropagation();
+                    onCategoryClick(post.category);
+                  }}
+                  aria-label={`Filter by category: ${post.category}`}
+                >
+                  {post.category}
+                </button>
               </Badge>
             </div>
             <Link href={`/blog-detail/${post.slug}`} className="block">
@@ -317,6 +323,8 @@ const Blog = ({ stats }: BlogProps) => {
                         variant={currentPage === page ? "default" : "outline"}
                         size="icon"
                         onClick={() => handlePageChange(page)}
+                        aria-label={`Go to page ${page}`}
+                        aria-current={currentPage === page ? "page" : undefined}
                         className="hidden sm:flex"
                       >
                         {page}
