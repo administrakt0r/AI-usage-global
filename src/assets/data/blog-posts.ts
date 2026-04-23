@@ -76,6 +76,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 3,
+    slug: "ai-server-component-shortages",
+    title: "AI Server Demand Triggers Global Component Shortage for 2026",
+    description:
+      "TrendForce downgrades server growth forecasts as AI hardware demand creates critical shortages of power and management chips, with lead times stretching up to 40 weeks.",
+    imageAlt: "Server rack and semiconductor components",
+    publishedOn: "2026-04-23",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
