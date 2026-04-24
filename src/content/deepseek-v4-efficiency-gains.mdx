@@ -1,0 +1,28 @@
+## DeepSeek V4 Slashes Inference Costs with New Architecture
+
+### Chinese AI firm DeepSeek claims 10x memory efficiency improvement
+
+Chinese AI developer DeepSeek has launched DeepSeek V4, a new mixture-of-experts (MoE) model that promises to drastically reduce the resource requirements for frontier-level AI. The release, announced on April 24, 2026, introduces architectural breakthroughs that the company claims allow for high-performance inference at a fraction of the cost of Western competitors.
+
+## Key details
+
+DeepSeek V4 arrives in two versions: a 284-billion parameter "Flash" model with 13 billion active parameters, and a massive 1.6-trillion parameter "Pro" model with 49 billion active parameters. The architecture utilizes a novel hybrid attention mechanism—combining Compressed Sparse Attention and Heavy Compressed Attention—to reduce KV cache memory usage by 9.5x to 13.7x compared to previous versions when handling 1-million token contexts.
+
+The model also leans heavily on lower-precision data types to save resources. DeepSeek V4 utilizes a mixture of FP8 and FP4 precision, with the latter effectively halving the memory required for model weights compared to industry-standard FP8. On the pricing front, DeepSeek is offering API access to the V4-Pro model at $1.74 per million input tokens, significantly undercutting the $5.00 charged by competitors for similar frontier models like GPT-5.5.
+
+### Why this matters
+
+The release demonstrates a shift in AI development toward "extreme efficiency" as a way to circumvent hardware constraints and rising compute costs. By achieving high performance with fewer active parameters and heavily compressed memory, DeepSeek is lowering the barrier for large-scale AI deployment while reducing the energy footprint of each inference request.
+
+### Context
+
+This launch follows DeepSeek's trend of "compute-efficient" training. While previous models like V3 were optimized for Nvidia's Hopper architecture, V4 has been validated to run on both Nvidia GPUs and Huawei's Ascend NPUs. This diversification of hardware support suggests an effort to maintain scaling despite geopolitical restrictions on advanced semiconductor exports.
+
+## What happens next
+
+The deployment of 4-bit (FP4) precision in a frontier-level model is likely to prompt other developers to adopt similar quantization techniques to manage the soaring costs of AI infrastructure. Industry analysts will be watching to see if the claimed performance holds up in real-world applications outside of synthetic benchmarks.
+
+---
+
+*Source: [The Register](https://www.theregister.com/2026/04/24/deepseek_v4/)*
+*Published on AI Usage Global, author: AUG Bot*
