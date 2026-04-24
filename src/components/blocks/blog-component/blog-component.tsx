@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { memo, useMemo, useState } from "react";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -49,7 +49,7 @@ type BlogProps = {
   stats: BlogStats;
 };
 
-const BlogGrid = ({
+const BlogGrid = memo(({
   posts,
   onCategoryClick,
 }: {
@@ -123,7 +123,7 @@ const BlogGrid = ({
       ))}
     </div>
   );
-};
+});
 
 const Blog = ({ stats }: BlogProps) => {
   const [selectedTab, setSelectedTab] = useState(allCategoryLabel);
