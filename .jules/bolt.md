@@ -10,3 +10,7 @@ Critical performance learnings for this codebase only.
 **Learning:** The blog search input updates React state on every keystroke, causing full re-renders of the entire `Blog` component and O(n) filtering over all posts. With daily publishing, this list will grow, making the cost per keystroke increase linearly.
 **Action:** Debounce the search query with a small custom hook and memoize filtered/paginated arrays to avoid recomputing on every render.
 
+## 2026-04-24 - BlogGrid Re-render Optimization
+**Learning:** The `BlogGrid` component re-renders whenever `Blog` re-renders, even when `posts` array reference hasn't changed. Since the parent filters and paginates posts on every render (even when results are memoized), passing new array references triggers child re-renders unnecessarily.
+**Action:** Wrap `BlogGrid` with `React.memo` to prevent re-renders when props haven't changed. This is especially impactful as the blog grows—each avoided re-render saves rendering 9 Card components with Images.
+
