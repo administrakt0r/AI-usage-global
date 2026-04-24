@@ -88,6 +88,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 4,
+    slug: "deepseek-v4-efficiency-gains",
+    title: "DeepSeek V4 Slashes Inference Costs with New Architecture",
+    description:
+      "DeepSeek V4 introduces hybrid attention mechanisms and 4-bit precision to reduce KV cache memory usage by up to 13x, significantly lowering inference costs.",
+    imageAlt: "Abstract representation of neural network architecture and data compression",
+    publishedOn: "2026-04-24",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (

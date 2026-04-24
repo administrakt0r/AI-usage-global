@@ -17,6 +17,15 @@
       "published_on": "2026-04-23",
       "primary_entity": "TrendForce",
       "event_fingerprint": "ai-server-component-shortages"
+    },
+    {
+      "canonical_url": "https://www.theregister.com/2026/04/24/deepseek_v4/",
+      "normalized_url": "https://www.theregister.com/2026/04/24/deepseek_v4",
+      "title": "DeepSeek's new models are so efficient they'll run on a toaster ... by which we mean Huawei's NPUs",
+      "normalized_title": "deepseeks new models are so efficient theyll run on a toaster by which we mean huaweis npus",
+      "published_on": "2026-04-24",
+      "primary_entity": "DeepSeek",
+      "event_fingerprint": "deepseek-v4-efficiency-gains"
     }
   ],
   "version": 2,
