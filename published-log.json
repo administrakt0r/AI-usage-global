@@ -35,6 +35,15 @@
       "published_on": "2026-04-22",
       "primary_entity": "AI data center gas power projects",
       "event_fingerprint": "ai-gas-power-emissions"
+    },
+    {
+      "canonical_url": "https://apnews.com/article/data-center-moratoriums-maine-janet-mills-352ad4fbd531d905b9415258692b318f",
+      "normalized_url": "https://apnews.com/article/data-center-moratoriums-maine-janet-mills-352ad4fbd531d905b9415258692b318f",
+      "title": "Nation’s first state moratorium on data centers vetoed by Maine’s governor",
+      "normalized_title": "nations first state moratorium on data centers vetoed by maines governor",
+      "published_on": "2026-04-25",
+      "primary_entity": "Governor Janet Mills",
+      "event_fingerprint": "maine-ai-datacenter-moratorium-veto"
     }
   ],
   "version": 2,
