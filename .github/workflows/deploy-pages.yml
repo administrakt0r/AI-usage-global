@@ -61,3 +61,43 @@ jobs:
 
       - name: Deploy static export to Cloudflare Pages
         run: pnpm exec wrangler pages deploy out --project-name=aiusageglobal --branch=main
+
+      - name: Verify latest post is live
+        run: |
+          set -euo pipefail
+
+          latest_slug="$(node - <<'NODE'
+          const fs = require('node:fs')
+          const source = fs.readFileSync('src/assets/data/blog-posts.ts', 'utf8')
+          const entries = [...source.matchAll(/createPost\(\{([\s\S]*?)\n  \}\)/g)].map((match) => match[1])
+          const slugify = (value) => value
+            .trim()
+            .toLowerCase()
+            .normalize('NFKD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .replace(/[^a-z0-9]+/g, '-')
+            .replace(/^-+|-+$/g, '')
+            .replace(/-{2,}/g, '-')
+          const posts = entries.map((entry) => {
+            const title = entry.match(/title: "([^"]+)"/)?.[1]
+            const date = entry.match(/publishedOn: "([^"]+)"/)?.[1]
+            const id = Number(entry.match(/id: (\d+)/)?.[1] ?? 0)
+            return { slug: title ? slugify(title) : null, date, id }
+          }).filter((post) => post.slug && post.date)
+          posts.sort((a, b) => b.date.localeCompare(a.date) || b.id - a.id)
+          process.stdout.write(posts[0].slug)
+          NODE
+          )"
+
+          for attempt in 1 2 3 4 5 6; do
+            if curl -fsS "https://aiusageglobal.pages.dev/blog-detail/${latest_slug}" >/dev/null; then
+              echo "Latest post is live: ${latest_slug}"
+              exit 0
+            fi
+
+            echo "Latest post ${latest_slug} is not live yet (attempt ${attempt})."
+            sleep 20
+          done
+
+          echo "Latest post ${latest_slug} did not become live after deployment." >&2
+          exit 1

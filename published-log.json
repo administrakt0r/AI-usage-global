@@ -26,6 +26,15 @@
       "published_on": "2026-04-24",
       "primary_entity": "DeepSeek",
       "event_fingerprint": "deepseek-v4-efficiency-gains"
+    },
+    {
+      "canonical_url": "https://www.wired.com/story/new-gas-powered-data-centers-could-emit-more-greenhouse-gases-than-entire-nations/",
+      "normalized_url": "https://www.wired.com/story/new-gas-powered-data-centers-could-emit-more-greenhouse-gases-than-entire-nations",
+      "title": "New Gas-Powered Data Centers Could Emit More Greenhouse Gases Than Entire Nations",
+      "normalized_title": "new gas powered data centers could emit more greenhouse gases than entire nations",
+      "published_on": "2026-04-22",
+      "primary_entity": "AI data center gas power projects",
+      "event_fingerprint": "ai-gas-power-emissions"
     }
   ],
   "version": 2,

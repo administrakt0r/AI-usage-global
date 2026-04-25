@@ -8,6 +8,7 @@ on:
       - completed
 
 permissions:
+  actions: write
   contents: write
   pull-requests: write
 
@@ -108,12 +109,29 @@ jobs:
               ;;
           esac
 
-          gh api \
+          merge_response="$(gh api \
             --method PUT \
             -H "Accept: application/vnd.github+json" \
             "repos/$REPO/pulls/$pr_number/merge" \
             -f merge_method='squash' \
-            -f sha="$head_sha"
+            -f sha="$head_sha")"
+
+          merge_sha="$(printf '%s' "$merge_response" | jq -r '.sha // empty')"
+
+          if [ -z "$merge_sha" ]; then
+            echo "Pull request #$pr_number merged, but no merge SHA was returned."
+            merge_sha="main"
+          fi
+
+          # Merges performed with GITHUB_TOKEN do not reliably trigger a push
+          # workflow. Explicitly dispatch production deployment so successful
+          # daily post PRs cannot merge without a deploy attempt.
+          gh api \
+            --method POST \
+            -H "Accept: application/vnd.github+json" \
+            "repos/$REPO/actions/workflows/deploy-pages.yml/dispatches" \
+            -f ref='main' \
+            -f inputs[ref]="$merge_sha"
 
           if ! gh api \
             --method DELETE \

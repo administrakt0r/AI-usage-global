@@ -1,0 +1,60 @@
+name: Daily Post Watchdog
+
+on:
+  schedule:
+    # Runs late UTC after the daily publishing window, so a missing post or
+    # stale Cloudflare deployment becomes a visible failed check the same day.
+    - cron: '50 23 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-latest-post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Verify repository has a fresh post and production is current
+        run: |
+          set -euo pipefail
+
+          latest_json="$(node - <<'NODE'
+          const fs = require('node:fs')
+          const source = fs.readFileSync('src/assets/data/blog-posts.ts', 'utf8')
+          const entries = [...source.matchAll(/createPost\(\{([\s\S]*?)\n  \}\)/g)].map((match) => match[1])
+          const slugify = (value) => value
+            .trim()
+            .toLowerCase()
+            .normalize('NFKD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .replace(/[^a-z0-9]+/g, '-')
+            .replace(/^-+|-+$/g, '')
+            .replace(/-{2,}/g, '-')
+          const posts = entries.map((entry) => {
+            const title = entry.match(/title: "([^"]+)"/)?.[1]
+            const date = entry.match(/publishedOn: "([^"]+)"/)?.[1]
+            const id = Number(entry.match(/id: (\d+)/)?.[1] ?? 0)
+            return { slug: title ? slugify(title) : null, date, id }
+          }).filter((post) => post.slug && post.date)
+          posts.sort((a, b) => b.date.localeCompare(a.date) || b.id - a.id)
+          process.stdout.write(JSON.stringify(posts[0]))
+          NODE
+          )"
+
+          latest_slug="$(node -e "process.stdout.write(JSON.parse(process.argv[1]).slug)" "$latest_json")"
+          latest_date="$(node -e "process.stdout.write(JSON.parse(process.argv[1]).date)" "$latest_json")"
+          today_utc="$(date -u +%F)"
+
+          if [ "$latest_date" != "$today_utc" ]; then
+            echo "Latest repository post is dated ${latest_date}, expected ${today_utc}." >&2
+            echo "Daily publishing likely did not create or merge today's post." >&2
+            exit 1
+          fi
+
+          curl -fsS "https://aiusageglobal.pages.dev/blog-detail/${latest_slug}" >/dev/null
+          curl -fsS "https://aiusageglobal.pages.dev/rss.xml" | grep -F "/blog-detail/${latest_slug}" >/dev/null
+
+          echo "Latest post is fresh and live: ${latest_slug} (${latest_date})"

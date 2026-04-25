@@ -100,6 +100,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 5,
+    slug: "ai-gas-power-emissions",
+    title: "AI Gas Power Plans Could Emit 129 Million Tons a Year",
+    description:
+      "A WIRED review of air permits finds 11 gas-powered AI data center projects could emit more than 129 million tons of greenhouse gases per year.",
+    imageAlt: "Data center campus with gas power infrastructure and emissions",
+    publishedOn: "2026-04-25",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
