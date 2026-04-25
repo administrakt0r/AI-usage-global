@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "tasks": [
+    {
+      "branch_name": "main",
+      "worktree_path": "/home/q/Desktop/webprojekty/ai-usage-global",
+      "status": "active",
+      "created_at": "2026-04-25T00:51:57.104Z",
+      "updated_at": "2026-04-25T00:51:57.104Z"
+    }
+  ]
+}
