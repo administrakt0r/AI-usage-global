@@ -112,6 +112,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 6,
+    slug: "maine-blocks-ai-datacenter-moratorium",
+    title: "Maine Governor Vetoes First-in-Nation AI Data Center Moratorium",
+    description:
+      "Governor Janet Mills vetoes legislation that would have established the first statewide freeze on AI data center construction, citing local economic impacts.",
+    imageAlt: "Data center facility in a landscape",
+    publishedOn: "2026-04-25",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
