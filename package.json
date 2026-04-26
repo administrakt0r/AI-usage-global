@@ -8,6 +8,7 @@
     "dev": "next dev",
     "generate:rss": "node scripts/generate-rss.mjs",
     "generate:derived": "pnpm generate:post-images && pnpm generate:rss",
+    "capture:readme-screenshots": "node scripts/capture-readme-screenshots.mjs",
     "predev": "pnpm generate:derived",
     "prebuild": "pnpm generate:derived",
     "build": "next build",

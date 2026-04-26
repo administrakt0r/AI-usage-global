@@ -46,11 +46,15 @@ jobs:
 
           latest_slug="$(node -e "process.stdout.write(JSON.parse(process.argv[1]).slug)" "$latest_json")"
           latest_date="$(node -e "process.stdout.write(JSON.parse(process.argv[1]).date)" "$latest_json")"
-          today_utc="$(date -u +%F)"
+          expected_date_utc="$(date -u -d '6 hours ago' +%F)"
 
-          if [ "$latest_date" != "$today_utc" ]; then
-            echo "Latest repository post is dated ${latest_date}, expected ${today_utc}." >&2
-            echo "Daily publishing likely did not create or merge today's post." >&2
+          # GitHub scheduled workflows can start well after their cron time.
+          # This watchdog is intended to verify the most recent publishing
+          # window, not to require a second post immediately after UTC midnight
+          # when the job itself was simply delayed.
+          if [ "$latest_date" != "$expected_date_utc" ]; then
+            echo "Latest repository post is dated ${latest_date}, expected ${expected_date_utc}." >&2
+            echo "Daily publishing likely did not create or merge the latest expected post." >&2
             exit 1
           fi
 
