@@ -44,6 +44,15 @@
       "published_on": "2026-04-25",
       "primary_entity": "Governor Janet Mills",
       "event_fingerprint": "maine-ai-datacenter-moratorium-veto"
+    },
+    {
+      "canonical_url": "https://www.cbsnews.com/news/how-ai-driven-data-center-boom-leading-to-skyrocketing-energy-bills/",
+      "normalized_url": "https://www.cbsnews.com/news/how-ai-driven-data-center-boom-leading-to-skyrocketing-energy-bills",
+      "title": "How the AI-driven data center boom is leading to skyrocketing energy bills for many Americans",
+      "normalized_title": "how the ai driven data center boom is leading to skyrocketing energy bills for many americans",
+      "published_on": "2026-04-26",
+      "primary_entity": "Georgia Power",
+      "event_fingerprint": "ai-datacenter-residential-energy-bill-spikes"
     }
   ],
   "version": 2,

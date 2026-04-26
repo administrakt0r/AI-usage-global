@@ -124,6 +124,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 7,
+    slug: "ai-data-center-energy-bill-spikes",
+    title: "AI Data Centers Drive Double-Digit Spikes in US Residential Energy Bills",
+    description:
+      "New data shows AI data center expansion is driving up residential utility bills in 13 states, with some areas seeing costs increase by up to 267% over five years.",
+    imageAlt: "Residential power lines and data center infrastructure",
+    publishedOn: "2026-04-26",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
