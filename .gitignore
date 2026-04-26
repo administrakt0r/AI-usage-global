@@ -1,29 +1,41 @@
+# Dependencies
+/node_modules
+
+# Next.js build output
 /.next
 /out
-/node_modules
-/.wrangler
-/out
 
-# Local environment files
+# Cloudflare / Wrangler local state
+/.wrangler
+
+# Local AI / assistant / workspace state
+/.omx
+/.Jules
+/.jules
+
+# Environment files
 .env
 .env.local
+.env.development.local
+.env.test.local
+.env.production.local
 .env.*.local
 
-# Generated content
-/public/images/posts/*.webp
+# Generated site artifacts
 /public/images/posts/*.png
+/public/images/posts/*.webp
 /public/images/og-image.png
 /public/rss.xml
+
+# TypeScript incremental cache
+*.tsbuildinfo
+
+# Logs and local debug output
+*.log
 /dev_output.log
 /dev_server.log
 /next_dev_output.log
 /verification.png
-
-# Package manager logs
-npm-debug.log*
-pnpm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
 # Test and coverage output
 /coverage
@@ -31,8 +43,14 @@ yarn-error.log*
 /test-results
 /.tools
 
-# OS/editor noise
-.DS_Store
+# Playwright/browser downloads and caches
+/playwright/.cache
 
-# TypeScript incremental cache
-tsconfig.tsbuildinfo
+# Temporary runtime files
+*.pid
+*.tmp
+*.temp
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
