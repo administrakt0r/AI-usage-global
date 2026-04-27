@@ -53,6 +53,15 @@
       "published_on": "2026-04-26",
       "primary_entity": "Georgia Power",
       "event_fingerprint": "ai-datacenter-residential-energy-bill-spikes"
+    },
+    {
+      "canonical_url": "https://apnews.com/article/ai-data-centers-nevada-clean-energy-47d1b6633ed720962848f4b5b91e7d6b",
+      "normalized_url": "https://apnews.com/article/ai-data-centers-nevada-clean-energy-47d1b6633ed720962848f4b5b91e7d6b",
+      "title": "States are struggling to meet their clean energy goals. Data centers are to blame",
+      "normalized_title": "states are struggling to meet their clean energy goals data centers are to blame",
+      "published_on": "2026-04-27",
+      "primary_entity": "NV Energy",
+      "event_fingerprint": "nevada-ai-datacenter-power-demand-threatens-renewable-goals"
     }
   ],
   "version": 2,
