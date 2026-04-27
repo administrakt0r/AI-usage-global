@@ -136,6 +136,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 8,
+    slug: "nv-energy-data-center-power-demand",
+    title: "Nevada's NV Energy Faces Massive Power Demand from AI Data Centers",
+    description:
+      "NV Energy reports that proposed AI data centers will require three times the electricity of Las Vegas, threatening the state's 50% renewable energy target by 2030.",
+    imageAlt: "Aerial view of solar panels and data center infrastructure in the Nevada desert",
+    publishedOn: "2026-04-27",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
