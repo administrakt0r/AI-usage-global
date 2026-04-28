@@ -62,6 +62,15 @@
       "published_on": "2026-04-27",
       "primary_entity": "NV Energy",
       "event_fingerprint": "nevada-ai-datacenter-power-demand-threatens-renewable-goals"
+    },
+    {
+      "canonical_url": "https://www.oracle.com/news/announcement/oracle-borderplex-and-bloom-energy-to-power-project-jupiter-with-fuel-cell-technology-2026-04-27/",
+      "normalized_url": "https://www.oracle.com/news/announcement/oracle-borderplex-and-bloom-energy-to-power-project-jupiter-with-fuel-cell-technology-2026-04-27",
+      "title": "Oracle to Power Project Jupiter with 2.45 GW of Bloom Fuel Cells",
+      "normalized_title": "oracle to power project jupiter with 2 45 gw of bloom fuel cells",
+      "published_on": "2026-04-28",
+      "primary_entity": "Oracle",
+      "event_fingerprint": "oracle-project-jupiter-bloom-fuel-cells"
     }
   ],
   "version": 2,

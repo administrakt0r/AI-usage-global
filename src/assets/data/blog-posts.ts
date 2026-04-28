@@ -148,6 +148,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 9,
+    slug: "oracle-project-jupiter-bloom-fuel-cells",
+    title: "Oracle to Power Project Jupiter with 2.45 GW of Bloom Fuel Cells",
+    description:
+      "Oracle and BorderPlex pivot to a massive water-efficient Bloom fuel cell microgrid to power their New Mexico AI campus, bypassing grid constraints.",
+    imageAlt: "Aerial view of a data center campus with fuel cell infrastructure",
+    publishedOn: "2026-04-28",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
