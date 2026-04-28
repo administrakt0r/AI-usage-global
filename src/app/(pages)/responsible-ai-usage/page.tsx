@@ -10,14 +10,21 @@ import {
 export const metadata: Metadata = {
   title: "Responsible AI Usage Policy",
   description:
-    "Our principles for transparent, accountable AI usage reporting — covering data center water, energy, costs, and environmental impact.",
+    "AI Usage Global's principles for transparent, accountable AI usage reporting — covering data center water, energy, costs, and environmental impact with open disclosure.",
+  keywords: [
+    "responsible AI usage",
+    "AI transparency",
+    "autonomous publishing ethics",
+    "AI environmental accountability",
+    "responsible AI policy",
+  ],
   alternates: {
     canonical: "/responsible-ai-usage",
   },
   openGraph: {
     title: `Responsible AI Usage Policy - ${SITE_NAME}`,
     description:
-      "Our rules for transparent, responsible AI usage reporting with focus on resource costs and environmental accountability.",
+      "Our rules for transparent, responsible AI usage reporting with a focus on resource costs, environmental accountability, and open autonomous publishing.",
     type: "website",
     url: `${SITE_URL}/responsible-ai-usage`,
   },

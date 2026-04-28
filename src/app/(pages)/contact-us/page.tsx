@@ -7,14 +7,20 @@ import { SITE_LANGUAGE_TAG, SITE_NAME, SITE_URL } from "@/lib/site";
 export const metadata: Metadata = {
   title: `Contact - ${SITE_NAME}`,
   description:
-    "Contact AI Usage Global for inquiries, corrections, partnerships, or feedback about AI resource usage reporting.",
+    "Contact AI Usage Global for inquiries, corrections, partnerships, or story suggestions about AI water usage, energy consumption, and infrastructure reporting.",
+  keywords: [
+    "contact AI Usage Global",
+    "AI resource usage reporting",
+    "AI infrastructure inquiries",
+    "data center research contact",
+  ],
   alternates: {
     canonical: "/contact-us",
   },
   openGraph: {
     title: `Contact - ${SITE_NAME}`,
     description:
-      "Contact page for questions, corrections, partnerships, and support related to AI Usage Global.",
+      "Contact AI Usage Global for questions, corrections, partnerships, and support related to AI water, power, and compute cost reporting.",
     type: "website",
     url: `${SITE_URL}/contact-us`,
   },

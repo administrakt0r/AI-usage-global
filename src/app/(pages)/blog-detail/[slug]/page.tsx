@@ -50,6 +50,7 @@ export async function generateMetadata({
     title: post.title,
     description: post.description,
     authors: [{ name: post.author }],
+    keywords: post.keywords,
     alternates: {
       canonical: `/blog-detail/${post.slug}`,
     },

@@ -41,6 +41,13 @@ export const metadata: Metadata = {
     default: `${SITE_NAME} | AI water, power, costs, and impact`,
   },
   description: SITE_DESCRIPTION,
+  applicationName: SITE_NAME,
+  appleWebApp: {
+    capable: true,
+    title: SITE_NAME,
+    statusBarStyle: "default",
+  },
+  manifest: "/manifest.json",
   robots: {
     index: true,
     follow: true,

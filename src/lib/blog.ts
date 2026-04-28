@@ -20,6 +20,7 @@ export type BlogPost = {
   avatarUrl: string;
   readTime: number;
   featured: boolean;
+  keywords?: string[];
 };
 
 type PostDateSource = Pick<BlogPost, "publishedOn" | "publishedTime">;

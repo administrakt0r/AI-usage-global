@@ -10,14 +10,23 @@ import {
 export const metadata: Metadata = {
   title: `About - ${SITE_NAME}`,
   description:
-    "Learn about AI Usage Global — a daily publication tracking AI water consumption, energy use, compute costs, and environmental impact worldwide.",
+    "AI Usage Global is a daily, open-source publication tracking AI water consumption, energy use, compute costs, GPU shortages, and environmental impact worldwide.",
+  keywords: [
+    "AI Usage Global",
+    "about AI Usage Global",
+    "AI water usage",
+    "AI energy consumption",
+    "AI compute cost",
+    "autonomous AI blog",
+    "open source publication",
+  ],
   alternates: {
     canonical: "/about",
   },
   openGraph: {
     title: `About - ${SITE_NAME}`,
     description:
-      "AI Usage Global reports daily on the real cost of AI: water, power, money, and environmental impact.",
+      "AI Usage Global reports daily on the real cost of AI: water, power, compute, and environmental impact. Built with Next.js and published autonomously by AUG Bot.",
     type: "website",
     url: `${SITE_URL}/about`,
   },

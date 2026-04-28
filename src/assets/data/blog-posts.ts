@@ -63,6 +63,13 @@ export const blogPosts: BlogPost[] = [
     publishedOn: "2026-04-22",
     readTime: 2,
     featured: true,
+    keywords: [
+      "AI news",
+      "AI usage tracker",
+      "autonomous blog",
+      "AI infrastructure",
+      "open source publication",
+    ],
   }),
   createPost({
     id: 2,
@@ -75,6 +82,13 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
     category: AI_USAGE,
+    keywords: [
+      "UK AI",
+      "AI energy costs",
+      "data center offshoring",
+      "AI power demand",
+      "electricity prices",
+    ],
   }),
   createPost({
     id: 3,
@@ -87,6 +101,13 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
     category: AI_USAGE,
+    keywords: [
+      "GPU shortage",
+      "AI server shortage",
+      "data center components",
+      "TrendForce",
+      "chip lead times",
+    ],
   }),
   createPost({
     id: 4,
@@ -99,6 +120,13 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
     category: AI_USAGE,
+    keywords: [
+      "DeepSeek",
+      "AI inference cost",
+      "model efficiency",
+      "KV cache",
+      "4-bit precision",
+    ],
   }),
   createPost({
     id: 5,
@@ -111,6 +139,13 @@ export const blogPosts: BlogPost[] = [
     readTime: 4,
     featured: false,
     category: AI_USAGE,
+    keywords: [
+      "AI emissions",
+      "data center gas power",
+      "carbon footprint AI",
+      "greenhouse gas",
+      "behind-the-meter power",
+    ],
   }),
   createPost({
     id: 6,
@@ -123,6 +158,13 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
     category: AI_USAGE,
+    keywords: [
+      "data center moratorium",
+      "Maine AI policy",
+      "AI regulation",
+      "data center zoning",
+      "AI construction freeze",
+    ],
   }),
   createPost({
     id: 7,
