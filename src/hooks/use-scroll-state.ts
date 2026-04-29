@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-export const useScrollState = () => {
+export const useScrollState = (threshold = 0) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const rafRef = useRef<number>(0);
 
@@ -12,10 +12,11 @@ export const useScrollState = () => {
 
       rafRef.current = requestAnimationFrame(() => {
         rafRef.current = 0;
-        const scrolled = window.scrollY > 0;
+        const scrolled = window.scrollY > threshold;
 
-        // Only update state when the value actually changes to avoid
-        // triggering downstream re-renders on every scroll event.
+        // Use functional state update to ensure we're comparing against the
+        // latest state value, avoiding stale closures while keeping the
+        // effect dependency array minimal.
         setIsScrolled((prev) => (prev !== scrolled ? scrolled : prev));
       });
     };
@@ -30,7 +31,7 @@ export const useScrollState = () => {
         cancelAnimationFrame(rafRef.current);
       }
     };
-  }, []);
+  }, [threshold]);
 
   return isScrolled;
 };
