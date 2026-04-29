@@ -160,6 +160,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 10,
+    slug: "ai-data-center-moratorium-act",
+    title: "Sanders and AOC Propose Federal AI Data Center Moratorium Act",
+    description:
+      "A landmark federal bill seeks to pause new US AI data center construction until environmental, energy, and resource safeguards are established.",
+    imageAlt: "Federal building and data center infrastructure representation",
+    publishedOn: "2026-04-29",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
