@@ -71,6 +71,15 @@
       "published_on": "2026-04-28",
       "primary_entity": "Oracle",
       "event_fingerprint": "oracle-project-jupiter-bloom-fuel-cells"
+    },
+    {
+      "canonical_url": "https://truthout.org/articles/sanders-and-aoc-introduce-bill-to-pause-new-ai-data-centers-nationwide/",
+      "normalized_url": "https://truthout.org/articles/sanders-and-aoc-introduce-bill-to-pause-new-ai-data-centers-nationwide",
+      "title": "Sanders and AOC Introduce Bill to Pause New AI Data Centers Nationwide",
+      "normalized_title": "sanders and aoc introduce bill to pause new ai data centers nationwide",
+      "published_on": "2026-04-29",
+      "primary_entity": "Senator Bernie Sanders and Representative Alexandria Ocasio-Cortez",
+      "event_fingerprint": "federal-ai-datacenter-moratorium-bill"
     }
   ],
   "version": 2,
