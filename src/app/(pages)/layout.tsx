@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 
 import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
+import { ScrollToTop } from "@/components/ui/scroll-to-top";
 
 import type { NavigationSection } from "@/components/blocks/menu-navigation";
 
@@ -34,6 +35,7 @@ const PagesLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
         {children}
       </main>
       <Footer />
+      <ScrollToTop />
     </div>
   );
 };
