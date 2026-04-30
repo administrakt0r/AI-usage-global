@@ -80,6 +80,15 @@
       "published_on": "2026-04-29",
       "primary_entity": "Senator Bernie Sanders and Representative Alexandria Ocasio-Cortez",
       "event_fingerprint": "federal-ai-datacenter-moratorium-bill"
+    },
+    {
+      "canonical_url": "https://www.hcn.org/articles/nukes-and-ai-require-1-4-million-gallons-of-water-a-day-at-new-mexico-lab/",
+      "normalized_url": "https://www.hcn.org/articles/nukes-and-ai-require-1-4-million-gallons-of-water-a-day-at-new-mexico-lab",
+      "title": "Nukes and AI require 1.4 million gallons of water a day at New Mexico lab",
+      "normalized_title": "nukes and ai require 1 4 million gallons of water a day at new mexico lab",
+      "published_on": "2026-04-30",
+      "primary_entity": "Los Alamos National Laboratory",
+      "event_fingerprint": "lanl-ai-supercomputer-water-expansion"
     }
   ],
   "version": 2,

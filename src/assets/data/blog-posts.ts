@@ -172,6 +172,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 11,
+    slug: "los-alamos-ai-supercomputer-water-usage",
+    title: "Los Alamos AI Supercomputer Expansion to Double Water Consumption",
+    description:
+      "A massive expansion at Los Alamos National Laboratory, including a new 100,000-square-foot AI supercomputer facility, is projected to consume 1.4 million gallons of water daily.",
+    imageAlt: "Supercomputer components and cooling infrastructure",
+    publishedOn: "2026-04-30",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
