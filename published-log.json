@@ -89,6 +89,15 @@
       "published_on": "2026-04-30",
       "primary_entity": "Los Alamos National Laboratory",
       "event_fingerprint": "lanl-ai-supercomputer-water-expansion"
+    },
+    {
+      "canonical_url": "https://www.datacenterknowledge.com/ai-data-centers/ai-capacity-is-being-pre-sold-at-gigawatt-scale",
+      "normalized_url": "https://www.datacenterknowledge.com/ai-data-centers/ai-capacity-is-being-pre-sold-at-gigawatt-scale",
+      "title": "Google-Anthropic Deal: AI Capacity Now Pre-Sold at Gigawatt Scale",
+      "normalized_title": "google anthropic deal ai capacity now pre sold at gigawatt scale",
+      "published_on": "2026-05-01",
+      "primary_entity": "Google and Anthropic",
+      "event_fingerprint": "google-anthropic-gigawatt-compute-deal"
     }
   ],
   "version": 2,
