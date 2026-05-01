@@ -184,6 +184,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 12,
+    slug: "google-anthropic-gigawatt-ai-deal",
+    title: "Google and Anthropic Negotiate 5 GW AI Infrastructure Deal",
+    description:
+      "Google and Anthropic are reportedly negotiating a landmark $40 billion deal that includes a 5-gigawatt compute commitment, signaling a shift toward utility-scale AI infrastructure.",
+    imageAlt: "Hyperscale data center servers and infrastructure",
+    publishedOn: "2026-05-01",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
