@@ -98,6 +98,15 @@
       "published_on": "2026-05-01",
       "primary_entity": "Google and Anthropic",
       "event_fingerprint": "google-anthropic-gigawatt-compute-deal"
+    },
+    {
+      "canonical_url": "https://www.theregister.com/2026/04/30/microsoft_q3_2026/",
+      "normalized_url": "https://www.theregister.com/2026/04/30/microsoft_q3_2026",
+      "title": "Microsoft lifts 2026 AI spend by $25 billion to cover component price rises",
+      "normalized_title": "microsoft lifts 2026 ai spend by 25 billion to cover component price rises",
+      "published_on": "2026-05-02",
+      "primary_entity": "Microsoft",
+      "event_fingerprint": "microsoft-2026-ai-capex-increase"
     }
   ],
   "version": 2,

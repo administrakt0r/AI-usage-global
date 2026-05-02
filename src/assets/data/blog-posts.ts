@@ -196,6 +196,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 13,
+    slug: "microsoft-ai-capex-surge-2026",
+    title: "Microsoft Lifts 2026 AI Capital Expenditure to $190 Billion",
+    description:
+      "Microsoft increases its 2026 capital expenditure to $190 billion, citing a $25 billion surge in component costs as memory and storage prices triple.",
+    imageAlt: "Digital representation of data center hardware and capital investment",
+    publishedOn: "2026-05-02",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
