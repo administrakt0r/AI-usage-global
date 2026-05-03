@@ -107,6 +107,15 @@
       "published_on": "2026-05-02",
       "primary_entity": "Microsoft",
       "event_fingerprint": "microsoft-2026-ai-capex-increase"
+    },
+    {
+      "canonical_url": "https://www.theregister.com/2026/05/03/inference_is_giving_ai_chip/",
+      "normalized_url": "https://www.theregister.com/2026/05/03/inference_is_giving_ai_chip",
+      "title": "Inference is giving AI chip startups a second chance to make their mark",
+      "normalized_title": "inference is giving ai chip startups a second chance to make their mark",
+      "published_on": "2026-05-03",
+      "primary_entity": "Lumai",
+      "event_fingerprint": "lumai-optical-ai-inference-energy-efficiency"
     }
   ],
   "version": 2,

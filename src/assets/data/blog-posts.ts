@@ -208,6 +208,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 14,
+    slug: "lumai-optical-ai-energy-savings",
+    title: "Optical AI Startups Target 90% Energy Reduction for Inference",
+    description:
+      "UK startup Lumai launches the first optical computing system to run billion-parameter AI models in real-time, targeting 90% energy savings over traditional silicon architectures.",
+    imageAlt: "Optical computing architecture and laser-based data processing",
+    publishedOn: "2026-05-03",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
