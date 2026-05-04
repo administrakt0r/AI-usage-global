@@ -116,6 +116,15 @@
       "published_on": "2026-05-03",
       "primary_entity": "Lumai",
       "event_fingerprint": "lumai-optical-ai-inference-energy-efficiency"
+    },
+    {
+      "canonical_url": "https://www.datacenterknowledge.com/regulations/north-carolina-targets-hyperscale-costs-with-proposed-ai-infrastructure-bill",
+      "normalized_url": "https://www.datacenterknowledge.com/regulations/north-carolina-targets-hyperscale-costs-with-proposed-ai-infrastructure-bill",
+      "title": "North Carolina Targets Hyperscale Costs with Proposed AI Infrastructure Bill",
+      "normalized_title": "north carolina targets hyperscale costs with proposed ai infrastructure bill",
+      "published_on": "2026-05-04",
+      "primary_entity": "North Carolina General Assembly",
+      "event_fingerprint": "nc-ai-infrastructure-ratepayer-protection"
     }
   ],
   "version": 2,

@@ -220,6 +220,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 15,
+    slug: "nc-ai-infrastructure-resource-bill",
+    title: "North Carolina Bill Targets AI Data Center Resource Costs",
+    description:
+      "A new North Carolina bill proposes requiring AI data centers over 40 MW to pay full infrastructure costs and install 25% on-site clean generation.",
+    imageAlt: "Digital representation of a data center and energy grid infrastructure in North Carolina",
+    publishedOn: "2026-05-04",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
