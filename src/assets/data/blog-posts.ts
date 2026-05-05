@@ -232,6 +232,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 16,
+    slug: "openai-50-billion-compute-burn",
+    title: "OpenAI Projects $50 Billion Compute Spend for 2026",
+    description:
+      "OpenAI expects to spend $50 billion on computing power by the end of 2026, as Greg Brockman reveals massive infrastructure commitments tied to billions in partner investments.",
+    imageAlt: "Digital representation of massive data center infrastructure and capital flow",
+    publishedOn: "2026-05-05",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (

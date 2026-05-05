@@ -125,6 +125,15 @@
       "published_on": "2026-05-04",
       "primary_entity": "North Carolina General Assembly",
       "event_fingerprint": "nc-ai-infrastructure-ratepayer-protection"
+    },
+    {
+      "canonical_url": "https://www.theregister.com/2026/05/05/openai_50b_compute/",
+      "normalized_url": "https://www.theregister.com/2026/05/05/openai_50b_compute",
+      "title": "OpenAI exec says company hopes to burn $50B of somebody else's money on compute this year",
+      "normalized_title": "openai exec says company hopes to burn 50b of somebody elses money on compute this year",
+      "published_on": "2026-05-05",
+      "primary_entity": "OpenAI",
+      "event_fingerprint": "openai-50b-compute-spend-2026"
     }
   ],
   "version": 2,
