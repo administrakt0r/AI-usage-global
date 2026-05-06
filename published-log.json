@@ -134,6 +134,15 @@
       "published_on": "2026-05-05",
       "primary_entity": "OpenAI",
       "event_fingerprint": "openai-50b-compute-spend-2026"
+    },
+    {
+      "canonical_url": "https://www.jsg.utexas.edu/news/2026/05/data-centers-are-growing-in-texas-but-big-questions-remain-about-water-use/",
+      "normalized_url": "https://www.jsg.utexas.edu/news/2026/05/data-centers-are-growing-in-texas-but-big-questions-remain-about-water-use",
+      "title": "Data Centers Are Growing in Texas, But Big Questions Remain About Water Use",
+      "normalized_title": "data centers are growing in texas but big questions remain about water use",
+      "published_on": "2026-05-06",
+      "primary_entity": "UT Austin Jackson School of Geosciences",
+      "event_fingerprint": "texas-datacenter-water-use-projections"
     }
   ],
   "version": 2,
