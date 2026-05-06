@@ -244,6 +244,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 17,
+    slug: "texas-datacenter-water-use-projections",
+    title: "Texas Data Centers Projected to Use 9% of State Water by 2040",
+    description:
+      "A new UT Austin study warns that booming AI data center infrastructure could account for 9% of Texas water use by 2040, up from less than 1% today.",
+    imageAlt: "Data center server racks and water cooling infrastructure representation in Texas",
+    publishedOn: "2026-05-06",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
