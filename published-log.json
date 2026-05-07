@@ -143,6 +143,15 @@
       "published_on": "2026-05-06",
       "primary_entity": "UT Austin Jackson School of Geosciences",
       "event_fingerprint": "texas-datacenter-water-use-projections"
+    },
+    {
+      "canonical_url": "https://paenvironmentdaily.blogspot.com/2026/05/washington-jefferson-center-for-energy.html",
+      "normalized_url": "https://paenvironmentdaily.blogspot.com/2026/05/washington-jefferson-center-for-energy.html",
+      "title": "Washington & Jefferson Center For Energy Finds Communities Are Unprepared For The Rapid Industrialization Brought By A.I. Data Centers And Their Impacts",
+      "normalized_title": "washington jefferson center for energy finds communities are unprepared for the rapid industrialization brought by ai data centers and their impacts",
+      "published_on": "2026-05-07",
+      "primary_entity": "Washington & Jefferson College",
+      "event_fingerprint": "wj-ai-datacenter-governance-impacts-review"
     }
   ],
   "version": 2,

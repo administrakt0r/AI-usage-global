@@ -256,6 +256,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 18,
+    slug: "us-local-governance-ai-data-center-impacts",
+    title: "US Communities Unprepared for AI Data Center Resource Demands",
+    description:
+      "A new Washington & Jefferson College study warns that AI infrastructure growth is outpacing local governance, threatening power grids and watersheds.",
+    imageAlt: "Digital representation of a data center facility impacting local environment and resources",
+    publishedOn: "2026-05-07",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
