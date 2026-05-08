@@ -268,6 +268,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 19,
+    slug: "florida-protects-ratepayers-ai-infrastructure-costs",
+    title: "Florida Law Blocks AI Data Center Costs for Residential Ratepayers",
+    description:
+      "Governor Ron DeSantis signs SB 484 to shield Florida utility customers from subsidizing the massive infrastructure and energy costs of hyper-scale AI data centers.",
+    imageAlt: "Digital representation of a data center and power lines in Florida",
+    publishedOn: "2026-05-08",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
