@@ -152,6 +152,15 @@
       "published_on": "2026-05-07",
       "primary_entity": "Washington & Jefferson College",
       "event_fingerprint": "wj-ai-datacenter-governance-impacts-review"
+    },
+    {
+      "canonical_url": "https://news.wfsu.org/state-news/2026-05-08/gov-desantis-has-signed-a-bill-regulating-data-centers-in-florida",
+      "normalized_url": "https://news.wfsu.org/state-news/2026-05-08/gov-desantis-has-signed-a-bill-regulating-data-centers-in-florida",
+      "title": "Florida Law Blocks AI Data Center Costs for Residential Ratepayers",
+      "normalized_title": "florida law blocks ai data center costs for residential ratepayers",
+      "published_on": "2026-05-08",
+      "primary_entity": "Governor Ron DeSantis",
+      "event_fingerprint": "florida-ai-datacenter-ratepayer-protection"
     }
   ],
   "version": 2,
