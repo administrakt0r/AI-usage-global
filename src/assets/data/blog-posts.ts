@@ -280,6 +280,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 20,
+    slug: "oleary-utah-ai-data-center-approval",
+    title: "O'Leary's Massive Utah AI Data Center Project Wins Key Approval",
+    description:
+      "Utah's Box Elder County approves the 40,000-acre Stratos Project Area, a hyperscale AI data center campus projected to consume more than twice the electricity of the entire state.",
+    imageAlt: "Digital representation of a massive data center campus in a rural Utah landscape",
+    publishedOn: "2026-05-09",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
