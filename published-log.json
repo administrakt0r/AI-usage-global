@@ -161,6 +161,15 @@
       "published_on": "2026-05-08",
       "primary_entity": "Governor Ron DeSantis",
       "event_fingerprint": "florida-ai-datacenter-ratepayer-protection"
+    },
+    {
+      "canonical_url": "https://moneywise.com/news/top-stories/kevin-oleary-utah-data-center-box-elder-county",
+      "normalized_url": "https://moneywise.com/news/top-stories/kevin-oleary-utah-data-center-box-elder-county",
+      "title": "O'Leary's Utah data center sparks outcry",
+      "normalized_title": "olearys utah data center sparks outcry",
+      "published_on": "2026-05-09",
+      "primary_entity": "Kevin O'Leary / Box Elder County",
+      "event_fingerprint": "utah-ai-datacenter-approval-box-elder"
     }
   ],
   "version": 2,
