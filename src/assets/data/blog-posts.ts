@@ -292,6 +292,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 21,
+    slug: "georgia-ai-datacenter-water-dispute",
+    title: "Georgia AI Data Center Water Dispute Reveals Infrastructure Strain",
+    description:
+      "A QTS data center campus in Georgia consumed 29 million gallons of unaccounted-for water during construction, highlighting the hidden resource costs of AI infrastructure.",
+    imageAlt: "Digital representation of a data center and water infrastructure in Georgia",
+    publishedOn: "2026-05-10",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (

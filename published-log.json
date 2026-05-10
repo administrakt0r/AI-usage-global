@@ -170,6 +170,15 @@
       "published_on": "2026-05-09",
       "primary_entity": "Kevin O'Leary / Box Elder County",
       "event_fingerprint": "utah-ai-datacenter-approval-box-elder"
+    },
+    {
+      "canonical_url": "https://startupfortune.com/a-georgia-data-center-shows-why-ai-has-a-water-problem/",
+      "normalized_url": "https://startupfortune.com/a-georgia-data-center-shows-why-ai-has-a-water-problem",
+      "title": "A Georgia data center shows why AI has a water problem",
+      "normalized_title": "a georgia data center shows why ai has a water problem",
+      "published_on": "2026-05-10",
+      "primary_entity": "QTS Data Centers",
+      "event_fingerprint": "georgia-ai-datacenter-water-dispute"
     }
   ],
   "version": 2,
