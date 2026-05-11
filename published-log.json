@@ -179,6 +179,15 @@
       "published_on": "2026-05-10",
       "primary_entity": "QTS Data Centers",
       "event_fingerprint": "georgia-ai-datacenter-water-dispute"
+    },
+    {
+      "canonical_url": "https://sustainabilitymag.com/news/inside-metas-us-1bn-data-centre-clean-energy-water-use",
+      "normalized_url": "https://sustainabilitymag.com/news/inside-metas-us-1bn-data-centre-clean-energy-water-use",
+      "title": "Inside the Energy & Water Use of Meta's US$1bn Data Centre:",
+      "normalized_title": "inside the energy water use of metas us1bn data centre",
+      "published_on": "2026-05-11",
+      "primary_entity": "Meta",
+      "event_fingerprint": "meta-tulsa-data-center-sustainability"
     }
   ],
   "version": 2,

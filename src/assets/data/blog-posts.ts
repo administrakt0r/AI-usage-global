@@ -346,6 +346,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 22,
+    slug: "meta-tulsa-ai-data-center-water-strategy",
+    title: "Meta to Build $1B Sustainable AI Data Center in Tulsa",
+    description:
+      "Meta announces a $1 billion AI data center in Oklahoma featuring 1,500MW of clean energy and a 50-million-gallon annual water restoration partnership.",
+    imageAlt: "Digital representation of a sustainable data center campus and agricultural water management in Tulsa",
+    publishedOn: "2026-05-11",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
