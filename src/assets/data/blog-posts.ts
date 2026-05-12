@@ -358,6 +358,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 23,
+    slug: "microsoft-wyoming-datacenter-expansion",
+    title: "Microsoft Wyoming Data Center Expansion Targets Water Replenishment",
+    description:
+      "Microsoft acquires 3,200 acres in Wyoming for an AI data center expansion, committing to 566 million gallons of water replenishment and carbon-free energy.",
+    imageAlt: "Digital representation of a hyperscale data center campus in the Wyoming landscape",
+    publishedOn: "2026-05-12",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (

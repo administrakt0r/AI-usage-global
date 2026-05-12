@@ -188,6 +188,15 @@
       "published_on": "2026-05-11",
       "primary_entity": "Meta",
       "event_fingerprint": "meta-tulsa-data-center-sustainability"
+    },
+    {
+      "canonical_url": "https://sustainabilitymag.com/news/microsoft-data-centres-built-for-water-energy-efficiency",
+      "normalized_url": "https://sustainabilitymag.com/news/microsoft-data-centres-built-for-water-energy-efficiency",
+      "title": "Microsoft Data Centres: Built for Water & Energy Efficiency",
+      "normalized_title": "microsoft data centres built for water energy efficiency",
+      "published_on": "2026-05-12",
+      "primary_entity": "Microsoft",
+      "event_fingerprint": "microsoft-wyoming-datacenter-expansion"
     }
   ],
   "version": 2,
