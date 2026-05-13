@@ -197,6 +197,15 @@
       "published_on": "2026-05-12",
       "primary_entity": "Microsoft",
       "event_fingerprint": "microsoft-wyoming-datacenter-expansion"
+    },
+    {
+      "canonical_url": "https://www.theguardian.com/technology/2026/may/13/datacentres-electricity-consumption-uk-us-ai",
+      "normalized_url": "https://www.theguardian.com/technology/2026/may/13/datacentres-electricity-consumption-uk-us-ai",
+      "title": "Datacentres using 6% of electricity supply in UK and US, research says",
+      "normalized_title": "datacentres using 6 of electricity supply in uk and us research says",
+      "published_on": "2026-05-13",
+      "primary_entity": "International Data Center Authority (IDCA)",
+      "event_fingerprint": "idca-ai-datacenter-grid-strain-report"
     }
   ],
   "version": 2,

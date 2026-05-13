@@ -370,6 +370,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 24,
+    slug: "idca-ai-datacenter-grid-strain-report",
+    title: "Data Centers Now Consume 6% of UK and US Electricity",
+    description:
+      "A new IDCA report reveals that AI-driven demand has pushed data center electricity usage to 6% in the UK and US, sparking concerns over grid stability and social backlash.",
+    imageAlt: "Digital representation of data center infrastructure and national power grid strain",
+    publishedOn: "2026-05-13",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
