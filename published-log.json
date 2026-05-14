@@ -206,6 +206,15 @@
       "published_on": "2026-05-13",
       "primary_entity": "International Data Center Authority (IDCA)",
       "event_fingerprint": "idca-ai-datacenter-grid-strain-report"
+    },
+    {
+      "canonical_url": "https://lasvegassun.com/news/2026/may/14/report-data-centers-expanding-into-water-stressed-/",
+      "normalized_url": "https://lasvegassun.com/news/2026/may/14/report-data-centers-expanding-into-water-stressed",
+      "title": "Report: Data Centers Expanding into Water-Stressed, Vulnerable Communities Across California",
+      "normalized_title": "report data centers expanding into water stressed vulnerable communities across california",
+      "published_on": "2026-05-14",
+      "primary_entity": "Next 10",
+      "event_fingerprint": "california-datacenter-water-vulnerability-report"
     }
   ],
   "version": 2,
