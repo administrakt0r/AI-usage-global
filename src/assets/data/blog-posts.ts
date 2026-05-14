@@ -382,6 +382,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 25,
+    slug: "california-datacenter-water-vulnerability-report",
+    title: "California Data Centers Expand into Water-Stressed Communities",
+    description:
+      "A new Next 10 report finds that California's expanding data center industry is moving into regions with high water scarcity and social vulnerability, threatening local resources.",
+    imageAlt: "Digital representation of a data center facility in a water-stressed California landscape",
+    publishedOn: "2026-05-14",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
