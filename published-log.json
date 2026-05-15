@@ -215,6 +215,15 @@
       "published_on": "2026-05-14",
       "primary_entity": "Next 10",
       "event_fingerprint": "california-datacenter-water-vulnerability-report"
+    },
+    {
+      "canonical_url": "https://www.reviewjournal.com/news/politics-and-government/reno/reno-becomes-first-nevada-city-to-pause-data-center-development/",
+      "normalized_url": "https://www.reviewjournal.com/news/politics-and-government/reno/reno-becomes-first-nevada-city-to-pause-data-center-development",
+      "title": "Reno becomes first Nevada city to pause data center development",
+      "normalized_title": "reno becomes first nevada city to pause data center development",
+      "published_on": "2026-05-15",
+      "primary_entity": "Reno City Council",
+      "event_fingerprint": "reno-ai-datacenter-moratorium"
     }
   ],
   "version": 2,
