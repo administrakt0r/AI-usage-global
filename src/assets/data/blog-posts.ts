@@ -394,6 +394,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 26,
+    slug: "reno-ai-datacenter-moratorium",
+    title: "Reno Imposes Nevada's First AI Data Center Moratorium",
+    description:
+      "The Reno City Council votes 6-1 to pause new AI data center applications, citing concerns over massive electricity and water consumption in the high-desert region.",
+    imageAlt: "Digital representation of a data center moratorium and resource conservation in Reno, Nevada",
+    publishedOn: "2026-05-15",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
