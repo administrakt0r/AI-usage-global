@@ -406,6 +406,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 27,
+    slug: "new-york-ai-datacenter-moratorium-bill",
+    title: "New York Bill Proposes Statewide AI Data Center Moratorium",
+    description:
+      "A new New York Senate bill seeks a statewide freeze on AI data center construction to study impacts on a grid facing a projected 9,000 MW demand surge.",
+    imageAlt: "Digital representation of a data center moratorium and energy grid in New York",
+    publishedOn: "2026-05-16",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (

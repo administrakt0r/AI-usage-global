@@ -224,6 +224,15 @@
       "published_on": "2026-05-15",
       "primary_entity": "Reno City Council",
       "event_fingerprint": "reno-ai-datacenter-moratorium"
+    },
+    {
+      "canonical_url": "https://www.fingerlakes1.com/2026/05/16/new-york-bill-would-halt-new-ai-data-centers-as-cayuga-lake-project-fuels-growing-backlash/",
+      "normalized_url": "https://www.fingerlakes1.com/2026/05/16/new-york-bill-would-halt-new-ai-data-centers-as-cayuga-lake-project-fuels-growing-backlash",
+      "title": "New York bill would halt new AI data centers as Cayuga Lake project fuels growing backlash",
+      "normalized_title": "new york bill would halt new ai data centers as cayuga lake project fuels growing backlash",
+      "published_on": "2026-05-16",
+      "primary_entity": "New York State Senate",
+      "event_fingerprint": "ny-ai-datacenter-moratorium-bill"
     }
   ],
   "version": 2,
