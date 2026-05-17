@@ -233,6 +233,15 @@
       "published_on": "2026-05-16",
       "primary_entity": "New York State Senate",
       "event_fingerprint": "ny-ai-datacenter-moratorium-bill"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/ppl-data-center-pipeline-pjm-blackstone-earnings/819804/",
+      "normalized_url": "https://www.utilitydive.com/news/ppl-data-center-pipeline-pjm-blackstone-earnings/819804",
+      "title": "PPL 'advanced' data center pipeline grows to 28.3 GW in Pennsylvania",
+      "normalized_title": "ppl advanced data center pipeline grows to 28 3 gw in pennsylvania",
+      "published_on": "2026-05-17",
+      "primary_entity": "PPL Utilities",
+      "event_fingerprint": "ppl-28gw-ai-pipeline-pennsylvania"
     }
   ],
   "version": 2,
