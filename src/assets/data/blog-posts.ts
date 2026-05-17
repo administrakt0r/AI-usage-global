@@ -418,6 +418,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 28,
+    slug: "ppl-pennsylvania-ai-datacenter-pipeline",
+    title: "PPL Utilities Reports Massive 28 GW AI Data Center Pipeline",
+    description:
+      "PPL Utilities reports its advanced stage AI data center pipeline in Pennsylvania has grown to 28.3 GW, as the company explores nuclear and gas turbine solutions to meet demand.",
+    imageAlt: "Digital representation of a massive data center pipeline and power grid infrastructure for PPL Utilities",
+    publishedOn: "2026-05-17",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
