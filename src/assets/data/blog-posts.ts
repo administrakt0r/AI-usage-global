@@ -430,6 +430,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 29,
+    slug: "roy-power-act-data-center-reporting",
+    title: "Federal Bill Proposed to Track AI Data Center Water and Power Use",
+    description:
+      "Rep. Chip Roy introduces the POWER Act to mandate annual resource consumption reporting for large-scale AI data centers approved under expedited permitting.",
+    imageAlt: "Digital representation of federal oversight and resource tracking for AI data center infrastructure",
+    publishedOn: "2026-05-23",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (

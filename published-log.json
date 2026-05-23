@@ -242,6 +242,15 @@
       "published_on": "2026-05-17",
       "primary_entity": "PPL Utilities",
       "event_fingerprint": "ppl-28gw-ai-pipeline-pennsylvania"
+    },
+    {
+      "canonical_url": "https://www.fox7austin.com/news/roy-files-legislation-track-data-center-water-power-use",
+      "normalized_url": "https://www.fox7austin.com/news/roy-files-legislation-track-data-center-water-power-use",
+      "title": "Roy files legislation to track data center water, power use",
+      "normalized_title": "roy files legislation to track data center water power use",
+      "published_on": "2026-05-23",
+      "primary_entity": "U.S. Representative Chip Roy",
+      "event_fingerprint": "federal-power-act-resource-reporting"
     }
   ],
   "version": 2,
