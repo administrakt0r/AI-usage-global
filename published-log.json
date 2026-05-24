@@ -251,6 +251,15 @@
       "published_on": "2026-05-23",
       "primary_entity": "U.S. Representative Chip Roy",
       "event_fingerprint": "federal-power-act-resource-reporting"
+    },
+    {
+      "canonical_url": "https://www.cbc.ca/news/canada/british-columbia/protest-against-ai-data-centres-in-vancouver-9.7210309",
+      "normalized_url": "https://www.cbc.ca/news/canada/british-columbia/protest-against-ai-data-centres-in-vancouver",
+      "title": "Protesters rally against planned AI data centres in Vancouver",
+      "normalized_title": "protesters rally against planned ai data centres in vancouver",
+      "published_on": "2026-05-24",
+      "primary_entity": "Telus",
+      "event_fingerprint": "vancouver-ai-datacenter-protest"
     }
   ],
   "version": 2,
