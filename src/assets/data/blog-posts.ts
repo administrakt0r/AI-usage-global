@@ -442,6 +442,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 30,
+    slug: "vancouver-ai-datacenter-protest",
+    title: "Protesters Rally in Vancouver Against Planned Telus AI Data Centers",
+    description:
+      "Hundreds march through Vancouver to protest new AI data centers, raising concerns over water and energy consumption as the region faces Stage 2 water restrictions.",
+    imageAlt: "Digital representation of protesters and data center infrastructure in Vancouver",
+    publishedOn: "2026-05-24",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
