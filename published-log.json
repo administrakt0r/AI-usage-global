@@ -260,6 +260,15 @@
       "published_on": "2026-05-24",
       "primary_entity": "Telus",
       "event_fingerprint": "vancouver-ai-datacenter-protest"
+    },
+    {
+      "canonical_url": "https://www.investing.com/news/company-news/tekcapital-takes-51-stake-in-geothermal-ai-data-center-firm-93CH-4705799",
+      "normalized_url": "https://www.investing.com/news/company-news/tekcapital-takes-51-stake-in-geothermal-ai-data-center-firm-93CH-4705799",
+      "title": "Tekcapital Launches Geothermal AI Data Center Startup Vesari",
+      "normalized_title": "tekcapital launches geothermal ai data center startup vesari",
+      "published_on": "2026-05-25",
+      "primary_entity": "Tekcapital",
+      "event_fingerprint": "tekcapital-vesari-geothermal-ai-data-centers"
     }
   ],
   "version": 2,
