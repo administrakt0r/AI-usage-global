@@ -454,6 +454,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 31,
+    slug: "tekcapital-vesari-geothermal-ai-data-centers",
+    title: "Tekcapital Launches Geothermal AI Data Center Startup Vesari",
+    description:
+      "Tekcapital forms Vesari Inc. to develop off-grid, geothermal-powered AI data centers using LEO satellite connectivity to bypass grid constraints.",
+    imageAlt: "Digital representation of a geothermal data center and satellite connectivity",
+    publishedOn: "2026-05-25",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
