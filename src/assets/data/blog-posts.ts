@@ -466,6 +466,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 32,
+    slug: "structure-research-ai-sustainability-report-2026",
+    title: "AI Growth Drives Sustainability Shift in 2026 Environmental Report",
+    description:
+      "A new Structure Research report shows AI infrastructure pushed global data center energy consumption to 1.23% in 2025, triggering a massive shift toward liquid cooling and carbon-free power.",
+    imageAlt: "Digital representation of sustainable AI infrastructure and energy efficiency metrics",
+    publishedOn: "2026-05-26",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (

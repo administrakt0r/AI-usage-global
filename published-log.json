@@ -269,6 +269,15 @@
       "published_on": "2026-05-25",
       "primary_entity": "Tekcapital",
       "event_fingerprint": "tekcapital-vesari-geothermal-ai-data-centers"
+    },
+    {
+      "canonical_url": "https://www.edgeir.com/structure-research-says-ai-growth-is-driving-a-data-center-sustainability-shift-20260525",
+      "normalized_url": "https://www.edgeir.com/structure-research-says-ai-growth-is-driving-a-data-center-sustainability-shift-20260525",
+      "title": "Structure Research says AI growth is driving a data center sustainability shift",
+      "normalized_title": "structure research says ai growth is driving a data center sustainability shift",
+      "published_on": "2026-05-26",
+      "primary_entity": "Structure Research",
+      "event_fingerprint": "structure-research-2026-esg-report"
     }
   ],
   "version": 2,
