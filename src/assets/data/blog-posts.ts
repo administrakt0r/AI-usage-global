@@ -478,6 +478,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 33,
+    slug: "schneider-electric-ai-water-free-cooling",
+    title: "Schneider Electric: AI Data Centers Can Operate Water-Free",
+    description: "Schneider Electric reveals that high-density AI data centers can eliminate external water draw using closed-loop liquid cooling, potentially cutting usage by 50%.",
+    imageAlt: "Digital representation of a water-efficient AI data center with closed-loop cooling",
+    publishedOn: "2026-05-27",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
