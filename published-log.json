@@ -278,6 +278,15 @@
       "published_on": "2026-05-26",
       "primary_entity": "Structure Research",
       "event_fingerprint": "structure-research-2026-esg-report"
+    },
+    {
+      "canonical_url": "https://sustainabilitymag.com/news/schneider-electric-can-ai-data-centres-run-water-free",
+      "normalized_url": "https://sustainabilitymag.com/news/schneider-electric-can-ai-data-centres-run-water-free",
+      "title": "Schneider Electric: Can AI Data Centres Run Water-Free?",
+      "normalized_title": "schneider electric can ai data centres run water free",
+      "published_on": "2026-05-27",
+      "primary_entity": "Schneider Electric",
+      "event_fingerprint": "schneider-electric-closed-loop-liquid-cooling"
     }
   ],
   "version": 2,
