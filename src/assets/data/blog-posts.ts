@@ -489,6 +489,24 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 34,
+    slug: "nj-ai-datacenter-regulation-plan",
+    title: "New Jersey Announces Mandatory Resource Reporting for AI Data Centers",
+    description: "Governor Mikie Sherrill's new four-point plan requires AI data centers to report water and energy usage while securing independent, off-grid power sources.",
+    imageAlt: "Digital representation of AI data center regulation and independent power infrastructure in New Jersey",
+    publishedOn: "2026-05-28",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "New Jersey AI",
+      "data center regulation",
+      "Mikie Sherrill",
+      "AI energy reporting",
+      "behind-the-meter power",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

@@ -287,6 +287,15 @@
       "published_on": "2026-05-27",
       "primary_entity": "Schneider Electric",
       "event_fingerprint": "schneider-electric-closed-loop-liquid-cooling"
+    },
+    {
+      "canonical_url": "https://www.njspotlightnews.org/2026/05/sherrill-targets-data-centers-potential-to-do-good-for-communities/",
+      "normalized_url": "https://www.njspotlightnews.org/2026/05/sherrill-targets-data-centers-potential-to-do-good-for-communities",
+      "title": "New Jersey Announces Mandatory Resource Reporting for AI Data Centers",
+      "normalized_title": "new jersey announces mandatory resource reporting for ai data centers",
+      "published_on": "2026-05-28",
+      "primary_entity": "Governor Mikie Sherrill",
+      "event_fingerprint": "nj-ai-datacenter-regulation-plan"
     }
   ],
   "version": 2,
