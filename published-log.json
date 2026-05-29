@@ -305,6 +305,15 @@
       "published_on": "2026-05-29",
       "primary_entity": "China Datang",
       "event_fingerprint": "china-ai-energy-advantage-data-centers"
+    },
+    {
+      "canonical_url": "https://www.datacenterknowledge.com/infrastructure/breaking-points-the-ai-boom-is-colliding-with-water-infrastructure",
+      "normalized_url": "https://www.datacenterknowledge.com/infrastructure/breaking-points-the-ai-boom-is-colliding-with-water-infrastructure",
+      "title": "The Breaking Points: Water Is the New Constraint for AI Data Centers",
+      "normalized_title": "the breaking points water is the new constraint for ai data centers",
+      "published_on": "2026-05-29",
+      "primary_entity": "Data Center Knowledge",
+      "event_fingerprint": "ai-datacenter-water-infrastructure-constraints"
     }
   ],
   "version": 2,

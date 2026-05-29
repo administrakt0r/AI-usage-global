@@ -525,6 +525,17 @@ export const blogPosts: BlogPost[] = [
       "hyperscale computing",
     ],
   }),
+  createPost({
+    id: 36,
+    slug: "ai-datacenter-water-infrastructure-constraints",
+    title: "Water Scarcity Emerges as Critical Constraint for AI Data Centers",
+    description: "High-density AI workloads are pushing municipal water systems to their limits, with U.S. data centers projected to require up to 1.45 billion gallons of new water capacity per day by 2030.",
+    imageAlt: "Digital representation of a data center and water infrastructure constraints",
+    publishedOn: "2026-05-29",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
