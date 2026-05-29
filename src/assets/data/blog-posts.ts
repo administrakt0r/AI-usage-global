@@ -507,6 +507,24 @@ export const blogPosts: BlogPost[] = [
       "behind-the-meter power",
     ],
   }),
+  createPost({
+    id: 35,
+    slug: "china-ai-energy-advantage-data-centers",
+    title: "China’s Energy Advantage Reshapes the Global AI Infrastructure Race",
+    description: "China leverages its massive lead in renewable energy and rapid grid expansion to build a significant cost advantage in powering hyperscale AI data centers.",
+    imageAlt: "Digital representation of renewable energy infrastructure and AI data centers in China",
+    publishedOn: "2026-05-29",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "China AI",
+      "AI energy advantage",
+      "data center infrastructure",
+      "renewable energy",
+      "hyperscale computing",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

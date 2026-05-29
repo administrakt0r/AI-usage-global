@@ -296,6 +296,15 @@
       "published_on": "2026-05-28",
       "primary_entity": "Governor Mikie Sherrill",
       "event_fingerprint": "nj-ai-datacenter-regulation-plan"
+    },
+    {
+      "canonical_url": "https://www.aljazeera.com/economy/2026/5/28/chinas-secret-weapon-in-ai-race-with-us-lots-of-cheap-energy",
+      "normalized_url": "https://www.aljazeera.com/economy/2026/5/28/chinas-secret-weapon-in-ai-race-with-us-lots-of-cheap-energy",
+      "title": "China’s secret weapon in AI race with US? Lots of cheap energy",
+      "normalized_title": "chinas secret weapon in ai race with us lots of cheap energy",
+      "published_on": "2026-05-29",
+      "primary_entity": "China Datang",
+      "event_fingerprint": "china-ai-energy-advantage-data-centers"
     }
   ],
   "version": 2,
