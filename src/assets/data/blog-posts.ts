@@ -554,6 +554,17 @@ export const blogPosts: BlogPost[] = [
       "utility infrastructure",
     ],
   }),
+  createPost({
+    id: 38,
+    slug: "pennsylvania-grid-standards-ai-data-centers",
+    title: "Pennsylvania Unveils GRID Standards to Curb AI Data Center Energy Costs",
+    description: "Governor Shapiro's new GRID standards mandate a 'Bring Your Own Energy' model for AI data centers to protect Pennsylvania ratepayers from rising electricity costs.",
+    imageAlt: "Digital representation of data center infrastructure and energy regulation in Pennsylvania",
+    publishedOn: "2026-05-30",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (

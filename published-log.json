@@ -323,6 +323,15 @@
       "published_on": "2026-05-30",
       "primary_entity": "Louisiana Public Service Commission",
       "event_fingerprint": "louisiana-ai-datacenter-ratepayer-risk"
+    },
+    {
+      "canonical_url": "https://www.pa.gov/governor/newsroom/2026-press-releases/gov-shapiro-releases-full-grid-standards-to-protect-pennsylvania",
+      "normalized_url": "https://www.pa.gov/governor/newsroom/2026-press-releases/gov-shapiro-releases-full-grid-standards-to-protect-pennsylvania",
+      "title": "Pennsylvania Unveils GRID Standards to Curb AI Data Center Energy Costs",
+      "normalized_title": "pennsylvania unveils grid standards to curb ai data center energy costs",
+      "published_on": "2026-05-30",
+      "primary_entity": "Governor Josh Shapiro",
+      "event_fingerprint": "pennsylvania-grid-standards-ai-data-centers"
     }
   ],
   "version": 2,
