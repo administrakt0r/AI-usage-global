@@ -314,6 +314,15 @@
       "published_on": "2026-05-29",
       "primary_entity": "Data Center Knowledge",
       "event_fingerprint": "ai-datacenter-water-infrastructure-constraints"
+    },
+    {
+      "canonical_url": "https://www.environmentenergyleader.com/stories/ai-data-centers-put-louisiana-energy-costs-in-the-spotlight,127568",
+      "normalized_url": "https://www.environmentenergyleader.com/stories/ai-data-centers-put-louisiana-energy-costs-in-the-spotlight",
+      "title": "AI Data Centers Put Louisiana Energy Costs in the Spotlight",
+      "normalized_title": "ai data centers put louisiana energy costs in the spotlight",
+      "published_on": "2026-05-30",
+      "primary_entity": "Louisiana Public Service Commission",
+      "event_fingerprint": "louisiana-ai-datacenter-ratepayer-risk"
     }
   ],
   "version": 2,

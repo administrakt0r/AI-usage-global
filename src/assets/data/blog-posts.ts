@@ -536,6 +536,24 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 37,
+    slug: "louisiana-ai-datacenter-energy-costs",
+    title: "AI Data Centers Put Louisiana Energy Costs in the Spotlight",
+    description: "A new report warns that 7.2 GW of AI-driven power demand could shift massive infrastructure costs to Louisiana residential ratepayers.",
+    imageAlt: "Digital representation of a data center and power grid infrastructure in Louisiana",
+    publishedOn: "2026-05-30",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Louisiana AI",
+      "data center energy costs",
+      "Meta Hyperion",
+      "ratepayer protection",
+      "utility infrastructure",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
