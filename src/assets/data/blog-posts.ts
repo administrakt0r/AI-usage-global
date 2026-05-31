@@ -565,6 +565,24 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 39,
+    slug: "softbank-france-5gw-ai-data-center",
+    title: "SoftBank to Invest €75 Billion in 5 GW French AI Data Centers",
+    description: "SoftBank Group commits €75 billion to develop 5 GW of AI data center capacity in France, marking one of the largest infrastructure investments in European AI history.",
+    imageAlt: "Digital representation of massive AI data center infrastructure and energy grids in France",
+    publishedOn: "2026-05-31",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "SoftBank AI",
+      "France AI infrastructure",
+      "data center energy",
+      "gigawatt-scale compute",
+      "AI investment",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
