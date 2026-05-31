@@ -583,6 +583,24 @@ export const blogPosts: BlogPost[] = [
       "AI investment",
     ],
   }),
+  createPost({
+    id: 40,
+    slug: "denmark-ai-grid-rationing",
+    title: "Denmark Rations Grid Access as AI Buildout Floods Nordic Systems",
+    description: "Denmark's transmission operator Energinet halts new large-load grid agreements as AI-driven power demand reaches 15 GW, forcing a shift to maturity-based rationing.",
+    imageAlt: "Aerial view of a data center in Denmark and electrical grid infrastructure",
+    publishedOn: "2026-05-31",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Denmark AI",
+      "Energinet",
+      "grid rationing",
+      "AI power demand",
+      "data center moratorium",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
