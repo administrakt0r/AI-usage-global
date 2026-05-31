@@ -341,6 +341,15 @@
       "published_on": "2026-05-31",
       "primary_entity": "SoftBank Group",
       "event_fingerprint": "softbank-france-5gw-ai-datacenter-investment"
+    },
+    {
+      "canonical_url": "https://www.datacenterknowledge.com/build-design/denmark-rations-grid-access-as-ai-buildout-floods-nordic-systems",
+      "normalized_url": "https://www.datacenterknowledge.com/build-design/denmark-rations-grid-access-as-ai-buildout-floods-nordic-systems",
+      "title": "Denmark Rations Grid Access as AI Buildout Floods Nordic Systems",
+      "normalized_title": "denmark rations grid access as ai buildout floods nordic systems",
+      "published_on": "2026-05-31",
+      "primary_entity": "Energinet",
+      "event_fingerprint": "denmark-ai-grid-rationing"
     }
   ],
   "version": 2,
