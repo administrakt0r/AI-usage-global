@@ -332,6 +332,15 @@
       "published_on": "2026-05-30",
       "primary_entity": "Governor Josh Shapiro",
       "event_fingerprint": "pennsylvania-grid-standards-ai-data-centers"
+    },
+    {
+      "canonical_url": "https://group.softbank/en/news/press/20260531_0",
+      "normalized_url": "https://group.softbank/en/news/press/20260531_0",
+      "title": "SoftBank to Invest €75 Billion in 5 GW French AI Data Centers",
+      "normalized_title": "softbank to invest 75 billion in 5 gw french ai data centers",
+      "published_on": "2026-05-31",
+      "primary_entity": "SoftBank Group",
+      "event_fingerprint": "softbank-france-5gw-ai-datacenter-investment"
     }
   ],
   "version": 2,
