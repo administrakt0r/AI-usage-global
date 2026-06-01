@@ -350,6 +350,15 @@
       "published_on": "2026-05-31",
       "primary_entity": "Energinet",
       "event_fingerprint": "denmark-ai-grid-rationing"
+    },
+    {
+      "canonical_url": "https://www.iberdrola.com/press-room/news/detail/echelon-iberdrola-digital-infra-created-invest-more-2-billion-euros-data-centres-spain",
+      "normalized_url": "https://www.iberdrola.com/press-room/news/detail/echelon-iberdrola-digital-infra-created-invest-more-2-billion-euros-data-centres-spain",
+      "title": "Iberdrola and Echelon Launch €2 Billion AI Data Center Venture",
+      "normalized_title": "iberdrola and echelon launch 2 billion ai data center venture",
+      "published_on": "2026-06-01",
+      "primary_entity": "Iberdrola / Echelon Data Centres",
+      "event_fingerprint": "spain-ai-datacenter-joint-venture"
     }
   ],
   "version": 2,

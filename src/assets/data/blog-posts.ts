@@ -601,6 +601,17 @@ export const blogPosts: BlogPost[] = [
       "data center moratorium",
     ],
   }),
+  createPost({
+    id: 41,
+    slug: "iberdrola-echelon-ai-datacenter-spain",
+    title: "Iberdrola and Echelon Launch €2 Billion AI Data Center Venture",
+    description: "Iberdrola and Echelon Data Centres form a €2 billion joint venture to develop 700 MW of AI-ready data center capacity in Spain, powered by 24/7 renewable energy.",
+    imageAlt: "Digital representation of renewable energy infrastructure and AI data centers in Spain",
+    publishedOn: "2026-06-01",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
