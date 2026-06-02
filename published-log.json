@@ -359,6 +359,15 @@
       "published_on": "2026-06-01",
       "primary_entity": "Iberdrola / Echelon Data Centres",
       "event_fingerprint": "spain-ai-datacenter-joint-venture"
+    },
+    {
+      "canonical_url": "https://planetdetroit.org/2026/06/michigan-data-center-news-altman-saline/",
+      "normalized_url": "https://planetdetroit.org/2026/06/michigan-data-center-news-altman-saline",
+      "title": "Data center news: Altman visits Saline data center, says it’s ‘huge bet’ on AI",
+      "normalized_title": "data center news altman visits saline data center says its huge bet on ai",
+      "published_on": "2026-06-02",
+      "primary_entity": "OpenAI / Oracle",
+      "event_fingerprint": "stargate-michigan-infrastructure-costs"
     }
   ],
   "version": 2,
