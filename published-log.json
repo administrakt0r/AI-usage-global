@@ -368,6 +368,15 @@
       "published_on": "2026-06-02",
       "primary_entity": "OpenAI / Oracle",
       "event_fingerprint": "stargate-michigan-infrastructure-costs"
+    },
+    {
+      "canonical_url": "https://ballotpedia.org/Monterey_Park,_California,_Measure_NDC,_Prohibit_Data_Centers_Measure_%28June_2026%29",
+      "normalized_url": "https://ballotpedia.org/Monterey_Park,_California,_Measure_NDC,_Prohibit_Data_Centers_Measure_%28June_2026%29",
+      "title": "Monterey Park Voters Decide on Landmark Data Center Prohibition",
+      "normalized_title": "monterey park voters decide on landmark data center prohibition",
+      "published_on": "2026-06-02",
+      "primary_entity": "Monterey Park City Council",
+      "event_fingerprint": "monterey-park-data-center-prohibition-vote"
     }
   ],
   "version": 2,

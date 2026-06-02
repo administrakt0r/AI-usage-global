@@ -630,6 +630,17 @@ export const blogPosts: BlogPost[] = [
       "Oracle Saline Barn",
     ],
   }),
+  createPost({
+    id: 43,
+    slug: "monterey-park-data-center-prohibition-measure",
+    title: "Monterey Park Voters Decide on Landmark Data Center Prohibition",
+    description: "Voters in Monterey Park, California, head to the polls to decide on Measure NDC, which would prohibit large-scale data center construction due to resource concerns.",
+    imageAlt: "Digital representation of a community vote on data center infrastructure in Monterey Park",
+    publishedOn: "2026-06-02",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
