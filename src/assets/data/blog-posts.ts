@@ -612,6 +612,24 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 42,
+    slug: "stargate-michigan-infrastructure-costs",
+    title: "Stargate Project: Michigan Data Center Costs May Top $56 Billion",
+    description: "Oracle and OpenAI's Michigan 'Stargate' project faces massive costs as hardware and networking equipment add up to $40 billion to the $16 billion construction budget.",
+    imageAlt: "Digital representation of a massive data center campus and high-density AI infrastructure in Michigan",
+    publishedOn: "2026-06-02",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Stargate project",
+      "Michigan AI",
+      "data center infrastructure costs",
+      "Sam Altman",
+      "Oracle Saline Barn",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
