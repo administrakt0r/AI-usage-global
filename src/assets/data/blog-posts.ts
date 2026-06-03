@@ -641,6 +641,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 44,
+    slug: "un-report-ai-water-land-footprint",
+    title: "UN Report Warns AI Water Use Could Rival Needs of 1.3 Billion People",
+    description: "A new United Nations study reveals AI data centers could consume water equal to the needs of 1.3 billion people by 2030, while land and e-waste footprints also surge.",
+    imageAlt: "Digital representation of global AI infrastructure and its environmental resource footprint",
+    publishedOn: "2026-06-03",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (

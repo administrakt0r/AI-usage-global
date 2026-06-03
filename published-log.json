@@ -377,6 +377,15 @@
       "published_on": "2026-06-02",
       "primary_entity": "Monterey Park City Council",
       "event_fingerprint": "monterey-park-data-center-prohibition-vote"
+    },
+    {
+      "canonical_url": "https://time.com/article/2026/06/03/ai-global-water-resources-un-report/",
+      "normalized_url": "https://time.com/article/2026/06/03/ai-global-water-resources-un-report",
+      "title": "AI Could Use as Much Water as 1.3 Billion People by 2030, U.N. Report Warns",
+      "normalized_title": "ai could use as much water as 1 3 billion people by 2030 u n report warns",
+      "published_on": "2026-06-03",
+      "primary_entity": "United Nations University",
+      "event_fingerprint": "un-ai-resource-footprint-report"
     }
   ],
   "version": 2,
