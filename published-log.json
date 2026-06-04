@@ -395,6 +395,15 @@
       "published_on": "2026-06-04",
       "primary_entity": "Duke Energy",
       "event_fingerprint": "duke-energy-ai-load-growth"
+    },
+    {
+      "canonical_url": "https://www.newsfilecorp.com/release/300114/FingerMotion-Inc.-and-BlueFlare-Energy-Solutions-Agree-to-Enter-Into-Memorandum-of-Understanding-for-Development-of-BehindtheMeter-AI-Compute-Infrastructure-Across-Western-Canada",
+      "normalized_url": "https://www.newsfilecorp.com/release/300114/FingerMotion-Inc.-and-BlueFlare-Energy-Solutions-Agree-to-Enter-Into-Memorandum-of-Understanding-for-Development-of-BehindtheMeter-AI-Compute-Infrastructure-Across-Western-Canada",
+      "title": "FingerMotion, Inc. and BlueFlare Energy Solutions Agree to Enter Into Memorandum of Understanding for Development of Behind-the-Meter AI Compute Infrastructure Across Western Canada",
+      "normalized_title": "fingermotion inc and blueflare energy solutions agree to enter into memorandum of understanding for development of behind the meter ai compute infrastructure across western canada",
+      "published_on": "2026-06-04",
+      "primary_entity": "FingerMotion / BlueFlare",
+      "event_fingerprint": "fingermotion-canada-btm-natural-gas-ai"
     }
   ],
   "version": 2,
