@@ -386,6 +386,15 @@
       "published_on": "2026-06-03",
       "primary_entity": "United Nations University",
       "event_fingerprint": "un-ai-resource-footprint-report"
+    },
+    {
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-06-03/duke-duk-ceo-sees-ai-fueling-power-demand-growth-at-10-times-historic-pace",
+      "normalized_url": "https://www.bloomberg.com/news/articles/2026-06-03/duke-duk-ceo-sees-ai-fueling-power-demand-growth-at-10-times-historic-pace",
+      "title": "Duke Energy CEO Reports 10x Surge in AI-Driven Power Demand",
+      "normalized_title": "duke energy ceo reports 10x surge in ai driven power demand",
+      "published_on": "2026-06-04",
+      "primary_entity": "Duke Energy",
+      "event_fingerprint": "duke-energy-ai-load-growth"
     }
   ],
   "version": 2,

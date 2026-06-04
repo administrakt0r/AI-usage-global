@@ -652,6 +652,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 45,
+    slug: "duke-energy-ai-power-demand-surge",
+    title: "Duke Energy CEO Reports 10x Surge in AI-Driven Power Demand",
+    description: "Duke Energy reveals that AI and data centers are driving power demand growth at 10 times historic rates, prompting a record $103 billion infrastructure investment.",
+    imageAlt: "Digital representation of a data center and electrical grid infrastructure for Duke Energy",
+    publishedOn: "2026-06-04",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
