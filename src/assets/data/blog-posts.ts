@@ -663,6 +663,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 46,
+    slug: "fingermotion-blueflare-canada-btm-ai",
+    title: "FingerMotion and BlueFlare Partner for BTM AI Infrastructure in Canada",
+    description: "FingerMotion and BlueFlare sign an MOU to develop behind-the-meter, natural gas-powered AI compute infrastructure across Western Canada to bypass grid constraints.",
+    imageAlt: "Digital representation of a modular AI inference site and natural gas power infrastructure in Western Canada",
+    publishedOn: "2026-06-04",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
