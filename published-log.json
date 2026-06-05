@@ -404,6 +404,15 @@
       "published_on": "2026-06-04",
       "primary_entity": "FingerMotion / BlueFlare",
       "event_fingerprint": "fingermotion-canada-btm-natural-gas-ai"
+    },
+    {
+      "canonical_url": "https://www.pahouse.com/InTheNews/NewsRelease/?id=143890",
+      "normalized_url": "https://www.pahouse.com/InTheNews/NewsRelease/?id=143890",
+      "title": "State House unanimously adopts Matzie resolution to study costs, benefits of remaining with grid operator PJM",
+      "normalized_title": "state house unanimously adopts matzie resolution to study costs benefits of remaining with grid operator pjm",
+      "published_on": "2026-06-05",
+      "primary_entity": "Pennsylvania House of Representatives",
+      "event_fingerprint": "pa-house-pjm-grid-exit-study"
     }
   ],
   "version": 2,
