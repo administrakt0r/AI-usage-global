@@ -685,6 +685,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 48,
+    slug: "seattle-ai-datacenter-moratorium",
+    title: "Seattle Enacts One-Year Moratorium on Large AI Data Centers",
+    description: "The Seattle City Council committee unanimously approves a one-year pause on new data center projects to study the impact of a proposed 369 MW compute load on the city's grid.",
+    imageAlt: "Digital representation of the Seattle skyline and data center infrastructure",
+    publishedOn: "2026-06-05",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (

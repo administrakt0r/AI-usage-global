@@ -413,6 +413,15 @@
       "published_on": "2026-06-05",
       "primary_entity": "Pennsylvania House of Representatives",
       "event_fingerprint": "pa-house-pjm-grid-exit-study"
+    },
+    {
+      "canonical_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/seattle-to-pass-one-year-ai-data-center-moratorium-next-week-will-use-window-to-study-community-impact-of-ai-buildouts",
+      "normalized_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/seattle-to-pass-one-year-ai-data-center-moratorium-next-week-will-use-window-to-study-community-impact-of-ai-buildouts",
+      "title": "Seattle to pass one-year AI data center moratorium next week — will use window to study community impact of AI buildouts",
+      "normalized_title": "seattle to pass one year ai data center moratorium next week will use window to study community impact of ai buildouts",
+      "published_on": "2026-06-05",
+      "primary_entity": "Seattle City Council",
+      "event_fingerprint": "seattle-ai-datacenter-moratorium"
     }
   ],
   "version": 2,
