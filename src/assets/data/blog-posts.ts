@@ -674,6 +674,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 47,
+    slug: "pennsylvania-pjm-grid-exit-study",
+    title: "Pennsylvania House Unanimously Votes to Study PJM Grid Exit",
+    description: "The Pennsylvania House orders a study to evaluate exiting the PJM Interconnection as AI-driven power demand and infrastructure costs strain the 13-state grid.",
+    imageAlt: "Digital representation of the PJM electrical grid and data center infrastructure in Pennsylvania",
+    publishedOn: "2026-06-05",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
