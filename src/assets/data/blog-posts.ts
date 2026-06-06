@@ -707,6 +707,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 50,
+    slug: "oleary-utah-ai-datacenter-footprint-cut",
+    title: "O'Leary Agrees to Cut Stratos AI Data Center Area in Half",
+    description:
+      "Celebrity investor Kevin O'Leary reduces the planned footprint of Utah's Stratos Project from 40,000 to 20,000 acres following intense community and legislative backlash.",
+    imageAlt: "Digital representation of a reduced data center project footprint and rural landscape in Utah",
+    publishedOn: "2026-06-06",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
