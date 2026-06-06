@@ -696,6 +696,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 49,
+    slug: "illinois-suspends-ai-datacenter-tax-breaks",
+    title: "Illinois Governor Suspends AI Data Center Tax Breaks",
+    description: "Governor JB Pritzker announces a two-year pause on data center tax incentives to protect Illinois ratepayers and natural resources from AI-driven demand.",
+    imageAlt: "Digital representation of a data center moratorium and energy grid in Illinois",
+    publishedOn: "2026-06-06",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (

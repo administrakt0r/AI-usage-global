@@ -422,6 +422,15 @@
       "published_on": "2026-06-05",
       "primary_entity": "Seattle City Council",
       "event_fingerprint": "seattle-ai-datacenter-moratorium"
+    },
+    {
+      "canonical_url": "https://www.enr.com/articles/63112-ill-governor-pauses-data-center-incentives-ny-lawmakers-pass-one-year-moratorium",
+      "normalized_url": "https://www.enr.com/articles/63112-ill-governor-pauses-data-center-incentives-ny-lawmakers-pass-one-year-moratorium",
+      "title": "Illinois Governor Suspends AI Data Center Tax Breaks",
+      "normalized_title": "illinois governor suspends ai data center tax breaks",
+      "published_on": "2026-06-06",
+      "primary_entity": "Governor JB Pritzker",
+      "event_fingerprint": "illinois-ai-datacenter-tax-incentive-pause"
     }
   ],
   "version": 2,
