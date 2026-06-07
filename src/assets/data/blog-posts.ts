@@ -731,6 +731,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 52,
+    slug: "ai-water-usage-264-billion-gallons-2025",
+    title: "AI Data Centers' Water Consumption Breaks 264 Billion Gallons in 2025",
+    description: "New data shows AI infrastructure consumed 264 billion gallons of water in the US during 2025 as a massive drought affects 63% of the country.",
+    imageAlt: "Digital representation of a data center and water consumption during a drought",
+    publishedOn: "2026-06-07",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
