@@ -440,6 +440,15 @@
       "published_on": "2026-06-06",
       "primary_entity": "Kevin O'Leary",
       "event_fingerprint": "utah-ai-datacenter-size-reduction"
+    },
+    {
+      "canonical_url": "https://www.cbc.ca/news/canada/growing-backlash-ai-data-centres-1.7225796",
+      "normalized_url": "https://www.cbc.ca/news/canada/growing-backlash-ai-data-centres-1.7225796",
+      "title": "Canada Faces Surging AI Data Center Pipeline and Growing Backlash",
+      "normalized_title": "canada faces surging ai data center pipeline and growing backlash",
+      "published_on": "2026-06-07",
+      "primary_entity": "York University",
+      "event_fingerprint": "canada-ai-datacenter-pipeline-backlash"
     }
   ],
   "version": 2,
