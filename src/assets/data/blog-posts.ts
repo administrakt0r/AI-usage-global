@@ -719,6 +719,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 51,
+    slug: "canada-ai-datacenter-pipeline-backlash",
+    title: "Canada Faces Surging AI Data Center Pipeline and Growing Backlash",
+    description:
+      "A new York University study reveals 96 proposed AI data center facilities in Canada, sparking nationwide protests over land, water, and energy use.",
+    imageAlt: "Digital representation of a data center protest and infrastructure pipeline in Canada",
+    publishedOn: "2026-06-07",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
