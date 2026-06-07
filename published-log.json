@@ -449,6 +449,15 @@
       "published_on": "2026-06-07",
       "primary_entity": "York University",
       "event_fingerprint": "canada-ai-datacenter-pipeline-backlash"
+    },
+    {
+      "canonical_url": "https://www.barchart.com/story/news/2339834/ai-data-centers-water-consumption-breaks-264-billion-gallons-in-2025-as-devastating-drought-hits-nearly-63-of-u-s",
+      "normalized_url": "https://www.barchart.com/story/news/2339834/ai-data-centers-water-consumption-breaks-264-billion-gallons-in-2025-as-devastating-drought-hits-nearly-63-of-u-s",
+      "title": "AI Data Centers' Water Consumption Breaks 264 Billion Gallons in 2025 as Devastating Drought Hits Nearly 63% of U.S.",
+      "normalized_title": "ai data centers water consumption breaks 264 billion gallons in 2025 as devastating drought hits nearly 63 of u s",
+      "published_on": "2026-06-07",
+      "primary_entity": "Gneuton",
+      "event_fingerprint": "ai-2025-water-usage-report"
     }
   ],
   "version": 2,
