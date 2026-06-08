@@ -742,6 +742,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 53,
+    slug: "google-spacex-ai-compute-deal",
+    title: "Google to Pay SpaceX $920 Million Monthly for AI Compute Capacity",
+    description: "Google's Alphabet agrees to a $30 billion deal with SpaceX for access to 110,000 Nvidia GPUs and massive AI compute infrastructure.",
+    imageAlt: "Digital representation of a massive AI compute cluster and corporate logos of Google and SpaceX",
+    publishedOn: "2026-06-08",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
