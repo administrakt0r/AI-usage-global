@@ -458,6 +458,15 @@
       "published_on": "2026-06-07",
       "primary_entity": "Gneuton",
       "event_fingerprint": "ai-2025-water-usage-report"
+    },
+    {
+      "canonical_url": "https://ciceros.org/2026/06/08/google-to-pay-spacex-920-million-monthly-for-ai-computing-capacity/",
+      "normalized_url": "https://ciceros.org/2026/06/08/google-to-pay-spacex-920-million-monthly-for-ai-computing-capacity",
+      "title": "Google to Pay SpaceX $920 Million Monthly for AI Computing Capacity",
+      "normalized_title": "google to pay spacex 920 million monthly for ai computing capacity",
+      "published_on": "2026-06-08",
+      "primary_entity": "Alphabet / SpaceX",
+      "event_fingerprint": "google-spacex-30b-ai-compute-deal"
     }
   ],
   "version": 2,
