@@ -753,6 +753,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 54,
+    slug: "us-ai-datacenter-drought-risk-analysis",
+    title: "Majority of US AI Data Centers Planned for Drought-Hit Areas",
+    description:
+      "A new analysis reveals that 64% of planned US AI data centers are located in drought-stricken regions, intensifying competition for water resources.",
+    imageAlt: "Digital representation of a data center and drought-stricken landscape in the United States",
+    publishedOn: "2026-06-08",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
