@@ -467,6 +467,15 @@
       "published_on": "2026-06-08",
       "primary_entity": "Alphabet / SpaceX",
       "event_fingerprint": "google-spacex-30b-ai-compute-deal"
+    },
+    {
+      "canonical_url": "https://www.theguardian.com/us-news/2026/jun/08/datacenter-ai-drought-water",
+      "normalized_url": "https://www.theguardian.com/us-news/2026/jun/08/datacenter-ai-drought-water",
+      "title": "Majority of US's new AI datacenters to be built on drought-hit land",
+      "normalized_title": "majority of uss new ai datacenters to be built on drought hit land",
+      "published_on": "2026-06-08",
+      "primary_entity": "US AI Data Center Industry",
+      "event_fingerprint": "us-ai-datacenter-drought-risk"
     }
   ],
   "version": 2,
