@@ -765,6 +765,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 55,
+    slug: "kansas-ai-datacenter-water-usage",
+    title: "Proposed Kansas AI Data Center Projected to Save 2.4 Billion Gallons of Water",
+    description: "Triple Oak Power's Finney County project claims an 80% reduction in water usage by replacing existing crop irrigation with high-density AI infrastructure.",
+    imageAlt: "Digital representation of a data center in a Kansas agricultural landscape",
+    publishedOn: "2026-06-09",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
