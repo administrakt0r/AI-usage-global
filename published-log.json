@@ -476,6 +476,15 @@
       "published_on": "2026-06-08",
       "primary_entity": "US AI Data Center Industry",
       "event_fingerprint": "us-ai-datacenter-drought-risk"
+    },
+    {
+      "canonical_url": "https://www.hppr.org/hppr-news/2026-06-09/an-ai-data-center-project-for-western-kansas-might-use-less-water-than-irrigation-farming",
+      "normalized_url": "https://www.hppr.org/hppr-news/2026-06-09/an-ai-data-center-project-for-western-kansas-might-use-less-water-than-irrigation-farming",
+      "title": "An AI data center project for western Kansas might use less water than irrigation farming",
+      "normalized_title": "an ai data center project for western kansas might use less water than irrigation farming",
+      "published_on": "2026-06-09",
+      "primary_entity": "Triple Oak Power",
+      "event_fingerprint": "kansas-ai-datacenter-water-usage-savings"
     }
   ],
   "version": 2,
