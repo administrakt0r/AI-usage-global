@@ -485,6 +485,15 @@
       "published_on": "2026-06-09",
       "primary_entity": "Triple Oak Power",
       "event_fingerprint": "kansas-ai-datacenter-water-usage-savings"
+    },
+    {
+      "canonical_url": "https://news.mit.edu/2026/nuclear-inspired-cooling-system-ferveret-could-make-data-centers-more-sustainable-0610",
+      "normalized_url": "https://news.mit.edu/2026/nuclear-inspired-cooling-system-ferveret-could-make-data-centers-more-sustainable-0610",
+      "title": "Startup's nuclear-inspired cooling system could make data centers more sustainable",
+      "normalized_title": "startups nuclear inspired cooling system could make data centers more sustainable",
+      "published_on": "2026-06-10",
+      "primary_entity": "Ferveret",
+      "event_fingerprint": "ferveret-nuclear-inspired-cooling-system"
     }
   ],
   "version": 2,
