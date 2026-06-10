@@ -776,6 +776,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 56,
+    slug: "ferveret-nuclear-inspired-ai-cooling",
+    title: "MIT Startup Unveils Water-Free Cooling for AI Data Centers",
+    description: "MIT-born startup Ferveret launches a modular, water-free cooling system using nuclear-inspired subcooled boiling to boost AI power efficiency by 35%.",
+    imageAlt: "Digital representation of a modular AI server box with micro-bubble cooling technology",
+    publishedOn: "2026-06-10",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
