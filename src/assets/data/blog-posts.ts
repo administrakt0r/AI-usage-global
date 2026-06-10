@@ -787,6 +787,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 57,
+    slug: "switch-9-5-billion-ai-infrastructure-debt",
+    title: "Switch Secures $9.5B Debt Facility for AI Data Center Expansion",
+    description: "Data center operator Switch has expanded its debt facility to $9.5 billion to fuel a massive expansion of AI-optimized infrastructure across its hyperscale campuses.",
+    imageAlt: "Digital representation of a hyperscale data center campus and capital investment for AI infrastructure",
+    publishedOn: "2026-06-10",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (

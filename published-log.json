@@ -494,6 +494,15 @@
       "published_on": "2026-06-10",
       "primary_entity": "Ferveret",
       "event_fingerprint": "ferveret-nuclear-inspired-cooling-system"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/switch-increases-debt-facility-to-95bn-to-fund-ai-data-center-build-out/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/switch-increases-debt-facility-to-95bn-to-fund-ai-data-center-build-out",
+      "title": "Switch increases debt facility to $9.5bn to fund AI data center build-out",
+      "normalized_title": "switch increases debt facility to 9 5bn to fund ai data center build out",
+      "published_on": "2026-06-10",
+      "primary_entity": "Switch",
+      "event_fingerprint": "switch-9-5bn-debt-facility-ai"
     }
   ],
   "version": 2,
