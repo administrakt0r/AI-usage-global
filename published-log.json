@@ -485,6 +485,15 @@
       "published_on": "2026-06-09",
       "primary_entity": "Triple Oak Power",
       "event_fingerprint": "kansas-ai-datacenter-water-usage-savings"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/not-for-profit-utilities-turn-to-energy-storage-as-data-centers-drive-cost/822370/",
+      "normalized_url": "https://www.utilitydive.com/news/not-for-profit-utilities-turn-to-energy-storage-as-data-centers-drive-cost/822370",
+      "title": "Not-for-profit utilities turn to energy storage as data centers drive cost, reliability concerns",
+      "normalized_title": "not for profit utilities turn to energy storage as data centers drive cost reliability concerns",
+      "published_on": "2026-06-09",
+      "primary_entity": "NRECA / Meeker Energy",
+      "event_fingerprint": "rural-coop-ai-energy-storage-hedge"
     }
   ],
   "version": 2,

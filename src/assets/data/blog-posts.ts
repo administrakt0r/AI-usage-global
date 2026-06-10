@@ -776,6 +776,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 56,
+    slug: "rural-coops-ai-energy-storage-hedge",
+    title: "Not-for-profit Utilities Turn to Energy Storage to Hedge AI Costs",
+    description: "Rural electric cooperatives deploy battery storage to mitigate wholesale power price spikes driven by hyperscale AI data center demand.",
+    imageAlt: "Digital representation of an energy storage power station and rural electrical grid",
+    publishedOn: "2026-06-09",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
