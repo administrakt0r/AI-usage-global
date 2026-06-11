@@ -798,6 +798,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 58,
+    slug: "crusoe-pauses-1-8gw-wyoming-data-center",
+    title: "Crusoe Energy Pauses 1.8 GW Project Jade Data Center in Wyoming",
+    description: "Crusoe Energy halts its massive 1.8 GW Cheyenne campus at a customer's request, highlighting volatility in AI infrastructure expansion.",
+    imageAlt: "AI data center infrastructure visualization",
+    publishedOn: "2026-06-11",
+    readTime: 4,
+    category: AI_USAGE,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (

@@ -503,6 +503,15 @@
       "published_on": "2026-06-10",
       "primary_entity": "Switch",
       "event_fingerprint": "switch-9-5bn-debt-facility-ai"
+    },
+    {
+      "canonical_url": "https://constructionreviewonline.com/40bn-project-jade-data-center-project-by-crusoe-in-cheyenne-wyoming-pauses-development/",
+      "normalized_url": "https://constructionreviewonline.com/40bn-project-jade-data-center-project-by-crusoe-in-cheyenne-wyoming-pauses-development",
+      "title": "Crusoe Energy Pauses 1.8 GW Project Jade Data Center in Wyoming",
+      "normalized_title": "crusoe energy pauses 1 8 gw project jade data center in wyoming",
+      "published_on": "2026-06-11",
+      "primary_entity": "Crusoe Energy",
+      "event_fingerprint": "crusoe-wyoming-jade-pause"
     }
   ],
   "version": 2,
