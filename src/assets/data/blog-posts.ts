@@ -809,6 +809,17 @@ export const blogPosts: BlogPost[] = [
     category: AI_USAGE,
     featured: false,
   }),
+  createPost({
+    id: 59,
+    slug: "amazon-first-data-center-water-disclosure",
+    title: "Amazon Reports 2.5 Billion Gallons of Data Center Water Use",
+    description: "Amazon's first water disclosure reveals 2.5 billion gallons used in 2025 and a 52% efficiency gain since 2021 through an air-cooling first strategy.",
+    imageAlt: "Digital representation of a hyperscale data center and water efficiency metrics for Amazon",
+    publishedOn: "2026-06-11",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (

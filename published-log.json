@@ -512,6 +512,15 @@
       "published_on": "2026-06-11",
       "primary_entity": "Crusoe Energy",
       "event_fingerprint": "crusoe-wyoming-jade-pause"
+    },
+    {
+      "canonical_url": "https://www.latitudemedia.com/news/amazon-finally-reports-its-annual-water-use-at-data-centers/",
+      "normalized_url": "https://www.latitudemedia.com/news/amazon-finally-reports-its-annual-water-use-at-data-centers",
+      "title": "Amazon Reports 2.5 Billion Gallons of Data Center Water Use",
+      "normalized_title": "amazon reports 2 5 billion gallons of data center water use",
+      "published_on": "2026-06-11",
+      "primary_entity": "Amazon / AWS",
+      "event_fingerprint": "amazon-first-water-disclosure-2025"
     }
   ],
   "version": 2,
