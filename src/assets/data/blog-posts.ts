@@ -831,6 +831,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 61,
+    slug: "epa-declines-national-ai-datacenter-standards",
+    title: "US EPA Declines National Standards for AI Data Centers",
+    description: "The US EPA announces it will not set national standards for data center resource consumption, leaving regulation of AI's water and energy footprint to the states.",
+    imageAlt: "US EPA headquarters and digital representation of AI data center infrastructure",
+    publishedOn: "2026-06-12",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (

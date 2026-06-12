@@ -530,6 +530,15 @@
       "published_on": "2026-06-12",
       "primary_entity": "Micron Technology",
       "event_fingerprint": "micron-ai-memory-price-surge"
+    },
+    {
+      "canonical_url": "https://impakter.com/us-epa-fails-to-regulate-new-data-centers/",
+      "normalized_url": "https://impakter.com/us-epa-fails-to-regulate-new-data-centers",
+      "title": "US EPA Fails to Regulate New Data Centers",
+      "normalized_title": "us epa fails to regulate new data centers",
+      "published_on": "2026-06-12",
+      "primary_entity": "US EPA",
+      "event_fingerprint": "epa-data-center-standards-refusal"
     }
   ],
   "version": 2,
