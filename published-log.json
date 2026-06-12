@@ -521,6 +521,15 @@
       "published_on": "2026-06-11",
       "primary_entity": "Amazon / AWS",
       "event_fingerprint": "amazon-first-water-disclosure-2025"
+    },
+    {
+      "canonical_url": "https://www.kucoin.com/news/flash/micron-shares-surge-11-7-as-ai-driven-storage-demand-bolsters-sector",
+      "normalized_url": "https://www.kucoin.com/news/flash/micron-shares-surge-11-7-as-ai-driven-storage-demand-bolsters-sector",
+      "title": "Micron shares rise 11.7% as AI-driven storage demand strengthens the sector",
+      "normalized_title": "micron shares rise 11 7 as ai driven storage demand strengthens the sector",
+      "published_on": "2026-06-12",
+      "primary_entity": "Micron Technology",
+      "event_fingerprint": "micron-ai-memory-price-surge"
     }
   ],
   "version": 2,
