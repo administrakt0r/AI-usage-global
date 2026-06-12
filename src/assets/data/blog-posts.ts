@@ -820,6 +820,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 60,
+    slug: "micron-ai-memory-price-surge",
+    title: "Micron Shares Surge 11.7% as AI Storage Demand Hits Critical Bottleneck",
+    description: "Micron stock jumps as AI infrastructure demand drives a memory supply shortage, with prices projected to rise through 2027 as hyperscalers lock in long-term contracts.",
+    imageAlt: "Digital representation of high-density memory chips and AI infrastructure capital investment",
+    publishedOn: "2026-06-12",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
