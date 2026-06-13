@@ -539,6 +539,15 @@
       "published_on": "2026-06-12",
       "primary_entity": "US EPA",
       "event_fingerprint": "epa-data-center-standards-refusal"
+    },
+    {
+      "canonical_url": "https://www.prnewswire.com/news-releases/aesc-and-prevalon-energy-sign-10-gwh-strategic-supply-agreement-to-support-global-energy-storage-growth-302799564.html",
+      "normalized_url": "https://www.prnewswire.com/news-releases/aesc-and-prevalon-energy-sign-10-gwh-strategic-supply-agreement-to-support-global-energy-storage-growth-302799564",
+      "title": "AESC and Prevalon Energy Sign 10+ GWh Strategic Supply Agreement to Support Global Energy Storage Growth",
+      "normalized_title": "aesc and prevalon energy sign 10 gwh strategic supply agreement to support global energy storage growth",
+      "published_on": "2026-06-13",
+      "primary_entity": "AESC / Prevalon Energy",
+      "event_fingerprint": "aesc-prevalon-10gwh-ai-energy-storage"
     }
   ],
   "version": 2,
