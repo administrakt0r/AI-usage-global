@@ -842,6 +842,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 62,
+    slug: "aesc-prevalon-10gwh-ai-energy-storage",
+    title: "AESC and Prevalon Energy Secure 10 GWh Deal for AI Power Infrastructure",
+    description:
+      "AESC and Prevalon Energy sign a 10+ GWh battery supply agreement to support AI data center power infrastructure and grid stability over the next three years.",
+    imageAlt: "Digital representation of utility-scale battery storage and AI data center infrastructure",
+    publishedOn: "2026-06-13",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
