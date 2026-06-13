@@ -854,6 +854,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 63,
+    slug: "nvidia-blackwell-gpu-price-hike",
+    title: "Nvidia RTX Pro 6000 Blackwell Pricing Surges 55 Percent",
+    description:
+      "Nvidia increases the official marketplace price of its flagship workstation GPU to $13,250 as the global memory shortage and AI demand drive massive hardware inflation.",
+    imageAlt: "Digital representation of high-end Nvidia Blackwell workstation GPUs and pricing metrics",
+    publishedOn: "2026-06-13",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (

@@ -548,6 +548,15 @@
       "published_on": "2026-06-13",
       "primary_entity": "AESC / Prevalon Energy",
       "event_fingerprint": "aesc-prevalon-10gwh-ai-energy-storage"
+    },
+    {
+      "canonical_url": "https://www.tomshardware.com/pc-components/gpus/nvidia-raises-rtx-pro-6000-blackwell-gpu-pricing-to-usd13-250-55-percent-increase-over-msrp-in-a-years-time",
+      "normalized_url": "https://www.tomshardware.com/pc-components/gpus/nvidia-raises-rtx-pro-6000-blackwell-gpu-pricing-to-usd13-250-55-percent-increase-over-msrp-in-a-years-time",
+      "title": "Nvidia raises RTX Pro 6000 Blackwell GPU pricing to $13,250 — 55% increase over MSRP in a year's time",
+      "normalized_title": "nvidia raises rtx pro 6000 blackwell gpu pricing to 13250 55 increase over msrp in a years time",
+      "published_on": "2026-06-13",
+      "primary_entity": "Nvidia",
+      "event_fingerprint": "nvidia-blackwell-gpu-price-hike"
     }
   ],
   "version": 2,
