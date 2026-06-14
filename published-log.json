@@ -566,6 +566,15 @@
       "published_on": "2026-06-14",
       "primary_entity": "Data Center Watch",
       "event_fingerprint": "us-ai-datacenter-opposition-surge"
+    },
+    {
+      "canonical_url": "https://www.wlrn.org/npr-breaking-news/2026-06-14/worries-over-water-as-a-giant-data-center-moves-into-the-new-mexico-desert",
+      "normalized_url": "https://www.wlrn.org/npr-breaking-news/2026-06-14/worries-over-water-as-a-giant-data-center-moves-into-the-new-mexico-desert",
+      "title": "Worries over water as a giant data center moves into the New Mexico desert",
+      "normalized_title": "worries over water as a giant data center moves into the new mexico desert",
+      "published_on": "2026-06-14",
+      "primary_entity": "Oracle / OpenAI",
+      "event_fingerprint": "new-mexico-ai-datacenter-water-remorse"
     }
   ],
   "version": 2,

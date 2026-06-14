@@ -877,6 +877,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 65,
+    slug: "new-mexico-ai-datacenter-water-remorse",
+    title: "New Mexico Community Re-evaluates Massive AI Data Center Water Use",
+    description: "Dona Ana County residents express 'buyer's remorse' over Project Jupiter's 11-million-gallon daily water demand in the drought-hit desert.",
+    imageAlt: "Digital representation of community opposition and a massive AI data center campus in the New Mexico desert",
+    publishedOn: "2026-06-14",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
