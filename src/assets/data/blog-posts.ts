@@ -866,6 +866,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 64,
+    slug: "local-resistance-halts-130-billion-in-u-s-data-center-projects",
+    title: "Local Resistance Halts $130 Billion in U.S. Data Center Projects",
+    description: "A record $130 billion in AI data center projects were blocked or delayed in Q1 2026 as community opposition groups double across the United States.",
+    imageAlt: "Digital representation of community opposition and blocked AI data center infrastructure in the United States",
+    publishedOn: "2026-06-14",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (

@@ -557,6 +557,15 @@
       "published_on": "2026-06-13",
       "primary_entity": "Nvidia",
       "event_fingerprint": "nvidia-blackwell-gpu-price-hike"
+    },
+    {
+      "canonical_url": "https://www.chosun.com/english/industry-en/2026/06/14/MLBYDWQU5JCUJBCWQYBKFCRECU/",
+      "normalized_url": "https://www.chosun.com/english/industry-en/2026/06/14/MLBYDWQU5JCUJBCWQYBKFCRECU",
+      "title": "Local Resistance Halts $130 Billion in U.S. Data Center Projects",
+      "normalized_title": "local resistance halts 130 billion in u s data center projects",
+      "published_on": "2026-06-14",
+      "primary_entity": "Data Center Watch",
+      "event_fingerprint": "us-ai-datacenter-opposition-surge"
     }
   ],
   "version": 2,
