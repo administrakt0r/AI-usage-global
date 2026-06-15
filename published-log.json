@@ -584,6 +584,15 @@
       "published_on": "2026-06-15",
       "primary_entity": "Schneider Electric / Foxconn",
       "event_fingerprint": "schneider-foxconn-ai-infrastructure-partnership"
+    },
+    {
+      "canonical_url": "https://www.bloomenergy.com/news/ai-data-center-growth-hinges-on-solving-both-power-constraints-and-community-concerns-bloom-energy-report-finds/",
+      "normalized_url": "https://www.bloomenergy.com/news/ai-data-center-growth-hinges-on-solving-both-power-constraints-and-community-concerns-bloom-energy-report-finds",
+      "title": "AI Data Center Growth Hinges on Solving Both Power Constraints and Community Concerns, Bloom Energy Report Finds",
+      "normalized_title": "ai data center growth hinges on solving both power constraints and community concerns bloom energy report finds",
+      "published_on": "2026-06-15",
+      "primary_entity": "Bloom Energy",
+      "event_fingerprint": "bloom-energy-2026-data-center-power-report"
     }
   ],
   "version": 2,

@@ -899,6 +899,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 67,
+    slug: "bloom-energy-2026-data-center-power-report",
+    title: "Bloom Energy Report: Power Constraints and Community Resistance Stalling AI",
+    description: "A mid-year 2026 report from Bloom Energy warns that grid reliability and intensifying local opposition over water and energy use are becoming major bottlenecks for AI expansion.",
+    imageAlt: "Digital representation of power grid infrastructure and data center decision-making",
+    publishedOn: "2026-06-15",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
