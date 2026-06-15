@@ -888,6 +888,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 66,
+    slug: "schneider-foxconn-ai-data-center-partnership",
+    title: "Schneider Electric and Foxconn Partner on AI Infrastructure",
+    description: "Schneider Electric and Foxconn form a strategic partnership to co-develop modular cooling and power systems to standardise hyperscale AI data center deployment.",
+    imageAlt: "Digital representation of modular AI infrastructure and industrial energy management",
+    publishedOn: "2026-06-15",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (

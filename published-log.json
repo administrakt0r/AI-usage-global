@@ -575,6 +575,15 @@
       "published_on": "2026-06-14",
       "primary_entity": "Oracle / OpenAI",
       "event_fingerprint": "new-mexico-ai-datacenter-water-remorse"
+    },
+    {
+      "canonical_url": "https://datacentremagazine.com/news/schneider-electric-and-foxconn-to-partner-on-ai-data-centres",
+      "normalized_url": "https://datacentremagazine.com/news/schneider-electric-and-foxconn-to-partner-on-ai-data-centres",
+      "title": "Schneider Electric and Foxconn to Partner on AI Data Centres",
+      "normalized_title": "schneider electric and foxconn to partner on ai data centres",
+      "published_on": "2026-06-15",
+      "primary_entity": "Schneider Electric / Foxconn",
+      "event_fingerprint": "schneider-foxconn-ai-infrastructure-partnership"
     }
   ],
   "version": 2,
