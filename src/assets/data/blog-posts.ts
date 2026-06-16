@@ -910,6 +910,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 68,
+    slug: "archbald-pa-ai-datacenter-showdown",
+    title: "Pennsylvania Community Rejection Halts 1.6 GW AI Data Center Project",
+    description: "Archbald residents successfully block the massive 1.6 GW Wildcat Ridge AI data center campus, citing concerns over grid strain and water usage.",
+    imageAlt: "Digital representation of community opposition and massive AI data center infrastructure in Pennsylvania",
+    publishedOn: "2026-06-16",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
