@@ -593,6 +593,15 @@
       "published_on": "2026-06-15",
       "primary_entity": "Bloom Energy",
       "event_fingerprint": "bloom-energy-2026-data-center-power-report"
+    },
+    {
+      "canonical_url": "https://www.resilience.org/stories/2026-06-16/the-data-center-showdown-in-lackawanna-county/",
+      "normalized_url": "https://www.resilience.org/stories/2026-06-16/the-data-center-showdown-in-lackawanna-county",
+      "title": "The data center showdown in Lackawanna County",
+      "normalized_title": "the data center showdown in lackawanna county",
+      "published_on": "2026-06-16",
+      "primary_entity": "Archbald Borough Council",
+      "event_fingerprint": "archbald-wildcat-ridge-ai-datacenter-rejection"
     }
   ],
   "version": 2,
