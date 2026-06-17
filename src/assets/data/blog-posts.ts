@@ -921,6 +921,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 69,
+    slug: "doj-intervenes-in-xai-pollution-lawsuit",
+    title: "DOJ Intervenes to Halt Air Pollution Lawsuit Against xAI Data Center",
+    description: "The US Department of Justice moves to dismiss a Clean Air Act lawsuit against Elon Musk's xAI, citing national security risks linked to AI military tools.",
+    imageAlt: "Digital representation of a data center and legal scale symbolizing DOJ intervention",
+    publishedOn: "2026-06-17",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
