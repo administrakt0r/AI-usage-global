@@ -932,6 +932,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 70,
+    slug: "ai-datacenter-energy-cost-projections",
+    title: "AI Data Center Growth Could Raise U.S. Power Costs 29% by 2030",
+    description: "A new study from North Carolina State University warns that surging AI data center demand could drive a 29% increase in national electricity costs for households.",
+    imageAlt: "Digital representation of data center infrastructure and rising electricity cost metrics",
+    publishedOn: "2026-06-17",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
