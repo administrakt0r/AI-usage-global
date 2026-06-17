@@ -611,6 +611,15 @@
       "published_on": "2026-06-17",
       "primary_entity": "U.S. Department of Justice",
       "event_fingerprint": "doj-xai-pollution-lawsuit-intervention"
+    },
+    {
+      "canonical_url": "https://www.manilatimes.net/2026/06/17/tmt-newswire/globenewswire/ai-data-centers-could-be-coming-for-your-homes-power/2367069",
+      "normalized_url": "https://www.manilatimes.net/2026/06/17/tmt-newswire/globenewswire/ai-data-centers-could-be-coming-for-your-homes-power/2367069",
+      "title": "AI Data Centers Could Be Coming for Your Home's Power",
+      "normalized_title": "ai data centers could be coming for your homes power",
+      "published_on": "2026-06-17",
+      "primary_entity": "North Carolina State University",
+      "event_fingerprint": "ncsu-ai-datacenter-electricity-cost-study"
     }
   ],
   "version": 2,
