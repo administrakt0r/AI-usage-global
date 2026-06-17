@@ -602,6 +602,15 @@
       "published_on": "2026-06-16",
       "primary_entity": "Archbald Borough Council",
       "event_fingerprint": "archbald-wildcat-ridge-ai-datacenter-rejection"
+    },
+    {
+      "canonical_url": "https://www.aljazeera.com/economy/2026/6/17/trump-administration-seeks-to-halt-air-pollution-lawsuit-against-xai-data",
+      "normalized_url": "https://www.aljazeera.com/economy/2026/6/17/trump-administration-seeks-to-halt-air-pollution-lawsuit-against-xai-data",
+      "title": "Trump administration seeks to halt air pollution lawsuit against Musk's xAI",
+      "normalized_title": "trump administration seeks to halt air pollution lawsuit against musks xai",
+      "published_on": "2026-06-17",
+      "primary_entity": "U.S. Department of Justice",
+      "event_fingerprint": "doj-xai-pollution-lawsuit-intervention"
     }
   ],
   "version": 2,
