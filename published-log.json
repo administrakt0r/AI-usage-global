@@ -629,6 +629,15 @@
       "published_on": "2026-06-18",
       "primary_entity": "Arizona Data Center Industry",
       "event_fingerprint": "arizona-ai-datacenter-resource-strain"
+    },
+    {
+      "canonical_url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/06/18/us-federal-regulators-order-grid-operators-to-speed-power-to-energy-hungry-ai-data-centres/",
+      "normalized_url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/06/18/us-federal-regulators-order-grid-operators-to-speed-power-to-energy-hungry-ai-data-centres",
+      "title": "U.S. Federal regulators order grid operators to speed power to energy-hungry AI data centres",
+      "normalized_title": "us federal regulators order grid operators to speed power to energy hungry ai data centres",
+      "published_on": "2026-06-18",
+      "primary_entity": "Federal Energy Regulatory Commission (FERC)",
+      "event_fingerprint": "ferc-ai-datacenter-grid-acceleration"
     }
   ],
   "version": 2,
