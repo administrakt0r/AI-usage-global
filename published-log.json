@@ -620,6 +620,15 @@
       "published_on": "2026-06-17",
       "primary_entity": "North Carolina State University",
       "event_fingerprint": "ncsu-ai-datacenter-electricity-cost-study"
+    },
+    {
+      "canonical_url": "https://cryptobriefing.com/arizona-ai-energy-water-challenges/",
+      "normalized_url": "https://cryptobriefing.com/arizona-ai-energy-water-challenges",
+      "title": "Arizona emerges as test case for AI’s energy and water challenges",
+      "normalized_title": "arizona emerges as test case for ais energy and water challenges",
+      "published_on": "2026-06-18",
+      "primary_entity": "Arizona Data Center Industry",
+      "event_fingerprint": "arizona-ai-datacenter-resource-strain"
     }
   ],
   "version": 2,

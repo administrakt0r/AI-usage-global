@@ -943,6 +943,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 71,
+    slug: "arizona-ai-datacenter-resource-strain",
+    title: "Arizona AI Data Centers Face Severe Energy and Water Constraints",
+    description: "Rising AI power demand and massive water consumption in Arizona's data center hub trigger municipal caps and grid strain concerns.",
+    imageAlt: "Digital representation of a data center in an arid landscape with water and energy metrics",
+    publishedOn: "2026-06-18",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
