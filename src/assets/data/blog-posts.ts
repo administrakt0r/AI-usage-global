@@ -954,6 +954,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 72,
+    slug: "ferc-ai-datacenter-grid-acceleration",
+    title: "FERC Orders Grid Operators to Speed Power to AI Data Centers",
+    description: "Federal regulators issue targeted orders to accelerate grid interconnection for AI data centers, aiming to cut multi-year backlogs for gigawatt-scale loads.",
+    imageAlt: "Digital representation of federal regulatory oversight and AI data center power grid interconnection",
+    publishedOn: "2026-06-18",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
