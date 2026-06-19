@@ -647,6 +647,15 @@
       "published_on": "2026-06-19",
       "primary_entity": "Tesla / Meta / Noon Energy / ZincFive",
       "event_fingerprint": "ai-datacenter-next-gen-energy-storage"
+    },
+    {
+      "canonical_url": "https://www.unite.ai/ai-data-center-boom-efficiency-liquid-cooling-public-resistance/",
+      "normalized_url": "https://www.unite.ai/ai-data-center-boom-efficiency-liquid-cooling-public-resistance",
+      "title": "Data Centers: Build Trust Before Pushback Builds Regulation",
+      "normalized_title": "data centers build trust before pushback builds regulation",
+      "published_on": "2026-06-19",
+      "primary_entity": "US Data Center Industry",
+      "event_fingerprint": "ai-datacenter-efficiency-trust-report"
     }
   ],
   "version": 2,
