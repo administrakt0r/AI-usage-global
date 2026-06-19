@@ -638,6 +638,15 @@
       "published_on": "2026-06-18",
       "primary_entity": "Federal Energy Regulatory Commission (FERC)",
       "event_fingerprint": "ferc-ai-datacenter-grid-acceleration"
+    },
+    {
+      "canonical_url": "https://datacentremagazine.com/news/next-gen-energy-storage-technologies-for-ai-data-centres",
+      "normalized_url": "https://datacentremagazine.com/news/next-gen-energy-storage-technologies-for-ai-data-centres",
+      "title": "Next-Gen Energy Storage Technologies for AI Data Centres",
+      "normalized_title": "next gen energy storage technologies for ai data centres",
+      "published_on": "2026-06-19",
+      "primary_entity": "Tesla / Meta / Noon Energy / ZincFive",
+      "event_fingerprint": "ai-datacenter-next-gen-energy-storage"
     }
   ],
   "version": 2,
