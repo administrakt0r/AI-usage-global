@@ -976,6 +976,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 74,
+    slug: "data-center-efficiency-trust-report",
+    title: "Data Center Trust Hits Breaking Point Over Resource Demands",
+    description: "A new report warns that AI data center expansion is colliding with public resistance as US facilities consumed 176 TWh of power and 1 trillion liters of water in 2025.",
+    imageAlt: "Digital representation of community opposition and AI data center resource consumption",
+    publishedOn: "2026-06-19",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
