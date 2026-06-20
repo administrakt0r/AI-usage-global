@@ -987,6 +987,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 75,
+    slug: "xdi-global-ai-data-center-climate-risk-report",
+    title: "Global AI Infrastructure Boom Faces Growing Physical Climate Risks",
+    description: "A major new XDI analysis identifies 154 planned data centers at high risk from extreme weather as global insurance premiums are projected to hit $24.2 billion by 2030.",
+    imageAlt: "Digital representation of extreme weather risks for global AI data center infrastructure",
+    publishedOn: "2026-06-20",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
