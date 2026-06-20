@@ -665,6 +665,15 @@
       "published_on": "2026-06-20",
       "primary_entity": "XDI (Cross Dependency Initiative)",
       "event_fingerprint": "xdi-global-data-center-climate-risk-report"
+    },
+    {
+      "canonical_url": "https://www.tomshardware.com/tech-industry/data-centers/china-unifies-tech-sector-to-build-grid-free-orbiting-satellite-ai-data-centers-challenging-elon-musks-spacex-beijings-forced-chip-and-satellite-alliance-announced-a-week-before-musks-ai1-reveal",
+      "normalized_url": "https://www.tomshardware.com/tech-industry/data-centers/china-unifies-tech-sector-to-build-grid-free-orbiting-satellite-ai-data-centers-challenging-elon-musks-spacex-beijings-forced-chip-and-satellite-alliance-announced-a-week-before-musks-ai1-reveal",
+      "title": "China unifies tech sector to build grid-free orbiting satellite AI data centers",
+      "normalized_title": "china unifies tech sector to build grid free orbiting satellite ai data centers",
+      "published_on": "2026-06-20",
+      "primary_entity": "Space Computing Industry Innovation Center",
+      "event_fingerprint": "china-orbital-ai-data-center-alliance"
     }
   ],
   "version": 2,

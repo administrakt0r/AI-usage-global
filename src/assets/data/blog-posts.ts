@@ -998,6 +998,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 76,
+    slug: "china-space-ai-compute-center",
+    title: "China Unveils Space Computing Center for Grid-Free AI",
+    description: "The Chinese government approves the Space Computing Industry Innovation Center to develop orbital AI data centers, aiming to bypass terrestrial power and cooling bottlenecks.",
+    imageAlt: "Digital representation of orbital AI data centers and space-based compute infrastructure",
+    publishedOn: "2026-06-20",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
