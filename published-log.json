@@ -656,6 +656,15 @@
       "published_on": "2026-06-19",
       "primary_entity": "US Data Center Industry",
       "event_fingerprint": "ai-datacenter-efficiency-trust-report"
+    },
+    {
+      "canonical_url": "https://xdi.systems/news/billions-flowing-into-ai-infrastructure-may-be-overlooking-growing-climate-risks-global-analysis-finds",
+      "normalized_url": "https://xdi.systems/news/billions-flowing-into-ai-infrastructure-may-be-overlooking-growing-climate-risks-global-analysis-finds",
+      "title": "Global AI Infrastructure Boom Faces Growing Physical Climate Risks",
+      "normalized_title": "global ai infrastructure boom faces growing physical climate risks",
+      "published_on": "2026-06-20",
+      "primary_entity": "XDI (Cross Dependency Initiative)",
+      "event_fingerprint": "xdi-global-data-center-climate-risk-report"
     }
   ],
   "version": 2,
