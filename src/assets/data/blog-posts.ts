@@ -1020,6 +1020,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 78,
+    slug: "meta-crusoe-1-6gw-ai-deal",
+    title: "Meta Signs 1.6 GW AI Capacity Deal with Crusoe Energy",
+    description: "Meta secures 1.6 GW of dedicated AI data center capacity across Texas and Missouri in a massive infrastructure deal with Crusoe Energy.",
+    imageAlt: "Digital representation of a hyperscale data center and massive energy grid for Meta and Crusoe Energy",
+    publishedOn: "2026-06-21",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
