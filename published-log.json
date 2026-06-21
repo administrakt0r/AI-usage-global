@@ -674,6 +674,15 @@
       "published_on": "2026-06-20",
       "primary_entity": "Space Computing Industry Innovation Center",
       "event_fingerprint": "china-orbital-ai-data-center-alliance"
+    },
+    {
+      "canonical_url": "https://datacentremagazine.com/news/edged-us-launches-zero-water-ai-data-centre-in-phoenix",
+      "normalized_url": "https://datacentremagazine.com/news/edged-us-launches-zero-water-ai-data-centre-in-phoenix",
+      "title": "Edged US Launches Zero Water AI Data Centre in Phoenix",
+      "normalized_title": "edged us launches zero water ai data centre in phoenix",
+      "published_on": "2026-06-21",
+      "primary_entity": "Edged US",
+      "event_fingerprint": "edged-phoenix-waterless-datacenter-launch"
     }
   ],
   "version": 2,

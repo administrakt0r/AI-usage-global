@@ -1009,6 +1009,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 77,
+    slug: "edged-phoenix-waterless-ai-datacenter",
+    title: "Edged US Launches Zero-Water AI Data Center in Phoenix",
+    description: "Edged US opens a 36MW data center in Mesa, Arizona, using waterless cooling technology to save 138 million gallons of water annually.",
+    imageAlt: "Digital representation of a waterless AI data center in a desert landscape",
+    publishedOn: "2026-06-21",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
