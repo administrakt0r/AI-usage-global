@@ -683,6 +683,15 @@
       "published_on": "2026-06-21",
       "primary_entity": "Edged US",
       "event_fingerprint": "edged-phoenix-waterless-datacenter-launch"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/meta-signs-16gw-capacity-agreement-with-crusoe-report/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/meta-signs-16gw-capacity-agreement-with-crusoe-report",
+      "title": "Meta Signs 1.6 GW AI Capacity Deal with Crusoe Energy",
+      "normalized_title": "meta signs 1 6 gw ai capacity deal with crusoe energy",
+      "published_on": "2026-06-21",
+      "primary_entity": "Meta / Crusoe Energy",
+      "event_fingerprint": "meta-crusoe-1-6gw-capacity-deal"
     }
   ],
   "version": 2,
