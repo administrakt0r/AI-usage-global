@@ -1020,6 +1020,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 78,
+    slug: "ai-data-center-gas-power-boom",
+    title: "AI Boom Drives 73 GW Pipeline of Off-Grid Gas Power Projects",
+    description: "A new investigation reveals 57 fast-tracked natural gas plants designed exclusively for AI data centers, representing a massive shift toward off-grid power.",
+    imageAlt: "Digital representation of a natural gas power plant and AI data center infrastructure",
+    publishedOn: "2026-06-22",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
