@@ -692,6 +692,15 @@
       "published_on": "2026-06-22",
       "primary_entity": "Meta / xAI / Data Center Coalition",
       "event_fingerprint": "ai-offgrid-gas-power-pipeline"
+    },
+    {
+      "canonical_url": "https://gizmodo.com/nvidia-touts-100-reduction-in-water-use-with-new-data-center-design-2000775354",
+      "normalized_url": "https://gizmodo.com/nvidia-touts-100-reduction-in-water-use-with-new-data-center-design-2000775354",
+      "title": "Nvidia Touts '100% Reduction in Water Use' With New Data Center Design",
+      "normalized_title": "nvidia touts 100 reduction in water use with new data center design",
+      "published_on": "2026-06-22",
+      "primary_entity": "Nvidia",
+      "event_fingerprint": "nvidia-zero-water-cooling-breakthrough"
     }
   ],
   "version": 2,
