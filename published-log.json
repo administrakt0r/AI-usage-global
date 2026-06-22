@@ -683,6 +683,15 @@
       "published_on": "2026-06-21",
       "primary_entity": "Edged US",
       "event_fingerprint": "edged-phoenix-waterless-datacenter-launch"
+    },
+    {
+      "canonical_url": "https://www.ibtimes.com/ai-boom-drives-fast-tracked-approval-natural-gas-powerplants-little-oversight-report-3804183",
+      "normalized_url": "https://www.ibtimes.com/ai-boom-drives-fast-tracked-approval-natural-gas-powerplants-little-oversight-report-3804183",
+      "title": "AI Boom Drives Fast-Tracked Approval of Natural Gas Powerplants With Little Oversight: Report",
+      "normalized_title": "ai boom drives fast tracked approval of natural gas powerplants with little oversight report",
+      "published_on": "2026-06-22",
+      "primary_entity": "Meta / xAI / Data Center Coalition",
+      "event_fingerprint": "ai-offgrid-gas-power-pipeline"
     }
   ],
   "version": 2,
