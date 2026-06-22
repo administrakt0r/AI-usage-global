@@ -1031,6 +1031,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 79,
+    slug: "nvidia-zero-water-cooling-breakthrough",
+    title: "Nvidia Touts 100% Reduction in Water Use with New Cooling Design",
+    description: "Nvidia unveils a closed-loop liquid cooling system that recycles coolant to eliminate operational water consumption in AI data centers.",
+    imageAlt: "Digital representation of a water-efficient AI data center with closed-loop cooling technology",
+    publishedOn: "2026-06-22",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
