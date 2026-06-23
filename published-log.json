@@ -701,6 +701,15 @@
       "published_on": "2026-06-22",
       "primary_entity": "Nvidia",
       "event_fingerprint": "nvidia-zero-water-cooling-breakthrough"
+    },
+    {
+      "canonical_url": "https://www.globalbankingandfinance.com/un-chief-calls-ai-firms-come-clean-environmental-costs/",
+      "normalized_url": "https://www.globalbankingandfinance.com/un-chief-calls-ai-firms-come-clean-environmental-costs",
+      "title": "UN chief calls on AI firms to come clean on environmental costs",
+      "normalized_title": "un chief calls on ai firms to come clean on environmental costs",
+      "published_on": "2026-06-23",
+      "primary_entity": "United Nations",
+      "event_fingerprint": "un-ai-environmental-transparency-initiative"
     }
   ],
   "version": 2,

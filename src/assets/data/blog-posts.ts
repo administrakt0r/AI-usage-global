@@ -1042,6 +1042,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 80,
+    slug: "un-ai-environmental-transparency-initiative",
+    title: "UN Launches AI Environmental Transparency Initiative",
+    description: "UN Secretary-General António Guterres calls for mandatory disclosure of AI data center energy, water, and land use, targeting 100% renewable power by 2030.",
+    imageAlt: "Digital representation of the UN headquarters and global AI data center resource tracking",
+    publishedOn: "2026-06-23",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
