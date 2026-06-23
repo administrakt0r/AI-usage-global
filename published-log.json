@@ -710,6 +710,15 @@
       "published_on": "2026-06-23",
       "primary_entity": "United Nations",
       "event_fingerprint": "un-ai-environmental-transparency-initiative"
+    },
+    {
+      "canonical_url": "https://www.thestreet.com/technology/chevron-and-microsoft-bet-big-on-data-centers-artificial-intelligence",
+      "normalized_url": "https://www.thestreet.com/technology/chevron-and-microsoft-bet-big-on-data-centers-artificial-intelligence",
+      "title": "Chevron and Microsoft bet big on data centers - TheStreet",
+      "normalized_title": "chevron and microsoft bet big on data centers thestreet",
+      "published_on": "2026-06-23",
+      "primary_entity": "Microsoft / Chevron",
+      "event_fingerprint": "microsoft-chevron-project-kilby-gas-power"
     }
   ],
   "version": 2,
