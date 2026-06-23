@@ -1053,6 +1053,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 81,
+    slug: "microsoft-chevron-project-kilby-gas-power",
+    title: "Microsoft and Chevron Launch 2.67 GW Gas-Powered AI Site",
+    description:
+      "Microsoft and Chevron announce a massive 20-year power deal to build a 2.67 GW natural gas-powered AI data center in West Texas, bypassing the public grid.",
+    imageAlt: "Digital representation of a natural gas-powered AI data center in West Texas",
+    publishedOn: "2026-06-23",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
