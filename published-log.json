@@ -719,6 +719,15 @@
       "published_on": "2026-06-23",
       "primary_entity": "Microsoft / Chevron",
       "event_fingerprint": "microsoft-chevron-project-kilby-gas-power"
+    },
+    {
+      "canonical_url": "https://mlq.ai/news/spacex-signs-63b-compute-deal-with-reflection-ai-for-colossus-data-center/",
+      "normalized_url": "https://mlq.ai/news/spacex-signs-63b-compute-deal-with-reflection-ai-for-colossus-data-center",
+      "title": "SpaceX Signs $6.3B Compute Deal With Reflection AI for Colossus Data Center",
+      "normalized_title": "spacex signs 6 3b compute deal with reflection ai for colossus data center",
+      "published_on": "2026-06-24",
+      "primary_entity": "SpaceX / Reflection AI",
+      "event_fingerprint": "reflection-ai-spacex-colossus-compute-deal"
     }
   ],
   "version": 2,

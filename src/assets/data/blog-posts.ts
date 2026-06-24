@@ -1065,6 +1065,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 82,
+    slug: "reflection-ai-spacex-colossus-compute-deal",
+    title: "SpaceX Signs $6.3 Billion Compute Deal With Reflection AI",
+    description:
+      "SpaceX signs a $6.3 billion compute lease with Reflection AI to provide Nvidia GB300 capacity at its Memphis Colossus 2 facility.",
+    imageAlt: "Representation of a high-density AI supercomputer cluster at the Colossus 2 facility",
+    publishedOn: "2026-06-24",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
