@@ -1077,6 +1077,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 83,
+    slug: "federal-ai-datacenter-moratorium-proposal",
+    title: "Pallone Proposes National AI Data Center Moratorium",
+    description:
+      "Representative Frank Pallone calls for a national freeze on AI data center construction as a new Berkeley Lab report projects facilities will use 15% of US power by 2030.",
+    imageAlt: "Digital representation of federal regulatory oversight and AI data center infrastructure",
+    publishedOn: "2026-06-24",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (

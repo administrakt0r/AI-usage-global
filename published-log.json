@@ -728,6 +728,15 @@
       "published_on": "2026-06-24",
       "primary_entity": "SpaceX / Reflection AI",
       "event_fingerprint": "reflection-ai-spacex-colossus-compute-deal"
+    },
+    {
+      "canonical_url": "https://democrats-energycommerce.house.gov/media/press-releases/pallone-calls-national-ai-data-center-moratorium-energy-subcommittee-markup",
+      "normalized_url": "https://democrats-energycommerce.house.gov/media/press-releases/pallone-calls-national-ai-data-center-moratorium-energy-subcommittee-markup",
+      "title": "Pallone Calls for National AI Data Center Moratorium at Energy Subcommittee Markup",
+      "normalized_title": "pallone calls for national ai data center moratorium at energy subcommittee markup",
+      "published_on": "2026-06-24",
+      "primary_entity": "Representative Frank Pallone, Jr. / Energy and Commerce Committee",
+      "event_fingerprint": "federal-ai-datacenter-moratorium-proposal"
     }
   ],
   "version": 2,
