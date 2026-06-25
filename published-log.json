@@ -737,6 +737,15 @@
       "published_on": "2026-06-24",
       "primary_entity": "Representative Frank Pallone, Jr. / Energy and Commerce Committee",
       "event_fingerprint": "federal-ai-datacenter-moratorium-proposal"
+    },
+    {
+      "canonical_url": "https://www.spokesman.com/stories/2026/jun/22/spokane-city-council-approves-yearlong-moratorium-/",
+      "normalized_url": "https://www.spokesman.com/stories/2026/jun/22/spokane-city-council-approves-yearlong-moratorium",
+      "title": "Spokane City Council approves yearlong moratorium on new large data centers",
+      "normalized_title": "spokane city council approves yearlong moratorium on new large data centers",
+      "published_on": "2026-06-25",
+      "primary_entity": "Spokane City Council",
+      "event_fingerprint": "spokane-ai-datacenter-moratorium"
     }
   ],
   "version": 2,
