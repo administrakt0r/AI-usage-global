@@ -1100,6 +1100,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 85,
+    slug: "capgemini-ai-grid-forecasting-report",
+    title: "AI Driven Demand Spikes Challenge Global Power Grid Planning",
+    description: "A new Capgemini report reveals that 80% of utility executives expect volatile demand patterns from AI, with 19% of power requests failing to materialize.",
+    imageAlt: "Digital representation of AI data center demand spikes and power grid infrastructure",
+    publishedOn: "2026-06-25",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
