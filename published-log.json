@@ -746,6 +746,15 @@
       "published_on": "2026-06-25",
       "primary_entity": "Spokane City Council",
       "event_fingerprint": "spokane-ai-datacenter-moratorium"
+    },
+    {
+      "canonical_url": "https://www.capgemini.com/news/press-releases/ai-accelerates-electricity-demand-prompting-a-new-wave-of-grid-adaptation-and-investment/",
+      "normalized_url": "https://www.capgemini.com/news/press-releases/ai-accelerates-electricity-demand-prompting-a-new-wave-of-grid-adaptation-and-investment",
+      "title": "AI Driven Demand Spikes Challenge Global Power Grid Planning",
+      "normalized_title": "ai driven demand spikes challenge global power grid planning",
+      "published_on": "2026-06-25",
+      "primary_entity": "Capgemini Research Institute",
+      "event_fingerprint": "capgemini-ai-grid-forecasting-report"
     }
   ],
   "version": 2,
