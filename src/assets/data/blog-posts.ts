@@ -1089,6 +1089,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 84,
+    slug: "spokane-ai-datacenter-moratorium",
+    title: "Spokane City Council approves yearlong moratorium on new large data centers",
+    description: "The Spokane City Council votes 6-1 for an emergency pause on large data centers following a massive 500MW project proposal that threatened local water and energy resources.",
+    imageAlt: "Digital representation of municipal governance and data center infrastructure in Spokane",
+    publishedOn: "2026-06-25",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
