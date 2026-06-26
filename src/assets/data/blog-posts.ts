@@ -1122,6 +1122,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 87,
+    slug: "microsoft-water-positive-ai-cooling",
+    title: "Microsoft Hits Water Positive Goal Early with AI Cooling Innovation",
+    description: "Microsoft achieves its 2030 water-positive goal five years early, slashing data center water usage by 90% through AI-optimized closed-loop cooling systems.",
+    imageAlt: "Digital representation of a water-efficient data center with closed-loop liquid cooling",
+    publishedOn: "2026-06-26",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (

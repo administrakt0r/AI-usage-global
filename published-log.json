@@ -764,6 +764,15 @@
       "published_on": "2026-06-26",
       "primary_entity": "Forbes / Vaishali Nigam Sinha",
       "event_fingerprint": "ai-sustainability-reporting-gap"
+    },
+    {
+      "canonical_url": "https://carboncredits.com/microsoft-becomes-water-positive-ahead-of-2030-goal-with-ai-powered-data-center-innovation/",
+      "normalized_url": "https://carboncredits.com/microsoft-becomes-water-positive-ahead-of-2030-goal-with-ai-powered-data-center-innovation",
+      "title": "Microsoft Becomes Water Positive Ahead of 2030 Goal With AI-Powered Data Center Innovation",
+      "normalized_title": "microsoft becomes water positive ahead of 2030 goal with ai powered data center innovation",
+      "published_on": "2026-06-26",
+      "primary_entity": "Microsoft",
+      "event_fingerprint": "microsoft-water-positive-milestone"
     }
   ],
   "version": 2,
