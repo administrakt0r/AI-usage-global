@@ -1111,6 +1111,17 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 86,
+    slug: "ai-sustainability-reporting-gap",
+    title: "The Invisible Footprint: AI, Energy, And The Sustainability Question Taking Shape",
+    description: "The AI data center boom is driving massive energy and water use, yet its impact remains poorly tracked in sustainability reporting frameworks.",
+    imageAlt: "Digital representation of AI infrastructure and environmental reporting metrics",
+    publishedOn: "2026-06-26",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
