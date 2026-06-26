@@ -755,6 +755,15 @@
       "published_on": "2026-06-25",
       "primary_entity": "Capgemini Research Institute",
       "event_fingerprint": "capgemini-ai-grid-forecasting-report"
+    },
+    {
+      "canonical_url": "https://www.forbes.com/sites/vaishalinigamsinha/2026/06/26/the-invisible-footprint-ai-energy-and-the-sustainability-question-taking-shape/",
+      "normalized_url": "https://www.forbes.com/sites/vaishalinigamsinha/2026/06/26/the-invisible-footprint-ai-energy-and-the-sustainability-question-taking-shape",
+      "title": "The Invisible Footprint: AI, Energy, And The Sustainability Question Taking Shape",
+      "normalized_title": "the invisible footprint ai energy and the sustainability question taking shape",
+      "published_on": "2026-06-26",
+      "primary_entity": "Forbes / Vaishali Nigam Sinha",
+      "event_fingerprint": "ai-sustainability-reporting-gap"
     }
   ],
   "version": 2,
