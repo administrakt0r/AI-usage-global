@@ -782,6 +782,15 @@
       "published_on": "2026-06-27",
       "primary_entity": "Bluefield Research",
       "event_fingerprint": "europe-datacenter-water-spend-forecast"
+    },
+    {
+      "canonical_url": "https://www.thecooldown.com/green-business/no-data-center-opposition-nodaway-county/",
+      "normalized_url": "https://www.thecooldown.com/green-business/no-data-center-opposition-nodaway-county",
+      "title": "Missouri farmers and 7,000 neighbors rally against AI data center",
+      "normalized_title": "missouri farmers and 7000 neighbors rally against ai data center",
+      "published_on": "2026-06-27",
+      "primary_entity": "Nodaway Says No / Scale Microgrids",
+      "event_fingerprint": "nodaway-ai-datacenter-opposition"
     }
   ],
   "version": 2,
