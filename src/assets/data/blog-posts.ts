@@ -1133,6 +1133,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 88,
+    slug: "europe-ai-datacenter-water-forecast",
+    title: "AI Boom to Drive €6.8 Billion in Water Spend for European Data Centers by 2036",
+    description: "A new Bluefield Research report projects that water-related spending for European data centers will reach €6.8 billion by 2036, driven by AI's intensive cooling needs.",
+    imageAlt: "Digital representation of a data center and water infrastructure in Europe",
+    publishedOn: "2026-06-27",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (

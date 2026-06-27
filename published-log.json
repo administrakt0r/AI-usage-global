@@ -773,6 +773,15 @@
       "published_on": "2026-06-26",
       "primary_entity": "Microsoft",
       "event_fingerprint": "microsoft-water-positive-milestone"
+    },
+    {
+      "canonical_url": "https://www.bluefieldresearch.com/ns/ai-boom-to-drive-6-8-billion-in-water-spend-for-european-data-centers-by-2036/",
+      "normalized_url": "https://www.bluefieldresearch.com/ns/ai-boom-to-drive-6-8-billion-in-water-spend-for-european-data-centers-by-2036",
+      "title": "AI Boom to Drive €6.8 Billion in Water Spend for European Data Centers by 2036",
+      "normalized_title": "ai boom to drive 6 8 billion in water spend for european data centers by 2036",
+      "published_on": "2026-06-27",
+      "primary_entity": "Bluefield Research",
+      "event_fingerprint": "europe-datacenter-water-spend-forecast"
     }
   ],
   "version": 2,
