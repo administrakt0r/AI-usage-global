@@ -1144,6 +1144,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 89,
+    slug: "missouri-ai-datacenter-opposition",
+    title: "Missouri Farmers Rally Against $6.3 Billion AI Data Center Project",
+    description: "Nodaway County residents organize against a proposed AI complex that would consume 5 million gallons of water daily, double the local plant's capacity.",
+    imageAlt: "Missouri landscape and community opposition to AI data center construction",
+    publishedOn: "2026-06-27",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
