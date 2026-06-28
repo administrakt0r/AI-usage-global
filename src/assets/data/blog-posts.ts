@@ -1166,6 +1166,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 91,
+    slug: "deloitte-2026-ai-hardware-outlook",
+    title: "Deloitte Outlook: AI Server Power Market to Hit $31 Billion by 2028",
+    description: "Deloitte's 2026 outlook reveals a massive surge in AI infrastructure costs, with the AI server power supply market projected to hit $31 billion by 2028.",
+    imageAlt: "Digital representation of high-density AI servers and power supply infrastructure",
+    publishedOn: "2026-06-29",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
