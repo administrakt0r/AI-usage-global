@@ -791,6 +791,15 @@
       "published_on": "2026-06-27",
       "primary_entity": "Nodaway Says No / Scale Microgrids",
       "event_fingerprint": "nodaway-ai-datacenter-opposition"
+    },
+    {
+      "canonical_url": "https://www.cityandstatepa.com/policy/2026/06/bipartisan-fashion-pa-lawmakers-vote-repeal-tax-incentives-data-centers/414437/",
+      "normalized_url": "https://www.cityandstatepa.com/policy/2026/06/bipartisan-fashion-pa-lawmakers-vote-repeal-tax-incentives-data-centers/414437",
+      "title": "In Bipartisan Fashion, PA Lawmakers Vote to Repeal AI Data Center Tax Incentives",
+      "normalized_title": "in bipartisan fashion pa lawmakers vote to repeal ai data center tax incentives",
+      "published_on": "2026-06-28",
+      "primary_entity": "Pennsylvania General Assembly",
+      "event_fingerprint": "pa-datacenter-tax-incentive-repeal"
     }
   ],
   "version": 2,
