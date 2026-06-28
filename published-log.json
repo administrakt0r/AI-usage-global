@@ -800,6 +800,15 @@
       "published_on": "2026-06-28",
       "primary_entity": "Pennsylvania General Assembly",
       "event_fingerprint": "pa-datacenter-tax-incentive-repeal"
+    },
+    {
+      "canonical_url": "https://datacentremagazine.com/news/data-centre-statistics-june-week-3-edition",
+      "normalized_url": "https://datacentremagazine.com/news/data-centre-statistics-june-week-3-edition",
+      "title": "Deloitte Outlook: AI Server Power Market to Hit $31 Billion by 2028",
+      "normalized_title": "deloitte outlook ai server power market to hit 31 billion by 2028",
+      "published_on": "2026-06-29",
+      "primary_entity": "Deloitte",
+      "event_fingerprint": "deloitte-2026-global-hardware-outlook"
     }
   ],
   "version": 2,
