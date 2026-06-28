@@ -1155,6 +1155,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 90,
+    slug: "pennsylvania-repeals-ai-datacenter-tax-breaks",
+    title: "In Bipartisan Fashion, PA Lawmakers Vote to Repeal AI Data Center Tax Incentives",
+    description: "The Pennsylvania General Assembly has voted overwhelmingly to repeal sales tax exemptions for data centers, citing surging infrastructure costs and community backlash.",
+    imageAlt: "Digital representation of a data center and state tax policy in Pennsylvania",
+    publishedOn: "2026-06-28",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
