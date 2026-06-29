@@ -809,6 +809,15 @@
       "published_on": "2026-06-29",
       "primary_entity": "Deloitte",
       "event_fingerprint": "deloitte-2026-global-hardware-outlook"
+    },
+    {
+      "canonical_url": "https://www.tradingkey.com/analysis/stocks/more/261997472-samsung-announced-2655-trillion-won-investment-plan-largest-investment-south-korea-ai-semiconductor-strategy-history-tradingkey",
+      "normalized_url": "https://www.tradingkey.com/analysis/stocks/more/261997472-samsung-announced-2655-trillion-won-investment-plan-largest-investment-south-korea-ai-semiconductor-strategy-history-tradingkey",
+      "title": "Samsung Announces 2,655 Trillion Won Investment Plan, South Korea’s AI and Semiconductor Strategy Marks Largest-Ever Investment",
+      "normalized_title": "samsung announces 2 655 trillion won investment plan south koreas ai and semiconductor strategy marks largest ever investment",
+      "published_on": "2026-06-29",
+      "primary_entity": "Samsung Electronics / South Korean Government",
+      "event_fingerprint": "south-korea-1-3t-ai-infrastructure-blueprint"
     }
   ],
   "version": 2,

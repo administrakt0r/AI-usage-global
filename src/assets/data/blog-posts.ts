@@ -1177,6 +1177,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 92,
+    slug: "south-korea-ai-infrastructure-blueprint",
+    title: "South Korea Unveils $1.3 Trillion AI Infrastructure Blueprint",
+    description: "South Korea announces a massive $1.3 trillion national strategy to double DRAM capacity and invest $720 billion in AI data centers by 2035.",
+    imageAlt: "Digital representation of high-density AI semiconductor manufacturing and data center infrastructure in South Korea",
+    publishedOn: "2026-06-29",
+    category: AI_USAGE,
+    readTime: 4,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
