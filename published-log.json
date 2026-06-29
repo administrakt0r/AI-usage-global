@@ -818,6 +818,15 @@
       "published_on": "2026-06-29",
       "primary_entity": "Samsung Electronics / South Korean Government",
       "event_fingerprint": "south-korea-1-3t-ai-infrastructure-blueprint"
+    },
+    {
+      "canonical_url": "https://ca.finance.yahoo.com/news/nixxy-tachyon-9-unveil-1-110000142.html",
+      "normalized_url": "https://ca.finance.yahoo.com/news/nixxy-tachyon-9-unveil-1-110000142.html",
+      "title": "Nixxy and Tachyon 9 Unveil $1 Billion Carbon-Conscious AI Data Campus Designed Around Hydrogen Power, Low-Water Cooling and U.S. Energy Security",
+      "normalized_title": "nixxy and tachyon 9 unveil 1 billion carbon conscious ai data campus designed around hydrogen power low water cooling and us energy security",
+      "published_on": "2026-06-29",
+      "primary_entity": "Nixxy / Tachyon 9",
+      "event_fingerprint": "nixxy-nakota-hydrogen-ai-datacenter"
     }
   ],
   "version": 2,

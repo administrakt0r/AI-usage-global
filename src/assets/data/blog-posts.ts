@@ -1188,6 +1188,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 4,
     featured: false,
   }),
+  createPost({
+    id: 93,
+    slug: "nixxy-nakota-hydrogen-ai-datacenter",
+    title: "Nixxy Unveils $1 Billion Hydrogen-Powered AI Data Campus",
+    description: "Nixxy and Tachyon 9 announce the $1 billion Nakota Data Campus in North Dakota, featuring 1 GW capacity, hydrogen-capable power, and closed-loop cooling.",
+    imageAlt: "Digital representation of a hydrogen-powered AI data center campus in North Dakota",
+    publishedOn: "2026-06-29",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
