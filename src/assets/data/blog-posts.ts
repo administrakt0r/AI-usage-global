@@ -1199,6 +1199,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 94,
+    slug: "microsoft-completes-fairwater-datacenter",
+    title: "Microsoft Completes Fairwater Data Centre Project",
+    description: "Microsoft's new Fairwater AI data center in Wisconsin features 90% closed-loop liquid cooling and the world's second-largest water-cooled chiller plant.",
+    imageAlt: "Digital representation of a massive water-cooled AI data center campus in Wisconsin",
+    publishedOn: "2026-06-30",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (

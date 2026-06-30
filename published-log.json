@@ -827,6 +827,15 @@
       "published_on": "2026-06-29",
       "primary_entity": "Nixxy / Tachyon 9",
       "event_fingerprint": "nixxy-nakota-hydrogen-ai-datacenter"
+    },
+    {
+      "canonical_url": "https://procurementmag.com/articles/microsoft-completes-fairwater-data-centre-project",
+      "normalized_url": "https://procurementmag.com/articles/microsoft-completes-fairwater-data-centre-project",
+      "title": "Microsoft Completes Fairwater Data Centre Project",
+      "normalized_title": "microsoft completes fairwater data centre project",
+      "published_on": "2026-06-30",
+      "primary_entity": "Microsoft",
+      "event_fingerprint": "microsoft-fairwater-datacenter-completion"
     }
   ],
   "version": 2,
