@@ -1210,6 +1210,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 95,
+    slug: "aquifer-thermal-storage-ai-cooling",
+    title: "University Researchers Propose Aquifer 'Thermal Batteries' for AI Cooling",
+    description: "A new study from the University of Illinois proposes Aquifer Thermal Energy Storage to slash AI cooling costs and water consumption.",
+    imageAlt: "Digital representation of a data center and underground thermal energy storage in an aquifer",
+    publishedOn: "2026-06-30",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (

@@ -836,6 +836,15 @@
       "published_on": "2026-06-30",
       "primary_entity": "Microsoft",
       "event_fingerprint": "microsoft-fairwater-datacenter-completion"
+    },
+    {
+      "canonical_url": "https://news.illinois.edu/team-looking-to-tap-underground-thermal-batteries-to-cool-ai-data-centers-and-save-water/",
+      "normalized_url": "https://news.illinois.edu/team-looking-to-tap-underground-thermal-batteries-to-cool-ai-data-centers-and-save-water",
+      "title": "Team looking to tap underground 'thermal batteries' to cool AI Data centers and save water",
+      "normalized_title": "team looking to tap underground thermal batteries to cool ai data centers and save water",
+      "published_on": "2026-06-30",
+      "primary_entity": "Prairie Research Institute",
+      "event_fingerprint": "prairie-research-institute-aquifer-thermal-cooling"
     }
   ],
   "version": 2,
