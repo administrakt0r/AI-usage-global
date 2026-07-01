@@ -854,6 +854,15 @@
       "published_on": "2026-07-01",
       "primary_entity": "Google",
       "event_fingerprint": "google-2026-environmental-report-resource-surge"
+    },
+    {
+      "canonical_url": "https://www.nvidia.com/en-us/data-center/vera-rubin-nvl72/",
+      "normalized_url": "https://www.nvidia.com/en-us/data-center/vera-rubin-nvl72",
+      "title": "NVIDIA Vera Rubin Platform Hits Production with 10x Efficiency Gain",
+      "normalized_title": "nvidia vera rubin platform hits production with 10x efficiency gain",
+      "published_on": "2026-07-01",
+      "primary_entity": "NVIDIA",
+      "event_fingerprint": "nvidia-vera-rubin-production-launch"
     }
   ],
   "version": 2,

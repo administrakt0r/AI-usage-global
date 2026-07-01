@@ -1232,6 +1232,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 4,
     featured: false,
   }),
+  createPost({
+    id: 97,
+    slug: "nvidia-vera-rubin-efficiency-launch",
+    title: "NVIDIA Vera Rubin Platform Hits Production with 10x Efficiency Gain",
+    description: "NVIDIA's new Vera Rubin platform enters production, delivering a 10x tokens-per-megawatt efficiency gain to address AI's surging energy demands.",
+    imageAlt: "Digital representation of NVIDIA Vera Rubin AI supercomputer architecture",
+    publishedOn: "2026-07-01",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
