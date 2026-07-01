@@ -1221,6 +1221,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 96,
+    slug: "google-2026-environmental-report-resource-surge",
+    title: "Read our 11th annual Environmental Report",
+    description: "Google's 2026 Environmental Report reveals a 37% surge in electricity demand and a 34% increase in water use as AI infrastructure expansion outpaces decarbonization.",
+    imageAlt: "Digital representation of Google data center infrastructure and environmental metrics",
+    publishedOn: "2026-07-01",
+    category: AI_USAGE,
+    readTime: 4,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
