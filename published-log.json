@@ -845,6 +845,15 @@
       "published_on": "2026-06-30",
       "primary_entity": "Prairie Research Institute",
       "event_fingerprint": "prairie-research-institute-aquifer-thermal-cooling"
+    },
+    {
+      "canonical_url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/2026-environmental-report/",
+      "normalized_url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/2026-environmental-report",
+      "title": "Read our 11th annual Environmental Report",
+      "normalized_title": "read our 11th annual environmental report",
+      "published_on": "2026-07-01",
+      "primary_entity": "Google",
+      "event_fingerprint": "google-2026-environmental-report-resource-surge"
     }
   ],
   "version": 2,
