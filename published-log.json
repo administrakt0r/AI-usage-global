@@ -863,6 +863,15 @@
       "published_on": "2026-07-01",
       "primary_entity": "NVIDIA",
       "event_fingerprint": "nvidia-vera-rubin-production-launch"
+    },
+    {
+      "canonical_url": "https://www.keranews.org/energy-environment/2026-07-02/ai-data-centers-texas-power-plants-pollution-climate-change",
+      "normalized_url": "https://www.keranews.org/energy-environment/2026-07-02/ai-data-centers-texas-power-plants-pollution-climate-change",
+      "title": "Proposed Texas AI power plants could emit 287 million tons of greenhouse gases annually, report says",
+      "normalized_title": "proposed texas ai power plants could emit 287 million tons of greenhouse gases annually report says",
+      "published_on": "2026-07-02",
+      "primary_entity": "Environmental Integrity Project",
+      "event_fingerprint": "eip-ai-gas-emissions-study"
     }
   ],
   "version": 2,
