@@ -1243,6 +1243,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 98,
+    slug: "environmental-integrity-project-ai-gas-emissions-report",
+    title: "AI Gas Power Plants Could Emit 287M Tons Annually in Texas",
+    description: "A landmark Environmental Integrity Project report reveals that proposed gas plants for AI data centers in Texas alone could emit 287 million tons of CO2 annually.",
+    imageAlt: "Digital representation of a data center and gas-fired power plant emissions",
+    publishedOn: "2026-07-02",
+    category: AI_USAGE,
+    readTime: 4,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
