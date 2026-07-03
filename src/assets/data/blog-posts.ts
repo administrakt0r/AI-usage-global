@@ -1265,6 +1265,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 100,
+    slug: "amazon-2025-emissions-surge-ai-boom",
+    title: "Amazon Reports 18% Emissions Surge Driven by AI Data Center Boom",
+    description: "Amazon's 2025 Sustainability Report reveals that its carbon footprint jumped to 80.8 million tons as AI data center expansion drives a 34% surge in electricity emissions.",
+    imageAlt: "Aerial view of a hyperscale data center and digital representation of greenhouse gas emissions",
+    publishedOn: "2026-07-03",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (

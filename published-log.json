@@ -881,6 +881,15 @@
       "published_on": "2026-07-03",
       "primary_entity": "Equinix / A2A",
       "event_fingerprint": "equinix-a2a-milan-heat-recovery"
+    },
+    {
+      "canonical_url": "https://sustainability.aboutamazon.com/2025-amazon-sustainability-report.pdf",
+      "normalized_url": "https://sustainability.aboutamazon.com/2025-amazon-sustainability-report.pdf",
+      "title": "Amazon Reports 18% Emissions Surge Driven by AI Data Center Boom",
+      "normalized_title": "amazon reports 18 emissions surge driven by ai data center boom",
+      "published_on": "2026-07-03",
+      "primary_entity": "Amazon",
+      "event_fingerprint": "amazon-2025-sustainability-report-emissions-surge"
     }
   ],
   "version": 2,
