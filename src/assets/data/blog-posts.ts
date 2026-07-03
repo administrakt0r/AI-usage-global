@@ -1254,6 +1254,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 4,
     featured: false,
   }),
+  createPost({
+    id: 99,
+    slug: "equinix-a2a-milan-district-heating",
+    title: "Equinix, A2A to Heat Milan via District Heating",
+    description: "Equinix and A2A partner to recover 225 GWh of waste heat from a Milan data center campus to heat over 21,000 homes, avoiding 345,000 tonnes of CO2 emissions.",
+    imageAlt: "Digital representation of a data center campus and district heating infrastructure in Milan",
+    publishedOn: "2026-07-03",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
