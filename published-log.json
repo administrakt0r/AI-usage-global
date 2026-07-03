@@ -872,6 +872,15 @@
       "published_on": "2026-07-02",
       "primary_entity": "Environmental Integrity Project",
       "event_fingerprint": "eip-ai-gas-emissions-study"
+    },
+    {
+      "canonical_url": "https://dcnnmagazine.com/build/sustainability/equinix-a2a-to-heat-milan-via-district-heating/",
+      "normalized_url": "https://dcnnmagazine.com/build/sustainability/equinix-a2a-to-heat-milan-via-district-heating",
+      "title": "Equinix, A2A to heat Milan via district heating",
+      "normalized_title": "equinix a2a to heat milan via district heating",
+      "published_on": "2026-07-03",
+      "primary_entity": "Equinix / A2A",
+      "event_fingerprint": "equinix-a2a-milan-heat-recovery"
     }
   ],
   "version": 2,
