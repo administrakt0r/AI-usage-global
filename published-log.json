@@ -890,6 +890,15 @@
       "published_on": "2026-07-03",
       "primary_entity": "Amazon",
       "event_fingerprint": "amazon-2025-sustainability-report-emissions-surge"
+    },
+    {
+      "canonical_url": "https://www.opb.org/article/2026/07/02/oregon-governor-data-centers-utility-rate/",
+      "normalized_url": "https://www.opb.org/article/2026/07/02/oregon-governor-data-centers-utility-rate",
+      "title": "Oregon governor says state is a ‘cheap date’ for data centers",
+      "normalized_title": "oregon governor says state is a cheap date for data centers",
+      "published_on": "2026-07-04",
+      "primary_entity": "Governor Tina Kotek / Portland General Electric",
+      "event_fingerprint": "oregon-pge-ai-datacenter-rate-hike"
     }
   ],
   "version": 2,
