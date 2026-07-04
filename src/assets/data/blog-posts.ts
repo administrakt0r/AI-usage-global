@@ -1276,6 +1276,18 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 101,
+    slug: "oregon-pge-ai-datacenter-rate-hike",
+    title: "Oregon governor says state is a ‘cheap date’ for data centers",
+    description:
+      "Oregon implements a 29% utility rate hike for large AI data centers while cutting residential bills, as Governor Tina Kotek vows new safeguards against infrastructure strain.",
+    imageAlt: "Digital representation of a data center and power grid infrastructure in Oregon",
+    publishedOn: "2026-07-04",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
