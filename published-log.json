@@ -899,6 +899,15 @@
       "published_on": "2026-07-04",
       "primary_entity": "Governor Tina Kotek / Portland General Electric",
       "event_fingerprint": "oregon-pge-ai-datacenter-rate-hike"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/texas-governor-abbott-calls-for-data-centers-to-be-banned-in-rural-areas/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/texas-governor-abbott-calls-for-data-centers-to-be-banned-in-rural-areas",
+      "title": "Texas Governor Abbott calls for data centers to be banned in rural areas",
+      "normalized_title": "texas governor abbott calls for data centers to be banned in rural areas",
+      "published_on": "2026-07-04",
+      "primary_entity": "Governor Greg Abbott",
+      "event_fingerprint": "texas-ai-datacenter-rural-ban-proposal"
     }
   ],
   "version": 2,

@@ -1288,6 +1288,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 102,
+    slug: "texas-abbott-ai-datacenter-rural-ban",
+    title: "Texas Governor Abbott Calls for Ban on Rural AI Data Centers",
+    description: "Governor Abbott proposes a ban on rural AI data centers and a mandate for facilities to bring their own power and water to protect Texas residential ratepayers.",
+    imageAlt: "Digital representation of a data center moratorium and energy grid in rural Texas",
+    publishedOn: "2026-07-04",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
