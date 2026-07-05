@@ -917,6 +917,15 @@
       "published_on": "2026-07-05",
       "primary_entity": "Lawrence Berkeley National Laboratory / WSJ",
       "event_fingerprint": "ai-datacenter-indirect-water-footprint-gap"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/national-grid-ventures-invests-175bn-in-joulent-for-35-stake-to-develop-large-load-power-solutions-national-grid-ventures-ngv-the-commercial-arm-of-national-grid-has-agreed-to-invest-175-billion-for-a-35-stake-in-us-power-infrastructure-develope/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/national-grid-ventures-invests-175bn-in-joulent-for-35-stake-to-develop-large-load-power-solutions-national-grid-ventures-ngv-the-commercial-arm-of-national-grid-has-agreed-to-invest-175-billion-for-a-35-stake-in-us-power-infrastructure-develope",
+      "title": "National Grid Ventures invests $1.75bn in Joulent for construction of gas plant powering 2GW Microsoft data center in Texas",
+      "normalized_title": "national grid ventures invests 175bn in joulent for construction of gas plant powering 2gw microsoft data center in texas",
+      "published_on": "2026-07-05",
+      "primary_entity": "National Grid Ventures / Joulent",
+      "event_fingerprint": "national-grid-joulent-investment-texas-gas-power"
     }
   ],
   "version": 2,
