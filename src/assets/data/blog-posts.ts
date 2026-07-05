@@ -1310,6 +1310,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 104,
+    slug: "national-grid-joulent-microsoft-texas-gas-power",
+    title: "National Grid Invests $1.75B in Microsoft AI Data Center Power",
+    description: "National Grid Ventures acquires a $1.75 billion stake in Joulent to fund a 2.67 GW gas plant powering Microsoft’s massive 2 GW AI campus in West Texas.",
+    imageAlt: "Digital representation of high-voltage power infrastructure and a hyperscale AI data center",
+    publishedOn: "2026-07-05",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
