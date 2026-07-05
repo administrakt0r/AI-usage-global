@@ -1299,6 +1299,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 103,
+    slug: "ai-data-center-water-gap-reporting",
+    title: "AI Data Centers Use Far More Water Than Most Tech Giants Report",
+    description: "A new investigation reveals that indirect water use from power generation for AI data centers is 12 times higher than direct on-site cooling.",
+    imageAlt: "Digital representation of a data center's direct and indirect water footprint",
+    publishedOn: "2026-07-05",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (

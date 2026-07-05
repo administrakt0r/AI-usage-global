@@ -908,6 +908,15 @@
       "published_on": "2026-07-04",
       "primary_entity": "Governor Greg Abbott",
       "event_fingerprint": "texas-ai-datacenter-rural-ban-proposal"
+    },
+    {
+      "canonical_url": "https://www.whatjobs.com/news/ai-data-centers-use-far-more-water-than-most-tech-giants-report/",
+      "normalized_url": "https://www.whatjobs.com/news/ai-data-centers-use-far-more-water-than-most-tech-giants-report",
+      "title": "AI Data Centers Use Far More Water Than Most Tech Giants Report",
+      "normalized_title": "ai data centers use far more water than most tech giants report",
+      "published_on": "2026-07-05",
+      "primary_entity": "Lawrence Berkeley National Laboratory / WSJ",
+      "event_fingerprint": "ai-datacenter-indirect-water-footprint-gap"
     }
   ],
   "version": 2,
