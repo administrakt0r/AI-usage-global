@@ -926,6 +926,15 @@
       "published_on": "2026-07-05",
       "primary_entity": "National Grid Ventures / Joulent",
       "event_fingerprint": "national-grid-joulent-investment-texas-gas-power"
+    },
+    {
+      "canonical_url": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607060002",
+      "normalized_url": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607060002",
+      "title": "SK Telecom plans $653 billion AI data center buildout in Korea",
+      "normalized_title": "sk telecom plans 653 billion ai data center buildout in korea",
+      "published_on": "2026-07-06",
+      "primary_entity": "SK Telecom",
+      "event_fingerprint": "sk-telecom-15gw-ai-datacenter-expansion"
     }
   ],
   "version": 2,

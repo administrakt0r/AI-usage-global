@@ -1321,6 +1321,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 105,
+    slug: "sk-telecom-15gw-ai-datacenter-expansion",
+    title: "SK Telecom plans $653 billion AI data center buildout in Korea",
+    description: "SK Telecom unveils a massive 15 GW AI data center roadmap, aiming to turn South Korea into an Asian hub for hyperscale computing by 2035.",
+    imageAlt: "Digital representation of a massive AI data center campus in South Korea",
+    publishedOn: "2026-07-06",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
