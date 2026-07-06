@@ -1332,6 +1332,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 106,
+    slug: "qts-terminates-virginia-digital-gateway",
+    title: "QTS Terminates $30 Billion Digital Gateway Data Center in Virginia",
+    description: "QTS withdraws from the 2,139-acre Digital Gateway project in Virginia, ending a proposed $30 billion AI infrastructure hub due to community opposition.",
+    imageAlt: "Aerial view of a large-scale data center construction site with green buffer zones",
+    publishedOn: "2026-07-06",
+    category: AI_USAGE,
+    readTime: 4,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
