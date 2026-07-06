@@ -935,6 +935,15 @@
       "published_on": "2026-07-06",
       "primary_entity": "SK Telecom",
       "event_fingerprint": "sk-telecom-15gw-ai-datacenter-expansion"
+    },
+    {
+      "canonical_url": "https://www.datacenterknowledge.com/data-center-site-selection/what-qts-canceled-30b-project-reveals-about-ai-data-center-development",
+      "normalized_url": "https://www.datacenterknowledge.com/data-center-site-selection/what-qts-canceled-30b-project-reveals-about-ai-data-center-development",
+      "title": "QTS Terminates $30 Billion Digital Gateway Data Center in Virginia",
+      "normalized_title": "qts terminates 30 billion digital gateway data center in virginia",
+      "published_on": "2026-07-06",
+      "primary_entity": "QTS Data Centers",
+      "event_fingerprint": "qts-digital-gateway-cancellation"
     }
   ],
   "version": 2,
