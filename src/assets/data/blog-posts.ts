@@ -1343,6 +1343,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 4,
     featured: false,
   }),
+  createPost({
+    id: 107,
+    slug: "anthropic-terawulf-19b-ai-datacenter-lease",
+    title: "Anthropic Signs $19B, 20-Year Lease for TeraWulf's Data Center in Hancock County",
+    description: "Anthropic secures a 401 MW AI infrastructure campus in Kentucky through a landmark $19 billion lease with TeraWulf, featuring water-efficient closed-loop cooling.",
+    imageAlt: "Digital representation of a massive AI data center campus and energy grid in Kentucky",
+    publishedOn: "2026-07-07",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
