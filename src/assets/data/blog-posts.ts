@@ -1354,6 +1354,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 108,
+    slug: "gartner-2026-ai-power-forecast",
+    title: "Gartner Forecasts 26% Surge in Data Center Power Use for 2026",
+    description: "A new Gartner report projects global data center electricity consumption will reach 565 TWh in 2026, with AI-optimized servers accounting for one-third of total power use.",
+    imageAlt: "Digital representation of a global power grid and AI data center infrastructure",
+    publishedOn: "2026-07-07",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (

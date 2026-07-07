@@ -953,6 +953,15 @@
       "published_on": "2026-07-07",
       "primary_entity": "Anthropic / TeraWulf",
       "event_fingerprint": "anthropic-terawulf-19b-ai-datacenter-lease"
+    },
+    {
+      "canonical_url": "https://www.networkworld.com/article/4193996/gartner-data-center-electricity-consumption-to-grow-26-in-2026.html",
+      "normalized_url": "https://www.networkworld.com/article/4193996/gartner-data-center-electricity-consumption-to-grow-26-in-2026",
+      "title": "Gartner: Data center electricity consumption to grow 26% in 2026",
+      "normalized_title": "gartner data center electricity consumption to grow 26 in 2026",
+      "published_on": "2026-07-07",
+      "primary_entity": "Gartner",
+      "event_fingerprint": "gartner-2026-ai-power-forecast"
     }
   ],
   "version": 2,
