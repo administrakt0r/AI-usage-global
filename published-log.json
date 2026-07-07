@@ -944,6 +944,15 @@
       "published_on": "2026-07-06",
       "primary_entity": "QTS Data Centers",
       "event_fingerprint": "qts-digital-gateway-cancellation"
+    },
+    {
+      "canonical_url": "https://investors.terawulf.com/news-events/press-releases/detail/142/terawulf-announces-anthropic-lease-at-justified-data-campus-and-sale-of-majority-interest-in-abernathy-joint-venture-to-fluidstack",
+      "normalized_url": "https://investors.terawulf.com/news-events/press-releases/detail/142/terawulf-announces-anthropic-lease-at-justified-data-campus-and-sale-of-majority-interest-in-abernathy-joint-venture-to-fluidstack",
+      "title": "Anthropic Signs $19B, 20-Year Lease for TeraWulf's Data Center in Hancock County",
+      "normalized_title": "anthropic signs 19b 20 year lease for terawulfs data center in hancock county",
+      "published_on": "2026-07-07",
+      "primary_entity": "Anthropic / TeraWulf",
+      "event_fingerprint": "anthropic-terawulf-19b-ai-datacenter-lease"
     }
   ],
   "version": 2,
