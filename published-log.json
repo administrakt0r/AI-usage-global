@@ -971,6 +971,15 @@
       "published_on": "2026-07-08",
       "primary_entity": "Shoshone-Bannock Tribes",
       "event_fingerprint": "pocatello-ai-datacenter-tribal-opposition"
+    },
+    {
+      "canonical_url": "https://www.ijpr.org/environment-energy-and-transportation/2026-07-08/siskiyou-county-supervisors-say-they-are-not-considering-approving-ai-data-center",
+      "normalized_url": "https://www.ijpr.org/environment-energy-and-transportation/2026-07-08/siskiyou-county-supervisors-say-they-are-not-considering-approving-ai-data-center",
+      "title": "Siskiyou County Supervisors say they are not considering approving AI data center",
+      "normalized_title": "siskiyou county supervisors say they are not considering approving ai data center",
+      "published_on": "2026-07-08",
+      "primary_entity": "Siskiyou County Board of Supervisors",
+      "event_fingerprint": "siskiyou-ai-datacenter-rejection"
     }
   ],
   "version": 2,
