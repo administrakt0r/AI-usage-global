@@ -1365,6 +1365,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 109,
+    slug: "shoshone-bannock-ai-opposition",
+    title: "Shoshone-Bannock Tribes Reaffirm Opposition to Proposed AI Data Center in Pocatello",
+    description: "The Shoshone-Bannock Tribes oppose a Pocatello AI data center, citing speculative water estimates and risks of electricity rate hikes for residents.",
+    imageAlt: "Digital representation of Tribal land and AI data center infrastructure",
+    publishedOn: "2026-07-08",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
