@@ -1376,6 +1376,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 110,
+    slug: "mount-shasta-ai-datacenter-opposition",
+    title: "Siskiyou County Rejects AI Data Center at Former Bottling Plant",
+    description: "Siskiyou County supervisors halt a proposal for an AI data center at a former water bottling plant following intense community opposition over massive water usage.",
+    imageAlt: "Former water bottling plant near Mount Shasta slated for AI data center development",
+    publishedOn: "2026-07-08",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
