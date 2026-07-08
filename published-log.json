@@ -962,6 +962,15 @@
       "published_on": "2026-07-07",
       "primary_entity": "Gartner",
       "event_fingerprint": "gartner-2026-ai-power-forecast"
+    },
+    {
+      "canonical_url": "https://www.sbtribes.com/shoshone-bannock-tribes-reaffirm-opposition-to-proposed-ai-data-center-in-pocatello/",
+      "normalized_url": "https://www.sbtribes.com/shoshone-bannock-tribes-reaffirm-opposition-to-proposed-ai-data-center-in-pocatello",
+      "title": "Shoshone-Bannock Tribes reaffirm opposition to proposed AI data center in Pocatello",
+      "normalized_title": "shoshone bannock tribes reaffirm opposition to proposed ai data center in pocatello",
+      "published_on": "2026-07-08",
+      "primary_entity": "Shoshone-Bannock Tribes",
+      "event_fingerprint": "pocatello-ai-datacenter-tribal-opposition"
     }
   ],
   "version": 2,
