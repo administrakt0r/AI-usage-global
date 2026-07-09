@@ -989,6 +989,15 @@
       "published_on": "2026-07-09",
       "primary_entity": "Meta",
       "event_fingerprint": "meta-alberta-ai-datacenter-launch"
+    },
+    {
+      "canonical_url": "https://cardinalnews.org/2026/07/09/by-water-use-googles-botetourt-site-would-be-its-8th-largest-data-center-complex-in-the-world/",
+      "normalized_url": "https://cardinalnews.org/2026/07/09/by-water-use-googles-botetourt-site-would-be-its-8th-largest-data-center-complex-in-the-world",
+      "title": "By water use, Google's Botetourt site would be its 8th largest data center complex in the world",
+      "normalized_title": "by water use googles botetourt site would be its 8th largest data center complex in the world",
+      "published_on": "2026-07-09",
+      "primary_entity": "Google",
+      "event_fingerprint": "google-botetourt-water-contract"
     }
   ],
   "version": 2,

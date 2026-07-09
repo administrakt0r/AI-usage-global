@@ -1398,6 +1398,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 112,
+    slug: "google-botetourt-water-consumption",
+    title: "Google’s Botetourt Site to Rank 8th Globally in Data Center Water Use",
+    description: "Google’s upcoming Botetourt facility is contracted for 2 million gallons of water daily, making it one of the company's most water-intensive sites globally.",
+    imageAlt: "Digital representation of a data center and water infrastructure in Botetourt County",
+    publishedOn: "2026-07-09",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
