@@ -1387,6 +1387,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 111,
+    slug: "meta-alberta-ai-datacenter-investment",
+    title: "Meta to build its first $13 billion data centre in Canada",
+    description: "Meta announces a C$13 billion ($9.17 billion) investment for a 1-gigawatt AI data center in Sturgeon County, Alberta, featuring off-grid natural gas power and zero-water cooling.",
+    imageAlt: "Digital representation of a hyperscale AI data center and energy infrastructure in Alberta, Canada",
+    publishedOn: "2026-07-09",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
