@@ -980,6 +980,15 @@
       "published_on": "2026-07-08",
       "primary_entity": "Siskiyou County Board of Supervisors",
       "event_fingerprint": "siskiyou-ai-datacenter-rejection"
+    },
+    {
+      "canonical_url": "https://www.bnnbloomberg.ca/business/company-news/2026/07/08/meta-to-build-13-billion-alberta-data-center-its-first-in-canada/",
+      "normalized_url": "https://www.bnnbloomberg.ca/business/company-news/2026/07/08/meta-to-build-13-billion-alberta-data-center-its-first-in-canada",
+      "title": "Meta to build its first $13 billion data centre in Canada",
+      "normalized_title": "meta to build its first 13 billion data centre in canada",
+      "published_on": "2026-07-09",
+      "primary_entity": "Meta",
+      "event_fingerprint": "meta-alberta-ai-datacenter-launch"
     }
   ],
   "version": 2,
