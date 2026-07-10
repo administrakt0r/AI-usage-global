@@ -1420,6 +1420,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 114,
+    slug: "markey-ai-accountability-agenda-data-centers",
+    title: "Senator Markey Proposes Federal Standards for AI Data Center Impacts",
+    description: "New federal legislation seeks to mandate resource transparency and require AI data center operators to fund clean energy and grid upgrades.",
+    imageAlt: "Digital representation of federal regulation and AI data center infrastructure",
+    publishedOn: "2026-07-10",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
