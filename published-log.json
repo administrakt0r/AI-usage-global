@@ -998,6 +998,15 @@
       "published_on": "2026-07-09",
       "primary_entity": "Google",
       "event_fingerprint": "google-botetourt-water-contract"
+    },
+    {
+      "canonical_url": "https://www.morningstar.com/news/pr-newswire/20260709cn01140/the-americas-data-center-boom-may-soon-face-a-critical-power-crunch-wrtsil-warns-and-the-industry-is-moving-too-fast-to-see-it-coming",
+      "normalized_url": "https://www.morningstar.com/news/pr-newswire/20260709cn01140/the-americas-data-center-boom-may-soon-face-a-critical-power-crunch-wrtsil-warns-and-the-industry-is-moving-too-fast-to-see-it-coming",
+      "title": "The Americas' data center boom may soon face a critical power crunch, Wärtsilä warns - and the industry is moving too fast to see it coming",
+      "normalized_title": "the americas data center boom may soon face a critical power crunch wartsila warns and the industry is moving too fast to see it coming",
+      "published_on": "2026-07-10",
+      "primary_entity": "Wärtsilä",
+      "event_fingerprint": "wartsila-americas-ai-power-crunch-report"
     }
   ],
   "version": 2,

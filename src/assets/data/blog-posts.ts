@@ -1409,6 +1409,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 113,
+    slug: "americas-ai-power-crunch-wartsila",
+    title: "Wärtsilä Warns of 'Speed to Powerless' Risk in AI Data Center Boom",
+    description: "New landmark analysis identifies grid saturation and interconnection delays as primary brakes on AI infrastructure growth across the Americas.",
+    imageAlt: "Digital representation of power grid saturation and AI data center infrastructure across the Americas",
+    publishedOn: "2026-07-10",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
