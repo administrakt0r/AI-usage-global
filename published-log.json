@@ -1007,6 +1007,15 @@
       "published_on": "2026-07-10",
       "primary_entity": "Wärtsilä",
       "event_fingerprint": "wartsila-americas-ai-power-crunch-report"
+    },
+    {
+      "canonical_url": "https://www.markey.senate.gov/news/press-releases/senator-markey-releases-the-ai-accountability-agenda-taking-power-back-from-big-tech",
+      "normalized_url": "https://www.markey.senate.gov/news/press-releases/senator-markey-releases-the-ai-accountability-agenda-taking-power-back-from-big-tech",
+      "title": "Senator Markey Releases “The AI Accountability Agenda: Taking Power Back from Big Tech”",
+      "normalized_title": "senator markey releases the ai accountability agenda taking power back from big tech",
+      "published_on": "2026-07-10",
+      "primary_entity": "Senator Edward J. Markey",
+      "event_fingerprint": "markey-ai-accountability-agenda"
     }
   ],
   "version": 2,
