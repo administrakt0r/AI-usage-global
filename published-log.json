@@ -1025,6 +1025,15 @@
       "published_on": "2026-07-11",
       "primary_entity": "Sarasota County Board of Commissioners",
       "event_fingerprint": "sarasota-county-ai-datacenter-moratorium"
+    },
+    {
+      "canonical_url": "https://www.williamsmullen.com/insights/news/legal-news/virginia-budget-creates-new-electricity-consumption-tax-data-centers",
+      "normalized_url": "https://www.williamsmullen.com/insights/news/legal-news/virginia-budget-creates-new-electricity-consumption-tax-data-centers",
+      "title": "Virginia Imposes First AI Data Center Electricity Surtax",
+      "normalized_title": "virginia imposes first ai data center electricity surtax",
+      "published_on": "2026-07-11",
+      "primary_entity": "Virginia General Assembly",
+      "event_fingerprint": "virginia-ai-datacenter-electricity-surtax"
     }
   ],
   "version": 2,

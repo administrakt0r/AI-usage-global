@@ -1442,6 +1442,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 116,
+    slug: "virginia-ai-datacenter-electricity-surtax",
+    title: "Virginia Imposes First AI Data Center Electricity Surtax",
+    description: "Virginia enacts a 1.1-cent-per-kWh electricity tax on data centers to address massive AI-driven infrastructure costs and grid strain.",
+    imageAlt: "Digital representation of a data center and power grid infrastructure in Virginia",
+    publishedOn: "2026-07-11",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
