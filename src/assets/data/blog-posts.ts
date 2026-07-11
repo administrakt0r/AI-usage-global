@@ -1431,6 +1431,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 115,
+    slug: "sarasota-county-ai-datacenter-moratorium",
+    title: "Data centers firmly rejected for Sarasota County in unanimous vote",
+    description: "Sarasota County commissioners vote 5-0 to impose a one-year moratorium on data center applications, citing extreme electricity demand and daily water use of up to 5 million gallons.",
+    imageAlt: "Digital representation of a data center moratorium and water resource management in Sarasota County",
+    publishedOn: "2026-07-11",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (

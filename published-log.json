@@ -1016,6 +1016,15 @@
       "published_on": "2026-07-10",
       "primary_entity": "Senator Edward J. Markey",
       "event_fingerprint": "markey-ai-accountability-agenda"
+    },
+    {
+      "canonical_url": "https://www.yourobserver.com/news/2026/jul/11/data-centers-rejected-sarasota-county/",
+      "normalized_url": "https://www.yourobserver.com/news/2026/jul/11/data-centers-rejected-sarasota-county",
+      "title": "Data centers firmly rejected for Sarasota County in unanimous vote",
+      "normalized_title": "data centers firmly rejected for sarasota county in unanimous vote",
+      "published_on": "2026-07-11",
+      "primary_entity": "Sarasota County Board of Commissioners",
+      "event_fingerprint": "sarasota-county-ai-datacenter-moratorium"
     }
   ],
   "version": 2,
