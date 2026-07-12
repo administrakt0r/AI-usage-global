@@ -1034,6 +1034,15 @@
       "published_on": "2026-07-11",
       "primary_entity": "Virginia General Assembly",
       "event_fingerprint": "virginia-ai-datacenter-electricity-surtax"
+    },
+    {
+      "canonical_url": "https://www.thecooldown.com/green-tech/endicott-ai-data-centers-pause-water-energy/",
+      "normalized_url": "https://www.thecooldown.com/green-tech/endicott-ai-data-centers-pause-water-energy",
+      "title": "New York Village Proposes Total Moratorium on AI Data Centers",
+      "normalized_title": "new york village proposes total moratorium on ai data centers",
+      "published_on": "2026-07-12",
+      "primary_entity": "Village of Endicott",
+      "event_fingerprint": "endicott-ai-datacenter-moratorium-proposal"
     }
   ],
   "version": 2,
