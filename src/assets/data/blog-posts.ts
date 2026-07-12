@@ -1464,6 +1464,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 118,
+    slug: "indiana-ai-fossil-fuel-water-costs",
+    title: "Indiana AI Boom to Consume 7 Billion Gallons of Water Annually",
+    description: "Amazon's $29 billion 'Silicon Heartland' investment in Indiana is driving massive water consumption and prolonging the use of coal and gas power.",
+    imageAlt: "Digital representation of a data center and water infrastructure in Indiana",
+    publishedOn: "2026-07-12",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
