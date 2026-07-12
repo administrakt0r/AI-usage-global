@@ -1453,6 +1453,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 117,
+    slug: "endicott-ai-datacenter-moratorium-proposal",
+    title: "New York Village Proposes Total Moratorium on AI Data Centers",
+    description: "The Village of Endicott is considering a 12-month total pause on AI data center development to study impacts on local water and energy resources.",
+    imageAlt: "Digital representation of a data center moratorium and community water resources in Endicott",
+    publishedOn: "2026-07-12",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
