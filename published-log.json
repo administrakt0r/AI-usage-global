@@ -1043,6 +1043,15 @@
       "published_on": "2026-07-12",
       "primary_entity": "Village of Endicott",
       "event_fingerprint": "endicott-ai-datacenter-moratorium-proposal"
+    },
+    {
+      "canonical_url": "https://www.circleofblue.org/2026/water-energy/the-ai-boom-is-prolonging-indianas-fossil-fuel-era-with-hidden-costs-for-water/",
+      "normalized_url": "https://www.circleofblue.org/2026/water-energy/the-ai-boom-is-prolonging-indianas-fossil-fuel-era-with-hidden-costs-for-water",
+      "title": "The AI Boom Is Prolonging Indiana’s Fossil Fuel Era, With Hidden Costs for Water",
+      "normalized_title": "the ai boom is prolonging indianas fossil fuel era with hidden costs for water",
+      "published_on": "2026-07-12",
+      "primary_entity": "Amazon / NIPSCO",
+      "event_fingerprint": "indiana-ai-fossil-fuel-water-impact"
     }
   ],
   "version": 2,
