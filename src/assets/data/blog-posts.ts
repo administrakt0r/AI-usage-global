@@ -1486,6 +1486,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 120,
+    slug: "meta-hyperion-5gw-louisiana-expansion",
+    title: "Meta Expands Hyperion AI Supercluster to 5GW in $50B Louisiana Deal",
+    description: "Meta officially scales its Richland Parish campus to 5GW, marking a $50 billion investment in the world's largest AI infrastructure project.",
+    imageAlt: "Digital representation of a hyperscale AI data center campus in Louisiana",
+    publishedOn: "2026-07-13",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (

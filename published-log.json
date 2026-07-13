@@ -1061,6 +1061,15 @@
       "published_on": "2026-07-13",
       "primary_entity": "Indianapolis City-County Council",
       "event_fingerprint": "indianapolis-ai-datacenter-moratorium"
+    },
+    {
+      "canonical_url": "https://www.tomshardware.com/tech-industry/data-centers/meta-expands-colossal-hyperion-ai-supercluster-plans-to-5gw-pushes-louisiana-investment-past-usd50-billion-as-ai-race-accelerates-says-it-plans-to-invest-over-usd1-billion-in-local-infrastructure-improvements",
+      "normalized_url": "https://www.tomshardware.com/tech-industry/data-centers/meta-expands-colossal-hyperion-ai-supercluster-plans-to-5gw-pushes-louisiana-investment-past-usd50-billion-as-ai-race-accelerates-says-it-plans-to-invest-over-usd1-billion-in-local-infrastructure-improvements",
+      "title": "Meta expands colossal Hyperion AI supercluster plans to 5GW, pushes Louisiana investment past $50 billion as AI race accelerates",
+      "normalized_title": "meta expands colossal hyperion ai supercluster plans to 5gw pushes louisiana investment past 50 billion as ai race accelerates",
+      "published_on": "2026-07-13",
+      "primary_entity": "Meta",
+      "event_fingerprint": "meta-hyperion-5gw-louisiana-expansion"
     }
   ],
   "version": 2,
