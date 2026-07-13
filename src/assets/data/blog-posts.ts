@@ -1475,6 +1475,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 119,
+    slug: "indianapolis-ai-datacenter-moratorium-proposal",
+    title: "Indianapolis Proposes Moratorium on New AI Data Centers Amid Zoning Overhaul",
+    description: "City Council President Maggie Lewis introduces a moratorium to pause new data center approvals while Indianapolis finalizes stricter zoning rules for noise and resource reporting.",
+    imageAlt: "Digital representation of municipal governance and data center infrastructure in Indianapolis",
+    publishedOn: "2026-07-13",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
