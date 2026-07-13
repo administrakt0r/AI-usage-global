@@ -1052,6 +1052,15 @@
       "published_on": "2026-07-12",
       "primary_entity": "Amazon / NIPSCO",
       "event_fingerprint": "indiana-ai-fossil-fuel-water-impact"
+    },
+    {
+      "canonical_url": "https://www.wthr.com/article/news/local/amendment-proposed-to-halt-new-data-center-projects-in-indianapolis-city-county-council-maggie-lewis/531-ecab0efb-584c-4964-a381-f07c0ba7d6ef",
+      "normalized_url": "https://www.wthr.com/article/news/local/amendment-proposed-to-halt-new-data-center-projects-in-indianapolis-city-county-council-maggie-lewis/531-ecab0efb-584c-4964-a381-f07c0ba7d6ef",
+      "title": "Indianapolis Proposes Moratorium on New AI Data Centers Amid Zoning Overhaul",
+      "normalized_title": "indianapolis proposes moratorium on new ai data centers amid zoning overhaul",
+      "published_on": "2026-07-13",
+      "primary_entity": "Indianapolis City-County Council",
+      "event_fingerprint": "indianapolis-ai-datacenter-moratorium"
     }
   ],
   "version": 2,
