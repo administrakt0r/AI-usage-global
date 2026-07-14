@@ -1508,6 +1508,18 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 122,
+    slug: "cleanspark-georgia-datacenter-lease",
+    title: "CleanSpark Leases 175MW Georgia Data Center for AI Infrastructure",
+    description:
+      "CleanSpark secures a 20-year, $6.6 billion lease for its Sandersville data center, pivoting 175MW of capacity from cryptomining to hyperscale AI compute.",
+    imageAlt: "Digital representation of a hyperscale data center and energy grid in Georgia",
+    publishedOn: "2026-07-14",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
