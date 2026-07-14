@@ -1079,6 +1079,15 @@
       "published_on": "2026-07-14",
       "primary_entity": "The White House",
       "event_fingerprint": "white-house-ai-utility-power-pledge"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/cleanspark-secures-tenant-with-20-year-lease-for-data-center-in-sandersville-georgia/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/cleanspark-secures-tenant-with-20-year-lease-for-data-center-in-sandersville-georgia",
+      "title": "CleanSpark secures tenant with 20-year lease for data center in Sandersville, Georgia",
+      "normalized_title": "cleanspark secures tenant with 20 year lease for data center in sandersville georgia",
+      "published_on": "2026-07-14",
+      "primary_entity": "CleanSpark",
+      "event_fingerprint": "cleanspark-georgia-175mw-ai-lease"
     }
   ],
   "version": 2,
