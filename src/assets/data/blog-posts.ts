@@ -1497,6 +1497,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 121,
+    slug: "white-house-ai-utility-power-pledge",
+    title: "The White House’s next AI energy pledge targets the utilities",
+    description: "The White House expands its Ratepayer Protection Pledge to electric utilities to ensure the $1.4 trillion in projected AI grid upgrades aren't passed on to residential consumers.",
+    imageAlt: "Digital representation of the White House and electrical grid infrastructure",
+    publishedOn: "2026-07-14",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (

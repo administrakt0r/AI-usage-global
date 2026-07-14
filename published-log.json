@@ -1070,6 +1070,15 @@
       "published_on": "2026-07-13",
       "primary_entity": "Meta",
       "event_fingerprint": "meta-hyperion-5gw-louisiana-expansion"
+    },
+    {
+      "canonical_url": "https://thenextweb.com/news/white-house-utilities-ai-power-cost-pledge",
+      "normalized_url": "https://thenextweb.com/news/white-house-utilities-ai-power-cost-pledge",
+      "title": "The White House’s next AI energy pledge targets the utilities",
+      "normalized_title": "the white houses next ai energy pledge targets the utilities",
+      "published_on": "2026-07-14",
+      "primary_entity": "The White House",
+      "event_fingerprint": "white-house-ai-utility-power-pledge"
     }
   ],
   "version": 2,
