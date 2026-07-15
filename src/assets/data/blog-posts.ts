@@ -1531,6 +1531,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 124,
+    slug: "blackstone-williams-ai-gas-power-deal",
+    title: "Blackstone and Williams Ink $5.34 Billion AI Gas Power Deal",
+    description: "Blackstone leads a $5.34 billion investment in Williams' Power Innovation platform to develop 6 GW of behind-the-meter gas power for AI data centers.",
+    imageAlt: "Digital representation of natural gas infrastructure and AI data center power systems",
+    publishedOn: "2026-07-15",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
