@@ -1520,6 +1520,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 123,
+    slug: "kazakhstan-10bn-ai-datacenter-deployment",
+    title: "Kazakhstan Says $10 Billion AI Data Center Project Is Moving Into Deployment",
+    description: "Kazakhstan begins deployment of a $10 billion AI data center cluster in Ekibastuz, leveraging 1 GW of coal-fired power and cold climates for high-density compute infrastructure.",
+    imageAlt: "Digital representation of a massive AI data center campus and energy infrastructure in Kazakhstan",
+    publishedOn: "2026-07-15",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
