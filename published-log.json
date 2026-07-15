@@ -1088,6 +1088,15 @@
       "published_on": "2026-07-14",
       "primary_entity": "CleanSpark",
       "event_fingerprint": "cleanspark-georgia-175mw-ai-lease"
+    },
+    {
+      "canonical_url": "https://timesca.com/kazakhstan-says-10-billion-ai-data-center-project-is-moving-into-deployment/",
+      "normalized_url": "https://timesca.com/kazakhstan-says-10-billion-ai-data-center-project-is-moving-into-deployment",
+      "title": "Kazakhstan Says $10 Billion AI Data Center Project Is Moving Into Deployment",
+      "normalized_title": "kazakhstan says 10 billion ai data center project is moving into deployment",
+      "published_on": "2026-07-15",
+      "primary_entity": "Government of Kazakhstan",
+      "event_fingerprint": "kazakhstan-ai-datacenter-deployment"
     }
   ],
   "version": 2,
