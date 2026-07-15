@@ -1097,6 +1097,15 @@
       "published_on": "2026-07-15",
       "primary_entity": "Government of Kazakhstan",
       "event_fingerprint": "kazakhstan-ai-datacenter-deployment"
+    },
+    {
+      "canonical_url": "https://www.tradingview.com/news/zacks:8cb707ad0094b:0-williams-secures-blackstone-led-5-34b-deal-for-ai-power-push/",
+      "normalized_url": "https://www.tradingview.com/news/zacks:8cb707ad0094b:0-williams-secures-blackstone-led-5-34b-deal-for-ai-power-push",
+      "title": "Blackstone and Williams Ink $5.34 Billion AI Gas Power Deal",
+      "normalized_title": "blackstone and williams ink 5 34 billion ai gas power deal",
+      "published_on": "2026-07-15",
+      "primary_entity": "Williams Companies / Blackstone",
+      "event_fingerprint": "blackstone-williams-5-34b-btm-gas-deal"
     }
   ],
   "version": 2,
