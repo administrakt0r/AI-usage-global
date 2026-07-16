@@ -1106,6 +1106,15 @@
       "published_on": "2026-07-15",
       "primary_entity": "Williams Companies / Blackstone",
       "event_fingerprint": "blackstone-williams-5-34b-btm-gas-deal"
+    },
+    {
+      "canonical_url": "https://itif.org/publications/2026/07/15/new-yorks-data-center-moratorium-risks-slowing-americas-ai-future-says-itif/",
+      "normalized_url": "https://itif.org/publications/2026/07/15/new-yorks-data-center-moratorium-risks-slowing-americas-ai-future-says-itif",
+      "title": "New York's Data Center Moratorium Risks Slowing America's AI Future, Says ITIF",
+      "normalized_title": "new yorks data center moratorium risks slowing americas ai future says itif",
+      "published_on": "2026-07-16",
+      "primary_entity": "Governor Kathy Hochul / ITIF",
+      "event_fingerprint": "ny-executive-order-data-center-moratorium"
     }
   ],
   "version": 2,

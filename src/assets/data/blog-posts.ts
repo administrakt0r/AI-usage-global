@@ -1542,6 +1542,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 125,
+    slug: "ny-executive-order-data-center-moratorium",
+    title: "New York's Data Center Moratorium Risks Slowing America's AI Future, Says ITIF",
+    description: "New York Governor Kathy Hochul signs an executive order for the nation's first statewide moratorium on new data centers to study energy and water impacts.",
+    imageAlt: "Digital representation of a statewide data center moratorium in New York",
+    publishedOn: "2026-07-16",
+    category: AI_USAGE,
+    readTime: 4,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
