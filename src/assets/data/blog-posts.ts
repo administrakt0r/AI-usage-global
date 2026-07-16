@@ -1553,6 +1553,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 4,
     featured: false,
   }),
+  createPost({
+    id: 126,
+    slug: "pjm-capacity-auction-price-cap-ai",
+    title: "AI Data Centers Drive PJM Capacity Auction to Price Cap",
+    description: "PJM Interconnection's capacity auction clears at its maximum price cap as a massive 2 GW surge in AI data center demand strains the 13-state power grid.",
+    imageAlt: "Digital representation of a high-voltage power grid and massive AI data center infrastructure",
+    publishedOn: "2026-07-16",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (

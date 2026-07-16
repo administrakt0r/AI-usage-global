@@ -1115,6 +1115,15 @@
       "published_on": "2026-07-16",
       "primary_entity": "Governor Kathy Hochul / ITIF",
       "event_fingerprint": "ny-executive-order-data-center-moratorium"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/pjm-capacity-auction-price-cap-reserve-shortfall/825282/",
+      "normalized_url": "https://www.utilitydive.com/news/pjm-capacity-auction-price-cap-reserve-shortfall/825282",
+      "title": "PJM capacity prices hit price cap, reserve shortfall grows",
+      "normalized_title": "pjm capacity prices hit price cap reserve shortfall grows",
+      "published_on": "2026-07-16",
+      "primary_entity": "PJM Interconnection",
+      "event_fingerprint": "pjm-capacity-auction-price-cap"
     }
   ],
   "version": 2,
