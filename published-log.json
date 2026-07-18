@@ -1133,6 +1133,15 @@
       "published_on": "2026-07-15",
       "primary_entity": "Crusoe / Lancium",
       "event_fingerprint": "crusoe-lancium-childress-1gw-datacenter"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/ai-data-center-growth-utilities-generation-plans/825541/",
+      "normalized_url": "https://www.utilitydive.com/news/ai-data-center-growth-utilities-generation-plans/825541",
+      "title": "AI data center growth could force US utilities to rethink generation plans, BofA says",
+      "normalized_title": "ai data center growth could force us utilities to rethink generation plans bofa says",
+      "published_on": "2026-07-18",
+      "primary_entity": "Bank of America",
+      "event_fingerprint": "bofa-us-electricity-supply-gap-forecast"
     }
   ],
   "version": 2,

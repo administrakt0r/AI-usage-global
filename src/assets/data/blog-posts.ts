@@ -1575,6 +1575,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 128,
+    slug: "bank-of-america-ai-electricity-supply-gap",
+    title: "Bank of America Forecasts 100 GW US Power Supply Deficit",
+    description: "Bank of America warns of a 100 GW generating capacity gap as AI data center demand drives US electricity growth to a 4.1% compound annual rate through 2030.",
+    imageAlt: "Digital representation of US energy grid and growing supply gap from AI data centers",
+    publishedOn: "2026-07-18",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
