@@ -1564,6 +1564,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 127,
+    slug: "crusoe-lancium-childress-1gw-datacenter",
+    title: "Crusoe and Lancium Announce 1.0 Gigawatt AI Data Center Campus in Childress, Texas",
+    description: "Crusoe and Lancium announce a new 1.0 GW AI data center campus in Childress, Texas, featuring solar power integration, energy storage, and water-efficient closed-loop liquid cooling.",
+    imageAlt: "Digital representation of a massive AI data center campus and renewable energy infrastructure in Texas",
+    publishedOn: "2026-07-15",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (

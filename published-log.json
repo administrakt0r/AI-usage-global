@@ -1124,6 +1124,15 @@
       "published_on": "2026-07-16",
       "primary_entity": "PJM Interconnection",
       "event_fingerprint": "pjm-capacity-auction-price-cap"
+    },
+    {
+      "canonical_url": "https://www.crusoe.ai/resources/newsroom/crusoe-and-lancium-announce-1-gigawatt-ai-data-center-campus-in-childress-texas",
+      "normalized_url": "https://www.crusoe.ai/resources/newsroom/crusoe-and-lancium-announce-1-gigawatt-ai-data-center-campus-in-childress-texas",
+      "title": "Crusoe and Lancium Announce 1.0 Gigawatt AI Data Center Campus in Childress, Texas",
+      "normalized_title": "crusoe and lancium announce 1 0 gigawatt ai data center campus in childress texas",
+      "published_on": "2026-07-15",
+      "primary_entity": "Crusoe / Lancium",
+      "event_fingerprint": "crusoe-lancium-childress-1gw-datacenter"
     }
   ],
   "version": 2,
