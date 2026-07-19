@@ -1142,6 +1142,15 @@
       "published_on": "2026-07-18",
       "primary_entity": "Bank of America",
       "event_fingerprint": "bofa-us-electricity-supply-gap-forecast"
+    },
+    {
+      "canonical_url": "https://www.channelnewsasia.com/business/us-data-center-protests-go-national-backlash-grows-6262631",
+      "normalized_url": "https://www.channelnewsasia.com/business/us-data-center-protests-go-national-backlash-grows-6262631",
+      "title": "Data center opponents stage 142 protests across 42 US states",
+      "normalized_title": "data center opponents stage 142 protests across 42 us states",
+      "published_on": "2026-07-18",
+      "primary_entity": "HumansFirst",
+      "event_fingerprint": "us-national-data-center-protests"
     }
   ],
   "version": 2,
