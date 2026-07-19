@@ -1597,6 +1597,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 130,
+    slug: "ai-vendors-infrastructure-costs-software-budgets",
+    title: "AI Vendors Shift Infrastructure Costs, Driving Up Software Budgets",
+    description: "A Forrester survey of 2,600 tech decision-makers warns that enterprise software budgets will surge as vendors pass down AI infrastructure and compute costs to customers.",
+    imageAlt: "Digital representation of rising enterprise software budgets and AI compute infrastructure costs",
+    publishedOn: "2026-07-19",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
