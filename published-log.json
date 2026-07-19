@@ -1151,6 +1151,15 @@
       "published_on": "2026-07-18",
       "primary_entity": "HumansFirst",
       "event_fingerprint": "us-national-data-center-protests"
+    },
+    {
+      "canonical_url": "https://www.theregister.com/software/2026/07/16/ai-vendors-have-found-someone-to-pay-their-infrastructure-bills-you/5273712",
+      "normalized_url": "https://www.theregister.com/software/2026/07/16/ai-vendors-have-found-someone-to-pay-their-infrastructure-bills-you/5273712",
+      "title": "AI vendors have found someone to pay their infrastructure bills: You",
+      "normalized_title": "ai vendors have found someone to pay their infrastructure bills you",
+      "published_on": "2026-07-19",
+      "primary_entity": "Forrester Research",
+      "event_fingerprint": "forrester-ai-infrastructure-billing-cost-shift"
     }
   ],
   "version": 2,
