@@ -1586,6 +1586,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 129,
+    slug: "us-data-center-protests-go-national",
+    title: "Data Center Opponents Stage 142 Protests Across 42 US States",
+    description: "Opponents of rapid AI data center expansion held 142 protests across 42 states in the first nationwide demonstration against rising water and energy demands.",
+    imageAlt: "Digital representation of community protests against data center resource consumption",
+    publishedOn: "2026-07-18",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
