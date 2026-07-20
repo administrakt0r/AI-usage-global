@@ -1619,6 +1619,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 132,
+    slug: "amentum-nnsa-savannah-river-project",
+    title: "NNSA Pairs 1 GW AI Data Center With 2 GW On-Site Power",
+    description: "The National Nuclear Security Administration selects Amentum to negotiate a 1 GW AI data center paired with 2 GW of dedicated on-site natural gas and nuclear power.",
+    imageAlt: "Digital representation of a massive data center and nuclear energy facility on federal land",
+    publishedOn: "2026-07-21",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
