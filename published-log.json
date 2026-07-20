@@ -1160,6 +1160,15 @@
       "published_on": "2026-07-19",
       "primary_entity": "Forrester Research",
       "event_fingerprint": "forrester-ai-infrastructure-billing-cost-shift"
+    },
+    {
+      "canonical_url": "https://ourworldindata.org/how-much-energy-do-data-centers-and-artificial-intelligence-use",
+      "normalized_url": "https://ourworldindata.org/how-much-energy-do-data-centers-and-artificial-intelligence-use",
+      "title": "How much energy do data centers and artificial intelligence use?",
+      "normalized_title": "how much energy do data centers and artificial intelligence use",
+      "published_on": "2026-07-20",
+      "primary_entity": "Our World in Data",
+      "event_fingerprint": "owid-hannah-ritchie-ai-energy-use-report"
     }
   ],
   "version": 2,
