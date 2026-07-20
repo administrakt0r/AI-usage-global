@@ -1169,6 +1169,15 @@
       "published_on": "2026-07-20",
       "primary_entity": "Our World in Data",
       "event_fingerprint": "owid-hannah-ritchie-ai-energy-use-report"
+    },
+    {
+      "canonical_url": "https://www.energy.gov/nnsa/articles/nnsa-selects-amentum-ai-data-center-and-energy-project-savannah-river-site",
+      "normalized_url": "https://www.energy.gov/nnsa/articles/nnsa-selects-amentum-ai-data-center-and-energy-project-savannah-river-site",
+      "title": "NNSA Selects Amentum for AI Data Center and Energy Project at Savannah River Site",
+      "normalized_title": "nnsa selects amentum for ai data center and energy project at savannah river site",
+      "published_on": "2026-07-21",
+      "primary_entity": "NNSA / Amentum",
+      "event_fingerprint": "nnsa-amentum-savannah-river-lease"
     }
   ],
   "version": 2,
