@@ -1608,6 +1608,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 131,
+    slug: "how-much-energy-do-data-centers-and-ai-use",
+    title: "How much energy do data centers and artificial intelligence use?",
+    description: "A landmark study by Hannah Ritchie reveals that global data centers consumed 485 TWh of electricity in 2025, with AI-focused data centers accounting for 0.5% of global power.",
+    imageAlt: "Digital representation of global data centers and AI energy consumption metrics",
+    publishedOn: "2026-07-20",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
