@@ -1630,6 +1630,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 133,
+    slug: "caiso-ferc-large-load-informational-report",
+    title: "California ISO Files Large-Load Grid Integration Report with FERC",
+    description: "The California Independent System Operator files an informational report detailing collaborative plans to integrate an expected 4.9 GW data center load increase by 2040.",
+    imageAlt: "Digital representation of high-voltage transmission lines and regional electrical grid infrastructure",
+    publishedOn: "2026-07-21",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
