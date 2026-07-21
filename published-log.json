@@ -1178,6 +1178,15 @@
       "published_on": "2026-07-21",
       "primary_entity": "NNSA / Amentum",
       "event_fingerprint": "nnsa-amentum-savannah-river-lease"
+    },
+    {
+      "canonical_url": "https://www.caiso.com/documents/jul-20-2026-informational-report-large-loads-and-co-located-loads-el26-71.pdf",
+      "normalized_url": "https://www.caiso.com/documents/jul-20-2026-informational-report-large-loads-and-co-located-loads-el26-71.pdf",
+      "title": "California ISO Files Large-Load Grid Integration Report with FERC",
+      "normalized_title": "california iso files large load grid integration report with ferc",
+      "published_on": "2026-07-21",
+      "primary_entity": "California Independent System Operator (CAISO)",
+      "event_fingerprint": "caiso-ferc-large-load-informational-report"
     }
   ],
   "version": 2,
