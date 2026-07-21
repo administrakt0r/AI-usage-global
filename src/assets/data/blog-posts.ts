@@ -1641,6 +1641,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 134,
+    slug: "energy-ipos-surge-ai-power-demand",
+    title: "Energy IPOs Surge as Investors Chase AI Power Infrastructure",
+    description: "Energy sector IPOs hit a record $12.6 billion in early 2026 as public markets fund massive electrical generation and grid infrastructure for AI data centers.",
+    imageAlt: "Digital rendering of power grid equipment and substations backing an AI data center",
+    publishedOn: "2026-07-21",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
