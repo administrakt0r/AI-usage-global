@@ -1187,6 +1187,15 @@
       "published_on": "2026-07-21",
       "primary_entity": "California Independent System Operator (CAISO)",
       "event_fingerprint": "caiso-ferc-large-load-informational-report"
+    },
+    {
+      "canonical_url": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/",
+      "normalized_url": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom",
+      "title": "Energy IPOs surge as investors hunt for ways to play AI boom",
+      "normalized_title": "energy ipos surge as investors hunt for ways to play ai boom",
+      "published_on": "2026-07-21",
+      "primary_entity": "Dealogic",
+      "event_fingerprint": "energy-ipos-fundraising-surge"
     }
   ],
   "version": 2,
