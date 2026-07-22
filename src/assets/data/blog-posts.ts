@@ -1652,6 +1652,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 135,
+    slug: "khi-us-datacenter-environmental-footprint-report",
+    title: "KHI Report: US Data Center Power to More Than Double by 2030",
+    description: "The Kansas Health Institute publishes a sweeping report warning that U.S. data center electricity demand will grow 133% to 426 TWh by 2030, while direct water consumption could quadruple by 2028.",
+    imageAlt: "Digital illustration of water streams cooling power generator infrastructure with data center buildings in the background",
+    publishedOn: "2026-07-22",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (

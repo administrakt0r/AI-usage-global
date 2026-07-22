@@ -1196,6 +1196,15 @@
       "published_on": "2026-07-21",
       "primary_entity": "Dealogic",
       "event_fingerprint": "energy-ipos-fundraising-surge"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/us-data-centers-could-4x-water-use-by-2028-double-electricity-by-2030-khi/825774/",
+      "normalized_url": "https://www.utilitydive.com/news/us-data-centers-could-4x-water-use-by-2028-double-electricity-by-2030-khi/825774",
+      "title": "US data center electricity use could more than double by 2030: report",
+      "normalized_title": "us data center electricity use could more than double by 2030 report",
+      "published_on": "2026-07-22",
+      "primary_entity": "Kansas Health Institute",
+      "event_fingerprint": "khi-us-data-center-environmental-footprint-report"
     }
   ],
   "version": 2,
