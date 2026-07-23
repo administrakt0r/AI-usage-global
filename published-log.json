@@ -1205,6 +1205,15 @@
       "published_on": "2026-07-22",
       "primary_entity": "Kansas Health Institute",
       "event_fingerprint": "khi-us-data-center-environmental-footprint-report"
+    },
+    {
+      "canonical_url": "https://www.texastribune.org/2026/07/23/east-texas-data-center-withdrawn/",
+      "normalized_url": "https://www.texastribune.org/2026/07/23/east-texas-data-center-withdrawn",
+      "title": "East Texas data center project pulled after facing community backlash",
+      "normalized_title": "east texas data center project pulled after facing community backlash",
+      "published_on": "2026-07-23",
+      "primary_entity": "Diode Ventures",
+      "event_fingerprint": "east-texas-diode-datacenter-withdrawal"
     }
   ],
   "version": 2,
