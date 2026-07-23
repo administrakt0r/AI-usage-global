@@ -1663,6 +1663,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 136,
+    slug: "east-texas-diode-datacenter-withdrawal",
+    title: "Texas AI Data Center Withdrawn Amid Cedar Creek Lake Water Backlash",
+    description: "Diode Ventures withdraws its East Texas data center proposal near Cedar Creek Lake, citing Governor Greg Abbott's strict resource directives and local community opposition over water supply.",
+    imageAlt: "Sunset view of Cedar Creek Lake in East Texas with water conservation markers",
+    publishedOn: "2026-07-23",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
