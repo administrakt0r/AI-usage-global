@@ -1223,6 +1223,15 @@
       "published_on": "2026-07-23",
       "primary_entity": "President Donald Trump",
       "event_fingerprint": "trump-expanded-ratepayer-protection-pledge"
+    },
+    {
+      "canonical_url": "https://www.datacenterknowledge.com/energy-power-supply/fault-in-data-center-alley-triggered-3-gw-load-drop-on-pjm",
+      "normalized_url": "https://www.datacenterknowledge.com/energy-power-supply/fault-in-data-center-alley-triggered-3-gw-load-drop-on-pjm",
+      "title": "Fault in Data Center Alley Triggered 3 GW Load Drop on PJM",
+      "normalized_title": "fault in data center alley triggered 3 gw load drop on pjm",
+      "published_on": "2026-07-24",
+      "primary_entity": "Dominion Energy / PJM Interconnection",
+      "event_fingerprint": "ashburn-data-center-alley-load-drop"
     }
   ],
   "version": 2,
