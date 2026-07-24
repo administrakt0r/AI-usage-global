@@ -1214,6 +1214,15 @@
       "published_on": "2026-07-23",
       "primary_entity": "Diode Ventures",
       "event_fingerprint": "east-texas-diode-datacenter-withdrawal"
+    },
+    {
+      "canonical_url": "https://www.cp24.com/news/world/2026/07/23/trump-expands-a-voluntary-pledge-to-protect-consumers-from-high-utility-bills-from-ai-data-centers/",
+      "normalized_url": "https://www.cp24.com/news/world/2026/07/23/trump-expands-a-voluntary-pledge-to-protect-consumers-from-high-utility-bills-from-ai-data-centers",
+      "title": "Trump expands a voluntary pledge to protect consumers from high utility bills from AI data centres",
+      "normalized_title": "trump expands a voluntary pledge to protect consumers from high utility bills from ai data centres",
+      "published_on": "2026-07-23",
+      "primary_entity": "President Donald Trump",
+      "event_fingerprint": "trump-expanded-ratepayer-protection-pledge"
     }
   ],
   "version": 2,
