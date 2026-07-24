@@ -1685,6 +1685,17 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 138,
+    slug: "data-center-alley-power-fault-triggers-massive-3-gw-load-drop",
+    title: "Data Center Alley Power Fault Triggers Massive 3 GW Load Drop",
+    description: "A transmission line fault in Virginia’s Data Center Alley forced hyperscale facilities to backup generators, instantly dropping 3 GW of load from the PJM grid.",
+    imageAlt: "Digital rendering of power transmission lines and hyperscale data center buildings",
+    publishedOn: "2026-07-24",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+  }),
 ];
 
 const assertUniqueField = (
