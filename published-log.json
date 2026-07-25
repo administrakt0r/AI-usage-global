@@ -1232,6 +1232,15 @@
       "published_on": "2026-07-24",
       "primary_entity": "Dominion Energy / PJM Interconnection",
       "event_fingerprint": "ashburn-data-center-alley-load-drop"
+    },
+    {
+      "canonical_url": "https://startupfortune.com/hcltech-bets-148-billion-on-ai-infrastructure-in-odisha-with-sarvam-as-its-model-partner/",
+      "normalized_url": "https://startupfortune.com/hcltech-bets-148-billion-on-ai-infrastructure-in-odisha-with-sarvam-as-its-model-partner",
+      "title": "HCLTech bets $1.48 billion on AI infrastructure in Odisha with Sarvam as its model partner",
+      "normalized_title": "hcltech bets 1 48 billion on ai infrastructure in odisha with sarvam as its model partner",
+      "published_on": "2026-07-24",
+      "primary_entity": "HCLTech / Sarvam / Government of Odisha",
+      "event_fingerprint": "hcltech-odisha-sovereign-ai-datacenter"
     }
   ],
   "version": 2,
