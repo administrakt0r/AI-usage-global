@@ -1696,6 +1696,25 @@ export const blogPosts: BlogPost[] = [
     readTime: 3,
     featured: false,
   }),
+  createPost({
+    id: 139,
+    slug: "hcltech-odisha-sovereign-ai-datacenter",
+    title: "HCLTech Bets $1.48 Billion on Odisha Sovereign AI Data Center",
+    description: "HCLTech partners with Sarvam AI and the Government of Odisha to establish a ₹14,257 crore sovereign AI data center and tech hub in Bhubaneswar.",
+    imageAlt: "A futuristic Indian data center in Odisha glowing beside temples, solar panels, and power lines",
+    publishedOn: "2026-07-24",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "HCLTech",
+      "Odisha AI",
+      "Sarvam AI",
+      "sovereign AI India",
+      "Bhubaneswar data center",
+      "AI infrastructure costs"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
