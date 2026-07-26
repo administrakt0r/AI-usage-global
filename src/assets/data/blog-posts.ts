@@ -1715,6 +1715,25 @@ export const blogPosts: BlogPost[] = [
       "AI infrastructure costs"
     ],
   }),
+  createPost({
+    id: 140,
+    slug: "hyperscaler-725b-ai-infrastructure-spending",
+    title: "Big Tech's 2026 AI Bill Comes to $725 Billion",
+    description: "The four largest hyperscalers are projected to spend a combined $725 billion on AI infrastructure in 2026, marking a 77% surge as grid and hardware costs climb.",
+    imageAlt: "A representation of a global power grid backing a massive network of hyperscale AI data centers",
+    publishedOn: "2026-07-24",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "AI infrastructure capex",
+      "hyperscaler spending",
+      "AI energy demands",
+      "data center buildout",
+      "Alphabet earnings",
+      "compute costs"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
