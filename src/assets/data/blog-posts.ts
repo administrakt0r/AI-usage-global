@@ -1734,6 +1734,25 @@ export const blogPosts: BlogPost[] = [
       "compute costs"
     ],
   }),
+  createPost({
+    id: 141,
+    slug: "louisville-stricter-ai-datacenter-rules",
+    title: "Louisville Proposes Stricter AI Data Center Zoning Rules",
+    description: "The Louisville Metro Office of Planning recommends stricter data center zoning, banning hyperscale facilities and mandating 500-foot setbacks.",
+    imageAlt: "Aerial view of a city skyline representing local zoning and data center restrictions",
+    publishedOn: "2026-07-26",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Louisville",
+      "zoning",
+      "data center regulation",
+      "hyperscale ban",
+      "setback",
+      "ratepayer protection"
+    ],
+  }),
 ];
 
 const assertUniqueField = (

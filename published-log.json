@@ -1250,6 +1250,15 @@
       "published_on": "2026-07-24",
       "primary_entity": "Alphabet / Amazon / Microsoft / Meta",
       "event_fingerprint": "hyperscaler-725b-ai-infrastructure-capex-2026"
+    },
+    {
+      "canonical_url": "https://www.wdrb.com/news/louisville-proposes-stricter-regulations-on-data-centers-after-public-feedback/article_30908b96-d6cc-40b4-b947-f7cd07b61f2b.html",
+      "normalized_url": "https://www.wdrb.com/news/louisville-proposes-stricter-regulations-on-data-centers-after-public-feedback/article_30908b96-d6cc-40b4-b947-f7cd07b61f2b.html",
+      "title": "Louisville proposes stricter regulations on data centers after public feedback",
+      "normalized_title": "louisville proposes stricter regulations on data centers after public feedback",
+      "published_on": "2026-07-26",
+      "primary_entity": "Louisville Metro Office of Planning",
+      "event_fingerprint": "louisville-data-center-zoning-regulations"
     }
   ],
   "version": 2,
