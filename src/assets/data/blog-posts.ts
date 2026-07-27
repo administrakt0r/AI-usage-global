@@ -1772,6 +1772,25 @@ export const blogPosts: BlogPost[] = [
       "agricultural water rights"
     ],
   }),
+  createPost({
+    id: 143,
+    slug: "currence-datacenter-capacity-delay-report",
+    title: "Currence Forecasts Up to 50% Delay in 2026 AI Data Center Builds",
+    description: "A new energy intelligence report warns that power grid limits and construction bottlenecks will delay 30% to 50% of 2026 data center capacity.",
+    imageAlt: "Digital representation of a data center construction site facing delays and energy grid constraints",
+    publishedOn: "2026-07-27",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Currence",
+      "data center delays",
+      "AI factories",
+      "power constraints",
+      "grid interconnection",
+      "behind-the-meter power"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
