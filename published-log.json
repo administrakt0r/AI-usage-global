@@ -1268,6 +1268,15 @@
       "published_on": "2026-07-26",
       "primary_entity": "Imperial Valley Computer Manufacturing",
       "event_fingerprint": "imperial-valley-ai-datacenter-colorado-river-water-dispute"
+    },
+    {
+      "canonical_url": "https://www.networkworld.com/article/4201941/up-to-50-of-data-center-capacity-slated-for-2026-could-be-delayed.html",
+      "normalized_url": "https://www.networkworld.com/article/4201941/up-to-50-of-data-center-capacity-slated-for-2026-could-be-delayed",
+      "title": "Up to 50% of data center capacity slated for 2026 could be delayed",
+      "normalized_title": "up to 50 of data center capacity slated for 2026 could be delayed",
+      "published_on": "2026-07-27",
+      "primary_entity": "Currence",
+      "event_fingerprint": "currence-datacenter-capacity-delays"
     }
   ],
   "version": 2,
