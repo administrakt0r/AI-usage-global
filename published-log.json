@@ -1259,6 +1259,15 @@
       "published_on": "2026-07-26",
       "primary_entity": "Louisville Metro Office of Planning",
       "event_fingerprint": "louisville-data-center-zoning-regulations"
+    },
+    {
+      "canonical_url": "https://m.economictimes.com/news/new-updates/californias-biggest-planned-ai-data-center-promised-not-to-use-colorado-river-water-now-it-wants-260-million-gallons-a-year/articleshow/132639127.cms",
+      "normalized_url": "https://m.economictimes.com/news/new-updates/californias-biggest-planned-ai-data-center-promised-not-to-use-colorado-river-water-now-it-wants-260-million-gallons-a-year/articleshow/132639127",
+      "title": "California's biggest planned AI data center promised not to use Colorado River water. Now it wants 260 million gallons a year",
+      "normalized_title": "california s biggest planned ai data center promised not to use colorado river water now it wants 260 million gallons a year",
+      "published_on": "2026-07-26",
+      "primary_entity": "Imperial Valley Computer Manufacturing",
+      "event_fingerprint": "imperial-valley-ai-datacenter-colorado-river-water-dispute"
     }
   ],
   "version": 2,
