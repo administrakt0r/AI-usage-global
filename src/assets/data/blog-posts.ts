@@ -1753,6 +1753,25 @@ export const blogPosts: BlogPost[] = [
       "ratepayer protection"
     ],
   }),
+  createPost({
+    id: 142,
+    slug: "california-ai-datacenter-colorado-river-water-dispute",
+    title: "California's biggest planned AI data center promised not to use Colorado River water. Now it wants 260 million gallons a year",
+    description: "A proposed 330-megawatt AI data center in California's Imperial Valley faces intense controversy after the developer files a lawsuit seeking 287 million gallons of Colorado River water annually.",
+    imageAlt: "Water canal irrigating agricultural fields in California's Imperial Valley",
+    publishedOn: "2026-07-27",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Colorado River",
+      "Imperial Valley",
+      "California AI data center",
+      "water dispute",
+      "Sebastian Rucci",
+      "agricultural water rights"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
