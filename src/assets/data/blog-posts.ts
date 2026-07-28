@@ -1811,6 +1811,26 @@ export const blogPosts: BlogPost[] = [
       "power grid constraints"
     ],
   }),
+  createPost({
+    id: 145,
+    slug: "house-advances-data-center-ratepayer-bill",
+    title: "House Committee Unanimously Advances Data Center Energy Bill",
+    description: "The House Energy and Commerce Committee unanimously advances the Rate Payer Protection Act to shield residential ratepayers from multi-billion-dollar AI grid upgrade costs.",
+    imageAlt: "A modern electric power substation and high-voltage transmission lines supplying power to data centers",
+    publishedOn: "2026-07-29",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Rate Payer Protection Act",
+      "House Energy and Commerce Committee",
+      "H.R. 9340",
+      "data center energy costs",
+      "large-load standard",
+      "grid upgrade costs",
+      "ratepayer protection"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
