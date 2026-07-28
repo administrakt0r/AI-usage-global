@@ -1286,6 +1286,15 @@
       "published_on": "2026-07-28",
       "primary_entity": "Nvidia / OpenAI",
       "event_fingerprint": "nvidia-openai-250b-datacenter-guarantee"
+    },
+    {
+      "canonical_url": "https://www.crefc.org/cre/content/News/Items/advocacy-items/2026/House_Committee_Advances_Data_Center_Energy_Bill.aspx",
+      "normalized_url": "https://www.crefc.org/cre/content/News/Items/advocacy-items/2026/House_Committee_Advances_Data_Center_Energy_Bill.aspx",
+      "title": "House Committee Advances Data Center Energy Bill",
+      "normalized_title": "house committee advances data center energy bill",
+      "published_on": "2026-07-29",
+      "primary_entity": "House Energy and Commerce Committee",
+      "event_fingerprint": "house-committee-advances-data-center-ratepayer-bill"
     }
   ],
   "version": 2,
