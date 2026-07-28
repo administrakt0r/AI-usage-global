@@ -1791,6 +1791,26 @@ export const blogPosts: BlogPost[] = [
       "behind-the-meter power"
     ],
   }),
+  createPost({
+    id: 144,
+    slug: "nvidia-openai-ohio-datacenter-guarantee",
+    title: "Nvidia in Talks to Guarantee $250 Billion of OpenAI Data Center Debt",
+    description: "Nvidia is reportedly in discussions to guarantee roughly $250 billion in construction and lease debt for OpenAI's proposed 10-gigawatt Ohio campus.",
+    imageAlt: "A giant high-voltage power transmission tower supplying electricity to a modern data center",
+    publishedOn: "2026-07-28",
+    category: AI_USAGE,
+    readTime: 4,
+    featured: false,
+    keywords: [
+      "Nvidia",
+      "OpenAI",
+      "Ohio data center",
+      "10-gigawatt campus",
+      "debt guarantee",
+      "circular financing",
+      "power grid constraints"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
