@@ -1277,6 +1277,15 @@
       "published_on": "2026-07-27",
       "primary_entity": "Currence",
       "event_fingerprint": "currence-datacenter-capacity-delays"
+    },
+    {
+      "canonical_url": "https://thenextweb.com/news/nvidia-openai-250-billion-backstop-ohio-data-centre",
+      "normalized_url": "https://thenextweb.com/news/nvidia-openai-250-billion-backstop-ohio-data-centre",
+      "title": "Nvidia in Talks to Guarantee $250 Billion of OpenAI Data Center Debt",
+      "normalized_title": "nvidia in talks to guarantee 250 billion of openai data center debt",
+      "published_on": "2026-07-28",
+      "primary_entity": "Nvidia / OpenAI",
+      "event_fingerprint": "nvidia-openai-250b-datacenter-guarantee"
     }
   ],
   "version": 2,
