@@ -1295,6 +1295,15 @@
       "published_on": "2026-07-29",
       "primary_entity": "House Energy and Commerce Committee",
       "event_fingerprint": "house-committee-advances-data-center-ratepayer-bill"
+    },
+    {
+      "canonical_url": "https://www.keranews.org/news/2026-07-28/data-centers-require-substantial-water-energy-sustainable-practices-technology-can-lessen-impact",
+      "normalized_url": "https://www.keranews.org/news/2026-07-28/data-centers-require-substantial-water-energy-sustainable-practices-technology-can-lessen-impact",
+      "title": "Data centers require substantial water, energy. Sustainable practices, technology can lessen impact",
+      "normalized_title": "data centers require substantial water energy sustainable practices technology can lessen impact",
+      "published_on": "2026-07-29",
+      "primary_entity": "Black Mountain",
+      "event_fingerprint": "fort-worth-black-mountain-datacenter-land-acquisition"
     }
   ],
   "version": 2,

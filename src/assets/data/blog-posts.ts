@@ -1831,6 +1831,25 @@ export const blogPosts: BlogPost[] = [
       "ratepayer protection"
     ],
   }),
+  createPost({
+    id: 146,
+    slug: "fort-worth-black-mountain-datacenter-land-acquisition",
+    title: "Data centers require substantial water, energy. Sustainable practices, technology can lessen impact",
+    description: "Black Mountain acquires 450 acres of land in Fort Worth for a planned data center development, raising local community concerns over water, energy, and noise footprints.",
+    imageAlt: "A scenic view of open land and power transmission lines in Fort Worth, Texas",
+    publishedOn: "2026-07-29",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Black Mountain",
+      "Fort Worth data center",
+      "Texas AI infrastructure",
+      "water cooling footprint",
+      "ERCOT grid strain",
+      "community opposition"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
