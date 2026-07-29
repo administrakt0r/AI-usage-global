@@ -1304,6 +1304,15 @@
       "published_on": "2026-07-29",
       "primary_entity": "Black Mountain",
       "event_fingerprint": "fort-worth-black-mountain-datacenter-land-acquisition"
+    },
+    {
+      "canonical_url": "https://startupfortune.com/the-epa-just-gave-ai-data-centers-a-pollution-exemption-that-may-not-survive-a-courtroom/",
+      "normalized_url": "https://startupfortune.com/the-epa-just-gave-ai-data-centers-a-pollution-exemption-that-may-not-survive-a-courtroom",
+      "title": "The EPA just gave AI data centers a pollution exemption that may not survive a courtroom",
+      "normalized_title": "the epa just gave ai data centers a pollution exemption that may not survive a courtroom",
+      "published_on": "2026-07-29",
+      "primary_entity": "U.S. Environmental Protection Agency",
+      "event_fingerprint": "epa-islanded-power-pollution-exemption"
     }
   ],
   "version": 2,

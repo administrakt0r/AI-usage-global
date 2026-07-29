@@ -1850,6 +1850,25 @@ export const blogPosts: BlogPost[] = [
       "community opposition"
     ],
   }),
+  createPost({
+    id: 147,
+    slug: "epa-islanded-power-pollution-exemption",
+    title: "EPA Exempts Off-Grid AI Power Plants From Acid Rain Rules",
+    description: "The EPA clarifies that dedicated off-grid power plants serving AI data centers are exempt from the Clean Air Act's Acid Rain Program emissions rules.",
+    imageAlt: "A large-scale power generation facility adjacent to a modern data center campus",
+    publishedOn: "2026-07-29",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "EPA",
+      "Acid Rain Program",
+      "islanded power plants",
+      "off-grid generation",
+      "Clean Air Act",
+      "AI data center energy"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
