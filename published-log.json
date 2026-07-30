@@ -1313,6 +1313,15 @@
       "published_on": "2026-07-29",
       "primary_entity": "U.S. Environmental Protection Agency",
       "event_fingerprint": "epa-islanded-power-pollution-exemption"
+    },
+    {
+      "canonical_url": "https://newsroom.nexteraenergy.com/2026-07-29-DOE-Site-in-Western-Kentucky-Revitalized-with-Data-Center-Campus-and-Dedicated-Energy-Project,-Creating-Jobs-and-Protecting-Residents-and-Businesses-from-Costs",
+      "normalized_url": "https://newsroom.nexteraenergy.com/2026-07-29-DOE-Site-in-Western-Kentucky-Revitalized-with-Data-Center-Campus-and-Dedicated-Energy-Project,-Creating-Jobs-and-Protecting-Residents-and-Businesses-from-Costs",
+      "title": "DOE Site in Western Kentucky Revitalized with Data Center Campus and Dedicated Energy Project, Creating Jobs and Protecting Residents and Businesses from Costs",
+      "normalized_title": "doe site in western kentucky revitalized with data center campus and dedicated energy project creating jobs and protecting residents and businesses from costs",
+      "published_on": "2026-07-30",
+      "primary_entity": "Brookfield / NextEra Energy / U.S. Department of Energy",
+      "event_fingerprint": "paducah-doe-site-ai-datacenter"
     }
   ],
   "version": 2,

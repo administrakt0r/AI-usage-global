@@ -1869,6 +1869,25 @@ export const blogPosts: BlogPost[] = [
       "AI data center energy"
     ],
   }),
+  createPost({
+    id: 148,
+    slug: "paducah-doe-site-ai-datacenter",
+    title: "DOE Site in Western Kentucky Revitalized with Data Center Campus and Dedicated Energy Project, Creating Jobs and Protecting Residents and Businesses from Costs",
+    description: "Brookfield and NextEra partner with the DOE to develop a $100 billion AI data center campus at the Paducah Site in Western Kentucky, backed by up to 4.6 GW of dedicated energy infrastructure.",
+    imageAlt: "A large-scale power transmission facility adjacent to a modern data center campus at the former Paducah enrichment site",
+    publishedOn: "2026-07-30",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Department of Energy",
+      "Paducah Site",
+      "Brookfield",
+      "NextEra Energy",
+      "Ratepayer Protection Pledge",
+      "AI data center Kentucky"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
