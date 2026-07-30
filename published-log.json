@@ -1322,6 +1322,15 @@
       "published_on": "2026-07-30",
       "primary_entity": "Brookfield / NextEra Energy / U.S. Department of Energy",
       "event_fingerprint": "paducah-doe-site-ai-datacenter"
+    },
+    {
+      "canonical_url": "https://www.brookings.edu/articles/data-center-moratoriums-are-not-a-substitute-for-oversight/",
+      "normalized_url": "https://www.brookings.edu/articles/data-center-moratoriums-are-not-a-substitute-for-oversight",
+      "title": "Data center moratoriums are not a substitute for oversight",
+      "normalized_title": "data center moratoriums are not a substitute for oversight",
+      "published_on": "2026-07-30",
+      "primary_entity": "Brookings Institution",
+      "event_fingerprint": "brookings-datacenter-moratoriums-oversight-report"
     }
   ],
   "version": 2,
