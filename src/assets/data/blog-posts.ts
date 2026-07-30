@@ -1888,6 +1888,25 @@ export const blogPosts: BlogPost[] = [
       "AI data center Kentucky"
     ],
   }),
+  createPost({
+    id: 149,
+    slug: "brookings-datacenter-moratoriums-oversight-report",
+    title: "Brookings: AI Data Center Moratoriums Fail Without Real Oversight",
+    description: "A new Brookings report tracks the rapid spread of data center moratoriums across 15 states and 100 localities, warning that pauses fail without transparent resource auditing.",
+    imageAlt: "A demonstration protesting AI data center resource consumption and grid strain",
+    publishedOn: "2026-07-30",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Brookings Institution",
+      "data center moratorium",
+      "AI energy demand",
+      "resource reporting",
+      "ratepayer protection",
+      "regulatory oversight"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
