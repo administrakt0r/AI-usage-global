@@ -1907,6 +1907,25 @@ export const blogPosts: BlogPost[] = [
       "regulatory oversight"
     ],
   }),
+  createPost({
+    id: 150,
+    slug: "botetourt-google-data-center-commission",
+    title: "Botetourt County Creates Panel to Study Google Data Center Impacts",
+    description: "The Botetourt County Board of Supervisors votes 3-1 to establish an independent commission to assess a proposed $3 billion Google data center's effects on water and infrastructure.",
+    imageAlt: "An aerial view of Botetourt Center at Greenfield, slated for the Google data center campus",
+    publishedOn: "2026-07-30",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Google data center",
+      "Botetourt County water",
+      "independent commission",
+      "data center water footprint",
+      "community opposition",
+      "ratepayer protection"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
