@@ -1331,6 +1331,15 @@
       "published_on": "2026-07-30",
       "primary_entity": "Brookings Institution",
       "event_fingerprint": "brookings-datacenter-moratoriums-oversight-report"
+    },
+    {
+      "canonical_url": "https://virginiabusiness.com/botetourt-board-google-data-center-commission/",
+      "normalized_url": "https://virginiabusiness.com/botetourt-board-google-data-center-commission",
+      "title": "Botetourt board to create commission to assess Google data center project",
+      "normalized_title": "botetourt board to create commission to assess google data center project",
+      "published_on": "2026-07-30",
+      "primary_entity": "Botetourt County Board of Supervisors",
+      "event_fingerprint": "botetourt-google-datacenter-impact-commission"
     }
   ],
   "version": 2,
