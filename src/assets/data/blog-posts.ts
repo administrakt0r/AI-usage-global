@@ -1945,6 +1945,25 @@ export const blogPosts: BlogPost[] = [
       "light pollution"
     ],
   }),
+  createPost({
+    id: 152,
+    slug: "exelon-ai-datacenter-pipeline-drop",
+    title: "Exelon Cuts High-Probability AI Data Center Power Pipeline by 40%",
+    description: "Exelon has slashed its high-probability data center load projection by nearly 40 percent, introducing strict transmission security agreements to weed out speculative projects.",
+    imageAlt: "An aerial view of a large data center and power lines",
+    publishedOn: "2026-08-01",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Exelon",
+      "data center power",
+      "transmission security agreements",
+      "grid integration",
+      "speculative workloads",
+      "ratepayer protection"
+    ],
+  }),
 ];
 
 const assertUniqueField = (

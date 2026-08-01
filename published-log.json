@@ -1349,6 +1349,15 @@
       "published_on": "2026-08-01",
       "primary_entity": "Willie Nelson / Abbott, Texas",
       "event_fingerprint": "willie-nelson-abbott-texas-datacenter-opposition"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/exelon-data-center-load-new-jersey-battery-earnings/826686/",
+      "normalized_url": "https://www.utilitydive.com/news/exelon-data-center-load-new-jersey-battery-earnings/826686",
+      "title": "Exelon Cuts High-Probability AI Data Center Power Pipeline by 40%",
+      "normalized_title": "exelon cuts high probability ai data center power pipeline by 40",
+      "published_on": "2026-08-01",
+      "primary_entity": "Exelon",
+      "event_fingerprint": "exelon-ai-datacenter-pipeline-drop"
     }
   ],
   "version": 2,
