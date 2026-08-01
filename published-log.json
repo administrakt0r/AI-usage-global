@@ -1340,6 +1340,15 @@
       "published_on": "2026-07-30",
       "primary_entity": "Botetourt County Board of Supervisors",
       "event_fingerprint": "botetourt-google-datacenter-impact-commission"
+    },
+    {
+      "canonical_url": "https://www.remio.ai/post/willie-nelson-warns-texas-data-center-boom-threatens-rural-communities",
+      "normalized_url": "https://www.remio.ai/post/willie-nelson-warns-texas-data-center-boom-threatens-rural-communities",
+      "title": "Willie Nelson Warns Texas Data Center Boom Threatens Rural Communities",
+      "normalized_title": "willie nelson warns texas data center boom threatens rural communities",
+      "published_on": "2026-08-01",
+      "primary_entity": "Willie Nelson / Abbott, Texas",
+      "event_fingerprint": "willie-nelson-abbott-texas-datacenter-opposition"
     }
   ],
   "version": 2,

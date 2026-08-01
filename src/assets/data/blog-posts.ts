@@ -1926,6 +1926,25 @@ export const blogPosts: BlogPost[] = [
       "ratepayer protection"
     ],
   }),
+  createPost({
+    id: 151,
+    slug: "willie-nelson-abbott-data-center-opposition",
+    title: "Willie Nelson Warns Texas Data Center Boom Threatens Rural Communities",
+    description: "Country music legend Willie Nelson urges rural Texas communities to fight AI data centers invading their land over concerns of water depletion, noise, and light pollution.",
+    imageAlt: "A portrait of Willie Nelson speaking out against AI data center expansion in rural Texas",
+    publishedOn: "2026-08-01",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Willie Nelson",
+      "Abbott Texas data center",
+      "AI data center water use",
+      "rural land preservation",
+      "noise pollution",
+      "light pollution"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
