@@ -1367,6 +1367,15 @@
       "published_on": "2026-08-01",
       "primary_entity": "FirstEnergy / Mon Power",
       "event_fingerprint": "firstenergy-wv-datacenter-surcharge"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/meta-boosts-ai-data-center-capex-forecasts-130-145bn-spend/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/meta-boosts-ai-data-center-capex-forecasts-130-145bn-spend",
+      "title": "Meta boosts AI data center capex, forecasts $130-145bn spend",
+      "normalized_title": "meta boosts ai data center capex forecasts 130 145bn spend",
+      "published_on": "2026-08-02",
+      "primary_entity": "Meta",
+      "event_fingerprint": "meta-q2-2026-ai-capex-increase"
     }
   ],
   "version": 2,
