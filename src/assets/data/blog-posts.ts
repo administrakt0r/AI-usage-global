@@ -1983,6 +1983,25 @@ export const blogPosts: BlogPost[] = [
       "ratepayer protection"
     ],
   }),
+  createPost({
+    id: 154,
+    slug: "meta-q2-2026-ai-capex-increase",
+    title: "Meta Forecasts Record $145 Billion in AI Data Center Spend",
+    description: "Meta elevates its 2026 capital expenditure guidance to a record $130–$145 billion to fund massive AI-optimized data centers and power infrastructure expansions.",
+    imageAlt: "Digital representation of a massive data center campus and high-density AI infrastructure with energy grid integrations",
+    publishedOn: "2026-08-02",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Meta",
+      "AI capex",
+      "data center spend",
+      "compute scaling",
+      "energy integration",
+      "free cash flow"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
