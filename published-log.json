@@ -1358,6 +1358,15 @@
       "published_on": "2026-08-01",
       "primary_entity": "Exelon",
       "event_fingerprint": "exelon-ai-datacenter-pipeline-drop"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/firstenergy-data-center-west-virginia-maidsville-earnings/826558/",
+      "normalized_url": "https://www.utilitydive.com/news/firstenergy-data-center-west-virginia-maidsville-earnings/826558",
+      "title": "FirstEnergy data center contracts surge 50% in Q2",
+      "normalized_title": "firstenergy data center contracts surge 50 in q2",
+      "published_on": "2026-08-01",
+      "primary_entity": "FirstEnergy / Mon Power",
+      "event_fingerprint": "firstenergy-wv-datacenter-surcharge"
     }
   ],
   "version": 2,

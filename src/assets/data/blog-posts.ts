@@ -1964,6 +1964,25 @@ export const blogPosts: BlogPost[] = [
       "ratepayer protection"
     ],
   }),
+  createPost({
+    id: 153,
+    slug: "firstenergy-wv-datacenter-surcharge",
+    title: "FirstEnergy Data Center Contracts Surge 50% Driving Surcharges",
+    description: "FirstEnergy's signed data center capacity reached 6.4 GW in the second quarter, and subsidiary Mon Power plans a customer surcharge to help finance $2.7 billion in new West Virginia generation built mainly for a data center.",
+    imageAlt: "Power transmission lines and modern data center campus representing utility infrastructure",
+    publishedOn: "2026-08-01",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "FirstEnergy",
+      "Mon Power",
+      "Maidsville Energy Center",
+      "customer surcharge",
+      "data center electricity",
+      "ratepayer protection"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
