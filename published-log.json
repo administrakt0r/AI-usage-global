@@ -1376,6 +1376,15 @@
       "published_on": "2026-08-02",
       "primary_entity": "Meta",
       "event_fingerprint": "meta-q2-2026-ai-capex-increase"
+    },
+    {
+      "canonical_url": "https://www.thecooldown.com/green-tech/ai-data-centers-florida-power-water/",
+      "normalized_url": "https://www.thecooldown.com/green-tech/ai-data-centers-florida-power-water",
+      "title": "Florida-backed bill would require AI data centers to supply their own energy and water",
+      "normalized_title": "florida backed bill would require ai data centers to supply their own energy and water",
+      "published_on": "2026-08-01",
+      "primary_entity": "Byron Donalds",
+      "event_fingerprint": "byron-donalds-protecting-ratepayers-act"
     }
   ],
   "version": 2,
