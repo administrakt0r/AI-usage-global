@@ -2002,6 +2002,25 @@ export const blogPosts: BlogPost[] = [
       "free cash flow"
     ],
   }),
+  createPost({
+    id: 155,
+    slug: "protecting-ratepayers-act-bill",
+    title: "Florida-backed bill would require AI data centers to supply their own energy and water",
+    description: "U.S. Rep. Byron Donalds introduces the Protecting Ratepayers Act (H.R. 9777) mandating that hyperscale AI data centers secure off-grid power and water to protect consumer utility rates.",
+    imageAlt: "Digital illustration of hyperscale server racks with independent energy and water supplies",
+    publishedOn: "2026-08-01",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Byron Donalds",
+      "Protecting Ratepayers Act",
+      "H.R. 9777",
+      "off-grid power",
+      "water use",
+      "ratepayer protection"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
