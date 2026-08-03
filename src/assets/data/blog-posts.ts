@@ -2021,6 +2021,25 @@ export const blogPosts: BlogPost[] = [
       "ratepayer protection"
     ],
   }),
+  createPost({
+    id: 156,
+    slug: "us-data-center-construction-starts-june-2026",
+    title: "US Data Center Construction Starts Reach $22.3 Billion in June",
+    description: "The U.S. data center industry recorded a massive $22.3 billion in construction starts in June 2026, driven by unrelenting demand for AI infrastructure.",
+    imageAlt: "Digital illustration of large-scale data center construction starts with skyrocketing spending metrics",
+    publishedOn: "2026-08-03",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "data center construction",
+      "AI infrastructure",
+      "ConstructConnect",
+      "capital expenditure",
+      "construction starts",
+      "ratepayer protection"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
