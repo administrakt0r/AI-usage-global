@@ -1385,6 +1385,15 @@
       "published_on": "2026-08-01",
       "primary_entity": "Byron Donalds",
       "event_fingerprint": "byron-donalds-protecting-ratepayers-act"
+    },
+    {
+      "canonical_url": "https://news.constructconnect.com/august-2026-data-center-report-construction-starts-total-22.3-billion-second-highest-on-record",
+      "normalized_url": "https://news.constructconnect.com/august-2026-data-center-report-construction-starts-total-22.3-billion-second-highest-on-record",
+      "title": "August 2026 Data Center Report: Construction Starts Total $22.3 Billion, Second Highest on Record",
+      "normalized_title": "august 2026 data center report construction starts total 22 3 billion second highest on record",
+      "published_on": "2026-08-03",
+      "primary_entity": "ConstructConnect",
+      "event_fingerprint": "constructconnect-june-data-center-starts-report"
     }
   ],
   "version": 2,
