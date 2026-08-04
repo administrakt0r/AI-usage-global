@@ -2040,6 +2040,25 @@ export const blogPosts: BlogPost[] = [
       "ratepayer protection"
     ],
   }),
+  createPost({
+    id: 157,
+    slug: "texas-halts-new-data-centers-governor-audits",
+    title: "Texas Halts New Data Centers as Governor Orders Grid Audits",
+    description: "Texas Governor Greg Abbott has ordered mandatory PUCT and ERCOT audits for all proposed data centers, targeting water and electricity consumption.",
+    imageAlt: "Digital illustration of data center structures overlaid with an official state seal and auditing metrics under grid stress indicators",
+    publishedOn: "2026-08-04",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Texas data centers",
+      "grid audit",
+      "ERCOT",
+      "Greg Abbott",
+      "AI power demand",
+      "water usage"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
