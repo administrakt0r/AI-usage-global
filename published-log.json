@@ -1394,6 +1394,15 @@
       "published_on": "2026-08-03",
       "primary_entity": "ConstructConnect",
       "event_fingerprint": "constructconnect-june-data-center-starts-report"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/",
+      "normalized_url": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits",
+      "title": "Texas halts new data centers as governor calls for audits",
+      "normalized_title": "texas halts new data centers as governor calls for audits",
+      "published_on": "2026-08-04",
+      "primary_entity": "Governor Greg Abbott",
+      "event_fingerprint": "texas-datacenter-audit-mandate"
     }
   ],
   "version": 2,
