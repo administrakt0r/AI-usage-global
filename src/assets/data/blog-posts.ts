@@ -2059,6 +2059,25 @@ export const blogPosts: BlogPost[] = [
       "water usage"
     ],
   }),
+  createPost({
+    id: 158,
+    slug: "ercot-batch-zero-interconnection-delay",
+    title: "ERCOT Delays Interconnection Study Amid 474 GW Power Request",
+    description: "ERCOT halts its Batch Zero transmission planning study as data centers drive a massive 474 GW queue of electricity interconnection requests in Texas.",
+    imageAlt: "Digital illustration of large-scale electricity transmission towers and data centers under grid audits",
+    publishedOn: "2026-08-05",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "ERCOT",
+      "Texas data centers",
+      "interconnection queue",
+      "Batch Zero",
+      "large load process",
+      "AI power demand"
+    ],
+  }),
 ];
 
 const assertUniqueField = (

@@ -1403,6 +1403,15 @@
       "published_on": "2026-08-04",
       "primary_entity": "Governor Greg Abbott",
       "event_fingerprint": "texas-datacenter-audit-mandate"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/texas-hits-pause-data-center-interconnections/827046/",
+      "normalized_url": "https://www.utilitydive.com/news/texas-hits-pause-data-center-interconnections/827046",
+      "title": "Facing an estimated 474 GW of interconnection requests, Texas hits pause on data centers",
+      "normalized_title": "facing an estimated 474 gw of interconnection requests texas hits pause on data centers",
+      "published_on": "2026-08-05",
+      "primary_entity": "Electric Reliability Council of Texas (ERCOT)",
+      "event_fingerprint": "ercot-batch-zero-interconnection-delay"
     }
   ],
   "version": 2,
