@@ -1421,6 +1421,15 @@
       "published_on": "2026-08-06",
       "primary_entity": "Crusoe / Aalo Atomics",
       "event_fingerprint": "crusoe-aalo-nuclear-powered-ai-factory"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/texas-data-center-pause-puts-us-pipeline-risk-of-delay-bnef/827185/",
+      "normalized_url": "https://www.utilitydive.com/news/texas-data-center-pause-puts-us-pipeline-risk-of-delay-bnef/827185",
+      "title": "Texas data center pause puts 20% of US pipeline at risk of delay: BNEF",
+      "normalized_title": "texas data center pause puts 20 of us pipeline at risk of delay bnef",
+      "published_on": "2026-08-06",
+      "primary_entity": "Electric Reliability Council of Texas (ERCOT)",
+      "event_fingerprint": "ercot-batch-zero-interconnection-delay"
     }
   ],
   "version": 2,

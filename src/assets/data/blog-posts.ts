@@ -2098,6 +2098,25 @@ export const blogPosts: BlogPost[] = [
       "on-site nuclear power"
     ],
   }),
+  createPost({
+    id: 160,
+    slug: "texas-pause-puts-twenty-percent-of-us-data-center-pipeline-at-risk",
+    title: "Texas Pause Puts 20% of US AI Pipeline at Risk of Delay",
+    description: "Bloomberg NEF reports that Texas’ grid interconnection pause puts roughly 20% of the U.S. data center pipeline at risk, threatened by billions in lost leasing revenue.",
+    imageAlt: "Aerial view of a massive data center construction site under development in Texas",
+    publishedOn: "2026-08-06",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "ERCOT",
+      "Texas grid pause",
+      "Bloomberg NEF",
+      "Abbott audit",
+      "large load process",
+      "AI power demand"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
