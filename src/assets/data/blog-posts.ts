@@ -2078,6 +2078,26 @@ export const blogPosts: BlogPost[] = [
       "AI power demand"
     ],
   }),
+  createPost({
+    id: 159,
+    slug: "crusoe-aalo-nuclear-powered-ai-factory",
+    title: "Can nuclear power the AI factory? Crusoe and Aalo find out",
+    description: "Crusoe and Aalo Atomics partner to deploy modular sodium-cooled nuclear reactors directly at data centers, starting with a 2027 pilot in Idaho.",
+    imageAlt: "Digital rendering of modular nuclear reactors and high-density AI data center structures at a research facility",
+    publishedOn: "2026-08-06",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Crusoe Atomics",
+      "Aalo Atomics",
+      "nuclear AI",
+      "small modular reactors",
+      "SMR",
+      "Crusoe Spark",
+      "on-site nuclear power"
+    ],
+  }),
 ];
 
 const assertUniqueField = (

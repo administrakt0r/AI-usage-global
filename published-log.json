@@ -1412,6 +1412,15 @@
       "published_on": "2026-08-05",
       "primary_entity": "Electric Reliability Council of Texas (ERCOT)",
       "event_fingerprint": "ercot-batch-zero-interconnection-delay"
+    },
+    {
+      "canonical_url": "https://capacityglobal.com/news/can-nuclear-power-the-ai-factory-crusoe-and-aalo-find-out/",
+      "normalized_url": "https://capacityglobal.com/news/can-nuclear-power-the-ai-factory-crusoe-and-aalo-find-out",
+      "title": "Can nuclear power the AI factory? Crusoe and Aalo find out",
+      "normalized_title": "can nuclear power the ai factory crusoe and aalo find out",
+      "published_on": "2026-08-06",
+      "primary_entity": "Crusoe / Aalo Atomics",
+      "event_fingerprint": "crusoe-aalo-nuclear-powered-ai-factory"
     }
   ],
   "version": 2,
