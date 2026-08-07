@@ -2098,6 +2098,25 @@ export const blogPosts: BlogPost[] = [
       "on-site nuclear power"
     ],
   }),
+  createPost({
+    id: 160,
+    slug: "tucson-large-scale-datacenter-regulations",
+    title: "Tucson Approves Strict Large-Scale Data Center Regulations",
+    description: "The Tucson Mayor and Council adopted some of the most stringent regulations in the US for large-scale data centers, mandating water and power supply disclosures.",
+    imageAlt: "Zoning regulations and data center infrastructure in Tucson",
+    publishedOn: "2026-08-07",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Tucson data centers",
+      "zoning regulations",
+      "large-scale data centers",
+      "water disclosure",
+      "power disclosure",
+      "ratepayer protection"
+    ],
+  }),
 ];
 
 const assertUniqueField = (

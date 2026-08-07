@@ -1421,6 +1421,15 @@
       "published_on": "2026-08-06",
       "primary_entity": "Crusoe / Aalo Atomics",
       "event_fingerprint": "crusoe-aalo-nuclear-powered-ai-factory"
+    },
+    {
+      "canonical_url": "https://www.tucsonaz.gov/Departments/Planning-Development-Services/PDSD-News/Mayor-and-Council-Approve-Regulations-for-Large-Scale-Data-Centers",
+      "normalized_url": "https://www.tucsonaz.gov/Departments/Planning-Development-Services/PDSD-News/Mayor-and-Council-Approve-Regulations-for-Large-Scale-Data-Centers",
+      "title": "Mayor and Council Approve Regulations for Large-Scale Data Centers",
+      "normalized_title": "mayor and council approve regulations for large scale data centers",
+      "published_on": "2026-08-07",
+      "primary_entity": "Tucson Mayor and Council",
+      "event_fingerprint": "tucson-large-scale-datacenter-regulations"
     }
   ],
   "version": 2,
