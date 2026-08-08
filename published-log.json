@@ -1430,6 +1430,15 @@
       "published_on": "2026-08-07",
       "primary_entity": "Tucson Mayor and Council",
       "event_fingerprint": "tucson-large-scale-datacenter-regulations"
+    },
+    {
+      "canonical_url": "https://datacentremagazine.com/news/grid-safe-ai-data-centre-power-new-800-v-dc-architecture",
+      "normalized_url": "https://datacentremagazine.com/news/grid-safe-ai-data-centre-power-new-800-v-dc-architecture",
+      "title": "Grid-Safe AI Data Centre Power: New 800 V DC Architecture",
+      "normalized_title": "grid safe ai data centre power new 800 v dc architecture",
+      "published_on": "2026-08-08",
+      "primary_entity": "DIMAAG",
+      "event_fingerprint": "dimaag-800v-dc-grid-safe-ai-power"
     }
   ],
   "version": 2,

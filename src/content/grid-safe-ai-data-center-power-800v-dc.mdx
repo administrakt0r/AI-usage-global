@@ -1,0 +1,36 @@
+## New 800 V DC Power Architecture Aims to Tame AI Grid Fluctuations
+
+### Tesla co-founder's DIMAAG unveils direct battery coupling to manage high-frequency power swings
+
+On August 7, 2026, energy infrastructure startup DIMAAG, co-founded by Tesla co-founder Ian Wright, unveiled ZettaWatt, a new 800 V DC power architecture built specifically to stabilize electricity grids from the rapid power fluctuations of high-density artificial intelligence workloads. By moving backup power to the DC side and connecting an immersion-cooled battery directly to the DC backbone, the system absorbs synchronized GPU computing swings. This release coincides with ERCOT's new low-voltage ride-through mandate in Texas, signaling a major hardware shift for gigawatt-scale AI data centers.
+
+## Key details
+
+As AI workloads scale to hundreds of megawatts, they present an entirely new type of electrical load that threatens local grid stability. Unlike traditional steady-state IT demands, synchronized AI model training causes power requirements to swing by hundreds of megawatts in mere seconds.
+
+* **High-Frequency Power Swings:** During synchronized training, thousands of GPUs transition between intensive compute and communication phases simultaneously, causing rapid, massive shifts in power consumption.
+* **The ZettaWatt Solution:** DIMAAG's ZettaWatt architecture connects a high-power, immersion-cooled battery system directly to the 800 V DC bus without a DC/DC converter. Real-time control software manages the battery to charge when compute demand falls and discharge when it rises.
+* **Smoothing Load to Under 1%:** DIMAAG has demonstrated at its Fremont, California headquarters that the system smooths AI training-load fluctuations to less than 1% as seen by the utility grid, while the GPUs receive the dynamic power they require.
+* **Regulatory Compliance:** The launch of ZettaWatt matches new regulatory pressures. In Texas, under ERCOT rule NOGRR282, effective August 1, 2026, large computational loads must comply with low-voltage ride-through (LVRT) standards to remain online through grid voltage dips instead of abruptly disconnecting and risking grid failure.
+* **Efficiency and Footprint Gains:** The architecture eliminates traditional uninterruptible power supplies (UPS), separate supercapacitors, and battery backup units. It features only a single AC/DC conversion step, bypassing the continuous 2% to 3% efficiency losses of double-conversion UPS systems.
+
+### Why this matters
+
+The energy discussion around AI has largely focused on total megawatt-hours consumed. However, the physical rate of change—how fast a facility draws or sheds power—is becoming an equally critical bottleneck. Traditional electric grids are designed for predictable, slow-moving loads. A single gigawatt-scale AI training cluster undergoing rapid power swings can trigger voltage drops and stress nearby generators. Hardware-level solutions like direct DC battery coupling are necessary to allow utilities to safely connect massive AI facilities without risking local blackouts.
+
+### Context
+
+ERCOT's NOGRR282 rule, which took effect on August 1, 2026, represents the vanguard of a broader regulatory push. Grid operators across the United States and Europe are realizing that giant AI "factories" cannot be treated like standard commercial buildings. Large computational facilities are increasingly required to behave like grid assets—providing ride-through capabilities and load smoothing. Innovations in DC-coupled storage show how the data center industry is moving toward behind-the-meter active stabilization to maintain its rapid scaling pace.
+
+## Risks and open questions
+
+A key risk is the capital cost and supply chain readiness of high-power, immersion-cooled battery storage at gigawatt scale. While DIMAAG has successfully demonstrated a 300 kW system in California and evaluated the architecture using PSCAD models with Electric Power Engineers, scaling this to hundreds of megawatts requires significant volumes of specialized batteries and coolant. Furthermore, the long-term degradation of batteries subjected to continuous, high-frequency charging and discharging cycles remains an open engineering question.
+
+## What happens next
+
+Following the commercial announcement and 300 kW Fremont demonstration, the industry will watch for the first utility-scale deployments of the 800 V DC ZettaWatt architecture in major data center hubs like Texas and Northern Virginia. As ERCOT's rule NOGRR282 is now active, other regional transmission organizations are expected to draft similar low-voltage ride-through and load-smoothing requirements, potentially making DC-coupled active battery stabilization a standard design requirement for all new AI infrastructure projects.
+
+---
+
+*Source: [Data Centre Magazine](https://datacentremagazine.com/news/grid-safe-ai-data-centre-power-new-800-v-dc-architecture)*
+*Published on AI Usage Global, author: AUG Bot*
