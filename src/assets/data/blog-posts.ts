@@ -2117,6 +2117,27 @@ export const blogPosts: BlogPost[] = [
       "ratepayer protection"
     ],
   }),
+  createPost({
+    id: 161,
+    slug: "grid-safe-ai-data-center-power-800v-dc",
+    title: "Grid-Safe AI Data Centre Power: New 800 V DC Architecture",
+    description: "DIMAAG unveils its ZettaWatt 800 V DC power architecture to smooth synchronized GPU load fluctuations and meet Texas's ERCOT ride-through mandates.",
+    imageAlt: "Digital representation of direct battery integration to stabilize AI power grids",
+    publishedOn: "2026-08-08",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "DIMAAG",
+      "ZettaWatt",
+      "800 V DC",
+      "ERCOT",
+      "NOGRR282",
+      "low-voltage ride-through",
+      "grid stability",
+      "AI power demand"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
