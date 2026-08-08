@@ -1439,6 +1439,15 @@
       "published_on": "2026-08-08",
       "primary_entity": "DIMAAG",
       "event_fingerprint": "dimaag-800v-dc-grid-safe-ai-power"
+    },
+    {
+      "canonical_url": "https://whyy.org/articles/vineland-data-center-hearing-power-generation/",
+      "normalized_url": "https://whyy.org/articles/vineland-data-center-hearing-power-generation",
+      "title": "Vineland AI Data Center Eyes Bloom Energy Fuel Cells for 300 MW",
+      "normalized_title": "vineland ai data center eyes bloom energy fuel cells for 300 mw",
+      "published_on": "2026-08-08",
+      "primary_entity": "DataOne / Nebius Group",
+      "event_fingerprint": "vineland-nebius-bloom-fuel-cells"
     }
   ],
   "version": 2,
