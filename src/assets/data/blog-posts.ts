@@ -2138,6 +2138,26 @@ export const blogPosts: BlogPost[] = [
       "AI power demand"
     ],
   }),
+  createPost({
+    id: 162,
+    slug: "vineland-ai-datacenter-bloom-fuel-cells",
+    title: "Vineland AI Data Center Eyes Bloom Energy Fuel Cells for 300 MW",
+    description: "Developers of a 300-megawatt AI data center in Vineland, New Jersey, propose on-site Bloom Energy fuel cells to bypass public grid capacity bottlenecks.",
+    imageAlt: "Digital rendering of a hyperscale data center powered by Bloom Energy fuel cells on-site",
+    publishedOn: "2026-08-08",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Bloom Energy",
+      "DataOne",
+      "Vineland data center",
+      "Nebius Group",
+      "fuel cells",
+      "Microsoft AI",
+      "microgrid"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
