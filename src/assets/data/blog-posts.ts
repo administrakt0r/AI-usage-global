@@ -2178,6 +2178,25 @@ export const blogPosts: BlogPost[] = [
       "ratepayer protection"
     ],
   }),
+  createPost({
+    id: 164,
+    slug: "amazon-texas-data-center-climate-pollution",
+    title: "Planned Amazon Data Center Could Become the Biggest Climate Polluter in the U.S.",
+    description: "Amazon invests in a planned natural gas power plant for a Pecos County, Texas, data center permitted to release up to 33 million tons of carbon dioxide annually.",
+    imageAlt: "Digital rendering of a massive natural gas power generation facility supplying electricity to a hyperscale data center",
+    publishedOn: "2026-08-09",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Amazon",
+      "Pecos County data center",
+      "Texas gas power plant",
+      "AI emissions footprint",
+      "Ratepayer Protection Pledge",
+      "behind-the-meter generation"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
