@@ -1457,6 +1457,15 @@
       "published_on": "2026-08-09",
       "primary_entity": "Galaxy Digital",
       "event_fingerprint": "galaxy-digital-mcgregor-grid-funding-model"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
+      "normalized_url": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s",
+      "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
+      "normalized_title": "planned amazon data center could become the biggest climate polluter in the us",
+      "published_on": "2026-08-09",
+      "primary_entity": "Amazon",
+      "event_fingerprint": "amazon-texas-data-center-climate-pollution"
     }
   ],
   "version": 2,
