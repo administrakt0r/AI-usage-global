@@ -2158,6 +2158,26 @@ export const blogPosts: BlogPost[] = [
       "microgrid"
     ],
   }),
+  createPost({
+    id: 163,
+    slug: "galaxy-digital-mcgregor-grid-funding-model",
+    title: "Galaxy Digital's Texas AI Data Center Reflects New Grid Funding Model",
+    description: "Galaxy Digital acquires 500 acres in McGregor, Texas, for a 74 MW AI campus under a new 'beneficiary proves' model requiring self-funded grid and water upgrades.",
+    imageAlt: "Digital rendering of a modern AI data center with on-site substation power infrastructure in McGregor, Texas",
+    publishedOn: "2026-08-09",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Galaxy Digital",
+      "McGregor Texas",
+      "Project Merlin",
+      "grid funding model",
+      "closed-loop cooling",
+      "Heart of Texas Electric Cooperative",
+      "ratepayer protection"
+    ],
+  }),
 ];
 
 const assertUniqueField = (

@@ -1448,6 +1448,15 @@
       "published_on": "2026-08-08",
       "primary_entity": "DataOne / Nebius Group",
       "event_fingerprint": "vineland-nebius-bloom-fuel-cells"
+    },
+    {
+      "canonical_url": "https://datacenters.economictimes.indiatimes.com/news/investments-deals/galaxy-digitals-texas-ai-data-center-reflects-new-grid-funding-model/132697947",
+      "normalized_url": "https://datacenters.economictimes.indiatimes.com/news/investments-deals/galaxy-digitals-texas-ai-data-center-reflects-new-grid-funding-model/132697947",
+      "title": "Galaxy Digital's Texas AI Data Center Reflects New Grid Funding Model",
+      "normalized_title": "galaxy digital s texas ai data center reflects new grid funding model",
+      "published_on": "2026-08-09",
+      "primary_entity": "Galaxy Digital",
+      "event_fingerprint": "galaxy-digital-mcgregor-grid-funding-model"
     }
   ],
   "version": 2,
