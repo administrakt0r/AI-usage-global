@@ -1466,6 +1466,15 @@
       "published_on": "2026-08-09",
       "primary_entity": "Amazon",
       "event_fingerprint": "amazon-texas-data-center-climate-pollution"
+    },
+    {
+      "canonical_url": "https://globalrenewablenews.com/article/energy/category/hydro/86/1212775/mocean-energy-targets-growing-ai-data-centre-market.html",
+      "normalized_url": "https://globalrenewablenews.com/article/energy/category/hydro/86/1212775/mocean-energy-targets-growing-ai-data-centre-market.html",
+      "title": "Mocean Energy targets growing AI data centre market",
+      "normalized_title": "mocean energy targets growing ai data centre market",
+      "published_on": "2026-08-10",
+      "primary_entity": "Mocean Energy",
+      "event_fingerprint": "mocean-energy-blue-core-offshore-wave-powered-ai"
     }
   ],
   "version": 2,
