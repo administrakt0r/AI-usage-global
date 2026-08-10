@@ -2197,6 +2197,25 @@ export const blogPosts: BlogPost[] = [
       "behind-the-meter generation"
     ],
   }),
+  createPost({
+    id: 165,
+    slug: "mocean-energy-offshore-wave-powered-ai-datacenter",
+    title: "Mocean Energy targets growing AI data centre market",
+    description: "Mocean Energy enters the AI infrastructure market with 'Blue Core', an offshore wave-powered data center concept designed to generate grid-free power and eliminate freshwater cooling.",
+    imageAlt: "A digital rendering of wave-powered offshore data center platforms generating clean energy at sea",
+    publishedOn: "2026-08-10",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Mocean Energy",
+      "Blue Core",
+      "wave power AI",
+      "offshore data center",
+      "ocean cooling",
+      "grid-free compute"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
