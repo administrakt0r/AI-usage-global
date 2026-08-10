@@ -1475,6 +1475,15 @@
       "published_on": "2026-08-10",
       "primary_entity": "Mocean Energy",
       "event_fingerprint": "mocean-energy-blue-core-offshore-wave-powered-ai"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/ppl-blackstone-joint-venture-secures-5-gw-of-gas-turbines-for-data-centers/827408/",
+      "normalized_url": "https://www.utilitydive.com/news/ppl-blackstone-joint-venture-secures-5-gw-of-gas-turbines-for-data-centers/827408",
+      "title": "PPL-Blackstone joint venture secures 5 GW of gas turbines for data centers in Pennsylvania",
+      "normalized_title": "ppl blackstone joint venture secures 5 gw of gas turbines for data centers in pennsylvania",
+      "published_on": "2026-08-10",
+      "primary_entity": "Invitium Energy",
+      "event_fingerprint": "ppl-blackstone-invitium-gas-turbines"
     }
   ],
   "version": 2,

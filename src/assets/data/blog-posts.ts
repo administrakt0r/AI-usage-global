@@ -2216,6 +2216,26 @@ export const blogPosts: BlogPost[] = [
       "grid-free compute"
     ],
   }),
+  createPost({
+    id: 166,
+    slug: "ppl-blackstone-invitium-gas-turbines",
+    title: "Invitium Energy Secures 5 GW of Gas Turbines for PA AI Data Centers",
+    description: "PPL and Blackstone's joint venture secures over 5 GW of combined-cycle gas turbines, representing a $15 billion investment in behind-the-meter generation for AI data centers.",
+    imageAlt: "Large industrial gas turbines powering high-density data centers",
+    publishedOn: "2026-08-10",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "PPL Corp",
+      "Blackstone Infrastructure",
+      "Invitium Energy",
+      "gas turbines",
+      "Pennsylvania AI data centers",
+      "behind-the-meter power",
+      "PJM Interconnection"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
