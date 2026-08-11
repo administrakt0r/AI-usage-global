@@ -1493,6 +1493,15 @@
       "published_on": "2026-08-11",
       "primary_entity": "Veolia",
       "event_fingerprint": "veolia-ohio-ai-datacenter-microgrid"
+    },
+    {
+      "canonical_url": "https://www.businesswire.com/news/home/20260807600552/en/Energy-Vault-Announces-Strategic-Agreement-to-Deploy-1.25-GW-of-Integrated-Power-Infrastructure-for-Hyperscaler-AI-Data-Center-with-Leading-Power-Generation-EPC-Deploying-Caterpillar-Gensets",
+      "normalized_url": "https://www.businesswire.com/news/home/20260807600552/en/Energy-Vault-Announces-Strategic-Agreement-to-Deploy-1.25-GW-of-Integrated-Power-Infrastructure-for-Hyperscaler-AI-Data-Center-with-Leading-Power-Generation-EPC-Deploying-Caterpillar-Gensets",
+      "title": "Energy Vault Lands 1.25 GW Texas Off-Grid AI Power Deal",
+      "normalized_title": "energy vault lands 125 gw texas offgrid ai power deal",
+      "published_on": "2026-08-11",
+      "primary_entity": "Energy Vault",
+      "event_fingerprint": "energy-vault-texas-1-25gw-bess-deal"
     }
   ],
   "version": 2,
