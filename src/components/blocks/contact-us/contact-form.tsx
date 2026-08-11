@@ -40,7 +40,7 @@ const ContactForm = () => {
   return (
     <form className="space-y-6" onSubmit={handleSubmit}>
       <div className="space-y-2">
-        <Label htmlFor="username">Name</Label>
+        <Label htmlFor="username">Name <span className="text-red-500">*</span></Label>
         <div className="relative">
           <Input
             id="username"
@@ -48,6 +48,7 @@ const ContactForm = () => {
             placeholder="Your name"
             value={name}
             onChange={(event) => setName(event.target.value)}
+            required
             className="peer h-10 pr-9"
           />
           <div className="text-muted-foreground pointer-events-none absolute inset-y-0 right-0 flex items-center justify-center pr-3 peer-disabled:opacity-50">
@@ -58,7 +59,7 @@ const ContactForm = () => {
       </div>
 
       <div className="space-y-2">
-        <Label htmlFor="email">Email</Label>
+        <Label htmlFor="email">Email <span className="text-red-500">*</span></Label>
         <div className="relative">
           <Input
             id="email"
@@ -66,6 +67,7 @@ const ContactForm = () => {
             placeholder="Your email"
             value={email}
             onChange={(event) => setEmail(event.target.value)}
+            required
             className="peer h-10 pr-9"
           />
           <div className="text-muted-foreground pointer-events-none absolute inset-y-0 right-0 flex items-center justify-center pr-3 peer-disabled:opacity-50">
@@ -94,13 +96,14 @@ const ContactForm = () => {
       </div>
 
       <div className="space-y-2">
-        <Label htmlFor="message">Message</Label>
+        <Label htmlFor="message">Message <span className="text-red-500">*</span></Label>
         <Textarea
           id="message"
           className="h-28 resize-none"
           placeholder="Write your message"
           value={message}
           onChange={(event) => setMessage(event.target.value)}
+          required
         />
       </div>
 
