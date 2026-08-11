@@ -2236,6 +2236,25 @@ export const blogPosts: BlogPost[] = [
       "PJM Interconnection"
     ],
   }),
+  createPost({
+    id: 167,
+    slug: "veolia-ohio-ai-datacenter-microgrid",
+    title: "Veolia Selected to Operate 350-MW Grid-Independent Microgrid in Ohio for AI Data Center Campus",
+    description: "Veolia secures a landmark contract to operate and maintain a 350-megawatt, 430 MWh battery-backed microgrid to power an Ohio AI data center campus off-grid.",
+    imageAlt: "Large-scale battery energy storage systems and power generation equipment on a modern data center campus",
+    publishedOn: "2026-08-11",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Veolia",
+      "Ohio data center",
+      "350 MW microgrid",
+      "430 MWh battery",
+      "behind-the-meter power",
+      "grid-independent compute"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
