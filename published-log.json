@@ -1484,6 +1484,15 @@
       "published_on": "2026-08-10",
       "primary_entity": "Invitium Energy",
       "event_fingerprint": "ppl-blackstone-invitium-gas-turbines"
+    },
+    {
+      "canonical_url": "https://www.publicpower.org/periodical/article/veolia-selected-operate-350-mw-grid-independent-microgrid-ohio-data-center-campus",
+      "normalized_url": "https://www.publicpower.org/periodical/article/veolia-selected-operate-350-mw-grid-independent-microgrid-ohio-data-center-campus",
+      "title": "Veolia Selected to Operate 350-MW Grid-Independent Microgrid in Ohio for AI Data Center Campus",
+      "normalized_title": "veolia selected to operate 350 mw grid independent microgrid in ohio for ai data center campus",
+      "published_on": "2026-08-11",
+      "primary_entity": "Veolia",
+      "event_fingerprint": "veolia-ohio-ai-datacenter-microgrid"
     }
   ],
   "version": 2,
