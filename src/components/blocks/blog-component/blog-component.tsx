@@ -34,6 +34,11 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 import { useDebouncedValue } from "@/hooks/use-debounced-value";
 
 const allCategoryLabel = "All";
@@ -107,16 +112,21 @@ const BlogGrid = memo(({
             </p>
             <div className="flex items-center justify-between">
               <span className="text-sm font-medium">{post.author}</span>
-              <Button
-                size="icon"
-                className="group-hover:bg-primary! bg-background text-foreground hover:bg-primary! hover:text-primary-foreground group-hover:text-primary-foreground border group-hover:border-transparent hover:border-transparent"
-                asChild
-              >
-                <Link href={`/blog-detail/${post.slug}`}>
-                  <ArrowRightIcon className="size-4 -rotate-45" />
-                  <span className="sr-only">Read more: {post.title}</span>
-                </Link>
-              </Button>
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <Button
+                    size="icon"
+                    className="group-hover:bg-primary! bg-background text-foreground hover:bg-primary! hover:text-primary-foreground group-hover:text-primary-foreground border group-hover:border-transparent hover:border-transparent"
+                    asChild
+                  >
+                    <Link href={`/blog-detail/${post.slug}`}>
+                      <ArrowRightIcon className="size-4 -rotate-45" />
+                      <span className="sr-only">Read more: {post.title}</span>
+                    </Link>
+                  </Button>
+                </TooltipTrigger>
+                <TooltipContent>Read more</TooltipContent>
+              </Tooltip>
             </div>
           </CardContent>
         </Card>
@@ -285,18 +295,23 @@ const Blog = ({ stats }: BlogProps) => {
                 className="peer h-10 px-9"
               />
               {searchQuery ? (
-                <button
-                  type="button"
-                  aria-label="Clear search"
-                  onClick={() => {
-                    setSearchQuery("");
-                    setCurrentPage(1);
-                  }}
-                  className="text-muted-foreground hover:text-foreground absolute inset-y-0 right-0 flex items-center justify-center pr-3"
-                >
-                  <XIcon className="size-4" />
-                  <span className="sr-only">Clear search</span>
-                </button>
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <button
+                      type="button"
+                      aria-label="Clear search"
+                      onClick={() => {
+                        setSearchQuery("");
+                        setCurrentPage(1);
+                      }}
+                      className="text-muted-foreground hover:text-foreground absolute inset-y-0 right-0 flex items-center justify-center pr-3"
+                    >
+                      <XIcon className="size-4" />
+                      <span className="sr-only">Clear search</span>
+                    </button>
+                  </TooltipTrigger>
+                  <TooltipContent>Clear search</TooltipContent>
+                </Tooltip>
               ) : null}
             </div>
           </div>
@@ -318,15 +333,22 @@ const Blog = ({ stats }: BlogProps) => {
 
               {totalPages > 1 ? (
                 <div className="flex items-center justify-center gap-2 pt-8">
-                  <Button
-                    variant="outline"
-                    size="icon"
-                    onClick={() => handlePageChange(currentPage - 1)}
-                    disabled={currentPage === 1}
-                  >
-                    <ChevronLeftIcon className="size-4" />
-                    <span className="sr-only">Previous page</span>
-                  </Button>
+                  <Tooltip>
+                    <TooltipTrigger asChild>
+                      <span className="inline-block">
+                        <Button
+                          variant="outline"
+                          size="icon"
+                          onClick={() => handlePageChange(currentPage - 1)}
+                          disabled={currentPage === 1}
+                        >
+                          <ChevronLeftIcon className="size-4" />
+                          <span className="sr-only">Previous page</span>
+                        </Button>
+                      </span>
+                    </TooltipTrigger>
+                    <TooltipContent>Previous page</TooltipContent>
+                  </Tooltip>
 
                   <div className="flex items-center gap-1">
                     {Array.from(
@@ -350,15 +372,22 @@ const Blog = ({ stats }: BlogProps) => {
                     </span>
                   </div>
 
-                  <Button
-                    variant="outline"
-                    size="icon"
-                    onClick={() => handlePageChange(currentPage + 1)}
-                    disabled={currentPage === totalPages}
-                  >
-                    <ChevronRightIcon className="size-4" />
-                    <span className="sr-only">Next page</span>
-                  </Button>
+                  <Tooltip>
+                    <TooltipTrigger asChild>
+                      <span className="inline-block">
+                        <Button
+                          variant="outline"
+                          size="icon"
+                          onClick={() => handlePageChange(currentPage + 1)}
+                          disabled={currentPage === totalPages}
+                        >
+                          <ChevronRightIcon className="size-4" />
+                          <span className="sr-only">Next page</span>
+                        </Button>
+                      </span>
+                    </TooltipTrigger>
+                    <TooltipContent>Next page</TooltipContent>
+                  </Tooltip>
                 </div>
               ) : null}
             </div>

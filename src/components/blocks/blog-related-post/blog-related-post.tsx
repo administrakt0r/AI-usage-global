@@ -8,6 +8,11 @@ import { formatPostDisplayDate } from '@/lib/blog'
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 interface BlogProps {
   blogPosts?: typeof allBlogPosts;
@@ -85,18 +90,23 @@ const Blog = ({ blogPosts = allBlogPosts.slice(0, 3) }: BlogProps) => {
                   <span className="text-sm font-semibold text-foreground">
                     {post.author}
                   </span>
-                  <Button
-                    size="icon"
-                    className="rounded-full border border-primary/20 bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground"
-                    asChild
-                  >
-                    <Link href={`/blog-detail/${post.slug}`}>
-                      <ArrowRightIcon className="size-4 -rotate-45" />
-                      <span className="sr-only">
-                        Read more: {post.title}
-                      </span>
-                    </Link>
-                  </Button>
+                  <Tooltip>
+                    <TooltipTrigger asChild>
+                      <Button
+                        size="icon"
+                        className="rounded-full border border-primary/20 bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground"
+                        asChild
+                      >
+                        <Link href={`/blog-detail/${post.slug}`}>
+                          <ArrowRightIcon className="size-4 -rotate-45" />
+                          <span className="sr-only">
+                            Read more: {post.title}
+                          </span>
+                        </Link>
+                      </Button>
+                    </TooltipTrigger>
+                    <TooltipContent>Read more</TooltipContent>
+                  </Tooltip>
                 </div>
               </CardContent>
             </Card>
