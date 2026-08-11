@@ -2255,6 +2255,26 @@ export const blogPosts: BlogPost[] = [
       "grid-independent compute"
     ],
   }),
+  createPost({
+    id: 168,
+    slug: "energy-vault-texas-ai-power-deal",
+    title: "Energy Vault Lands 1.25 GW Texas Off-Grid AI Power Deal",
+    description: "Energy Vault secures a massive 1.25 GW agreement to supply grid-forming battery storage and AI controls for a Texas hyperscaler AI data center campus using Caterpillar gensets.",
+    imageAlt: "Digital rendering of utility-scale battery storage systems and diesel generator sets powering a modern AI data center",
+    publishedOn: "2026-08-11",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Energy Vault",
+      "Texas AI data center",
+      "off-grid power",
+      "Caterpillar genset",
+      "battery energy storage",
+      "BESS",
+      "microgrid"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
