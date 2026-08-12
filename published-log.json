@@ -1502,6 +1502,15 @@
       "published_on": "2026-08-11",
       "primary_entity": "Energy Vault",
       "event_fingerprint": "energy-vault-texas-1-25gw-bess-deal"
+    },
+    {
+      "canonical_url": "https://www.jll.com/en-us/newsroom/data-center-demand-exceeds-expectations-in-h1-2026",
+      "normalized_url": "https://www.jll.com/en-us/newsroom/data-center-demand-exceeds-expectations-in-h1-2026",
+      "title": "Data center demand exceeds expectations as H1 2026 absorption hits record 25 GW",
+      "normalized_title": "data center demand exceeds expectations as h1 2026 absorption hits record 25 gw",
+      "published_on": "2026-08-11",
+      "primary_entity": "JLL",
+      "event_fingerprint": "jll-h1-2026-data-center-report"
     }
   ],
   "version": 2,
