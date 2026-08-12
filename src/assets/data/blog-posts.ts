@@ -2275,6 +2275,26 @@ export const blogPosts: BlogPost[] = [
       "microgrid"
     ],
   }),
+  createPost({
+    id: 169,
+    slug: "jll-h1-2026-data-center-report",
+    title: "Data center demand exceeds expectations as H1 2026 absorption hits record 25 GW",
+    description: "JLL's North America Data Center Report reveals unprecedented growth driven by hyperscalers, neoclouds, and AI companies, while community acceptance remains a critical challenge with a 65-point gap.",
+    imageAlt: "Digital representation of a global power grid and data center infrastructure under community scrutiny",
+    publishedOn: "2026-08-11",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "JLL",
+      "data center demand",
+      "H1 2026 absorption",
+      "AI infrastructure",
+      "community acceptance gap",
+      "capital markets",
+      "rent growth"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
