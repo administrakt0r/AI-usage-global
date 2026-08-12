@@ -2295,6 +2295,27 @@ export const blogPosts: BlogPost[] = [
       "rent growth"
     ],
   }),
+  createPost({
+    id: 170,
+    slug: "openai-texas-data-center-standards",
+    title: "OpenAI Commits to Strict Texas Data Center Power and Water Standards",
+    description: "AI developer OpenAI commits to newly established Texas regulations requiring on-site generation plans, grid transmission self-funding, and strict water reuse/conservation auditing.",
+    imageAlt: "Digital representation of a power grid and water resources under compliance review in Texas",
+    publishedOn: "2026-08-12",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "OpenAI",
+      "Texas data center",
+      "Governor Greg Abbott",
+      "grid self-funding",
+      "water reuse",
+      "compliance auditing",
+      "ERCOT",
+      "PUCT"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
