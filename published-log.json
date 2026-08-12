@@ -1511,6 +1511,15 @@
       "published_on": "2026-08-11",
       "primary_entity": "JLL",
       "event_fingerprint": "jll-h1-2026-data-center-report"
+    },
+    {
+      "canonical_url": "https://gov.texas.gov/news/post/governor-abbott-announces-open-ai-commits-to-comply-with-his-data-center-standards-8-10",
+      "normalized_url": "https://gov.texas.gov/news/post/governor-abbott-announces-open-ai-commits-to-comply-with-his-data-center-standards-8-10",
+      "title": "Governor Abbott Announces Open AI Commits To Comply With His Data Center Standards",
+      "normalized_title": "governor abbott announces open ai commits to comply with his data center standards",
+      "published_on": "2026-08-10",
+      "primary_entity": "Governor Greg Abbott / OpenAI",
+      "event_fingerprint": "openai-texas-datacenter-standards-compliance"
     }
   ],
   "version": 2,
