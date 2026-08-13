@@ -2336,6 +2336,26 @@ export const blogPosts: BlogPost[] = [
       "ratepayer protection"
     ],
   }),
+  createPost({
+    id: 172,
+    slug: "standby-power-bottleneck-rehlko-liebherr",
+    title: "Standby Power Becomes the New Bottleneck for AI Buildouts",
+    description: "Heavy lead times for backup generators emerge as the tightest constraint on AI infrastructure expansion, forcing manufacturers to double capacity.",
+    imageAlt: "An industrial generator enclosure representing standby power infrastructure for AI data centers",
+    publishedOn: "2026-08-13",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "standby power",
+      "Rehlko",
+      "Liebherr",
+      "backup generators",
+      "data center power",
+      "IEA",
+      "lead times"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
