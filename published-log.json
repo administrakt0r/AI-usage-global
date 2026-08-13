@@ -1529,6 +1529,15 @@
       "published_on": "2026-08-11",
       "primary_entity": "Village of Wrightstown",
       "event_fingerprint": "wrightstown-data-center-referendum-defeat"
+    },
+    {
+      "canonical_url": "https://highways.today/2026/08/12/standby-power-ai-data-centre/",
+      "normalized_url": "https://highways.today/2026/08/12/standby-power-ai-data-centre",
+      "title": "Standby Power Moves to the Centre of the AI Data Centre Buildout",
+      "normalized_title": "standby power moves to the centre of the ai data centre buildout",
+      "published_on": "2026-08-13",
+      "primary_entity": "Rehlko / Liebherr",
+      "event_fingerprint": "standby-power-equipment-bottleneck"
     }
   ],
   "version": 2,
