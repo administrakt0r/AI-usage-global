@@ -1520,6 +1520,15 @@
       "published_on": "2026-08-10",
       "primary_entity": "Governor Greg Abbott / OpenAI",
       "event_fingerprint": "openai-texas-datacenter-standards-compliance"
+    },
+    {
+      "canonical_url": "https://ballotpedia.org/Wrightstown,_Wisconsin,_Authorize_Municipal_Infrastructure_and_Services_for_Large-Scale_Data_Center_Development_Advisory_Question_(August_2026)",
+      "normalized_url": "https://ballotpedia.org/Wrightstown,_Wisconsin,_Authorize_Municipal_Infrastructure_and_Services_for_Large-Scale_Data_Center_Development_Advisory_Question_(August_2026)",
+      "title": "Wisconsin Village Rejects Utility Support for Giant AI Data Center",
+      "normalized_title": "wisconsin village rejects utility support for giant ai data center",
+      "published_on": "2026-08-11",
+      "primary_entity": "Village of Wrightstown",
+      "event_fingerprint": "wrightstown-data-center-referendum-defeat"
     }
   ],
   "version": 2,

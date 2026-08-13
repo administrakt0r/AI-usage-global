@@ -2316,6 +2316,26 @@ export const blogPosts: BlogPost[] = [
       "PUCT"
     ],
   }),
+  createPost({
+    id: 171,
+    slug: "wrightstown-data-center-referendum-defeat",
+    title: "Wisconsin Village Rejects Utility Support for Giant AI Data Center",
+    description: "Wrightstown, Wisconsin, residents voted 87% against authorizing municipal utility infrastructure or public service commitments for a proposed large-scale data center.",
+    imageAlt: "A scenic farmland field representing community resistance to industrial data center infrastructure",
+    publishedOn: "2026-08-11",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Wrightstown",
+      "Wisconsin",
+      "Cloverleaf Infrastructure",
+      "referendum",
+      "utility infrastructure",
+      "community opposition",
+      "ratepayer protection"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
