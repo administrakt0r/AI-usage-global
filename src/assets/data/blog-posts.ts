@@ -2356,6 +2356,28 @@ export const blogPosts: BlogPost[] = [
       "lead times"
     ],
   }),
+  createPost({
+    id: 173,
+    slug: "everglades-project-tango-datacenter-backlash",
+    title: "A huge AI datacenter is planned near Mar-a-Lago. The Everglades could pay the price",
+    description: "Developers propose a 600 MW hyperscale AI data center near the Florida Everglades, drawing fierce opposition over concerns of grid upgrades and waste heat fueling toxic algal blooms.",
+    imageAlt: "An aerial view of the proposed 200-acre Project Tango data center site and the surrounding wetlands near the Florida Everglades",
+    publishedOn: "2026-08-13",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Florida Everglades",
+      "Project Tango",
+      "PBA Holdings",
+      "data center water",
+      "closed-loop cooling",
+      "cyanobacteria blooms",
+      "microcystin",
+      "Florida Power and Light",
+      "ratepayer protection"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
