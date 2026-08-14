@@ -1538,6 +1538,15 @@
       "published_on": "2026-08-13",
       "primary_entity": "Rehlko / Liebherr",
       "event_fingerprint": "standby-power-equipment-bottleneck"
+    },
+    {
+      "canonical_url": "https://www.theguardian.com/us-news/2026/aug/12/datacenter-everglades-risk",
+      "normalized_url": "https://www.theguardian.com/us-news/2026/aug/12/datacenter-everglades-risk",
+      "title": "A huge AI datacenter is planned near Mar-a-Lago. The Everglades could pay the price",
+      "normalized_title": "a huge ai datacenter is planned near mar a lago the everglades could pay the price",
+      "published_on": "2026-08-13",
+      "primary_entity": "PBA Holdings / Western Palm Beach Community Alliance",
+      "event_fingerprint": "everglades-project-tango-datacenter-backlash"
     }
   ],
   "version": 2,
