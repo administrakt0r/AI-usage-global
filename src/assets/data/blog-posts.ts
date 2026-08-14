@@ -2378,6 +2378,26 @@ export const blogPosts: BlogPost[] = [
       "ratepayer protection"
     ],
   }),
+  createPost({
+    id: 174,
+    slug: "hyperscalers-face-natural-gas-price-risks-study-warns",
+    title: "Hyperscalers Face Natural Gas Price Risks, Study Warns",
+    description: "A new forecast warns that natural gas prices could triple to over $10/MMBtu, threatening the economics of gas-powered AI data centers planned by Amazon, Google, Meta, and Microsoft.",
+    imageAlt: "Natural gas power plant infrastructure supplying power to an AI data center campus",
+    publishedOn: "2026-08-14",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "hyperscalers",
+      "natural gas prices",
+      "Noreva",
+      "AI power costs",
+      "gas-powered data centers",
+      "LNG exports",
+      "electricity prices"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
