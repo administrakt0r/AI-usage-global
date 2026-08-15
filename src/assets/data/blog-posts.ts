@@ -2418,6 +2418,26 @@ export const blogPosts: BlogPost[] = [
       "cooling water use"
     ],
   }),
+  createPost({
+    id: 176,
+    slug: "ontario-data-center-playbook-framework",
+    title: "Ontario Unveils Data Center Playbook to Protect Utility Rates",
+    description: "Ontario Premier Doug Ford announces the Data Center Playbook, requiring data centers over 1 MW to pay their full grid impact and introducing a dedicated rate class.",
+    imageAlt: "Digital representation of a data center campus and electrical grid infrastructure in Ontario, Canada",
+    publishedOn: "2026-08-14",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Ontario",
+      "Doug Ford",
+      "Data Center Playbook",
+      "ratepayer protection",
+      "electricity grid",
+      "large-load rate class",
+      "data center regulation"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
