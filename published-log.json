@@ -1565,6 +1565,15 @@
       "published_on": "2026-08-14",
       "primary_entity": "Local Residents of Piaseczno and Józefosław",
       "event_fingerprint": "warsaw-suburb-datacenter-water-protests"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/ontario-canada-unveils-new-data-center-framework-to-support-industry-investment/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/ontario-canada-unveils-new-data-center-framework-to-support-industry-investment",
+      "title": "Ontario, Canada, unveils new data center framework to support industry investment",
+      "normalized_title": "ontario canada unveils new data center framework to support industry investment",
+      "published_on": "2026-08-14",
+      "primary_entity": "Premier Doug Ford / Government of Ontario",
+      "event_fingerprint": "ontario-data-center-playbook-framework"
     }
   ],
   "version": 2,
