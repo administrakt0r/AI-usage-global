@@ -1556,6 +1556,15 @@
       "published_on": "2026-08-14",
       "primary_entity": "Noreva",
       "event_fingerprint": "noreva-natural-gas-price-shock-forecast"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/data-center-planned-for-suburb-in-warsaw-poland-sparks-protests/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/data-center-planned-for-suburb-in-warsaw-poland-sparks-protests",
+      "title": "Data center planned for suburb in Warsaw, Poland, sparks protests",
+      "normalized_title": "data center planned for suburb in warsaw poland sparks protests",
+      "published_on": "2026-08-14",
+      "primary_entity": "Local Residents of Piaseczno and Józefosław",
+      "event_fingerprint": "warsaw-suburb-datacenter-water-protests"
     }
   ],
   "version": 2,

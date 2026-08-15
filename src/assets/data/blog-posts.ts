@@ -2398,6 +2398,26 @@ export const blogPosts: BlogPost[] = [
       "electricity prices"
     ],
   }),
+  createPost({
+    id: 175,
+    slug: "warsaw-suburb-datacenter-water-protests",
+    title: "Data center planned for suburb in Warsaw, Poland, sparks protests",
+    description: "Plans for a new data center on the border of Piaseczno and Józefosław near Warsaw trigger public protests over potential local water shortages.",
+    imageAlt: "Suburban landscape near Warsaw representing community protests against data center water consumption",
+    publishedOn: "2026-08-14",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Warsaw data center",
+      "Piaseczno",
+      "Józefosław",
+      "Poland data center",
+      "water shortage",
+      "data center protests",
+      "cooling water use"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
