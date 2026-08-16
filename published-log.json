@@ -1574,6 +1574,15 @@
       "published_on": "2026-08-14",
       "primary_entity": "Premier Doug Ford / Government of Ontario",
       "event_fingerprint": "ontario-data-center-playbook-framework"
+    },
+    {
+      "canonical_url": "https://paenvironmentdaily.blogspot.com/2026/08/pjm-formally-submits-ferc-proposal-on.html",
+      "normalized_url": "https://paenvironmentdaily.blogspot.com/2026/08/pjm-formally-submits-ferc-proposal-on.html",
+      "title": "PJM Formally Submits FERC Proposal On Connecting Data Centers That Bring And Don't Bring Their Own Power Supplies",
+      "normalized_title": "pjm formally submits ferc proposal on connecting data centers that bring and dont bring their own power supplies",
+      "published_on": "2026-08-15",
+      "primary_entity": "PJM Interconnection",
+      "event_fingerprint": "pjm-ferc-iras-data-center-power-rules"
     }
   ],
   "version": 2,

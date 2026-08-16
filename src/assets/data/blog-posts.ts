@@ -2438,6 +2438,26 @@ export const blogPosts: BlogPost[] = [
       "data center regulation"
     ],
   }),
+  createPost({
+    id: 177,
+    slug: "pjm-ferc-iras-data-center-power-rules",
+    title: "PJM Formally Submits FERC Proposal On Connecting Data Centers That Bring And Don't Bring Their Own Power Supplies",
+    description: "PJM Interconnection proposes new FERC rules prioritizing emergency curtailment for unpowered data centers as AI drives 30 GW of forecasted electricity demand growth.",
+    imageAlt: "High-voltage electric transmission lines and electrical grid substation serving large data center facilities",
+    publishedOn: "2026-08-15",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "PJM Interconnection",
+      "FERC",
+      "IRAS",
+      "Large Load Registry",
+      "emergency curtailment",
+      "data center power demand",
+      "grid reliability"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
