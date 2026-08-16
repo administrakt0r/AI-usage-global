@@ -1583,6 +1583,15 @@
       "published_on": "2026-08-15",
       "primary_entity": "PJM Interconnection",
       "event_fingerprint": "pjm-ferc-iras-data-center-power-rules"
+    },
+    {
+      "canonical_url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+      "normalized_url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
+      "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+      "normalized_title": "openai and anthropic in price war as chinese ai rivals gain ground",
+      "published_on": "2026-08-16",
+      "primary_entity": "OpenAI / Anthropic",
+      "event_fingerprint": "us-ai-token-price-war-chinese-competition"
     }
   ],
   "version": 2,

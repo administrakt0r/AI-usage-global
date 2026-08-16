@@ -2458,6 +2458,27 @@ export const blogPosts: BlogPost[] = [
       "grid reliability"
     ],
   }),
+  createPost({
+    id: 178,
+    slug: "us-ai-labs-slash-prices-in-token-cost-war-with-chinese-rivals",
+    title: "US AI Labs Slash Model Prices in Token Cost War With Chinese Rivals",
+    description: "OpenAI and Anthropic slash API token prices by up to 80% as cost-conscious enterprises turn to cheaper models from Chinese competitors.",
+    imageAlt: "Digital illustration representing API token price cuts and competition in AI model infrastructure",
+    publishedOn: "2026-08-16",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "OpenAI",
+      "Anthropic",
+      "token price war",
+      "AI API costs",
+      "GPT-5.6 Luna",
+      "Claude Opus 5",
+      "DeepSeek",
+      "inference costs"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
