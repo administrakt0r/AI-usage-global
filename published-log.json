@@ -1601,6 +1601,15 @@
       "published_on": "2026-08-14",
       "primary_entity": "Clean Water Action New Jersey / Municipalities of New Jersey",
       "event_fingerprint": "nj-municipal-hyperscale-data-center-bans"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
+      "normalized_url": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project",
+      "title": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project",
+      "normalized_title": "nvidia investing 1 5b in softbank data center developer behind openai project",
+      "published_on": "2026-08-17",
+      "primary_entity": "Nvidia / SB Energy",
+      "event_fingerprint": "nvidia-sb-energy-ports-pike-investment"
     }
   ],
   "version": 2,
