@@ -1592,6 +1592,15 @@
       "published_on": "2026-08-16",
       "primary_entity": "OpenAI / Anthropic",
       "event_fingerprint": "us-ai-token-price-war-chinese-competition"
+    },
+    {
+      "canonical_url": "https://cleanwater.org/2026/08/14/clean-water-move-august-2026",
+      "normalized_url": "https://cleanwater.org/2026/08/14/clean-water-move-august-2026",
+      "title": "New Jersey Towns Ban Hyperscale AI Data Centers",
+      "normalized_title": "new jersey towns ban hyperscale ai data centers",
+      "published_on": "2026-08-14",
+      "primary_entity": "Clean Water Action New Jersey / Municipalities of New Jersey",
+      "event_fingerprint": "nj-municipal-hyperscale-data-center-bans"
     }
   ],
   "version": 2,
