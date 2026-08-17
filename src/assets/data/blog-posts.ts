@@ -2479,6 +2479,26 @@ export const blogPosts: BlogPost[] = [
       "inference costs"
     ],
   }),
+  createPost({
+    id: 179,
+    slug: "nj-towns-ban-hyperscale-ai-data-centers",
+    title: "New Jersey Towns Ban Hyperscale AI Data Centers",
+    description: "Over 70 New Jersey municipalities enact local bans on hyperscale AI data centers over concerns regarding water usage, PFAS contamination, and electric grid strain.",
+    imageAlt: "Digital representation of municipal governance and data center resource opposition in New Jersey",
+    publishedOn: "2026-08-14",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "New Jersey AI data center ban",
+      "Clean Water Action",
+      "Data Center Fair Share bill",
+      "A796/S731",
+      "Governor Mikie Sherrill",
+      "water cooling footprint",
+      "ratepayer protection"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
