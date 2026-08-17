@@ -2499,6 +2499,26 @@ export const blogPosts: BlogPost[] = [
       "ratepayer protection"
     ],
   }),
+  createPost({
+    id: 180,
+    slug: "nvidia-invests-1-5b-in-sb-energy-ohio-datacenter",
+    title: "Nvidia Backs SoftBank Data Center Project With $1.5B Deal",
+    description: "Nvidia commits $1.5 billion and a $105 billion credit facility to SB Energy for a 8 GW OpenAI data center campus and 9.2 GW gas power plant in Ohio.",
+    imageAlt: "High-voltage power infrastructure supplying an AI data center campus",
+    publishedOn: "2026-08-17",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Nvidia",
+      "SB Energy",
+      "SoftBank",
+      "OpenAI",
+      "Ports-Pike data center",
+      "natural gas power plant",
+      "Ohio AI data center"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
