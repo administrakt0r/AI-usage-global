@@ -1610,6 +1610,15 @@
       "published_on": "2026-08-17",
       "primary_entity": "Nvidia / SB Energy",
       "event_fingerprint": "nvidia-sb-energy-ports-pike-investment"
+    },
+    {
+      "canonical_url": "https://www.briefs.co/news/vitol-s-clean-power-unit-buys-south-carolina-data-center-cam/",
+      "normalized_url": "https://www.briefs.co/news/vitol-s-clean-power-unit-buys-south-carolina-data-center-cam",
+      "title": "Vitol's Clean-Power Unit Buys South Carolina Data-Center Campus to Power AI",
+      "normalized_title": "vitols clean power unit buys south carolina data center campus to power ai",
+      "published_on": "2026-08-17",
+      "primary_entity": "VC Renewables / Vitol",
+      "event_fingerprint": "vitol-south-carolina-ai-datacenter-acquisition"
     }
   ],
   "version": 2,

@@ -2519,6 +2519,26 @@ export const blogPosts: BlogPost[] = [
       "Ohio AI data center"
     ],
   }),
+  createPost({
+    id: 181,
+    slug: "vc-renewables-vitol-south-carolina-ai-data-center",
+    title: "Vitol's Clean-Power Unit Buys South Carolina Data-Center Campus to Power AI",
+    description: "Vitol's clean-power arm VC Renewables acquires a South Carolina AI data center campus from Meridan Gridworks to handle power supply and on-site energy storage.",
+    imageAlt: "Digital representation of power supply and energy storage infrastructure at an AI data center campus",
+    publishedOn: "2026-08-17",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Vitol",
+      "VC Renewables",
+      "Meridan Gridworks",
+      "South Carolina data center",
+      "AI electricity supply",
+      "energy storage",
+      "power grid constraints"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
