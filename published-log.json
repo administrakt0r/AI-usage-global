@@ -1619,6 +1619,15 @@
       "published_on": "2026-08-17",
       "primary_entity": "VC Renewables / Vitol",
       "event_fingerprint": "vitol-south-carolina-ai-datacenter-acquisition"
+    },
+    {
+      "canonical_url": "https://www.theregister.com/on-prem/2026/08/17/siemens-and-reinhausen-turn-up-the-voltage-for-hungry-ai-racks/5288565",
+      "normalized_url": "https://www.theregister.com/on-prem/2026/08/17/siemens-and-reinhausen-turn-up-the-voltage-for-hungry-ai-racks/5288565",
+      "title": "Siemens and Reinhausen turn up the voltage for hungry AI racks",
+      "normalized_title": "siemens and reinhausen turn up the voltage for hungry ai racks",
+      "published_on": "2026-08-18",
+      "primary_entity": "Siemens / Reinhausen",
+      "event_fingerprint": "siemens-reinhausen-800vdc-sst-power"
     }
   ],
   "version": 2,

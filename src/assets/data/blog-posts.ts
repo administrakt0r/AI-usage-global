@@ -2539,6 +2539,27 @@ export const blogPosts: BlogPost[] = [
       "power grid constraints"
     ],
   }),
+  createPost({
+    id: 182,
+    slug: "siemens-reinhausen-800vdc-ai-datacenter-transformers",
+    title: "Siemens and Reinhausen Target 800 VDC Power for AI Racks",
+    description: "Siemens and Reinhausen develop 800 VDC solid-state transformers to eliminate conversion losses and supply megawatt-scale AI server racks directly from medium-voltage grids.",
+    imageAlt: "Solid-state transformer technology powering high-density AI data center server racks",
+    publishedOn: "2026-08-18",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Siemens",
+      "Reinhausen",
+      "800 VDC",
+      "solid-state transformer",
+      "SST",
+      "AI data center power",
+      "megawatt racks",
+      "Nvidia MGX"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
