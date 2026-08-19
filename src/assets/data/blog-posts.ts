@@ -2560,6 +2560,27 @@ export const blogPosts: BlogPost[] = [
       "Nvidia MGX"
     ],
   }),
+  createPost({
+    id: 183,
+    slug: "project-jupiter-nm-ai-datacenter-status",
+    title: "Project Jupiter: where the AI data center project stands in NM",
+    description: "New Mexico's $165B Project Jupiter AI data center faces pipeline denials, fraud probes, and proposed statewide moratoriums as resource demands mount.",
+    imageAlt: "Digital representation of Project Jupiter data center campus in New Mexico and energy infrastructure",
+    publishedOn: "2026-08-17",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Project Jupiter",
+      "New Mexico AI",
+      "Oracle",
+      "OpenAI",
+      "data center water",
+      "natural gas pipeline",
+      "microgrid oversight",
+      "data center moratorium"
+    ],
+  }),
 ];
 
 const assertUniqueField = (

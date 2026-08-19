@@ -1628,6 +1628,15 @@
       "published_on": "2026-08-18",
       "primary_entity": "Siemens / Reinhausen",
       "event_fingerprint": "siemens-reinhausen-800vdc-sst-power"
+    },
+    {
+      "canonical_url": "https://www.dailylobo.com/article/2026/08/project-jupiter-where-the-ai-data-center-project-stands-in-nm",
+      "normalized_url": "https://www.dailylobo.com/article/2026/08/project-jupiter-where-the-ai-data-center-project-stands-in-nm",
+      "title": "Project Jupiter: where the AI data center project stands in NM",
+      "normalized_title": "project jupiter where the ai data center project stands in nm",
+      "published_on": "2026-08-17",
+      "primary_entity": "New Mexico Legislature / Project Jupiter",
+      "event_fingerprint": "project-jupiter-nm-regulatory-investigation-status"
     }
   ],
   "version": 2,
