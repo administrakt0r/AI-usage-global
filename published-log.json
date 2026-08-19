@@ -1637,6 +1637,15 @@
       "published_on": "2026-08-17",
       "primary_entity": "New Mexico Legislature / Project Jupiter",
       "event_fingerprint": "project-jupiter-nm-regulatory-investigation-status"
+    },
+    {
+      "canonical_url": "https://www.pa.gov/governor/newsroom/2026-press-releases/icymi--governor-shapiro-signs-executive-order-on-data-centers-in",
+      "normalized_url": "https://www.pa.gov/governor/newsroom/2026-press-releases/icymi--governor-shapiro-signs-executive-order-on-data-centers-in",
+      "title": "Pennsylvania Orders Strict New Rules for AI Data Center Developments",
+      "normalized_title": "pennsylvania orders strict new rules for ai data center developments",
+      "published_on": "2026-08-19",
+      "primary_entity": "Governor Josh Shapiro",
+      "event_fingerprint": "pa-governor-executive-order-data-centers"
     }
   ],
   "version": 2,
