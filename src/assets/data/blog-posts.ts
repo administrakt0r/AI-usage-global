@@ -2581,6 +2581,26 @@ export const blogPosts: BlogPost[] = [
       "data center moratorium"
     ],
   }),
+  createPost({
+    id: 184,
+    slug: "pennsylvania-executive-order-ai-data-centers",
+    title: "Pennsylvania Orders Strict New Rules for AI Data Center Developments",
+    description: "Governor Josh Shapiro signs Executive Order 2026-05 mandating local consent, banning NDAs, and requiring dedicated power generation for AI data centers.",
+    imageAlt: "Digital representation of state regulatory oversight and data center infrastructure in Pennsylvania",
+    publishedOn: "2026-08-19",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Pennsylvania AI data centers",
+      "Governor Josh Shapiro",
+      "Executive Order 2026-05",
+      "GRID requirements",
+      "data center NDA ban",
+      "ratepayer protection",
+      "PJM grid"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
