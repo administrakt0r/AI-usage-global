@@ -2601,6 +2601,25 @@ export const blogPosts: BlogPost[] = [
       "PJM grid"
     ],
   }),
+  createPost({
+    id: 185,
+    slug: "generac-ai-datacenter-supply-chain-expansion",
+    title: "The AI data centre boom is remaking US factory supply chains, and Trump’s tariffs are the wildcard",
+    description: "Generac and U.S. industrial suppliers retool factories to produce heavy generators, transformers, and electrical equipment as AI data center order backlogs hit $1.6 billion.",
+    imageAlt: "Heavy industrial power equipment and generators built for hyperscale AI data centers",
+    publishedOn: "2026-08-19",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Generac",
+      "AI supply chain",
+      "data center generators",
+      "heavy power equipment",
+      "factory retooling",
+      "order backlog"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
