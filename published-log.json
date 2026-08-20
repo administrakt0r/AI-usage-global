@@ -1646,6 +1646,15 @@
       "published_on": "2026-08-19",
       "primary_entity": "Governor Josh Shapiro",
       "event_fingerprint": "pa-governor-executive-order-data-centers"
+    },
+    {
+      "canonical_url": "https://capacityglobal.com/news/the-ai-data-centre-boom-is-remaking-us-factory-supply-chains/",
+      "normalized_url": "https://capacityglobal.com/news/the-ai-data-centre-boom-is-remaking-us-factory-supply-chains",
+      "title": "The AI data centre boom is remaking US factory supply chains, and Trump’s tariffs are the wildcard",
+      "normalized_title": "the ai data centre boom is remaking us factory supply chains and trumps tariffs are the wildcard",
+      "published_on": "2026-08-19",
+      "primary_entity": "Generac / Timken",
+      "event_fingerprint": "generac-ai-datacenter-supply-chain-expansion"
     }
   ],
   "version": 2,
