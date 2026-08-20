@@ -1655,6 +1655,15 @@
       "published_on": "2026-08-19",
       "primary_entity": "Generac / Timken",
       "event_fingerprint": "generac-ai-datacenter-supply-chain-expansion"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/",
+      "normalized_url": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers",
+      "title": "TerraPower’s nuclear reactor has a secret weapon for powering AI data centers",
+      "normalized_title": "terrapowers nuclear reactor has a secret weapon for powering ai data centers",
+      "published_on": "2026-08-20",
+      "primary_entity": "TerraPower",
+      "event_fingerprint": "terrapower-molten-salt-storage-ai-power"
     }
   ],
   "version": 2,

@@ -2620,6 +2620,26 @@ export const blogPosts: BlogPost[] = [
       "order backlog"
     ],
   }),
+  createPost({
+    id: 186,
+    slug: "terrapower-molten-salt-storage-ai-power",
+    title: "TerraPower Uses Molten Salt Storage to Power AI Data Centers",
+    description:
+      "TerraPower leverages molten salt thermal storage in its 345 MW Natrium nuclear reactors to smooth volatile AI GPU compute loads without throttling power output.",
+    imageAlt: "Digital representation of a nuclear reactor with molten salt thermal energy storage serving an AI data center campus",
+    publishedOn: "2026-08-20",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "TerraPower",
+      "Natrium reactor",
+      "molten salt storage",
+      "nuclear AI power",
+      "small modular reactors",
+      "GPU load spikes"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
