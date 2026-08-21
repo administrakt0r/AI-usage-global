@@ -2660,6 +2660,26 @@ export const blogPosts: BlogPost[] = [
       "ratepayer protection"
     ],
   }),
+  createPost({
+    id: 188,
+    slug: "tva-creates-data-center-tariff-to-shield-ratepayers",
+    title: "TVA Approves Data Center Tariff to Shield Ratepayers",
+    description: "Tennessee Valley Authority approves a dedicated wholesale rate class and Capacity Commitment Charge for data centers over 5 MW, shielding residential ratepayers from AI energy expansion costs.",
+    imageAlt: "High-voltage electrical transmission towers and energy infrastructure servicing data center facilities",
+    publishedOn: "2026-08-21",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Tennessee Valley Authority",
+      "TVA data center rate",
+      "Capacity Commitment Charge",
+      "Ratepayer Protection Pledge",
+      "AI power demand",
+      "Integrated Resource Plan",
+      "ratepayer protection"
+    ],
+  }),
 ];
 
 const assertUniqueField = (

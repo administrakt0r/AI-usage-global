@@ -1673,6 +1673,15 @@
       "published_on": "2026-08-20",
       "primary_entity": "Edison Electric Institute",
       "event_fingerprint": "eei-large-load-projects-and-tariffs-report"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/us-utility-tva-imposes-new-rates-on-data-center-firms/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/us-utility-tva-imposes-new-rates-on-data-center-firms",
+      "title": "US utility TVA imposes new rates on data center firms",
+      "normalized_title": "us utility tva imposes new rates on data center firms",
+      "published_on": "2026-08-21",
+      "primary_entity": "Tennessee Valley Authority",
+      "event_fingerprint": "tva-data-center-rate-class-approval"
     }
   ],
   "version": 2,
