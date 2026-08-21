@@ -1664,6 +1664,15 @@
       "published_on": "2026-08-20",
       "primary_entity": "TerraPower",
       "event_fingerprint": "terrapower-molten-salt-storage-ai-power"
+    },
+    {
+      "canonical_url": "https://www.eei.org/-/media/Project/EEI/Documents/Issues%20and%20Policy/List%20of%20Large%20Customer%20Projects%20and%20Tariffs",
+      "normalized_url": "https://www.eei.org/issues-and-policy/large-load-projects-and-tariffs",
+      "title": "EEI Report: US AI Data Center Pipeline Reaches 68 GW and $1 Trillion",
+      "normalized_title": "eei report us ai data center pipeline reaches 68 gw and 1 trillion",
+      "published_on": "2026-08-20",
+      "primary_entity": "Edison Electric Institute",
+      "event_fingerprint": "eei-large-load-projects-and-tariffs-report"
     }
   ],
   "version": 2,
