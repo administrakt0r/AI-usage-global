@@ -2640,6 +2640,26 @@ export const blogPosts: BlogPost[] = [
       "GPU load spikes"
     ],
   }),
+  createPost({
+    id: 187,
+    slug: "eei-us-large-load-ai-data-center-pipeline-report",
+    title: "EEI Report: US AI Data Center Pipeline Reaches 68 GW and $1 Trillion",
+    description:
+      "A new Edison Electric Institute report reveals that utility-scale large load projects in the US have reached 68 GW and $1 trillion, driving widespread adoption of protective tariffs.",
+    imageAlt: "High-voltage electrical grid substation supplying a large-scale data center campus",
+    publishedOn: "2026-08-20",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Edison Electric Institute",
+      "EEI report",
+      "large load tariffs",
+      "AI power demand",
+      "grid infrastructure costs",
+      "ratepayer protection"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
