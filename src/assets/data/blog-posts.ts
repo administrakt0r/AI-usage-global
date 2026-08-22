@@ -2699,6 +2699,25 @@ export const blogPosts: BlogPost[] = [
       "data center emissions"
     ],
   }),
+  createPost({
+    id: 190,
+    slug: "ulanqab-china-ai-datacenter-expansion",
+    title: "Chinese AI Firms Pledged 12.5 GW Data Center Expansion in Ulanqab",
+    description: "Chinese tech firms pledge 12.5 GW of AI data center capacity in Ulanqab, Inner Mongolia, driving severe water rationing and power grid impacts in the arid region.",
+    imageAlt: "Digital representation of massive AI data centers and energy infrastructure in Inner Mongolia",
+    publishedOn: "2026-08-22",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Ulanqab AI data centers",
+      "Inner Mongolia compute cluster",
+      "DeepSeek infrastructure",
+      "AI water rationing",
+      "data center electricity costs",
+      "Eastern Data Western Compute"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
