@@ -2680,6 +2680,25 @@ export const blogPosts: BlogPost[] = [
       "ratepayer protection"
     ],
   }),
+  createPost({
+    id: 189,
+    slug: "maha-activists-oppose-coal-power-for-ai-data-centers",
+    title: "MAHA activists urge Trump against promoting coal to power energy-hungry AI data centers",
+    description: "Nearly 200 health advocates challenge federal policies promoting coal power for AI data centers, warning of air pollution and coal ash risks.",
+    imageAlt: "Coal power plant and high-density data center infrastructure",
+    publishedOn: "2026-08-21",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "MAHA activists",
+      "coal power AI data centers",
+      "Donald Trump",
+      "Robert F. Kennedy Jr.",
+      "AI energy footprint",
+      "data center emissions"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
