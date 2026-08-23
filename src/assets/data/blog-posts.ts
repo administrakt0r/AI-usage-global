@@ -2738,6 +2738,27 @@ export const blogPosts: BlogPost[] = [
       "liquid cooling"
     ],
   }),
+  createPost({
+    id: 192,
+    slug: "ercot-sets-december-target-for-texas-data-center-audits",
+    title: "ERCOT Sets December Target for Texas Data Center Audits",
+    description:
+      "ERCOT outlines an audit roadmap for 300 large and 157 medium Texas data centers, aiming for a December 10, 2026 report to state regulators.",
+    imageAlt: "Digital illustration of electrical grid transmission lines and data center audit metrics in Texas",
+    publishedOn: "2026-08-23",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "ERCOT",
+      "Texas data centers",
+      "grid audit",
+      "Batch Zero",
+      "PUCT",
+      "large load interconnection",
+      "AI power demand"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
