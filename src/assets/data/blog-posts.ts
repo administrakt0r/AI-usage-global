@@ -2718,6 +2718,26 @@ export const blogPosts: BlogPost[] = [
       "Eastern Data Western Compute"
     ],
   }),
+  createPost({
+    id: 191,
+    slug: "ai-infrastructure-pushes-data-center-capex-forecast-above-3-trillion",
+    title: "AI Infrastructure Pushes Data Center Capex Forecast Above $3 Trillion",
+    description:
+      "Global data center capital expenditure is forecast to exceed $3 trillion as hyperscalers and AI clouds expand power capacity beyond 200 GW.",
+    imageAlt: "Digital representation of global data center infrastructure spending and power grid demands",
+    publishedOn: "2026-08-21",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "AI capex",
+      "data center spending",
+      "power demand",
+      "grid delays",
+      "hyperscalers",
+      "liquid cooling"
+    ],
+  }),
 ];
 
 const assertUniqueField = (

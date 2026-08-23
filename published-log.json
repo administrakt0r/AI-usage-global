@@ -1700,6 +1700,15 @@
       "published_on": "2026-08-22",
       "primary_entity": "Ulanqab Municipal Government / Inner Mongolia Data Center Hub",
       "event_fingerprint": "ulanqab-china-ai-datacenter-expansion"
+    },
+    {
+      "canonical_url": "https://www.datacenterknowledge.com/ai-data-centers/ai-infrastructure-pushes-data-center-capex-forecast-above-3-trillion",
+      "normalized_url": "https://www.datacenterknowledge.com/ai-data-centers/ai-infrastructure-pushes-data-center-capex-forecast-above-3-trillion",
+      "title": "AI Infrastructure Pushes Data Center Capex Forecast Above $3 Trillion",
+      "normalized_title": "ai infrastructure pushes data center capex forecast above 3 trillion",
+      "published_on": "2026-08-21",
+      "primary_entity": "Data Center Knowledge",
+      "event_fingerprint": "ai-infrastructure-pushes-data-center-capex-forecast-above-3-trillion"
     }
   ],
   "version": 2,
