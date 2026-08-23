@@ -1709,6 +1709,15 @@
       "published_on": "2026-08-21",
       "primary_entity": "Data Center Knowledge",
       "event_fingerprint": "ai-infrastructure-pushes-data-center-capex-forecast-above-3-trillion"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/ercot-texas-puc-data-center-audit/828472/",
+      "normalized_url": "https://www.utilitydive.com/news/ercot-texas-puc-data-center-audit/828472",
+      "title": "ERCOT aims to complete Texas governor’s data center audit by December",
+      "normalized_title": "ercot aims to complete texas governors data center audit by december",
+      "published_on": "2026-08-21",
+      "primary_entity": "Electric Reliability Council of Texas (ERCOT)",
+      "event_fingerprint": "ercot-texas-data-center-audit-roadmap"
     }
   ],
   "version": 2,
