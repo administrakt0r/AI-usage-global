@@ -2779,6 +2779,26 @@ export const blogPosts: BlogPost[] = [
       "AI infrastructure"
     ],
   }),
+  createPost({
+    id: 194,
+    slug: "federal-data-center-electricity-tax-bill",
+    title: "US House Bill Proposes 1 Cent per kWh Tax on Data Center Power",
+    description:
+      "H.R. 10102 proposes a federal 1¢/kWh excise tax on data center electricity consumption to raise $1.76 billion annually for clean energy and infrastructure.",
+    imageAlt: "Digital representation of a federal legislative bill and high-voltage power lines supplying data centers",
+    publishedOn: "2026-08-24",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "H.R. 10102",
+      "Andrea Salinas",
+      "data center electricity tax",
+      "federal excise tax",
+      "AI power consumption",
+      "Energy Technology Trust Fund"
+    ],
+  }),
 ];
 
 const assertUniqueField = (

@@ -1727,6 +1727,15 @@
       "published_on": "2026-08-23",
       "primary_entity": "Nvidia / Cloverleaf Infrastructure",
       "event_fingerprint": "nvidia-cloverleaf-datacenter-power-partnership"
+    },
+    {
+      "canonical_url": "https://www.datacenterknowledge.com/regulations/house-bill-would-put-federal-electricity-tax-on-data-centers",
+      "normalized_url": "https://www.datacenterknowledge.com/regulations/house-bill-would-put-federal-electricity-tax-on-data-centers",
+      "title": "House Bill Would Put Federal Electricity Tax on Data Centers",
+      "normalized_title": "house bill would put federal electricity tax on data centers",
+      "published_on": "2026-08-24",
+      "primary_entity": "Representative Andrea Salinas",
+      "event_fingerprint": "federal-data-center-electricity-tax-bill"
     }
   ],
   "version": 2,
