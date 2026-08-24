@@ -2759,6 +2759,26 @@ export const blogPosts: BlogPost[] = [
       "AI power demand"
     ],
   }),
+  createPost({
+    id: 193,
+    slug: "nvidia-partners-with-cloverleaf-infrastructure",
+    title: "Nvidia partners with data center developer Cloverleaf",
+    description:
+      "Nvidia acquires a minority stake in Cloverleaf Infrastructure to secure early power interconnections and sites for AI data center expansion.",
+    imageAlt: "Digital illustration of power grid infrastructure and data center site development",
+    publishedOn: "2026-08-23",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Nvidia",
+      "Cloverleaf Infrastructure",
+      "data center power",
+      "grid interconnection",
+      "speed-to-power",
+      "AI infrastructure"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
