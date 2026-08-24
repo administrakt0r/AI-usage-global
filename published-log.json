@@ -1718,6 +1718,15 @@
       "published_on": "2026-08-21",
       "primary_entity": "Electric Reliability Council of Texas (ERCOT)",
       "event_fingerprint": "ercot-texas-data-center-audit-roadmap"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
+      "normalized_url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf",
+      "title": "Nvidia partners with data center developer Cloverleaf",
+      "normalized_title": "nvidia partners with data center developer cloverleaf",
+      "published_on": "2026-08-23",
+      "primary_entity": "Nvidia / Cloverleaf Infrastructure",
+      "event_fingerprint": "nvidia-cloverleaf-datacenter-power-partnership"
     }
   ],
   "version": 2,
