@@ -1713,7 +1713,7 @@
     {
       "canonical_url": "https://www.utilitydive.com/news/ercot-texas-puc-data-center-audit/828472/",
       "normalized_url": "https://www.utilitydive.com/news/ercot-texas-puc-data-center-audit/828472",
-      "title": "ERCOT aims to complete Texas governor’s data center audit by December",
+      "title": "ERCOT aims to complete Texas governor\u2019s data center audit by December",
       "normalized_title": "ercot aims to complete texas governors data center audit by december",
       "published_on": "2026-08-21",
       "primary_entity": "Electric Reliability Council of Texas (ERCOT)",
@@ -1736,6 +1736,15 @@
       "published_on": "2026-08-24",
       "primary_entity": "Representative Andrea Salinas",
       "event_fingerprint": "federal-data-center-electricity-tax-bill"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/soluna-acquires-397-acre-plot-in-briscoe-county-texas-for-project-dorothy-3-data-center/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/soluna-acquires-397-acre-plot-in-briscoe-county-texas-for-project-dorothy-3-data-center",
+      "title": "Soluna Acquires 397-Acre Plot in Texas for Project Dorothy 3 Data Center",
+      "normalized_title": "soluna acquires 397 acre plot in texas for project dorothy 3 data center",
+      "published_on": "2026-08-25",
+      "primary_entity": "Soluna",
+      "event_fingerprint": "soluna-project-dorothy-3-texas-land-acquisition"
     }
   ],
   "version": 2,
