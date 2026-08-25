@@ -2818,6 +2818,25 @@ export const blogPosts: BlogPost[] = [
       "data center power demand"
     ],
   }),
+  createPost({
+    id: 196,
+    slug: "terawulf-kentucky-482mw-power-agreement",
+    title: "TeraWulf Wins Approval for 482 MW Kentucky AI Power Agreement",
+    description: "Kentucky regulators approve a 482 MW electrical service agreement for TeraWulf's 790-acre AI campus in Hancock County, anchored by tenant Anthropic.",
+    imageAlt: "Industrial data center campus and electrical substation infrastructure in Kentucky",
+    publishedOn: "2026-08-25",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "TeraWulf",
+      "Kentucky AI power",
+      "Justified Data Campus",
+      "Anthropic",
+      "482 MW power agreement",
+      "ratepayer protection"
+    ],
+  }),
 ];
 
 const assertUniqueField = (

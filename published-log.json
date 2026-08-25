@@ -1745,6 +1745,15 @@
       "published_on": "2026-08-25",
       "primary_entity": "Soluna",
       "event_fingerprint": "soluna-project-dorothy-3-texas-land-acquisition"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/terawulf-secures-482mw-electrical-service-agreement-for-planned-data-center-campus-in-kentucky/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/terawulf-secures-482mw-electrical-service-agreement-for-planned-data-center-campus-in-kentucky",
+      "title": "TeraWulf secures 482MW electrical service agreement for planned data center campus in Kentucky",
+      "normalized_title": "terawulf secures 482mw electrical service agreement for planned data center campus in kentucky",
+      "published_on": "2026-08-25",
+      "primary_entity": "TeraWulf",
+      "event_fingerprint": "terawulf-kentucky-482mw-electrical-agreement"
     }
   ],
   "version": 2,
