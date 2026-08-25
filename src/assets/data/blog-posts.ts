@@ -2799,6 +2799,25 @@ export const blogPosts: BlogPost[] = [
       "Energy Technology Trust Fund"
     ],
   }),
+  createPost({
+    id: 195,
+    slug: "soluna-acquires-texas-land-project-dorothy-3",
+    title: "Soluna Acquires 397-Acre Plot in Texas for Project Dorothy 3 Data Center",
+    description: "Soluna acquires 397 acres in Briscoe County, Texas, to build the 300 MW Project Dorothy 3 AI data center powered by behind-the-meter wind energy.",
+    imageAlt: "Aerial view of a wind farm and data center site in Texas",
+    publishedOn: "2026-08-25",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Soluna",
+      "Project Dorothy 3",
+      "Texas AI data center",
+      "behind-the-meter wind",
+      "Briscoe County",
+      "data center power demand"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
