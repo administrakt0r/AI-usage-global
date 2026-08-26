@@ -1754,6 +1754,15 @@
       "published_on": "2026-08-25",
       "primary_entity": "TeraWulf",
       "event_fingerprint": "terawulf-kentucky-482mw-electrical-agreement"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/nano-nuclear-partners-with-tillman-digital-to-deploy-micro-nuclear-reactors-at-us-ai-data-centers/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/nano-nuclear-partners-with-tillman-digital-to-deploy-micro-nuclear-reactors-at-us-ai-data-centers",
+      "title": "Nano Nuclear partners with Tillman Digital to deploy micro nuclear reactors at US AI data centers",
+      "normalized_title": "nano nuclear partners with tillman digital to deploy micro nuclear reactors at us ai data centers",
+      "published_on": "2026-08-25",
+      "primary_entity": "Nano Nuclear / Tillman Digital Gateway",
+      "event_fingerprint": "nano-nuclear-tillman-micro-reactors-ai"
     }
   ],
   "version": 2,

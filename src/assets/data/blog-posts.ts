@@ -2837,6 +2837,25 @@ export const blogPosts: BlogPost[] = [
       "ratepayer protection"
     ],
   }),
+  createPost({
+    id: 197,
+    slug: "nano-nuclear-tillman-micro-reactors-ai",
+    title: "Nano Nuclear partners with Tillman Digital to deploy micro nuclear reactors at US AI data centers",
+    description: "Nano Nuclear partners with Tillman Digital Gateway to target up to 6 GW of micro nuclear capacity for US AI data centers using 15 MW Kronos reactors.",
+    imageAlt: "Digital representation of micro modular nuclear reactors powering an AI data center campus",
+    publishedOn: "2026-08-25",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Nano Nuclear",
+      "Tillman Digital Gateway",
+      "Kronos micro reactor",
+      "small modular reactors",
+      "AI power demand",
+      "off-grid nuclear power"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
