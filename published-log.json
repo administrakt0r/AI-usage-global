@@ -1763,6 +1763,15 @@
       "published_on": "2026-08-25",
       "primary_entity": "Nano Nuclear / Tillman Digital Gateway",
       "event_fingerprint": "nano-nuclear-tillman-micro-reactors-ai"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
+      "normalized_url": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale",
+      "title": "Anthropic continues compute-gobbling streak in $45 billion deal with Nscale",
+      "normalized_title": "anthropic continues compute gobbling streak in 45 billion deal with nscale",
+      "published_on": "2026-08-26",
+      "primary_entity": "Anthropic / Nscale",
+      "event_fingerprint": "anthropic-nscale-45b-compute-deal"
     }
   ],
   "version": 2,
