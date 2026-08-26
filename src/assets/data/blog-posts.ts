@@ -2856,6 +2856,25 @@ export const blogPosts: BlogPost[] = [
       "off-grid nuclear power"
     ],
   }),
+  createPost({
+    id: 198,
+    slug: "anthropic-nscale-45b-compute-deal",
+    title: "Anthropic Signs $45 Billion Compute Deal with Nscale",
+    description: "Anthropic agrees to a $45 billion, six-year compute lease with Nscale for Nvidia Vera Rubin server capacity from a West Virginia data center.",
+    imageAlt: "Digital representation of a high-density AI data center campus and compute server racks",
+    publishedOn: "2026-08-26",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Anthropic",
+      "Nscale",
+      "Nvidia Vera Rubin",
+      "West Virginia data center",
+      "AI compute cost",
+      "cloud infrastructure lease"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
