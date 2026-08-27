@@ -2894,6 +2894,25 @@ export const blogPosts: BlogPost[] = [
       "sustainability"
     ],
   }),
+  createPost({
+    id: 200,
+    slug: "uk-grid-phantom-datacenter-queue-reforms",
+    title: "UK Grid Faces 73 GW Phantom Data Center Backlog Under Ofgem Rules",
+    description: "UK energy regulator Ofgem proposes strict financial hurdles to purge 73 GW of speculative 'phantom' data center applications clogging the power grid.",
+    imageAlt: "Digital representation of power transmission lines and data center grid queue management in the UK",
+    publishedOn: "2026-08-27",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Ofgem",
+      "UK power grid",
+      "phantom data centers",
+      "grid queue reforms",
+      "AI energy demand",
+      "interconnection backlog"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
