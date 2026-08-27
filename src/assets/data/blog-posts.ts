@@ -2875,6 +2875,25 @@ export const blogPosts: BlogPost[] = [
       "cloud infrastructure lease"
     ],
   }),
+  createPost({
+    id: 199,
+    slug: "climeworks-ai-carbon-removal-whitepaper",
+    title: "Climeworks Urges Carbon Removal Inclusion in Rapid AI Infrastructure Expansion",
+    description: "A new whitepaper from Climeworks Solutions outlines strategic pathways for data center developers and hyperscalers to integrate carbon removal into AI infrastructure planning.",
+    imageAlt: "Digital representation of carbon removal technology and AI data center energy infrastructure",
+    publishedOn: "2026-08-26",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Climeworks Solutions",
+      "carbon removal",
+      "AI data centers",
+      "embodied emissions",
+      "hyperscalers",
+      "sustainability"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
