@@ -1781,6 +1781,15 @@
       "published_on": "2026-08-26",
       "primary_entity": "Climeworks Solutions",
       "event_fingerprint": "climeworks-ai-carbon-removal-whitepaper"
+    },
+    {
+      "canonical_url": "https://www.wired.com/story/uk-data-centers-logjam-ofgem-regulations/",
+      "normalized_url": "https://www.wired.com/story/uk-data-centers-logjam-ofgem-regulations",
+      "title": "The UK Power Grid Has a Phantom Data Center Problem",
+      "normalized_title": "the uk power grid has a phantom data center problem",
+      "published_on": "2026-08-27",
+      "primary_entity": "Ofgem",
+      "event_fingerprint": "uk-phantom-datacenter-grid-queue-reforms"
     }
   ],
   "version": 2,
