@@ -1772,6 +1772,15 @@
       "published_on": "2026-08-26",
       "primary_entity": "Anthropic / Nscale",
       "event_fingerprint": "anthropic-nscale-45b-compute-deal"
+    },
+    {
+      "canonical_url": "https://climeworks.com/press-release/climeworks-solutions-calls-for-carbon-removal-in-ai-buildout",
+      "normalized_url": "https://climeworks.com/press-release/climeworks-solutions-calls-for-carbon-removal-in-ai-buildout",
+      "title": "Climeworks Solutions calls for carbon removal in AI buildout",
+      "normalized_title": "climeworks solutions calls for carbon removal in ai buildout",
+      "published_on": "2026-08-26",
+      "primary_entity": "Climeworks Solutions",
+      "event_fingerprint": "climeworks-ai-carbon-removal-whitepaper"
     }
   ],
   "version": 2,
