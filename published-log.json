@@ -1799,6 +1799,15 @@
       "published_on": "2026-08-28",
       "primary_entity": "OpenAI / Georgia Power",
       "event_fingerprint": "openai-georgia-power-3-2gw-contract"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/uk-green-party-calls-for-nationwide-data-center-moratorium/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/uk-green-party-calls-for-nationwide-data-center-moratorium",
+      "title": "UK Green Party calls for nationwide data center moratorium",
+      "normalized_title": "uk green party calls for nationwide data center moratorium",
+      "published_on": "2026-08-28",
+      "primary_entity": "UK Green Party",
+      "event_fingerprint": "uk-green-party-data-center-moratorium"
     }
   ],
   "version": 2,

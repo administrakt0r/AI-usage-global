@@ -2933,6 +2933,25 @@ export const blogPosts: BlogPost[] = [
       "closed-loop cooling"
     ],
   }),
+  createPost({
+    id: 202,
+    slug: "uk-green-party-calls-for-nationwide-data-center-moratorium",
+    title: "UK Green Party Calls for Nationwide Data Center Moratorium",
+    description: "The UK Green Party calls for an immediate moratorium on new commercial hyperscale data center construction to protect grid stability and carbon targets.",
+    imageAlt: "Digital representation of power grid transmission lines and data center infrastructure in the UK",
+    publishedOn: "2026-08-28",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "UK Green Party",
+      "data center moratorium",
+      "UK power grid",
+      "AI energy demand",
+      "grid capacity",
+      "ratepayer protection"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
