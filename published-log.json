@@ -1790,6 +1790,15 @@
       "published_on": "2026-08-27",
       "primary_entity": "Ofgem",
       "event_fingerprint": "uk-phantom-datacenter-grid-queue-reforms"
+    },
+    {
+      "canonical_url": "https://www.cbsnews.com/atlanta/news/georgia-power-gets-clearance-to-serve-openais-massive-ai-data-center-in-effingham-county/",
+      "normalized_url": "https://www.cbsnews.com/atlanta/news/georgia-power-gets-clearance-to-serve-openais-massive-ai-data-center-in-effingham-county",
+      "title": "Georgia Power gets clearance to serve OpenAI's massive AI data center in Effingham County",
+      "normalized_title": "georgia power gets clearance to serve openais massive ai data center in effingham county",
+      "published_on": "2026-08-28",
+      "primary_entity": "OpenAI / Georgia Power",
+      "event_fingerprint": "openai-georgia-power-3-2gw-contract"
     }
   ],
   "version": 2,
