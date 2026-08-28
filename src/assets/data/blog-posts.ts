@@ -2913,6 +2913,26 @@ export const blogPosts: BlogPost[] = [
       "interconnection backlog"
     ],
   }),
+  createPost({
+    id: 201,
+    slug: "openai-georgia-power-3-2gw-contract",
+    title: "Georgia Power Cleared for 3.2 GW OpenAI Data Center Deal",
+    description: "Georgia Power receives regulatory approval to supply up to 3,200 MW of electricity for OpenAI's $20B Project Camellia data center campus in Effingham County.",
+    imageAlt: "Power grid transmission infrastructure serving a hyperscale AI data center campus in Georgia",
+    publishedOn: "2026-08-28",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "OpenAI",
+      "Georgia Power",
+      "Project Camellia",
+      "3.2 GW data center",
+      "demand response",
+      "ratepayer protection",
+      "closed-loop cooling"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
