@@ -2971,6 +2971,26 @@ export const blogPosts: BlogPost[] = [
       "community oversight"
     ],
   }),
+  createPost({
+    id: 204,
+    slug: "lambda-secures-1b-debt-for-nvidia-chips",
+    title: "Neocloud Lambda Secures $1 Billion Debt Deal for Nvidia Chips",
+    description: "Neocloud provider Lambda secures $1 billion in private debt arranged by JPMorgan Chase to acquire Nvidia AI chips for leasing to Microsoft, highlighting rising AI compute costs.",
+    imageAlt: "High-density GPU server rack in a modern data center",
+    publishedOn: "2026-08-28",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Lambda",
+      "Nvidia",
+      "Microsoft",
+      "AI debt financing",
+      "GPU leasing",
+      "compute costs",
+      "private credit"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
