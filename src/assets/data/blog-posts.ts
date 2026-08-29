@@ -2952,6 +2952,25 @@ export const blogPosts: BlogPost[] = [
       "ratepayer protection"
     ],
   }),
+  createPost({
+    id: 203,
+    slug: "ro-khanna-data-center-bill-of-rights",
+    title: "Rep. Khanna Introduces Data Center Bill of Rights",
+    description: "Congressman Ro Khanna introduces a federal Data Center Bill of Rights resolution to give local communities authority over AI data center construction, water use, and utility rates.",
+    imageAlt: "Digital representation of federal legislative resolution and community oversight for AI data centers",
+    publishedOn: "2026-08-28",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Ro Khanna",
+      "Data Center Bill of Rights",
+      "AI data center regulation",
+      "water protection",
+      "ratepayer protection",
+      "community oversight"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
