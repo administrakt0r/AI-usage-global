@@ -1817,6 +1817,15 @@
       "published_on": "2026-08-28",
       "primary_entity": "Congressman Ro Khanna",
       "event_fingerprint": "ro-khanna-data-center-bill-of-rights"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+      "normalized_url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips",
+      "title": "Neocloud Lambda secures $1B in debt to buy more chips",
+      "normalized_title": "neocloud lambda secures 1b in debt to buy more chips",
+      "published_on": "2026-08-28",
+      "primary_entity": "Lambda",
+      "event_fingerprint": "lambda-1b-private-debt-nvidia-chips"
     }
   ],
   "version": 2,
