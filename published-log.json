@@ -1808,6 +1808,15 @@
       "published_on": "2026-08-28",
       "primary_entity": "UK Green Party",
       "event_fingerprint": "uk-green-party-data-center-moratorium"
+    },
+    {
+      "canonical_url": "https://khanna.house.gov/media/press-releases/release-rep-khanna-introduces-data-center-bill-rights",
+      "normalized_url": "https://khanna.house.gov/media/press-releases/release-rep-khanna-introduces-data-center-bill-rights",
+      "title": "Rep. Khanna Introduces Data Center Bill of Rights",
+      "normalized_title": "rep khanna introduces data center bill of rights",
+      "published_on": "2026-08-28",
+      "primary_entity": "Congressman Ro Khanna",
+      "event_fingerprint": "ro-khanna-data-center-bill-of-rights"
     }
   ],
   "version": 2,
