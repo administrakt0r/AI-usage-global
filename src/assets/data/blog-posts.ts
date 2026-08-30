@@ -2991,6 +2991,26 @@ export const blogPosts: BlogPost[] = [
       "private credit"
     ],
   }),
+  createPost({
+    id: 205,
+    slug: "pjm-market-monitor-data-center-wholesale-costs",
+    title: "Data center load made up 9% of PJM wholesale costs so far in 2026: market monitor",
+    description: "Existing and forecast data center load made up 9% ($10.48/MWh) of PJM wholesale electricity prices, driving a cumulative $29.4 billion capacity market revenue increase.",
+    imageAlt: "Digital representation of high-voltage transmission lines and data center power grid infrastructure",
+    publishedOn: "2026-08-29",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "PJM Interconnection",
+      "Monitoring Analytics",
+      "data center capacity costs",
+      "wholesale electricity prices",
+      "grid capacity market",
+      "ratepayer protection",
+      "AI energy demand"
+    ],
+  }),
 ];
 
 const assertUniqueField = (

@@ -1826,6 +1826,15 @@
       "published_on": "2026-08-28",
       "primary_entity": "Lambda",
       "event_fingerprint": "lambda-1b-private-debt-nvidia-chips"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/data-center-load-pjm-wholesale-market/828917/",
+      "normalized_url": "https://www.utilitydive.com/news/data-center-load-pjm-wholesale-market/828917",
+      "title": "Data center load made up 9% of PJM wholesale costs so far in 2026: market monitor",
+      "normalized_title": "data center load made up 9 of pjm wholesale costs so far in 2026 market monitor",
+      "published_on": "2026-08-29",
+      "primary_entity": "Monitoring Analytics / PJM Interconnection",
+      "event_fingerprint": "pjm-market-monitor-datacenter-wholesale-costs"
     }
   ],
   "version": 2,
