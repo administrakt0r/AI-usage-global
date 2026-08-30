@@ -1835,6 +1835,15 @@
       "published_on": "2026-08-29",
       "primary_entity": "Monitoring Analytics / PJM Interconnection",
       "event_fingerprint": "pjm-market-monitor-datacenter-wholesale-costs"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/",
+      "normalized_url": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem",
+      "title": "Musk’s faster path to more gas turbines comes with pollution problem",
+      "normalized_title": "musks faster path to more gas turbines comes with pollution problem",
+      "published_on": "2026-08-30",
+      "primary_entity": "SpaceX",
+      "event_fingerprint": "spacex-bastrop-gas-turbine-foundry"
     }
   ],
   "version": 2,

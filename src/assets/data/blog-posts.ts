@@ -3011,6 +3011,26 @@ export const blogPosts: BlogPost[] = [
       "AI energy demand"
     ],
   }),
+  createPost({
+    id: 206,
+    slug: "spacex-bastrop-foundry-gas-turbine-blades",
+    title: "SpaceX Builds Texas Foundry to Accelerate AI Gas Turbines",
+    description: "SpaceX constructs a turbine blade foundry in Bastrop, Texas, aiming to bypass global manufacturing bottlenecks and cut gas turbine deployment times for AI data centers by up to 18 months.",
+    imageAlt: "Digital representation of gas turbine blade manufacturing and power infrastructure for AI data centers",
+    publishedOn: "2026-08-30",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "SpaceX",
+      "Bastrop foundry",
+      "gas turbine blades",
+      "AI power demand",
+      "behind-the-meter generation",
+      "GE Vernova",
+      "air pollution"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
