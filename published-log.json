@@ -1844,6 +1844,15 @@
       "published_on": "2026-08-30",
       "primary_entity": "SpaceX",
       "event_fingerprint": "spacex-bastrop-gas-turbine-foundry"
+    },
+    {
+      "canonical_url": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
+      "normalized_url": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers",
+      "title": "Inside Meta’s push to put robots to work in data centers",
+      "normalized_title": "inside metas push to put robots to work in data centers",
+      "published_on": "2026-08-30",
+      "primary_entity": "Meta",
+      "event_fingerprint": "meta-data-center-robotics-automation"
     }
   ],
   "version": 2,

@@ -3031,6 +3031,26 @@ export const blogPosts: BlogPost[] = [
       "air pollution"
     ],
   }),
+  createPost({
+    id: 207,
+    slug: "meta-data-center-robotics-automation",
+    title: "Meta Tests Data Center Robotics to Cut AI Infrastructure Costs",
+    description: "Meta is testing autonomous robots from Kinova, ABB, and Watney Robotics across hyperscale data centers to automate server maintenance and reduce operational costs.",
+    imageAlt: "Digital representation of robotic arms servicing AI data center server racks",
+    publishedOn: "2026-08-30",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Meta",
+      "data center robotics",
+      "AI infrastructure costs",
+      "server maintenance",
+      "Kinova Gen3",
+      "Watney Robotics",
+      "ABB robotics"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
