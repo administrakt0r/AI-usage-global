@@ -3051,6 +3051,25 @@ export const blogPosts: BlogPost[] = [
       "ABB robotics"
     ],
   }),
+  createPost({
+    id: 208,
+    slug: "nvidia-mediatek-3-5b-custom-chip-deal",
+    title: "Nvidia Bets $3.5 Billion on MediaTek for AI Data Center Chips",
+    description: "Nvidia invests $3.5 billion in MediaTek to help cloud providers integrate custom AI chips into Nvidia data center rack architecture.",
+    imageAlt: "Semiconductor wafer and high-density data center compute server racks",
+    publishedOn: "2026-08-31",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Nvidia",
+      "MediaTek",
+      "custom AI chips",
+      "data center ASICs",
+      "compute costs",
+      "hyperscaler silicon"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
