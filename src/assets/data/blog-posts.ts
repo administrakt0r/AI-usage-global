@@ -3070,6 +3070,26 @@ export const blogPosts: BlogPost[] = [
       "hyperscaler silicon"
     ],
   }),
+  createPost({
+    id: 209,
+    slug: "slb-kelvion-4-1b-thermal-management-deal",
+    title: "SLB’s $4.1B Kelvion Deal Expands AI Data Center Push",
+    description: "SLB acquires Kelvion for $4.1 billion to expand its AI data center thermal management and cooling capabilities as GPU power densities surge.",
+    imageAlt: "Digital representation of industrial heat exchangers and AI data center cooling infrastructure",
+    publishedOn: "2026-09-01",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "SLB",
+      "Kelvion",
+      "AI data center cooling",
+      "thermal management",
+      "GPU power density",
+      "liquid cooling",
+      "heat rejection"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
