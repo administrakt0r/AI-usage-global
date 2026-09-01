@@ -3090,6 +3090,26 @@ export const blogPosts: BlogPost[] = [
       "heat rejection"
     ],
   }),
+  createPost({
+    id: 210,
+    slug: "one-nuclear-louisiana-288gw-gas-datacenter",
+    title: "ONE Nuclear Unveils 2.88 GW Gas Plant for Louisiana AI Campus",
+    description: "ONE Nuclear executes a binding LOI for Project Cayman, pairing a 2.88 GW natural gas plant and 700 MW battery system with a co-located AI data center in Louisiana.",
+    imageAlt: "Digital representation of a natural gas power plant and co-located AI data center campus in Louisiana",
+    publishedOn: "2026-09-01",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "ONE Nuclear",
+      "Project Cayman",
+      "Louisiana AI data center",
+      "gas-powered AI campus",
+      "Ascension Parish",
+      "behind-the-meter generation",
+      "battery energy storage"
+    ],
+  }),
 ];
 
 const assertUniqueField = (

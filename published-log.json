@@ -1871,6 +1871,15 @@
       "published_on": "2026-09-01",
       "primary_entity": "SLB / Kelvion",
       "event_fingerprint": "slb-kelvion-4-1b-thermal-management-deal"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/one-nuclear-inks-binding-loi-to-develop-288gw-gas-plant-and-bess-to-power-data-center-in-louisiana/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/one-nuclear-inks-binding-loi-to-develop-288gw-gas-plant-and-bess-to-power-data-center-in-louisiana",
+      "title": "One Nuclear inks binding LOI to develop 2.88GW gas plant and BESS to power data center in Louisiana",
+      "normalized_title": "one nuclear inks binding loi to develop 2 88gw gas plant and bess to power data center in louisiana",
+      "published_on": "2026-09-01",
+      "primary_entity": "ONE Nuclear Energy",
+      "event_fingerprint": "one-nuclear-louisiana-288gw-gas-datacenter"
     }
   ],
   "version": 2,
