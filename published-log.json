@@ -1862,6 +1862,15 @@
       "published_on": "2026-08-31",
       "primary_entity": "Nvidia / MediaTek",
       "event_fingerprint": "nvidia-mediatek-3-5b-custom-chip-deal"
+    },
+    {
+      "canonical_url": "https://www.datacenterknowledge.com/energy-power-supply/slb-s-4-1b-kelvion-deal-expands-ai-data-center-push",
+      "normalized_url": "https://www.datacenterknowledge.com/energy-power-supply/slb-s-4-1b-kelvion-deal-expands-ai-data-center-push",
+      "title": "SLB’s $4.1B Kelvion Deal Expands AI Data Center Push",
+      "normalized_title": "slbs 4 1b kelvion deal expands ai data center push",
+      "published_on": "2026-09-01",
+      "primary_entity": "SLB / Kelvion",
+      "event_fingerprint": "slb-kelvion-4-1b-thermal-management-deal"
     }
   ],
   "version": 2,
