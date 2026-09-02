@@ -3110,6 +3110,25 @@ export const blogPosts: BlogPost[] = [
       "battery energy storage"
     ],
   }),
+  createPost({
+    id: 211,
+    slug: "constructconnect-september-2026-data-center-report",
+    title: "September 2026 Data Center Report: Year-to-Date Spending Nearly Three Times a Year Ago",
+    description: "ConstructConnect report reveals U.S. data center construction starts reached $84.1B through July 2026 as average project costs jumped 57% per square foot.",
+    imageAlt: "Digital representation of data center construction spending and cost per square foot metrics",
+    publishedOn: "2026-08-28",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "ConstructConnect",
+      "data center construction",
+      "construction starts",
+      "cost per square foot",
+      "AI infrastructure",
+      "power infrastructure"
+    ],
+  }),
 ];
 
 const assertUniqueField = (

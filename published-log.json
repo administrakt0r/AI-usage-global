@@ -1880,6 +1880,15 @@
       "published_on": "2026-09-01",
       "primary_entity": "ONE Nuclear Energy",
       "event_fingerprint": "one-nuclear-louisiana-288gw-gas-datacenter"
+    },
+    {
+      "canonical_url": "https://news.constructconnect.com/september-2026-data-center-report-year-to-date-spending-nearly-three-times-a-year-ago",
+      "normalized_url": "https://news.constructconnect.com/september-2026-data-center-report-year-to-date-spending-nearly-three-times-a-year-ago",
+      "title": "September 2026 Data Center Report: Year-to-Date Spending Nearly Three Times a Year Ago",
+      "normalized_title": "september 2026 data center report year to date spending nearly three times a year ago",
+      "published_on": "2026-08-28",
+      "primary_entity": "ConstructConnect",
+      "event_fingerprint": "constructconnect-september-2026-data-center-report"
     }
   ],
   "version": 2,
