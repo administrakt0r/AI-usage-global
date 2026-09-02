@@ -1889,6 +1889,15 @@
       "published_on": "2026-08-28",
       "primary_entity": "ConstructConnect",
       "event_fingerprint": "constructconnect-september-2026-data-center-report"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/google-inks-396mw-geothermal-ppa-with-fervo-in-utah/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/google-inks-396mw-geothermal-ppa-with-fervo-in-utah",
+      "title": "Google inks 396MW geothermal PPA with Fervo in Utah",
+      "normalized_title": "google inks 396mw geothermal ppa with fervo in utah",
+      "published_on": "2026-09-02",
+      "primary_entity": "Google / Fervo Energy",
+      "event_fingerprint": "google-fervo-396mw-geothermal-ppa"
     }
   ],
   "version": 2,

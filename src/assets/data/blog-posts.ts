@@ -3129,6 +3129,26 @@ export const blogPosts: BlogPost[] = [
       "power infrastructure"
     ],
   }),
+  createPost({
+    id: 212,
+    slug: "google-fervo-396mw-geothermal-ppa",
+    title: "Google Inks 396 MW Geothermal Power Deal for Utah AI Campus",
+    description: "Google contracts up to 396 MW of enhanced geothermal power from Fervo Energy's Cape Station in Utah, with an option to expand to nearly 1 GW by 2030.",
+    imageAlt: "Digital representation of geothermal energy production and data center power infrastructure in Utah",
+    publishedOn: "2026-09-02",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Google",
+      "Fervo Energy",
+      "geothermal power PPA",
+      "Utah data center",
+      "Cape Station",
+      "carbon-free energy",
+      "AI power demand"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
