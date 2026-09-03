@@ -3149,6 +3149,25 @@ export const blogPosts: BlogPost[] = [
       "AI power demand"
     ],
   }),
+  createPost({
+    id: 213,
+    slug: "vertiv-acquires-utilityinnovation-microgrid-deal",
+    title: "Vertiv Acquires Microgrid Solutions Provider UtilityInnovation Group",
+    description: "Vertiv agrees to acquire UtilityInnovation Group to expand behind-the-meter power and microgrid capabilities for AI data centers facing grid constraints.",
+    imageAlt: "Digital representation of microgrid power infrastructure and AI data center energy management",
+    publishedOn: "2026-09-02",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Vertiv",
+      "UtilityInnovation Group",
+      "microgrid AI data centers",
+      "behind-the-meter power",
+      "data center power grid",
+      "speed to power"
+    ],
+  }),
 ];
 
 const assertUniqueField = (

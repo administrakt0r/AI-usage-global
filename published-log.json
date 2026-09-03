@@ -1898,6 +1898,15 @@
       "published_on": "2026-09-02",
       "primary_entity": "Google / Fervo Energy",
       "event_fingerprint": "google-fervo-396mw-geothermal-ppa"
+    },
+    {
+      "canonical_url": "https://www.microgridknowledge.com/microgrids/datacenter/news/55402609/vertiv-acquires-microgrid-solutions-provider-in-multi-billion-dollar-deal",
+      "normalized_url": "https://www.microgridknowledge.com/microgrids/datacenter/news/55402609/vertiv-acquires-microgrid-solutions-provider-in-multi-billion-dollar-deal",
+      "title": "Vertiv Acquires Microgrid Solutions Provider UtilityInnovation Group",
+      "normalized_title": "vertiv acquires microgrid solutions provider utilityinnovation group",
+      "published_on": "2026-09-02",
+      "primary_entity": "Vertiv / UtilityInnovation Group",
+      "event_fingerprint": "vertiv-utilityinnovation-acquisition"
     }
   ],
   "version": 2,
