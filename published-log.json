@@ -1839,7 +1839,7 @@
     {
       "canonical_url": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/",
       "normalized_url": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem",
-      "title": "Musk’s faster path to more gas turbines comes with pollution problem",
+      "title": "Musk\u2019s faster path to more gas turbines comes with pollution problem",
       "normalized_title": "musks faster path to more gas turbines comes with pollution problem",
       "published_on": "2026-08-30",
       "primary_entity": "SpaceX",
@@ -1848,7 +1848,7 @@
     {
       "canonical_url": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/",
       "normalized_url": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers",
-      "title": "Inside Meta’s push to put robots to work in data centers",
+      "title": "Inside Meta\u2019s push to put robots to work in data centers",
       "normalized_title": "inside metas push to put robots to work in data centers",
       "published_on": "2026-08-30",
       "primary_entity": "Meta",
@@ -1857,7 +1857,7 @@
     {
       "canonical_url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/",
       "normalized_url": "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout",
-      "title": "Nvidia’s $3.5B MediaTek bet reveals its plan for tackling Big Tech’s AI chip buildout",
+      "title": "Nvidia\u2019s $3.5B MediaTek bet reveals its plan for tackling Big Tech\u2019s AI chip buildout",
       "normalized_title": "nvidias 3 5b mediatek bet reveals its plan for tackling big techs ai chip buildout",
       "published_on": "2026-08-31",
       "primary_entity": "Nvidia / MediaTek",
@@ -1866,7 +1866,7 @@
     {
       "canonical_url": "https://www.datacenterknowledge.com/energy-power-supply/slb-s-4-1b-kelvion-deal-expands-ai-data-center-push",
       "normalized_url": "https://www.datacenterknowledge.com/energy-power-supply/slb-s-4-1b-kelvion-deal-expands-ai-data-center-push",
-      "title": "SLB’s $4.1B Kelvion Deal Expands AI Data Center Push",
+      "title": "SLB\u2019s $4.1B Kelvion Deal Expands AI Data Center Push",
       "normalized_title": "slbs 4 1b kelvion deal expands ai data center push",
       "published_on": "2026-09-01",
       "primary_entity": "SLB / Kelvion",
@@ -1907,6 +1907,15 @@
       "published_on": "2026-09-02",
       "primary_entity": "Vertiv / UtilityInnovation Group",
       "event_fingerprint": "vertiv-utilityinnovation-acquisition"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/california-lawmakers-pass-data-center-ratepayer-protection-bills-send-to-governor-for-approval/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/california-lawmakers-pass-data-center-ratepayer-protection-bills-send-to-governor-for-approval",
+      "title": "California Lawmakers Pass AI Data Center Ratepayer Protection Bills",
+      "normalized_title": "california lawmakers pass ai data center ratepayer protection bills",
+      "published_on": "2026-09-03",
+      "primary_entity": "California State Legislature",
+      "event_fingerprint": "california-sb886-ab2383-ratepayer-protection-pass"
     }
   ],
   "version": 2,

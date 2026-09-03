@@ -3168,6 +3168,25 @@ export const blogPosts: BlogPost[] = [
       "speed to power"
     ],
   }),
+  createPost({
+    id: 214,
+    slug: "california-passes-ai-datacenter-ratepayer-protection-bills",
+    title: "California Lawmakers Pass AI Data Center Ratepayer Protection Bills",
+    description: "California legislature approves SB 886 and AB 2383 to mandate separate utility tariffs for 75 MW+ AI data centers, insulating households from power infrastructure costs.",
+    imageAlt: "Digital representation of California power grid transmission lines and AI data center energy management",
+    publishedOn: "2026-09-03",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "California data centers",
+      "SB 886",
+      "AB 2383",
+      "ratepayer protection",
+      "electricity tariffs",
+      "grid cost allocation",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
