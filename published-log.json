@@ -1925,6 +1925,15 @@
       "published_on": "2026-09-03",
       "primary_entity": "Bitdeer Technologies Group",
       "event_fingerprint": "bitdeer-texas-milam-county-land-acquisition"
+    },
+    {
+      "canonical_url": "https://capacityglobal.com/news/ai-capex-set-to-hit-31-6tn-by-2050-as-chips-overtake-concrete/",
+      "normalized_url": "https://capacityglobal.com/news/ai-capex-set-to-hit-31-6tn-by-2050-as-chips-overtake-concrete",
+      "title": "AI capex set to hit $31.6tn by 2050 as chips overtake concrete",
+      "normalized_title": "ai capex set to hit 31 6tn by 2050 as chips overtake concrete",
+      "published_on": "2026-09-04",
+      "primary_entity": "PwC",
+      "event_fingerprint": "pwc-31-6t-ai-infrastructure-capex-forecast"
     }
   ],
   "version": 2,
