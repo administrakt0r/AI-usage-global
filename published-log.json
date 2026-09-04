@@ -1916,6 +1916,15 @@
       "published_on": "2026-09-03",
       "primary_entity": "California State Legislature",
       "event_fingerprint": "california-sb886-ab2383-ratepayer-protection-pass"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/bitdeer-buys-200-acres-in-milam-county-texas-to-expand-ai-and-hpc-data-center/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/bitdeer-buys-200-acres-in-milam-county-texas-to-expand-ai-and-hpc-data-center",
+      "title": "Bitdeer buys 200 acres in Milam County, Texas, to expand AI and HPC data center",
+      "normalized_title": "bitdeer buys 200 acres in milam county texas to expand ai and hpc data center",
+      "published_on": "2026-09-03",
+      "primary_entity": "Bitdeer Technologies Group",
+      "event_fingerprint": "bitdeer-texas-milam-county-land-acquisition"
     }
   ],
   "version": 2,
