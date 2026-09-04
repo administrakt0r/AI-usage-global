@@ -3206,6 +3206,25 @@ export const blogPosts: BlogPost[] = [
       "water supply",
     ],
   }),
+  createPost({
+    id: 216,
+    slug: "pwc-31-6-trillion-global-ai-data-center-capex",
+    title: "PwC Forecasts $31.6 Trillion Global AI Data Center Capex",
+    description: "PwC forecasts cumulative global data center capex to reach $31.6 trillion by 2050, driven by recurring GPU hardware refresh cycles and power grid availability.",
+    imageAlt: "Digital representation of global data center capital expenditure and AI hardware infrastructure",
+    publishedOn: "2026-09-04",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "PwC",
+      "data center capex",
+      "AI infrastructure spending",
+      "GPU refresh cycle",
+      "power grid constraints",
+      "ICT hardware investment"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
