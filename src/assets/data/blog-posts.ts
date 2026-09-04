@@ -3187,6 +3187,25 @@ export const blogPosts: BlogPost[] = [
       "grid cost allocation",
     ],
   }),
+  createPost({
+    id: 215,
+    slug: "bitdeer-texas-milam-county-land-acquisition",
+    title: "Bitdeer buys 200 acres in Milam County, Texas, to expand AI and HPC data center",
+    description: "Bitdeer acquires 200 acres in Milam County, Texas, near its Rockdale site to expand AI and HPC data center infrastructure backed by 563 MW of interconnected power.",
+    imageAlt: "Digital representation of power grid infrastructure and data center land acquisition in Texas",
+    publishedOn: "2026-09-03",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Bitdeer",
+      "Milam County",
+      "Rockdale data center",
+      "Texas AI infrastructure",
+      "interconnected power capacity",
+      "water supply",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
