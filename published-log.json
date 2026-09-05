@@ -1934,6 +1934,15 @@
       "published_on": "2026-09-04",
       "primary_entity": "PwC",
       "event_fingerprint": "pwc-31-6t-ai-infrastructure-capex-forecast"
+    },
+    {
+      "canonical_url": "https://spacedaily.com/t-ai-data-centre-emissions-us-solar-buildout-natural-gas/",
+      "normalized_url": "https://spacedaily.com/t-ai-data-centre-emissions-us-solar-buildout-natural-gas",
+      "title": "The AI boom is pushing data-centre emissions higher while simultaneously accelerating America's solar buildout",
+      "normalized_title": "the ai boom is pushing data centre emissions higher while simultaneously accelerating americas solar buildout",
+      "published_on": "2026-09-04",
+      "primary_entity": "International Energy Agency",
+      "event_fingerprint": "iea-ai-solar-gas-emissions-dual-impact"
     }
   ],
   "version": 2,
