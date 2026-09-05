@@ -3225,6 +3225,25 @@ export const blogPosts: BlogPost[] = [
       "ICT hardware investment"
     ],
   }),
+  createPost({
+    id: 217,
+    slug: "iea-ai-solar-gas-emissions-dual-impact",
+    title: "The AI Boom Is Accelerating US Solar Buildout While Raising Data Center Emissions",
+    description: "IEA projections show AI data centers will drive nearly 50% of US electricity demand growth through 2030, funding solar expansion while increasing reliance on natural gas power.",
+    imageAlt: "Solar panels alongside electrical power grid infrastructure supplying an AI data center campus",
+    publishedOn: "2026-09-04",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "IEA",
+      "AI electricity demand",
+      "data center emissions",
+      "solar power buildout",
+      "natural gas power",
+      "grid capacity"
+    ],
+  }),
 ];
 
 const assertUniqueField = (
