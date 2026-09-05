@@ -3244,6 +3244,27 @@ export const blogPosts: BlogPost[] = [
       "grid capacity"
     ],
   }),
+  createPost({
+    id: 218,
+    slug: "nscale-figure-3-5b-ai-compute-deal",
+    title: "Nscale and Figure Ink $3.5B Compute Deal for AI Robotics",
+    description:
+      "Figure AI signs a $3.5 billion compute deal with Nscale for up to 100,000 Nvidia Vera Rubin GPUs in Texas to power physical AI models.",
+    imageAlt: "Digital representation of high-density AI compute servers and humanoid robotics infrastructure",
+    publishedOn: "2026-09-05",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Nscale",
+      "Figure AI",
+      "Nvidia Vera Rubin",
+      "AI compute deal",
+      "robotics compute",
+      "Barstow Texas data center",
+      "compute costs",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

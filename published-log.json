@@ -1943,6 +1943,15 @@
       "published_on": "2026-09-04",
       "primary_entity": "International Energy Agency",
       "event_fingerprint": "iea-ai-solar-gas-emissions-dual-impact"
+    },
+    {
+      "canonical_url": "https://www.unite.ai/nscale-figure-ink-3-5b-deal-for-up-to-100000-vera-rubin-gpus/",
+      "normalized_url": "https://www.unite.ai/nscale-figure-ink-3-5b-deal-for-up-to-100000-vera-rubin-gpus",
+      "title": "Nscale, Figure Ink $3.5B Deal for Up to 100,000 Vera Rubin GPUs",
+      "normalized_title": "nscale figure ink 3 5b deal for up to 100 000 vera rubin gpus",
+      "published_on": "2026-09-05",
+      "primary_entity": "Nscale / Figure",
+      "event_fingerprint": "nscale-figure-3-5b-compute-deal"
     }
   ],
   "version": 2,
