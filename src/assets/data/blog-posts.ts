@@ -3265,6 +3265,26 @@ export const blogPosts: BlogPost[] = [
       "compute costs",
     ],
   }),
+  createPost({
+    id: 219,
+    slug: "meta-kuna-idaho-datacenter-launch",
+    title: "Meta's $1.2bn data center in Kuna, Idaho, goes live",
+    description:
+      "Meta officially opens its $1.2 billion AI-optimized data center in Kuna, Idaho, featuring a 750,000-square-foot footprint and closed-loop liquid cooling.",
+    imageAlt: "Aerial view of Meta's $1.2 billion data center facility in Kuna, Idaho",
+    publishedOn: "2026-09-06",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Meta",
+      "Kuna Idaho data center",
+      "closed-loop cooling",
+      "AI infrastructure",
+      "water efficiency",
+      "liquid cooling",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
