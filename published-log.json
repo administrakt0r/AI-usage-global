@@ -1952,6 +1952,15 @@
       "published_on": "2026-09-05",
       "primary_entity": "Nscale / Figure",
       "event_fingerprint": "nscale-figure-3-5b-compute-deal"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/metas-12bn-data-center-in-kuna-idaho-goes-live/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/metas-12bn-data-center-in-kuna-idaho-goes-live",
+      "title": "Meta's $1.2bn data center in Kuna, Idaho, goes live",
+      "normalized_title": "metas 1 2bn data center in kuna idaho goes live",
+      "published_on": "2026-09-06",
+      "primary_entity": "Meta",
+      "event_fingerprint": "meta-kuna-idaho-datacenter-launch"
     }
   ],
   "version": 2,
