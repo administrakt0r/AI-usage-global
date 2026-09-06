@@ -3285,6 +3285,26 @@ export const blogPosts: BlogPost[] = [
       "liquid cooling",
     ],
   }),
+  createPost({
+    id: 220,
+    slug: "nscale-3-5b-pre-ipo-financing",
+    title: "Nscale Seeks $3.5 Billion in Pre-IPO Capital for AI Compute",
+    description:
+      "AI cloud provider Nscale seeks $3.5 billion in convertible debt and Nvidia backing to fund hyperscale compute hardware and data center infrastructure.",
+    imageAlt: "Digital representation of hyperscale AI compute infrastructure and data center capital financing",
+    publishedOn: "2026-09-06",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Nscale",
+      "Nvidia",
+      "pre-IPO financing",
+      "AI compute cost",
+      "Anthropic deal",
+      "data center capital",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

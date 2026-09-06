@@ -1961,6 +1961,15 @@
       "published_on": "2026-09-06",
       "primary_entity": "Meta",
       "event_fingerprint": "meta-kuna-idaho-datacenter-launch"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+      "normalized_url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing",
+      "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+      "normalized_title": "ai compute provider nscale is looking for 3 5b in pre ipo financing",
+      "published_on": "2026-09-06",
+      "primary_entity": "Nscale",
+      "event_fingerprint": "nscale-3-5b-pre-ipo-financing"
     }
   ],
   "version": 2,
