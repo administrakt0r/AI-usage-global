@@ -1979,6 +1979,15 @@
       "published_on": "2026-09-07",
       "primary_entity": "Government of Thailand",
       "event_fingerprint": "thailand-data-center-construction-pause"
+    },
+    {
+      "canonical_url": "https://www.datacenterknowledge.com/energy-power-supply/flex-pays-4-4b-for-epc-power-as-ai-data-centers-push-800v-architecture",
+      "normalized_url": "https://www.datacenterknowledge.com/energy-power-supply/flex-pays-4-4b-for-epc-power-as-ai-data-centers-push-800v-architecture",
+      "title": "Flex Pays $4.4B for EPC Power as AI Data Centers Push 800V DC",
+      "normalized_title": "flex pays 4 4b for epc power as ai data centers push 800v dc",
+      "published_on": "2026-09-07",
+      "primary_entity": "Flex / EPC Power",
+      "event_fingerprint": "flex-epc-power-4-4b-acquisition"
     }
   ],
   "version": 2,

@@ -3325,6 +3325,25 @@ export const blogPosts: BlogPost[] = [
       "ratepayer protection",
     ],
   }),
+  createPost({
+    id: 222,
+    slug: "flex-acquires-epc-power-in-4-4b-ai-infrastructure-deal",
+    title: "Flex Acquires EPC Power for $4.4B to Drive 800V DC AI Racks",
+    description: "Flex acquires EPC Power for $4.4 billion to integrate 800V DC power architectures and grid-forming conversion systems for high-density AI data centers.",
+    imageAlt: "Digital representation of high-voltage power conversion systems and AI server racks",
+    publishedOn: "2026-09-07",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Flex",
+      "EPC Power",
+      "800V DC",
+      "grid-forming conversion",
+      "AI power infrastructure",
+      "data center power delivery",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
