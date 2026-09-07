@@ -3305,6 +3305,26 @@ export const blogPosts: BlogPost[] = [
       "data center capital",
     ],
   }),
+  createPost({
+    id: 221,
+    slug: "thailand-pauses-construction-on-49-data-centers",
+    title: "Thailand pauses construction on 49 data centers, as it plans new regulations",
+    description:
+      "Thailand halts construction on 49 data centers due to growing concerns over power consumption, grid stability, and local community impacts.",
+    imageAlt: "Digital representation of a data center moratorium and power grid infrastructure in Thailand",
+    publishedOn: "2026-09-07",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Thailand data centers",
+      "data center moratorium",
+      "AI power demand",
+      "grid stability",
+      "community impacts",
+      "ratepayer protection",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
