@@ -1970,6 +1970,15 @@
       "published_on": "2026-09-06",
       "primary_entity": "Nscale",
       "event_fingerprint": "nscale-3-5b-pre-ipo-financing"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/thailand-pauses-construction-on-49-data-centers-as-it-plans-new-regulations/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/thailand-pauses-construction-on-49-data-centers-as-it-plans-new-regulations",
+      "title": "Thailand pauses construction on 49 data centers, as it plans new regulations",
+      "normalized_title": "thailand pauses construction on 49 data centers as it plans new regulations",
+      "published_on": "2026-09-07",
+      "primary_entity": "Government of Thailand",
+      "event_fingerprint": "thailand-data-center-construction-pause"
     }
   ],
   "version": 2,
