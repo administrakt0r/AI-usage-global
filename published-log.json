@@ -1988,6 +1988,15 @@
       "published_on": "2026-09-07",
       "primary_entity": "Flex / EPC Power",
       "event_fingerprint": "flex-epc-power-4-4b-acquisition"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/anthropic-signed-517bn-in-compute-agreements-in-past-11-months/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/anthropic-signed-517bn-in-compute-agreements-in-past-11-months",
+      "title": "Anthropic signed $517bn in compute agreements in past 11 months",
+      "normalized_title": "anthropic signed 517bn in compute agreements in past 11 months",
+      "published_on": "2026-09-07",
+      "primary_entity": "Anthropic",
+      "event_fingerprint": "anthropic-517bn-compute-deals"
     }
   ],
   "version": 2,

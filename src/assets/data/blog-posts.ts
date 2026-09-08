@@ -3344,6 +3344,27 @@ export const blogPosts: BlogPost[] = [
       "data center power delivery",
     ],
   }),
+  createPost({
+    id: 223,
+    slug: "anthropic-signed-517bn-in-compute-agreements-in-past-11-months",
+    title: "Anthropic signed $517bn in compute agreements in past 11 months",
+    description:
+      "Anthropic locks in $517 billion in compute leases totaling 14.8 GW of capacity across hyperscalers and data center developers.",
+    imageAlt: "Digital illustration of hyperscale compute servers and gigawatt-scale energy infrastructure",
+    publishedOn: "2026-09-07",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Anthropic",
+      "compute capacity",
+      "14.8 GW capacity",
+      "Google TPU",
+      "AWS Trainium",
+      "data center leases",
+      "AI infrastructure capex",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
