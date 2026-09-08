@@ -1997,6 +1997,15 @@
       "published_on": "2026-09-07",
       "primary_entity": "Anthropic",
       "event_fingerprint": "anthropic-517bn-compute-deals"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/fleet-seeks-approval-to-build-two-methane-power-plants-to-power-data-centers-in-nevada-report/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/fleet-seeks-approval-to-build-two-methane-power-plants-to-power-data-centers-in-nevada-report",
+      "title": "Fleet Seeks Approval for Two Nevada Methane Plants for AI Data Centers",
+      "normalized_title": "fleet seeks approval for two nevada methane plants for ai data centers",
+      "published_on": "2026-09-08",
+      "primary_entity": "Fleet / PUCN",
+      "event_fingerprint": "fleet-nevada-methane-power-plants-data-centers"
     }
   ],
   "version": 2,

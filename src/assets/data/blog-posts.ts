@@ -3365,6 +3365,27 @@ export const blogPosts: BlogPost[] = [
       "AI infrastructure capex",
     ],
   }),
+  createPost({
+    id: 224,
+    slug: "fleet-seeks-approval-for-nevada-methane-plants-for-data-centers",
+    title: "Fleet Seeks Approval for Two Nevada Methane Plants for AI Data Centers",
+    description:
+      "Fleet seeks Public Utility Commission of Nevada approval to build two methane power plants to supply energy directly to new data centers.",
+    imageAlt: "Graphic representation of gas power generation facilities supplying energy to a modern data center",
+    publishedOn: "2026-09-08",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Fleet",
+      "methane power plants",
+      "Nevada data centers",
+      "Public Utility Commission of Nevada",
+      "PUCN",
+      "behind-the-meter energy",
+      "data center power demand",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
