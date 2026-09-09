@@ -2015,6 +2015,15 @@
       "published_on": "2026-09-09",
       "primary_entity": "Oracle",
       "event_fingerprint": "oracle-new-mexico-2gw-renewable-rfp"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/oregon-pauses-land-sales-of-state-owned-property-for-data-center-projects-through-july-1-2027/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/oregon-pauses-land-sales-of-state-owned-property-for-data-center-projects-through-july-1-2027",
+      "title": "Oregon Pauses State Land Sales for AI Data Center Projects",
+      "normalized_title": "oregon pauses state land sales for ai data center projects",
+      "published_on": "2026-09-09",
+      "primary_entity": "Governor Tina Kotek / State of Oregon",
+      "event_fingerprint": "oregon-state-land-sales-pause-data-centers"
     }
   ],
   "version": 2,

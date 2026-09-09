@@ -3407,6 +3407,27 @@ export const blogPosts: BlogPost[] = [
       "AI data center power",
     ],
   }),
+  createPost({
+    id: 226,
+    title: "Oregon Pauses State Land Sales for AI Data Center Projects",
+    slug: "oregon-pauses-state-land-sales-for-data-centers",
+    description:
+      "Oregon Governor Tina Kotek freezes state land transactions, leases, and permits for data center projects through July 2027 to evaluate resource impacts.",
+    imageAlt: "State of Oregon landscape with power transmission lines and digital infrastructure",
+    publishedOn: "2026-09-09",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Oregon",
+      "Governor Tina Kotek",
+      "data center moratorium",
+      "state land sales pause",
+      "water usage",
+      "power grid impact",
+      "AI infrastructure",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
