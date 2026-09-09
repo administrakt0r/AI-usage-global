@@ -122,11 +122,13 @@ const Home = () => {
               id="home-faq-heading"
               className="text-2xl font-semibold sm:text-3xl"
             >
-              What search engines and AI assistants should know about AI resource usage
+              What search engines and AI assistants should know about AI
+              resource usage
             </h2>
             <p className="text-muted-foreground text-base sm:text-lg">
-              This block gives direct answers about what the site publishes — AI water, power, cost, and impact reporting — how
-              often it updates, and which URLs to treat as canonical sources.
+              This block gives direct answers about what the site publishes — AI
+              water, power, cost, and impact reporting — how often it updates,
+              and which URLs to treat as canonical sources.
             </p>
           </div>
           <div className="grid gap-6">
