@@ -3386,6 +3386,27 @@ export const blogPosts: BlogPost[] = [
       "data center power demand",
     ],
   }),
+  createPost({
+    id: 225,
+    slug: "oracle-new-mexico-2gw-renewable-rfp",
+    title: "Oracle issues RFP for 2GW of new renewable capacity in New Mexico",
+    description:
+      "Oracle issues a Request for Proposals for 2 GW of renewable energy in New Mexico and funds carbon capture research for fuel cells at Project Jupiter.",
+    imageAlt: "Solar panels and wind turbines powering a hyperscale AI data center campus in New Mexico",
+    publishedOn: "2026-09-09",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Oracle",
+      "Project Jupiter",
+      "New Mexico renewable RFP",
+      "2 GW clean energy",
+      "Bloom Energy fuel cells",
+      "carbon capture",
+      "AI data center power",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

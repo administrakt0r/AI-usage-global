@@ -2006,6 +2006,15 @@
       "published_on": "2026-09-08",
       "primary_entity": "Fleet / PUCN",
       "event_fingerprint": "fleet-nevada-methane-power-plants-data-centers"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/oracle-issues-rfp-for-2gw-of-new-renewable-capacity-in-new-mexico/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/oracle-issues-rfp-for-2gw-of-new-renewable-capacity-in-new-mexico",
+      "title": "Oracle issues RFP for 2GW of new renewable capacity in New Mexico",
+      "normalized_title": "oracle issues rfp for 2gw of new renewable capacity in new mexico",
+      "published_on": "2026-09-09",
+      "primary_entity": "Oracle",
+      "event_fingerprint": "oracle-new-mexico-2gw-renewable-rfp"
     }
   ],
   "version": 2,
