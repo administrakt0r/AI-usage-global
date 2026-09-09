@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
  * Useful for delaying expensive work (e.g. filtering large lists)
  * until the user stops typing.
  */
-export const useDebouncedValue = <T,>(value: T, delay: number): T => {
+export const useDebouncedValue = <T>(value: T, delay: number): T => {
   const [debouncedValue, setDebouncedValue] = useState(value);
 
   useEffect(() => {
