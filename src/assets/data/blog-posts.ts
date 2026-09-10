@@ -3428,6 +3428,26 @@ export const blogPosts: BlogPost[] = [
       "AI infrastructure",
     ],
   }),
+  createPost({
+    id: 227,
+    slug: "eia-projects-us-power-demand-to-hit-record-driven-by-data-centers",
+    title: "EIA Projects Record U.S. Electricity Use Driven by AI Data Centers",
+    description:
+      "The U.S. Energy Information Administration forecasts nationwide electricity consumption will reach a record 4,211 billion kWh by 2027, propelled by data center expansion.",
+    imageAlt: "Digital representation of high-voltage transmission lines and data centers",
+    publishedOn: "2026-09-10",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "EIA forecast",
+      "data center power demand",
+      "U.S. electricity consumption",
+      "commercial power sales",
+      "PJM grid growth",
+      "solar generation",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

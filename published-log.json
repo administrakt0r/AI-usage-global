@@ -2024,6 +2024,15 @@
       "published_on": "2026-09-09",
       "primary_entity": "Governor Tina Kotek / State of Oregon",
       "event_fingerprint": "oregon-state-land-sales-pause-data-centers"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/data-centers-manufacturing-us-electricity-use-eia/830038/",
+      "normalized_url": "https://www.utilitydive.com/news/data-centers-manufacturing-us-electricity-use-eia/830038",
+      "title": "Solar generation expected to grow 21% this year, 18% in 2027: EIA",
+      "normalized_title": "solar generation expected to grow 21 this year 18 in 2027 eia",
+      "published_on": "2026-09-10",
+      "primary_entity": "U.S. Energy Information Administration (EIA)",
+      "event_fingerprint": "eia-us-electricity-demand-record-high-data-centers"
     }
   ],
   "version": 2,
