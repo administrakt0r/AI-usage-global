@@ -2033,6 +2033,15 @@
       "published_on": "2026-09-10",
       "primary_entity": "U.S. Energy Information Administration (EIA)",
       "event_fingerprint": "eia-us-electricity-demand-record-high-data-centers"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/",
+      "normalized_url": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules",
+      "title": "Massachusetts hits data centers with new clean power rules",
+      "normalized_title": "massachusetts hits data centers with new clean power rules",
+      "published_on": "2026-09-09",
+      "primary_entity": "Governor Maura Healey / Commonwealth of Massachusetts",
+      "event_fingerprint": "massachusetts-data-center-clean-power-mandate"
     }
   ],
   "version": 2,
