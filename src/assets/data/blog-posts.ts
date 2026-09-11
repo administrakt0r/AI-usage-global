@@ -3468,6 +3468,27 @@ export const blogPosts: BlogPost[] = [
       "municipal NDA ban",
     ],
   }),
+  createPost({
+    id: 229,
+    slug: "microsoft-targets-38-gw-data-center-capacity-by-2032",
+    title: "Microsoft Targets 38 GW Data Center Capacity by 2032",
+    description:
+      "Microsoft plans to more than triple its global data center capacity to 38 GW by 2032, driving capital expenditure estimates to $175 billion by 2027.",
+    imageAlt: "Digital representation of hyperscale data centers and power grid capacity",
+    publishedOn: "2026-09-11",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Microsoft",
+      "data center capacity",
+      "38 GW target",
+      "AI infrastructure capex",
+      "Fairwater data center",
+      "CoreWeave lease",
+      "power grid demand",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

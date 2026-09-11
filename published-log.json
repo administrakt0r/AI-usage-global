@@ -2042,6 +2042,15 @@
       "published_on": "2026-09-09",
       "primary_entity": "Governor Maura Healey / Commonwealth of Massachusetts",
       "event_fingerprint": "massachusetts-data-center-clean-power-mandate"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/microsoft-targets-38gw-of-data-center-capacity-in-2032-report/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/microsoft-targets-38gw-of-data-center-capacity-in-2032-report",
+      "title": "Microsoft targets 38GW of data center capacity in 2032 - report",
+      "normalized_title": "microsoft targets 38gw of data center capacity in 2032 report",
+      "published_on": "2026-09-11",
+      "primary_entity": "Microsoft",
+      "event_fingerprint": "microsoft-38gw-data-center-capacity-target-2032"
     }
   ],
   "version": 2,
