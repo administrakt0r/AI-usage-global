@@ -3448,6 +3448,26 @@ export const blogPosts: BlogPost[] = [
       "solar generation",
     ],
   }),
+  createPost({
+    id: 228,
+    slug: "massachusetts-data-center-clean-power-rules",
+    title: "Massachusetts hits data centers with new clean power rules",
+    description:
+      "Massachusetts Governor Maura Healey issues an executive order requiring data centers over 25 MW to supply 100% clean energy or pay into a ratepayer protection fund.",
+    imageAlt: "Digital representation of clean power infrastructure and data center regulation in Massachusetts",
+    publishedOn: "2026-09-09",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Massachusetts data centers",
+      "Maura Healey",
+      "clean energy mandate",
+      "ratepayer protection fund",
+      "data center regulation",
+      "municipal NDA ban",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
