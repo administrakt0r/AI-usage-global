@@ -2051,6 +2051,15 @@
       "published_on": "2026-09-11",
       "primary_entity": "Microsoft",
       "event_fingerprint": "microsoft-38gw-data-center-capacity-target-2032"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/plans-for-120mw-data-center-withdrawn-in-lombardy-italy/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/plans-for-120mw-data-center-withdrawn-in-lombardy-italy",
+      "title": "Plans for 120MW data center withdrawn in Lombardy, Italy",
+      "normalized_title": "plans for 120mw data center withdrawn in lombardy italy",
+      "published_on": "2026-09-11",
+      "primary_entity": "East Gate / Municipality of Travagliato",
+      "event_fingerprint": "travagliato-lombardy-120mw-datacenter-withdrawal"
     }
   ],
   "version": 2,

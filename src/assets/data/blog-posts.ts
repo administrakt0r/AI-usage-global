@@ -3489,6 +3489,26 @@ export const blogPosts: BlogPost[] = [
       "power grid demand",
     ],
   }),
+  createPost({
+    id: 230,
+    slug: "lombardy-120mw-datacenter-withdrawn",
+    title: "Plans for 120MW data center withdrawn in Lombardy, Italy",
+    description:
+      "Developer East Gate withdraws its application for a 120MW data center in Travagliato, Italy, after failing to submit required environmental impact and grid data.",
+    imageAlt: "Digital representation of data center infrastructure and power grid in Lombardy, Italy",
+    publishedOn: "2026-09-11",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "East Gate",
+      "Lombardy data center",
+      "Travagliato",
+      "Italy AI infrastructure",
+      "120MW grid connection",
+      "environmental impact assessment",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
