@@ -3509,6 +3509,26 @@ export const blogPosts: BlogPost[] = [
       "environmental impact assessment",
     ],
   }),
+  createPost({
+    id: 231,
+    slug: "spacex-signs-13-3-billion-annual-ai-compute-contract",
+    title: "SpaceX Signs $13.3 Billion Annual AI Compute Contract",
+    description:
+      "SpaceX secures a $13.3 billion annual AI compute hosting contract, raising its total hosting revenue to $41.1 billion as data center capacity targets 2 GW.",
+    imageAlt: "Digital rendering of SpaceX high-density AI data center infrastructure and power infrastructure",
+    publishedOn: "2026-09-11",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "SpaceX",
+      "AI compute contract",
+      "data center hosting",
+      "Colossus data center",
+      "Elon Musk",
+      "1.4 GW data center capacity",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

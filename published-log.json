@@ -2060,6 +2060,15 @@
       "published_on": "2026-09-11",
       "primary_entity": "East Gate / Municipality of Travagliato",
       "event_fingerprint": "travagliato-lombardy-120mw-datacenter-withdrawal"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/spacex-signs-compute-contract-valued-at-133bn-annually/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/spacex-signs-compute-contract-valued-at-133bn-annually",
+      "title": "SpaceX signs compute contract valued at $13.3bn annually",
+      "normalized_title": "spacex signs compute contract valued at 133bn annually",
+      "published_on": "2026-09-11",
+      "primary_entity": "SpaceX",
+      "event_fingerprint": "spacex-13-3bn-annual-ai-compute-hosting-contract"
     }
   ],
   "version": 2,
