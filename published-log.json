@@ -2078,6 +2078,15 @@
       "published_on": "2026-09-12",
       "primary_entity": "Pentagon / Fluidstack",
       "event_fingerprint": "pentagon-fluidstack-5bn-loan-talks"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/oracle-delivered-300000-gpus-in-q1-fy2027/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/oracle-delivered-300000-gpus-in-q1-fy2027",
+      "title": "Oracle delivered 300,000 GPUs in Q1 FY2027",
+      "normalized_title": "oracle delivered 300000 gpus in q1 fy2027",
+      "published_on": "2026-09-11",
+      "primary_entity": "Oracle",
+      "event_fingerprint": "oracle-q1-fy2027-gpu-capacity-delivery"
     }
   ],
   "version": 2,
