@@ -2069,6 +2069,15 @@
       "published_on": "2026-09-11",
       "primary_entity": "SpaceX",
       "event_fingerprint": "spacex-13-3bn-annual-ai-compute-hosting-contract"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/pentagon-in-talks-to-loan-fluidstack-5bn-report/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/pentagon-in-talks-to-loan-fluidstack-5bn-report",
+      "title": "Pentagon in talks to loan Fluidstack $5bn - report",
+      "normalized_title": "pentagon in talks to loan fluidstack 5bn report",
+      "published_on": "2026-09-12",
+      "primary_entity": "Pentagon / Fluidstack",
+      "event_fingerprint": "pentagon-fluidstack-5bn-loan-talks"
     }
   ],
   "version": 2,
