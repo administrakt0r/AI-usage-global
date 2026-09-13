@@ -3549,6 +3549,26 @@ export const blogPosts: BlogPost[] = [
       "component shortages",
     ],
   }),
+  createPost({
+    id: 233,
+    slug: "oracle-delivered-300-000-gpus-and-850-mw-of-data-center-capacity",
+    title: "Oracle Delivered 300,000 GPUs and 850 MW of Data Center Capacity",
+    description:
+      "Oracle delivered 300,000 GPUs and 850 MW of data center capacity in Q1 FY2027 while forecasting $90B-$95B in annual capex amid high AI hardware demand.",
+    imageAlt: "Digital representation of hyperscale data centers and GPU compute server racks",
+    publishedOn: "2026-09-11",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Oracle",
+      "GPU deployment",
+      "data center capacity",
+      "AI compute demand",
+      "IaaS revenue",
+      "hardware utilization",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
