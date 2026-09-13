@@ -3529,6 +3529,26 @@ export const blogPosts: BlogPost[] = [
       "1.4 GW data center capacity",
     ],
   }),
+  createPost({
+    id: 232,
+    slug: "pentagon-in-talks-to-loan-fluidstack-5bn",
+    title: "Pentagon in talks to loan Fluidstack $5bn - report",
+    description:
+      "The Pentagon's Office of Strategic Capital is reportedly in talks to provide $5 billion in debt funding to AI cloud provider Fluidstack for data center component manufacturing.",
+    imageAlt: "Digital representation of AI data center component manufacturing and defense energy financing",
+    publishedOn: "2026-09-12",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Pentagon",
+      "Fluidstack",
+      "Office of Strategic Capital",
+      "AI infrastructure loan",
+      "data center manufacturing",
+      "component shortages",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
