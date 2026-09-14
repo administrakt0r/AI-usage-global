@@ -2096,6 +2096,15 @@
       "published_on": "2026-09-14",
       "primary_entity": "Gerchamp",
       "event_fingerprint": "gerchamp-modular-ai-data-center-launch"
+    },
+    {
+      "canonical_url": "https://www.wired.com/story/ai-agents-are-thirsty-for-power/",
+      "normalized_url": "https://www.wired.com/story/ai-agents-are-thirsty-for-power",
+      "title": "AI Agents Are Thirsty for Power",
+      "normalized_title": "ai agents are thirsty for power",
+      "published_on": "2026-09-14",
+      "primary_entity": "WIRED / Sustainable AI Group",
+      "event_fingerprint": "agentic-ai-power-demand-surge"
     }
   ],
   "version": 2,

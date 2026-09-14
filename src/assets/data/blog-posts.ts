@@ -3589,6 +3589,26 @@ export const blogPosts: BlogPost[] = [
       "rack density",
     ],
   }),
+  createPost({
+    id: 235,
+    slug: "agentic-ai-power-demand-surge",
+    title: "Agentic AI Workflows Drive Massive Data Center Energy Surge",
+    description:
+      "The architectural transition from single chatbot queries to continuous autonomous AI agents is multiplying compute requirements and driving data center energy demand.",
+    imageAlt: "Digital representation of autonomous agentic AI compute loops and data center energy grid infrastructure",
+    publishedOn: "2026-09-14",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "agentic AI",
+      "AI power demand",
+      "data center energy",
+      "autonomous agents",
+      "compute capacity",
+      "gas power generation",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
