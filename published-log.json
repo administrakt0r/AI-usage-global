@@ -2087,6 +2087,15 @@
       "published_on": "2026-09-11",
       "primary_entity": "Oracle",
       "event_fingerprint": "oracle-q1-fy2027-gpu-capacity-delivery"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/product-news/gerchamp-launches-modular-ai-data-center-to-bring-high-density-compute-to-available-power/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/product-news/gerchamp-launches-modular-ai-data-center-to-bring-high-density-compute-to-available-power",
+      "title": "Gerchamp Launches Modular AI Data Center to Bring High-Density Compute to Available Power",
+      "normalized_title": "gerchamp launches modular ai data center to bring high density compute to available power",
+      "published_on": "2026-09-14",
+      "primary_entity": "Gerchamp",
+      "event_fingerprint": "gerchamp-modular-ai-data-center-launch"
     }
   ],
   "version": 2,

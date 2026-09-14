@@ -3569,6 +3569,26 @@ export const blogPosts: BlogPost[] = [
       "hardware utilization",
     ],
   }),
+  createPost({
+    id: 234,
+    slug: "gerchamp-modular-ai-data-center-launch",
+    title: "Gerchamp Launches Modular AI Data Center to Bring High-Density Compute to Available Power",
+    description:
+      "Gerchamp launches a modular AI data center portfolio scaling from 500 kW to 3.5 MW with direct-to-chip liquid cooling to bypass grid connection backlogs.",
+    imageAlt: "Factory-assembled modular AI data center container with direct-to-chip liquid cooling and power infrastructure",
+    publishedOn: "2026-09-14",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Gerchamp",
+      "modular AI data center",
+      "direct-to-chip liquid cooling",
+      "NVIDIA NVL72",
+      "behind-the-meter power",
+      "rack density",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
