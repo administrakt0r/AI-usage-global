@@ -2114,6 +2114,15 @@
       "published_on": "2026-09-15",
       "primary_entity": "MIT Technology Review / MIT Sloan",
       "event_fingerprint": "ai-trillion-dollar-infrastructure-investment-risk"
+    },
+    {
+      "canonical_url": "https://www.datacenterknowledge.com/energy-power-supply/the-ripple-effect-of-data-center-project-cancellations-and-delays",
+      "normalized_url": "https://www.datacenterknowledge.com/energy-power-supply/the-ripple-effect-of-data-center-project-cancellations-and-delays",
+      "title": "Data Center Cancellations Leave Millions in Stranded Grid Costs",
+      "normalized_title": "data center cancellations leave millions in stranded grid costs",
+      "published_on": "2026-09-15",
+      "primary_entity": "Capgemini Research Institute / Data Center Knowledge",
+      "event_fingerprint": "datacenter-cancellations-stranded-grid-costs"
     }
   ],
   "version": 2,

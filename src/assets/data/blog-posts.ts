@@ -3629,6 +3629,26 @@ export const blogPosts: BlogPost[] = [
       "GPU depreciation",
     ],
   }),
+  createPost({
+    id: 237,
+    slug: "datacenter-cancellations-stranded-grid-costs",
+    title: "Data Center Cancellations Leave Millions in Stranded Grid Costs",
+    description:
+      "Canceled AI data center projects leave electric utilities with stranded substation costs that shift onto residential ratepayers, as 19% of interconnection requests fail to materialize.",
+    imageAlt: "Digital representation of electrical power substations and high-voltage transmission grid infrastructure",
+    publishedOn: "2026-09-15",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "data center cancellations",
+      "stranded grid costs",
+      "interconnection queue",
+      "phantom load requests",
+      "utility ratepayer protection",
+      "substation infrastructure",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
