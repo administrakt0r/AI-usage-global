@@ -3609,6 +3609,26 @@ export const blogPosts: BlogPost[] = [
       "gas power generation",
     ],
   }),
+  createPost({
+    id: 236,
+    slug: "ai-trillion-dollar-infrastructure-investment-risk",
+    title: "What must happen for AI’s trillion-dollar gamble to pay off",
+    description:
+      "Hyperscalers are projected to spend over $1 trillion on AI data centers next year, triggering massive debt growth and requiring $3.7 trillion in annual revenues by 2032 to deliver returns.",
+    imageAlt: "Digital representation of hyperscale data centers and capital expenditure risk metrics",
+    publishedOn: "2026-09-15",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "AI infrastructure costs",
+      "data center capex",
+      "hyperscaler debt",
+      "free cash flow deficit",
+      "183 GW compute expansion",
+      "GPU depreciation",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

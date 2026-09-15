@@ -2105,6 +2105,15 @@
       "published_on": "2026-09-14",
       "primary_entity": "WIRED / Sustainable AI Group",
       "event_fingerprint": "agentic-ai-power-demand-surge"
+    },
+    {
+      "canonical_url": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/",
+      "normalized_url": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk",
+      "title": "What must happen for AI’s trillion-dollar gamble to pay off",
+      "normalized_title": "what must happen for ais trillion dollar gamble to pay off",
+      "published_on": "2026-09-15",
+      "primary_entity": "MIT Technology Review / MIT Sloan",
+      "event_fingerprint": "ai-trillion-dollar-infrastructure-investment-risk"
     }
   ],
   "version": 2,
