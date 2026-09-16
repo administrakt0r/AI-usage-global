@@ -2132,6 +2132,15 @@
       "published_on": "2026-09-15",
       "primary_entity": "BloombergNEF",
       "event_fingerprint": "bnef-us-datacenter-natural-gas-forecast-2035"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/pjms-reliability-could-start-failing-by-2030-if-data-center-growth-continu/830405/",
+      "normalized_url": "https://www.utilitydive.com/news/pjms-reliability-could-start-failing-by-2030-if-data-center-growth-continu/830405",
+      "title": "PJM faces 2030 reliability crisis if data center load growth continues: report",
+      "normalized_title": "pjm faces 2030 reliability crisis if data center load growth continues report",
+      "published_on": "2026-09-16",
+      "primary_entity": "Pennsylvania Public Utility Commission / PJM Interconnection",
+      "event_fingerprint": "pa-puc-pjm-2030-reliability-crisis-report"
     }
   ],
   "version": 2,

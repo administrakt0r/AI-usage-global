@@ -3668,6 +3668,26 @@ export const blogPosts: BlogPost[] = [
       "behind-the-meter generation",
     ],
   }),
+  createPost({
+    id: 239,
+    slug: "pjm-reliability-failing-by-2030-data-center-growth",
+    title: "PJM Grid Risks 2030 Reliability Crisis From AI Data Center Load",
+    description: "A Pennsylvania PUC report warns that AI data center load growth could drive PJM power shortages up to 100 times beyond planning criteria by 2030.",
+    imageAlt: "High-voltage transmission lines and regional electrical grid infrastructure serving data center facilities",
+    publishedOn: "2026-09-16",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "PJM Interconnection",
+      "Pennsylvania PUC",
+      "grid reliability",
+      "AI power demand",
+      "loss of load expectation",
+      "data center energy growth",
+      "ratepayer protection",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
