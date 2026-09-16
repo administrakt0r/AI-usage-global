@@ -3649,6 +3649,25 @@ export const blogPosts: BlogPost[] = [
       "substation infrastructure",
     ],
   }),
+  createPost({
+    id: 238,
+    slug: "us-datacenter-natural-gas-demand-surge-2035",
+    title: "US data centers could consume more natural gas than Germany and Japan combined by 2035",
+    description: "A new BloombergNEF report projects U.S. data center natural gas consumption will reach 18 billion cubic feet per day by 2035, driven by AI power demand.",
+    imageAlt: "Natural gas power generation infrastructure and data center facility",
+    publishedOn: "2026-09-15",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "BloombergNEF",
+      "natural gas demand",
+      "AI power consumption",
+      "data center gas plants",
+      "greenhouse gas emissions",
+      "behind-the-meter generation",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
