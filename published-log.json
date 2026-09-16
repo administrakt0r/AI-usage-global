@@ -2123,6 +2123,15 @@
       "published_on": "2026-09-15",
       "primary_entity": "Capgemini Research Institute / Data Center Knowledge",
       "event_fingerprint": "datacenter-cancellations-stranded-grid-costs"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035/",
+      "normalized_url": "https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035",
+      "title": "US data centers could consume more natural gas than Germany and Japan combined by 2035",
+      "normalized_title": "us data centers could consume more natural gas than germany and japan combined by 2035",
+      "published_on": "2026-09-15",
+      "primary_entity": "BloombergNEF",
+      "event_fingerprint": "bnef-us-datacenter-natural-gas-forecast-2035"
     }
   ],
   "version": 2,
