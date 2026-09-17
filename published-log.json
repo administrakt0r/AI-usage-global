@@ -2141,6 +2141,15 @@
       "published_on": "2026-09-16",
       "primary_entity": "Pennsylvania Public Utility Commission / PJM Interconnection",
       "event_fingerprint": "pa-puc-pjm-2030-reliability-crisis-report"
+    },
+    {
+      "canonical_url": "https://www.theregister.com/systems/2026/09/16/nvidia-goes-green-to-keep-grid-capacity-from-zapping-its-revenues/5296984",
+      "normalized_url": "https://www.theregister.com/systems/2026/09/16/nvidia-goes-green-to-keep-grid-capacity-from-zapping-its-revenues/5296984",
+      "title": "Nvidia goes green to keep grid capacity from zapping its revenues",
+      "normalized_title": "nvidia goes green to keep grid capacity from zapping its revenues",
+      "published_on": "2026-09-16",
+      "primary_entity": "Nvidia",
+      "event_fingerprint": "nvidia-dsx-datacenter-power-management"
     }
   ],
   "version": 2,
