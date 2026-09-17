@@ -1,0 +1,36 @@
+## Nvidia Unveils DSX Platform to Cut AI Data Center Grid Strain
+
+### New telemetry APIs and demand-response tools enable 24% higher server density within existing power envelopes.
+
+Nvidia unveiled its Data Center Scale Architecture (DSX) platform at the AI Infra Summit, introducing software tools designed to maximize compute performance per gigawatt and reduce data center grid impacts. The system enables real-time coordination between AI hardware, power distribution units, and cooling systems to address severe utility capacity bottlenecks.
+
+## Key details
+
+Data centers typically operate well below maximum power thresholds, reserving up to 20% of their allocated capacity—such as 20 megawatts at a 100-megawatt facility—as a safety buffer for conversion losses and power spikes. This leaves substantial stranded capacity that neither the data center nor the utility can actively utilize.
+
+Nvidia's DSX MaxLPS addresses this inefficiency by creating a direct communication layer between server nodes and building infrastructure. Through the DSX Exchange API, server management systems exchange telemetry with hardware from third-party vendors, including Vertiv and Schneider Electric, dynamically adjusting cooling and power delivery based on real-time rack demand.
+
+In benchmark testing conducted with neocloud provider Lambda, DSX MaxLPS enabled operators to pack 19 compute nodes into a power budget that previously supported only 16 nodes. This deployment achieved a 24% increase in cluster-wide throughput and performance per watt without expanding the physical power footprint.
+
+Additionally, the DSX Flex platform provides automated demand-response capabilities developed with Emerald AI and Silicon Valley Power. The system allows utilities to signal grid stress and request power curtailment. In response, DSX automatically pauses non-essential AI workloads or migrates them to neighboring data centers with available power, protecting critical compute jobs while preventing local grid overloads.
+
+### Why this matters
+
+As utility grid interconnection queues extend to several years across major tech hubs, AI infrastructure growth is constrained by available electrical capacity. Squeezing higher compute density from existing power allocations allows operators to scale GPU deployments without waiting for grid upgrades. Furthermore, offering utilities reliable demand-response controls makes grid operators more willing to approve higher power allocations.
+
+### Context
+
+Surging electricity demand from hyperscale AI clusters has prompted utilities and regulators nationwide to implement stricter interconnection rules and ratepayer protections. While major cloud providers have previously experimented with custom workload throttling, DSX standardizes building management telemetry across hardware vendors, enabling broader adoption of grid-aware cluster orchestration.
+
+## Risks and open questions
+
+While DSX offers deep integration across Nvidia-validated hardware and supported building management systems, extending these telemetry standards to non-Nvidia accelerators and custom ASICs remains complex. Furthermore, dynamically migrating heavy training workloads across data centers during utility stress events depends on low-latency network interconnects that may not be available across all deployment regions.
+
+## What happens next
+
+Nvidia is deploying the DSX platform across partner neocloud facilities, including Lambda, while integrating additional power cabinet and cooling equipment providers into the DSX Exchange ecosystem. As utility regulators increasingly scrutinize large-load power requests, automated power management and grid curtailment compliance are likely to become standard requirements for new data center permits.
+
+---
+
+*Source: [The Register](https://www.theregister.com/systems/2026/09/16/nvidia-goes-green-to-keep-grid-capacity-from-zapping-its-revenues/5296984)*
+*Published on AI Usage Global, author: AUG Bot*

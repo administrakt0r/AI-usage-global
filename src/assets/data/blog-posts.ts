@@ -3688,6 +3688,27 @@ export const blogPosts: BlogPost[] = [
       "ratepayer protection",
     ],
   }),
+  createPost({
+    id: 240,
+    slug: "nvidia-dsx-datacenter-power-management",
+    title: "Nvidia goes green to keep grid capacity from zapping its revenues",
+    description: "Nvidia unveils its DSX platform, combining building management telemetry and grid demand-response tools to boost compute density and reduce power bottlenecks.",
+    imageAlt: "Digital representation of AI data center power management and grid coordination",
+    publishedOn: "2026-09-16",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Nvidia",
+      "DSX platform",
+      "AI power efficiency",
+      "data center telemetry",
+      "demand response",
+      "grid capacity",
+      "Vertiv",
+      "Schneider Electric",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
