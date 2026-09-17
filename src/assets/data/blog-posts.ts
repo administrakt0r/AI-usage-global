@@ -3709,6 +3709,27 @@ export const blogPosts: BlogPost[] = [
       "Schneider Electric",
     ],
   }),
+  createPost({
+    id: 241,
+    slug: "google-and-nvidia-form-alliance-to-cut-ai-data-center-grid-strain",
+    title: "Google and Nvidia Form Alliance to Cut AI Data Center Grid Strain",
+    description: "Google, Nvidia, and Emerald AI launch the AI Energy Management Alliance to scale demand response and compute flexibility across data center power grids.",
+    imageAlt: "Digital representation of energy management and power grid coordination for AI data centers",
+    publishedOn: "2026-09-17",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Google",
+      "Nvidia",
+      "Emerald AI",
+      "AI Energy Management Alliance",
+      "demand response",
+      "grid flexibility",
+      "data center power demand",
+      "The Brattle Group",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

@@ -2150,6 +2150,15 @@
       "published_on": "2026-09-16",
       "primary_entity": "Nvidia",
       "event_fingerprint": "nvidia-dsx-datacenter-power-management"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/google-nvidia-and-emerald-ai-found-the-ai-energy-management-alliance-to-support-demand-response-capabilities-within-the-data-center-sector/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/google-nvidia-and-emerald-ai-found-the-ai-energy-management-alliance-to-support-demand-response-capabilities-within-the-data-center-sector",
+      "title": "Google, Nvidia, and Emerald AI found the AI Energy Management Alliance to support demand response capabilities within the data center sector",
+      "normalized_title": "google nvidia and emerald ai found the ai energy management alliance to support demand response capabilities within the data center sector",
+      "published_on": "2026-09-17",
+      "primary_entity": "Google / Nvidia / Emerald AI",
+      "event_fingerprint": "ai-energy-management-alliance-founding"
     }
   ],
   "version": 2,
