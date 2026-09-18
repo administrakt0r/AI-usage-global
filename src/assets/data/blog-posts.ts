@@ -3750,6 +3750,26 @@ export const blogPosts: BlogPost[] = [
       "Abilene Texas data center",
     ],
   }),
+  createPost({
+    id: 243,
+    slug: "loudoun-county-pauses-new-data-center-applications",
+    title: "Loudoun County Board Votes to Pause New Data Center Applications",
+    description: "The Board of Supervisors in Loudoun County, Virginia, votes 7-1 to pause new data center applications for 12 months as local officials move to revise zoning rules.",
+    imageAlt: "Aerial view of data center infrastructure and power grid in Northern Virginia",
+    publishedOn: "2026-09-18",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Loudoun County",
+      "Data Center Alley",
+      "data center moratorium",
+      "Northern Virginia",
+      "zoning performance standards",
+      "AI power demand",
+      "PJM grid",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
