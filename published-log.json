@@ -2168,6 +2168,15 @@
       "published_on": "2026-09-17",
       "primary_entity": "Crusoe",
       "event_fingerprint": "crusoe-3-9b-series-f-modular-ai-factories"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/virginias-loudoun-county-board-votes-to-pause-new-data-center-applications/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/virginias-loudoun-county-board-votes-to-pause-new-data-center-applications",
+      "title": "Virginia’s Loudoun County board votes to pause new data center applications",
+      "normalized_title": "virginias loudoun county board votes to pause new data center applications",
+      "published_on": "2026-09-18",
+      "primary_entity": "Loudoun County Board of Supervisors",
+      "event_fingerprint": "loudoun-county-data-center-moratorium"
     }
   ],
   "version": 2,
