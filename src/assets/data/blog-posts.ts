@@ -3730,6 +3730,26 @@ export const blogPosts: BlogPost[] = [
       "The Brattle Group",
     ],
   }),
+  createPost({
+    id: 242,
+    slug: "crusoe-raises-3-9b-modular-ai-factories",
+    title: "Crusoe raises $3.9B to build massive data centers and small modular 'AI factories'",
+    description: "Crusoe secures $3.9B in Series F funding at a $30.9B valuation to expand hyperscale campuses and deploy truck-transportable modular 'Spark' AI factories.",
+    imageAlt: "Digital representation of modular AI data center factories and power infrastructure",
+    publishedOn: "2026-09-17",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Crusoe",
+      "modular AI factories",
+      "Crusoe Spark",
+      "Series F",
+      "data center capex",
+      "power grid bottlenecks",
+      "Abilene Texas data center",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
