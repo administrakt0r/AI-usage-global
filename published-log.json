@@ -2177,6 +2177,15 @@
       "published_on": "2026-09-18",
       "primary_entity": "Loudoun County Board of Supervisors",
       "event_fingerprint": "loudoun-county-data-center-moratorium"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/oracle-signs-17gw-of-wind-energy-supply-agreements-to-support-operations-in-texas/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/oracle-signs-17gw-of-wind-energy-supply-agreements-to-support-operations-in-texas",
+      "title": "Oracle signs 1.7GW of wind energy supply agreements to support operations in Texas",
+      "normalized_title": "oracle signs 1 7gw of wind energy supply agreements to support operations in texas",
+      "published_on": "2026-09-18",
+      "primary_entity": "Oracle",
+      "event_fingerprint": "oracle-texas-1-7gw-wind-agreements"
     }
   ],
   "version": 2,

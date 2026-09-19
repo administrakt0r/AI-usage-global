@@ -3770,6 +3770,28 @@ export const blogPosts: BlogPost[] = [
       "PJM grid",
     ],
   }),
+  createPost({
+    id: 244,
+    slug: "oracle-texas-1-7gw-wind-agreements",
+    title: "Oracle signs 1.7GW of wind energy supply agreements to support operations in Texas",
+    description:
+      "Oracle executes ten wind power agreements totaling over 1.7 GW in Texas to match electricity draw at its Abilene AI data center campus with carbon-free power.",
+    imageAlt: "Wind turbines and high-voltage power transmission lines in West Texas",
+    publishedOn: "2026-09-18",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Oracle",
+      "Texas wind energy",
+      "Abilene AI campus",
+      "ERCOT",
+      "power purchase agreement",
+      "RWE",
+      "Engie",
+      "carbon-free energy",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
