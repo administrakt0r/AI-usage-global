@@ -3792,6 +3792,27 @@ export const blogPosts: BlogPost[] = [
       "carbon-free energy",
     ],
   }),
+  createPost({
+    id: 245,
+    slug: "microsoft-prepares-appeal-over-virginia-data-center-power-costs",
+    title: "Microsoft Prepares Legal Appeal Over Virginia Data Center Power Costs",
+    description:
+      "Microsoft files notice of appeal against Virginia State Corporation Commission order requiring data center developers to fund direct transmission lines and substations.",
+    imageAlt: "High-voltage electric transmission lines and electrical substation in Virginia",
+    publishedOn: "2026-09-19",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Microsoft",
+      "Virginia State Corporation Commission",
+      "Dominion Energy",
+      "Rider T-1",
+      "Contribution in Aid of Construction",
+      "data center power grid",
+      "ratepayer protection",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

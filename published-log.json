@@ -2186,6 +2186,15 @@
       "published_on": "2026-09-18",
       "primary_entity": "Oracle",
       "event_fingerprint": "oracle-texas-1-7gw-wind-agreements"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/microsoft-virginia-scc-data-center-transmission/830775/",
+      "normalized_url": "https://www.utilitydive.com/news/microsoft-virginia-scc-data-center-transmission/830775",
+      "title": "Microsoft ‘preserving its ability’ to challenge data center transmission costs decision",
+      "normalized_title": "microsoft preserving its ability to challenge data center transmission costs decision",
+      "published_on": "2026-09-19",
+      "primary_entity": "Microsoft / Virginia SCC",
+      "event_fingerprint": "microsoft-virginia-transmission-cost-appeal"
     }
   ],
   "version": 2,
