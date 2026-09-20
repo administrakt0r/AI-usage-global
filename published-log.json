@@ -2195,6 +2195,15 @@
       "published_on": "2026-09-19",
       "primary_entity": "Microsoft / Virginia SCC",
       "event_fingerprint": "microsoft-virginia-transmission-cost-appeal"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/google-blackstones-tpu-neocloud-named-crux-ai-hires-metas-data-center-engineering-head-alan-duong/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/google-blackstones-tpu-neocloud-named-crux-ai-hires-metas-data-center-engineering-head-alan-duong",
+      "title": "Google-Blackstone's TPU neocloud named Crux AI, hires Meta's data center engineering head Alan Duong",
+      "normalized_title": "google blackstones tpu neocloud named crux ai hires metas data center engineering head alan duong",
+      "published_on": "2026-09-19",
+      "primary_entity": "Crux AI / Blackstone / Google",
+      "event_fingerprint": "crux-ai-blackstone-google-tpu-neocloud"
     }
   ],
   "version": 2,
