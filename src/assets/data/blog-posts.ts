@@ -3834,6 +3834,28 @@ export const blogPosts: BlogPost[] = [
       "2 GW data center",
     ],
   }),
+  createPost({
+    id: 247,
+    slug: "house-passes-ratepayer-protection-act-data-centers",
+    title: "US House Passes Ratepayer Protection Act to Limit AI Grid Costs",
+    description:
+      "The U.S. House passes bipartisan legislation requiring state utility commissions to ensure large AI data centers cover 100% of their incremental grid upgrade costs.",
+    imageAlt: "Digital representation of power grid infrastructure and federal data center regulation",
+    publishedOn: "2026-09-20",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Ratepayer Protection Act",
+      "data center regulation",
+      "utility tariffs",
+      "grid upgrade costs",
+      "AI power demand",
+      "large-load standard",
+      "Gabe Evans",
+      "Kathy Castor",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
