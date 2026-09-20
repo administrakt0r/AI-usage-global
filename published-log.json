@@ -2204,6 +2204,15 @@
       "published_on": "2026-09-19",
       "primary_entity": "Crux AI / Blackstone / Google",
       "event_fingerprint": "crux-ai-blackstone-google-tpu-neocloud"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/house-passes-ratepayer-protection-bill-data-centers/830658/",
+      "normalized_url": "https://www.utilitydive.com/news/house-passes-ratepayer-protection-bill-data-centers/830658",
+      "title": "US House Passes Ratepayer Protection Act to Limit AI Grid Costs",
+      "normalized_title": "us house passes ratepayer protection act to limit ai grid costs",
+      "published_on": "2026-09-20",
+      "primary_entity": "U.S. House of Representatives",
+      "event_fingerprint": "house-passes-ratepayer-protection-act-data-centers"
     }
   ],
   "version": 2,
