@@ -3813,6 +3813,27 @@ export const blogPosts: BlogPost[] = [
       "ratepayer protection",
     ],
   }),
+  createPost({
+    id: 246,
+    slug: "crux-ai-blackstone-google-tpu-neocloud",
+    title: "Crux AI Launches $5 Billion Neocloud for Gigawatt TPU Infrastructure",
+    description: "Google and Blackstone's $5 billion TPU neocloud Crux AI hires Meta's former engineering head to build 2 GW of data center capacity.",
+    imageAlt: "Digital representation of a hyperscale TPU data center campus and high-density power infrastructure",
+    publishedOn: "2026-09-19",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Crux AI",
+      "Blackstone",
+      "Google TPU",
+      "neocloud",
+      "data center capacity",
+      "Alan Duong",
+      "power procurement",
+      "2 GW data center",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
