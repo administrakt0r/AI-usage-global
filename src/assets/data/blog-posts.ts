@@ -3877,6 +3877,25 @@ export const blogPosts: BlogPost[] = [
       "supply chain emissions",
     ],
   }),
+  createPost({
+    id: 249,
+    slug: "generac-amazon-8b-backup-generator-deal",
+    title: "Generac Signs $8 Billion Backup Generator Deal With Amazon",
+    description: "Amazon enters an $8 billion agreement with Generac for industrial backup generators to safeguard its expanding AI data center footprint.",
+    imageAlt: "Industrial backup power generators at a hyperscale AI data center facility",
+    publishedOn: "2026-09-21",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Generac",
+      "Amazon",
+      "backup generators",
+      "AI data center power",
+      "standby power",
+      "supply chain deal",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
