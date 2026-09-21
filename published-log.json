@@ -2222,6 +2222,15 @@
       "published_on": "2026-09-21",
       "primary_entity": "Amazon / AWS / Prysmian / Rio Tinto",
       "event_fingerprint": "amazon-ohio-low-carbon-aluminum-cabling"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/generac-signs-8bn-back-up-generator-deal-with-amazon/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/generac-signs-8bn-back-up-generator-deal-with-amazon",
+      "title": "Generac signs $8bn back up generator deal with Amazon",
+      "normalized_title": "generac signs 8bn back up generator deal with amazon",
+      "published_on": "2026-09-21",
+      "primary_entity": "Generac / Amazon",
+      "event_fingerprint": "generac-amazon-8b-backup-generator-deal"
     }
   ],
   "version": 2,
