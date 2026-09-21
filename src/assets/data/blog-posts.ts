@@ -3856,6 +3856,27 @@ export const blogPosts: BlogPost[] = [
       "Kathy Castor",
     ],
   }),
+  createPost({
+    id: 248,
+    slug: "amazon-ohio-datacenter-low-carbon-aluminum",
+    title: "Prysmian, Rio Tinto to supply Amazon data center in Ohio with low-carbon aluminum",
+    description:
+      "Amazon partners with Prysmian and Rio Tinto to deploy low-carbon Elysis aluminum electrical cabling at an AWS data center in Ohio, cutting supply chain emissions.",
+    imageAlt: "Digital representation of electrical cabling and low-carbon aluminum manufacturing for data centers",
+    publishedOn: "2026-09-21",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Amazon AWS",
+      "Prysmian",
+      "Rio Tinto",
+      "Elysis",
+      "low-carbon aluminum",
+      "data center cabling",
+      "supply chain emissions",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
