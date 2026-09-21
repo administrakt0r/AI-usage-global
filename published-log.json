@@ -2213,6 +2213,15 @@
       "published_on": "2026-09-20",
       "primary_entity": "U.S. House of Representatives",
       "event_fingerprint": "house-passes-ratepayer-protection-act-data-centers"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/prysmian-rio-tinto-to-supply-amazon-data-center-in-ohio-with-low-carbon-aluminum/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/prysmian-rio-tinto-to-supply-amazon-data-center-in-ohio-with-low-carbon-aluminum",
+      "title": "Prysmian, Rio Tinto to supply Amazon data center in Ohio with low-carbon aluminum",
+      "normalized_title": "prysmian rio tinto to supply amazon data center in ohio with low carbon aluminum",
+      "published_on": "2026-09-21",
+      "primary_entity": "Amazon / AWS / Prysmian / Rio Tinto",
+      "event_fingerprint": "amazon-ohio-low-carbon-aluminum-cabling"
     }
   ],
   "version": 2,
