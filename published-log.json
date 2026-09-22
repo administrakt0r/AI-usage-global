@@ -2231,6 +2231,15 @@
       "published_on": "2026-09-21",
       "primary_entity": "Generac / Amazon",
       "event_fingerprint": "generac-amazon-8b-backup-generator-deal"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/kodiak-gas-services-to-supply-76mw-of-behind-the-meter-gas-power-to-west-texas-data-center/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/kodiak-gas-services-to-supply-76mw-of-behind-the-meter-gas-power-to-west-texas-data-center",
+      "title": "Kodiak Gas Services to supply 76MW of behind-the-meter gas power to West Texas data center",
+      "normalized_title": "kodiak gas services to supply 76mw of behind the meter gas power to west texas data center",
+      "published_on": "2026-09-21",
+      "primary_entity": "Kodiak Gas Services",
+      "event_fingerprint": "kodiak-gas-west-texas-76mw-behind-the-meter"
     }
   ],
   "version": 2,

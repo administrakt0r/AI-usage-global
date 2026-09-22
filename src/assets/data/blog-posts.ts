@@ -3896,6 +3896,25 @@ export const blogPosts: BlogPost[] = [
       "supply chain deal",
     ],
   }),
+  createPost({
+    id: 250,
+    slug: "kodiak-gas-west-texas-data-center-power",
+    title: "Kodiak Gas Services to supply 76MW of behind-the-meter gas power to West Texas data center",
+    description: "Kodiak Gas Services signs a 6-year deal to supply 76MW of behind-the-meter natural gas power via 40 reciprocating units to a West Texas AI data center.",
+    imageAlt: "Natural gas reciprocating generation units powering a West Texas data center campus",
+    publishedOn: "2026-09-21",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Kodiak Gas Services",
+      "behind-the-meter power",
+      "natural gas engines",
+      "West Texas data center",
+      "AI power demand",
+      "grid interconnection delays",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
