@@ -2240,6 +2240,15 @@
       "published_on": "2026-09-21",
       "primary_entity": "Kodiak Gas Services",
       "event_fingerprint": "kodiak-gas-west-texas-76mw-behind-the-meter"
+    },
+    {
+      "canonical_url": "https://www.gov.ca.gov/2026/09/21/governor-newsom-signs-most-comprehensive-data-center-laws-in-the-nation-providing-communities-more-control-on-water-electricity-and-land-use/",
+      "normalized_url": "https://www.gov.ca.gov/2026/09/21/governor-newsom-signs-most-comprehensive-data-center-laws-in-the-nation-providing-communities-more-control-on-water-electricity-and-land-use",
+      "title": "Governor Newsom signs most comprehensive data center laws in the nation, providing communities more control on water, electricity, and land use",
+      "normalized_title": "governor newsom signs most comprehensive data center laws in the nation providing communities more control on water electricity and land use",
+      "published_on": "2026-09-22",
+      "primary_entity": "Governor Gavin Newsom / State of California",
+      "event_fingerprint": "california-governor-signs-comprehensive-data-center-laws"
     }
   ],
   "version": 2,

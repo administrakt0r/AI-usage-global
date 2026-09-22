@@ -3915,6 +3915,28 @@ export const blogPosts: BlogPost[] = [
       "grid interconnection delays",
     ],
   }),
+  createPost({
+    id: 251,
+    slug: "california-governor-signs-data-center-resource-laws",
+    title: "California Governor Signs Nation's Toughest Data Center Laws",
+    description:
+      "Governor Gavin Newsom signs seven landmark bills mandating water and electricity disclosures, ratepayer protections, and environmental reviews for California AI data centers.",
+    imageAlt: "Digital representation of California state oversight and AI data center energy management",
+    publishedOn: "2026-09-22",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "California data centers",
+      "Gavin Newsom",
+      "SB 886",
+      "AB 2383",
+      "AB 2469",
+      "ratepayer protection",
+      "water disclosures",
+      "CEQA environmental review",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
