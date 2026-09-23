@@ -2249,6 +2249,15 @@
       "published_on": "2026-09-22",
       "primary_entity": "Governor Gavin Newsom / State of California",
       "event_fingerprint": "california-governor-signs-comprehensive-data-center-laws"
+    },
+    {
+      "canonical_url": "https://www.datacenterknowledge.com/data-center-site-selection/grid-constraints-steer-dutch-data-centers-beyond-amsterdam",
+      "normalized_url": "https://www.datacenterknowledge.com/data-center-site-selection/grid-constraints-steer-dutch-data-centers-beyond-amsterdam",
+      "title": "Grid Constraints Steer Dutch Data Centers Beyond Amsterdam",
+      "normalized_title": "grid constraints steer dutch data centers beyond amsterdam",
+      "published_on": "2026-09-21",
+      "primary_entity": "CBRE / JLL / Dutch Data Center Industry",
+      "event_fingerprint": "dutch-ai-datacenter-grid-constraints-decentralization"
     }
   ],
   "version": 2,

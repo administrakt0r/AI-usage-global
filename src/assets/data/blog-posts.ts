@@ -3937,6 +3937,26 @@ export const blogPosts: BlogPost[] = [
       "CEQA environmental review",
     ],
   }),
+  createPost({
+    id: 252,
+    slug: "dutch-datacenter-grid-constraints",
+    title: "Grid Constraints Steer Dutch Data Centers Beyond Amsterdam",
+    description: "Grid bottlenecks in Amsterdam and 300 MW AI power requests force data center expansion into regional Dutch markets amid multi-year transformer lead times.",
+    imageAlt: "Digital representation of electrical power grid infrastructure and data centers in the Netherlands",
+    publishedOn: "2026-09-21",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Dutch data centers",
+      "Amsterdam grid constraints",
+      "AI power demand",
+      "transformer lead times",
+      "regional data center expansion",
+      "JLL report",
+      "CBRE",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
