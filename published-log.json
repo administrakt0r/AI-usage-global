@@ -2258,6 +2258,15 @@
       "published_on": "2026-09-21",
       "primary_entity": "CBRE / JLL / Dutch Data Center Industry",
       "event_fingerprint": "dutch-ai-datacenter-grid-constraints-decentralization"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/north-carolina-regulators-deny-dukes-gas-turbine-request-over-staggering/831015/",
+      "normalized_url": "https://www.utilitydive.com/news/north-carolina-regulators-deny-dukes-gas-turbine-request-over-staggering/831015",
+      "title": "North Carolina regulators deny Duke Energy gas turbine request over 'staggering' cost, uncertain need",
+      "normalized_title": "north carolina regulators deny duke energy gas turbine request over staggering cost uncertain need",
+      "published_on": "2026-09-23",
+      "primary_entity": "North Carolina Utilities Commission / Duke Energy",
+      "event_fingerprint": "ncuc-denies-duke-energy-gas-turbine-data-centers"
     }
   ],
   "version": 2,
