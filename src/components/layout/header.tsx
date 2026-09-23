@@ -105,6 +105,7 @@ const Header = ({ navigationData, className }: HeaderProps) => {
               align="end"
               navigationData={navigationData}
               activeSection={activeSection}
+              tooltip="Menu"
               trigger={
                 <Button variant="outline" size="icon" className="lg:hidden">
                   <MenuIcon />
