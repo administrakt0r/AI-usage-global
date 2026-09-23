@@ -3957,6 +3957,27 @@ export const blogPosts: BlogPost[] = [
       "CBRE",
     ],
   }),
+  createPost({
+    id: 253,
+    slug: "north-carolina-rejects-duke-energy-gas-turbine-over-staggering-costs",
+    title: "North Carolina Rejects Duke Energy Gas Turbine Over Staggering Costs",
+    description:
+      "North Carolina regulators reject Duke Energy Progress's 255 MW gas turbine expansion over staggering costs and unproven compliance with data center ratepayer protections.",
+    imageAlt: "Digital representation of utility power generation infrastructure and regulatory oversight",
+    publishedOn: "2026-09-23",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "North Carolina Utilities Commission",
+      "Duke Energy Progress",
+      "Ratepayer Protection Pledge",
+      "255 MW gas turbine",
+      "Smith Energy Complex",
+      "data center power demand",
+      "utility ratepayer protection",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
