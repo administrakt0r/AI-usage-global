@@ -3998,6 +3998,26 @@ export const blogPosts: BlogPost[] = [
       "UK data centers",
     ],
   }),
+  createPost({
+    id: 255,
+    slug: "oracle-issues-force-majeure-notice-project-jupiter",
+    title: "Oracle Issues Force Majeure Notice for $165 Billion AI Campus",
+    description: "Oracle issues a force majeure notice to Blue Owl Capital over its 2.5 GW New Mexico AI data center campus following state natural gas pipeline permit rejections.",
+    imageAlt: "Digital representation of a hyperscale AI data center campus and energy grid infrastructure in New Mexico",
+    publishedOn: "2026-09-24",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Oracle",
+      "Project Jupiter",
+      "force majeure",
+      "Blue Owl Capital",
+      "Stack Infrastructure",
+      "gas pipeline permit rejection",
+      "New Mexico data center",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
