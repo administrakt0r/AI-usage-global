@@ -3978,6 +3978,26 @@ export const blogPosts: BlogPost[] = [
       "utility ratepayer protection",
     ],
   }),
+  createPost({
+    id: 254,
+    slug: "openai-and-anthropic-seek-20-30mw-data-center-deployments",
+    title: "OpenAI and Anthropic seek 20-30MW data center deployments",
+    description: "OpenAI and Anthropic negotiate 20–30 MW regional data center capacity deals across the US, UK, and Nordics to expand AI inference infrastructure.",
+    imageAlt: "Digital representation of regional data centers and power grid capacity for AI inference",
+    publishedOn: "2026-09-23",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "OpenAI",
+      "Anthropic",
+      "20-30MW data centers",
+      "AI inference capacity",
+      "regional compute",
+      "Nordic data centers",
+      "UK data centers",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
