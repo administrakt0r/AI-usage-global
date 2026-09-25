@@ -2285,6 +2285,15 @@
       "published_on": "2026-09-24",
       "primary_entity": "Oracle / Blue Owl Capital",
       "event_fingerprint": "oracle-project-jupiter-force-majeure"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/doe-unveils-19bn-in-funding-for-31-grid-upgrade-projects-to-speed-data-center-connections/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/doe-unveils-19bn-in-funding-for-31-grid-upgrade-projects-to-speed-data-center-connections",
+      "title": "DOE unveils $1.9bn in funding for 31 grid upgrade projects to speed data center connections",
+      "normalized_title": "doe unveils 1 9bn in funding for 31 grid upgrade projects to speed data center connections",
+      "published_on": "2026-09-25",
+      "primary_entity": "US Department of Energy",
+      "event_fingerprint": "doe-spark-grid-upgrade-funding"
     }
   ],
   "version": 2,

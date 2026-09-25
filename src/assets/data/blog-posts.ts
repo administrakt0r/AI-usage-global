@@ -4018,6 +4018,26 @@ export const blogPosts: BlogPost[] = [
       "New Mexico data center",
     ],
   }),
+  createPost({
+    id: 256,
+    slug: "doe-spark-grid-upgrade-funding",
+    title: "DOE unveils $1.9bn in funding for 31 grid upgrade projects to speed data center connections",
+    description: "The US Department of Energy awards $1.9B under the SPARK initiative to upgrade 31 grid projects and unlock 23 GW of capacity for AI data centers.",
+    imageAlt: "Digital representation of high-voltage transmission lines and energy grid upgrades for AI data centers",
+    publishedOn: "2026-09-25",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Department of Energy",
+      "SPARK initiative",
+      "grid capacity",
+      "transmission upgrades",
+      "advanced conductors",
+      "data center power demand",
+      "speed to power",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
