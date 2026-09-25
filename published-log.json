@@ -2294,6 +2294,15 @@
       "published_on": "2026-09-25",
       "primary_entity": "US Department of Energy",
       "event_fingerprint": "doe-spark-grid-upgrade-funding"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/northern-virginias-prince-william-county-puts-controls-on-new-data-center-projects/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/northern-virginias-prince-william-county-puts-controls-on-new-data-center-projects",
+      "title": "Northern Virginia's Prince William County puts controls on new data center projects",
+      "normalized_title": "northern virginias prince william county puts controls on new data center projects",
+      "published_on": "2026-09-25",
+      "primary_entity": "Prince William County Board of Supervisors",
+      "event_fingerprint": "prince-william-county-data-center-overlay-reduction"
     }
   ],
   "version": 2,
