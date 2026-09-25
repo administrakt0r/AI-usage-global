@@ -4038,6 +4038,26 @@ export const blogPosts: BlogPost[] = [
       "speed to power",
     ],
   }),
+  createPost({
+    id: 257,
+    slug: "prince-william-county-curbs-data-center-overlay",
+    title: "Prince William County Curbs By-Right AI Data Center Zoning",
+    description: "Prince William County supervisors vote to reduce the data center opportunity zone overlay district by two-thirds from 9,700 to 3,500 acres amid water and power concerns.",
+    imageAlt: "Aerial view of digital infrastructure overlay district zoning maps in Prince William County",
+    publishedOn: "2026-09-25",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Prince William County",
+      "overlay district",
+      "by-right zoning",
+      "data center power consumption",
+      "water usage",
+      "Northern Virginia",
+      "zoning restrictions",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
