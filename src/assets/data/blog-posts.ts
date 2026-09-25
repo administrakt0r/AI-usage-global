@@ -23,7 +23,13 @@ export const slugify = (value: string) =>
 
 type SourcePost = Omit<
   BlogPost,
-  "author" | "avatarUrl" | "imageUrl" | "socialImageUrl" | "slug" | "contentSlug" | "category"
+  | "author"
+  | "avatarUrl"
+  | "imageUrl"
+  | "socialImageUrl"
+  | "slug"
+  | "contentSlug"
+  | "category"
 > & {
   slug: string;
   category?: typeof AI_USAGE;
@@ -115,7 +121,8 @@ export const blogPosts: BlogPost[] = [
     title: "DeepSeek V4 Slashes Inference Costs with New Architecture",
     description:
       "DeepSeek V4 introduces hybrid attention mechanisms and 4-bit precision to reduce KV cache memory usage by up to 13x, significantly lowering inference costs.",
-    imageAlt: "Abstract representation of neural network architecture and data compression",
+    imageAlt:
+      "Abstract representation of neural network architecture and data compression",
     publishedOn: "2026-04-24",
     readTime: 3,
     featured: false,
@@ -169,7 +176,8 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 7,
     slug: "ai-data-center-energy-bill-spikes",
-    title: "AI Data Centers Drive Double-Digit Spikes in US Residential Energy Bills",
+    title:
+      "AI Data Centers Drive Double-Digit Spikes in US Residential Energy Bills",
     description:
       "New data shows AI data center expansion is driving up residential utility bills in 13 states, with some areas seeing costs increase by up to 267% over five years.",
     imageAlt: "Residential power lines and data center infrastructure",
@@ -184,7 +192,8 @@ export const blogPosts: BlogPost[] = [
     title: "Nevada's NV Energy Faces Massive Power Demand from AI Data Centers",
     description:
       "NV Energy reports that proposed AI data centers will require three times the electricity of Las Vegas, threatening the state's 50% renewable energy target by 2030.",
-    imageAlt: "Aerial view of solar panels and data center infrastructure in the Nevada desert",
+    imageAlt:
+      "Aerial view of solar panels and data center infrastructure in the Nevada desert",
     publishedOn: "2026-04-27",
     readTime: 3,
     featured: false,
@@ -196,7 +205,8 @@ export const blogPosts: BlogPost[] = [
     title: "Oracle to Power Project Jupiter with 2.45 GW of Bloom Fuel Cells",
     description:
       "Oracle and BorderPlex pivot to a massive water-efficient Bloom fuel cell microgrid to power their New Mexico AI campus, bypassing grid constraints.",
-    imageAlt: "Aerial view of a data center campus with fuel cell infrastructure",
+    imageAlt:
+      "Aerial view of a data center campus with fuel cell infrastructure",
     publishedOn: "2026-04-28",
     readTime: 3,
     featured: false,
@@ -244,7 +254,8 @@ export const blogPosts: BlogPost[] = [
     title: "Microsoft Lifts 2026 AI Capital Expenditure to $190 Billion",
     description:
       "Microsoft increases its 2026 capital expenditure to $190 billion, citing a $25 billion surge in component costs as memory and storage prices triple.",
-    imageAlt: "Digital representation of data center hardware and capital investment",
+    imageAlt:
+      "Digital representation of data center hardware and capital investment",
     publishedOn: "2026-05-02",
     readTime: 3,
     featured: false,
@@ -268,7 +279,8 @@ export const blogPosts: BlogPost[] = [
     title: "North Carolina Bill Targets AI Data Center Resource Costs",
     description:
       "A new North Carolina bill proposes requiring AI data centers over 40 MW to pay full infrastructure costs and install 25% on-site clean generation.",
-    imageAlt: "Digital representation of a data center and energy grid infrastructure in North Carolina",
+    imageAlt:
+      "Digital representation of a data center and energy grid infrastructure in North Carolina",
     publishedOn: "2026-05-04",
     readTime: 3,
     featured: false,
@@ -280,7 +292,8 @@ export const blogPosts: BlogPost[] = [
     title: "OpenAI Projects $50 Billion Compute Spend for 2026",
     description:
       "OpenAI expects to spend $50 billion on computing power by the end of 2026, as Greg Brockman reveals massive infrastructure commitments tied to billions in partner investments.",
-    imageAlt: "Digital representation of massive data center infrastructure and capital flow",
+    imageAlt:
+      "Digital representation of massive data center infrastructure and capital flow",
     publishedOn: "2026-05-05",
     readTime: 3,
     featured: false,
@@ -292,7 +305,8 @@ export const blogPosts: BlogPost[] = [
     title: "Texas Data Centers Projected to Use 9% of State Water by 2040",
     description:
       "A new UT Austin study warns that booming AI data center infrastructure could account for 9% of Texas water use by 2040, up from less than 1% today.",
-    imageAlt: "Data center server racks and water cooling infrastructure representation in Texas",
+    imageAlt:
+      "Data center server racks and water cooling infrastructure representation in Texas",
     publishedOn: "2026-05-06",
     readTime: 3,
     featured: false,
@@ -304,7 +318,8 @@ export const blogPosts: BlogPost[] = [
     title: "US Communities Unprepared for AI Data Center Resource Demands",
     description:
       "A new Washington & Jefferson College study warns that AI infrastructure growth is outpacing local governance, threatening power grids and watersheds.",
-    imageAlt: "Digital representation of a data center facility impacting local environment and resources",
+    imageAlt:
+      "Digital representation of a data center facility impacting local environment and resources",
     publishedOn: "2026-05-07",
     readTime: 3,
     featured: false,
@@ -316,7 +331,8 @@ export const blogPosts: BlogPost[] = [
     title: "Florida Law Blocks AI Data Center Costs for Residential Ratepayers",
     description:
       "Governor Ron DeSantis signs SB 484 to shield Florida utility customers from subsidizing the massive infrastructure and energy costs of hyper-scale AI data centers.",
-    imageAlt: "Digital representation of a data center and power lines in Florida",
+    imageAlt:
+      "Digital representation of a data center and power lines in Florida",
     publishedOn: "2026-05-08",
     readTime: 3,
     featured: false,
@@ -328,7 +344,8 @@ export const blogPosts: BlogPost[] = [
     title: "O'Leary's Massive Utah AI Data Center Project Wins Key Approval",
     description:
       "Utah's Box Elder County approves the 40,000-acre Stratos Project Area, a hyperscale AI data center campus projected to consume more than twice the electricity of the entire state.",
-    imageAlt: "Digital representation of a massive data center campus in a rural Utah landscape",
+    imageAlt:
+      "Digital representation of a massive data center campus in a rural Utah landscape",
     publishedOn: "2026-05-09",
     readTime: 3,
     featured: false,
@@ -340,7 +357,8 @@ export const blogPosts: BlogPost[] = [
     title: "Georgia AI Data Center Water Dispute Reveals Infrastructure Strain",
     description:
       "A QTS data center campus in Georgia consumed 29 million gallons of unaccounted-for water during construction, highlighting the hidden resource costs of AI infrastructure.",
-    imageAlt: "Digital representation of a data center and water infrastructure in Georgia",
+    imageAlt:
+      "Digital representation of a data center and water infrastructure in Georgia",
     publishedOn: "2026-05-10",
     readTime: 3,
     featured: false,
@@ -352,7 +370,8 @@ export const blogPosts: BlogPost[] = [
     title: "Meta to Build $1B Sustainable AI Data Center in Tulsa",
     description:
       "Meta announces a $1 billion AI data center in Oklahoma featuring 1,500MW of clean energy and a 50-million-gallon annual water restoration partnership.",
-    imageAlt: "Digital representation of a sustainable data center campus and agricultural water management in Tulsa",
+    imageAlt:
+      "Digital representation of a sustainable data center campus and agricultural water management in Tulsa",
     publishedOn: "2026-05-11",
     readTime: 3,
     featured: false,
@@ -361,10 +380,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 23,
     slug: "microsoft-wyoming-datacenter-expansion",
-    title: "Microsoft Wyoming Data Center Expansion Targets Water Replenishment",
+    title:
+      "Microsoft Wyoming Data Center Expansion Targets Water Replenishment",
     description:
       "Microsoft acquires 3,200 acres in Wyoming for an AI data center expansion, committing to 566 million gallons of water replenishment and carbon-free energy.",
-    imageAlt: "Digital representation of a hyperscale data center campus in the Wyoming landscape",
+    imageAlt:
+      "Digital representation of a hyperscale data center campus in the Wyoming landscape",
     publishedOn: "2026-05-12",
     readTime: 3,
     featured: false,
@@ -376,7 +397,8 @@ export const blogPosts: BlogPost[] = [
     title: "Data Centers Now Consume 6% of UK and US Electricity",
     description:
       "A new IDCA report reveals that AI-driven demand has pushed data center electricity usage to 6% in the UK and US, sparking concerns over grid stability and social backlash.",
-    imageAlt: "Digital representation of data center infrastructure and national power grid strain",
+    imageAlt:
+      "Digital representation of data center infrastructure and national power grid strain",
     publishedOn: "2026-05-13",
     readTime: 3,
     featured: false,
@@ -388,7 +410,8 @@ export const blogPosts: BlogPost[] = [
     title: "California Data Centers Expand into Water-Stressed Communities",
     description:
       "A new Next 10 report finds that California's expanding data center industry is moving into regions with high water scarcity and social vulnerability, threatening local resources.",
-    imageAlt: "Digital representation of a data center facility in a water-stressed California landscape",
+    imageAlt:
+      "Digital representation of a data center facility in a water-stressed California landscape",
     publishedOn: "2026-05-14",
     readTime: 3,
     featured: false,
@@ -400,7 +423,8 @@ export const blogPosts: BlogPost[] = [
     title: "Reno Imposes Nevada's First AI Data Center Moratorium",
     description:
       "The Reno City Council votes 6-1 to pause new AI data center applications, citing concerns over massive electricity and water consumption in the high-desert region.",
-    imageAlt: "Digital representation of a data center moratorium and resource conservation in Reno, Nevada",
+    imageAlt:
+      "Digital representation of a data center moratorium and resource conservation in Reno, Nevada",
     publishedOn: "2026-05-15",
     readTime: 3,
     featured: false,
@@ -412,7 +436,8 @@ export const blogPosts: BlogPost[] = [
     title: "New York Bill Proposes Statewide AI Data Center Moratorium",
     description:
       "A new New York Senate bill seeks a statewide freeze on AI data center construction to study impacts on a grid facing a projected 9,000 MW demand surge.",
-    imageAlt: "Digital representation of a data center moratorium and energy grid in New York",
+    imageAlt:
+      "Digital representation of a data center moratorium and energy grid in New York",
     publishedOn: "2026-05-16",
     readTime: 3,
     featured: false,
@@ -424,7 +449,8 @@ export const blogPosts: BlogPost[] = [
     title: "PPL Utilities Reports Massive 28 GW AI Data Center Pipeline",
     description:
       "PPL Utilities reports its advanced stage AI data center pipeline in Pennsylvania has grown to 28.3 GW, as the company explores nuclear and gas turbine solutions to meet demand.",
-    imageAlt: "Digital representation of a massive data center pipeline and power grid infrastructure for PPL Utilities",
+    imageAlt:
+      "Digital representation of a massive data center pipeline and power grid infrastructure for PPL Utilities",
     publishedOn: "2026-05-17",
     readTime: 3,
     featured: false,
@@ -436,7 +462,8 @@ export const blogPosts: BlogPost[] = [
     title: "Federal Bill Proposed to Track AI Data Center Water and Power Use",
     description:
       "Rep. Chip Roy introduces the POWER Act to mandate annual resource consumption reporting for large-scale AI data centers approved under expedited permitting.",
-    imageAlt: "Digital representation of federal oversight and resource tracking for AI data center infrastructure",
+    imageAlt:
+      "Digital representation of federal oversight and resource tracking for AI data center infrastructure",
     publishedOn: "2026-05-23",
     readTime: 3,
     featured: false,
@@ -445,10 +472,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 30,
     slug: "vancouver-ai-datacenter-protest",
-    title: "Protesters Rally in Vancouver Against Planned Telus AI Data Centers",
+    title:
+      "Protesters Rally in Vancouver Against Planned Telus AI Data Centers",
     description:
       "Hundreds march through Vancouver to protest new AI data centers, raising concerns over water and energy consumption as the region faces Stage 2 water restrictions.",
-    imageAlt: "Digital representation of protesters and data center infrastructure in Vancouver",
+    imageAlt:
+      "Digital representation of protesters and data center infrastructure in Vancouver",
     publishedOn: "2026-05-24",
     readTime: 3,
     featured: false,
@@ -460,7 +489,8 @@ export const blogPosts: BlogPost[] = [
     title: "Tekcapital Launches Geothermal AI Data Center Startup Vesari",
     description:
       "Tekcapital forms Vesari Inc. to develop off-grid, geothermal-powered AI data centers using LEO satellite connectivity to bypass grid constraints.",
-    imageAlt: "Digital representation of a geothermal data center and satellite connectivity",
+    imageAlt:
+      "Digital representation of a geothermal data center and satellite connectivity",
     publishedOn: "2026-05-25",
     readTime: 3,
     featured: false,
@@ -472,7 +502,8 @@ export const blogPosts: BlogPost[] = [
     title: "AI Growth Drives Sustainability Shift in 2026 Environmental Report",
     description:
       "A new Structure Research report shows AI infrastructure pushed global data center energy consumption to 1.23% in 2025, triggering a massive shift toward liquid cooling and carbon-free power.",
-    imageAlt: "Digital representation of sustainable AI infrastructure and energy efficiency metrics",
+    imageAlt:
+      "Digital representation of sustainable AI infrastructure and energy efficiency metrics",
     publishedOn: "2026-05-26",
     readTime: 3,
     featured: false,
@@ -482,8 +513,10 @@ export const blogPosts: BlogPost[] = [
     id: 33,
     slug: "schneider-electric-ai-water-free-cooling",
     title: "Schneider Electric: AI Data Centers Can Operate Water-Free",
-    description: "Schneider Electric reveals that high-density AI data centers can eliminate external water draw using closed-loop liquid cooling, potentially cutting usage by 50%.",
-    imageAlt: "Digital representation of a water-efficient AI data center with closed-loop cooling",
+    description:
+      "Schneider Electric reveals that high-density AI data centers can eliminate external water draw using closed-loop liquid cooling, potentially cutting usage by 50%.",
+    imageAlt:
+      "Digital representation of a water-efficient AI data center with closed-loop cooling",
     publishedOn: "2026-05-27",
     readTime: 3,
     featured: false,
@@ -492,9 +525,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 34,
     slug: "nj-ai-datacenter-regulation-plan",
-    title: "New Jersey Announces Mandatory Resource Reporting for AI Data Centers",
-    description: "Governor Mikie Sherrill's new four-point plan requires AI data centers to report water and energy usage while securing independent, off-grid power sources.",
-    imageAlt: "Digital representation of AI data center regulation and independent power infrastructure in New Jersey",
+    title:
+      "New Jersey Announces Mandatory Resource Reporting for AI Data Centers",
+    description:
+      "Governor Mikie Sherrill's new four-point plan requires AI data centers to report water and energy usage while securing independent, off-grid power sources.",
+    imageAlt:
+      "Digital representation of AI data center regulation and independent power infrastructure in New Jersey",
     publishedOn: "2026-05-28",
     readTime: 3,
     featured: false,
@@ -510,9 +546,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 35,
     slug: "china-ai-energy-advantage-data-centers",
-    title: "China’s Energy Advantage Reshapes the Global AI Infrastructure Race",
-    description: "China leverages its massive lead in renewable energy and rapid grid expansion to build a significant cost advantage in powering hyperscale AI data centers.",
-    imageAlt: "Digital representation of renewable energy infrastructure and AI data centers in China",
+    title:
+      "China’s Energy Advantage Reshapes the Global AI Infrastructure Race",
+    description:
+      "China leverages its massive lead in renewable energy and rapid grid expansion to build a significant cost advantage in powering hyperscale AI data centers.",
+    imageAlt:
+      "Digital representation of renewable energy infrastructure and AI data centers in China",
     publishedOn: "2026-05-29",
     readTime: 4,
     featured: false,
@@ -529,8 +568,10 @@ export const blogPosts: BlogPost[] = [
     id: 36,
     slug: "ai-datacenter-water-infrastructure-constraints",
     title: "Water Scarcity Emerges as Critical Constraint for AI Data Centers",
-    description: "High-density AI workloads are pushing municipal water systems to their limits, with U.S. data centers projected to require up to 1.45 billion gallons of new water capacity per day by 2030.",
-    imageAlt: "Digital representation of a data center and water infrastructure constraints",
+    description:
+      "High-density AI workloads are pushing municipal water systems to their limits, with U.S. data centers projected to require up to 1.45 billion gallons of new water capacity per day by 2030.",
+    imageAlt:
+      "Digital representation of a data center and water infrastructure constraints",
     publishedOn: "2026-05-29",
     readTime: 3,
     featured: false,
@@ -540,8 +581,10 @@ export const blogPosts: BlogPost[] = [
     id: 37,
     slug: "louisiana-ai-datacenter-energy-costs",
     title: "AI Data Centers Put Louisiana Energy Costs in the Spotlight",
-    description: "A new report warns that 7.2 GW of AI-driven power demand could shift massive infrastructure costs to Louisiana residential ratepayers.",
-    imageAlt: "Digital representation of a data center and power grid infrastructure in Louisiana",
+    description:
+      "A new report warns that 7.2 GW of AI-driven power demand could shift massive infrastructure costs to Louisiana residential ratepayers.",
+    imageAlt:
+      "Digital representation of a data center and power grid infrastructure in Louisiana",
     publishedOn: "2026-05-30",
     readTime: 3,
     featured: false,
@@ -557,9 +600,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 38,
     slug: "pennsylvania-grid-standards-ai-data-centers",
-    title: "Pennsylvania Unveils GRID Standards to Curb AI Data Center Energy Costs",
-    description: "Governor Shapiro's new GRID standards mandate a 'Bring Your Own Energy' model for AI data centers to protect Pennsylvania ratepayers from rising electricity costs.",
-    imageAlt: "Digital representation of data center infrastructure and energy regulation in Pennsylvania",
+    title:
+      "Pennsylvania Unveils GRID Standards to Curb AI Data Center Energy Costs",
+    description:
+      "Governor Shapiro's new GRID standards mandate a 'Bring Your Own Energy' model for AI data centers to protect Pennsylvania ratepayers from rising electricity costs.",
+    imageAlt:
+      "Digital representation of data center infrastructure and energy regulation in Pennsylvania",
     publishedOn: "2026-05-30",
     readTime: 3,
     featured: false,
@@ -569,8 +615,10 @@ export const blogPosts: BlogPost[] = [
     id: 39,
     slug: "softbank-france-5gw-ai-data-center",
     title: "SoftBank to Invest €75 Billion in 5 GW French AI Data Centers",
-    description: "SoftBank Group commits €75 billion to develop 5 GW of AI data center capacity in France, marking one of the largest infrastructure investments in European AI history.",
-    imageAlt: "Digital representation of massive AI data center infrastructure and energy grids in France",
+    description:
+      "SoftBank Group commits €75 billion to develop 5 GW of AI data center capacity in France, marking one of the largest infrastructure investments in European AI history.",
+    imageAlt:
+      "Digital representation of massive AI data center infrastructure and energy grids in France",
     publishedOn: "2026-05-31",
     readTime: 3,
     featured: false,
@@ -587,8 +635,10 @@ export const blogPosts: BlogPost[] = [
     id: 40,
     slug: "denmark-ai-grid-rationing",
     title: "Denmark Rations Grid Access as AI Buildout Floods Nordic Systems",
-    description: "Denmark's transmission operator Energinet halts new large-load grid agreements as AI-driven power demand reaches 15 GW, forcing a shift to maturity-based rationing.",
-    imageAlt: "Aerial view of a data center in Denmark and electrical grid infrastructure",
+    description:
+      "Denmark's transmission operator Energinet halts new large-load grid agreements as AI-driven power demand reaches 15 GW, forcing a shift to maturity-based rationing.",
+    imageAlt:
+      "Aerial view of a data center in Denmark and electrical grid infrastructure",
     publishedOn: "2026-05-31",
     readTime: 3,
     featured: false,
@@ -605,8 +655,10 @@ export const blogPosts: BlogPost[] = [
     id: 41,
     slug: "iberdrola-echelon-ai-datacenter-spain",
     title: "Iberdrola and Echelon Launch €2 Billion AI Data Center Venture",
-    description: "Iberdrola and Echelon Data Centres form a €2 billion joint venture to develop 700 MW of AI-ready data center capacity in Spain, powered by 24/7 renewable energy.",
-    imageAlt: "Digital representation of renewable energy infrastructure and AI data centers in Spain",
+    description:
+      "Iberdrola and Echelon Data Centres form a €2 billion joint venture to develop 700 MW of AI-ready data center capacity in Spain, powered by 24/7 renewable energy.",
+    imageAlt:
+      "Digital representation of renewable energy infrastructure and AI data centers in Spain",
     publishedOn: "2026-06-01",
     readTime: 3,
     featured: false,
@@ -616,8 +668,10 @@ export const blogPosts: BlogPost[] = [
     id: 42,
     slug: "stargate-michigan-infrastructure-costs",
     title: "Stargate Project: Michigan Data Center Costs May Top $56 Billion",
-    description: "Oracle and OpenAI's Michigan 'Stargate' project faces massive costs as hardware and networking equipment add up to $40 billion to the $16 billion construction budget.",
-    imageAlt: "Digital representation of a massive data center campus and high-density AI infrastructure in Michigan",
+    description:
+      "Oracle and OpenAI's Michigan 'Stargate' project faces massive costs as hardware and networking equipment add up to $40 billion to the $16 billion construction budget.",
+    imageAlt:
+      "Digital representation of a massive data center campus and high-density AI infrastructure in Michigan",
     publishedOn: "2026-06-02",
     readTime: 3,
     featured: false,
@@ -634,8 +688,10 @@ export const blogPosts: BlogPost[] = [
     id: 43,
     slug: "monterey-park-data-center-prohibition-measure",
     title: "Monterey Park Voters Decide on Landmark Data Center Prohibition",
-    description: "Voters in Monterey Park, California, head to the polls to decide on Measure NDC, which would prohibit large-scale data center construction due to resource concerns.",
-    imageAlt: "Digital representation of a community vote on data center infrastructure in Monterey Park",
+    description:
+      "Voters in Monterey Park, California, head to the polls to decide on Measure NDC, which would prohibit large-scale data center construction due to resource concerns.",
+    imageAlt:
+      "Digital representation of a community vote on data center infrastructure in Monterey Park",
     publishedOn: "2026-06-02",
     readTime: 3,
     featured: false,
@@ -644,9 +700,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 44,
     slug: "un-report-ai-water-land-footprint",
-    title: "UN Report Warns AI Water Use Could Rival Needs of 1.3 Billion People",
-    description: "A new United Nations study reveals AI data centers could consume water equal to the needs of 1.3 billion people by 2030, while land and e-waste footprints also surge.",
-    imageAlt: "Digital representation of global AI infrastructure and its environmental resource footprint",
+    title:
+      "UN Report Warns AI Water Use Could Rival Needs of 1.3 Billion People",
+    description:
+      "A new United Nations study reveals AI data centers could consume water equal to the needs of 1.3 billion people by 2030, while land and e-waste footprints also surge.",
+    imageAlt:
+      "Digital representation of global AI infrastructure and its environmental resource footprint",
     publishedOn: "2026-06-03",
     readTime: 4,
     featured: false,
@@ -656,8 +715,10 @@ export const blogPosts: BlogPost[] = [
     id: 45,
     slug: "duke-energy-ai-power-demand-surge",
     title: "Duke Energy CEO Reports 10x Surge in AI-Driven Power Demand",
-    description: "Duke Energy reveals that AI and data centers are driving power demand growth at 10 times historic rates, prompting a record $103 billion infrastructure investment.",
-    imageAlt: "Digital representation of a data center and electrical grid infrastructure for Duke Energy",
+    description:
+      "Duke Energy reveals that AI and data centers are driving power demand growth at 10 times historic rates, prompting a record $103 billion infrastructure investment.",
+    imageAlt:
+      "Digital representation of a data center and electrical grid infrastructure for Duke Energy",
     publishedOn: "2026-06-04",
     readTime: 3,
     featured: false,
@@ -666,9 +727,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 46,
     slug: "fingermotion-blueflare-canada-btm-ai",
-    title: "FingerMotion and BlueFlare Partner for BTM AI Infrastructure in Canada",
-    description: "FingerMotion and BlueFlare sign an MOU to develop behind-the-meter, natural gas-powered AI compute infrastructure across Western Canada to bypass grid constraints.",
-    imageAlt: "Digital representation of a modular AI inference site and natural gas power infrastructure in Western Canada",
+    title:
+      "FingerMotion and BlueFlare Partner for BTM AI Infrastructure in Canada",
+    description:
+      "FingerMotion and BlueFlare sign an MOU to develop behind-the-meter, natural gas-powered AI compute infrastructure across Western Canada to bypass grid constraints.",
+    imageAlt:
+      "Digital representation of a modular AI inference site and natural gas power infrastructure in Western Canada",
     publishedOn: "2026-06-04",
     readTime: 3,
     featured: false,
@@ -678,8 +742,10 @@ export const blogPosts: BlogPost[] = [
     id: 47,
     slug: "pennsylvania-pjm-grid-exit-study",
     title: "Pennsylvania House Unanimously Votes to Study PJM Grid Exit",
-    description: "The Pennsylvania House orders a study to evaluate exiting the PJM Interconnection as AI-driven power demand and infrastructure costs strain the 13-state grid.",
-    imageAlt: "Digital representation of the PJM electrical grid and data center infrastructure in Pennsylvania",
+    description:
+      "The Pennsylvania House orders a study to evaluate exiting the PJM Interconnection as AI-driven power demand and infrastructure costs strain the 13-state grid.",
+    imageAlt:
+      "Digital representation of the PJM electrical grid and data center infrastructure in Pennsylvania",
     publishedOn: "2026-06-05",
     readTime: 3,
     featured: false,
@@ -689,8 +755,10 @@ export const blogPosts: BlogPost[] = [
     id: 48,
     slug: "seattle-ai-datacenter-moratorium",
     title: "Seattle Enacts One-Year Moratorium on Large AI Data Centers",
-    description: "The Seattle City Council committee unanimously approves a one-year pause on new data center projects to study the impact of a proposed 369 MW compute load on the city's grid.",
-    imageAlt: "Digital representation of the Seattle skyline and data center infrastructure",
+    description:
+      "The Seattle City Council committee unanimously approves a one-year pause on new data center projects to study the impact of a proposed 369 MW compute load on the city's grid.",
+    imageAlt:
+      "Digital representation of the Seattle skyline and data center infrastructure",
     publishedOn: "2026-06-05",
     readTime: 3,
     featured: false,
@@ -700,8 +768,10 @@ export const blogPosts: BlogPost[] = [
     id: 49,
     slug: "illinois-suspends-ai-datacenter-tax-breaks",
     title: "Illinois Governor Suspends AI Data Center Tax Breaks",
-    description: "Governor JB Pritzker announces a two-year pause on data center tax incentives to protect Illinois ratepayers and natural resources from AI-driven demand.",
-    imageAlt: "Digital representation of a data center moratorium and energy grid in Illinois",
+    description:
+      "Governor JB Pritzker announces a two-year pause on data center tax incentives to protect Illinois ratepayers and natural resources from AI-driven demand.",
+    imageAlt:
+      "Digital representation of a data center moratorium and energy grid in Illinois",
     publishedOn: "2026-06-06",
     readTime: 3,
     featured: false,
@@ -713,7 +783,8 @@ export const blogPosts: BlogPost[] = [
     title: "O'Leary Agrees to Cut Stratos AI Data Center Area in Half",
     description:
       "Celebrity investor Kevin O'Leary reduces the planned footprint of Utah's Stratos Project from 40,000 to 20,000 acres following intense community and legislative backlash.",
-    imageAlt: "Digital representation of a reduced data center project footprint and rural landscape in Utah",
+    imageAlt:
+      "Digital representation of a reduced data center project footprint and rural landscape in Utah",
     publishedOn: "2026-06-06",
     readTime: 3,
     featured: false,
@@ -725,7 +796,8 @@ export const blogPosts: BlogPost[] = [
     title: "Canada Faces Surging AI Data Center Pipeline and Growing Backlash",
     description:
       "A new York University study reveals 96 proposed AI data center facilities in Canada, sparking nationwide protests over land, water, and energy use.",
-    imageAlt: "Digital representation of a data center protest and infrastructure pipeline in Canada",
+    imageAlt:
+      "Digital representation of a data center protest and infrastructure pipeline in Canada",
     publishedOn: "2026-06-07",
     readTime: 3,
     featured: false,
@@ -734,9 +806,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 52,
     slug: "ai-water-usage-264-billion-gallons-2025",
-    title: "AI Data Centers' Water Consumption Breaks 264 Billion Gallons in 2025",
-    description: "New data shows AI infrastructure consumed 264 billion gallons of water in the US during 2025 as a massive drought affects 63% of the country.",
-    imageAlt: "Digital representation of a data center and water consumption during a drought",
+    title:
+      "AI Data Centers' Water Consumption Breaks 264 Billion Gallons in 2025",
+    description:
+      "New data shows AI infrastructure consumed 264 billion gallons of water in the US during 2025 as a massive drought affects 63% of the country.",
+    imageAlt:
+      "Digital representation of a data center and water consumption during a drought",
     publishedOn: "2026-06-07",
     readTime: 4,
     featured: false,
@@ -746,8 +821,10 @@ export const blogPosts: BlogPost[] = [
     id: 53,
     slug: "google-spacex-ai-compute-deal",
     title: "Google to Pay SpaceX $920 Million Monthly for AI Compute Capacity",
-    description: "Google's Alphabet agrees to a $30 billion deal with SpaceX for access to 110,000 Nvidia GPUs and massive AI compute infrastructure.",
-    imageAlt: "Digital representation of a massive AI compute cluster and corporate logos of Google and SpaceX",
+    description:
+      "Google's Alphabet agrees to a $30 billion deal with SpaceX for access to 110,000 Nvidia GPUs and massive AI compute infrastructure.",
+    imageAlt:
+      "Digital representation of a massive AI compute cluster and corporate logos of Google and SpaceX",
     publishedOn: "2026-06-08",
     readTime: 3,
     featured: false,
@@ -759,7 +836,8 @@ export const blogPosts: BlogPost[] = [
     title: "Majority of US AI Data Centers Planned for Drought-Hit Areas",
     description:
       "A new analysis reveals that 64% of planned US AI data centers are located in drought-stricken regions, intensifying competition for water resources.",
-    imageAlt: "Digital representation of a data center and drought-stricken landscape in the United States",
+    imageAlt:
+      "Digital representation of a data center and drought-stricken landscape in the United States",
     publishedOn: "2026-06-08",
     readTime: 4,
     featured: false,
@@ -768,9 +846,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 55,
     slug: "kansas-ai-datacenter-water-usage",
-    title: "Proposed Kansas AI Data Center Projected to Save 2.4 Billion Gallons of Water",
-    description: "Triple Oak Power's Finney County project claims an 80% reduction in water usage by replacing existing crop irrigation with high-density AI infrastructure.",
-    imageAlt: "Digital representation of a data center in a Kansas agricultural landscape",
+    title:
+      "Proposed Kansas AI Data Center Projected to Save 2.4 Billion Gallons of Water",
+    description:
+      "Triple Oak Power's Finney County project claims an 80% reduction in water usage by replacing existing crop irrigation with high-density AI infrastructure.",
+    imageAlt:
+      "Digital representation of a data center in a Kansas agricultural landscape",
     publishedOn: "2026-06-09",
     readTime: 3,
     featured: false,
@@ -780,8 +861,10 @@ export const blogPosts: BlogPost[] = [
     id: 56,
     slug: "ferveret-nuclear-inspired-ai-cooling",
     title: "MIT Startup Unveils Water-Free Cooling for AI Data Centers",
-    description: "MIT-born startup Ferveret launches a modular, water-free cooling system using nuclear-inspired subcooled boiling to boost AI power efficiency by 35%.",
-    imageAlt: "Digital representation of a modular AI server box with micro-bubble cooling technology",
+    description:
+      "MIT-born startup Ferveret launches a modular, water-free cooling system using nuclear-inspired subcooled boiling to boost AI power efficiency by 35%.",
+    imageAlt:
+      "Digital representation of a modular AI server box with micro-bubble cooling technology",
     publishedOn: "2026-06-10",
     readTime: 3,
     featured: false,
@@ -791,8 +874,10 @@ export const blogPosts: BlogPost[] = [
     id: 57,
     slug: "switch-9-5-billion-ai-infrastructure-debt",
     title: "Switch Secures $9.5B Debt Facility for AI Data Center Expansion",
-    description: "Data center operator Switch has expanded its debt facility to $9.5 billion to fuel a massive expansion of AI-optimized infrastructure across its hyperscale campuses.",
-    imageAlt: "Digital representation of a hyperscale data center campus and capital investment for AI infrastructure",
+    description:
+      "Data center operator Switch has expanded its debt facility to $9.5 billion to fuel a massive expansion of AI-optimized infrastructure across its hyperscale campuses.",
+    imageAlt:
+      "Digital representation of a hyperscale data center campus and capital investment for AI infrastructure",
     publishedOn: "2026-06-10",
     readTime: 3,
     featured: false,
@@ -802,7 +887,8 @@ export const blogPosts: BlogPost[] = [
     id: 58,
     slug: "crusoe-pauses-1-8gw-wyoming-data-center",
     title: "Crusoe Energy Pauses 1.8 GW Project Jade Data Center in Wyoming",
-    description: "Crusoe Energy halts its massive 1.8 GW Cheyenne campus at a customer's request, highlighting volatility in AI infrastructure expansion.",
+    description:
+      "Crusoe Energy halts its massive 1.8 GW Cheyenne campus at a customer's request, highlighting volatility in AI infrastructure expansion.",
     imageAlt: "AI data center infrastructure visualization",
     publishedOn: "2026-06-11",
     readTime: 4,
@@ -813,8 +899,10 @@ export const blogPosts: BlogPost[] = [
     id: 59,
     slug: "amazon-first-data-center-water-disclosure",
     title: "Amazon Reports 2.5 Billion Gallons of Data Center Water Use",
-    description: "Amazon's first water disclosure reveals 2.5 billion gallons used in 2025 and a 52% efficiency gain since 2021 through an air-cooling first strategy.",
-    imageAlt: "Digital representation of a hyperscale data center and water efficiency metrics for Amazon",
+    description:
+      "Amazon's first water disclosure reveals 2.5 billion gallons used in 2025 and a 52% efficiency gain since 2021 through an air-cooling first strategy.",
+    imageAlt:
+      "Digital representation of a hyperscale data center and water efficiency metrics for Amazon",
     publishedOn: "2026-06-11",
     readTime: 3,
     featured: false,
@@ -823,9 +911,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 60,
     slug: "micron-ai-memory-price-surge",
-    title: "Micron Shares Surge 11.7% as AI Storage Demand Hits Critical Bottleneck",
-    description: "Micron stock jumps as AI infrastructure demand drives a memory supply shortage, with prices projected to rise through 2027 as hyperscalers lock in long-term contracts.",
-    imageAlt: "Digital representation of high-density memory chips and AI infrastructure capital investment",
+    title:
+      "Micron Shares Surge 11.7% as AI Storage Demand Hits Critical Bottleneck",
+    description:
+      "Micron stock jumps as AI infrastructure demand drives a memory supply shortage, with prices projected to rise through 2027 as hyperscalers lock in long-term contracts.",
+    imageAlt:
+      "Digital representation of high-density memory chips and AI infrastructure capital investment",
     publishedOn: "2026-06-12",
     readTime: 3,
     featured: false,
@@ -835,8 +926,10 @@ export const blogPosts: BlogPost[] = [
     id: 61,
     slug: "epa-declines-national-ai-datacenter-standards",
     title: "US EPA Declines National Standards for AI Data Centers",
-    description: "The US EPA announces it will not set national standards for data center resource consumption, leaving regulation of AI's water and energy footprint to the states.",
-    imageAlt: "US EPA headquarters and digital representation of AI data center infrastructure",
+    description:
+      "The US EPA announces it will not set national standards for data center resource consumption, leaving regulation of AI's water and energy footprint to the states.",
+    imageAlt:
+      "US EPA headquarters and digital representation of AI data center infrastructure",
     publishedOn: "2026-06-12",
     readTime: 3,
     featured: false,
@@ -845,10 +938,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 62,
     slug: "aesc-prevalon-10gwh-ai-energy-storage",
-    title: "AESC and Prevalon Energy Secure 10 GWh Deal for AI Power Infrastructure",
+    title:
+      "AESC and Prevalon Energy Secure 10 GWh Deal for AI Power Infrastructure",
     description:
       "AESC and Prevalon Energy sign a 10+ GWh battery supply agreement to support AI data center power infrastructure and grid stability over the next three years.",
-    imageAlt: "Digital representation of utility-scale battery storage and AI data center infrastructure",
+    imageAlt:
+      "Digital representation of utility-scale battery storage and AI data center infrastructure",
     publishedOn: "2026-06-13",
     readTime: 3,
     featured: false,
@@ -860,7 +955,8 @@ export const blogPosts: BlogPost[] = [
     title: "Nvidia RTX Pro 6000 Blackwell Pricing Surges 55 Percent",
     description:
       "Nvidia increases the official marketplace price of its flagship workstation GPU to $13,250 as the global memory shortage and AI demand drive massive hardware inflation.",
-    imageAlt: "Digital representation of high-end Nvidia Blackwell workstation GPUs and pricing metrics",
+    imageAlt:
+      "Digital representation of high-end Nvidia Blackwell workstation GPUs and pricing metrics",
     publishedOn: "2026-06-13",
     readTime: 3,
     featured: false,
@@ -870,8 +966,10 @@ export const blogPosts: BlogPost[] = [
     id: 64,
     slug: "local-resistance-halts-130-billion-in-u-s-data-center-projects",
     title: "Local Resistance Halts $130 Billion in U.S. Data Center Projects",
-    description: "A record $130 billion in AI data center projects were blocked or delayed in Q1 2026 as community opposition groups double across the United States.",
-    imageAlt: "Digital representation of community opposition and blocked AI data center infrastructure in the United States",
+    description:
+      "A record $130 billion in AI data center projects were blocked or delayed in Q1 2026 as community opposition groups double across the United States.",
+    imageAlt:
+      "Digital representation of community opposition and blocked AI data center infrastructure in the United States",
     publishedOn: "2026-06-14",
     readTime: 3,
     featured: false,
@@ -881,8 +979,10 @@ export const blogPosts: BlogPost[] = [
     id: 65,
     slug: "new-mexico-ai-datacenter-water-remorse",
     title: "New Mexico Community Re-evaluates Massive AI Data Center Water Use",
-    description: "Dona Ana County residents express 'buyer's remorse' over Project Jupiter's 11-million-gallon daily water demand in the drought-hit desert.",
-    imageAlt: "Digital representation of community opposition and a massive AI data center campus in the New Mexico desert",
+    description:
+      "Dona Ana County residents express 'buyer's remorse' over Project Jupiter's 11-million-gallon daily water demand in the drought-hit desert.",
+    imageAlt:
+      "Digital representation of community opposition and a massive AI data center campus in the New Mexico desert",
     publishedOn: "2026-06-14",
     readTime: 3,
     featured: false,
@@ -892,8 +992,10 @@ export const blogPosts: BlogPost[] = [
     id: 66,
     slug: "schneider-foxconn-ai-data-center-partnership",
     title: "Schneider Electric and Foxconn Partner on AI Infrastructure",
-    description: "Schneider Electric and Foxconn form a strategic partnership to co-develop modular cooling and power systems to standardise hyperscale AI data center deployment.",
-    imageAlt: "Digital representation of modular AI infrastructure and industrial energy management",
+    description:
+      "Schneider Electric and Foxconn form a strategic partnership to co-develop modular cooling and power systems to standardise hyperscale AI data center deployment.",
+    imageAlt:
+      "Digital representation of modular AI infrastructure and industrial energy management",
     publishedOn: "2026-06-15",
     readTime: 3,
     featured: false,
@@ -902,9 +1004,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 67,
     slug: "bloom-energy-2026-data-center-power-report",
-    title: "Bloom Energy Report: Power Constraints and Community Resistance Stalling AI",
-    description: "A mid-year 2026 report from Bloom Energy warns that grid reliability and intensifying local opposition over water and energy use are becoming major bottlenecks for AI expansion.",
-    imageAlt: "Digital representation of power grid infrastructure and data center decision-making",
+    title:
+      "Bloom Energy Report: Power Constraints and Community Resistance Stalling AI",
+    description:
+      "A mid-year 2026 report from Bloom Energy warns that grid reliability and intensifying local opposition over water and energy use are becoming major bottlenecks for AI expansion.",
+    imageAlt:
+      "Digital representation of power grid infrastructure and data center decision-making",
     publishedOn: "2026-06-15",
     readTime: 3,
     featured: false,
@@ -913,9 +1018,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 68,
     slug: "archbald-pa-ai-datacenter-showdown",
-    title: "Pennsylvania Community Rejection Halts 1.6 GW AI Data Center Project",
-    description: "Archbald residents successfully block the massive 1.6 GW Wildcat Ridge AI data center campus, citing concerns over grid strain and water usage.",
-    imageAlt: "Digital representation of community opposition and massive AI data center infrastructure in Pennsylvania",
+    title:
+      "Pennsylvania Community Rejection Halts 1.6 GW AI Data Center Project",
+    description:
+      "Archbald residents successfully block the massive 1.6 GW Wildcat Ridge AI data center campus, citing concerns over grid strain and water usage.",
+    imageAlt:
+      "Digital representation of community opposition and massive AI data center infrastructure in Pennsylvania",
     publishedOn: "2026-06-16",
     readTime: 3,
     featured: false,
@@ -924,9 +1032,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 69,
     slug: "doj-intervenes-in-xai-pollution-lawsuit",
-    title: "DOJ Intervenes to Halt Air Pollution Lawsuit Against xAI Data Center",
-    description: "The US Department of Justice moves to dismiss a Clean Air Act lawsuit against Elon Musk's xAI, citing national security risks linked to AI military tools.",
-    imageAlt: "Digital representation of a data center and legal scale symbolizing DOJ intervention",
+    title:
+      "DOJ Intervenes to Halt Air Pollution Lawsuit Against xAI Data Center",
+    description:
+      "The US Department of Justice moves to dismiss a Clean Air Act lawsuit against Elon Musk's xAI, citing national security risks linked to AI military tools.",
+    imageAlt:
+      "Digital representation of a data center and legal scale symbolizing DOJ intervention",
     publishedOn: "2026-06-17",
     readTime: 3,
     featured: false,
@@ -936,8 +1047,10 @@ export const blogPosts: BlogPost[] = [
     id: 70,
     slug: "ai-datacenter-energy-cost-projections",
     title: "AI Data Center Growth Could Raise U.S. Power Costs 29% by 2030",
-    description: "A new study from North Carolina State University warns that surging AI data center demand could drive a 29% increase in national electricity costs for households.",
-    imageAlt: "Digital representation of data center infrastructure and rising electricity cost metrics",
+    description:
+      "A new study from North Carolina State University warns that surging AI data center demand could drive a 29% increase in national electricity costs for households.",
+    imageAlt:
+      "Digital representation of data center infrastructure and rising electricity cost metrics",
     publishedOn: "2026-06-17",
     readTime: 3,
     featured: false,
@@ -947,8 +1060,10 @@ export const blogPosts: BlogPost[] = [
     id: 71,
     slug: "arizona-ai-datacenter-resource-strain",
     title: "Arizona AI Data Centers Face Severe Energy and Water Constraints",
-    description: "Rising AI power demand and massive water consumption in Arizona's data center hub trigger municipal caps and grid strain concerns.",
-    imageAlt: "Digital representation of a data center in an arid landscape with water and energy metrics",
+    description:
+      "Rising AI power demand and massive water consumption in Arizona's data center hub trigger municipal caps and grid strain concerns.",
+    imageAlt:
+      "Digital representation of a data center in an arid landscape with water and energy metrics",
     publishedOn: "2026-06-18",
     readTime: 3,
     featured: false,
@@ -958,8 +1073,10 @@ export const blogPosts: BlogPost[] = [
     id: 72,
     slug: "ferc-ai-datacenter-grid-acceleration",
     title: "FERC Orders Grid Operators to Speed Power to AI Data Centers",
-    description: "Federal regulators issue targeted orders to accelerate grid interconnection for AI data centers, aiming to cut multi-year backlogs for gigawatt-scale loads.",
-    imageAlt: "Digital representation of federal regulatory oversight and AI data center power grid interconnection",
+    description:
+      "Federal regulators issue targeted orders to accelerate grid interconnection for AI data centers, aiming to cut multi-year backlogs for gigawatt-scale loads.",
+    imageAlt:
+      "Digital representation of federal regulatory oversight and AI data center power grid interconnection",
     publishedOn: "2026-06-18",
     readTime: 3,
     featured: false,
@@ -969,8 +1086,10 @@ export const blogPosts: BlogPost[] = [
     id: 73,
     slug: "next-gen-ai-data-center-energy-storage",
     title: "Next-Gen Energy Storage Redefines AI Data Center Power Strategy",
-    description: "AI dynamic power demand drives a shift to advanced battery systems and long-duration storage as data centers bypass grid bottlenecks.",
-    imageAlt: "Digital representation of advanced energy storage systems at an AI data center facility",
+    description:
+      "AI dynamic power demand drives a shift to advanced battery systems and long-duration storage as data centers bypass grid bottlenecks.",
+    imageAlt:
+      "Digital representation of advanced energy storage systems at an AI data center facility",
     publishedOn: "2026-06-19",
     readTime: 3,
     featured: false,
@@ -980,8 +1099,10 @@ export const blogPosts: BlogPost[] = [
     id: 74,
     slug: "data-center-efficiency-trust-report",
     title: "Data Center Trust Hits Breaking Point Over Resource Demands",
-    description: "A new report warns that AI data center expansion is colliding with public resistance as US facilities consumed 176 TWh of power and 1 trillion liters of water in 2025.",
-    imageAlt: "Digital representation of community opposition and AI data center resource consumption",
+    description:
+      "A new report warns that AI data center expansion is colliding with public resistance as US facilities consumed 176 TWh of power and 1 trillion liters of water in 2025.",
+    imageAlt:
+      "Digital representation of community opposition and AI data center resource consumption",
     publishedOn: "2026-06-19",
     readTime: 3,
     featured: false,
@@ -991,8 +1112,10 @@ export const blogPosts: BlogPost[] = [
     id: 75,
     slug: "xdi-global-ai-data-center-climate-risk-report",
     title: "Global AI Infrastructure Boom Faces Growing Physical Climate Risks",
-    description: "A major new XDI analysis identifies 154 planned data centers at high risk from extreme weather as global insurance premiums are projected to hit $24.2 billion by 2030.",
-    imageAlt: "Digital representation of extreme weather risks for global AI data center infrastructure",
+    description:
+      "A major new XDI analysis identifies 154 planned data centers at high risk from extreme weather as global insurance premiums are projected to hit $24.2 billion by 2030.",
+    imageAlt:
+      "Digital representation of extreme weather risks for global AI data center infrastructure",
     publishedOn: "2026-06-20",
     readTime: 3,
     featured: false,
@@ -1002,8 +1125,10 @@ export const blogPosts: BlogPost[] = [
     id: 76,
     slug: "china-space-ai-compute-center",
     title: "China Unveils Space Computing Center for Grid-Free AI",
-    description: "The Chinese government approves the Space Computing Industry Innovation Center to develop orbital AI data centers, aiming to bypass terrestrial power and cooling bottlenecks.",
-    imageAlt: "Digital representation of orbital AI data centers and space-based compute infrastructure",
+    description:
+      "The Chinese government approves the Space Computing Industry Innovation Center to develop orbital AI data centers, aiming to bypass terrestrial power and cooling bottlenecks.",
+    imageAlt:
+      "Digital representation of orbital AI data centers and space-based compute infrastructure",
     publishedOn: "2026-06-20",
     readTime: 3,
     featured: false,
@@ -1013,8 +1138,10 @@ export const blogPosts: BlogPost[] = [
     id: 77,
     slug: "edged-phoenix-waterless-ai-datacenter",
     title: "Edged US Launches Zero-Water AI Data Center in Phoenix",
-    description: "Edged US opens a 36MW data center in Mesa, Arizona, using waterless cooling technology to save 138 million gallons of water annually.",
-    imageAlt: "Digital representation of a waterless AI data center in a desert landscape",
+    description:
+      "Edged US opens a 36MW data center in Mesa, Arizona, using waterless cooling technology to save 138 million gallons of water annually.",
+    imageAlt:
+      "Digital representation of a waterless AI data center in a desert landscape",
     publishedOn: "2026-06-21",
     readTime: 3,
     featured: false,
@@ -1024,8 +1151,10 @@ export const blogPosts: BlogPost[] = [
     id: 78,
     slug: "ai-data-center-gas-power-boom",
     title: "AI Boom Drives 73 GW Pipeline of Off-Grid Gas Power Projects",
-    description: "A new investigation reveals 57 fast-tracked natural gas plants designed exclusively for AI data centers, representing a massive shift toward off-grid power.",
-    imageAlt: "Digital representation of a natural gas power plant and AI data center infrastructure",
+    description:
+      "A new investigation reveals 57 fast-tracked natural gas plants designed exclusively for AI data centers, representing a massive shift toward off-grid power.",
+    imageAlt:
+      "Digital representation of a natural gas power plant and AI data center infrastructure",
     publishedOn: "2026-06-22",
     readTime: 3,
     featured: false,
@@ -1035,8 +1164,10 @@ export const blogPosts: BlogPost[] = [
     id: 79,
     slug: "nvidia-zero-water-cooling-breakthrough",
     title: "Nvidia Touts 100% Reduction in Water Use with New Cooling Design",
-    description: "Nvidia unveils a closed-loop liquid cooling system that recycles coolant to eliminate operational water consumption in AI data centers.",
-    imageAlt: "Digital representation of a water-efficient AI data center with closed-loop cooling technology",
+    description:
+      "Nvidia unveils a closed-loop liquid cooling system that recycles coolant to eliminate operational water consumption in AI data centers.",
+    imageAlt:
+      "Digital representation of a water-efficient AI data center with closed-loop cooling technology",
     publishedOn: "2026-06-22",
     readTime: 3,
     featured: false,
@@ -1046,8 +1177,10 @@ export const blogPosts: BlogPost[] = [
     id: 80,
     slug: "un-ai-environmental-transparency-initiative",
     title: "UN Launches AI Environmental Transparency Initiative",
-    description: "UN Secretary-General António Guterres calls for mandatory disclosure of AI data center energy, water, and land use, targeting 100% renewable power by 2030.",
-    imageAlt: "Digital representation of the UN headquarters and global AI data center resource tracking",
+    description:
+      "UN Secretary-General António Guterres calls for mandatory disclosure of AI data center energy, water, and land use, targeting 100% renewable power by 2030.",
+    imageAlt:
+      "Digital representation of the UN headquarters and global AI data center resource tracking",
     publishedOn: "2026-06-23",
     readTime: 3,
     featured: false,
@@ -1059,7 +1192,8 @@ export const blogPosts: BlogPost[] = [
     title: "Microsoft and Chevron Launch 2.67 GW Gas-Powered AI Site",
     description:
       "Microsoft and Chevron announce a massive 20-year power deal to build a 2.67 GW natural gas-powered AI data center in West Texas, bypassing the public grid.",
-    imageAlt: "Digital representation of a natural gas-powered AI data center in West Texas",
+    imageAlt:
+      "Digital representation of a natural gas-powered AI data center in West Texas",
     publishedOn: "2026-06-23",
     readTime: 3,
     featured: false,
@@ -1071,7 +1205,8 @@ export const blogPosts: BlogPost[] = [
     title: "SpaceX Signs $6.3 Billion Compute Deal With Reflection AI",
     description:
       "SpaceX signs a $6.3 billion compute lease with Reflection AI to provide Nvidia GB300 capacity at its Memphis Colossus 2 facility.",
-    imageAlt: "Representation of a high-density AI supercomputer cluster at the Colossus 2 facility",
+    imageAlt:
+      "Representation of a high-density AI supercomputer cluster at the Colossus 2 facility",
     publishedOn: "2026-06-24",
     readTime: 4,
     featured: false,
@@ -1083,7 +1218,8 @@ export const blogPosts: BlogPost[] = [
     title: "Pallone Proposes National AI Data Center Moratorium",
     description:
       "Representative Frank Pallone calls for a national freeze on AI data center construction as a new Berkeley Lab report projects facilities will use 15% of US power by 2030.",
-    imageAlt: "Digital representation of federal regulatory oversight and AI data center infrastructure",
+    imageAlt:
+      "Digital representation of federal regulatory oversight and AI data center infrastructure",
     publishedOn: "2026-06-24",
     readTime: 3,
     featured: false,
@@ -1092,9 +1228,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 84,
     slug: "spokane-ai-datacenter-moratorium",
-    title: "Spokane City Council approves yearlong moratorium on new large data centers",
-    description: "The Spokane City Council votes 6-1 for an emergency pause on large data centers following a massive 500MW project proposal that threatened local water and energy resources.",
-    imageAlt: "Digital representation of municipal governance and data center infrastructure in Spokane",
+    title:
+      "Spokane City Council approves yearlong moratorium on new large data centers",
+    description:
+      "The Spokane City Council votes 6-1 for an emergency pause on large data centers following a massive 500MW project proposal that threatened local water and energy resources.",
+    imageAlt:
+      "Digital representation of municipal governance and data center infrastructure in Spokane",
     publishedOn: "2026-06-25",
     readTime: 3,
     featured: false,
@@ -1104,8 +1243,10 @@ export const blogPosts: BlogPost[] = [
     id: 85,
     slug: "capgemini-ai-grid-forecasting-report",
     title: "AI Driven Demand Spikes Challenge Global Power Grid Planning",
-    description: "A new Capgemini report reveals that 80% of utility executives expect volatile demand patterns from AI, with 19% of power requests failing to materialize.",
-    imageAlt: "Digital representation of AI data center demand spikes and power grid infrastructure",
+    description:
+      "A new Capgemini report reveals that 80% of utility executives expect volatile demand patterns from AI, with 19% of power requests failing to materialize.",
+    imageAlt:
+      "Digital representation of AI data center demand spikes and power grid infrastructure",
     publishedOn: "2026-06-25",
     readTime: 3,
     featured: false,
@@ -1114,9 +1255,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 86,
     slug: "ai-sustainability-reporting-gap",
-    title: "The Invisible Footprint: AI, Energy, And The Sustainability Question Taking Shape",
-    description: "The AI data center boom is driving massive energy and water use, yet its impact remains poorly tracked in sustainability reporting frameworks.",
-    imageAlt: "Digital representation of AI infrastructure and environmental reporting metrics",
+    title:
+      "The Invisible Footprint: AI, Energy, And The Sustainability Question Taking Shape",
+    description:
+      "The AI data center boom is driving massive energy and water use, yet its impact remains poorly tracked in sustainability reporting frameworks.",
+    imageAlt:
+      "Digital representation of AI infrastructure and environmental reporting metrics",
     publishedOn: "2026-06-26",
     category: AI_USAGE,
     readTime: 3,
@@ -1125,9 +1269,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 87,
     slug: "microsoft-water-positive-ai-cooling",
-    title: "Microsoft Hits Water Positive Goal Early with AI Cooling Innovation",
-    description: "Microsoft achieves its 2030 water-positive goal five years early, slashing data center water usage by 90% through AI-optimized closed-loop cooling systems.",
-    imageAlt: "Digital representation of a water-efficient data center with closed-loop liquid cooling",
+    title:
+      "Microsoft Hits Water Positive Goal Early with AI Cooling Innovation",
+    description:
+      "Microsoft achieves its 2030 water-positive goal five years early, slashing data center water usage by 90% through AI-optimized closed-loop cooling systems.",
+    imageAlt:
+      "Digital representation of a water-efficient data center with closed-loop liquid cooling",
     publishedOn: "2026-06-26",
     category: AI_USAGE,
     readTime: 3,
@@ -1136,9 +1283,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 88,
     slug: "europe-ai-datacenter-water-forecast",
-    title: "AI Boom to Drive €6.8 Billion in Water Spend for European Data Centers by 2036",
-    description: "A new Bluefield Research report projects that water-related spending for European data centers will reach €6.8 billion by 2036, driven by AI's intensive cooling needs.",
-    imageAlt: "Digital representation of a data center and water infrastructure in Europe",
+    title:
+      "AI Boom to Drive €6.8 Billion in Water Spend for European Data Centers by 2036",
+    description:
+      "A new Bluefield Research report projects that water-related spending for European data centers will reach €6.8 billion by 2036, driven by AI's intensive cooling needs.",
+    imageAlt:
+      "Digital representation of a data center and water infrastructure in Europe",
     publishedOn: "2026-06-27",
     category: AI_USAGE,
     readTime: 3,
@@ -1148,8 +1298,10 @@ export const blogPosts: BlogPost[] = [
     id: 89,
     slug: "missouri-ai-datacenter-opposition",
     title: "Missouri Farmers Rally Against $6.3 Billion AI Data Center Project",
-    description: "Nodaway County residents organize against a proposed AI complex that would consume 5 million gallons of water daily, double the local plant's capacity.",
-    imageAlt: "Missouri landscape and community opposition to AI data center construction",
+    description:
+      "Nodaway County residents organize against a proposed AI complex that would consume 5 million gallons of water daily, double the local plant's capacity.",
+    imageAlt:
+      "Missouri landscape and community opposition to AI data center construction",
     publishedOn: "2026-06-27",
     category: AI_USAGE,
     readTime: 3,
@@ -1158,9 +1310,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 90,
     slug: "pennsylvania-repeals-ai-datacenter-tax-breaks",
-    title: "In Bipartisan Fashion, PA Lawmakers Vote to Repeal AI Data Center Tax Incentives",
-    description: "The Pennsylvania General Assembly has voted overwhelmingly to repeal sales tax exemptions for data centers, citing surging infrastructure costs and community backlash.",
-    imageAlt: "Digital representation of a data center and state tax policy in Pennsylvania",
+    title:
+      "In Bipartisan Fashion, PA Lawmakers Vote to Repeal AI Data Center Tax Incentives",
+    description:
+      "The Pennsylvania General Assembly has voted overwhelmingly to repeal sales tax exemptions for data centers, citing surging infrastructure costs and community backlash.",
+    imageAlt:
+      "Digital representation of a data center and state tax policy in Pennsylvania",
     publishedOn: "2026-06-28",
     category: AI_USAGE,
     readTime: 3,
@@ -1169,9 +1324,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 91,
     slug: "deloitte-2026-ai-hardware-outlook",
-    title: "Deloitte Outlook: AI Server Power Market to Hit $31 Billion by 2028",
-    description: "Deloitte's 2026 outlook reveals a massive surge in AI infrastructure costs, with the AI server power supply market projected to hit $31 billion by 2028.",
-    imageAlt: "Digital representation of high-density AI servers and power supply infrastructure",
+    title:
+      "Deloitte Outlook: AI Server Power Market to Hit $31 Billion by 2028",
+    description:
+      "Deloitte's 2026 outlook reveals a massive surge in AI infrastructure costs, with the AI server power supply market projected to hit $31 billion by 2028.",
+    imageAlt:
+      "Digital representation of high-density AI servers and power supply infrastructure",
     publishedOn: "2026-06-29",
     category: AI_USAGE,
     readTime: 3,
@@ -1181,8 +1339,10 @@ export const blogPosts: BlogPost[] = [
     id: 92,
     slug: "south-korea-ai-infrastructure-blueprint",
     title: "South Korea Unveils $1.3 Trillion AI Infrastructure Blueprint",
-    description: "South Korea announces a massive $1.3 trillion national strategy to double DRAM capacity and invest $720 billion in AI data centers by 2035.",
-    imageAlt: "Digital representation of high-density AI semiconductor manufacturing and data center infrastructure in South Korea",
+    description:
+      "South Korea announces a massive $1.3 trillion national strategy to double DRAM capacity and invest $720 billion in AI data centers by 2035.",
+    imageAlt:
+      "Digital representation of high-density AI semiconductor manufacturing and data center infrastructure in South Korea",
     publishedOn: "2026-06-29",
     category: AI_USAGE,
     readTime: 4,
@@ -1192,8 +1352,10 @@ export const blogPosts: BlogPost[] = [
     id: 93,
     slug: "nixxy-nakota-hydrogen-ai-datacenter",
     title: "Nixxy Unveils $1 Billion Hydrogen-Powered AI Data Campus",
-    description: "Nixxy and Tachyon 9 announce the $1 billion Nakota Data Campus in North Dakota, featuring 1 GW capacity, hydrogen-capable power, and closed-loop cooling.",
-    imageAlt: "Digital representation of a hydrogen-powered AI data center campus in North Dakota",
+    description:
+      "Nixxy and Tachyon 9 announce the $1 billion Nakota Data Campus in North Dakota, featuring 1 GW capacity, hydrogen-capable power, and closed-loop cooling.",
+    imageAlt:
+      "Digital representation of a hydrogen-powered AI data center campus in North Dakota",
     publishedOn: "2026-06-29",
     category: AI_USAGE,
     readTime: 3,
@@ -1203,8 +1365,10 @@ export const blogPosts: BlogPost[] = [
     id: 94,
     slug: "microsoft-completes-fairwater-datacenter",
     title: "Microsoft Completes Fairwater Data Centre Project",
-    description: "Microsoft's new Fairwater AI data center in Wisconsin features 90% closed-loop liquid cooling and the world's second-largest water-cooled chiller plant.",
-    imageAlt: "Digital representation of a massive water-cooled AI data center campus in Wisconsin",
+    description:
+      "Microsoft's new Fairwater AI data center in Wisconsin features 90% closed-loop liquid cooling and the world's second-largest water-cooled chiller plant.",
+    imageAlt:
+      "Digital representation of a massive water-cooled AI data center campus in Wisconsin",
     publishedOn: "2026-06-30",
     category: AI_USAGE,
     readTime: 3,
@@ -1213,9 +1377,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 95,
     slug: "aquifer-thermal-storage-ai-cooling",
-    title: "University Researchers Propose Aquifer 'Thermal Batteries' for AI Cooling",
-    description: "A new study from the University of Illinois proposes Aquifer Thermal Energy Storage to slash AI cooling costs and water consumption.",
-    imageAlt: "Digital representation of a data center and underground thermal energy storage in an aquifer",
+    title:
+      "University Researchers Propose Aquifer 'Thermal Batteries' for AI Cooling",
+    description:
+      "A new study from the University of Illinois proposes Aquifer Thermal Energy Storage to slash AI cooling costs and water consumption.",
+    imageAlt:
+      "Digital representation of a data center and underground thermal energy storage in an aquifer",
     publishedOn: "2026-06-30",
     category: AI_USAGE,
     readTime: 3,
@@ -1225,8 +1392,10 @@ export const blogPosts: BlogPost[] = [
     id: 96,
     slug: "google-2026-environmental-report-resource-surge",
     title: "Read our 11th annual Environmental Report",
-    description: "Google's 2026 Environmental Report reveals a 37% surge in electricity demand and a 34% increase in water use as AI infrastructure expansion outpaces decarbonization.",
-    imageAlt: "Digital representation of Google data center infrastructure and environmental metrics",
+    description:
+      "Google's 2026 Environmental Report reveals a 37% surge in electricity demand and a 34% increase in water use as AI infrastructure expansion outpaces decarbonization.",
+    imageAlt:
+      "Digital representation of Google data center infrastructure and environmental metrics",
     publishedOn: "2026-07-01",
     category: AI_USAGE,
     readTime: 4,
@@ -1235,9 +1404,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 97,
     slug: "nvidia-vera-rubin-efficiency-launch",
-    title: "NVIDIA Vera Rubin Platform Hits Production with 10x Efficiency Gain",
-    description: "NVIDIA's new Vera Rubin platform enters production, delivering a 10x tokens-per-megawatt efficiency gain to address AI's surging energy demands.",
-    imageAlt: "Digital representation of NVIDIA Vera Rubin AI supercomputer architecture",
+    title:
+      "NVIDIA Vera Rubin Platform Hits Production with 10x Efficiency Gain",
+    description:
+      "NVIDIA's new Vera Rubin platform enters production, delivering a 10x tokens-per-megawatt efficiency gain to address AI's surging energy demands.",
+    imageAlt:
+      "Digital representation of NVIDIA Vera Rubin AI supercomputer architecture",
     publishedOn: "2026-07-01",
     category: AI_USAGE,
     readTime: 3,
@@ -1247,8 +1419,10 @@ export const blogPosts: BlogPost[] = [
     id: 98,
     slug: "environmental-integrity-project-ai-gas-emissions-report",
     title: "AI Gas Power Plants Could Emit 287M Tons Annually in Texas",
-    description: "A landmark Environmental Integrity Project report reveals that proposed gas plants for AI data centers in Texas alone could emit 287 million tons of CO2 annually.",
-    imageAlt: "Digital representation of a data center and gas-fired power plant emissions",
+    description:
+      "A landmark Environmental Integrity Project report reveals that proposed gas plants for AI data centers in Texas alone could emit 287 million tons of CO2 annually.",
+    imageAlt:
+      "Digital representation of a data center and gas-fired power plant emissions",
     publishedOn: "2026-07-02",
     category: AI_USAGE,
     readTime: 4,
@@ -1258,8 +1432,10 @@ export const blogPosts: BlogPost[] = [
     id: 99,
     slug: "equinix-a2a-milan-district-heating",
     title: "Equinix, A2A to Heat Milan via District Heating",
-    description: "Equinix and A2A partner to recover 225 GWh of waste heat from a Milan data center campus to heat over 21,000 homes, avoiding 345,000 tonnes of CO2 emissions.",
-    imageAlt: "Digital representation of a data center campus and district heating infrastructure in Milan",
+    description:
+      "Equinix and A2A partner to recover 225 GWh of waste heat from a Milan data center campus to heat over 21,000 homes, avoiding 345,000 tonnes of CO2 emissions.",
+    imageAlt:
+      "Digital representation of a data center campus and district heating infrastructure in Milan",
     publishedOn: "2026-07-03",
     category: AI_USAGE,
     readTime: 3,
@@ -1269,8 +1445,10 @@ export const blogPosts: BlogPost[] = [
     id: 100,
     slug: "amazon-2025-emissions-surge-ai-boom",
     title: "Amazon Reports 18% Emissions Surge Driven by AI Data Center Boom",
-    description: "Amazon's 2025 Sustainability Report reveals that its carbon footprint jumped to 80.8 million tons as AI data center expansion drives a 34% surge in electricity emissions.",
-    imageAlt: "Aerial view of a hyperscale data center and digital representation of greenhouse gas emissions",
+    description:
+      "Amazon's 2025 Sustainability Report reveals that its carbon footprint jumped to 80.8 million tons as AI data center expansion drives a 34% surge in electricity emissions.",
+    imageAlt:
+      "Aerial view of a hyperscale data center and digital representation of greenhouse gas emissions",
     publishedOn: "2026-07-03",
     category: AI_USAGE,
     readTime: 3,
@@ -1282,7 +1460,8 @@ export const blogPosts: BlogPost[] = [
     title: "Oregon governor says state is a ‘cheap date’ for data centers",
     description:
       "Oregon implements a 29% utility rate hike for large AI data centers while cutting residential bills, as Governor Tina Kotek vows new safeguards against infrastructure strain.",
-    imageAlt: "Digital representation of a data center and power grid infrastructure in Oregon",
+    imageAlt:
+      "Digital representation of a data center and power grid infrastructure in Oregon",
     publishedOn: "2026-07-04",
     category: AI_USAGE,
     readTime: 3,
@@ -1292,8 +1471,10 @@ export const blogPosts: BlogPost[] = [
     id: 102,
     slug: "texas-abbott-ai-datacenter-rural-ban",
     title: "Texas Governor Abbott Calls for Ban on Rural AI Data Centers",
-    description: "Governor Abbott proposes a ban on rural AI data centers and a mandate for facilities to bring their own power and water to protect Texas residential ratepayers.",
-    imageAlt: "Digital representation of a data center moratorium and energy grid in rural Texas",
+    description:
+      "Governor Abbott proposes a ban on rural AI data centers and a mandate for facilities to bring their own power and water to protect Texas residential ratepayers.",
+    imageAlt:
+      "Digital representation of a data center moratorium and energy grid in rural Texas",
     publishedOn: "2026-07-04",
     category: AI_USAGE,
     readTime: 3,
@@ -1303,8 +1484,10 @@ export const blogPosts: BlogPost[] = [
     id: 103,
     slug: "ai-data-center-water-gap-reporting",
     title: "AI Data Centers Use Far More Water Than Most Tech Giants Report",
-    description: "A new investigation reveals that indirect water use from power generation for AI data centers is 12 times higher than direct on-site cooling.",
-    imageAlt: "Digital representation of a data center's direct and indirect water footprint",
+    description:
+      "A new investigation reveals that indirect water use from power generation for AI data centers is 12 times higher than direct on-site cooling.",
+    imageAlt:
+      "Digital representation of a data center's direct and indirect water footprint",
     publishedOn: "2026-07-05",
     category: AI_USAGE,
     readTime: 3,
@@ -1314,8 +1497,10 @@ export const blogPosts: BlogPost[] = [
     id: 104,
     slug: "national-grid-joulent-microsoft-texas-gas-power",
     title: "National Grid Invests $1.75B in Microsoft AI Data Center Power",
-    description: "National Grid Ventures acquires a $1.75 billion stake in Joulent to fund a 2.67 GW gas plant powering Microsoft’s massive 2 GW AI campus in West Texas.",
-    imageAlt: "Digital representation of high-voltage power infrastructure and a hyperscale AI data center",
+    description:
+      "National Grid Ventures acquires a $1.75 billion stake in Joulent to fund a 2.67 GW gas plant powering Microsoft’s massive 2 GW AI campus in West Texas.",
+    imageAlt:
+      "Digital representation of high-voltage power infrastructure and a hyperscale AI data center",
     publishedOn: "2026-07-05",
     category: AI_USAGE,
     readTime: 3,
@@ -1325,8 +1510,10 @@ export const blogPosts: BlogPost[] = [
     id: 105,
     slug: "sk-telecom-15gw-ai-datacenter-expansion",
     title: "SK Telecom plans $653 billion AI data center buildout in Korea",
-    description: "SK Telecom unveils a massive 15 GW AI data center roadmap, aiming to turn South Korea into an Asian hub for hyperscale computing by 2035.",
-    imageAlt: "Digital representation of a massive AI data center campus in South Korea",
+    description:
+      "SK Telecom unveils a massive 15 GW AI data center roadmap, aiming to turn South Korea into an Asian hub for hyperscale computing by 2035.",
+    imageAlt:
+      "Digital representation of a massive AI data center campus in South Korea",
     publishedOn: "2026-07-06",
     category: AI_USAGE,
     readTime: 3,
@@ -1336,8 +1523,10 @@ export const blogPosts: BlogPost[] = [
     id: 106,
     slug: "qts-terminates-virginia-digital-gateway",
     title: "QTS Terminates $30 Billion Digital Gateway Data Center in Virginia",
-    description: "QTS withdraws from the 2,139-acre Digital Gateway project in Virginia, ending a proposed $30 billion AI infrastructure hub due to community opposition.",
-    imageAlt: "Aerial view of a large-scale data center construction site with green buffer zones",
+    description:
+      "QTS withdraws from the 2,139-acre Digital Gateway project in Virginia, ending a proposed $30 billion AI infrastructure hub due to community opposition.",
+    imageAlt:
+      "Aerial view of a large-scale data center construction site with green buffer zones",
     publishedOn: "2026-07-06",
     category: AI_USAGE,
     readTime: 4,
@@ -1346,9 +1535,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 107,
     slug: "anthropic-terawulf-19b-ai-datacenter-lease",
-    title: "Anthropic Signs $19B, 20-Year Lease for TeraWulf's Data Center in Hancock County",
-    description: "Anthropic secures a 401 MW AI infrastructure campus in Kentucky through a landmark $19 billion lease with TeraWulf, featuring water-efficient closed-loop cooling.",
-    imageAlt: "Digital representation of a massive AI data center campus and energy grid in Kentucky",
+    title:
+      "Anthropic Signs $19B, 20-Year Lease for TeraWulf's Data Center in Hancock County",
+    description:
+      "Anthropic secures a 401 MW AI infrastructure campus in Kentucky through a landmark $19 billion lease with TeraWulf, featuring water-efficient closed-loop cooling.",
+    imageAlt:
+      "Digital representation of a massive AI data center campus and energy grid in Kentucky",
     publishedOn: "2026-07-07",
     category: AI_USAGE,
     readTime: 3,
@@ -1358,8 +1550,10 @@ export const blogPosts: BlogPost[] = [
     id: 108,
     slug: "gartner-2026-ai-power-forecast",
     title: "Gartner Forecasts 26% Surge in Data Center Power Use for 2026",
-    description: "A new Gartner report projects global data center electricity consumption will reach 565 TWh in 2026, with AI-optimized servers accounting for one-third of total power use.",
-    imageAlt: "Digital representation of a global power grid and AI data center infrastructure",
+    description:
+      "A new Gartner report projects global data center electricity consumption will reach 565 TWh in 2026, with AI-optimized servers accounting for one-third of total power use.",
+    imageAlt:
+      "Digital representation of a global power grid and AI data center infrastructure",
     publishedOn: "2026-07-07",
     category: AI_USAGE,
     readTime: 3,
@@ -1368,9 +1562,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 109,
     slug: "shoshone-bannock-ai-opposition",
-    title: "Shoshone-Bannock Tribes Reaffirm Opposition to Proposed AI Data Center in Pocatello",
-    description: "The Shoshone-Bannock Tribes oppose a Pocatello AI data center, citing speculative water estimates and risks of electricity rate hikes for residents.",
-    imageAlt: "Digital representation of Tribal land and AI data center infrastructure",
+    title:
+      "Shoshone-Bannock Tribes Reaffirm Opposition to Proposed AI Data Center in Pocatello",
+    description:
+      "The Shoshone-Bannock Tribes oppose a Pocatello AI data center, citing speculative water estimates and risks of electricity rate hikes for residents.",
+    imageAlt:
+      "Digital representation of Tribal land and AI data center infrastructure",
     publishedOn: "2026-07-08",
     category: AI_USAGE,
     readTime: 3,
@@ -1380,8 +1577,10 @@ export const blogPosts: BlogPost[] = [
     id: 110,
     slug: "mount-shasta-ai-datacenter-opposition",
     title: "Siskiyou County Rejects AI Data Center at Former Bottling Plant",
-    description: "Siskiyou County supervisors halt a proposal for an AI data center at a former water bottling plant following intense community opposition over massive water usage.",
-    imageAlt: "Former water bottling plant near Mount Shasta slated for AI data center development",
+    description:
+      "Siskiyou County supervisors halt a proposal for an AI data center at a former water bottling plant following intense community opposition over massive water usage.",
+    imageAlt:
+      "Former water bottling plant near Mount Shasta slated for AI data center development",
     publishedOn: "2026-07-08",
     category: AI_USAGE,
     readTime: 3,
@@ -1391,8 +1590,10 @@ export const blogPosts: BlogPost[] = [
     id: 111,
     slug: "meta-alberta-ai-datacenter-investment",
     title: "Meta to build its first $13 billion data centre in Canada",
-    description: "Meta announces a C$13 billion ($9.17 billion) investment for a 1-gigawatt AI data center in Sturgeon County, Alberta, featuring off-grid natural gas power and zero-water cooling.",
-    imageAlt: "Digital representation of a hyperscale AI data center and energy infrastructure in Alberta, Canada",
+    description:
+      "Meta announces a C$13 billion ($9.17 billion) investment for a 1-gigawatt AI data center in Sturgeon County, Alberta, featuring off-grid natural gas power and zero-water cooling.",
+    imageAlt:
+      "Digital representation of a hyperscale AI data center and energy infrastructure in Alberta, Canada",
     publishedOn: "2026-07-09",
     category: AI_USAGE,
     readTime: 3,
@@ -1401,9 +1602,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 112,
     slug: "google-botetourt-water-consumption",
-    title: "Google’s Botetourt Site to Rank 8th Globally in Data Center Water Use",
-    description: "Google’s upcoming Botetourt facility is contracted for 2 million gallons of water daily, making it one of the company's most water-intensive sites globally.",
-    imageAlt: "Digital representation of a data center and water infrastructure in Botetourt County",
+    title:
+      "Google’s Botetourt Site to Rank 8th Globally in Data Center Water Use",
+    description:
+      "Google’s upcoming Botetourt facility is contracted for 2 million gallons of water daily, making it one of the company's most water-intensive sites globally.",
+    imageAlt:
+      "Digital representation of a data center and water infrastructure in Botetourt County",
     publishedOn: "2026-07-09",
     category: AI_USAGE,
     readTime: 3,
@@ -1413,8 +1617,10 @@ export const blogPosts: BlogPost[] = [
     id: 113,
     slug: "americas-ai-power-crunch-wartsila",
     title: "Wärtsilä Warns of 'Speed to Powerless' Risk in AI Data Center Boom",
-    description: "New landmark analysis identifies grid saturation and interconnection delays as primary brakes on AI infrastructure growth across the Americas.",
-    imageAlt: "Digital representation of power grid saturation and AI data center infrastructure across the Americas",
+    description:
+      "New landmark analysis identifies grid saturation and interconnection delays as primary brakes on AI infrastructure growth across the Americas.",
+    imageAlt:
+      "Digital representation of power grid saturation and AI data center infrastructure across the Americas",
     publishedOn: "2026-07-10",
     category: AI_USAGE,
     readTime: 3,
@@ -1423,9 +1629,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 114,
     slug: "markey-ai-accountability-agenda-data-centers",
-    title: "Senator Markey Proposes Federal Standards for AI Data Center Impacts",
-    description: "New federal legislation seeks to mandate resource transparency and require AI data center operators to fund clean energy and grid upgrades.",
-    imageAlt: "Digital representation of federal regulation and AI data center infrastructure",
+    title:
+      "Senator Markey Proposes Federal Standards for AI Data Center Impacts",
+    description:
+      "New federal legislation seeks to mandate resource transparency and require AI data center operators to fund clean energy and grid upgrades.",
+    imageAlt:
+      "Digital representation of federal regulation and AI data center infrastructure",
     publishedOn: "2026-07-10",
     category: AI_USAGE,
     readTime: 3,
@@ -1435,8 +1644,10 @@ export const blogPosts: BlogPost[] = [
     id: 115,
     slug: "sarasota-county-ai-datacenter-moratorium",
     title: "Data centers firmly rejected for Sarasota County in unanimous vote",
-    description: "Sarasota County commissioners vote 5-0 to impose a one-year moratorium on data center applications, citing extreme electricity demand and daily water use of up to 5 million gallons.",
-    imageAlt: "Digital representation of a data center moratorium and water resource management in Sarasota County",
+    description:
+      "Sarasota County commissioners vote 5-0 to impose a one-year moratorium on data center applications, citing extreme electricity demand and daily water use of up to 5 million gallons.",
+    imageAlt:
+      "Digital representation of a data center moratorium and water resource management in Sarasota County",
     publishedOn: "2026-07-11",
     category: AI_USAGE,
     readTime: 3,
@@ -1446,8 +1657,10 @@ export const blogPosts: BlogPost[] = [
     id: 116,
     slug: "virginia-ai-datacenter-electricity-surtax",
     title: "Virginia Imposes First AI Data Center Electricity Surtax",
-    description: "Virginia enacts a 1.1-cent-per-kWh electricity tax on data centers to address massive AI-driven infrastructure costs and grid strain.",
-    imageAlt: "Digital representation of a data center and power grid infrastructure in Virginia",
+    description:
+      "Virginia enacts a 1.1-cent-per-kWh electricity tax on data centers to address massive AI-driven infrastructure costs and grid strain.",
+    imageAlt:
+      "Digital representation of a data center and power grid infrastructure in Virginia",
     publishedOn: "2026-07-11",
     category: AI_USAGE,
     readTime: 3,
@@ -1457,8 +1670,10 @@ export const blogPosts: BlogPost[] = [
     id: 117,
     slug: "endicott-ai-datacenter-moratorium-proposal",
     title: "New York Village Proposes Total Moratorium on AI Data Centers",
-    description: "The Village of Endicott is considering a 12-month total pause on AI data center development to study impacts on local water and energy resources.",
-    imageAlt: "Digital representation of a data center moratorium and community water resources in Endicott",
+    description:
+      "The Village of Endicott is considering a 12-month total pause on AI data center development to study impacts on local water and energy resources.",
+    imageAlt:
+      "Digital representation of a data center moratorium and community water resources in Endicott",
     publishedOn: "2026-07-12",
     category: AI_USAGE,
     readTime: 3,
@@ -1468,8 +1683,10 @@ export const blogPosts: BlogPost[] = [
     id: 118,
     slug: "indiana-ai-fossil-fuel-water-costs",
     title: "Indiana AI Boom to Consume 7 Billion Gallons of Water Annually",
-    description: "Amazon's $29 billion 'Silicon Heartland' investment in Indiana is driving massive water consumption and prolonging the use of coal and gas power.",
-    imageAlt: "Digital representation of a data center and water infrastructure in Indiana",
+    description:
+      "Amazon's $29 billion 'Silicon Heartland' investment in Indiana is driving massive water consumption and prolonging the use of coal and gas power.",
+    imageAlt:
+      "Digital representation of a data center and water infrastructure in Indiana",
     publishedOn: "2026-07-12",
     category: AI_USAGE,
     readTime: 3,
@@ -1478,9 +1695,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 119,
     slug: "indianapolis-ai-datacenter-moratorium-proposal",
-    title: "Indianapolis Proposes Moratorium on New AI Data Centers Amid Zoning Overhaul",
-    description: "City Council President Maggie Lewis introduces a moratorium to pause new data center approvals while Indianapolis finalizes stricter zoning rules for noise and resource reporting.",
-    imageAlt: "Digital representation of municipal governance and data center infrastructure in Indianapolis",
+    title:
+      "Indianapolis Proposes Moratorium on New AI Data Centers Amid Zoning Overhaul",
+    description:
+      "City Council President Maggie Lewis introduces a moratorium to pause new data center approvals while Indianapolis finalizes stricter zoning rules for noise and resource reporting.",
+    imageAlt:
+      "Digital representation of municipal governance and data center infrastructure in Indianapolis",
     publishedOn: "2026-07-13",
     category: AI_USAGE,
     readTime: 3,
@@ -1489,9 +1709,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 120,
     slug: "meta-hyperion-5gw-louisiana-expansion",
-    title: "Meta Expands Hyperion AI Supercluster to 5GW in $50B Louisiana Deal",
-    description: "Meta officially scales its Richland Parish campus to 5GW, marking a $50 billion investment in the world's largest AI infrastructure project.",
-    imageAlt: "Digital representation of a hyperscale AI data center campus in Louisiana",
+    title:
+      "Meta Expands Hyperion AI Supercluster to 5GW in $50B Louisiana Deal",
+    description:
+      "Meta officially scales its Richland Parish campus to 5GW, marking a $50 billion investment in the world's largest AI infrastructure project.",
+    imageAlt:
+      "Digital representation of a hyperscale AI data center campus in Louisiana",
     publishedOn: "2026-07-13",
     category: AI_USAGE,
     readTime: 3,
@@ -1501,8 +1724,10 @@ export const blogPosts: BlogPost[] = [
     id: 121,
     slug: "white-house-ai-utility-power-pledge",
     title: "The White House’s next AI energy pledge targets the utilities",
-    description: "The White House expands its Ratepayer Protection Pledge to electric utilities to ensure the $1.4 trillion in projected AI grid upgrades aren't passed on to residential consumers.",
-    imageAlt: "Digital representation of the White House and electrical grid infrastructure",
+    description:
+      "The White House expands its Ratepayer Protection Pledge to electric utilities to ensure the $1.4 trillion in projected AI grid upgrades aren't passed on to residential consumers.",
+    imageAlt:
+      "Digital representation of the White House and electrical grid infrastructure",
     publishedOn: "2026-07-14",
     category: AI_USAGE,
     readTime: 3,
@@ -1514,7 +1739,8 @@ export const blogPosts: BlogPost[] = [
     title: "CleanSpark Leases 175MW Georgia Data Center for AI Infrastructure",
     description:
       "CleanSpark secures a 20-year, $6.6 billion lease for its Sandersville data center, pivoting 175MW of capacity from cryptomining to hyperscale AI compute.",
-    imageAlt: "Digital representation of a hyperscale data center and energy grid in Georgia",
+    imageAlt:
+      "Digital representation of a hyperscale data center and energy grid in Georgia",
     publishedOn: "2026-07-14",
     category: AI_USAGE,
     readTime: 3,
@@ -1523,9 +1749,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 123,
     slug: "kazakhstan-10bn-ai-datacenter-deployment",
-    title: "Kazakhstan Says $10 Billion AI Data Center Project Is Moving Into Deployment",
-    description: "Kazakhstan begins deployment of a $10 billion AI data center cluster in Ekibastuz, leveraging 1 GW of coal-fired power and cold climates for high-density compute infrastructure.",
-    imageAlt: "Digital representation of a massive AI data center campus and energy infrastructure in Kazakhstan",
+    title:
+      "Kazakhstan Says $10 Billion AI Data Center Project Is Moving Into Deployment",
+    description:
+      "Kazakhstan begins deployment of a $10 billion AI data center cluster in Ekibastuz, leveraging 1 GW of coal-fired power and cold climates for high-density compute infrastructure.",
+    imageAlt:
+      "Digital representation of a massive AI data center campus and energy infrastructure in Kazakhstan",
     publishedOn: "2026-07-15",
     readTime: 3,
     featured: false,
@@ -1535,8 +1764,10 @@ export const blogPosts: BlogPost[] = [
     id: 124,
     slug: "blackstone-williams-ai-gas-power-deal",
     title: "Blackstone and Williams Ink $5.34 Billion AI Gas Power Deal",
-    description: "Blackstone leads a $5.34 billion investment in Williams' Power Innovation platform to develop 6 GW of behind-the-meter gas power for AI data centers.",
-    imageAlt: "Digital representation of natural gas infrastructure and AI data center power systems",
+    description:
+      "Blackstone leads a $5.34 billion investment in Williams' Power Innovation platform to develop 6 GW of behind-the-meter gas power for AI data centers.",
+    imageAlt:
+      "Digital representation of natural gas infrastructure and AI data center power systems",
     publishedOn: "2026-07-15",
     category: AI_USAGE,
     readTime: 3,
@@ -1545,9 +1776,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 125,
     slug: "ny-executive-order-data-center-moratorium",
-    title: "New York's Data Center Moratorium Risks Slowing America's AI Future, Says ITIF",
-    description: "New York Governor Kathy Hochul signs an executive order for the nation's first statewide moratorium on new data centers to study energy and water impacts.",
-    imageAlt: "Digital representation of a statewide data center moratorium in New York",
+    title:
+      "New York's Data Center Moratorium Risks Slowing America's AI Future, Says ITIF",
+    description:
+      "New York Governor Kathy Hochul signs an executive order for the nation's first statewide moratorium on new data centers to study energy and water impacts.",
+    imageAlt:
+      "Digital representation of a statewide data center moratorium in New York",
     publishedOn: "2026-07-16",
     category: AI_USAGE,
     readTime: 4,
@@ -1557,8 +1791,10 @@ export const blogPosts: BlogPost[] = [
     id: 126,
     slug: "pjm-capacity-auction-price-cap-ai",
     title: "AI Data Centers Drive PJM Capacity Auction to Price Cap",
-    description: "PJM Interconnection's capacity auction clears at its maximum price cap as a massive 2 GW surge in AI data center demand strains the 13-state power grid.",
-    imageAlt: "Digital representation of a high-voltage power grid and massive AI data center infrastructure",
+    description:
+      "PJM Interconnection's capacity auction clears at its maximum price cap as a massive 2 GW surge in AI data center demand strains the 13-state power grid.",
+    imageAlt:
+      "Digital representation of a high-voltage power grid and massive AI data center infrastructure",
     publishedOn: "2026-07-16",
     category: AI_USAGE,
     readTime: 3,
@@ -1567,9 +1803,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 127,
     slug: "crusoe-lancium-childress-1gw-datacenter",
-    title: "Crusoe and Lancium Announce 1.0 Gigawatt AI Data Center Campus in Childress, Texas",
-    description: "Crusoe and Lancium announce a new 1.0 GW AI data center campus in Childress, Texas, featuring solar power integration, energy storage, and water-efficient closed-loop liquid cooling.",
-    imageAlt: "Digital representation of a massive AI data center campus and renewable energy infrastructure in Texas",
+    title:
+      "Crusoe and Lancium Announce 1.0 Gigawatt AI Data Center Campus in Childress, Texas",
+    description:
+      "Crusoe and Lancium announce a new 1.0 GW AI data center campus in Childress, Texas, featuring solar power integration, energy storage, and water-efficient closed-loop liquid cooling.",
+    imageAlt:
+      "Digital representation of a massive AI data center campus and renewable energy infrastructure in Texas",
     publishedOn: "2026-07-15",
     category: AI_USAGE,
     readTime: 3,
@@ -1579,8 +1818,10 @@ export const blogPosts: BlogPost[] = [
     id: 128,
     slug: "bank-of-america-ai-electricity-supply-gap",
     title: "Bank of America Forecasts 100 GW US Power Supply Deficit",
-    description: "Bank of America warns of a 100 GW generating capacity gap as AI data center demand drives US electricity growth to a 4.1% compound annual rate through 2030.",
-    imageAlt: "Digital representation of US energy grid and growing supply gap from AI data centers",
+    description:
+      "Bank of America warns of a 100 GW generating capacity gap as AI data center demand drives US electricity growth to a 4.1% compound annual rate through 2030.",
+    imageAlt:
+      "Digital representation of US energy grid and growing supply gap from AI data centers",
     publishedOn: "2026-07-18",
     category: AI_USAGE,
     readTime: 3,
@@ -1590,8 +1831,10 @@ export const blogPosts: BlogPost[] = [
     id: 129,
     slug: "us-data-center-protests-go-national",
     title: "Data Center Opponents Stage 142 Protests Across 42 US States",
-    description: "Opponents of rapid AI data center expansion held 142 protests across 42 states in the first nationwide demonstration against rising water and energy demands.",
-    imageAlt: "Digital representation of community protests against data center resource consumption",
+    description:
+      "Opponents of rapid AI data center expansion held 142 protests across 42 states in the first nationwide demonstration against rising water and energy demands.",
+    imageAlt:
+      "Digital representation of community protests against data center resource consumption",
     publishedOn: "2026-07-18",
     category: AI_USAGE,
     readTime: 3,
@@ -1601,8 +1844,10 @@ export const blogPosts: BlogPost[] = [
     id: 130,
     slug: "ai-vendors-infrastructure-costs-software-budgets",
     title: "AI Vendors Shift Infrastructure Costs, Driving Up Software Budgets",
-    description: "A Forrester survey of 2,600 tech decision-makers warns that enterprise software budgets will surge as vendors pass down AI infrastructure and compute costs to customers.",
-    imageAlt: "Digital representation of rising enterprise software budgets and AI compute infrastructure costs",
+    description:
+      "A Forrester survey of 2,600 tech decision-makers warns that enterprise software budgets will surge as vendors pass down AI infrastructure and compute costs to customers.",
+    imageAlt:
+      "Digital representation of rising enterprise software budgets and AI compute infrastructure costs",
     publishedOn: "2026-07-19",
     category: AI_USAGE,
     readTime: 3,
@@ -1612,8 +1857,10 @@ export const blogPosts: BlogPost[] = [
     id: 131,
     slug: "how-much-energy-do-data-centers-and-ai-use",
     title: "How much energy do data centers and artificial intelligence use?",
-    description: "A landmark study by Hannah Ritchie reveals that global data centers consumed 485 TWh of electricity in 2025, with AI-focused data centers accounting for 0.5% of global power.",
-    imageAlt: "Digital representation of global data centers and AI energy consumption metrics",
+    description:
+      "A landmark study by Hannah Ritchie reveals that global data centers consumed 485 TWh of electricity in 2025, with AI-focused data centers accounting for 0.5% of global power.",
+    imageAlt:
+      "Digital representation of global data centers and AI energy consumption metrics",
     publishedOn: "2026-07-20",
     category: AI_USAGE,
     readTime: 3,
@@ -1623,8 +1870,10 @@ export const blogPosts: BlogPost[] = [
     id: 132,
     slug: "amentum-nnsa-savannah-river-project",
     title: "NNSA Pairs 1 GW AI Data Center With 2 GW On-Site Power",
-    description: "The National Nuclear Security Administration selects Amentum to negotiate a 1 GW AI data center paired with 2 GW of dedicated on-site natural gas and nuclear power.",
-    imageAlt: "Digital representation of a massive data center and nuclear energy facility on federal land",
+    description:
+      "The National Nuclear Security Administration selects Amentum to negotiate a 1 GW AI data center paired with 2 GW of dedicated on-site natural gas and nuclear power.",
+    imageAlt:
+      "Digital representation of a massive data center and nuclear energy facility on federal land",
     publishedOn: "2026-07-21",
     category: AI_USAGE,
     readTime: 3,
@@ -1634,8 +1883,10 @@ export const blogPosts: BlogPost[] = [
     id: 133,
     slug: "caiso-ferc-large-load-informational-report",
     title: "California ISO Files Large-Load Grid Integration Report with FERC",
-    description: "The California Independent System Operator files an informational report detailing collaborative plans to integrate an expected 4.9 GW data center load increase by 2040.",
-    imageAlt: "Digital representation of high-voltage transmission lines and regional electrical grid infrastructure",
+    description:
+      "The California Independent System Operator files an informational report detailing collaborative plans to integrate an expected 4.9 GW data center load increase by 2040.",
+    imageAlt:
+      "Digital representation of high-voltage transmission lines and regional electrical grid infrastructure",
     publishedOn: "2026-07-21",
     category: AI_USAGE,
     readTime: 3,
@@ -1645,8 +1896,10 @@ export const blogPosts: BlogPost[] = [
     id: 134,
     slug: "energy-ipos-surge-ai-power-demand",
     title: "Energy IPOs Surge as Investors Chase AI Power Infrastructure",
-    description: "Energy sector IPOs hit a record $12.6 billion in early 2026 as public markets fund massive electrical generation and grid infrastructure for AI data centers.",
-    imageAlt: "Digital rendering of power grid equipment and substations backing an AI data center",
+    description:
+      "Energy sector IPOs hit a record $12.6 billion in early 2026 as public markets fund massive electrical generation and grid infrastructure for AI data centers.",
+    imageAlt:
+      "Digital rendering of power grid equipment and substations backing an AI data center",
     publishedOn: "2026-07-21",
     category: AI_USAGE,
     readTime: 3,
@@ -1656,8 +1909,10 @@ export const blogPosts: BlogPost[] = [
     id: 135,
     slug: "khi-us-datacenter-environmental-footprint-report",
     title: "KHI Report: US Data Center Power to More Than Double by 2030",
-    description: "The Kansas Health Institute publishes a sweeping report warning that U.S. data center electricity demand will grow 133% to 426 TWh by 2030, while direct water consumption could quadruple by 2028.",
-    imageAlt: "Digital illustration of water streams cooling power generator infrastructure with data center buildings in the background",
+    description:
+      "The Kansas Health Institute publishes a sweeping report warning that U.S. data center electricity demand will grow 133% to 426 TWh by 2030, while direct water consumption could quadruple by 2028.",
+    imageAlt:
+      "Digital illustration of water streams cooling power generator infrastructure with data center buildings in the background",
     publishedOn: "2026-07-22",
     category: AI_USAGE,
     readTime: 3,
@@ -1666,9 +1921,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 136,
     slug: "east-texas-diode-datacenter-withdrawal",
-    title: "Texas AI Data Center Withdrawn Amid Cedar Creek Lake Water Backlash",
-    description: "Diode Ventures withdraws its East Texas data center proposal near Cedar Creek Lake, citing Governor Greg Abbott's strict resource directives and local community opposition over water supply.",
-    imageAlt: "Sunset view of Cedar Creek Lake in East Texas with water conservation markers",
+    title:
+      "Texas AI Data Center Withdrawn Amid Cedar Creek Lake Water Backlash",
+    description:
+      "Diode Ventures withdraws its East Texas data center proposal near Cedar Creek Lake, citing Governor Greg Abbott's strict resource directives and local community opposition over water supply.",
+    imageAlt:
+      "Sunset view of Cedar Creek Lake in East Texas with water conservation markers",
     publishedOn: "2026-07-23",
     category: AI_USAGE,
     readTime: 3,
@@ -1677,9 +1935,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 137,
     slug: "trump-expands-ai-ratepayer-protection-pledge",
-    title: "Trump expands a voluntary pledge to protect consumers from high utility bills from AI data centers",
-    description: "U.S. President Donald Trump has governors and electricity companies join a voluntary pledge to shield consumers from high utility bills caused by AI data centers.",
-    imageAlt: "Digital rendering of utility executives and governors signing ratepayer protection agreement",
+    title:
+      "Trump expands a voluntary pledge to protect consumers from high utility bills from AI data centers",
+    description:
+      "U.S. President Donald Trump has governors and electricity companies join a voluntary pledge to shield consumers from high utility bills caused by AI data centers.",
+    imageAlt:
+      "Digital rendering of utility executives and governors signing ratepayer protection agreement",
     publishedOn: "2026-07-23",
     category: AI_USAGE,
     readTime: 3,
@@ -1689,8 +1950,10 @@ export const blogPosts: BlogPost[] = [
     id: 138,
     slug: "data-center-alley-power-fault-triggers-massive-3-gw-load-drop",
     title: "Data Center Alley Power Fault Triggers Massive 3 GW Load Drop",
-    description: "A transmission line fault in Virginia’s Data Center Alley forced hyperscale facilities to backup generators, instantly dropping 3 GW of load from the PJM grid.",
-    imageAlt: "Digital rendering of power transmission lines and hyperscale data center buildings",
+    description:
+      "A transmission line fault in Virginia’s Data Center Alley forced hyperscale facilities to backup generators, instantly dropping 3 GW of load from the PJM grid.",
+    imageAlt:
+      "Digital rendering of power transmission lines and hyperscale data center buildings",
     publishedOn: "2026-07-24",
     category: AI_USAGE,
     readTime: 3,
@@ -1700,8 +1963,10 @@ export const blogPosts: BlogPost[] = [
     id: 139,
     slug: "hcltech-odisha-sovereign-ai-datacenter",
     title: "HCLTech Bets $1.48 Billion on Odisha Sovereign AI Data Center",
-    description: "HCLTech partners with Sarvam AI and the Government of Odisha to establish a ₹14,257 crore sovereign AI data center and tech hub in Bhubaneswar.",
-    imageAlt: "A futuristic Indian data center in Odisha glowing beside temples, solar panels, and power lines",
+    description:
+      "HCLTech partners with Sarvam AI and the Government of Odisha to establish a ₹14,257 crore sovereign AI data center and tech hub in Bhubaneswar.",
+    imageAlt:
+      "A futuristic Indian data center in Odisha glowing beside temples, solar panels, and power lines",
     publishedOn: "2026-07-24",
     category: AI_USAGE,
     readTime: 3,
@@ -1712,15 +1977,17 @@ export const blogPosts: BlogPost[] = [
       "Sarvam AI",
       "sovereign AI India",
       "Bhubaneswar data center",
-      "AI infrastructure costs"
+      "AI infrastructure costs",
     ],
   }),
   createPost({
     id: 140,
     slug: "hyperscaler-725b-ai-infrastructure-spending",
     title: "Big Tech's 2026 AI Bill Comes to $725 Billion",
-    description: "The four largest hyperscalers are projected to spend a combined $725 billion on AI infrastructure in 2026, marking a 77% surge as grid and hardware costs climb.",
-    imageAlt: "A representation of a global power grid backing a massive network of hyperscale AI data centers",
+    description:
+      "The four largest hyperscalers are projected to spend a combined $725 billion on AI infrastructure in 2026, marking a 77% surge as grid and hardware costs climb.",
+    imageAlt:
+      "A representation of a global power grid backing a massive network of hyperscale AI data centers",
     publishedOn: "2026-07-24",
     category: AI_USAGE,
     readTime: 3,
@@ -1731,15 +1998,17 @@ export const blogPosts: BlogPost[] = [
       "AI energy demands",
       "data center buildout",
       "Alphabet earnings",
-      "compute costs"
+      "compute costs",
     ],
   }),
   createPost({
     id: 141,
     slug: "louisville-stricter-ai-datacenter-rules",
     title: "Louisville Proposes Stricter AI Data Center Zoning Rules",
-    description: "The Louisville Metro Office of Planning recommends stricter data center zoning, banning hyperscale facilities and mandating 500-foot setbacks.",
-    imageAlt: "Aerial view of a city skyline representing local zoning and data center restrictions",
+    description:
+      "The Louisville Metro Office of Planning recommends stricter data center zoning, banning hyperscale facilities and mandating 500-foot setbacks.",
+    imageAlt:
+      "Aerial view of a city skyline representing local zoning and data center restrictions",
     publishedOn: "2026-07-26",
     category: AI_USAGE,
     readTime: 3,
@@ -1750,15 +2019,18 @@ export const blogPosts: BlogPost[] = [
       "data center regulation",
       "hyperscale ban",
       "setback",
-      "ratepayer protection"
+      "ratepayer protection",
     ],
   }),
   createPost({
     id: 142,
     slug: "california-ai-datacenter-colorado-river-water-dispute",
-    title: "California's biggest planned AI data center promised not to use Colorado River water. Now it wants 260 million gallons a year",
-    description: "A proposed 330-megawatt AI data center in California's Imperial Valley faces intense controversy after the developer files a lawsuit seeking 287 million gallons of Colorado River water annually.",
-    imageAlt: "Water canal irrigating agricultural fields in California's Imperial Valley",
+    title:
+      "California's biggest planned AI data center promised not to use Colorado River water. Now it wants 260 million gallons a year",
+    description:
+      "A proposed 330-megawatt AI data center in California's Imperial Valley faces intense controversy after the developer files a lawsuit seeking 287 million gallons of Colorado River water annually.",
+    imageAlt:
+      "Water canal irrigating agricultural fields in California's Imperial Valley",
     publishedOn: "2026-07-27",
     category: AI_USAGE,
     readTime: 3,
@@ -1769,15 +2041,17 @@ export const blogPosts: BlogPost[] = [
       "California AI data center",
       "water dispute",
       "Sebastian Rucci",
-      "agricultural water rights"
+      "agricultural water rights",
     ],
   }),
   createPost({
     id: 143,
     slug: "currence-datacenter-capacity-delay-report",
     title: "Currence Forecasts Up to 50% Delay in 2026 AI Data Center Builds",
-    description: "A new energy intelligence report warns that power grid limits and construction bottlenecks will delay 30% to 50% of 2026 data center capacity.",
-    imageAlt: "Digital representation of a data center construction site facing delays and energy grid constraints",
+    description:
+      "A new energy intelligence report warns that power grid limits and construction bottlenecks will delay 30% to 50% of 2026 data center capacity.",
+    imageAlt:
+      "Digital representation of a data center construction site facing delays and energy grid constraints",
     publishedOn: "2026-07-27",
     category: AI_USAGE,
     readTime: 3,
@@ -1788,15 +2062,18 @@ export const blogPosts: BlogPost[] = [
       "AI factories",
       "power constraints",
       "grid interconnection",
-      "behind-the-meter power"
+      "behind-the-meter power",
     ],
   }),
   createPost({
     id: 144,
     slug: "nvidia-openai-ohio-datacenter-guarantee",
-    title: "Nvidia in Talks to Guarantee $250 Billion of OpenAI Data Center Debt",
-    description: "Nvidia is reportedly in discussions to guarantee roughly $250 billion in construction and lease debt for OpenAI's proposed 10-gigawatt Ohio campus.",
-    imageAlt: "A giant high-voltage power transmission tower supplying electricity to a modern data center",
+    title:
+      "Nvidia in Talks to Guarantee $250 Billion of OpenAI Data Center Debt",
+    description:
+      "Nvidia is reportedly in discussions to guarantee roughly $250 billion in construction and lease debt for OpenAI's proposed 10-gigawatt Ohio campus.",
+    imageAlt:
+      "A giant high-voltage power transmission tower supplying electricity to a modern data center",
     publishedOn: "2026-07-28",
     category: AI_USAGE,
     readTime: 4,
@@ -1808,15 +2085,17 @@ export const blogPosts: BlogPost[] = [
       "10-gigawatt campus",
       "debt guarantee",
       "circular financing",
-      "power grid constraints"
+      "power grid constraints",
     ],
   }),
   createPost({
     id: 145,
     slug: "house-advances-data-center-ratepayer-bill",
     title: "House Committee Unanimously Advances Data Center Energy Bill",
-    description: "The House Energy and Commerce Committee unanimously advances the Rate Payer Protection Act to shield residential ratepayers from multi-billion-dollar AI grid upgrade costs.",
-    imageAlt: "A modern electric power substation and high-voltage transmission lines supplying power to data centers",
+    description:
+      "The House Energy and Commerce Committee unanimously advances the Rate Payer Protection Act to shield residential ratepayers from multi-billion-dollar AI grid upgrade costs.",
+    imageAlt:
+      "A modern electric power substation and high-voltage transmission lines supplying power to data centers",
     publishedOn: "2026-07-29",
     category: AI_USAGE,
     readTime: 3,
@@ -1828,15 +2107,18 @@ export const blogPosts: BlogPost[] = [
       "data center energy costs",
       "large-load standard",
       "grid upgrade costs",
-      "ratepayer protection"
+      "ratepayer protection",
     ],
   }),
   createPost({
     id: 146,
     slug: "fort-worth-black-mountain-datacenter-land-acquisition",
-    title: "Data centers require substantial water, energy. Sustainable practices, technology can lessen impact",
-    description: "Black Mountain acquires 450 acres of land in Fort Worth for a planned data center development, raising local community concerns over water, energy, and noise footprints.",
-    imageAlt: "A scenic view of open land and power transmission lines in Fort Worth, Texas",
+    title:
+      "Data centers require substantial water, energy. Sustainable practices, technology can lessen impact",
+    description:
+      "Black Mountain acquires 450 acres of land in Fort Worth for a planned data center development, raising local community concerns over water, energy, and noise footprints.",
+    imageAlt:
+      "A scenic view of open land and power transmission lines in Fort Worth, Texas",
     publishedOn: "2026-07-29",
     category: AI_USAGE,
     readTime: 3,
@@ -1847,15 +2129,17 @@ export const blogPosts: BlogPost[] = [
       "Texas AI infrastructure",
       "water cooling footprint",
       "ERCOT grid strain",
-      "community opposition"
+      "community opposition",
     ],
   }),
   createPost({
     id: 147,
     slug: "epa-islanded-power-pollution-exemption",
     title: "EPA Exempts Off-Grid AI Power Plants From Acid Rain Rules",
-    description: "The EPA clarifies that dedicated off-grid power plants serving AI data centers are exempt from the Clean Air Act's Acid Rain Program emissions rules.",
-    imageAlt: "A large-scale power generation facility adjacent to a modern data center campus",
+    description:
+      "The EPA clarifies that dedicated off-grid power plants serving AI data centers are exempt from the Clean Air Act's Acid Rain Program emissions rules.",
+    imageAlt:
+      "A large-scale power generation facility adjacent to a modern data center campus",
     publishedOn: "2026-07-29",
     category: AI_USAGE,
     readTime: 3,
@@ -1866,15 +2150,18 @@ export const blogPosts: BlogPost[] = [
       "islanded power plants",
       "off-grid generation",
       "Clean Air Act",
-      "AI data center energy"
+      "AI data center energy",
     ],
   }),
   createPost({
     id: 148,
     slug: "paducah-doe-site-ai-datacenter",
-    title: "DOE Site in Western Kentucky Revitalized with Data Center Campus and Dedicated Energy Project, Creating Jobs and Protecting Residents and Businesses from Costs",
-    description: "Brookfield and NextEra partner with the DOE to develop a $100 billion AI data center campus at the Paducah Site in Western Kentucky, backed by up to 4.6 GW of dedicated energy infrastructure.",
-    imageAlt: "A large-scale power transmission facility adjacent to a modern data center campus at the former Paducah enrichment site",
+    title:
+      "DOE Site in Western Kentucky Revitalized with Data Center Campus and Dedicated Energy Project, Creating Jobs and Protecting Residents and Businesses from Costs",
+    description:
+      "Brookfield and NextEra partner with the DOE to develop a $100 billion AI data center campus at the Paducah Site in Western Kentucky, backed by up to 4.6 GW of dedicated energy infrastructure.",
+    imageAlt:
+      "A large-scale power transmission facility adjacent to a modern data center campus at the former Paducah enrichment site",
     publishedOn: "2026-07-30",
     category: AI_USAGE,
     readTime: 3,
@@ -1885,15 +2172,17 @@ export const blogPosts: BlogPost[] = [
       "Brookfield",
       "NextEra Energy",
       "Ratepayer Protection Pledge",
-      "AI data center Kentucky"
+      "AI data center Kentucky",
     ],
   }),
   createPost({
     id: 149,
     slug: "brookings-datacenter-moratoriums-oversight-report",
     title: "Brookings: AI Data Center Moratoriums Fail Without Real Oversight",
-    description: "A new Brookings report tracks the rapid spread of data center moratoriums across 15 states and 100 localities, warning that pauses fail without transparent resource auditing.",
-    imageAlt: "A demonstration protesting AI data center resource consumption and grid strain",
+    description:
+      "A new Brookings report tracks the rapid spread of data center moratoriums across 15 states and 100 localities, warning that pauses fail without transparent resource auditing.",
+    imageAlt:
+      "A demonstration protesting AI data center resource consumption and grid strain",
     publishedOn: "2026-07-30",
     category: AI_USAGE,
     readTime: 3,
@@ -1904,15 +2193,17 @@ export const blogPosts: BlogPost[] = [
       "AI energy demand",
       "resource reporting",
       "ratepayer protection",
-      "regulatory oversight"
+      "regulatory oversight",
     ],
   }),
   createPost({
     id: 150,
     slug: "botetourt-google-data-center-commission",
     title: "Botetourt County Creates Panel to Study Google Data Center Impacts",
-    description: "The Botetourt County Board of Supervisors votes 3-1 to establish an independent commission to assess a proposed $3 billion Google data center's effects on water and infrastructure.",
-    imageAlt: "An aerial view of Botetourt Center at Greenfield, slated for the Google data center campus",
+    description:
+      "The Botetourt County Board of Supervisors votes 3-1 to establish an independent commission to assess a proposed $3 billion Google data center's effects on water and infrastructure.",
+    imageAlt:
+      "An aerial view of Botetourt Center at Greenfield, slated for the Google data center campus",
     publishedOn: "2026-07-30",
     category: AI_USAGE,
     readTime: 3,
@@ -1923,15 +2214,18 @@ export const blogPosts: BlogPost[] = [
       "independent commission",
       "data center water footprint",
       "community opposition",
-      "ratepayer protection"
+      "ratepayer protection",
     ],
   }),
   createPost({
     id: 151,
     slug: "willie-nelson-abbott-data-center-opposition",
-    title: "Willie Nelson Warns Texas Data Center Boom Threatens Rural Communities",
-    description: "Country music legend Willie Nelson urges rural Texas communities to fight AI data centers invading their land over concerns of water depletion, noise, and light pollution.",
-    imageAlt: "A portrait of Willie Nelson speaking out against AI data center expansion in rural Texas",
+    title:
+      "Willie Nelson Warns Texas Data Center Boom Threatens Rural Communities",
+    description:
+      "Country music legend Willie Nelson urges rural Texas communities to fight AI data centers invading their land over concerns of water depletion, noise, and light pollution.",
+    imageAlt:
+      "A portrait of Willie Nelson speaking out against AI data center expansion in rural Texas",
     publishedOn: "2026-08-01",
     category: AI_USAGE,
     readTime: 3,
@@ -1942,14 +2236,15 @@ export const blogPosts: BlogPost[] = [
       "AI data center water use",
       "rural land preservation",
       "noise pollution",
-      "light pollution"
+      "light pollution",
     ],
   }),
   createPost({
     id: 152,
     slug: "exelon-ai-datacenter-pipeline-drop",
     title: "Exelon Cuts High-Probability AI Data Center Power Pipeline by 40%",
-    description: "Exelon has slashed its high-probability data center load projection by nearly 40 percent, introducing strict transmission security agreements to weed out speculative projects.",
+    description:
+      "Exelon has slashed its high-probability data center load projection by nearly 40 percent, introducing strict transmission security agreements to weed out speculative projects.",
     imageAlt: "An aerial view of a large data center and power lines",
     publishedOn: "2026-08-01",
     category: AI_USAGE,
@@ -1961,15 +2256,17 @@ export const blogPosts: BlogPost[] = [
       "transmission security agreements",
       "grid integration",
       "speculative workloads",
-      "ratepayer protection"
+      "ratepayer protection",
     ],
   }),
   createPost({
     id: 153,
     slug: "firstenergy-wv-datacenter-surcharge",
     title: "FirstEnergy Data Center Contracts Surge 50% Driving Surcharges",
-    description: "FirstEnergy's signed data center capacity reached 6.4 GW in the second quarter, and subsidiary Mon Power plans a customer surcharge to help finance $2.7 billion in new West Virginia generation built mainly for a data center.",
-    imageAlt: "Power transmission lines and modern data center campus representing utility infrastructure",
+    description:
+      "FirstEnergy's signed data center capacity reached 6.4 GW in the second quarter, and subsidiary Mon Power plans a customer surcharge to help finance $2.7 billion in new West Virginia generation built mainly for a data center.",
+    imageAlt:
+      "Power transmission lines and modern data center campus representing utility infrastructure",
     publishedOn: "2026-08-01",
     category: AI_USAGE,
     readTime: 3,
@@ -1980,15 +2277,17 @@ export const blogPosts: BlogPost[] = [
       "Maidsville Energy Center",
       "customer surcharge",
       "data center electricity",
-      "ratepayer protection"
+      "ratepayer protection",
     ],
   }),
   createPost({
     id: 154,
     slug: "meta-q2-2026-ai-capex-increase",
     title: "Meta Forecasts Record $145 Billion in AI Data Center Spend",
-    description: "Meta elevates its 2026 capital expenditure guidance to a record $130–$145 billion to fund massive AI-optimized data centers and power infrastructure expansions.",
-    imageAlt: "Digital representation of a massive data center campus and high-density AI infrastructure with energy grid integrations",
+    description:
+      "Meta elevates its 2026 capital expenditure guidance to a record $130–$145 billion to fund massive AI-optimized data centers and power infrastructure expansions.",
+    imageAlt:
+      "Digital representation of a massive data center campus and high-density AI infrastructure with energy grid integrations",
     publishedOn: "2026-08-02",
     category: AI_USAGE,
     readTime: 3,
@@ -1999,15 +2298,18 @@ export const blogPosts: BlogPost[] = [
       "data center spend",
       "compute scaling",
       "energy integration",
-      "free cash flow"
+      "free cash flow",
     ],
   }),
   createPost({
     id: 155,
     slug: "protecting-ratepayers-act-bill",
-    title: "Florida-backed bill would require AI data centers to supply their own energy and water",
-    description: "U.S. Rep. Byron Donalds introduces the Protecting Ratepayers Act (H.R. 9777) mandating that hyperscale AI data centers secure off-grid power and water to protect consumer utility rates.",
-    imageAlt: "Digital illustration of hyperscale server racks with independent energy and water supplies",
+    title:
+      "Florida-backed bill would require AI data centers to supply their own energy and water",
+    description:
+      "U.S. Rep. Byron Donalds introduces the Protecting Ratepayers Act (H.R. 9777) mandating that hyperscale AI data centers secure off-grid power and water to protect consumer utility rates.",
+    imageAlt:
+      "Digital illustration of hyperscale server racks with independent energy and water supplies",
     publishedOn: "2026-08-01",
     category: AI_USAGE,
     readTime: 3,
@@ -2018,15 +2320,17 @@ export const blogPosts: BlogPost[] = [
       "H.R. 9777",
       "off-grid power",
       "water use",
-      "ratepayer protection"
+      "ratepayer protection",
     ],
   }),
   createPost({
     id: 156,
     slug: "us-data-center-construction-starts-june-2026",
     title: "US Data Center Construction Starts Reach $22.3 Billion in June",
-    description: "The U.S. data center industry recorded a massive $22.3 billion in construction starts in June 2026, driven by unrelenting demand for AI infrastructure.",
-    imageAlt: "Digital illustration of large-scale data center construction starts with skyrocketing spending metrics",
+    description:
+      "The U.S. data center industry recorded a massive $22.3 billion in construction starts in June 2026, driven by unrelenting demand for AI infrastructure.",
+    imageAlt:
+      "Digital illustration of large-scale data center construction starts with skyrocketing spending metrics",
     publishedOn: "2026-08-03",
     category: AI_USAGE,
     readTime: 3,
@@ -2037,15 +2341,17 @@ export const blogPosts: BlogPost[] = [
       "ConstructConnect",
       "capital expenditure",
       "construction starts",
-      "ratepayer protection"
+      "ratepayer protection",
     ],
   }),
   createPost({
     id: 157,
     slug: "texas-halts-new-data-centers-governor-audits",
     title: "Texas Halts New Data Centers as Governor Orders Grid Audits",
-    description: "Texas Governor Greg Abbott has ordered mandatory PUCT and ERCOT audits for all proposed data centers, targeting water and electricity consumption.",
-    imageAlt: "Digital illustration of data center structures overlaid with an official state seal and auditing metrics under grid stress indicators",
+    description:
+      "Texas Governor Greg Abbott has ordered mandatory PUCT and ERCOT audits for all proposed data centers, targeting water and electricity consumption.",
+    imageAlt:
+      "Digital illustration of data center structures overlaid with an official state seal and auditing metrics under grid stress indicators",
     publishedOn: "2026-08-04",
     category: AI_USAGE,
     readTime: 3,
@@ -2056,15 +2362,17 @@ export const blogPosts: BlogPost[] = [
       "ERCOT",
       "Greg Abbott",
       "AI power demand",
-      "water usage"
+      "water usage",
     ],
   }),
   createPost({
     id: 158,
     slug: "ercot-batch-zero-interconnection-delay",
     title: "ERCOT Delays Interconnection Study Amid 474 GW Power Request",
-    description: "ERCOT halts its Batch Zero transmission planning study as data centers drive a massive 474 GW queue of electricity interconnection requests in Texas.",
-    imageAlt: "Digital illustration of large-scale electricity transmission towers and data centers under grid audits",
+    description:
+      "ERCOT halts its Batch Zero transmission planning study as data centers drive a massive 474 GW queue of electricity interconnection requests in Texas.",
+    imageAlt:
+      "Digital illustration of large-scale electricity transmission towers and data centers under grid audits",
     publishedOn: "2026-08-05",
     category: AI_USAGE,
     readTime: 3,
@@ -2075,15 +2383,17 @@ export const blogPosts: BlogPost[] = [
       "interconnection queue",
       "Batch Zero",
       "large load process",
-      "AI power demand"
+      "AI power demand",
     ],
   }),
   createPost({
     id: 159,
     slug: "crusoe-aalo-nuclear-powered-ai-factory",
     title: "Can nuclear power the AI factory? Crusoe and Aalo find out",
-    description: "Crusoe and Aalo Atomics partner to deploy modular sodium-cooled nuclear reactors directly at data centers, starting with a 2027 pilot in Idaho.",
-    imageAlt: "Digital rendering of modular nuclear reactors and high-density AI data center structures at a research facility",
+    description:
+      "Crusoe and Aalo Atomics partner to deploy modular sodium-cooled nuclear reactors directly at data centers, starting with a 2027 pilot in Idaho.",
+    imageAlt:
+      "Digital rendering of modular nuclear reactors and high-density AI data center structures at a research facility",
     publishedOn: "2026-08-06",
     category: AI_USAGE,
     readTime: 3,
@@ -2095,14 +2405,15 @@ export const blogPosts: BlogPost[] = [
       "small modular reactors",
       "SMR",
       "Crusoe Spark",
-      "on-site nuclear power"
+      "on-site nuclear power",
     ],
   }),
   createPost({
     id: 160,
     slug: "tucson-large-scale-datacenter-regulations",
     title: "Tucson Approves Strict Large-Scale Data Center Regulations",
-    description: "The Tucson Mayor and Council adopted some of the most stringent regulations in the US for large-scale data centers, mandating water and power supply disclosures.",
+    description:
+      "The Tucson Mayor and Council adopted some of the most stringent regulations in the US for large-scale data centers, mandating water and power supply disclosures.",
     imageAlt: "Zoning regulations and data center infrastructure in Tucson",
     publishedOn: "2026-08-07",
     category: AI_USAGE,
@@ -2114,15 +2425,17 @@ export const blogPosts: BlogPost[] = [
       "large-scale data centers",
       "water disclosure",
       "power disclosure",
-      "ratepayer protection"
+      "ratepayer protection",
     ],
   }),
   createPost({
     id: 161,
     slug: "grid-safe-ai-data-center-power-800v-dc",
     title: "Grid-Safe AI Data Centre Power: New 800 V DC Architecture",
-    description: "DIMAAG unveils its ZettaWatt 800 V DC power architecture to smooth synchronized GPU load fluctuations and meet Texas's ERCOT ride-through mandates.",
-    imageAlt: "Digital representation of direct battery integration to stabilize AI power grids",
+    description:
+      "DIMAAG unveils its ZettaWatt 800 V DC power architecture to smooth synchronized GPU load fluctuations and meet Texas's ERCOT ride-through mandates.",
+    imageAlt:
+      "Digital representation of direct battery integration to stabilize AI power grids",
     publishedOn: "2026-08-08",
     category: AI_USAGE,
     readTime: 3,
@@ -2135,15 +2448,17 @@ export const blogPosts: BlogPost[] = [
       "NOGRR282",
       "low-voltage ride-through",
       "grid stability",
-      "AI power demand"
+      "AI power demand",
     ],
   }),
   createPost({
     id: 162,
     slug: "vineland-ai-datacenter-bloom-fuel-cells",
     title: "Vineland AI Data Center Eyes Bloom Energy Fuel Cells for 300 MW",
-    description: "Developers of a 300-megawatt AI data center in Vineland, New Jersey, propose on-site Bloom Energy fuel cells to bypass public grid capacity bottlenecks.",
-    imageAlt: "Digital rendering of a hyperscale data center powered by Bloom Energy fuel cells on-site",
+    description:
+      "Developers of a 300-megawatt AI data center in Vineland, New Jersey, propose on-site Bloom Energy fuel cells to bypass public grid capacity bottlenecks.",
+    imageAlt:
+      "Digital rendering of a hyperscale data center powered by Bloom Energy fuel cells on-site",
     publishedOn: "2026-08-08",
     category: AI_USAGE,
     readTime: 3,
@@ -2155,15 +2470,18 @@ export const blogPosts: BlogPost[] = [
       "Nebius Group",
       "fuel cells",
       "Microsoft AI",
-      "microgrid"
+      "microgrid",
     ],
   }),
   createPost({
     id: 163,
     slug: "galaxy-digital-mcgregor-grid-funding-model",
-    title: "Galaxy Digital's Texas AI Data Center Reflects New Grid Funding Model",
-    description: "Galaxy Digital acquires 500 acres in McGregor, Texas, for a 74 MW AI campus under a new 'beneficiary proves' model requiring self-funded grid and water upgrades.",
-    imageAlt: "Digital rendering of a modern AI data center with on-site substation power infrastructure in McGregor, Texas",
+    title:
+      "Galaxy Digital's Texas AI Data Center Reflects New Grid Funding Model",
+    description:
+      "Galaxy Digital acquires 500 acres in McGregor, Texas, for a 74 MW AI campus under a new 'beneficiary proves' model requiring self-funded grid and water upgrades.",
+    imageAlt:
+      "Digital rendering of a modern AI data center with on-site substation power infrastructure in McGregor, Texas",
     publishedOn: "2026-08-09",
     category: AI_USAGE,
     readTime: 3,
@@ -2175,15 +2493,18 @@ export const blogPosts: BlogPost[] = [
       "grid funding model",
       "closed-loop cooling",
       "Heart of Texas Electric Cooperative",
-      "ratepayer protection"
+      "ratepayer protection",
     ],
   }),
   createPost({
     id: 164,
     slug: "amazon-texas-data-center-climate-pollution",
-    title: "Planned Amazon Data Center Could Become the Biggest Climate Polluter in the U.S.",
-    description: "Amazon invests in a planned natural gas power plant for a Pecos County, Texas, data center permitted to release up to 33 million tons of carbon dioxide annually.",
-    imageAlt: "Digital rendering of a massive natural gas power generation facility supplying electricity to a hyperscale data center",
+    title:
+      "Planned Amazon Data Center Could Become the Biggest Climate Polluter in the U.S.",
+    description:
+      "Amazon invests in a planned natural gas power plant for a Pecos County, Texas, data center permitted to release up to 33 million tons of carbon dioxide annually.",
+    imageAlt:
+      "Digital rendering of a massive natural gas power generation facility supplying electricity to a hyperscale data center",
     publishedOn: "2026-08-09",
     category: AI_USAGE,
     readTime: 3,
@@ -2194,15 +2515,17 @@ export const blogPosts: BlogPost[] = [
       "Texas gas power plant",
       "AI emissions footprint",
       "Ratepayer Protection Pledge",
-      "behind-the-meter generation"
+      "behind-the-meter generation",
     ],
   }),
   createPost({
     id: 165,
     slug: "mocean-energy-offshore-wave-powered-ai-datacenter",
     title: "Mocean Energy targets growing AI data centre market",
-    description: "Mocean Energy enters the AI infrastructure market with 'Blue Core', an offshore wave-powered data center concept designed to generate grid-free power and eliminate freshwater cooling.",
-    imageAlt: "A digital rendering of wave-powered offshore data center platforms generating clean energy at sea",
+    description:
+      "Mocean Energy enters the AI infrastructure market with 'Blue Core', an offshore wave-powered data center concept designed to generate grid-free power and eliminate freshwater cooling.",
+    imageAlt:
+      "A digital rendering of wave-powered offshore data center platforms generating clean energy at sea",
     publishedOn: "2026-08-10",
     category: AI_USAGE,
     readTime: 3,
@@ -2213,15 +2536,18 @@ export const blogPosts: BlogPost[] = [
       "wave power AI",
       "offshore data center",
       "ocean cooling",
-      "grid-free compute"
+      "grid-free compute",
     ],
   }),
   createPost({
     id: 166,
     slug: "ppl-blackstone-invitium-gas-turbines",
-    title: "Invitium Energy Secures 5 GW of Gas Turbines for PA AI Data Centers",
-    description: "PPL and Blackstone's joint venture secures over 5 GW of combined-cycle gas turbines, representing a $15 billion investment in behind-the-meter generation for AI data centers.",
-    imageAlt: "Large industrial gas turbines powering high-density data centers",
+    title:
+      "Invitium Energy Secures 5 GW of Gas Turbines for PA AI Data Centers",
+    description:
+      "PPL and Blackstone's joint venture secures over 5 GW of combined-cycle gas turbines, representing a $15 billion investment in behind-the-meter generation for AI data centers.",
+    imageAlt:
+      "Large industrial gas turbines powering high-density data centers",
     publishedOn: "2026-08-10",
     category: AI_USAGE,
     readTime: 3,
@@ -2233,15 +2559,18 @@ export const blogPosts: BlogPost[] = [
       "gas turbines",
       "Pennsylvania AI data centers",
       "behind-the-meter power",
-      "PJM Interconnection"
+      "PJM Interconnection",
     ],
   }),
   createPost({
     id: 167,
     slug: "veolia-ohio-ai-datacenter-microgrid",
-    title: "Veolia Selected to Operate 350-MW Grid-Independent Microgrid in Ohio for AI Data Center Campus",
-    description: "Veolia secures a landmark contract to operate and maintain a 350-megawatt, 430 MWh battery-backed microgrid to power an Ohio AI data center campus off-grid.",
-    imageAlt: "Large-scale battery energy storage systems and power generation equipment on a modern data center campus",
+    title:
+      "Veolia Selected to Operate 350-MW Grid-Independent Microgrid in Ohio for AI Data Center Campus",
+    description:
+      "Veolia secures a landmark contract to operate and maintain a 350-megawatt, 430 MWh battery-backed microgrid to power an Ohio AI data center campus off-grid.",
+    imageAlt:
+      "Large-scale battery energy storage systems and power generation equipment on a modern data center campus",
     publishedOn: "2026-08-11",
     category: AI_USAGE,
     readTime: 3,
@@ -2252,15 +2581,17 @@ export const blogPosts: BlogPost[] = [
       "350 MW microgrid",
       "430 MWh battery",
       "behind-the-meter power",
-      "grid-independent compute"
+      "grid-independent compute",
     ],
   }),
   createPost({
     id: 168,
     slug: "energy-vault-texas-ai-power-deal",
     title: "Energy Vault Lands 1.25 GW Texas Off-Grid AI Power Deal",
-    description: "Energy Vault secures a massive 1.25 GW agreement to supply grid-forming battery storage and AI controls for a Texas hyperscaler AI data center campus using Caterpillar gensets.",
-    imageAlt: "Digital rendering of utility-scale battery storage systems and diesel generator sets powering a modern AI data center",
+    description:
+      "Energy Vault secures a massive 1.25 GW agreement to supply grid-forming battery storage and AI controls for a Texas hyperscaler AI data center campus using Caterpillar gensets.",
+    imageAlt:
+      "Digital rendering of utility-scale battery storage systems and diesel generator sets powering a modern AI data center",
     publishedOn: "2026-08-11",
     category: AI_USAGE,
     readTime: 3,
@@ -2272,15 +2603,18 @@ export const blogPosts: BlogPost[] = [
       "Caterpillar genset",
       "battery energy storage",
       "BESS",
-      "microgrid"
+      "microgrid",
     ],
   }),
   createPost({
     id: 169,
     slug: "jll-h1-2026-data-center-report",
-    title: "Data center demand exceeds expectations as H1 2026 absorption hits record 25 GW",
-    description: "JLL's North America Data Center Report reveals unprecedented growth driven by hyperscalers, neoclouds, and AI companies, while community acceptance remains a critical challenge with a 65-point gap.",
-    imageAlt: "Digital representation of a global power grid and data center infrastructure under community scrutiny",
+    title:
+      "Data center demand exceeds expectations as H1 2026 absorption hits record 25 GW",
+    description:
+      "JLL's North America Data Center Report reveals unprecedented growth driven by hyperscalers, neoclouds, and AI companies, while community acceptance remains a critical challenge with a 65-point gap.",
+    imageAlt:
+      "Digital representation of a global power grid and data center infrastructure under community scrutiny",
     publishedOn: "2026-08-11",
     category: AI_USAGE,
     readTime: 3,
@@ -2292,15 +2626,18 @@ export const blogPosts: BlogPost[] = [
       "AI infrastructure",
       "community acceptance gap",
       "capital markets",
-      "rent growth"
+      "rent growth",
     ],
   }),
   createPost({
     id: 170,
     slug: "openai-texas-data-center-standards",
-    title: "OpenAI Commits to Strict Texas Data Center Power and Water Standards",
-    description: "AI developer OpenAI commits to newly established Texas regulations requiring on-site generation plans, grid transmission self-funding, and strict water reuse/conservation auditing.",
-    imageAlt: "Digital representation of a power grid and water resources under compliance review in Texas",
+    title:
+      "OpenAI Commits to Strict Texas Data Center Power and Water Standards",
+    description:
+      "AI developer OpenAI commits to newly established Texas regulations requiring on-site generation plans, grid transmission self-funding, and strict water reuse/conservation auditing.",
+    imageAlt:
+      "Digital representation of a power grid and water resources under compliance review in Texas",
     publishedOn: "2026-08-12",
     category: AI_USAGE,
     readTime: 3,
@@ -2313,15 +2650,17 @@ export const blogPosts: BlogPost[] = [
       "water reuse",
       "compliance auditing",
       "ERCOT",
-      "PUCT"
+      "PUCT",
     ],
   }),
   createPost({
     id: 171,
     slug: "wrightstown-data-center-referendum-defeat",
     title: "Wisconsin Village Rejects Utility Support for Giant AI Data Center",
-    description: "Wrightstown, Wisconsin, residents voted 87% against authorizing municipal utility infrastructure or public service commitments for a proposed large-scale data center.",
-    imageAlt: "A scenic farmland field representing community resistance to industrial data center infrastructure",
+    description:
+      "Wrightstown, Wisconsin, residents voted 87% against authorizing municipal utility infrastructure or public service commitments for a proposed large-scale data center.",
+    imageAlt:
+      "A scenic farmland field representing community resistance to industrial data center infrastructure",
     publishedOn: "2026-08-11",
     category: AI_USAGE,
     readTime: 3,
@@ -2333,15 +2672,17 @@ export const blogPosts: BlogPost[] = [
       "referendum",
       "utility infrastructure",
       "community opposition",
-      "ratepayer protection"
+      "ratepayer protection",
     ],
   }),
   createPost({
     id: 172,
     slug: "standby-power-bottleneck-rehlko-liebherr",
     title: "Standby Power Becomes the New Bottleneck for AI Buildouts",
-    description: "Heavy lead times for backup generators emerge as the tightest constraint on AI infrastructure expansion, forcing manufacturers to double capacity.",
-    imageAlt: "An industrial generator enclosure representing standby power infrastructure for AI data centers",
+    description:
+      "Heavy lead times for backup generators emerge as the tightest constraint on AI infrastructure expansion, forcing manufacturers to double capacity.",
+    imageAlt:
+      "An industrial generator enclosure representing standby power infrastructure for AI data centers",
     publishedOn: "2026-08-13",
     category: AI_USAGE,
     readTime: 3,
@@ -2353,15 +2694,18 @@ export const blogPosts: BlogPost[] = [
       "backup generators",
       "data center power",
       "IEA",
-      "lead times"
+      "lead times",
     ],
   }),
   createPost({
     id: 173,
     slug: "everglades-project-tango-datacenter-backlash",
-    title: "A huge AI datacenter is planned near Mar-a-Lago. The Everglades could pay the price",
-    description: "Developers propose a 600 MW hyperscale AI data center near the Florida Everglades, drawing fierce opposition over concerns of grid upgrades and waste heat fueling toxic algal blooms.",
-    imageAlt: "An aerial view of the proposed 200-acre Project Tango data center site and the surrounding wetlands near the Florida Everglades",
+    title:
+      "A huge AI datacenter is planned near Mar-a-Lago. The Everglades could pay the price",
+    description:
+      "Developers propose a 600 MW hyperscale AI data center near the Florida Everglades, drawing fierce opposition over concerns of grid upgrades and waste heat fueling toxic algal blooms.",
+    imageAlt:
+      "An aerial view of the proposed 200-acre Project Tango data center site and the surrounding wetlands near the Florida Everglades",
     publishedOn: "2026-08-13",
     category: AI_USAGE,
     readTime: 3,
@@ -2375,15 +2719,17 @@ export const blogPosts: BlogPost[] = [
       "cyanobacteria blooms",
       "microcystin",
       "Florida Power and Light",
-      "ratepayer protection"
+      "ratepayer protection",
     ],
   }),
   createPost({
     id: 174,
     slug: "hyperscalers-face-natural-gas-price-risks-study-warns",
     title: "Hyperscalers Face Natural Gas Price Risks, Study Warns",
-    description: "A new forecast warns that natural gas prices could triple to over $10/MMBtu, threatening the economics of gas-powered AI data centers planned by Amazon, Google, Meta, and Microsoft.",
-    imageAlt: "Natural gas power plant infrastructure supplying power to an AI data center campus",
+    description:
+      "A new forecast warns that natural gas prices could triple to over $10/MMBtu, threatening the economics of gas-powered AI data centers planned by Amazon, Google, Meta, and Microsoft.",
+    imageAlt:
+      "Natural gas power plant infrastructure supplying power to an AI data center campus",
     publishedOn: "2026-08-14",
     category: AI_USAGE,
     readTime: 3,
@@ -2395,15 +2741,17 @@ export const blogPosts: BlogPost[] = [
       "AI power costs",
       "gas-powered data centers",
       "LNG exports",
-      "electricity prices"
+      "electricity prices",
     ],
   }),
   createPost({
     id: 175,
     slug: "warsaw-suburb-datacenter-water-protests",
     title: "Data center planned for suburb in Warsaw, Poland, sparks protests",
-    description: "Plans for a new data center on the border of Piaseczno and Józefosław near Warsaw trigger public protests over potential local water shortages.",
-    imageAlt: "Suburban landscape near Warsaw representing community protests against data center water consumption",
+    description:
+      "Plans for a new data center on the border of Piaseczno and Józefosław near Warsaw trigger public protests over potential local water shortages.",
+    imageAlt:
+      "Suburban landscape near Warsaw representing community protests against data center water consumption",
     publishedOn: "2026-08-14",
     category: AI_USAGE,
     readTime: 3,
@@ -2415,15 +2763,17 @@ export const blogPosts: BlogPost[] = [
       "Poland data center",
       "water shortage",
       "data center protests",
-      "cooling water use"
+      "cooling water use",
     ],
   }),
   createPost({
     id: 176,
     slug: "ontario-data-center-playbook-framework",
     title: "Ontario Unveils Data Center Playbook to Protect Utility Rates",
-    description: "Ontario Premier Doug Ford announces the Data Center Playbook, requiring data centers over 1 MW to pay their full grid impact and introducing a dedicated rate class.",
-    imageAlt: "Digital representation of a data center campus and electrical grid infrastructure in Ontario, Canada",
+    description:
+      "Ontario Premier Doug Ford announces the Data Center Playbook, requiring data centers over 1 MW to pay their full grid impact and introducing a dedicated rate class.",
+    imageAlt:
+      "Digital representation of a data center campus and electrical grid infrastructure in Ontario, Canada",
     publishedOn: "2026-08-14",
     category: AI_USAGE,
     readTime: 3,
@@ -2435,15 +2785,18 @@ export const blogPosts: BlogPost[] = [
       "ratepayer protection",
       "electricity grid",
       "large-load rate class",
-      "data center regulation"
+      "data center regulation",
     ],
   }),
   createPost({
     id: 177,
     slug: "pjm-ferc-iras-data-center-power-rules",
-    title: "PJM Formally Submits FERC Proposal On Connecting Data Centers That Bring And Don't Bring Their Own Power Supplies",
-    description: "PJM Interconnection proposes new FERC rules prioritizing emergency curtailment for unpowered data centers as AI drives 30 GW of forecasted electricity demand growth.",
-    imageAlt: "High-voltage electric transmission lines and electrical grid substation serving large data center facilities",
+    title:
+      "PJM Formally Submits FERC Proposal On Connecting Data Centers That Bring And Don't Bring Their Own Power Supplies",
+    description:
+      "PJM Interconnection proposes new FERC rules prioritizing emergency curtailment for unpowered data centers as AI drives 30 GW of forecasted electricity demand growth.",
+    imageAlt:
+      "High-voltage electric transmission lines and electrical grid substation serving large data center facilities",
     publishedOn: "2026-08-15",
     category: AI_USAGE,
     readTime: 3,
@@ -2455,15 +2808,18 @@ export const blogPosts: BlogPost[] = [
       "Large Load Registry",
       "emergency curtailment",
       "data center power demand",
-      "grid reliability"
+      "grid reliability",
     ],
   }),
   createPost({
     id: 178,
     slug: "us-ai-labs-slash-prices-in-token-cost-war-with-chinese-rivals",
-    title: "US AI Labs Slash Model Prices in Token Cost War With Chinese Rivals",
-    description: "OpenAI and Anthropic slash API token prices by up to 80% as cost-conscious enterprises turn to cheaper models from Chinese competitors.",
-    imageAlt: "Digital illustration representing API token price cuts and competition in AI model infrastructure",
+    title:
+      "US AI Labs Slash Model Prices in Token Cost War With Chinese Rivals",
+    description:
+      "OpenAI and Anthropic slash API token prices by up to 80% as cost-conscious enterprises turn to cheaper models from Chinese competitors.",
+    imageAlt:
+      "Digital illustration representing API token price cuts and competition in AI model infrastructure",
     publishedOn: "2026-08-16",
     category: AI_USAGE,
     readTime: 3,
@@ -2476,15 +2832,17 @@ export const blogPosts: BlogPost[] = [
       "GPT-5.6 Luna",
       "Claude Opus 5",
       "DeepSeek",
-      "inference costs"
+      "inference costs",
     ],
   }),
   createPost({
     id: 179,
     slug: "nj-towns-ban-hyperscale-ai-data-centers",
     title: "New Jersey Towns Ban Hyperscale AI Data Centers",
-    description: "Over 70 New Jersey municipalities enact local bans on hyperscale AI data centers over concerns regarding water usage, PFAS contamination, and electric grid strain.",
-    imageAlt: "Digital representation of municipal governance and data center resource opposition in New Jersey",
+    description:
+      "Over 70 New Jersey municipalities enact local bans on hyperscale AI data centers over concerns regarding water usage, PFAS contamination, and electric grid strain.",
+    imageAlt:
+      "Digital representation of municipal governance and data center resource opposition in New Jersey",
     publishedOn: "2026-08-14",
     category: AI_USAGE,
     readTime: 3,
@@ -2496,15 +2854,17 @@ export const blogPosts: BlogPost[] = [
       "A796/S731",
       "Governor Mikie Sherrill",
       "water cooling footprint",
-      "ratepayer protection"
+      "ratepayer protection",
     ],
   }),
   createPost({
     id: 180,
     slug: "nvidia-invests-1-5b-in-sb-energy-ohio-datacenter",
     title: "Nvidia Backs SoftBank Data Center Project With $1.5B Deal",
-    description: "Nvidia commits $1.5 billion and a $105 billion credit facility to SB Energy for a 8 GW OpenAI data center campus and 9.2 GW gas power plant in Ohio.",
-    imageAlt: "High-voltage power infrastructure supplying an AI data center campus",
+    description:
+      "Nvidia commits $1.5 billion and a $105 billion credit facility to SB Energy for a 8 GW OpenAI data center campus and 9.2 GW gas power plant in Ohio.",
+    imageAlt:
+      "High-voltage power infrastructure supplying an AI data center campus",
     publishedOn: "2026-08-17",
     category: AI_USAGE,
     readTime: 3,
@@ -2516,15 +2876,18 @@ export const blogPosts: BlogPost[] = [
       "OpenAI",
       "Ports-Pike data center",
       "natural gas power plant",
-      "Ohio AI data center"
+      "Ohio AI data center",
     ],
   }),
   createPost({
     id: 181,
     slug: "vc-renewables-vitol-south-carolina-ai-data-center",
-    title: "Vitol's Clean-Power Unit Buys South Carolina Data-Center Campus to Power AI",
-    description: "Vitol's clean-power arm VC Renewables acquires a South Carolina AI data center campus from Meridan Gridworks to handle power supply and on-site energy storage.",
-    imageAlt: "Digital representation of power supply and energy storage infrastructure at an AI data center campus",
+    title:
+      "Vitol's Clean-Power Unit Buys South Carolina Data-Center Campus to Power AI",
+    description:
+      "Vitol's clean-power arm VC Renewables acquires a South Carolina AI data center campus from Meridan Gridworks to handle power supply and on-site energy storage.",
+    imageAlt:
+      "Digital representation of power supply and energy storage infrastructure at an AI data center campus",
     publishedOn: "2026-08-17",
     category: AI_USAGE,
     readTime: 3,
@@ -2536,15 +2899,17 @@ export const blogPosts: BlogPost[] = [
       "South Carolina data center",
       "AI electricity supply",
       "energy storage",
-      "power grid constraints"
+      "power grid constraints",
     ],
   }),
   createPost({
     id: 182,
     slug: "siemens-reinhausen-800vdc-ai-datacenter-transformers",
     title: "Siemens and Reinhausen Target 800 VDC Power for AI Racks",
-    description: "Siemens and Reinhausen develop 800 VDC solid-state transformers to eliminate conversion losses and supply megawatt-scale AI server racks directly from medium-voltage grids.",
-    imageAlt: "Solid-state transformer technology powering high-density AI data center server racks",
+    description:
+      "Siemens and Reinhausen develop 800 VDC solid-state transformers to eliminate conversion losses and supply megawatt-scale AI server racks directly from medium-voltage grids.",
+    imageAlt:
+      "Solid-state transformer technology powering high-density AI data center server racks",
     publishedOn: "2026-08-18",
     category: AI_USAGE,
     readTime: 3,
@@ -2557,15 +2922,17 @@ export const blogPosts: BlogPost[] = [
       "SST",
       "AI data center power",
       "megawatt racks",
-      "Nvidia MGX"
+      "Nvidia MGX",
     ],
   }),
   createPost({
     id: 183,
     slug: "project-jupiter-nm-ai-datacenter-status",
     title: "Project Jupiter: where the AI data center project stands in NM",
-    description: "New Mexico's $165B Project Jupiter AI data center faces pipeline denials, fraud probes, and proposed statewide moratoriums as resource demands mount.",
-    imageAlt: "Digital representation of Project Jupiter data center campus in New Mexico and energy infrastructure",
+    description:
+      "New Mexico's $165B Project Jupiter AI data center faces pipeline denials, fraud probes, and proposed statewide moratoriums as resource demands mount.",
+    imageAlt:
+      "Digital representation of Project Jupiter data center campus in New Mexico and energy infrastructure",
     publishedOn: "2026-08-17",
     category: AI_USAGE,
     readTime: 3,
@@ -2578,15 +2945,18 @@ export const blogPosts: BlogPost[] = [
       "data center water",
       "natural gas pipeline",
       "microgrid oversight",
-      "data center moratorium"
+      "data center moratorium",
     ],
   }),
   createPost({
     id: 184,
     slug: "pennsylvania-executive-order-ai-data-centers",
-    title: "Pennsylvania Orders Strict New Rules for AI Data Center Developments",
-    description: "Governor Josh Shapiro signs Executive Order 2026-05 mandating local consent, banning NDAs, and requiring dedicated power generation for AI data centers.",
-    imageAlt: "Digital representation of state regulatory oversight and data center infrastructure in Pennsylvania",
+    title:
+      "Pennsylvania Orders Strict New Rules for AI Data Center Developments",
+    description:
+      "Governor Josh Shapiro signs Executive Order 2026-05 mandating local consent, banning NDAs, and requiring dedicated power generation for AI data centers.",
+    imageAlt:
+      "Digital representation of state regulatory oversight and data center infrastructure in Pennsylvania",
     publishedOn: "2026-08-19",
     category: AI_USAGE,
     readTime: 3,
@@ -2598,15 +2968,18 @@ export const blogPosts: BlogPost[] = [
       "GRID requirements",
       "data center NDA ban",
       "ratepayer protection",
-      "PJM grid"
+      "PJM grid",
     ],
   }),
   createPost({
     id: 185,
     slug: "generac-ai-datacenter-supply-chain-expansion",
-    title: "The AI data centre boom is remaking US factory supply chains, and Trump’s tariffs are the wildcard",
-    description: "Generac and U.S. industrial suppliers retool factories to produce heavy generators, transformers, and electrical equipment as AI data center order backlogs hit $1.6 billion.",
-    imageAlt: "Heavy industrial power equipment and generators built for hyperscale AI data centers",
+    title:
+      "The AI data centre boom is remaking US factory supply chains, and Trump’s tariffs are the wildcard",
+    description:
+      "Generac and U.S. industrial suppliers retool factories to produce heavy generators, transformers, and electrical equipment as AI data center order backlogs hit $1.6 billion.",
+    imageAlt:
+      "Heavy industrial power equipment and generators built for hyperscale AI data centers",
     publishedOn: "2026-08-19",
     category: AI_USAGE,
     readTime: 3,
@@ -2617,7 +2990,7 @@ export const blogPosts: BlogPost[] = [
       "data center generators",
       "heavy power equipment",
       "factory retooling",
-      "order backlog"
+      "order backlog",
     ],
   }),
   createPost({
@@ -2626,7 +2999,8 @@ export const blogPosts: BlogPost[] = [
     title: "TerraPower Uses Molten Salt Storage to Power AI Data Centers",
     description:
       "TerraPower leverages molten salt thermal storage in its 345 MW Natrium nuclear reactors to smooth volatile AI GPU compute loads without throttling power output.",
-    imageAlt: "Digital representation of a nuclear reactor with molten salt thermal energy storage serving an AI data center campus",
+    imageAlt:
+      "Digital representation of a nuclear reactor with molten salt thermal energy storage serving an AI data center campus",
     publishedOn: "2026-08-20",
     category: AI_USAGE,
     readTime: 3,
@@ -2637,16 +3011,18 @@ export const blogPosts: BlogPost[] = [
       "molten salt storage",
       "nuclear AI power",
       "small modular reactors",
-      "GPU load spikes"
+      "GPU load spikes",
     ],
   }),
   createPost({
     id: 187,
     slug: "eei-us-large-load-ai-data-center-pipeline-report",
-    title: "EEI Report: US AI Data Center Pipeline Reaches 68 GW and $1 Trillion",
+    title:
+      "EEI Report: US AI Data Center Pipeline Reaches 68 GW and $1 Trillion",
     description:
       "A new Edison Electric Institute report reveals that utility-scale large load projects in the US have reached 68 GW and $1 trillion, driving widespread adoption of protective tariffs.",
-    imageAlt: "High-voltage electrical grid substation supplying a large-scale data center campus",
+    imageAlt:
+      "High-voltage electrical grid substation supplying a large-scale data center campus",
     publishedOn: "2026-08-20",
     category: AI_USAGE,
     readTime: 3,
@@ -2657,15 +3033,17 @@ export const blogPosts: BlogPost[] = [
       "large load tariffs",
       "AI power demand",
       "grid infrastructure costs",
-      "ratepayer protection"
+      "ratepayer protection",
     ],
   }),
   createPost({
     id: 188,
     slug: "tva-creates-data-center-tariff-to-shield-ratepayers",
     title: "TVA Approves Data Center Tariff to Shield Ratepayers",
-    description: "Tennessee Valley Authority approves a dedicated wholesale rate class and Capacity Commitment Charge for data centers over 5 MW, shielding residential ratepayers from AI energy expansion costs.",
-    imageAlt: "High-voltage electrical transmission towers and energy infrastructure servicing data center facilities",
+    description:
+      "Tennessee Valley Authority approves a dedicated wholesale rate class and Capacity Commitment Charge for data centers over 5 MW, shielding residential ratepayers from AI energy expansion costs.",
+    imageAlt:
+      "High-voltage electrical transmission towers and energy infrastructure servicing data center facilities",
     publishedOn: "2026-08-21",
     category: AI_USAGE,
     readTime: 3,
@@ -2677,14 +3055,16 @@ export const blogPosts: BlogPost[] = [
       "Ratepayer Protection Pledge",
       "AI power demand",
       "Integrated Resource Plan",
-      "ratepayer protection"
+      "ratepayer protection",
     ],
   }),
   createPost({
     id: 189,
     slug: "maha-activists-oppose-coal-power-for-ai-data-centers",
-    title: "MAHA activists urge Trump against promoting coal to power energy-hungry AI data centers",
-    description: "Nearly 200 health advocates challenge federal policies promoting coal power for AI data centers, warning of air pollution and coal ash risks.",
+    title:
+      "MAHA activists urge Trump against promoting coal to power energy-hungry AI data centers",
+    description:
+      "Nearly 200 health advocates challenge federal policies promoting coal power for AI data centers, warning of air pollution and coal ash risks.",
     imageAlt: "Coal power plant and high-density data center infrastructure",
     publishedOn: "2026-08-21",
     category: AI_USAGE,
@@ -2696,15 +3076,17 @@ export const blogPosts: BlogPost[] = [
       "Donald Trump",
       "Robert F. Kennedy Jr.",
       "AI energy footprint",
-      "data center emissions"
+      "data center emissions",
     ],
   }),
   createPost({
     id: 190,
     slug: "ulanqab-china-ai-datacenter-expansion",
     title: "Chinese AI Firms Pledged 12.5 GW Data Center Expansion in Ulanqab",
-    description: "Chinese tech firms pledge 12.5 GW of AI data center capacity in Ulanqab, Inner Mongolia, driving severe water rationing and power grid impacts in the arid region.",
-    imageAlt: "Digital representation of massive AI data centers and energy infrastructure in Inner Mongolia",
+    description:
+      "Chinese tech firms pledge 12.5 GW of AI data center capacity in Ulanqab, Inner Mongolia, driving severe water rationing and power grid impacts in the arid region.",
+    imageAlt:
+      "Digital representation of massive AI data centers and energy infrastructure in Inner Mongolia",
     publishedOn: "2026-08-22",
     category: AI_USAGE,
     readTime: 3,
@@ -2715,16 +3097,18 @@ export const blogPosts: BlogPost[] = [
       "DeepSeek infrastructure",
       "AI water rationing",
       "data center electricity costs",
-      "Eastern Data Western Compute"
+      "Eastern Data Western Compute",
     ],
   }),
   createPost({
     id: 191,
     slug: "ai-infrastructure-pushes-data-center-capex-forecast-above-3-trillion",
-    title: "AI Infrastructure Pushes Data Center Capex Forecast Above $3 Trillion",
+    title:
+      "AI Infrastructure Pushes Data Center Capex Forecast Above $3 Trillion",
     description:
       "Global data center capital expenditure is forecast to exceed $3 trillion as hyperscalers and AI clouds expand power capacity beyond 200 GW.",
-    imageAlt: "Digital representation of global data center infrastructure spending and power grid demands",
+    imageAlt:
+      "Digital representation of global data center infrastructure spending and power grid demands",
     publishedOn: "2026-08-21",
     category: AI_USAGE,
     readTime: 3,
@@ -2735,7 +3119,7 @@ export const blogPosts: BlogPost[] = [
       "power demand",
       "grid delays",
       "hyperscalers",
-      "liquid cooling"
+      "liquid cooling",
     ],
   }),
   createPost({
@@ -2744,7 +3128,8 @@ export const blogPosts: BlogPost[] = [
     title: "ERCOT Sets December Target for Texas Data Center Audits",
     description:
       "ERCOT outlines an audit roadmap for 300 large and 157 medium Texas data centers, aiming for a December 10, 2026 report to state regulators.",
-    imageAlt: "Digital illustration of electrical grid transmission lines and data center audit metrics in Texas",
+    imageAlt:
+      "Digital illustration of electrical grid transmission lines and data center audit metrics in Texas",
     publishedOn: "2026-08-23",
     category: AI_USAGE,
     readTime: 3,
@@ -2756,7 +3141,7 @@ export const blogPosts: BlogPost[] = [
       "Batch Zero",
       "PUCT",
       "large load interconnection",
-      "AI power demand"
+      "AI power demand",
     ],
   }),
   createPost({
@@ -2765,7 +3150,8 @@ export const blogPosts: BlogPost[] = [
     title: "Nvidia partners with data center developer Cloverleaf",
     description:
       "Nvidia acquires a minority stake in Cloverleaf Infrastructure to secure early power interconnections and sites for AI data center expansion.",
-    imageAlt: "Digital illustration of power grid infrastructure and data center site development",
+    imageAlt:
+      "Digital illustration of power grid infrastructure and data center site development",
     publishedOn: "2026-08-23",
     category: AI_USAGE,
     readTime: 3,
@@ -2776,7 +3162,7 @@ export const blogPosts: BlogPost[] = [
       "data center power",
       "grid interconnection",
       "speed-to-power",
-      "AI infrastructure"
+      "AI infrastructure",
     ],
   }),
   createPost({
@@ -2785,7 +3171,8 @@ export const blogPosts: BlogPost[] = [
     title: "US House Bill Proposes 1 Cent per kWh Tax on Data Center Power",
     description:
       "H.R. 10102 proposes a federal 1¢/kWh excise tax on data center electricity consumption to raise $1.76 billion annually for clean energy and infrastructure.",
-    imageAlt: "Digital representation of a federal legislative bill and high-voltage power lines supplying data centers",
+    imageAlt:
+      "Digital representation of a federal legislative bill and high-voltage power lines supplying data centers",
     publishedOn: "2026-08-24",
     category: AI_USAGE,
     readTime: 3,
@@ -2796,14 +3183,16 @@ export const blogPosts: BlogPost[] = [
       "data center electricity tax",
       "federal excise tax",
       "AI power consumption",
-      "Energy Technology Trust Fund"
+      "Energy Technology Trust Fund",
     ],
   }),
   createPost({
     id: 195,
     slug: "soluna-acquires-texas-land-project-dorothy-3",
-    title: "Soluna Acquires 397-Acre Plot in Texas for Project Dorothy 3 Data Center",
-    description: "Soluna acquires 397 acres in Briscoe County, Texas, to build the 300 MW Project Dorothy 3 AI data center powered by behind-the-meter wind energy.",
+    title:
+      "Soluna Acquires 397-Acre Plot in Texas for Project Dorothy 3 Data Center",
+    description:
+      "Soluna acquires 397 acres in Briscoe County, Texas, to build the 300 MW Project Dorothy 3 AI data center powered by behind-the-meter wind energy.",
     imageAlt: "Aerial view of a wind farm and data center site in Texas",
     publishedOn: "2026-08-25",
     category: AI_USAGE,
@@ -2815,15 +3204,17 @@ export const blogPosts: BlogPost[] = [
       "Texas AI data center",
       "behind-the-meter wind",
       "Briscoe County",
-      "data center power demand"
+      "data center power demand",
     ],
   }),
   createPost({
     id: 196,
     slug: "terawulf-kentucky-482mw-power-agreement",
     title: "TeraWulf Wins Approval for 482 MW Kentucky AI Power Agreement",
-    description: "Kentucky regulators approve a 482 MW electrical service agreement for TeraWulf's 790-acre AI campus in Hancock County, anchored by tenant Anthropic.",
-    imageAlt: "Industrial data center campus and electrical substation infrastructure in Kentucky",
+    description:
+      "Kentucky regulators approve a 482 MW electrical service agreement for TeraWulf's 790-acre AI campus in Hancock County, anchored by tenant Anthropic.",
+    imageAlt:
+      "Industrial data center campus and electrical substation infrastructure in Kentucky",
     publishedOn: "2026-08-25",
     category: AI_USAGE,
     readTime: 3,
@@ -2834,15 +3225,18 @@ export const blogPosts: BlogPost[] = [
       "Justified Data Campus",
       "Anthropic",
       "482 MW power agreement",
-      "ratepayer protection"
+      "ratepayer protection",
     ],
   }),
   createPost({
     id: 197,
     slug: "nano-nuclear-tillman-micro-reactors-ai",
-    title: "Nano Nuclear partners with Tillman Digital to deploy micro nuclear reactors at US AI data centers",
-    description: "Nano Nuclear partners with Tillman Digital Gateway to target up to 6 GW of micro nuclear capacity for US AI data centers using 15 MW Kronos reactors.",
-    imageAlt: "Digital representation of micro modular nuclear reactors powering an AI data center campus",
+    title:
+      "Nano Nuclear partners with Tillman Digital to deploy micro nuclear reactors at US AI data centers",
+    description:
+      "Nano Nuclear partners with Tillman Digital Gateway to target up to 6 GW of micro nuclear capacity for US AI data centers using 15 MW Kronos reactors.",
+    imageAlt:
+      "Digital representation of micro modular nuclear reactors powering an AI data center campus",
     publishedOn: "2026-08-25",
     category: AI_USAGE,
     readTime: 3,
@@ -2853,15 +3247,17 @@ export const blogPosts: BlogPost[] = [
       "Kronos micro reactor",
       "small modular reactors",
       "AI power demand",
-      "off-grid nuclear power"
+      "off-grid nuclear power",
     ],
   }),
   createPost({
     id: 198,
     slug: "anthropic-nscale-45b-compute-deal",
     title: "Anthropic Signs $45 Billion Compute Deal with Nscale",
-    description: "Anthropic agrees to a $45 billion, six-year compute lease with Nscale for Nvidia Vera Rubin server capacity from a West Virginia data center.",
-    imageAlt: "Digital representation of a high-density AI data center campus and compute server racks",
+    description:
+      "Anthropic agrees to a $45 billion, six-year compute lease with Nscale for Nvidia Vera Rubin server capacity from a West Virginia data center.",
+    imageAlt:
+      "Digital representation of a high-density AI data center campus and compute server racks",
     publishedOn: "2026-08-26",
     category: AI_USAGE,
     readTime: 3,
@@ -2872,15 +3268,18 @@ export const blogPosts: BlogPost[] = [
       "Nvidia Vera Rubin",
       "West Virginia data center",
       "AI compute cost",
-      "cloud infrastructure lease"
+      "cloud infrastructure lease",
     ],
   }),
   createPost({
     id: 199,
     slug: "climeworks-ai-carbon-removal-whitepaper",
-    title: "Climeworks Urges Carbon Removal Inclusion in Rapid AI Infrastructure Expansion",
-    description: "A new whitepaper from Climeworks Solutions outlines strategic pathways for data center developers and hyperscalers to integrate carbon removal into AI infrastructure planning.",
-    imageAlt: "Digital representation of carbon removal technology and AI data center energy infrastructure",
+    title:
+      "Climeworks Urges Carbon Removal Inclusion in Rapid AI Infrastructure Expansion",
+    description:
+      "A new whitepaper from Climeworks Solutions outlines strategic pathways for data center developers and hyperscalers to integrate carbon removal into AI infrastructure planning.",
+    imageAlt:
+      "Digital representation of carbon removal technology and AI data center energy infrastructure",
     publishedOn: "2026-08-26",
     category: AI_USAGE,
     readTime: 3,
@@ -2891,15 +3290,17 @@ export const blogPosts: BlogPost[] = [
       "AI data centers",
       "embodied emissions",
       "hyperscalers",
-      "sustainability"
+      "sustainability",
     ],
   }),
   createPost({
     id: 200,
     slug: "uk-grid-phantom-datacenter-queue-reforms",
     title: "UK Grid Faces 73 GW Phantom Data Center Backlog Under Ofgem Rules",
-    description: "UK energy regulator Ofgem proposes strict financial hurdles to purge 73 GW of speculative 'phantom' data center applications clogging the power grid.",
-    imageAlt: "Digital representation of power transmission lines and data center grid queue management in the UK",
+    description:
+      "UK energy regulator Ofgem proposes strict financial hurdles to purge 73 GW of speculative 'phantom' data center applications clogging the power grid.",
+    imageAlt:
+      "Digital representation of power transmission lines and data center grid queue management in the UK",
     publishedOn: "2026-08-27",
     category: AI_USAGE,
     readTime: 3,
@@ -2910,15 +3311,17 @@ export const blogPosts: BlogPost[] = [
       "phantom data centers",
       "grid queue reforms",
       "AI energy demand",
-      "interconnection backlog"
+      "interconnection backlog",
     ],
   }),
   createPost({
     id: 201,
     slug: "openai-georgia-power-3-2gw-contract",
     title: "Georgia Power Cleared for 3.2 GW OpenAI Data Center Deal",
-    description: "Georgia Power receives regulatory approval to supply up to 3,200 MW of electricity for OpenAI's $20B Project Camellia data center campus in Effingham County.",
-    imageAlt: "Power grid transmission infrastructure serving a hyperscale AI data center campus in Georgia",
+    description:
+      "Georgia Power receives regulatory approval to supply up to 3,200 MW of electricity for OpenAI's $20B Project Camellia data center campus in Effingham County.",
+    imageAlt:
+      "Power grid transmission infrastructure serving a hyperscale AI data center campus in Georgia",
     publishedOn: "2026-08-28",
     category: AI_USAGE,
     readTime: 3,
@@ -2930,15 +3333,17 @@ export const blogPosts: BlogPost[] = [
       "3.2 GW data center",
       "demand response",
       "ratepayer protection",
-      "closed-loop cooling"
+      "closed-loop cooling",
     ],
   }),
   createPost({
     id: 202,
     slug: "uk-green-party-calls-for-nationwide-data-center-moratorium",
     title: "UK Green Party Calls for Nationwide Data Center Moratorium",
-    description: "The UK Green Party calls for an immediate moratorium on new commercial hyperscale data center construction to protect grid stability and carbon targets.",
-    imageAlt: "Digital representation of power grid transmission lines and data center infrastructure in the UK",
+    description:
+      "The UK Green Party calls for an immediate moratorium on new commercial hyperscale data center construction to protect grid stability and carbon targets.",
+    imageAlt:
+      "Digital representation of power grid transmission lines and data center infrastructure in the UK",
     publishedOn: "2026-08-28",
     category: AI_USAGE,
     readTime: 3,
@@ -2949,15 +3354,17 @@ export const blogPosts: BlogPost[] = [
       "UK power grid",
       "AI energy demand",
       "grid capacity",
-      "ratepayer protection"
+      "ratepayer protection",
     ],
   }),
   createPost({
     id: 203,
     slug: "ro-khanna-data-center-bill-of-rights",
     title: "Rep. Khanna Introduces Data Center Bill of Rights",
-    description: "Congressman Ro Khanna introduces a federal Data Center Bill of Rights resolution to give local communities authority over AI data center construction, water use, and utility rates.",
-    imageAlt: "Digital representation of federal legislative resolution and community oversight for AI data centers",
+    description:
+      "Congressman Ro Khanna introduces a federal Data Center Bill of Rights resolution to give local communities authority over AI data center construction, water use, and utility rates.",
+    imageAlt:
+      "Digital representation of federal legislative resolution and community oversight for AI data centers",
     publishedOn: "2026-08-28",
     category: AI_USAGE,
     readTime: 3,
@@ -2968,14 +3375,15 @@ export const blogPosts: BlogPost[] = [
       "AI data center regulation",
       "water protection",
       "ratepayer protection",
-      "community oversight"
+      "community oversight",
     ],
   }),
   createPost({
     id: 204,
     slug: "lambda-secures-1b-debt-for-nvidia-chips",
     title: "Neocloud Lambda Secures $1 Billion Debt Deal for Nvidia Chips",
-    description: "Neocloud provider Lambda secures $1 billion in private debt arranged by JPMorgan Chase to acquire Nvidia AI chips for leasing to Microsoft, highlighting rising AI compute costs.",
+    description:
+      "Neocloud provider Lambda secures $1 billion in private debt arranged by JPMorgan Chase to acquire Nvidia AI chips for leasing to Microsoft, highlighting rising AI compute costs.",
     imageAlt: "High-density GPU server rack in a modern data center",
     publishedOn: "2026-08-28",
     category: AI_USAGE,
@@ -2988,15 +3396,18 @@ export const blogPosts: BlogPost[] = [
       "AI debt financing",
       "GPU leasing",
       "compute costs",
-      "private credit"
+      "private credit",
     ],
   }),
   createPost({
     id: 205,
     slug: "pjm-market-monitor-data-center-wholesale-costs",
-    title: "Data center load made up 9% of PJM wholesale costs so far in 2026: market monitor",
-    description: "Existing and forecast data center load made up 9% ($10.48/MWh) of PJM wholesale electricity prices, driving a cumulative $29.4 billion capacity market revenue increase.",
-    imageAlt: "Digital representation of high-voltage transmission lines and data center power grid infrastructure",
+    title:
+      "Data center load made up 9% of PJM wholesale costs so far in 2026: market monitor",
+    description:
+      "Existing and forecast data center load made up 9% ($10.48/MWh) of PJM wholesale electricity prices, driving a cumulative $29.4 billion capacity market revenue increase.",
+    imageAlt:
+      "Digital representation of high-voltage transmission lines and data center power grid infrastructure",
     publishedOn: "2026-08-29",
     category: AI_USAGE,
     readTime: 3,
@@ -3008,15 +3419,17 @@ export const blogPosts: BlogPost[] = [
       "wholesale electricity prices",
       "grid capacity market",
       "ratepayer protection",
-      "AI energy demand"
+      "AI energy demand",
     ],
   }),
   createPost({
     id: 206,
     slug: "spacex-bastrop-foundry-gas-turbine-blades",
     title: "SpaceX Builds Texas Foundry to Accelerate AI Gas Turbines",
-    description: "SpaceX constructs a turbine blade foundry in Bastrop, Texas, aiming to bypass global manufacturing bottlenecks and cut gas turbine deployment times for AI data centers by up to 18 months.",
-    imageAlt: "Digital representation of gas turbine blade manufacturing and power infrastructure for AI data centers",
+    description:
+      "SpaceX constructs a turbine blade foundry in Bastrop, Texas, aiming to bypass global manufacturing bottlenecks and cut gas turbine deployment times for AI data centers by up to 18 months.",
+    imageAlt:
+      "Digital representation of gas turbine blade manufacturing and power infrastructure for AI data centers",
     publishedOn: "2026-08-30",
     category: AI_USAGE,
     readTime: 3,
@@ -3028,15 +3441,17 @@ export const blogPosts: BlogPost[] = [
       "AI power demand",
       "behind-the-meter generation",
       "GE Vernova",
-      "air pollution"
+      "air pollution",
     ],
   }),
   createPost({
     id: 207,
     slug: "meta-data-center-robotics-automation",
     title: "Meta Tests Data Center Robotics to Cut AI Infrastructure Costs",
-    description: "Meta is testing autonomous robots from Kinova, ABB, and Watney Robotics across hyperscale data centers to automate server maintenance and reduce operational costs.",
-    imageAlt: "Digital representation of robotic arms servicing AI data center server racks",
+    description:
+      "Meta is testing autonomous robots from Kinova, ABB, and Watney Robotics across hyperscale data centers to automate server maintenance and reduce operational costs.",
+    imageAlt:
+      "Digital representation of robotic arms servicing AI data center server racks",
     publishedOn: "2026-08-30",
     category: AI_USAGE,
     readTime: 3,
@@ -3048,15 +3463,17 @@ export const blogPosts: BlogPost[] = [
       "server maintenance",
       "Kinova Gen3",
       "Watney Robotics",
-      "ABB robotics"
+      "ABB robotics",
     ],
   }),
   createPost({
     id: 208,
     slug: "nvidia-mediatek-3-5b-custom-chip-deal",
     title: "Nvidia Bets $3.5 Billion on MediaTek for AI Data Center Chips",
-    description: "Nvidia invests $3.5 billion in MediaTek to help cloud providers integrate custom AI chips into Nvidia data center rack architecture.",
-    imageAlt: "Semiconductor wafer and high-density data center compute server racks",
+    description:
+      "Nvidia invests $3.5 billion in MediaTek to help cloud providers integrate custom AI chips into Nvidia data center rack architecture.",
+    imageAlt:
+      "Semiconductor wafer and high-density data center compute server racks",
     publishedOn: "2026-08-31",
     category: AI_USAGE,
     readTime: 3,
@@ -3067,15 +3484,17 @@ export const blogPosts: BlogPost[] = [
       "custom AI chips",
       "data center ASICs",
       "compute costs",
-      "hyperscaler silicon"
+      "hyperscaler silicon",
     ],
   }),
   createPost({
     id: 209,
     slug: "slb-kelvion-4-1b-thermal-management-deal",
     title: "SLB’s $4.1B Kelvion Deal Expands AI Data Center Push",
-    description: "SLB acquires Kelvion for $4.1 billion to expand its AI data center thermal management and cooling capabilities as GPU power densities surge.",
-    imageAlt: "Digital representation of industrial heat exchangers and AI data center cooling infrastructure",
+    description:
+      "SLB acquires Kelvion for $4.1 billion to expand its AI data center thermal management and cooling capabilities as GPU power densities surge.",
+    imageAlt:
+      "Digital representation of industrial heat exchangers and AI data center cooling infrastructure",
     publishedOn: "2026-09-01",
     category: AI_USAGE,
     readTime: 3,
@@ -3087,15 +3506,17 @@ export const blogPosts: BlogPost[] = [
       "thermal management",
       "GPU power density",
       "liquid cooling",
-      "heat rejection"
+      "heat rejection",
     ],
   }),
   createPost({
     id: 210,
     slug: "one-nuclear-louisiana-288gw-gas-datacenter",
     title: "ONE Nuclear Unveils 2.88 GW Gas Plant for Louisiana AI Campus",
-    description: "ONE Nuclear executes a binding LOI for Project Cayman, pairing a 2.88 GW natural gas plant and 700 MW battery system with a co-located AI data center in Louisiana.",
-    imageAlt: "Digital representation of a natural gas power plant and co-located AI data center campus in Louisiana",
+    description:
+      "ONE Nuclear executes a binding LOI for Project Cayman, pairing a 2.88 GW natural gas plant and 700 MW battery system with a co-located AI data center in Louisiana.",
+    imageAlt:
+      "Digital representation of a natural gas power plant and co-located AI data center campus in Louisiana",
     publishedOn: "2026-09-01",
     category: AI_USAGE,
     readTime: 3,
@@ -3107,15 +3528,18 @@ export const blogPosts: BlogPost[] = [
       "gas-powered AI campus",
       "Ascension Parish",
       "behind-the-meter generation",
-      "battery energy storage"
+      "battery energy storage",
     ],
   }),
   createPost({
     id: 211,
     slug: "constructconnect-september-2026-data-center-report",
-    title: "September 2026 Data Center Report: Year-to-Date Spending Nearly Three Times a Year Ago",
-    description: "ConstructConnect report reveals U.S. data center construction starts reached $84.1B through July 2026 as average project costs jumped 57% per square foot.",
-    imageAlt: "Digital representation of data center construction spending and cost per square foot metrics",
+    title:
+      "September 2026 Data Center Report: Year-to-Date Spending Nearly Three Times a Year Ago",
+    description:
+      "ConstructConnect report reveals U.S. data center construction starts reached $84.1B through July 2026 as average project costs jumped 57% per square foot.",
+    imageAlt:
+      "Digital representation of data center construction spending and cost per square foot metrics",
     publishedOn: "2026-08-28",
     category: AI_USAGE,
     readTime: 3,
@@ -3126,15 +3550,17 @@ export const blogPosts: BlogPost[] = [
       "construction starts",
       "cost per square foot",
       "AI infrastructure",
-      "power infrastructure"
+      "power infrastructure",
     ],
   }),
   createPost({
     id: 212,
     slug: "google-fervo-396mw-geothermal-ppa",
     title: "Google Inks 396 MW Geothermal Power Deal for Utah AI Campus",
-    description: "Google contracts up to 396 MW of enhanced geothermal power from Fervo Energy's Cape Station in Utah, with an option to expand to nearly 1 GW by 2030.",
-    imageAlt: "Digital representation of geothermal energy production and data center power infrastructure in Utah",
+    description:
+      "Google contracts up to 396 MW of enhanced geothermal power from Fervo Energy's Cape Station in Utah, with an option to expand to nearly 1 GW by 2030.",
+    imageAlt:
+      "Digital representation of geothermal energy production and data center power infrastructure in Utah",
     publishedOn: "2026-09-02",
     category: AI_USAGE,
     readTime: 3,
@@ -3146,15 +3572,18 @@ export const blogPosts: BlogPost[] = [
       "Utah data center",
       "Cape Station",
       "carbon-free energy",
-      "AI power demand"
+      "AI power demand",
     ],
   }),
   createPost({
     id: 213,
     slug: "vertiv-acquires-utilityinnovation-microgrid-deal",
-    title: "Vertiv Acquires Microgrid Solutions Provider UtilityInnovation Group",
-    description: "Vertiv agrees to acquire UtilityInnovation Group to expand behind-the-meter power and microgrid capabilities for AI data centers facing grid constraints.",
-    imageAlt: "Digital representation of microgrid power infrastructure and AI data center energy management",
+    title:
+      "Vertiv Acquires Microgrid Solutions Provider UtilityInnovation Group",
+    description:
+      "Vertiv agrees to acquire UtilityInnovation Group to expand behind-the-meter power and microgrid capabilities for AI data centers facing grid constraints.",
+    imageAlt:
+      "Digital representation of microgrid power infrastructure and AI data center energy management",
     publishedOn: "2026-09-02",
     category: AI_USAGE,
     readTime: 3,
@@ -3165,15 +3594,18 @@ export const blogPosts: BlogPost[] = [
       "microgrid AI data centers",
       "behind-the-meter power",
       "data center power grid",
-      "speed to power"
+      "speed to power",
     ],
   }),
   createPost({
     id: 214,
     slug: "california-passes-ai-datacenter-ratepayer-protection-bills",
-    title: "California Lawmakers Pass AI Data Center Ratepayer Protection Bills",
-    description: "California legislature approves SB 886 and AB 2383 to mandate separate utility tariffs for 75 MW+ AI data centers, insulating households from power infrastructure costs.",
-    imageAlt: "Digital representation of California power grid transmission lines and AI data center energy management",
+    title:
+      "California Lawmakers Pass AI Data Center Ratepayer Protection Bills",
+    description:
+      "California legislature approves SB 886 and AB 2383 to mandate separate utility tariffs for 75 MW+ AI data centers, insulating households from power infrastructure costs.",
+    imageAlt:
+      "Digital representation of California power grid transmission lines and AI data center energy management",
     publishedOn: "2026-09-03",
     category: AI_USAGE,
     readTime: 3,
@@ -3190,9 +3622,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 215,
     slug: "bitdeer-texas-milam-county-land-acquisition",
-    title: "Bitdeer buys 200 acres in Milam County, Texas, to expand AI and HPC data center",
-    description: "Bitdeer acquires 200 acres in Milam County, Texas, near its Rockdale site to expand AI and HPC data center infrastructure backed by 563 MW of interconnected power.",
-    imageAlt: "Digital representation of power grid infrastructure and data center land acquisition in Texas",
+    title:
+      "Bitdeer buys 200 acres in Milam County, Texas, to expand AI and HPC data center",
+    description:
+      "Bitdeer acquires 200 acres in Milam County, Texas, near its Rockdale site to expand AI and HPC data center infrastructure backed by 563 MW of interconnected power.",
+    imageAlt:
+      "Digital representation of power grid infrastructure and data center land acquisition in Texas",
     publishedOn: "2026-09-03",
     category: AI_USAGE,
     readTime: 3,
@@ -3210,8 +3645,10 @@ export const blogPosts: BlogPost[] = [
     id: 216,
     slug: "pwc-31-6-trillion-global-ai-data-center-capex",
     title: "PwC Forecasts $31.6 Trillion Global AI Data Center Capex",
-    description: "PwC forecasts cumulative global data center capex to reach $31.6 trillion by 2050, driven by recurring GPU hardware refresh cycles and power grid availability.",
-    imageAlt: "Digital representation of global data center capital expenditure and AI hardware infrastructure",
+    description:
+      "PwC forecasts cumulative global data center capex to reach $31.6 trillion by 2050, driven by recurring GPU hardware refresh cycles and power grid availability.",
+    imageAlt:
+      "Digital representation of global data center capital expenditure and AI hardware infrastructure",
     publishedOn: "2026-09-04",
     category: AI_USAGE,
     readTime: 3,
@@ -3222,15 +3659,18 @@ export const blogPosts: BlogPost[] = [
       "AI infrastructure spending",
       "GPU refresh cycle",
       "power grid constraints",
-      "ICT hardware investment"
+      "ICT hardware investment",
     ],
   }),
   createPost({
     id: 217,
     slug: "iea-ai-solar-gas-emissions-dual-impact",
-    title: "The AI Boom Is Accelerating US Solar Buildout While Raising Data Center Emissions",
-    description: "IEA projections show AI data centers will drive nearly 50% of US electricity demand growth through 2030, funding solar expansion while increasing reliance on natural gas power.",
-    imageAlt: "Solar panels alongside electrical power grid infrastructure supplying an AI data center campus",
+    title:
+      "The AI Boom Is Accelerating US Solar Buildout While Raising Data Center Emissions",
+    description:
+      "IEA projections show AI data centers will drive nearly 50% of US electricity demand growth through 2030, funding solar expansion while increasing reliance on natural gas power.",
+    imageAlt:
+      "Solar panels alongside electrical power grid infrastructure supplying an AI data center campus",
     publishedOn: "2026-09-04",
     category: AI_USAGE,
     readTime: 3,
@@ -3241,7 +3681,7 @@ export const blogPosts: BlogPost[] = [
       "data center emissions",
       "solar power buildout",
       "natural gas power",
-      "grid capacity"
+      "grid capacity",
     ],
   }),
   createPost({
@@ -3250,7 +3690,8 @@ export const blogPosts: BlogPost[] = [
     title: "Nscale and Figure Ink $3.5B Compute Deal for AI Robotics",
     description:
       "Figure AI signs a $3.5 billion compute deal with Nscale for up to 100,000 Nvidia Vera Rubin GPUs in Texas to power physical AI models.",
-    imageAlt: "Digital representation of high-density AI compute servers and humanoid robotics infrastructure",
+    imageAlt:
+      "Digital representation of high-density AI compute servers and humanoid robotics infrastructure",
     publishedOn: "2026-09-05",
     category: AI_USAGE,
     readTime: 3,
@@ -3271,7 +3712,8 @@ export const blogPosts: BlogPost[] = [
     title: "Meta's $1.2bn data center in Kuna, Idaho, goes live",
     description:
       "Meta officially opens its $1.2 billion AI-optimized data center in Kuna, Idaho, featuring a 750,000-square-foot footprint and closed-loop liquid cooling.",
-    imageAlt: "Aerial view of Meta's $1.2 billion data center facility in Kuna, Idaho",
+    imageAlt:
+      "Aerial view of Meta's $1.2 billion data center facility in Kuna, Idaho",
     publishedOn: "2026-09-06",
     category: AI_USAGE,
     readTime: 3,
@@ -3291,7 +3733,8 @@ export const blogPosts: BlogPost[] = [
     title: "Nscale Seeks $3.5 Billion in Pre-IPO Capital for AI Compute",
     description:
       "AI cloud provider Nscale seeks $3.5 billion in convertible debt and Nvidia backing to fund hyperscale compute hardware and data center infrastructure.",
-    imageAlt: "Digital representation of hyperscale AI compute infrastructure and data center capital financing",
+    imageAlt:
+      "Digital representation of hyperscale AI compute infrastructure and data center capital financing",
     publishedOn: "2026-09-06",
     category: AI_USAGE,
     readTime: 3,
@@ -3308,10 +3751,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 221,
     slug: "thailand-pauses-construction-on-49-data-centers",
-    title: "Thailand pauses construction on 49 data centers, as it plans new regulations",
+    title:
+      "Thailand pauses construction on 49 data centers, as it plans new regulations",
     description:
       "Thailand halts construction on 49 data centers due to growing concerns over power consumption, grid stability, and local community impacts.",
-    imageAlt: "Digital representation of a data center moratorium and power grid infrastructure in Thailand",
+    imageAlt:
+      "Digital representation of a data center moratorium and power grid infrastructure in Thailand",
     publishedOn: "2026-09-07",
     category: AI_USAGE,
     readTime: 3,
@@ -3329,8 +3774,10 @@ export const blogPosts: BlogPost[] = [
     id: 222,
     slug: "flex-acquires-epc-power-in-4-4b-ai-infrastructure-deal",
     title: "Flex Acquires EPC Power for $4.4B to Drive 800V DC AI Racks",
-    description: "Flex acquires EPC Power for $4.4 billion to integrate 800V DC power architectures and grid-forming conversion systems for high-density AI data centers.",
-    imageAlt: "Digital representation of high-voltage power conversion systems and AI server racks",
+    description:
+      "Flex acquires EPC Power for $4.4 billion to integrate 800V DC power architectures and grid-forming conversion systems for high-density AI data centers.",
+    imageAlt:
+      "Digital representation of high-voltage power conversion systems and AI server racks",
     publishedOn: "2026-09-07",
     category: AI_USAGE,
     readTime: 3,
@@ -3350,7 +3797,8 @@ export const blogPosts: BlogPost[] = [
     title: "Anthropic signed $517bn in compute agreements in past 11 months",
     description:
       "Anthropic locks in $517 billion in compute leases totaling 14.8 GW of capacity across hyperscalers and data center developers.",
-    imageAlt: "Digital illustration of hyperscale compute servers and gigawatt-scale energy infrastructure",
+    imageAlt:
+      "Digital illustration of hyperscale compute servers and gigawatt-scale energy infrastructure",
     publishedOn: "2026-09-07",
     category: AI_USAGE,
     readTime: 3,
@@ -3368,10 +3816,12 @@ export const blogPosts: BlogPost[] = [
   createPost({
     id: 224,
     slug: "fleet-seeks-approval-for-nevada-methane-plants-for-data-centers",
-    title: "Fleet Seeks Approval for Two Nevada Methane Plants for AI Data Centers",
+    title:
+      "Fleet Seeks Approval for Two Nevada Methane Plants for AI Data Centers",
     description:
       "Fleet seeks Public Utility Commission of Nevada approval to build two methane power plants to supply energy directly to new data centers.",
-    imageAlt: "Graphic representation of gas power generation facilities supplying energy to a modern data center",
+    imageAlt:
+      "Graphic representation of gas power generation facilities supplying energy to a modern data center",
     publishedOn: "2026-09-08",
     category: AI_USAGE,
     readTime: 3,
@@ -3392,7 +3842,8 @@ export const blogPosts: BlogPost[] = [
     title: "Oracle issues RFP for 2GW of new renewable capacity in New Mexico",
     description:
       "Oracle issues a Request for Proposals for 2 GW of renewable energy in New Mexico and funds carbon capture research for fuel cells at Project Jupiter.",
-    imageAlt: "Solar panels and wind turbines powering a hyperscale AI data center campus in New Mexico",
+    imageAlt:
+      "Solar panels and wind turbines powering a hyperscale AI data center campus in New Mexico",
     publishedOn: "2026-09-09",
     category: AI_USAGE,
     readTime: 3,

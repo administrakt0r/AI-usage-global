@@ -17,6 +17,7 @@ const ContactForm = () => {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
+  const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -31,6 +32,8 @@ const ContactForm = () => {
       "Message:",
       message || "-",
     ];
+
+    setSubmitted(true);
 
     window.location.href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(resolvedSubject)}&body=${encodeURIComponent(
       bodyLines.join("\n"),
@@ -58,7 +61,12 @@ const ContactForm = () => {
       </div>
 
       <div className="space-y-2">
-        <Label htmlFor="email">Email</Label>
+        <Label htmlFor="email">
+          Email{" "}
+          <span className="text-destructive" aria-hidden="true">
+            *
+          </span>
+        </Label>
         <div className="relative">
           <Input
             id="email"
@@ -66,6 +74,8 @@ const ContactForm = () => {
             placeholder="Your email"
             value={email}
             onChange={(event) => setEmail(event.target.value)}
+            required
+            aria-required="true"
             className="peer h-10 pr-9"
           />
           <div className="text-muted-foreground pointer-events-none absolute inset-y-0 right-0 flex items-center justify-center pr-3 peer-disabled:opacity-50">
@@ -94,15 +104,32 @@ const ContactForm = () => {
       </div>
 
       <div className="space-y-2">
-        <Label htmlFor="message">Message</Label>
+        <Label htmlFor="message">
+          Message{" "}
+          <span className="text-destructive" aria-hidden="true">
+            *
+          </span>
+        </Label>
         <Textarea
           id="message"
           className="h-28 resize-none"
           placeholder="Write your message"
           value={message}
           onChange={(event) => setMessage(event.target.value)}
+          required
+          aria-required="true"
         />
       </div>
+
+      {submitted ? (
+        <div
+          role="status"
+          aria-live="polite"
+          className="rounded-lg bg-primary/10 p-3 text-center text-sm font-medium text-primary"
+        >
+          Opening your default email client to send your message...
+        </div>
+      ) : null}
 
       <Button type="submit" size="lg" className="w-full text-base">
         Send message
