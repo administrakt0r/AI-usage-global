@@ -2312,6 +2312,15 @@
       "published_on": "2026-09-25",
       "primary_entity": "Applied Digital",
       "event_fingerprint": "applied-digital-alabama-ai-datacenter"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
+      "normalized_url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers",
+      "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
+      "normalized_title": "crusoe abandons 1 25b plan to use boom turbines at ai data centers",
+      "published_on": "2026-09-26",
+      "primary_entity": "Crusoe / Boom Supersonic",
+      "event_fingerprint": "crusoe-ends-boom-turbine-deal"
     }
   ],
   "version": 2,
