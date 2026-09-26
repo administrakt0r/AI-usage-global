@@ -2303,6 +2303,15 @@
       "published_on": "2026-09-25",
       "primary_entity": "Prince William County Board of Supervisors",
       "event_fingerprint": "prince-william-county-data-center-overlay-reduction"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/applied-digital-reveals-32bn-delta-forge-2-ai-data-center-will-be-built-in-alabama/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/applied-digital-reveals-32bn-delta-forge-2-ai-data-center-will-be-built-in-alabama",
+      "title": "Applied Digital reveals $3.2bn Delta Forge 2 AI data center will be built in Alabama",
+      "normalized_title": "applied digital reveals 3 2bn delta forge 2 ai data center will be built in alabama",
+      "published_on": "2026-09-25",
+      "primary_entity": "Applied Digital",
+      "event_fingerprint": "applied-digital-alabama-ai-datacenter"
     }
   ],
   "version": 2,

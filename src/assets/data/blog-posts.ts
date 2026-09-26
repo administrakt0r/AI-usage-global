@@ -4058,6 +4058,26 @@ export const blogPosts: BlogPost[] = [
       "zoning restrictions",
     ],
   }),
+  createPost({
+    id: 258,
+    slug: "applied-digital-alabama-ai-datacenter",
+    title: "Applied Digital reveals $3.2bn Delta Forge 2 AI data center will be built in Alabama",
+    description:
+      "Applied Digital selects Brookwood, Alabama, for its $3.2B, 210 MW Delta Forge 2 AI data center campus serving an investment-grade hyperscaler.",
+    imageAlt: "Applied Digital Delta Forge 2 AI data center site rendering in Alabama",
+    publishedOn: "2026-09-25",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Applied Digital",
+      "Delta Forge 2",
+      "Alabama AI data center",
+      "Brookwood",
+      "210 MW data center",
+      "hyperscale compute",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
