@@ -4078,6 +4078,27 @@ export const blogPosts: BlogPost[] = [
       "hyperscale compute",
     ],
   }),
+  createPost({
+    id: 259,
+    slug: "crusoe-ends-1-25b-boom-turbine-deal",
+    title: "Crusoe Ends $1.25B Gas Turbine Deal with Boom Supersonic",
+    description:
+      "Crusoe cancels a $1.25B agreement for 29 Boom Supersonic gas turbines intended to power its Texas AI data centers as off-grid strategy evolves.",
+    imageAlt: "Boom Supersonic Superpower natural gas turbine for AI data centers",
+    publishedOn: "2026-09-26",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Crusoe",
+      "Boom Supersonic",
+      "gas turbines",
+      "AI data centers",
+      "Abilene Texas",
+      "off-grid power",
+      "1218 MW",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
