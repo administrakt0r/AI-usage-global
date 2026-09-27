@@ -4099,6 +4099,26 @@ export const blogPosts: BlogPost[] = [
       "1218 MW",
     ],
   }),
+  createPost({
+    id: 260,
+    slug: "anthropic-akamai-11-6b-cloud-deal",
+    title: "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
+    description:
+      "Anthropic commits $11.6 billion over seven years to Akamai for CPU-heavy cloud infrastructure, driving $5.5 billion in buildout costs as AI agent workloads scale.",
+    imageAlt: "Digital representation of cloud compute infrastructure and data center server racks",
+    publishedOn: "2026-09-26",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Anthropic",
+      "Akamai",
+      "cloud compute costs",
+      "CPU infrastructure",
+      "AI agent workloads",
+      "data center capex",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

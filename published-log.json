@@ -2321,6 +2321,15 @@
       "published_on": "2026-09-26",
       "primary_entity": "Crusoe / Boom Supersonic",
       "event_fingerprint": "crusoe-ends-boom-turbine-deal"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
+      "normalized_url": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal",
+      "title": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
+      "normalized_title": "anthropic to pay akamai 11 6 billion over seven years in cloud deal",
+      "published_on": "2026-09-26",
+      "primary_entity": "Anthropic / Akamai",
+      "event_fingerprint": "anthropic-akamai-11-6b-cloud-deal"
     }
   ],
   "version": 2,
