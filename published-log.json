@@ -2330,6 +2330,15 @@
       "published_on": "2026-09-26",
       "primary_entity": "Anthropic / Akamai",
       "event_fingerprint": "anthropic-akamai-11-6b-cloud-deal"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/google-backed-fervo-energy-achieves-first-power-at-up-to-900mw-cape-station-geothermal-plant-in-utah/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/google-backed-fervo-energy-achieves-first-power-at-up-to-900mw-cape-station-geothermal-plant-in-utah",
+      "title": "Google-backed Fervo Energy achieves first power at up to 900MW Cape Station geothermal plant in Utah",
+      "normalized_title": "google backed fervo energy achieves first power at up to 900mw cape station geothermal plant in utah",
+      "published_on": "2026-09-27",
+      "primary_entity": "Fervo Energy",
+      "event_fingerprint": "fervo-cape-station-first-power-utah"
     }
   ],
   "version": 2,

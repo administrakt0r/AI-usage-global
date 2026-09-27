@@ -4119,6 +4119,26 @@ export const blogPosts: BlogPost[] = [
       "data center capex",
     ],
   }),
+  createPost({
+    id: 261,
+    slug: "fervo-energy-first-power-utah-geothermal-plant",
+    title: "Fervo Energy Achieves First Power at 900 MW Utah Geothermal Plant",
+    description:
+      "Fervo Energy reaches first power at its Cape Station enhanced geothermal project in Utah, supplying firm zero-carbon electricity to support Google's expanding AI data centers.",
+    imageAlt: "High-tech enhanced geothermal energy plant generating clean electricity for data centers",
+    publishedOn: "2026-09-27",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Fervo Energy",
+      "Google",
+      "enhanced geothermal systems",
+      "clean energy PPA",
+      "data center electricity",
+      "baseload power",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
