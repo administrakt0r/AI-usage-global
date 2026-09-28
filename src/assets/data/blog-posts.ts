@@ -4139,6 +4139,27 @@ export const blogPosts: BlogPost[] = [
       "baseload power",
     ],
   }),
+  createPost({
+    id: 262,
+    slug: "google-project-suncatcher-space-tpu-test",
+    title: "Project Suncatcher: Google to launch first space data center test in orbit next week",
+    description:
+      "Google prepares to launch 4 Trillium TPUs powered by a 1 kW solar array on SpaceX Transporter-18, testing radiation resilience and heat pipe cooling for orbital AI compute clusters.",
+    imageAlt: "Digital representation of Google Project Suncatcher solar satellite equipped with TPUs in orbit",
+    publishedOn: "2026-09-25",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Google",
+      "Project Suncatcher",
+      "Trillium TPU",
+      "orbital data center",
+      "space AI compute",
+      "Planet Labs",
+      "solar powered compute",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
