@@ -4160,6 +4160,26 @@ export const blogPosts: BlogPost[] = [
       "solar powered compute",
     ],
   }),
+  createPost({
+    id: 263,
+    slug: "goodman-withdraws-application-for-90mw-sydney-ai-data-center",
+    title: "Goodman Withdraws Application for 90 MW Sydney AI Data Center Campus",
+    description:
+      "Goodman Group drops its AU$1.2 billion, 90 MW Project Mars data center application in Lane Cove, Sydney, citing evolving state policy frameworks and local community feedback.",
+    imageAlt: "Digital representation of data center site plans and power grid infrastructure in Sydney",
+    publishedOn: "2026-09-28",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Goodman Group",
+      "Sydney data center",
+      "Project Mars",
+      "data center application withdrawal",
+      "90 MW data center",
+      "Australia AI power demand",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
