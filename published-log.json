@@ -2348,6 +2348,15 @@
       "published_on": "2026-09-25",
       "primary_entity": "Google / Planet Labs",
       "event_fingerprint": "google-project-suncatcher-space-tpu-test"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/goodman-withdraws-application-for-90mw-data-center-campus-in-sydney-australia/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/goodman-withdraws-application-for-90mw-data-center-campus-in-sydney-australia",
+      "title": "Goodman withdraws application for 90MW data center campus in Sydney, Australia",
+      "normalized_title": "goodman withdraws application for 90mw data center campus in sydney australia",
+      "published_on": "2026-09-28",
+      "primary_entity": "Goodman Group",
+      "event_fingerprint": "goodman-sydney-90mw-datacenter-application-withdrawal"
     }
   ],
   "version": 2,
