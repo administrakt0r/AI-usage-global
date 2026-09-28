@@ -2339,6 +2339,15 @@
       "published_on": "2026-09-27",
       "primary_entity": "Fervo Energy",
       "event_fingerprint": "fervo-cape-station-first-power-utah"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/project-suncatcher-google-to-launch-first-space-data-center-test-in-orbit-next-week/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/project-suncatcher-google-to-launch-first-space-data-center-test-in-orbit-next-week",
+      "title": "Project Suncatcher: Google to launch first space data center test in orbit next week",
+      "normalized_title": "project suncatcher google to launch first space data center test in orbit next week",
+      "published_on": "2026-09-25",
+      "primary_entity": "Google / Planet Labs",
+      "event_fingerprint": "google-project-suncatcher-space-tpu-test"
     }
   ],
   "version": 2,
