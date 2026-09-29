@@ -4201,6 +4201,28 @@ export const blogPosts: BlogPost[] = [
       "ratepayer protection",
     ],
   }),
+  createPost({
+    id: 265,
+    slug: "infineon-eaton-800vdc-solid-state-transformers",
+    title: "Infineon and Eaton Partner on 800VDC Power for AI Data Centers",
+    description:
+      "Infineon and Eaton partner to deploy silicon carbide power devices in medium-voltage solid-state transformers to support 800VDC power delivery in high-density AI data centers.",
+    imageAlt: "Silicon carbide solid-state transformer technology powering an 800VDC AI data center rack",
+    publishedOn: "2026-09-29",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Infineon",
+      "Eaton",
+      "800VDC power",
+      "solid-state transformer",
+      "silicon carbide",
+      "AI data center power",
+      "MVSST 2.0",
+      "1MW rack density",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
