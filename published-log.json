@@ -2366,6 +2366,15 @@
       "published_on": "2026-09-29",
       "primary_entity": "Lambda",
       "event_fingerprint": "lambda-oklahoma-grid-reactive-datacenter"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/infineon-and-eaton-partner-on-silicon-carbide-based-solid-state-transformers-to-support-800vdc-power-architectures/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/infineon-and-eaton-partner-on-silicon-carbide-based-solid-state-transformers-to-support-800vdc-power-architectures",
+      "title": "Infineon and Eaton partner on silicon-carbide-based solid-state transformers to support 800VDC power architectures",
+      "normalized_title": "infineon and eaton partner on siliconcarbidebased solidstate transformers to support 800vdc power architectures",
+      "published_on": "2026-09-29",
+      "primary_entity": "Infineon / Eaton",
+      "event_fingerprint": "infineon-eaton-800vdc-sic-solid-state-transformers"
     }
   ],
   "version": 2,
