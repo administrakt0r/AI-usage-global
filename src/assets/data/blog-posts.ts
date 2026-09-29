@@ -4180,6 +4180,27 @@ export const blogPosts: BlogPost[] = [
       "Australia AI power demand",
     ],
   }),
+  createPost({
+    id: 264,
+    slug: "lambda-oklahoma-data-center-chouteau",
+    title: "Lambda Plans Grid-Reactive AI Data Center in Oklahoma",
+    description:
+      "Lambda plans a closed-loop and grid-reactive AI data center in Chouteau, Oklahoma, promising $500M in local taxes while covering all power infrastructure costs.",
+    imageAlt: "Digital representation of a grid-reactive AI data center in Oklahoma",
+    publishedOn: "2026-09-29",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Lambda",
+      "Oklahoma data center",
+      "closed-loop cooling",
+      "grid-reactive",
+      "Mayes County",
+      "MidAmerica Industrial Park",
+      "ratepayer protection",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
