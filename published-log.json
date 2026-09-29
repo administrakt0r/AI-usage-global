@@ -2357,6 +2357,15 @@
       "published_on": "2026-09-28",
       "primary_entity": "Goodman Group",
       "event_fingerprint": "goodman-sydney-90mw-datacenter-application-withdrawal"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/lambda-plans-data-center-in-oklahoma/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/lambda-plans-data-center-in-oklahoma",
+      "title": "Lambda plans data center in Oklahoma",
+      "normalized_title": "lambda plans data center in oklahoma",
+      "published_on": "2026-09-29",
+      "primary_entity": "Lambda",
+      "event_fingerprint": "lambda-oklahoma-grid-reactive-datacenter"
     }
   ],
   "version": 2,
