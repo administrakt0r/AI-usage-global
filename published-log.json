@@ -2384,6 +2384,15 @@
       "published_on": "2026-09-29",
       "primary_entity": "Environmental Protection Network",
       "event_fingerprint": "epn-hidden-health-costs-ai-datacenter-backup-power"
+    },
+    {
+      "canonical_url": "https://www.datacenterknowledge.com/compliance/data-center-on-site-power-brings-pollution-risks-closer-to-home",
+      "normalized_url": "https://www.datacenterknowledge.com/compliance/data-center-on-site-power-brings-pollution-risks-closer-to-home",
+      "title": "Data Center On-Site Power Brings Pollution Risks Closer to Home",
+      "normalized_title": "data center on site power brings pollution risks closer to home",
+      "published_on": "2026-09-30",
+      "primary_entity": "NJDEP / Vineland AI Data Center",
+      "event_fingerprint": "nj-ai-datacenter-onsite-power-fine"
     }
   ],
   "version": 2,
