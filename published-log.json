@@ -2375,6 +2375,15 @@
       "published_on": "2026-09-29",
       "primary_entity": "Infineon / Eaton",
       "event_fingerprint": "infineon-eaton-800vdc-sic-solid-state-transformers"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/data-centers-backup-power-contributing-to-health-risks-report-says/831507/",
+      "normalized_url": "https://www.utilitydive.com/news/data-centers-backup-power-contributing-to-health-risks-report-says/831507",
+      "title": "Data center backup power contributes to health risks: report",
+      "normalized_title": "data center backup power contributes to health risks report",
+      "published_on": "2026-09-29",
+      "primary_entity": "Environmental Protection Network",
+      "event_fingerprint": "epn-hidden-health-costs-ai-datacenter-backup-power"
     }
   ],
   "version": 2,
