@@ -4223,6 +4223,26 @@ export const blogPosts: BlogPost[] = [
       "1MW rack density",
     ],
   }),
+  createPost({
+    id: 266,
+    slug: "epn-hidden-health-costs-ai-datacenter-backup-power",
+    title: "Data center backup power contributes to health risks: report",
+    description:
+      "Environmental Protection Network report reveals AI data center backup generators and temporary turbines release air pollution projecting $21B in health costs by 2028.",
+    imageAlt: "Industrial power generator and transmission infrastructure supplying data center campus",
+    publishedOn: "2026-09-29",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Environmental Protection Network",
+      "data center backup power",
+      "temporary gas turbines",
+      "air pollution health costs",
+      "nitrogen oxides emissions",
+      "EPA air permits",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
