@@ -4243,6 +4243,26 @@ export const blogPosts: BlogPost[] = [
       "EPA air permits",
     ],
   }),
+  createPost({
+    id: 267,
+    slug: "nj-fines-ai-data-center-over-onsite-power-emissions",
+    title: "New Jersey Fines AI Data Center $1.07M Over On-Site Power Violations",
+    description:
+      "New Jersey penalizes a Vineland AI data center $1.07 million for unpermitted generator emissions, highlighting environmental risks as operators bypass the power grid.",
+    imageAlt: "Industrial behind-the-meter power generator facility serving an AI data center in New Jersey",
+    publishedOn: "2026-09-30",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "New Jersey DEP",
+      "Vineland AI data center",
+      "behind-the-meter power",
+      "air pollution fine",
+      "on-site power generation",
+      "data center emissions",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
