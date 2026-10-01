@@ -4263,6 +4263,27 @@ export const blogPosts: BlogPost[] = [
       "data center emissions",
     ],
   }),
+  createPost({
+    id: 268,
+    slug: "civo-uk-edge-ai-datacenter-expansion",
+    title: "Civo plans 8MW Edge data center for AI in Hertfordshire, UK",
+    description:
+      "Civo unveils plans for an 8 MW edge data center in Hertfordshire as part of a 40-site, 150 MW UK expansion utilizing direct-to-chip liquid cooling for Nvidia Vera Rubin systems.",
+    imageAlt: "Digital representation of edge data center infrastructure and power grid in Hertfordshire, UK",
+    publishedOn: "2026-10-01",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Civo",
+      "Hertfordshire edge data center",
+      "UK AI infrastructure",
+      "Nvidia Vera Rubin",
+      "direct-to-chip liquid cooling",
+      "distributed compute",
+      "sovereign AI cloud",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

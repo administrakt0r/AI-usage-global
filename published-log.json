@@ -2393,6 +2393,15 @@
       "published_on": "2026-09-30",
       "primary_entity": "NJDEP / Vineland AI Data Center",
       "event_fingerprint": "nj-ai-datacenter-onsite-power-fine"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/civo-plans-8mw-edge-data-center-for-ai-in-hertfordshire-uk/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/civo-plans-8mw-edge-data-center-for-ai-in-hertfordshire-uk",
+      "title": "Civo plans 8MW Edge data center for AI in Hertfordshire, UK",
+      "normalized_title": "civo plans 8mw edge data center for ai in hertfordshire uk",
+      "published_on": "2026-10-01",
+      "primary_entity": "Civo",
+      "event_fingerprint": "civo-uk-edge-ai-datacenter-expansion"
     }
   ],
   "version": 2,
