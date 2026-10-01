@@ -4284,6 +4284,27 @@ export const blogPosts: BlogPost[] = [
       "sovereign AI cloud",
     ],
   }),
+  createPost({
+    id: 269,
+    slug: "amazon-constellation-190mw-maryland-nuclear-ppa",
+    title: "Amazon Signs 20-Year Nuclear Power Agreement with Constellation",
+    description:
+      "Amazon Web Services signs a 20-year agreement with Constellation Energy to secure 190 MW of nuclear electricity from the Calvert Cliffs plant in Maryland for AI data centers.",
+    imageAlt: "Constellation Calvert Cliffs Nuclear Power Plant supplying AWS data centers",
+    publishedOn: "2026-10-01",
+    category: AI_USAGE,
+    readTime: 4,
+    featured: false,
+    keywords: [
+      "Amazon",
+      "Constellation Energy",
+      "Calvert Cliffs",
+      "nuclear PPA",
+      "AWS data center energy",
+      "190 MW zero-carbon power",
+      "AI electricity demand",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
