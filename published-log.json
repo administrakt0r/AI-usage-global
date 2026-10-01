@@ -2109,7 +2109,7 @@
     {
       "canonical_url": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/",
       "normalized_url": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk",
-      "title": "What must happen for AI’s trillion-dollar gamble to pay off",
+      "title": "What must happen for AI\u2019s trillion-dollar gamble to pay off",
       "normalized_title": "what must happen for ais trillion dollar gamble to pay off",
       "published_on": "2026-09-15",
       "primary_entity": "MIT Technology Review / MIT Sloan",
@@ -2172,7 +2172,7 @@
     {
       "canonical_url": "https://www.datacenterdynamics.com/en/news/virginias-loudoun-county-board-votes-to-pause-new-data-center-applications/",
       "normalized_url": "https://www.datacenterdynamics.com/en/news/virginias-loudoun-county-board-votes-to-pause-new-data-center-applications",
-      "title": "Virginia’s Loudoun County board votes to pause new data center applications",
+      "title": "Virginia\u2019s Loudoun County board votes to pause new data center applications",
       "normalized_title": "virginias loudoun county board votes to pause new data center applications",
       "published_on": "2026-09-18",
       "primary_entity": "Loudoun County Board of Supervisors",
@@ -2190,7 +2190,7 @@
     {
       "canonical_url": "https://www.utilitydive.com/news/microsoft-virginia-scc-data-center-transmission/830775/",
       "normalized_url": "https://www.utilitydive.com/news/microsoft-virginia-scc-data-center-transmission/830775",
-      "title": "Microsoft ‘preserving its ability’ to challenge data center transmission costs decision",
+      "title": "Microsoft \u2018preserving its ability\u2019 to challenge data center transmission costs decision",
       "normalized_title": "microsoft preserving its ability to challenge data center transmission costs decision",
       "published_on": "2026-09-19",
       "primary_entity": "Microsoft / Virginia SCC",
@@ -2280,7 +2280,7 @@
     {
       "canonical_url": "https://www.datacenterdynamics.com/en/news/oracle-issues-force-majeure-notice-to-blue-owl-following-series-of-setbacks-at-project-jupiter-data-center-campus-report/",
       "normalized_url": "https://www.datacenterdynamics.com/en/news/oracle-issues-force-majeure-notice-to-blue-owl-following-series-of-setbacks-at-project-jupiter-data-center-campus-report",
-      "title": "Oracle issues force majeure notice to Blue Owl following series of setbacks at Project Jupiter data center campus – report",
+      "title": "Oracle issues force majeure notice to Blue Owl following series of setbacks at Project Jupiter data center campus \u2013 report",
       "normalized_title": "oracle issues force majeure notice to blue owl following series of setbacks at project jupiter data center campus report",
       "published_on": "2026-09-24",
       "primary_entity": "Oracle / Blue Owl Capital",
@@ -2402,6 +2402,15 @@
       "published_on": "2026-10-01",
       "primary_entity": "Civo",
       "event_fingerprint": "civo-uk-edge-ai-datacenter-expansion"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/amazon-signs-ppa-with-constellation-for-maryland-nuclear-plant/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/amazon-signs-ppa-with-constellation-for-maryland-nuclear-plant",
+      "title": "Amazon signs PPA with Constellation for Maryland nuclear plant",
+      "normalized_title": "amazon signs ppa with constellation for maryland nuclear plant",
+      "published_on": "2026-10-01",
+      "primary_entity": "Amazon / Constellation Energy",
+      "event_fingerprint": "amazon-constellation-190mw-maryland-nuclear-ppa"
     }
   ],
   "version": 2,
