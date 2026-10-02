@@ -2411,6 +2411,15 @@
       "published_on": "2026-10-01",
       "primary_entity": "Amazon / Constellation Energy",
       "event_fingerprint": "amazon-constellation-190mw-maryland-nuclear-ppa"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/senate-democrats-block-ratepayer-protection-act-in-57-43-vote/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/senate-democrats-block-ratepayer-protection-act-in-57-43-vote",
+      "title": "Senate Democrats block Ratepayer Protection Act in 57-43 vote",
+      "normalized_title": "senate democrats block ratepayer protection act in 57 43 vote",
+      "published_on": "2026-10-01",
+      "primary_entity": "US Senate",
+      "event_fingerprint": "us-senate-blocks-ratepayer-protection-act"
     }
   ],
   "version": 2,
