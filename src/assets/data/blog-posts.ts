@@ -4305,6 +4305,26 @@ export const blogPosts: BlogPost[] = [
       "AI electricity demand",
     ],
   }),
+  createPost({
+    id: 270,
+    slug: "us-senate-blocks-ratepayer-protection-act",
+    title: "Senate Democrats block Ratepayer Protection Act in 57-43 vote",
+    description:
+      "The US Senate votes 57-43 to block the Ratepayer Protection Act, stalling federal legislation that would require AI data centers to cover 100% of grid expansion costs.",
+    imageAlt: "US Senate Chamber and electrical grid infrastructure",
+    publishedOn: "2026-10-01",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Ratepayer Protection Act",
+      "US Senate",
+      "data center electricity costs",
+      "grid expansion costs",
+      "AI energy policy",
+      "utility ratepayer protection",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
