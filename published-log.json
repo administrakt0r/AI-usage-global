@@ -2420,6 +2420,15 @@
       "published_on": "2026-10-01",
       "primary_entity": "US Senate",
       "event_fingerprint": "us-senate-blocks-ratepayer-protection-act"
+    },
+    {
+      "canonical_url": "https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/",
+      "normalized_url": "https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says",
+      "title": "Memory executives expect RAM shortage to continue through 2028",
+      "normalized_title": "memory executives expect ram shortage to continue through 2028",
+      "published_on": "2026-10-02",
+      "primary_entity": "Micron Technology / Samsung Electronics",
+      "event_fingerprint": "micron-samsung-hbm-memory-shortage-2028"
     }
   ],
   "version": 2,

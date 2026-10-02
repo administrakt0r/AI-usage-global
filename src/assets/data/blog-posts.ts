@@ -4325,6 +4325,27 @@ export const blogPosts: BlogPost[] = [
       "utility ratepayer protection",
     ],
   }),
+  createPost({
+    id: 271,
+    slug: "micron-samsung-hbm-memory-shortage-2028",
+    title: "AI Demand Drives Memory Shortage Through 2028, Micron Says",
+    description:
+      "Micron and Samsung confirm that AI hardware demand and HBM allocation will prolong global server memory shortages and price increases through 2028.",
+    imageAlt: "Semiconductor clean room wafer manufacturing and high-density AI memory chips",
+    publishedOn: "2026-10-02",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Micron",
+      "Samsung",
+      "HBM memory shortage",
+      "high-bandwidth memory",
+      "AI server memory",
+      "wafer capacity",
+      "AI infrastructure costs",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
