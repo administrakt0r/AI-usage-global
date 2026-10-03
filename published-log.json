@@ -2429,6 +2429,15 @@
       "published_on": "2026-10-02",
       "primary_entity": "Micron Technology / Samsung Electronics",
       "event_fingerprint": "micron-samsung-hbm-memory-shortage-2028"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/aws-drops-non-disclosure-agreements-for-data-center-projects/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/aws-drops-non-disclosure-agreements-for-data-center-projects",
+      "title": "AWS drops non-disclosure agreements for data center projects",
+      "normalized_title": "aws drops non disclosure agreements for data center projects",
+      "published_on": "2026-10-02",
+      "primary_entity": "Amazon Web Services",
+      "event_fingerprint": "aws-drops-data-center-ndas"
     }
   ],
   "version": 2,
