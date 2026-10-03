@@ -4346,6 +4346,28 @@ export const blogPosts: BlogPost[] = [
       "AI infrastructure costs",
     ],
   }),
+  createPost({
+    id: 272,
+    slug: "aws-drops-non-disclosure-agreements-for-data-center-projects",
+    title: "AWS drops non-disclosure agreements for data center projects",
+    description:
+      "AWS ends non-disclosure agreements with government agencies for data center projects and commits $1 billion to community funds as over 100 moratoriums threaten AI expansion.",
+    imageAlt: "Amazon Web Services data center facility and community infrastructure",
+    publishedOn: "2026-10-02",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "AWS",
+      "Amazon Web Services",
+      "Matt Garman",
+      "Jamie Raskin",
+      "data center NDAs",
+      "data center moratoriums",
+      "ratepayer protection",
+      "Built Together",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
