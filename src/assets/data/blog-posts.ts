@@ -4368,6 +4368,27 @@ export const blogPosts: BlogPost[] = [
       "Built Together",
     ],
   }),
+  createPost({
+    id: 273,
+    slug: "networkocean-runs-gpu-on-floating-solar-data-center",
+    title: "NetworkOcean Tests Floating Solar AI Data Center in San Francisco Bay",
+    description:
+      "San Francisco startup NetworkOcean powers an Nvidia H100 GPU using a 20kW floating solar array in San Francisco Bay, testing off-grid AI compute infrastructure.",
+    imageAlt: "Floating solar array and containerized GPU server in San Francisco Bay",
+    publishedOn: "2026-10-03",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "NetworkOcean",
+      "floating solar data center",
+      "Nvidia H100",
+      "off-grid AI compute",
+      "San Francisco Bay",
+      "AI power constraints",
+      "data center solar array",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

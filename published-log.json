@@ -2438,6 +2438,15 @@
       "published_on": "2026-10-02",
       "primary_entity": "Amazon Web Services",
       "event_fingerprint": "aws-drops-data-center-ndas"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/networkocean-runs-gpu-on-floating-data-center-powered-by-solar-panels-in-san-francisco-bay/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/networkocean-runs-gpu-on-floating-data-center-powered-by-solar-panels-in-san-francisco-bay",
+      "title": "NetworkOcean runs GPU on floating data center powered by solar panels in San Francisco Bay",
+      "normalized_title": "networkocean runs gpu on floating data center powered by solar panels in san francisco bay",
+      "published_on": "2026-10-03",
+      "primary_entity": "NetworkOcean",
+      "event_fingerprint": "networkocean-floating-solar-gpu-test"
     }
   ],
   "version": 2,
