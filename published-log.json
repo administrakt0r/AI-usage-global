@@ -2447,6 +2447,15 @@
       "published_on": "2026-10-04",
       "primary_entity": "U.S. Federal Government",
       "event_fingerprint": "rural-data-center-federal-tax-break"
+    },
+    {
+      "canonical_url": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/",
+      "normalized_url": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china",
+      "title": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China",
+      "normalized_title": "us arrests tech ceo accused of smuggling 300m in nvidia chips into china",
+      "published_on": "2026-10-04",
+      "primary_entity": "Earthmade Computer / Greg Lui",
+      "event_fingerprint": "earthmade-computer-nvidia-chip-smuggling"
     }
   ],
   "version": 2,
