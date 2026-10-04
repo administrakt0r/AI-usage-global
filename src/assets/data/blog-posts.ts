@@ -4387,6 +4387,26 @@ export const blogPosts: BlogPost[] = [
       "hyperscalers",
     ],
   }),
+  createPost({
+    id: 274,
+    slug: "us-ceo-arrested-smuggling-300m-nvidia-chips",
+    title: "US Arrests Tech CEO Over $300M Nvidia Chip Smuggling",
+    description: "Federal authorities arrest Earthmade Computer CEO Greg Lui for allegedly smuggling $300 million in export-controlled Nvidia AI GPUs into China.",
+    imageAlt: "Digital representation of Nvidia AI chips and international supply chain export controls",
+    publishedOn: "2026-10-04",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Earthmade Computer",
+      "Greg Lui",
+      "Nvidia H100",
+      "AI chip smuggling",
+      "export controls",
+      "GPU shortage",
+      "compute costs",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
