@@ -4368,6 +4368,25 @@ export const blogPosts: BlogPost[] = [
       "Built Together",
     ],
   }),
+  createPost({
+    id: 273,
+    slug: "rural-data-centers-federal-tax-break",
+    title: "Rural Data Centers Are in for a Big Federal Tax Break",
+    description: "The One Big Beautiful Bill Act introduces major federal tax breaks for rural AI data centers starting next year, though hyperscalers remain cautious amid grid limits.",
+    imageAlt: "Digital representation of a data center facility in a rural landscape",
+    publishedOn: "2026-10-04",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "rural data centers",
+      "One Big Beautiful Bill Act",
+      "tax incentives",
+      "AI infrastructure",
+      "power grid constraints",
+      "hyperscalers",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

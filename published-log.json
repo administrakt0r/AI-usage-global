@@ -2438,6 +2438,15 @@
       "published_on": "2026-10-02",
       "primary_entity": "Amazon Web Services",
       "event_fingerprint": "aws-drops-data-center-ndas"
+    },
+    {
+      "canonical_url": "https://www.wired.com/story/rural-data-centers-are-in-for-a-big-federal-tax-break/",
+      "normalized_url": "https://www.wired.com/story/rural-data-centers-are-in-for-a-big-federal-tax-break",
+      "title": "Rural Data Centers Are in for a Big Federal Tax Break",
+      "normalized_title": "rural data centers are in for a big federal tax break",
+      "published_on": "2026-10-04",
+      "primary_entity": "U.S. Federal Government",
+      "event_fingerprint": "rural-data-center-federal-tax-break"
     }
   ],
   "version": 2,
