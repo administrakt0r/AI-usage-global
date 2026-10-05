@@ -4426,6 +4426,26 @@ export const blogPosts: BlogPost[] = [
       "speed to power",
     ],
   }),
+  createPost({
+    id: 276,
+    slug: "miso-fast-tracks-200mw-plus-large-load-and-generation-studies",
+    title: "MISO Proposes Fast-Track Interconnection for 200 MW+ AI Loads",
+    description: "MISO files a proposal with FERC for a 120-day Large Load and Associated Resource Study process to fast-track grid connections for 200 MW+ AI data centers paired with co-located power.",
+    imageAlt: "High-voltage transmission lines and electrical grid substation powering a hyperscale AI data center",
+    publishedOn: "2026-10-05",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "MISO",
+      "LARS process",
+      "FERC",
+      "large load interconnection",
+      "co-located generation",
+      "AI power demand",
+      "grid capacity",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
