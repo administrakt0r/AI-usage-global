@@ -4407,6 +4407,25 @@ export const blogPosts: BlogPost[] = [
       "compute costs",
     ],
   }),
+  createPost({
+    id: 275,
+    slug: "networkocean-floating-solar-ai-datacenter",
+    title: "NetworkOcean Tests Floating Solar AI Compute in San Francisco Bay",
+    description: "Startup NetworkOcean powers an Nvidia H100 GPU in San Francisco Bay using a 20kW floating solar array, targeting 1GW of off-grid sea-based AI compute by 2030.",
+    imageAlt: "NetworkOcean floating solar panels in San Francisco Bay powering an AI data center",
+    publishedOn: "2026-10-05",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "NetworkOcean",
+      "floating solar AI data center",
+      "San Francisco Bay",
+      "Nvidia H100",
+      "off-grid compute",
+      "speed to power",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
