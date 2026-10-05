@@ -2465,6 +2465,15 @@
       "published_on": "2026-10-05",
       "primary_entity": "NetworkOcean",
       "event_fingerprint": "networkocean-floating-solar-gpu-trial"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/miso-large-load-generation-study-lars-ferc/832114/",
+      "normalized_url": "https://www.utilitydive.com/news/miso-large-load-generation-study-lars-ferc/832114",
+      "title": "MISO proposes fast-track large load, generation study process",
+      "normalized_title": "miso proposes fast track large load generation study process",
+      "published_on": "2026-10-05",
+      "primary_entity": "MISO",
+      "event_fingerprint": "miso-lars-200mw-large-load-study-proposal"
     }
   ],
   "version": 2,
