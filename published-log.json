@@ -2456,6 +2456,15 @@
       "published_on": "2026-10-04",
       "primary_entity": "Earthmade Computer / Greg Lui",
       "event_fingerprint": "earthmade-computer-nvidia-chip-smuggling"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/networkocean-runs-gpu-on-floating-data-center-powered-by-solar-panels-in-san-francisco-bay/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/networkocean-runs-gpu-on-floating-data-center-powered-by-solar-panels-in-san-francisco-bay",
+      "title": "NetworkOcean runs GPU on floating data center powered by solar panels in San Francisco Bay",
+      "normalized_title": "networkocean runs gpu on floating data center powered by solar panels in san francisco bay",
+      "published_on": "2026-10-05",
+      "primary_entity": "NetworkOcean",
+      "event_fingerprint": "networkocean-floating-solar-gpu-trial"
     }
   ],
   "version": 2,
