@@ -4446,6 +4446,26 @@ export const blogPosts: BlogPost[] = [
       "grid capacity",
     ],
   }),
+  createPost({
+    id: 277,
+    slug: "jera-dell-rhaelm-japan-btm-ai-datacenter",
+    title: "Jera, Dell Technologies, and Rhaelm team up for behind-the-meter AI infrastructure in Japan",
+    description: "Jera, Dell, and Rhaelm partner on a $15 billion, 400 MW behind-the-meter AI data center campus at Chiba Thermal Power Station to bypass Japan's power grid connection backlogs.",
+    imageAlt: "Chiba Thermal Power Station in Japan and behind-the-meter AI data center infrastructure",
+    publishedOn: "2026-10-05",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Jera",
+      "Dell Technologies",
+      "Rhaelm",
+      "behind-the-meter power",
+      "Chiba Thermal Power Station",
+      "Japan AI data center",
+      "Apollo Global Management",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

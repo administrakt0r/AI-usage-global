@@ -2474,6 +2474,15 @@
       "published_on": "2026-10-05",
       "primary_entity": "MISO",
       "event_fingerprint": "miso-lars-200mw-large-load-study-proposal"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/jera-dell-technologies-and-rhaelm-team-up-for-behind-the-meter-ai-infrastructure-in-japan/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/jera-dell-technologies-and-rhaelm-team-up-for-behind-the-meter-ai-infrastructure-in-japan",
+      "title": "Jera, Dell Technologies, and Rhaelm team up for behind-the-meter AI infrastructure in Japan",
+      "normalized_title": "jera dell technologies and rhaelm team up for behind the meter ai infrastructure in japan",
+      "published_on": "2026-10-05",
+      "primary_entity": "Jera / Dell Technologies / Rhaelm",
+      "event_fingerprint": "jera-dell-rhaelm-japan-btm-ai-datacenter"
     }
   ],
   "version": 2,
