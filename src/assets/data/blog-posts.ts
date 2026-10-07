@@ -4466,6 +4466,25 @@ export const blogPosts: BlogPost[] = [
       "Apollo Global Management",
     ],
   }),
+  createPost({
+    id: 278,
+    slug: "lambda-4b-equity-raise-compute-backlog",
+    title: "AI computing startup Lambda to raise $4B ahead of planned IPO",
+    description: "Cloud provider Lambda raises $4B at a $14.5B valuation as its compute backlog hits $50B, highlighting escalating capital costs for AI data center infrastructure.",
+    imageAlt: "Digital representation of hyperscale AI compute clusters and cloud infrastructure financing",
+    publishedOn: "2026-10-06",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Lambda",
+      "AI compute backlog",
+      "Anthropic",
+      "neocloud IPO",
+      "data center capital",
+      "GPU infrastructure cost",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
