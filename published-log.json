@@ -2483,6 +2483,15 @@
       "published_on": "2026-10-05",
       "primary_entity": "Jera / Dell Technologies / Rhaelm",
       "event_fingerprint": "jera-dell-rhaelm-japan-btm-ai-datacenter"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+      "normalized_url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo",
+      "title": "AI computing startup Lambda to raise $4B ahead of planned IPO",
+      "normalized_title": "ai computing startup lambda to raise 4b ahead of planned ipo",
+      "published_on": "2026-10-06",
+      "primary_entity": "Lambda / Coatue Management / Blackstone",
+      "event_fingerprint": "lambda-4b-equity-raise-pre-ipo"
     }
   ],
   "version": 2,
