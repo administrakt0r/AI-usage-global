@@ -2492,6 +2492,15 @@
       "published_on": "2026-10-06",
       "primary_entity": "Lambda / Coatue Management / Blackstone",
       "event_fingerprint": "lambda-4b-equity-raise-pre-ipo"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/danish-parliament-adopts-emergency-plan-for-electricity-grid-puts-data-centers-at-the-back-of-queue/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/danish-parliament-adopts-emergency-plan-for-electricity-grid-puts-data-centers-at-the-back-of-queue",
+      "title": "Danish Parliament adopts \"emergency plan\" for electricity grid, puts data centers at the back of queue",
+      "normalized_title": "danish parliament adopts emergency plan for electricity grid puts data centers at the back of queue",
+      "published_on": "2026-10-07",
+      "primary_entity": "Danish Parliament / Ministry of Climate, Energy, and Utilities",
+      "event_fingerprint": "denmark-emergency-grid-plan-data-center-queue"
     }
   ],
   "version": 2,

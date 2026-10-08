@@ -4485,6 +4485,25 @@ export const blogPosts: BlogPost[] = [
       "GPU infrastructure cost",
     ],
   }),
+  createPost({
+    id: 279,
+    slug: "denmark-emergency-grid-plan-data-center-queue",
+    title: "Danish Parliament Adopts Emergency Grid Plan, Deprioritizing Data Centers",
+    description: "Denmark passes an emergency grid law establishing a four-tier priority system that places commercial hyperscale data centers at the back of the power connection queue.",
+    imageAlt: "Aerial view of electrical grid infrastructure and data centers in Denmark",
+    publishedOn: "2026-10-07",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Denmark data centers",
+      "Energinet",
+      "emergency grid plan",
+      "grid prioritization",
+      "AI power demand",
+      "Nordic data center policy",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
