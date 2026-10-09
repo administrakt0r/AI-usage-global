@@ -2510,6 +2510,15 @@
       "published_on": "2026-10-09",
       "primary_entity": "U.S. Department of Energy / PJM Interconnection",
       "event_fingerprint": "doe-pjm-ferc-ratepayer-protection-intervention"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/power-system-plans-to-meet-large-load-demand-miss-near-term-solutions-some/832508/",
+      "normalized_url": "https://www.utilitydive.com/news/power-system-plans-to-meet-large-load-demand-miss-near-term-solutions-some/832508",
+      "title": "Power system plans to meet large-load demand miss near-term solutions: analysts",
+      "normalized_title": "power system plans to meet large load demand miss near term solutions analysts",
+      "published_on": "2026-10-08",
+      "primary_entity": "Utility Dive / Grid Analysts",
+      "event_fingerprint": "utility-dive-near-term-grid-solutions-large-loads"
     }
   ],
   "version": 2,

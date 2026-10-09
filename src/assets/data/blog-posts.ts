@@ -4525,6 +4525,26 @@ export const blogPosts: BlogPost[] = [
       "large load cost allocation",
     ],
   }),
+  createPost({
+    id: 281,
+    slug: "power-system-plans-miss-near-term-large-load-solutions",
+    title: "Power system plans to meet large-load demand miss near-term solutions: analysts",
+    description:
+      "Energy analysts warn that power system planning for large-load AI data center demand relies heavily on long-term builds while underutilizing advanced transmission technologies.",
+    imageAlt: "High-voltage electrical transmission towers and regional power grid infrastructure",
+    publishedOn: "2026-10-08",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "advanced transmission technologies",
+      "large-load interconnection",
+      "AI data center power demand",
+      "flexible interconnection",
+      "grid capacity",
+      "regional transmission organizations",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
