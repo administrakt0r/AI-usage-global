@@ -2501,6 +2501,15 @@
       "published_on": "2026-10-07",
       "primary_entity": "Danish Parliament / Ministry of Climate, Energy, and Utilities",
       "event_fingerprint": "denmark-emergency-grid-plan-data-center-queue"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/doe-pjm-ferc-ratepayer-protection-large-load-data-center/832479/",
+      "normalized_url": "https://www.utilitydive.com/news/doe-pjm-ferc-ratepayer-protection-large-load-data-center/832479",
+      "title": "DOE presses PJM on ratepayer protections from large load costs",
+      "normalized_title": "doe presses pjm on ratepayer protections from large load costs",
+      "published_on": "2026-10-09",
+      "primary_entity": "U.S. Department of Energy / PJM Interconnection",
+      "event_fingerprint": "doe-pjm-ferc-ratepayer-protection-intervention"
     }
   ],
   "version": 2,

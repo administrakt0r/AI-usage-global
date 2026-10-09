@@ -4504,6 +4504,27 @@ export const blogPosts: BlogPost[] = [
       "Nordic data center policy",
     ],
   }),
+  createPost({
+    id: 280,
+    slug: "doe-presses-pjm-to-shield-ratepayers-from-ai-data-center-grid-costs",
+    title: "DOE Presses PJM to Shield Ratepayers from AI Data Center Grid Costs",
+    description:
+      "The US Department of Energy files a FERC intervention pressing PJM to ensure AI data centers fund 6.8 GW of backstop generation instead of shifting costs to households.",
+    imageAlt: "High-voltage power transmission lines and regional electrical grid infrastructure serving data centers",
+    publishedOn: "2026-10-09",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Department of Energy",
+      "PJM Interconnection",
+      "FERC",
+      "Ratepayer Protection Pledge",
+      "AI data center energy costs",
+      "reliability backstop procurement",
+      "large load cost allocation",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
