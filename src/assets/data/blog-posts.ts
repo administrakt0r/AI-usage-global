@@ -4545,6 +4545,27 @@ export const blogPosts: BlogPost[] = [
       "regional transmission organizations",
     ],
   }),
+  createPost({
+    id: 282,
+    slug: "thisway-global-73mw-rellis-ai-hub",
+    title: "ThisWay Global Acquires Bankrupt Site for 73 MW AI Hub",
+    description:
+      "ThisWay Global acquires an unfinished, bankrupt data center at Texas A&M's RELLIS Campus to construct a 73 MW liquid-cooled AI compute center.",
+    imageAlt: "Digital representation of a liquid-cooled AI data center facility at RELLIS campus",
+    publishedOn: "2026-10-09",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "ThisWay Global",
+      "RELLIS campus",
+      "Texas A&M",
+      "73 MW AI hub",
+      "closed-loop liquid cooling",
+      "Sovereign AI Blueprint",
+      "Bryan Texas Utilities",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
