@@ -2519,6 +2519,15 @@
       "published_on": "2026-10-08",
       "primary_entity": "Utility Dive / Grid Analysts",
       "event_fingerprint": "utility-dive-near-term-grid-solutions-large-loads"
+    },
+    {
+      "canonical_url": "https://www.datacenterknowledge.com/ai-data-centers/thisway-global-to-convert-bankrupt-rellis-site-into-73-mw-ai-hub",
+      "normalized_url": "https://www.datacenterknowledge.com/ai-data-centers/thisway-global-to-convert-bankrupt-rellis-site-into-73-mw-ai-hub",
+      "title": "ThisWay Global to Convert Bankrupt RELLIS Site into 73 MW AI Hub",
+      "normalized_title": "thisway global to convert bankrupt rellis site into 73 mw ai hub",
+      "published_on": "2026-10-09",
+      "primary_entity": "ThisWay Global",
+      "event_fingerprint": "thisway-global-rellis-bankrupt-datacenter-acquisition"
     }
   ],
   "version": 2,
