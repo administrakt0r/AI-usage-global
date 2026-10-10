@@ -2528,6 +2528,15 @@
       "published_on": "2026-10-09",
       "primary_entity": "ThisWay Global",
       "event_fingerprint": "thisway-global-rellis-bankrupt-datacenter-acquisition"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/anthropic-linked-366m-data-center-project-filed-for-in-cedar-creek-texas/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/anthropic-linked-366m-data-center-project-filed-for-in-cedar-creek-texas",
+      "title": "Anthropic-linked $366m data center project filed for in Cedar Creek, Texas",
+      "normalized_title": "anthropic linked 366m data center project filed for in cedar creek texas",
+      "published_on": "2026-10-09",
+      "primary_entity": "Anthropic / Pacifico Energy / Black Chamber",
+      "event_fingerprint": "anthropic-cedar-creek-710mw-gas-datacenter"
     }
   ],
   "version": 2,
