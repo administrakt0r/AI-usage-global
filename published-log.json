@@ -2537,6 +2537,15 @@
       "published_on": "2026-10-09",
       "primary_entity": "Anthropic / Pacifico Energy / Black Chamber",
       "event_fingerprint": "anthropic-cedar-creek-710mw-gas-datacenter"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/10/10/petra-power-looks-to-modernize-energy-for-data-centers-and-defense-vehicles/",
+      "normalized_url": "https://techcrunch.com/2026/10/10/petra-power-looks-to-modernize-energy-for-data-centers-and-defense-vehicles",
+      "title": "Petra Power looks to modernize energy for data centers and defense vehicles",
+      "normalized_title": "petra power looks to modernize energy for data centers and defense vehicles",
+      "published_on": "2026-10-10",
+      "primary_entity": "Petra Power",
+      "event_fingerprint": "petra-power-solid-oxide-fuel-cells"
     }
   ],
   "version": 2,
