@@ -4586,6 +4586,26 @@ export const blogPosts: BlogPost[] = [
       "490 MW compute capacity",
     ],
   }),
+  createPost({
+    id: 284,
+    slug: "petra-power-solid-oxide-fuel-cells-data-centers",
+    title: "Petra Power Targets Data Centers with Solid Oxide Fuel Cells",
+    description:
+      "Petra Power targets neoclouds and data centers with solid oxide fuel cells that strip electrons from natural gas without combustion, cutting energy losses and fuel costs.",
+    imageAlt: "Ceramic solid oxide fuel cell power generation unit for data center energy infrastructure",
+    publishedOn: "2026-10-10",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Petra Power",
+      "solid oxide fuel cells",
+      "data center power",
+      "behind-the-meter generation",
+      "AI electricity demand",
+      "fuel efficiency",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
