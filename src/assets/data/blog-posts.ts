@@ -4566,6 +4566,26 @@ export const blogPosts: BlogPost[] = [
       "Bryan Texas Utilities",
     ],
   }),
+  createPost({
+    id: 283,
+    slug: "anthropic-project-longhorn-texas-datacenter",
+    title: "Anthropic-Linked $366M Data Center Campus Filed in Texas",
+    description:
+      "A regulatory filing reveals plans for a $366 million, 710 MW gas-powered AI data center campus in Texas that Anthropic is reportedly in talks to lease.",
+    imageAlt: "Digital representation of a gas-powered data center campus in Texas",
+    publishedOn: "2026-10-09",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Anthropic",
+      "Project Longhorn",
+      "Texas AI data center",
+      "Bastrop County",
+      "natural gas power",
+      "490 MW compute capacity",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
