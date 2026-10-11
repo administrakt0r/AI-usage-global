@@ -17,6 +17,7 @@ const ContactForm = () => {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
+  const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -31,6 +32,8 @@ const ContactForm = () => {
       "Message:",
       message || "-",
     ];
+
+    setSubmitted(true);
 
     window.location.href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(resolvedSubject)}&body=${encodeURIComponent(
       bodyLines.join("\n"),
@@ -58,11 +61,15 @@ const ContactForm = () => {
       </div>
 
       <div className="space-y-2">
-        <Label htmlFor="email">Email</Label>
+        <Label htmlFor="email">
+          Email <span className="text-destructive">*</span>
+        </Label>
         <div className="relative">
           <Input
             id="email"
             type="email"
+            required
+            aria-required="true"
             placeholder="Your email"
             value={email}
             onChange={(event) => setEmail(event.target.value)}
@@ -94,9 +101,13 @@ const ContactForm = () => {
       </div>
 
       <div className="space-y-2">
-        <Label htmlFor="message">Message</Label>
+        <Label htmlFor="message">
+          Message <span className="text-destructive">*</span>
+        </Label>
         <Textarea
           id="message"
+          required
+          aria-required="true"
           className="h-28 resize-none"
           placeholder="Write your message"
           value={message}
@@ -104,9 +115,21 @@ const ContactForm = () => {
         />
       </div>
 
-      <Button type="submit" size="lg" className="w-full text-base">
-        Send message
-      </Button>
+      <div className="space-y-2">
+        <Button type="submit" size="lg" className="w-full text-base">
+          Send message
+        </Button>
+
+        {submitted && (
+          <p
+            role="status"
+            aria-live="polite"
+            className="text-muted-foreground text-center text-xs"
+          >
+            Opening your default email application with pre-filled details...
+          </p>
+        )}
+      </div>
     </form>
   );
 };
