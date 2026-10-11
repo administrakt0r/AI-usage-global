@@ -205,8 +205,8 @@ export default async function BlogDetailPage({
                     <BreadcrumbSeparator />
                     <BreadcrumbItem>
                       <BreadcrumbLink href="/#categories">
-AI Usage Tracking
-                       </BreadcrumbLink>
+                        AI Usage Tracking
+                      </BreadcrumbLink>
                     </BreadcrumbItem>
                     <BreadcrumbSeparator />
                     <BreadcrumbItem>

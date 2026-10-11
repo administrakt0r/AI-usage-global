@@ -205,7 +205,9 @@ export const DynamicToc = ({
               {group.subs.length > 0 ? (
                 <ul className="mt-3 ml-5 space-y-3">
                   {group.subs.map((subtitle, subIndex) => (
-                    <li key={`toc-sub-${subtitle.id}-${groupIndex}-${subIndex}`}>
+                    <li
+                      key={`toc-sub-${subtitle.id}-${groupIndex}-${subIndex}`}
+                    >
                       <TocItemButton
                         id={subtitle.id}
                         title={subtitle.title}
