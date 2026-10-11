@@ -3,6 +3,11 @@ import { GithubIcon, LeafIcon, RssIcon } from "lucide-react";
 
 import Logo from "@/components/logo";
 import { Button } from "@/components/ui/button";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 import { Separator } from "@/components/ui/separator";
 import { CONTACT_EMAIL, SITE_NAME } from "@/lib/site";
 
@@ -88,13 +93,19 @@ const FooterTop = () => (
           GitHub repo
         </a>
       </Button>
-      <Link
-        href="/rss.xml"
-        className="text-muted-foreground hover:text-foreground"
-      >
-        <RssIcon className="size-5" />
-        <span className="sr-only">RSS</span>
-      </Link>
+      <Tooltip>
+        <TooltipTrigger asChild>
+          <Link
+            href="/rss.xml"
+            className="text-muted-foreground hover:text-foreground"
+            aria-label="RSS"
+          >
+            <RssIcon className="size-5" />
+            <span className="sr-only">RSS</span>
+          </Link>
+        </TooltipTrigger>
+        <TooltipContent>RSS</TooltipContent>
+      </Tooltip>
     </div>
   </div>
 );
