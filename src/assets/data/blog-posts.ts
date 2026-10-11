@@ -4606,6 +4606,26 @@ export const blogPosts: BlogPost[] = [
       "fuel efficiency",
     ],
   }),
+  createPost({
+    id: 285,
+    slug: "cipher-extends-barber-lake-datacenter-leases",
+    title: "Cipher extends Barber Lake data center lease commitments to 20 years",
+    description:
+      "Cipher Digital extends lease agreements with Fluidstack and an AI lab to 20 years at its Barber Lake Texas campus, adding $5.2B in contracted revenue.",
+    imageAlt: "Digital representation of hyperscale AI data center infrastructure in Texas",
+    publishedOn: "2026-10-10",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Cipher Digital",
+      "Barber Lake",
+      "Fluidstack",
+      "Texas AI data center",
+      "AI infrastructure capex",
+      "300 MW power capacity",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

@@ -2546,6 +2546,15 @@
       "published_on": "2026-10-10",
       "primary_entity": "Petra Power",
       "event_fingerprint": "petra-power-solid-oxide-fuel-cells"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/cipher-extends-barber-lake-data-center-lease-commitments-to-20-years/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/cipher-extends-barber-lake-data-center-lease-commitments-to-20-years",
+      "title": "Cipher extends Barber Lake data center lease commitments to 20 years",
+      "normalized_title": "cipher extends barber lake data center lease commitments to 20 years",
+      "published_on": "2026-10-10",
+      "primary_entity": "Cipher Digital",
+      "event_fingerprint": "cipher-barber-lake-datacenter-lease-extension"
     }
   ],
   "version": 2,
