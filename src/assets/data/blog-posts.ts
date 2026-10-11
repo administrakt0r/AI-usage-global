@@ -4626,6 +4626,27 @@ export const blogPosts: BlogPost[] = [
       "300 MW power capacity",
     ],
   }),
+  createPost({
+    id: 286,
+    slug: "batteries-become-cheaper-than-gas-turbines-for-data-centers",
+    title: "Batteries Become Cheaper Than Gas Turbines for Data Centers",
+    description:
+      "A global report from Wood Mackenzie finds four-hour battery storage is now cheaper than open-cycle gas turbines as AI data center demand drives up turbine costs.",
+    imageAlt: "Digital representation of utility-scale battery energy storage systems and data center power grid infrastructure",
+    publishedOn: "2026-10-11",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Wood Mackenzie",
+      "battery energy storage",
+      "gas turbines",
+      "open-cycle gas peakers",
+      "AI power demand",
+      "data center energy costs",
+      "grid interconnection",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

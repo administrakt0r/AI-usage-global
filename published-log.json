@@ -2555,6 +2555,15 @@
       "published_on": "2026-10-10",
       "primary_entity": "Cipher Digital",
       "event_fingerprint": "cipher-barber-lake-datacenter-lease-extension"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/10/09/batteries-are-now-cheaper-than-natural-gas-turbines-used-at-many-data-centers/",
+      "normalized_url": "https://techcrunch.com/2026/10/09/batteries-are-now-cheaper-than-natural-gas-turbines-used-at-many-data-centers",
+      "title": "Batteries are now cheaper than natural gas turbines used at many data centers",
+      "normalized_title": "batteries are now cheaper than natural gas turbines used at many data centers",
+      "published_on": "2026-10-11",
+      "primary_entity": "Wood Mackenzie",
+      "event_fingerprint": "wood-mackenzie-battery-storage-cheaper-than-gas-turbines"
     }
   ],
   "version": 2,
