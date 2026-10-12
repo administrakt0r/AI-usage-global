@@ -4667,6 +4667,26 @@ export const blogPosts: BlogPost[] = [
       "AI infrastructure risks",
     ],
   }),
+  createPost({
+    id: 288,
+    slug: "ferc-rejects-pjm-plan-to-curtail-unpowered-ai-data-centers",
+    title: "FERC Rejects PJM Plan to Curtail Unpowered AI Data Centers",
+    description:
+      "FERC rejects PJM Interconnection's proposal to mandate retail curtailments on unpowered AI data centers, ruling it infringes on state jurisdiction.",
+    imageAlt: "Federal Energy Regulatory Commission building and high-voltage electricity transmission lines",
+    publishedOn: "2026-10-12",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "FERC",
+      "PJM Interconnection",
+      "IRAS",
+      "large load curtailment",
+      "data center electricity costs",
+      "ratepayer protection",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
