@@ -4647,6 +4647,26 @@ export const blogPosts: BlogPost[] = [
       "grid interconnection",
     ],
   }),
+  createPost({
+    id: 287,
+    slug: "data-center-fires-and-power-failures-double-since-2024",
+    title: "Data Center Fires and Power Failures Double Since 2024",
+    description:
+      "Energy Incident Register data shows data center fires and power failures have more than doubled since 2024 as high-density AI infrastructure strains backup systems.",
+    imageAlt: "Digital representation of data center power infrastructure and backup generator systems",
+    publishedOn: "2026-10-12",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Energy Incident Register",
+      "data center fires",
+      "power failures",
+      "UPS battery room",
+      "backup generators",
+      "AI infrastructure risks",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
