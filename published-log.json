@@ -2573,6 +2573,15 @@
       "published_on": "2026-10-12",
       "primary_entity": "Energy Incident Register",
       "event_fingerprint": "energy-incident-register-datacenter-fires-failures-doubled"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/ferc-pjm-large-load-interconnection-iras-byonc/832716/",
+      "normalized_url": "https://www.utilitydive.com/news/ferc-pjm-large-load-interconnection-iras-byonc/832716",
+      "title": "FERC Rejects PJM Plan to Curtail Unpowered AI Data Centers",
+      "normalized_title": "ferc rejects pjm plan to curtail unpowered ai data centers",
+      "published_on": "2026-10-12",
+      "primary_entity": "Federal Energy Regulatory Commission / PJM Interconnection",
+      "event_fingerprint": "ferc-pjm-iras-large-load-rejection"
     }
   ],
   "version": 2,
