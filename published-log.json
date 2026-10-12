@@ -2564,6 +2564,15 @@
       "published_on": "2026-10-11",
       "primary_entity": "Wood Mackenzie",
       "event_fingerprint": "wood-mackenzie-battery-storage-cheaper-than-gas-turbines"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/number-of-data-center-fires-and-power-failures-has-doubled-since-2024/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/number-of-data-center-fires-and-power-failures-has-doubled-since-2024",
+      "title": "Number of data center fires and power failures has doubled since 2024",
+      "normalized_title": "number of data center fires and power failures has doubled since 2024",
+      "published_on": "2026-10-12",
+      "primary_entity": "Energy Incident Register",
+      "event_fingerprint": "energy-incident-register-datacenter-fires-failures-doubled"
     }
   ],
   "version": 2,
