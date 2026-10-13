@@ -4707,6 +4707,27 @@ export const blogPosts: BlogPost[] = [
       "JB Smiley Jr",
     ],
   }),
+  createPost({
+    id: 290,
+    slug: "ferc-approves-pjm-request-data-center-database",
+    title: "FERC Approves PJM Data Center Database, Rejects Curtailment",
+    description:
+      "FERC approves PJM Interconnection's request to build a data center tracking database while rejecting emergency power curtailment authority.",
+    imageAlt: "Digital representation of federal power regulation and data center energy grid monitoring",
+    publishedOn: "2026-10-13",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "FERC",
+      "PJM Interconnection",
+      "data center database",
+      "grid power curtailment",
+      "large load registry",
+      "AI electricity demand",
+      "ratepayer protection",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
