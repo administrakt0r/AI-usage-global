@@ -4687,6 +4687,26 @@ export const blogPosts: BlogPost[] = [
       "ratepayer protection",
     ],
   }),
+  createPost({
+    id: 289,
+    slug: "memphis-data-center-moratorium-delay",
+    title: "Memphis council delays decision on year-long data center moratorium despite protests",
+    description:
+      "Memphis City Council votes 7-5 to postpone a 12-month data center moratorium amid public protests over xAI gas turbines and environmental impacts.",
+    imageAlt: "Digital representation of municipal council meeting and xAI data center infrastructure in Memphis",
+    publishedOn: "2026-10-13",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Memphis data center moratorium",
+      "xAI",
+      "SpaceXAI",
+      "gas turbines",
+      "data center environmental impact",
+      "JB Smiley Jr",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

@@ -2582,6 +2582,15 @@
       "published_on": "2026-10-12",
       "primary_entity": "Federal Energy Regulatory Commission / PJM Interconnection",
       "event_fingerprint": "ferc-pjm-iras-large-load-rejection"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/memphis-council-delays-decision-on-year-long-data-center-moratorium-despite-protests/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/memphis-council-delays-decision-on-year-long-data-center-moratorium-despite-protests",
+      "title": "Memphis council delays decision on year-long data center moratorium despite protests",
+      "normalized_title": "memphis council delays decision on year long data center moratorium despite protests",
+      "published_on": "2026-10-13",
+      "primary_entity": "Memphis City Council / xAI",
+      "event_fingerprint": "memphis-data-center-moratorium-delay"
     }
   ],
   "version": 2,
