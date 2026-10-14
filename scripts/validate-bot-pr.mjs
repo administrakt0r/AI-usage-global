@@ -172,7 +172,7 @@ const loadBlogPostsFromSource = (source, filename) => {
   return exports.blogPosts
 }
 
-const isHttpsUrl = value => {
+export const isHttpsUrl = value => {
   try {
     const url = new URL(value)
 
@@ -182,7 +182,7 @@ const isHttpsUrl = value => {
   }
 }
 
-const isCanonicalSourceArticleUrl = value =>
+export const isCanonicalSourceArticleUrl = value =>
   isHttpsUrl(value) &&
   !value.includes('...') &&
   !/\/feed\/?$/iu.test(value) &&
@@ -447,4 +447,9 @@ const main = async () => {
   console.log('Bot PR validation passed.')
 }
 
-await main()
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+  main().catch(error => {
+    console.error(error)
+    process.exit(1)
+  })
+}
