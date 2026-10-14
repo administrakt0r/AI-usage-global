@@ -4728,6 +4728,27 @@ export const blogPosts: BlogPost[] = [
       "ratepayer protection",
     ],
   }),
+  createPost({
+    id: 291,
+    slug: "ls-electric-bloom-fuel-cell-switchgear-deal",
+    title: "LS Electric Secures $138M Order for Bloom Fuel Cell Switchgear",
+    description:
+      "LS Electric wins a $138.5M order from Bloom Energy to supply 38kV switchgear and transformers for a 2 GW off-grid fuel cell data center campus in Pennsylvania.",
+    imageAlt: "High-voltage electrical switchgear and fuel cell power distribution equipment",
+    publishedOn: "2026-10-14",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "LS Electric",
+      "Bloom Energy",
+      "fuel cells",
+      "38kV switchgear",
+      "behind-the-meter power",
+      "Project Phoenix",
+      "Pennsylvania AI data center",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
