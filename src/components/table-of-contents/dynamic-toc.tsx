@@ -191,7 +191,7 @@ export const DynamicToc = ({
       <h3 className="mb-3.5 text-[0.72rem] font-semibold uppercase tracking-[0.18em] text-brand-blue">
         Table of Contents
       </h3>
-      <nav>
+      <nav aria-label="Table of contents">
         <ul className="space-y-3">
           {groupedItems.map((group, groupIndex) => (
             <li key={`toc-group-${group.main.id}-${groupIndex}`}>
@@ -205,7 +205,9 @@ export const DynamicToc = ({
               {group.subs.length > 0 ? (
                 <ul className="mt-3 ml-5 space-y-3">
                   {group.subs.map((subtitle, subIndex) => (
-                    <li key={`toc-sub-${subtitle.id}-${groupIndex}-${subIndex}`}>
+                    <li
+                      key={`toc-sub-${subtitle.id}-${groupIndex}-${subIndex}`}
+                    >
                       <TocItemButton
                         id={subtitle.id}
                         title={subtitle.title}

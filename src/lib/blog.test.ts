@@ -107,7 +107,10 @@ describe("blog utility functions", () => {
 
   describe("formatPostDisplayDateTime", () => {
     it("formats post date and time correctly", () => {
-      assert.equal(formatPostDisplayDateTime(mockPost1), "October 15, 2023 at 2:30 PM");
+      assert.equal(
+        formatPostDisplayDateTime(mockPost1),
+        "October 15, 2023 at 2:30 PM",
+      );
     });
 
     it("formats post date correctly when time is missing", () => {

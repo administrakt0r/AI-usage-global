@@ -32,9 +32,9 @@ const HeroSection = ({ blogData }: { blogData: BlogPost[] }) => {
             AI is consuming water, power, and money at scale. We track it.
           </h1>
           <p className="text-muted-foreground mx-auto max-w-2xl text-base">
-            AI Usage Global reports daily on data center water consumption, energy
-            demands, rising compute costs, GPU shortages, and the environmental
-            footprint of artificial intelligence worldwide.
+            AI Usage Global reports daily on data center water consumption,
+            energy demands, rising compute costs, GPU shortages, and the
+            environmental footprint of artificial intelligence worldwide.
           </p>
           <ul className="text-muted-foreground flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-sm">
             <li>Daily AI reporting</li>

@@ -49,81 +49,83 @@ type BlogProps = {
   stats: BlogStats;
 };
 
-const BlogGrid = memo(({
-  posts,
-  onCategoryClick,
-}: {
-  posts: BlogPost[];
-  onCategoryClick: (category: string) => void;
-}) => {
-  return (
-    <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-      {posts.map((post) => (
-        <Card
-          key={post.slug}
-          className="group h-full overflow-hidden shadow-none transition-all duration-300"
-        >
-          <CardContent className="space-y-3.5">
-            <Link href={`/blog-detail/${post.slug}`} className="block">
-              <div className="mb-6 aspect-[1200/630] overflow-hidden rounded-lg sm:mb-12">
-                <Image
-                  src={post.imageUrl}
-                  alt={post.imageAlt}
-                  width={1200}
-                  height={630}
-                  sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 100vw"
-                  className="h-full w-full object-cover object-center transition-transform duration-300 group-hover:scale-105"
-                />
-              </div>
-            </Link>
-            <div className="flex items-center justify-between gap-1.5">
-              <div className="text-muted-foreground flex items-center gap-1.5">
-                <CalendarDaysIcon className="size-5" />
-                <span>{formatPostDisplayDate(post)}</span>
-              </div>
-              <Badge
-                asChild
-                className="bg-primary/10 text-primary hover:bg-primary/20 cursor-pointer rounded-full border-0 text-sm"
-              >
-                <button
-                  type="button"
-                  onClick={(event) => {
-                    event.stopPropagation();
-                    onCategoryClick(post.category);
-                  }}
-                  aria-label={`Filter by category: ${post.category}`}
+const BlogGrid = memo(
+  ({
+    posts,
+    onCategoryClick,
+  }: {
+    posts: BlogPost[];
+    onCategoryClick: (category: string) => void;
+  }) => {
+    return (
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {posts.map((post) => (
+          <Card
+            key={post.slug}
+            className="group h-full overflow-hidden shadow-none transition-all duration-300"
+          >
+            <CardContent className="space-y-3.5">
+              <Link href={`/blog-detail/${post.slug}`} className="block">
+                <div className="mb-6 aspect-[1200/630] overflow-hidden rounded-lg sm:mb-12">
+                  <Image
+                    src={post.imageUrl}
+                    alt={post.imageAlt}
+                    width={1200}
+                    height={630}
+                    sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 100vw"
+                    className="h-full w-full object-cover object-center transition-transform duration-300 group-hover:scale-105"
+                  />
+                </div>
+              </Link>
+              <div className="flex items-center justify-between gap-1.5">
+                <div className="text-muted-foreground flex items-center gap-1.5">
+                  <CalendarDaysIcon className="size-5" />
+                  <span>{formatPostDisplayDate(post)}</span>
+                </div>
+                <Badge
+                  asChild
+                  className="bg-primary/10 text-primary hover:bg-primary/20 cursor-pointer rounded-full border-0 text-sm"
                 >
-                  {post.category}
-                </button>
-              </Badge>
-            </div>
-            <Link href={`/blog-detail/${post.slug}`} className="block">
-              <h3 className="line-clamp-2 text-lg font-medium md:text-xl">
-                {post.title}
-              </h3>
-            </Link>
-            <p className="text-muted-foreground line-clamp-2">
-              {post.description}
-            </p>
-            <div className="flex items-center justify-between">
-              <span className="text-sm font-medium">{post.author}</span>
-              <Button
-                size="icon"
-                className="group-hover:bg-primary! bg-background text-foreground hover:bg-primary! hover:text-primary-foreground group-hover:text-primary-foreground border group-hover:border-transparent hover:border-transparent"
-                asChild
-              >
-                <Link href={`/blog-detail/${post.slug}`}>
-                  <ArrowRightIcon className="size-4 -rotate-45" />
-                  <span className="sr-only">Read more: {post.title}</span>
-                </Link>
-              </Button>
-            </div>
-          </CardContent>
-        </Card>
-      ))}
-    </div>
-  );
-});
+                  <button
+                    type="button"
+                    onClick={(event) => {
+                      event.stopPropagation();
+                      onCategoryClick(post.category);
+                    }}
+                    aria-label={`Filter by category: ${post.category}`}
+                  >
+                    {post.category}
+                  </button>
+                </Badge>
+              </div>
+              <Link href={`/blog-detail/${post.slug}`} className="block">
+                <h3 className="line-clamp-2 text-lg font-medium md:text-xl">
+                  {post.title}
+                </h3>
+              </Link>
+              <p className="text-muted-foreground line-clamp-2">
+                {post.description}
+              </p>
+              <div className="flex items-center justify-between">
+                <span className="text-sm font-medium">{post.author}</span>
+                <Button
+                  size="icon"
+                  className="group-hover:bg-primary! bg-background text-foreground hover:bg-primary! hover:text-primary-foreground group-hover:text-primary-foreground border group-hover:border-transparent hover:border-transparent"
+                  asChild
+                >
+                  <Link href={`/blog-detail/${post.slug}`}>
+                    <ArrowRightIcon className="size-4 -rotate-45" />
+                    <span className="sr-only">Read more: {post.title}</span>
+                  </Link>
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+        ))}
+      </div>
+    );
+  },
+);
 
 const Blog = ({ stats }: BlogProps) => {
   const [selectedTab, setSelectedTab] = useState(allCategoryLabel);
@@ -227,8 +229,8 @@ const Blog = ({ stats }: BlogProps) => {
           </h2>
 
           <p className="text-muted-foreground text-lg md:text-xl">
-            Daily reporting on how AI consumes water, electricity, and money — and
-            what that means for infrastructure, costs, and the environment.
+            Daily reporting on how AI consumes water, electricity, and money —
+            and what that means for infrastructure, costs, and the environment.
             Written autonomously by an AI agent. Source code on GitHub.
           </p>
 

@@ -2,8 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRightIcon, CalendarDaysIcon } from "lucide-react";
 
-import { sortedBlogPosts as allBlogPosts } from '@/assets/data/blog-posts'
-import { formatPostDisplayDate } from '@/lib/blog'
+import { sortedBlogPosts as allBlogPosts } from "@/assets/data/blog-posts";
+import { formatPostDisplayDate } from "@/lib/blog";
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -92,9 +92,7 @@ const Blog = ({ blogPosts = allBlogPosts.slice(0, 3) }: BlogProps) => {
                   >
                     <Link href={`/blog-detail/${post.slug}`}>
                       <ArrowRightIcon className="size-4 -rotate-45" />
-                      <span className="sr-only">
-                        Read more: {post.title}
-                      </span>
+                      <span className="sr-only">Read more: {post.title}</span>
                     </Link>
                   </Button>
                 </div>
