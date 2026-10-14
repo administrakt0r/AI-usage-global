@@ -2600,6 +2600,15 @@
       "published_on": "2026-10-13",
       "primary_entity": "FERC / PJM Interconnection",
       "event_fingerprint": "ferc-approves-pjm-datacenter-database"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/ls-electric-secures-138m-order-to-supply-switchgear-for-bloom-fuel-cells-at-pennsylvania-data-center/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/ls-electric-secures-138m-order-to-supply-switchgear-for-bloom-fuel-cells-at-pennsylvania-data-center",
+      "title": "LS Electric secures $138m order to supply switchgear for Bloom fuel cells at Pennsylvania data center",
+      "normalized_title": "ls electric secures 138m order to supply switchgear for bloom fuel cells at pennsylvania data center",
+      "published_on": "2026-10-14",
+      "primary_entity": "LS Electric / Bloom Energy",
+      "event_fingerprint": "ls-electric-bloom-fuel-cells-pennsylvania"
     }
   ],
   "version": 2,
