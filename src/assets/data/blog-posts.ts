@@ -4749,6 +4749,26 @@ export const blogPosts: BlogPost[] = [
       "Pennsylvania AI data center",
     ],
   }),
+  createPost({
+    id: 292,
+    slug: "ambrosia-energy-10gwh-texas-battery-factory",
+    title: "Ambrosia Energy Builds 10 GWh Texas Battery Plant for AI Data Centers",
+    description:
+      "Ambrosia Energy begins construction on a 10 GWh battery factory near Austin, Texas, to build solar-plus-storage power plants for off-grid AI data centers.",
+    imageAlt: "Aerial view of Ambrosia Energy battery factory and solar infrastructure",
+    publishedOn: "2026-10-14",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Ambrosia Energy",
+      "off-grid AI data centers",
+      "battery energy storage",
+      "Texas solar power",
+      "behind-the-meter power",
+      "data center power costs",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

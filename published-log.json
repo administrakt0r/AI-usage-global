@@ -2609,6 +2609,15 @@
       "published_on": "2026-10-14",
       "primary_entity": "LS Electric / Bloom Energy",
       "event_fingerprint": "ls-electric-bloom-fuel-cells-pennsylvania"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/10/14/ambrosia-energy-will-build-a-10-gwh-factory-in-texas-to-make-batteries-for-off-grid-data-centers/",
+      "normalized_url": "https://techcrunch.com/2026/10/14/ambrosia-energy-will-build-a-10-gwh-factory-in-texas-to-make-batteries-for-off-grid-data-centers",
+      "title": "Ambrosia Energy will build a 10 GWh factory in Texas to make batteries for off-grid data centers",
+      "normalized_title": "ambrosia energy will build a 10 gwh factory in texas to make batteries for off grid data centers",
+      "published_on": "2026-10-14",
+      "primary_entity": "Ambrosia Energy",
+      "event_fingerprint": "ambrosia-energy-10gwh-texas-battery-factory"
     }
   ],
   "version": 2,
