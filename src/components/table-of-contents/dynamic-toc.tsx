@@ -122,7 +122,7 @@ export const useDynamicToc = (contentContainerId: string = "content") => {
   return { tocItems, activeId, handleClick };
 };
 
-export const groupTocItems = (tocItems: TocItem[]): TocGroup[] => {
+const groupTocItems = (tocItems: TocItem[]): TocGroup[] => {
   const groupedItems: TocGroup[] = [];
   let currentGroup: TocGroup | null = null;
 
