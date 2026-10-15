@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   },
 };
 
-const NotFound = () => {
+export default function NotFound() {
   return (
     <div className="flex h-screen w-screen flex-col items-center justify-center gap-9 p-6">
       <Icon404 className="h-auto w-full sm:h-120 sm:w-146" />
@@ -27,6 +27,4 @@ const NotFound = () => {
       </div>
     </div>
   );
-};
-
-export default NotFound;
+}
