@@ -4797,3 +4797,21 @@ export const assertUniqueBlogPosts = (posts: BlogPost[]) => {
 assertUniqueBlogPosts(blogPosts);
 
 export const sortedBlogPosts = [...blogPosts].sort(comparePostsByPublishedAt);
+
+export const blogPostsBySlug = new Map<string, BlogPost>(
+  blogPosts.map((post) => [post.slug, post]),
+);
+
+export const adjacentPostsBySlug = new Map<
+  string,
+  { newerPost: BlogPost | null; olderPost: BlogPost | null }
+>(
+  sortedBlogPosts.map((post, index) => [
+    post.slug,
+    {
+      newerPost: index > 0 ? sortedBlogPosts[index - 1] : null,
+      olderPost:
+        index < sortedBlogPosts.length - 1 ? sortedBlogPosts[index + 1] : null,
+    },
+  ]),
+);
