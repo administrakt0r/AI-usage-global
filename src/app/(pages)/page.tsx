@@ -32,8 +32,8 @@ const faqs = [
   },
 ];
 
-const Home = () => {
-  const jsonLd = {
+function buildHomepageJsonLd() {
+  return {
     "@context": "https://schema.org",
     "@graph": [
       {
@@ -104,46 +104,61 @@ const Home = () => {
       },
     ],
   };
+}
+
+type FaqItem = {
+  question: string;
+  answer: string;
+};
+
+const FaqSection = ({ faqs }: { faqs: FaqItem[] }) => {
+  return (
+    <section
+      className="border-t py-12 sm:py-16"
+      aria-labelledby="home-faq-heading"
+    >
+      <div className="mx-auto max-w-4xl space-y-8 px-4 sm:px-6 lg:px-8">
+        <div className="space-y-3">
+          <p className="text-sm font-medium uppercase tracking-[0.18em]">
+            Machine-readable overview
+          </p>
+          <h2
+            id="home-faq-heading"
+            className="text-2xl font-semibold sm:text-3xl"
+          >
+            What search engines and AI assistants should know about AI resource usage
+          </h2>
+          <p className="text-muted-foreground text-base sm:text-lg">
+            This block gives direct answers about what the site publishes — AI water, power, cost, and impact reporting — how
+            often it updates, and which URLs to treat as canonical sources.
+          </p>
+        </div>
+        <div className="grid gap-6">
+          {faqs.map((faq) => (
+            <article
+              key={faq.question}
+              className="rounded-xl border bg-background p-6"
+            >
+              <h3 className="text-lg font-semibold">{faq.question}</h3>
+              <p className="text-muted-foreground mt-2 text-base">
+                {faq.answer}
+              </p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+const Home = () => {
+  const jsonLd = buildHomepageJsonLd();
 
   return (
     <div>
       <HeroSection blogData={sortedBlogPosts} />
       <Blog stats={homepageStats} />
-      <section
-        className="border-t py-12 sm:py-16"
-        aria-labelledby="home-faq-heading"
-      >
-        <div className="mx-auto max-w-4xl space-y-8 px-4 sm:px-6 lg:px-8">
-          <div className="space-y-3">
-            <p className="text-sm font-medium uppercase tracking-[0.18em]">
-              Machine-readable overview
-            </p>
-            <h2
-              id="home-faq-heading"
-              className="text-2xl font-semibold sm:text-3xl"
-            >
-              What search engines and AI assistants should know about AI resource usage
-            </h2>
-            <p className="text-muted-foreground text-base sm:text-lg">
-              This block gives direct answers about what the site publishes — AI water, power, cost, and impact reporting — how
-              often it updates, and which URLs to treat as canonical sources.
-            </p>
-          </div>
-          <div className="grid gap-6">
-            {faqs.map((faq) => (
-              <article
-                key={faq.question}
-                className="rounded-xl border bg-background p-6"
-              >
-                <h3 className="text-lg font-semibold">{faq.question}</h3>
-                <p className="text-muted-foreground mt-2 text-base">
-                  {faq.answer}
-                </p>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
+      <FaqSection faqs={faqs} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
