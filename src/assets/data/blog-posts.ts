@@ -4790,6 +4790,26 @@ export const blogPosts: BlogPost[] = [
       "AI infrastructure",
     ],
   }),
+  createPost({
+    id: 294,
+    slug: "nerc-approves-grid-reliability-rules-for-ai-data-centers",
+    title: "NERC Approves Grid Reliability Rules for AI Data Centers",
+    description:
+      "The North American Electric Reliability Corporation approves mandatory grid reliability standards for AI data centers drawing 50 MW or more.",
+    imageAlt: "Digital rendering of power grid infrastructure and data center load protection monitoring",
+    publishedOn: "2026-10-15",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "NERC",
+      "AI data centers",
+      "grid reliability",
+      "bulk power system",
+      "load protection",
+      "FERC",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
