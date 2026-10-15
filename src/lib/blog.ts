@@ -97,13 +97,26 @@ const parseCalendarDate = (value: string) => {
   return { year, month, day };
 };
 
+const formatterCache = new Map<string, Intl.DateTimeFormat>();
+
+const getFormatter = (timeZone: string) => {
+  let formatter = formatterCache.get(timeZone);
+
+  if (!formatter) {
+    formatter = new Intl.DateTimeFormat("en-CA", {
+      timeZone,
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+    });
+    formatterCache.set(timeZone, formatter);
+  }
+
+  return formatter;
+};
+
 const getFormatterDateParts = (date: Date, timeZone: string) => {
-  const formatter = new Intl.DateTimeFormat("en-CA", {
-    timeZone,
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  });
+  const formatter = getFormatter(timeZone);
 
   const parts = formatter.formatToParts(date);
 
