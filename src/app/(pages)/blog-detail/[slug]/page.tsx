@@ -87,6 +87,187 @@ export async function generateStaticParams() {
   }));
 }
 
+const BlogJsonLd = ({ post }: { post: (typeof blogPosts)[0] }) => {
+  const publishedIso = getPostIsoDateTime(post);
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BlogPosting",
+              "@id": `${SITE_URL}/blog-detail/${post.slug}#article`,
+              headline: post.title,
+              description: post.description,
+              image: `${SITE_URL}${post.socialImageUrl}`,
+              datePublished: publishedIso,
+              dateModified: publishedIso,
+              author: {
+                "@type": "Person",
+                name: post.author,
+                url: `${SITE_URL}/about`,
+              },
+              publisher: {
+                "@type": "Organization",
+                name: SITE_NAME,
+                url: SITE_URL,
+                logo: {
+                  "@type": "ImageObject",
+                  url: `${SITE_URL}${SITE_APP_ICON_192_PATH}`,
+                },
+              },
+              mainEntityOfPage: {
+                "@type": "WebPage",
+                "@id": `${SITE_URL}/blog-detail/${post.slug}`,
+              },
+              articleSection: post.category,
+              wordCount: post.readTime * 200,
+              inLanguage: SITE_LANGUAGE_TAG,
+              isPartOf: {
+                "@type": "Blog",
+                "@id": `${SITE_URL}/#blog`,
+                name: SITE_NAME,
+                url: SITE_URL,
+              },
+            },
+            {
+              "@type": "BreadcrumbList",
+              itemListElement: [
+                {
+                  "@type": "ListItem",
+                  position: 1,
+                  name: "Home",
+                  item: SITE_URL,
+                },
+                {
+                  "@type": "ListItem",
+                  position: 2,
+                  name: "AI Usage Tracking",
+                  item: `${SITE_URL}/#categories`,
+                },
+                {
+                  "@type": "ListItem",
+                  position: 3,
+                  name: post.category,
+                },
+              ],
+            },
+          ],
+        }).replace(/</g, "\\u003c"),
+      }}
+    />
+  );
+};
+
+const BlogHeroImage = ({
+  imageUrl,
+  imageAlt,
+}: {
+  imageUrl: string;
+  imageAlt: string;
+}) => {
+  return (
+    <div className="overflow-hidden rounded-[2rem] border border-border/75 bg-card/90 p-2 shadow-sm shadow-brand-green/5">
+      <Image
+        src={imageUrl}
+        alt={imageAlt}
+        width={1200}
+        height={630}
+        priority
+        sizes="(min-width: 1024px) 66vw, 100vw"
+        className="h-auto w-full rounded-[1.5rem] object-cover"
+      />
+    </div>
+  );
+};
+
+const BlogHeader = ({ post }: { post: (typeof blogPosts)[0] }) => {
+  const displayTime = formatDisplayTime(post.publishedTime);
+  const publishedIso = getPostIsoDateTime(post);
+
+  return (
+    <header className="space-y-6 rounded-[2rem] border border-border/75 bg-card/95 p-6 shadow-sm shadow-brand-green/5 sm:p-8">
+      <Breadcrumb>
+        <BreadcrumbList>
+          <BreadcrumbItem>
+            <BreadcrumbLink href="/">Home</BreadcrumbLink>
+          </BreadcrumbItem>
+          <BreadcrumbSeparator />
+          <BreadcrumbItem>
+            <BreadcrumbLink href="/#categories">
+              AI Usage Tracking
+            </BreadcrumbLink>
+          </BreadcrumbItem>
+          <BreadcrumbSeparator />
+          <BreadcrumbItem>
+            <BreadcrumbPage>{post.category}</BreadcrumbPage>
+          </BreadcrumbItem>
+        </BreadcrumbList>
+      </Breadcrumb>
+
+      <div className="flex flex-wrap items-center gap-3">
+        <Badge className="rounded-full bg-brand-green/10 text-brand-green border-0 px-3 py-1 text-[0.72rem] font-semibold uppercase tracking-[0.16em]">
+          {post.category}
+        </Badge>
+        <span className="text-muted-foreground text-xs font-semibold uppercase tracking-[0.18em]">
+          {post.readTime} min read
+        </span>
+      </div>
+
+      <div className="space-y-4">
+        <h1 className="font-serif text-4xl leading-none tracking-tight text-balance text-foreground sm:text-5xl">
+          {post.title}
+        </h1>
+        <p className="max-w-3xl text-lg leading-8 text-muted-foreground">
+          {post.description}
+        </p>
+      </div>
+
+      <Separator />
+
+      <div className="flex flex-wrap items-center justify-between gap-4">
+        <div className="flex items-center gap-3">
+          <Avatar className="size-11 border border-border/70">
+            <AvatarImage src={post.avatarUrl} alt={post.author} />
+            <AvatarFallback className="text-xs">
+              {post.author
+                .split(" ")
+                .map((name) => name[0])
+                .join("")
+                .toUpperCase()}
+            </AvatarFallback>
+          </Avatar>
+          <div className="space-y-1">
+            <p className="text-[0.7rem] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
+              Author
+            </p>
+            <p className="text-sm font-semibold text-foreground">
+              {post.author}
+            </p>
+          </div>
+        </div>
+
+        <div className="space-y-1 text-left sm:text-right">
+          <p className="text-[0.7rem] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
+            Published
+          </p>
+          <time
+            dateTime={publishedIso}
+            className="text-sm font-semibold text-foreground"
+          >
+            {displayTime
+              ? `${formatPostDisplayDate(post)} at ${displayTime}`
+              : formatPostDisplayDate(post)}
+          </time>
+        </div>
+      </div>
+    </header>
+  );
+};
+
 const PostNavigation = ({
   currentPost,
 }: {
@@ -176,9 +357,6 @@ export default async function BlogDetailPage({
     .filter((candidate) => candidate.slug !== post.slug)
     .slice(0, 3);
 
-  const displayTime = formatDisplayTime(post.publishedTime);
-  const publishedIso = getPostIsoDateTime(post);
-
   return (
     <div>
       <section className="py-8 sm:py-12 lg:py-16">
@@ -196,94 +374,12 @@ export default async function BlogDetailPage({
             </aside>
 
             <div className="space-y-10">
-              <header className="space-y-6 rounded-[2rem] border border-border/75 bg-card/95 p-6 shadow-sm shadow-brand-green/5 sm:p-8">
-                <Breadcrumb>
-                  <BreadcrumbList>
-                    <BreadcrumbItem>
-                      <BreadcrumbLink href="/">Home</BreadcrumbLink>
-                    </BreadcrumbItem>
-                    <BreadcrumbSeparator />
-                    <BreadcrumbItem>
-                      <BreadcrumbLink href="/#categories">
-AI Usage Tracking
-                       </BreadcrumbLink>
-                    </BreadcrumbItem>
-                    <BreadcrumbSeparator />
-                    <BreadcrumbItem>
-                      <BreadcrumbPage>{post.category}</BreadcrumbPage>
-                    </BreadcrumbItem>
-                  </BreadcrumbList>
-                </Breadcrumb>
+              <BlogHeader post={post} />
 
-                <div className="flex flex-wrap items-center gap-3">
-                  <Badge className="rounded-full bg-brand-green/10 text-brand-green border-0 px-3 py-1 text-[0.72rem] font-semibold uppercase tracking-[0.16em]">
-                    {post.category}
-                  </Badge>
-                  <span className="text-muted-foreground text-xs font-semibold uppercase tracking-[0.18em]">
-                    {post.readTime} min read
-                  </span>
-                </div>
-
-                <div className="space-y-4">
-                  <h1 className="font-serif text-4xl leading-none tracking-tight text-balance text-foreground sm:text-5xl">
-                    {post.title}
-                  </h1>
-                  <p className="max-w-3xl text-lg leading-8 text-muted-foreground">
-                    {post.description}
-                  </p>
-                </div>
-
-                <Separator />
-
-                <div className="flex flex-wrap items-center justify-between gap-4">
-                  <div className="flex items-center gap-3">
-                    <Avatar className="size-11 border border-border/70">
-                      <AvatarImage src={post.avatarUrl} alt={post.author} />
-                      <AvatarFallback className="text-xs">
-                        {post.author
-                          .split(" ")
-                          .map((name) => name[0])
-                          .join("")
-                          .toUpperCase()}
-                      </AvatarFallback>
-                    </Avatar>
-                    <div className="space-y-1">
-                      <p className="text-[0.7rem] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
-                        Author
-                      </p>
-                      <p className="text-sm font-semibold text-foreground">
-                        {post.author}
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="space-y-1 text-left sm:text-right">
-                    <p className="text-[0.7rem] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
-                      Published
-                    </p>
-                    <time
-                      dateTime={publishedIso}
-                      className="text-sm font-semibold text-foreground"
-                    >
-                      {displayTime
-                        ? `${formatPostDisplayDate(post)} at ${displayTime}`
-                        : formatPostDisplayDate(post)}
-                    </time>
-                  </div>
-                </div>
-              </header>
-
-              <div className="overflow-hidden rounded-[2rem] border border-border/75 bg-card/90 p-2 shadow-sm shadow-brand-green/5">
-                <Image
-                  src={post.imageUrl}
-                  alt={post.imageAlt}
-                  width={1200}
-                  height={630}
-                  priority
-                  sizes="(min-width: 1024px) 66vw, 100vw"
-                  className="h-auto w-full rounded-[1.5rem] object-cover"
-                />
-              </div>
+              <BlogHeroImage
+                imageUrl={post.imageUrl}
+                imageAlt={post.imageAlt}
+              />
 
               <article
                 id="content"
@@ -300,74 +396,7 @@ AI Usage Tracking
 
       <Blog blogPosts={relatedPosts} />
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@graph": [
-              {
-                "@type": "BlogPosting",
-                "@id": `${SITE_URL}/blog-detail/${post.slug}#article`,
-                headline: post.title,
-                description: post.description,
-                image: `${SITE_URL}${post.socialImageUrl}`,
-                datePublished: publishedIso,
-                dateModified: publishedIso,
-                author: {
-                  "@type": "Person",
-                  name: post.author,
-                  url: `${SITE_URL}/about`,
-                },
-                publisher: {
-                  "@type": "Organization",
-                  name: SITE_NAME,
-                  url: SITE_URL,
-                  logo: {
-                    "@type": "ImageObject",
-                    url: `${SITE_URL}${SITE_APP_ICON_192_PATH}`,
-                  },
-                },
-                mainEntityOfPage: {
-                  "@type": "WebPage",
-                  "@id": `${SITE_URL}/blog-detail/${post.slug}`,
-                },
-                articleSection: post.category,
-                wordCount: post.readTime * 200,
-                inLanguage: SITE_LANGUAGE_TAG,
-                isPartOf: {
-                  "@type": "Blog",
-                  "@id": `${SITE_URL}/#blog`,
-                  name: SITE_NAME,
-                  url: SITE_URL,
-                },
-              },
-              {
-                "@type": "BreadcrumbList",
-                itemListElement: [
-                  {
-                    "@type": "ListItem",
-                    position: 1,
-                    name: "Home",
-                    item: SITE_URL,
-                  },
-                  {
-                    "@type": "ListItem",
-                    position: 2,
-                    name: "AI Usage Tracking",
-                    item: `${SITE_URL}/#categories`,
-                  },
-                  {
-                    "@type": "ListItem",
-                    position: 3,
-                    name: post.category,
-                  },
-                ],
-              },
-            ],
-          }).replace(/</g, "\\u003c"),
-        }}
-      />
+      <BlogJsonLd post={post} />
     </div>
   );
 }
