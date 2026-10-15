@@ -2618,6 +2618,15 @@
       "published_on": "2026-10-14",
       "primary_entity": "Ambrosia Energy",
       "event_fingerprint": "ambrosia-energy-10gwh-texas-battery-factory"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/powerhouse-big-watt-secure-approval-for-1gw-behind-the-meter-campus-in-taylor-texas/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/powerhouse-big-watt-secure-approval-for-1gw-behind-the-meter-campus-in-taylor-texas",
+      "title": "PowerHouse & Big Watt secure approval for 1GW behind-the-meter campus in Taylor, Texas",
+      "normalized_title": "powerhouse big watt secure approval for 1gw behind the meter campus in taylor texas",
+      "published_on": "2026-10-15",
+      "primary_entity": "PowerHouse Data Centers / Big Watt Digital",
+      "event_fingerprint": "taylor-texas-1gw-behind-the-meter-gas-campus"
     }
   ],
   "version": 2,
