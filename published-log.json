@@ -2627,6 +2627,15 @@
       "published_on": "2026-10-15",
       "primary_entity": "PowerHouse Data Centers / Big Watt Digital",
       "event_fingerprint": "taylor-texas-1gw-behind-the-meter-gas-campus"
+    },
+    {
+      "canonical_url": "https://www.datacenterknowledge.com/regulations/reliability-standards-for-ai-data-centers-crypto-miners-move-closer-to-adoption",
+      "normalized_url": "https://www.datacenterknowledge.com/regulations/reliability-standards-for-ai-data-centers-crypto-miners-move-closer-to-adoption",
+      "title": "Reliability Standards for AI Data Centers, Crypto Miners Move Closer to Adoption",
+      "normalized_title": "reliability standards for ai data centers crypto miners move closer to adoption",
+      "published_on": "2026-10-15",
+      "primary_entity": "North American Electric Reliability Corporation",
+      "event_fingerprint": "nerc-grid-reliability-standards-ai-data-centers"
     }
   ],
   "version": 2,
