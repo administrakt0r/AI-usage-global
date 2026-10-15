@@ -4769,6 +4769,27 @@ export const blogPosts: BlogPost[] = [
       "data center power costs",
     ],
   }),
+  createPost({
+    id: 293,
+    slug: "taylor-texas-1gw-behind-the-meter-ai-campus",
+    title: "PowerHouse & Big Watt secure approval for 1GW behind-the-meter campus in Taylor, Texas",
+    description:
+      "Taylor City Council approves PowerHouse and Big Watt Digital's 1 GW behind-the-meter AI data center campus in Texas, featuring a 750 MW gas plant.",
+    imageAlt: "Digital rendering of behind-the-meter AI data center campus and gas power infrastructure in Taylor, Texas",
+    publishedOn: "2026-10-15",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "PowerHouse Data Centers",
+      "Big Watt Digital",
+      "Taylor Texas data center",
+      "behind-the-meter power",
+      "natural gas power plant",
+      "closed-loop cooling",
+      "AI infrastructure",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
