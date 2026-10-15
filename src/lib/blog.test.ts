@@ -14,6 +14,7 @@ import {
   formatPostDisplayDate,
   formatPostDisplayDateTime,
   comparePostsByPublishedAt,
+  getRelatedPosts,
   type BlogPost,
 } from "./blog";
 
@@ -186,6 +187,60 @@ describe("blog utility functions", () => {
           daysRunning: 17,
         },
       );
+    });
+  });
+
+  describe("getRelatedPosts", () => {
+    it("returns up to limit posts excluding current slug", () => {
+      const posts = [
+        { slug: "post-1" },
+        { slug: "post-2" },
+        { slug: "post-3" },
+        { slug: "post-4" },
+        { slug: "post-5" },
+      ];
+
+      const related = getRelatedPosts(posts, "post-1", 3);
+
+      assert.deepEqual(related, [
+        { slug: "post-2" },
+        { slug: "post-3" },
+        { slug: "post-4" },
+      ]);
+    });
+
+    it("handles current post appearing in the middle", () => {
+      const posts = [
+        { slug: "post-1" },
+        { slug: "post-2" },
+        { slug: "post-3" },
+        { slug: "post-4" },
+      ];
+
+      const related = getRelatedPosts(posts, "post-2", 2);
+
+      assert.deepEqual(related, [
+        { slug: "post-1" },
+        { slug: "post-3" },
+      ]);
+    });
+
+    it("returns fewer posts if matching candidates are fewer than limit", () => {
+      const posts = [
+        { slug: "post-1" },
+        { slug: "post-2" },
+      ];
+
+      const related = getRelatedPosts(posts, "post-1", 5);
+
+      assert.deepEqual(related, [
+        { slug: "post-2" },
+      ]);
+    });
+
+    it("returns empty array for empty input or no matches", () => {
+      assert.deepEqual(getRelatedPosts([], "post-1", 3), []);
+      assert.deepEqual(getRelatedPosts([{ slug: "post-1" }], "post-1", 3), []);
     });
   });
 });
