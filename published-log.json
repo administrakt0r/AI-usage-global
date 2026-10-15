@@ -2636,6 +2636,15 @@
       "published_on": "2026-10-15",
       "primary_entity": "North American Electric Reliability Corporation",
       "event_fingerprint": "nerc-grid-reliability-standards-ai-data-centers"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/virginia-senator-proposes-three-year-state-wide-data-center-moratorium/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/virginia-senator-proposes-three-year-state-wide-data-center-moratorium",
+      "title": "Virginia senator proposes three-year state-wide data center moratorium",
+      "normalized_title": "virginia senator proposes three year state wide data center moratorium",
+      "published_on": "2026-10-15",
+      "primary_entity": "Virginia State Senate / Senator Russet Perry",
+      "event_fingerprint": "virginia-statewide-data-center-moratorium-bill"
     }
   ],
   "version": 2,

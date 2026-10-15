@@ -4810,6 +4810,27 @@ export const blogPosts: BlogPost[] = [
       "FERC",
     ],
   }),
+  createPost({
+    id: 295,
+    slug: "virginia-senator-proposes-three-year-state-wide-data-center-moratorium",
+    title: "Virginia senator proposes three-year state-wide data center moratorium",
+    description:
+      "Virginia State Senator Russet Perry proposes Senate Bill 843 to pause new data center planning approvals for three years to curb power grid strain and protect ratepayers.",
+    imageAlt: "Virginia power grid transmission lines and data center infrastructure",
+    publishedOn: "2026-10-15",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Virginia data center moratorium",
+      "Senate Bill 843",
+      "Russet Perry",
+      "Loudoun County",
+      "AI power demand",
+      "ratepayer protection",
+      "groundwater protection",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
