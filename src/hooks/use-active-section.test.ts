@@ -1,7 +1,11 @@
 import { afterEach, beforeEach, describe, it } from "node:test";
 import assert from "node:assert/strict";
+
 import React, { act, useEffect } from "react";
-import { createRoot, Root } from "react-dom/client";
+
+import type { Root } from "react-dom/client";
+import { createRoot } from "react-dom/client";
+
 import { useActiveSection } from "./use-active-section.ts";
 
 class MockElement {
@@ -20,6 +24,7 @@ class MockElement {
 
   removeChild(c: MockElement) {
     const idx = this.children.indexOf(c);
+
     if (idx !== -1) {
       this.children.splice(idx, 1);
     }
@@ -68,7 +73,9 @@ describe("useActiveSection hook", () => {
 
   function flushRaf() {
     const callbacks = Array.from(pendingRafCallbacks.entries());
+
     pendingRafCallbacks.clear();
+
     for (const [, cb] of callbacks) {
       cb(performance.now());
     }
@@ -119,8 +126,10 @@ describe("useActiveSection hook", () => {
       defaultView: mockWindow,
       createElement: (tag: string) => {
         const el = new MockElement();
+
         el.tagName = tag.toUpperCase();
         el.ownerDocument = mockDocument;
+
         return el;
       },
       createComment: () => ({ nodeType: 8 }),
@@ -128,6 +137,7 @@ describe("useActiveSection hook", () => {
         if (selector === "section[id]") {
           return mockSections;
         }
+
         return [];
       },
       addEventListener: () => {},
@@ -142,7 +152,9 @@ describe("useActiveSection hook", () => {
 
     globalThis.requestAnimationFrame = (cb: FrameRequestCallback): number => {
       const id = ++rafIdCounter;
+
       pendingRafCallbacks.set(id, cb);
+
       return id;
     };
 
@@ -175,11 +187,13 @@ describe("useActiveSection hook", () => {
 
   it("identifies active section based on scroll position and section bounds", () => {
     const sec1 = new MockElement();
+
     sec1.id = "hero";
     sec1.offsetTop = 0;
     sec1.offsetHeight = 600;
 
     const sec2 = new MockElement();
+
     sec2.id = "about";
     sec2.offsetTop = 600;
     sec2.offsetHeight = 800;
@@ -212,6 +226,7 @@ describe("useActiveSection hook", () => {
 
   it("clears active section when scroll position is outside all sections", () => {
     const sec1 = new MockElement();
+
     sec1.id = "hero";
     sec1.offsetTop = 100;
     sec1.offsetHeight = 400; // bounds 100..500
@@ -248,6 +263,7 @@ describe("useActiveSection hook", () => {
 
   it("throttles scroll events to animation frames", () => {
     const sec1 = new MockElement();
+
     sec1.id = "hero";
     sec1.offsetTop = 0;
     sec1.offsetHeight = 1000;
