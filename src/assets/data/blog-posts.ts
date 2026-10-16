@@ -4831,6 +4831,27 @@ export const blogPosts: BlogPost[] = [
       "groundwater protection",
     ],
   }),
+  createPost({
+    id: 296,
+    slug: "aep-google-wyoming-fuel-cell-deal",
+    title: "AEP in deal to buy up to 1.6 GW of Mainspring linear generators",
+    description:
+      "AEP partners with Google on a $4 billion, 702 MW Bloom fuel cell project in Wyoming while procuring 1.6 GW of Mainspring linear generators for off-grid power.",
+    imageAlt: "Fuel cell generation equipment and power grid infrastructure for AI data centers",
+    publishedOn: "2026-10-16",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "American Electric Power",
+      "AEP",
+      "Google AI data center",
+      "Bloom Energy fuel cells",
+      "Mainspring Energy",
+      "linear generators",
+      "off-grid power",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
