@@ -1,7 +1,7 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { cn } from './utils.ts';
+import { cn, serializeJsonLd } from './utils.ts';
 
 describe('cn utility function', () => {
   it('merges basic class strings', () => {
@@ -51,5 +51,42 @@ describe('cn utility function', () => {
       ),
       'base-class array-class1 array-class2 conditional-class p-4 bg-blue-500'
     );
+  });
+});
+
+describe('serializeJsonLd utility function', () => {
+  it('serializes standard JSON objects correctly', () => {
+    const data = { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Test' };
+
+    assert.equal(serializeJsonLd(data), JSON.stringify(data));
+  });
+
+  it('escapes <, >, and & characters to prevent XSS and HTML script breakout', () => {
+    const maliciousData = {
+      title: '</script><script>alert("xss")</script>',
+      query: 'a & b > c < d',
+    };
+
+    const serialized = serializeJsonLd(maliciousData);
+
+    assert.equal(serialized.includes('<'), false);
+    assert.equal(serialized.includes('>'), false);
+    assert.equal(serialized.includes('&'), false);
+    assert.equal(serialized.includes('\\u003c'), true);
+    assert.equal(serialized.includes('\\u003e'), true);
+    assert.equal(serialized.includes('\\u0026'), true);
+  });
+
+  it('escapes U+2028 and U+2029 line separators to prevent JS syntax errors', () => {
+    const data = {
+      text: 'Line 1\u2028Line 2\u2029Line 3',
+    };
+
+    const serialized = serializeJsonLd(data);
+
+    assert.equal(serialized.includes('\u2028'), false);
+    assert.equal(serialized.includes('\u2029'), false);
+    assert.equal(serialized.includes('\\u2028'), true);
+    assert.equal(serialized.includes('\\u2029'), true);
   });
 });
