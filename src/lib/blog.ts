@@ -33,11 +33,14 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000;
 const padTime = (value: number) => String(value).padStart(2, "0");
 
 const parseDateParts = ({ publishedOn, publishedTime }: PostDateSource) => {
-  const [year, month, day] = publishedOn.split("-").map(Number);
+  const year = Number(publishedOn.slice(0, 4));
+  const month = Number(publishedOn.slice(5, 7));
+  const day = Number(publishedOn.slice(8, 10));
 
-  const [hour, minute] = (publishedTime ?? DEFAULT_MACHINE_TIME)
-    .split(":")
-    .map(Number);
+  const timeStr = publishedTime ?? DEFAULT_MACHINE_TIME;
+  const colonIndex = timeStr.indexOf(":");
+  const hour = Number(timeStr.slice(0, colonIndex));
+  const minute = Number(timeStr.slice(colonIndex + 1));
 
   return { year, month, day, hour, minute };
 };
