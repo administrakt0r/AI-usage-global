@@ -2645,6 +2645,15 @@
       "published_on": "2026-10-15",
       "primary_entity": "Virginia State Senate / Senator Russet Perry",
       "event_fingerprint": "virginia-statewide-data-center-moratorium-bill"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/aep-mainspring-linear-generators-bloom-fuel-cell-google-wyoming/833104/",
+      "normalized_url": "https://www.utilitydive.com/news/aep-mainspring-linear-generators-bloom-fuel-cell-google-wyoming/833104",
+      "title": "AEP in deal to buy up to 1.6 GW of Mainspring linear generators",
+      "normalized_title": "aep in deal to buy up to 1 6 gw of mainspring linear generators",
+      "published_on": "2026-10-16",
+      "primary_entity": "American Electric Power / Google",
+      "event_fingerprint": "aep-google-wyoming-fuel-cell-mainspring-deal"
     }
   ],
   "version": 2,
