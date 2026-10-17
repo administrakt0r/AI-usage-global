@@ -32,7 +32,7 @@ const normalizeHeadingId = (value: string) =>
     .replace(/[^\w\s-]/g, "")
     .replace(/\s+/g, "-");
 
-export const useDynamicToc = (contentContainerId: string = "content") => {
+const useDynamicToc = (contentContainerId: string = "content") => {
   const [tocItems, setTocItems] = useState<TocItem[]>([]);
   const [activeId, setActiveId] = useState<string>("");
 
