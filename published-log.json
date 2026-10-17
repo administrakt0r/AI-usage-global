@@ -2681,6 +2681,15 @@
       "published_on": "2026-10-16",
       "primary_entity": "Digital Realty",
       "event_fingerprint": "digital-realty-kokomo-gigawatt-datacenter"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/plans-for-data-center-in-moncalieri-italy-put-on-hold-by-town-mayor/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/plans-for-data-center-in-moncalieri-italy-put-on-hold-by-town-mayor",
+      "title": "Plans for data center in Moncalieri, Italy, put on hold by town mayor",
+      "normalized_title": "plans for data center in moncalieri italy put on hold by town mayor",
+      "published_on": "2026-10-17",
+      "primary_entity": "Logistics Capital Partners / Moncalieri Logistics",
+      "event_fingerprint": "moncalieri-italy-576mw-datacenter-halt"
     }
   ],
   "version": 2,
