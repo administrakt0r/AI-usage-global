@@ -1,7 +1,7 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { cn } from './utils.ts';
+import { cn, serializeJsonLd } from './utils.ts';
 
 describe('cn utility function', () => {
   it('merges basic class strings', () => {
@@ -51,5 +51,33 @@ describe('cn utility function', () => {
       ),
       'base-class array-class1 array-class2 conditional-class p-4 bg-blue-500'
     );
+  });
+});
+
+describe('serializeJsonLd utility function', () => {
+  it('escapes <, >, &, LS, and PS characters to prevent XSS and syntax errors', () => {
+    const dangerousInput = {
+      title: '</script><script>alert("xss")</script>',
+      query: 'a & b > c < d',
+      lineSeparator: 'Line1\u2028Line2',
+      paragraphSeparator: 'Para1\u2029Para2',
+    };
+
+    const serialized = serializeJsonLd(dangerousInput);
+
+    assert.ok(!serialized.includes('<'));
+    assert.ok(!serialized.includes('>'));
+    assert.ok(!serialized.includes('&'));
+    assert.ok(!serialized.includes('\u2028'));
+    assert.ok(!serialized.includes('\u2029'));
+
+    assert.ok(serialized.includes('\\u003c'));
+    assert.ok(serialized.includes('\\u003e'));
+    assert.ok(serialized.includes('\\u0026'));
+    assert.ok(serialized.includes('\\u2028'));
+    assert.ok(serialized.includes('\\u2029'));
+
+    // Ensure valid JSON parsing after decoding/eval context
+    assert.deepEqual(JSON.parse(serialized), dangerousInput);
   });
 });
