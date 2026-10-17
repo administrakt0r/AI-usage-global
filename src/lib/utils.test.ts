@@ -1,7 +1,7 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { cn } from './utils.ts';
+import { cn, serializeJsonLd } from './utils.ts';
 
 describe('cn utility function', () => {
   it('merges basic class strings', () => {
@@ -51,5 +51,41 @@ describe('cn utility function', () => {
       ),
       'base-class array-class1 array-class2 conditional-class p-4 bg-blue-500'
     );
+  });
+});
+
+describe('serializeJsonLd utility function', () => {
+  it('serializes simple objects to JSON', () => {
+    const data = { name: 'Test', value: 123 };
+
+    assert.equal(serializeJsonLd(data), JSON.stringify(data));
+  });
+
+  it('escapes < and > to prevent script breakouts', () => {
+    const data = { html: '</script><script>alert("XSS")</script>' };
+    const result = serializeJsonLd(data);
+
+    assert.ok(!result.includes('<'));
+    assert.ok(!result.includes('>'));
+    assert.ok(result.includes('\\u003c'));
+    assert.ok(result.includes('\\u003e'));
+  });
+
+  it('escapes & to prevent entity expansion issues', () => {
+    const data = { query: 'foo & bar' };
+    const result = serializeJsonLd(data);
+
+    assert.ok(!result.includes('&'));
+    assert.ok(result.includes('\\u0026'));
+  });
+
+  it('escapes line separator (\\u2028) and paragraph separator (\\u2029)', () => {
+    const data = { text: 'line1\u2028line2\u2029line3' };
+    const result = serializeJsonLd(data);
+
+    assert.ok(!result.includes('\u2028'));
+    assert.ok(!result.includes('\u2029'));
+    assert.ok(result.includes('\\u2028'));
+    assert.ok(result.includes('\\u2029'));
   });
 });

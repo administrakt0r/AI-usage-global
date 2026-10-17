@@ -6,6 +6,7 @@ import {
   SITE_NAME,
   SITE_URL,
 } from "@/lib/site";
+import { serializeJsonLd } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "Responsible AI Usage Policy",
@@ -131,7 +132,7 @@ export default function ResponsibleAIPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+          __html: serializeJsonLd(jsonLd),
         }}
       />
     </div>
