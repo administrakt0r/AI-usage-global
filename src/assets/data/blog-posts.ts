@@ -4941,3 +4941,7 @@ export const assertUniqueBlogPosts = (posts: BlogPost[]) => {
 assertUniqueBlogPosts(blogPosts);
 
 export const sortedBlogPosts = [...blogPosts].sort(comparePostsByPublishedAt);
+
+export const blogPostsBySlug = new Map<string, BlogPost>(
+  blogPosts.map((post) => [post.slug, post]),
+);
