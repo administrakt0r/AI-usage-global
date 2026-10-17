@@ -2654,6 +2654,15 @@
       "published_on": "2026-10-16",
       "primary_entity": "American Electric Power / Google",
       "event_fingerprint": "aep-google-wyoming-fuel-cell-mainspring-deal"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/stranded-natural-gas-could-power-offshore-data-centers/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/stranded-natural-gas-could-power-offshore-data-centers",
+      "title": "Stranded natural gas could power offshore data centers",
+      "normalized_title": "stranded natural gas could power offshore data centers",
+      "published_on": "2026-10-17",
+      "primary_entity": "Riverway Group / Offshore Data Center",
+      "event_fingerprint": "stranded-gas-offshore-ai-data-centers"
     }
   ],
   "version": 2,
