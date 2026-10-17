@@ -8,8 +8,10 @@ import { CONTACT_EMAIL, SITE_NAME } from "@/lib/site";
 
 const colorStyles = {
   blue: "border-blue-100 bg-blue-50/50 hover:border-blue-300 hover:shadow-blue-500/10 dark:border-blue-900/50 dark:bg-blue-950/20 dark:hover:border-blue-700/50",
-  purple: "border-purple-100 bg-purple-50/50 hover:border-purple-300 hover:shadow-purple-500/10 dark:border-purple-900/50 dark:bg-purple-950/20 dark:hover:border-purple-700/50",
-  green: "border-green-100 bg-green-50/50 hover:border-green-300 hover:shadow-green-500/10 dark:border-green-900/50 dark:bg-green-950/20 dark:hover:border-green-700/50",
+  purple:
+    "border-purple-100 bg-purple-50/50 hover:border-purple-300 hover:shadow-purple-500/10 dark:border-purple-900/50 dark:bg-purple-950/20 dark:hover:border-purple-700/50",
+  green:
+    "border-green-100 bg-green-50/50 hover:border-green-300 hover:shadow-green-500/10 dark:border-green-900/50 dark:bg-green-950/20 dark:hover:border-green-700/50",
 };
 
 const accentStyles = {
@@ -172,8 +174,8 @@ const FooterBottom = () => (
 
     <div className="max-w-xl text-left text-xs text-muted-foreground">
       <strong>Note:</strong> content on this blog is produced through an
-      autonomous publishing pipeline. If you find an inaccuracy, legal issue,
-      or harmful content, contact us at{" "}
+      autonomous publishing pipeline. If you find an inaccuracy, legal issue, or
+      harmful content, contact us at{" "}
       <a
         href={`mailto:${CONTACT_EMAIL}`}
         className="hover:text-primary underline underline-offset-2"
