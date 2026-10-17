@@ -1,4 +1,4 @@
-import { execFileSync } from 'node:child_process'
+import childProcess from 'node:child_process'
 import fs from 'node:fs/promises'
 import path from 'node:path'
 import vm from 'node:vm'
@@ -17,13 +17,13 @@ const fail = message => {
   throw new Error(message)
 }
 
-const git = (...args) =>
-  execFileSync('git', args, {
+export const git = (...args) =>
+  childProcess.execFileSync('git', args, {
     cwd: rootDir,
     encoding: 'utf8'
   }).trim()
 
-const tryGit = (...args) => {
+export const tryGit = (...args) => {
   try {
     return git(...args)
   } catch {
@@ -447,4 +447,9 @@ const main = async () => {
   console.log('Bot PR validation passed.')
 }
 
-await main()
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  main().catch(err => {
+    console.error(err)
+    process.exitCode = 1
+  })
+}
