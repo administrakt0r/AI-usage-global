@@ -6,7 +6,7 @@ import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
-import { blogPosts, sortedBlogPosts } from "@/assets/data/blog-posts";
+import { blogPosts, getPostBySlug, sortedBlogPosts } from "@/assets/data/blog-posts";
 import {
   formatDisplayTime,
   formatPostDisplayDate,
@@ -40,7 +40,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const post = blogPosts.find((candidate) => candidate.slug === slug);
+  const post = getPostBySlug(slug);
 
   if (!post) return {};
 
@@ -158,7 +158,7 @@ export default async function BlogDetailPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const post = blogPosts.find((candidate) => candidate.slug === slug);
+  const post = getPostBySlug(slug);
 
   if (!post) {
     notFound();
