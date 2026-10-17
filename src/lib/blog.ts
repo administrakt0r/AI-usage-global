@@ -180,3 +180,23 @@ export const comparePostsByPublishedAt = (
 
   return right.id - left.id;
 };
+
+export const getRelatedPosts = <T extends { slug: string }>(
+  posts: T[],
+  currentSlug: string,
+  limit = 3,
+): T[] => {
+  const result: T[] = [];
+
+  for (const post of posts) {
+    if (post.slug !== currentSlug) {
+      result.push(post);
+
+      if (result.length === limit) {
+        break;
+      }
+    }
+  }
+
+  return result;
+};
