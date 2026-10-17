@@ -4873,6 +4873,26 @@ export const blogPosts: BlogPost[] = [
       "behind-the-meter power",
     ],
   }),
+  createPost({
+    id: 298,
+    slug: "uk-rejects-drax-biomass-ai-datacenter",
+    title: "UK gov’t rejects AI Growth Zone bid to power data center with Drax biomass plant in Selby, North Yorkshire",
+    description:
+      "The UK government rejects an AI Growth Zone bid for a 1.2 GW data center at the Drax biomass plant over environmental and energy delivery concerns.",
+    imageAlt: "Drax Power Station in North Yorkshire and digital infrastructure",
+    publishedOn: "2026-10-18",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Drax Power Station",
+      "UK AI Growth Zone",
+      "biomass data center",
+      "carbon emissions",
+      "1.2 GW data center",
+      "carbon capture",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
