@@ -6,6 +6,7 @@ import {
   SITE_SHORT_DESCRIPTION,
   SITE_URL,
 } from "@/lib/site";
+import { serializeJsonLd } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: `About - ${SITE_NAME}`,
@@ -141,7 +142,7 @@ export default function AboutPage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+          __html: serializeJsonLd(jsonLd),
         }}
       />
     </div>
