@@ -4913,6 +4913,27 @@ export const blogPosts: BlogPost[] = [
       "data center power demand",
     ],
   }),
+  createPost({
+    id: 300,
+    slug: "moncalieri-italy-datacenter-halt",
+    title: "Italy Municipality Halts 576 MW AI Data Center Project",
+    description:
+      "Municipal authorities in Moncalieri, Italy, freeze plans for a 576 MW data center over unresolved energy draw, environmental, and public health concerns.",
+    imageAlt: "Aerial view of an industrial development site and power grid infrastructure in northern Italy",
+    publishedOn: "2026-10-17",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Moncalieri",
+      "Italy data center",
+      "Logistics Capital Partners",
+      "Piedmont",
+      "576 MW data center",
+      "Terna grid requests",
+      "data center regulation",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
