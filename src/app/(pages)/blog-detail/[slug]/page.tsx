@@ -18,6 +18,7 @@ import {
   SITE_NAME,
   SITE_URL,
 } from "@/lib/site";
+import { serializeJsonLd } from "@/lib/utils";
 
 import Blog from "@/components/blocks/blog-related-post/blog-related-post";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -303,7 +304,7 @@ AI Usage Tracking
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: serializeJsonLd({
             "@context": "https://schema.org",
             "@graph": [
               {
@@ -365,7 +366,7 @@ AI Usage Tracking
                 ],
               },
             ],
-          }).replace(/</g, "\\u003c"),
+          }),
         }}
       />
     </div>
