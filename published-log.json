@@ -2690,6 +2690,15 @@
       "published_on": "2026-10-17",
       "primary_entity": "Logistics Capital Partners / Moncalieri Logistics",
       "event_fingerprint": "moncalieri-italy-576mw-datacenter-halt"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/nscales-glomfjord-data-center-delayed-site-suffers-leaks-in-cooling-system-and-a-fire/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/nscales-glomfjord-data-center-delayed-site-suffers-leaks-in-cooling-system-and-a-fire",
+      "title": "Nscale's Glomfjord data center delayed, site suffers leaks in cooling system and a fire",
+      "normalized_title": "nscales glomfjord data center delayed site suffers leaks in cooling system and a fire",
+      "published_on": "2026-10-16",
+      "primary_entity": "Nscale",
+      "event_fingerprint": "nscale-glomfjord-norway-datacenter-delays"
     }
   ],
   "version": 2,
