@@ -4934,6 +4934,27 @@ export const blogPosts: BlogPost[] = [
       "data center regulation",
     ],
   }),
+  createPost({
+    id: 301,
+    slug: "nscale-glomfjord-datacenter-delays",
+    title: "Nscale's Norway AI Data Center Delayed Six Months",
+    description:
+      "Nscale's 30 MW Glomfjord AI data center in Norway faces a six-month delay following cooling leaks and a transformer fire as losses reach $1.02B ahead of its IPO.",
+    imageAlt: "Nscale Glomfjord AI data center site in Norway",
+    publishedOn: "2026-10-16",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Nscale",
+      "Glomfjord",
+      "Norway data center",
+      "AI infrastructure delays",
+      "cooling leak",
+      "transformer fire",
+      "neocloud IPO",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
