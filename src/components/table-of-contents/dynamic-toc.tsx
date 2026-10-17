@@ -2,13 +2,13 @@
 
 import { useEffect, useMemo, useState } from "react";
 
-interface TocItem {
+export interface TocItem {
   id: string;
   title: string;
   level: number;
 }
 
-interface TocGroup {
+export interface TocGroup {
   main: TocItem;
   subs: TocItem[];
 }
@@ -122,24 +122,54 @@ export const useDynamicToc = (contentContainerId: string = "content") => {
   return { tocItems, activeId, handleClick };
 };
 
+const createTocGroup = (mainItem: TocItem): TocGroup => ({
+  main: mainItem,
+  subs: [],
+});
+
+const handleLevel2Item = (
+  item: TocItem,
+  currentGroup: TocGroup | null,
+  groupedItems: TocGroup[],
+): TocGroup => {
+  if (currentGroup) {
+    groupedItems.push(currentGroup);
+  }
+
+  return createTocGroup(item);
+};
+
+const handleLevel3Item = (
+  item: TocItem,
+  currentGroup: TocGroup | null,
+): void => {
+  if (currentGroup) {
+    currentGroup.subs.push(item);
+  }
+};
+
+const processTocItem = (
+  item: TocItem,
+  currentGroup: TocGroup | null,
+  groupedItems: TocGroup[],
+): TocGroup | null => {
+  if (item.level === 2) {
+    return handleLevel2Item(item, currentGroup, groupedItems);
+  }
+
+  if (item.level === 3) {
+    handleLevel3Item(item, currentGroup);
+  }
+
+  return currentGroup;
+};
+
 export const groupTocItems = (tocItems: TocItem[]): TocGroup[] => {
   const groupedItems: TocGroup[] = [];
   let currentGroup: TocGroup | null = null;
 
   tocItems.forEach((item) => {
-    if (item.level === 2) {
-      if (currentGroup) {
-        groupedItems.push(currentGroup);
-      }
-
-      currentGroup = { main: item, subs: [] };
-
-      return;
-    }
-
-    if (item.level === 3 && currentGroup) {
-      currentGroup.subs.push(item);
-    }
+    currentGroup = processTocItem(item, currentGroup, groupedItems);
   });
 
   if (currentGroup) {
