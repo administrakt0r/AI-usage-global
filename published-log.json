@@ -2672,6 +2672,15 @@
       "published_on": "2026-10-18",
       "primary_entity": "UK Government / Drax Group",
       "event_fingerprint": "uk-drax-biomass-ai-datacenter-rejection"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/digital-realty-eyes-gigawatt-scale-data-center-site-outside-indianapolis-indiana/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/digital-realty-eyes-gigawatt-scale-data-center-site-outside-indianapolis-indiana",
+      "title": "Digital Realty eyes gigawatt-scale data center site outside Indianapolis, Indiana",
+      "normalized_title": "digital realty eyes gigawatt scale data center site outside indianapolis indiana",
+      "published_on": "2026-10-16",
+      "primary_entity": "Digital Realty",
+      "event_fingerprint": "digital-realty-kokomo-gigawatt-datacenter"
     }
   ],
   "version": 2,
