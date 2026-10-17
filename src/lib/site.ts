@@ -21,7 +21,6 @@ export const SITE_OG_LOCALE = "en_US";
 
 export const SITE_OG_IMAGE_PATH = "/images/og-image.png";
 export const SITE_THEME_COLOR = "#16a34a";
-export const SITE_BACKGROUND_COLOR = "#f0fdf4";
 export const SITE_ICON_PATH = "/favicon/favicon-32x32.png";
 export const SITE_FAVICON_PATH = "/favicon/favicon.ico";
 export const SITE_APP_ICON_192_PATH = "/favicon/android-chrome-192x192.png";
