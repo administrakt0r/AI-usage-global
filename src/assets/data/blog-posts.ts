@@ -4852,6 +4852,27 @@ export const blogPosts: BlogPost[] = [
       "off-grid power",
     ],
   }),
+  createPost({
+    id: 297,
+    slug: "stranded-natural-gas-offshore-ai-data-centers",
+    title: "Stranded Natural Gas to Power Offshore AI Data Centers",
+    description:
+      "Houston firms Riverway Group and Offshore Data Center partner to build floating compute platforms powered by stranded natural gas and cooled by seawater.",
+    imageAlt: "Digital representation of a floating offshore data center platform powered by stranded natural gas",
+    publishedOn: "2026-10-17",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Riverway Group",
+      "Offshore Data Center",
+      "stranded natural gas",
+      "offshore AI data centers",
+      "floating data centers",
+      "seawater cooling",
+      "behind-the-meter power",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
