@@ -2663,6 +2663,15 @@
       "published_on": "2026-10-17",
       "primary_entity": "Riverway Group / Offshore Data Center",
       "event_fingerprint": "stranded-gas-offshore-ai-data-centers"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/uk-govt-rejects-ai-growth-zone-bid-to-power-data-center-with-drax-biomass-plant-in-selby-north-yorkshire/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/uk-govt-rejects-ai-growth-zone-bid-to-power-data-center-with-drax-biomass-plant-in-selby-north-yorkshire",
+      "title": "UK gov’t rejects AI Growth Zone bid to power data center with Drax biomass plant in Selby, North Yorkshire",
+      "normalized_title": "uk govt rejects ai growth zone bid to power data center with drax biomass plant in selby north yorkshire",
+      "published_on": "2026-10-18",
+      "primary_entity": "UK Government / Drax Group",
+      "event_fingerprint": "uk-drax-biomass-ai-datacenter-rejection"
     }
   ],
   "version": 2,
