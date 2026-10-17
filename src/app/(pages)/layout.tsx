@@ -4,7 +4,7 @@ import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
 import { ScrollToTop } from "@/components/ui/scroll-to-top";
 
-import type { NavigationSection } from "@/components/blocks/menu-navigation";
+import type { NavigationSection } from "@/types/navigation";
 
 const navigationData: NavigationSection[] = [
   {

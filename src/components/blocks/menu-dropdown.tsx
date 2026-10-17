@@ -19,25 +19,9 @@ import {
 } from "@/components/ui/dropdown-menu";
 
 import { cn } from "@/lib/utils";
+import type { NavigationItem, NavigationSection } from "@/types/navigation";
 
-export type NavigationItem = {
-  title: string;
-  href: string;
-};
-
-export type NavigationSection = {
-  title: string;
-  icon?: ReactNode;
-} & (
-  | {
-      items: NavigationItem[];
-      href?: never;
-    }
-  | {
-      items?: never;
-      href: string;
-    }
-);
+export type { NavigationItem, NavigationSection };
 
 type Props = {
   trigger: ReactNode;
