@@ -1,4 +1,5 @@
 import fs from "node:fs/promises";
+import os from "node:os";
 import path from "node:path";
 
 import sharp from "sharp";
@@ -306,6 +307,27 @@ const renderImage = async (svg, outputPath, format) => {
   await renderer.png({ compressionLevel: 9, effort: 8, palette: true }).toFile(outputPath);
 };
 
+const mapConcurrent = async (items, concurrency, fn) => {
+  const limit = Math.max(1, concurrency);
+  let index = 0;
+
+  const worker = async () => {
+    while (index < items.length) {
+      const currentIndex = index;
+
+      index += 1;
+      await fn(items[currentIndex], currentIndex);
+    }
+  };
+
+  const workers = Array.from(
+    { length: Math.min(limit, items.length) },
+    () => worker(),
+  );
+
+  await Promise.all(workers);
+};
+
 const generatePostImages = async () => {
   const blogPosts = await loadBlogPosts();
 
@@ -314,23 +336,27 @@ const generatePostImages = async () => {
   const logoSvg = await fs.readFile(logoPath, "utf8");
   const logoDataUri = `data:image/svg+xml;base64,${Buffer.from(logoSvg).toString("base64")}`;
 
-  await Promise.all(
-    blogPosts.map(async (post) => {
-      const preset = presets[hashString(post.slug) % presets.length];
+  const concurrency = Math.max(1, os.availableParallelism?.() ?? os.cpus().length ?? 4);
 
-      const svg = getPostSvg({
-        title: post.title,
-        logoDataUri,
-        preset,
-        subtitle: "Water, power, money, and ecological impact",
-      });
+  if (concurrency > 1) {
+    sharp.concurrency(1);
+  }
 
-      await Promise.all([
-        renderImage(svg, path.join(outputDir, `${post.slug}.png`), "png"),
-        renderImage(svg, path.join(outputDir, `${post.slug}.webp`), "webp"),
-      ]);
-    }),
-  );
+  await mapConcurrent(blogPosts, concurrency, async (post) => {
+    const preset = presets[hashString(post.slug) % presets.length];
+
+    const svg = getPostSvg({
+      title: post.title,
+      logoDataUri,
+      preset,
+      subtitle: "Water, power, money, and ecological impact",
+    });
+
+    await Promise.all([
+      renderImage(svg, path.join(outputDir, `${post.slug}.png`), "png"),
+      renderImage(svg, path.join(outputDir, `${post.slug}.webp`), "webp"),
+    ]);
+  });
 
   const siteSvg = getPostSvg({
     title: "AI water, power, costs, and impact reported daily",
