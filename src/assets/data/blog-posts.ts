@@ -4893,6 +4893,26 @@ export const blogPosts: BlogPost[] = [
       "carbon capture",
     ],
   }),
+  createPost({
+    id: 299,
+    slug: "digital-realty-kokomo-gigawatt-datacenter",
+    title: "Digital Realty eyes gigawatt-scale data center site outside Indianapolis, Indiana",
+    description:
+      "Digital Realty plans a 1 GW, 476-acre data center campus in Kokomo, Indiana, featuring closed-loop cooling and zero municipal tax abatements.",
+    imageAlt: "Digital representation of a gigawatt-scale data center campus in Kokomo, Indiana",
+    publishedOn: "2026-10-16",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Digital Realty",
+      "Kokomo Indiana data center",
+      "1 GW data center",
+      "closed-loop cooling",
+      "Howard County",
+      "data center power demand",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
