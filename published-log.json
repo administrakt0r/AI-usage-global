@@ -2717,6 +2717,15 @@
       "published_on": "2026-10-18",
       "primary_entity": "7x24 Exchange International / AFCOM",
       "event_fingerprint": "datacenter-industry-k12-pr-outreach"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/uk-council-launches-heat-network-feasibility-study-for-proposed-data-centers-near-didcot-power-station-in-oxfordshire/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/uk-council-launches-heat-network-feasibility-study-for-proposed-data-centers-near-didcot-power-station-in-oxfordshire",
+      "title": "UK council launches heat network feasibility study for proposed data centers near Didcot Power Station in Oxfordshire",
+      "normalized_title": "uk council launches heat network feasibility study for proposed data centers near didcot power station in oxfordshire",
+      "published_on": "2026-10-16",
+      "primary_entity": "Vale of White Horse District Council",
+      "event_fingerprint": "didcot-data-center-heat-network-study"
     }
   ],
   "version": 2,

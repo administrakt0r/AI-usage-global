@@ -4996,6 +4996,27 @@ export const blogPosts: BlogPost[] = [
       "AI power demand",
     ],
   }),
+  createPost({
+    id: 304,
+    slug: "uk-council-launches-didcot-data-center-heat-network-study",
+    title: "UK Council Launches Feasibility Study for Data Center Heat Reuse in Oxfordshire",
+    description:
+      "The Vale of White Horse District Council launches a study to evaluate capturing waste heat from 400,000 sqm of proposed data center development near Didcot Power Station.",
+    imageAlt: "Digital representation of data center waste heat capture and district heating infrastructure in Oxfordshire",
+    publishedOn: "2026-10-16",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Didcot Power Station",
+      "Vale of White Horse District Council",
+      "Nordic Energy",
+      "district heating",
+      "AWS",
+      "heat network zoning",
+      "waste heat recovery",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
