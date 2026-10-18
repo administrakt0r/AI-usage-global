@@ -2708,6 +2708,15 @@
       "published_on": "2026-10-14",
       "primary_entity": "Avison Young",
       "event_fingerprint": "us-ai-datacenter-land-buying-power-premiums"
+    },
+    {
+      "canonical_url": "https://www.wired.com/story/data-center-industry-is-trying-to-woo-kids/",
+      "normalized_url": "https://www.wired.com/story/data-center-industry-is-trying-to-woo-kids",
+      "title": "Data Centers Have a New PR Plan: Your Kid’s Field Trip",
+      "normalized_title": "data centers have a new pr plan your kids field trip",
+      "published_on": "2026-10-18",
+      "primary_entity": "7x24 Exchange International / AFCOM",
+      "event_fingerprint": "datacenter-industry-k12-pr-outreach"
     }
   ],
   "version": 2,
