@@ -2699,6 +2699,15 @@
       "published_on": "2026-10-16",
       "primary_entity": "Nscale",
       "event_fingerprint": "nscale-glomfjord-norway-datacenter-delays"
+    },
+    {
+      "canonical_url": "https://www.datacenterknowledge.com/data-center-construction/ai-data-center-land-buying-hits-6b-as-power-premiums-rise",
+      "normalized_url": "https://www.datacenterknowledge.com/data-center-construction/ai-data-center-land-buying-hits-6b-as-power-premiums-rise",
+      "title": "AI Data Center Land Buying Hits $6B as Power Premiums Rise",
+      "normalized_title": "ai data center land buying hits 6b as power premiums rise",
+      "published_on": "2026-10-14",
+      "primary_entity": "Avison Young",
+      "event_fingerprint": "us-ai-datacenter-land-buying-power-premiums"
     }
   ],
   "version": 2,

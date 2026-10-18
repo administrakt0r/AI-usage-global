@@ -4955,6 +4955,27 @@ export const blogPosts: BlogPost[] = [
       "neocloud IPO",
     ],
   }),
+  createPost({
+    id: 302,
+    slug: "ai-datacenter-land-buying-power-premiums",
+    title: "AI Data Center Land Buying Hits $6B as Power Premiums Rise",
+    description:
+      "US data center land acquisitions reached $6 billion in H1 2026 as power availability drives land values up to $6 million per acre in primary markets.",
+    imageAlt: "Digital representation of a data center construction site and high-voltage electrical power transmission lines",
+    publishedOn: "2026-10-14",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Avison Young",
+      "data center land prices",
+      "power premium",
+      "Northern Virginia",
+      "transmission line access",
+      "speed to power",
+      "AI infrastructure capex",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
