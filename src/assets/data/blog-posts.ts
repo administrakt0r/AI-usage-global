@@ -4976,6 +4976,26 @@ export const blogPosts: BlogPost[] = [
       "AI infrastructure capex",
     ],
   }),
+  createPost({
+    id: 303,
+    slug: "datacenter-industry-k12-pr-outreach",
+    title: "Data Centers Target K-12 Schools to Counter Power Backlash",
+    description:
+      "Data center trade groups and hyperscalers target K-12 schools with field trips and curriculum materials to soften community opposition to massive AI energy demand.",
+    imageAlt: "Illustration of a student field trip to an AI data center and power generation facility",
+    publishedOn: "2026-10-18",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "7x24 Exchange International",
+      "AFCOM",
+      "K-12 school field trips",
+      "data center community backlash",
+      "Loudoun County",
+      "AI power demand",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
