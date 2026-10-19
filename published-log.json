@@ -2726,6 +2726,15 @@
       "published_on": "2026-10-16",
       "primary_entity": "Vale of White Horse District Council",
       "event_fingerprint": "didcot-data-center-heat-network-study"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/microsoft-signs-20-year-power-deal-with-indiana-utility-nisource-for-planned-data-center-in-the-state/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/microsoft-signs-20-year-power-deal-with-indiana-utility-nisource-for-planned-data-center-in-the-state",
+      "title": "Microsoft signs 20-year power deal with Indiana utility NiSource for planned data center in the state",
+      "normalized_title": "microsoft signs 20 year power deal with indiana utility nisource for planned data center in the state",
+      "published_on": "2026-10-19",
+      "primary_entity": "Microsoft / NiSource",
+      "event_fingerprint": "microsoft-nisource-indiana-20yr-power-deal"
     }
   ],
   "version": 2,
