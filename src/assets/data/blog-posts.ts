@@ -5017,6 +5017,26 @@ export const blogPosts: BlogPost[] = [
       "waste heat recovery",
     ],
   }),
+  createPost({
+    id: 305,
+    slug: "microsoft-nisource-indiana-power-deal",
+    title: "Microsoft Signs 20-Year Power Deal with Indiana Utility NiSource",
+    description: "Microsoft signs a 20-year agreement with NiSource for 1.1 GW of power capacity and 600 MW of battery storage under a rate structure protecting ratepayers.",
+    imageAlt: "Electrical grid infrastructure and data center campus in Indiana",
+    publishedOn: "2026-10-19",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Microsoft",
+      "NiSource",
+      "Indiana AI data center",
+      "battery energy storage",
+      "BESS",
+      "large load tariff",
+      "ratepayer protection",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
