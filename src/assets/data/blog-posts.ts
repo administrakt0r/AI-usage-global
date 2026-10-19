@@ -5037,6 +5037,26 @@ export const blogPosts: BlogPost[] = [
       "ratepayer protection",
     ],
   }),
+  createPost({
+    id: 306,
+    slug: "aep-amazon-x-energy-indiana-nuclear-pact",
+    title: "AEP, Amazon, and X-energy Partner on 960 MW Indiana Nuclear Project",
+    description: "AEP, Amazon, and X-energy partner to evaluate 12 small modular reactors delivering 960 MW of power for AI data centers at a former Indiana coal plant.",
+    imageAlt: "Digital representation of small modular nuclear reactors and power infrastructure in Indiana",
+    publishedOn: "2026-10-19",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "American Electric Power",
+      "Amazon",
+      "X-energy",
+      "small modular reactors",
+      "SMR",
+      "Indiana Michigan Power",
+      "AI data center power",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

@@ -2735,6 +2735,15 @@
       "published_on": "2026-10-19",
       "primary_entity": "Microsoft / NiSource",
       "event_fingerprint": "microsoft-nisource-indiana-20yr-power-deal"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/aep-signs-advanced-960-mw-nuclear-amazon-x-energy/833341/",
+      "normalized_url": "https://www.utilitydive.com/news/aep-signs-advanced-960-mw-nuclear-amazon-x-energy/833341",
+      "title": "AEP signs 960-MW Indiana nuclear pact with Amazon, X-energy",
+      "normalized_title": "aep signs 960 mw indiana nuclear pact with amazon x energy",
+      "published_on": "2026-10-19",
+      "primary_entity": "American Electric Power / Amazon / X-energy",
+      "event_fingerprint": "aep-amazon-x-energy-indiana-nuclear-pact"
     }
   ],
   "version": 2,
