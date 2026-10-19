@@ -1,7 +1,7 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { cn } from './utils.ts';
+import { cn, serializeJsonLd } from './utils.ts';
 
 describe('cn utility function', () => {
   it('merges basic class strings', () => {
@@ -51,5 +51,56 @@ describe('cn utility function', () => {
       ),
       'base-class array-class1 array-class2 conditional-class p-4 bg-blue-500'
     );
+  });
+});
+
+describe('serializeJsonLd utility function', () => {
+  it('serializes simple objects to JSON string', () => {
+    const data = { title: 'Test Title', id: 123 };
+
+    assert.equal(serializeJsonLd(data), '{"title":"Test Title","id":123}');
+  });
+
+  it('escapes sensitive HTML control characters to unicode sequences', () => {
+    const data = {
+      malicious: '</script><script>alert("XSS")</script>',
+      html: 'Me & You > Them < Us',
+    };
+
+    const serialized = serializeJsonLd(data);
+
+    assert.ok(!serialized.includes('<'));
+    assert.ok(!serialized.includes('>'));
+    assert.ok(!serialized.includes('&'));
+    assert.equal(
+      serialized,
+      '{"malicious":"\\u003c/script\\u003e\\u003cscript\\u003ealert(\\"XSS\\")\\u003c/script\\u003e","html":"Me \\u0026 You \\u003e Them \\u003c Us"}'
+    );
+  });
+
+  it('escapes line separators \\u2028 and \\u2029', () => {
+    const data = {
+      lineSep: 'line1\u2028line2',
+      paraSep: 'para1\u2029para2',
+    };
+
+    const serialized = serializeJsonLd(data);
+
+    assert.equal(
+      serialized,
+      '{"lineSep":"line1\\u2028line2","paraSep":"para1\\u2029para2"}'
+    );
+  });
+
+  it('produces valid JSON when parsed back', () => {
+    const data = {
+      title: 'AI & Data Center <Report>',
+      details: { author: 'John & Jane Doe' },
+    };
+
+    const serialized = serializeJsonLd(data);
+    const parsed = JSON.parse(serialized);
+
+    assert.deepEqual(parsed, data);
   });
 });
