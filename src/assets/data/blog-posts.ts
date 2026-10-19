@@ -5057,6 +5057,26 @@ export const blogPosts: BlogPost[] = [
       "AI data center power",
     ],
   }),
+  createPost({
+    id: 307,
+    slug: "anthropic-everwind-nova-scotia-datacenter",
+    title: "Anthropic named as customer of EverWind's data center project in Nova Scotia",
+    description: "Anthropic signs a 20-year lease with EverWind Fuels for a $10B wind-powered AI data center campus in Nova Scotia, marking its first Canadian expansion.",
+    imageAlt: "Digital representation of wind turbines and high-density AI data center campus in Nova Scotia",
+    publishedOn: "2026-10-19",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Anthropic",
+      "EverWind Fuels",
+      "Nova Scotia AI data center",
+      "Point Tupper",
+      "wind power AI",
+      "battery energy storage",
+      "Canada AI infrastructure",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

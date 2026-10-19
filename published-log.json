@@ -2744,6 +2744,15 @@
       "published_on": "2026-10-19",
       "primary_entity": "American Electric Power / Amazon / X-energy",
       "event_fingerprint": "aep-amazon-x-energy-indiana-nuclear-pact"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/anthropic-named-as-customer-of-everwinds-data-center-project-in-nova-scotia/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/anthropic-named-as-customer-of-everwinds-data-center-project-in-nova-scotia",
+      "title": "Anthropic named as customer of EverWind's data center project in Nova Scotia",
+      "normalized_title": "anthropic named as customer of everwinds data center project in nova scotia",
+      "published_on": "2026-10-19",
+      "primary_entity": "Anthropic / EverWind Fuels",
+      "event_fingerprint": "anthropic-everwind-nova-scotia-datacenter"
     }
   ],
   "version": 2,
