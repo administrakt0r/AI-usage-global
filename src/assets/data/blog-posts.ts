@@ -5120,6 +5120,26 @@ export const blogPosts: BlogPost[] = [
       "AI energy demand",
     ],
   }),
+  createPost({
+    id: 310,
+    slug: "blackstone-energy-transition-fund-v-data-centers",
+    title: "Blackstone closes latest energy transition fund at $8.7bn, backs several data center focused energy firms",
+    description: "Blackstone closes its $8.7 billion Energy Transition Partners V fund to invest in behind-the-meter generation, liquid cooling components, and grid infrastructure for AI data centers.",
+    imageAlt: "Digital representation of energy transition power infrastructure and liquid cooling systems for AI data centers",
+    publishedOn: "2026-10-20",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Blackstone",
+      "Energy Transition Partners V",
+      "data center power",
+      "liquid cooling",
+      "Flow Control",
+      "behind-the-meter energy",
+      "AI infrastructure capex",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

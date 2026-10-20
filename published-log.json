@@ -2771,6 +2771,15 @@
       "published_on": "2026-10-20",
       "primary_entity": "Google / Voltus",
       "event_fingerprint": "google-vpp-pjm-grid-capacity"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/blackstone-closes-latest-energy-transition-fund-at-87bn-backs-several-data-center-focused-energy-firms/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/blackstone-closes-latest-energy-transition-fund-at-87bn-backs-several-data-center-focused-energy-firms",
+      "title": "Blackstone closes latest energy transition fund at $8.7bn, backs several data center focused energy firms",
+      "normalized_title": "blackstone closes latest energy transition fund at 8 7bn backs several data center focused energy firms",
+      "published_on": "2026-10-20",
+      "primary_entity": "Blackstone",
+      "event_fingerprint": "blackstone-energy-transition-fund-v-data-centers"
     }
   ],
   "version": 2,
