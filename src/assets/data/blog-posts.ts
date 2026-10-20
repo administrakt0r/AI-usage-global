@@ -5077,6 +5077,27 @@ export const blogPosts: BlogPost[] = [
       "Canada AI infrastructure",
     ],
   }),
+  createPost({
+    id: 308,
+    slug: "google-entergy-arkansas-renewable-ppa",
+    title: "Google expands partnership with Entergy Arkansas, will fund renewable energy and grid upgrades for West Memphis data center",
+    description: "Google expands its partnership with Entergy Arkansas, funding a 440MW solar PPA, 1.4GWh of battery storage, and substation upgrades for its West Memphis data center.",
+    imageAlt: "Digital representation of solar panels, battery energy storage systems, and power grid substation infrastructure",
+    publishedOn: "2026-10-20",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Google",
+      "Entergy Arkansas",
+      "West Memphis data center",
+      "440MW PPA",
+      "battery energy storage",
+      "BESS",
+      "grid infrastructure",
+      "ratepayer protection",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

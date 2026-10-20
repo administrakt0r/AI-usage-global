@@ -2753,6 +2753,15 @@
       "published_on": "2026-10-19",
       "primary_entity": "Anthropic / EverWind Fuels",
       "event_fingerprint": "anthropic-everwind-nova-scotia-datacenter"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/google-expands-partnership-with-entergy-arkansas-will-fund-renewable-energy-and-grid-upgrades-for-west-memphis-data-center/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/google-expands-partnership-with-entergy-arkansas-will-fund-renewable-energy-and-grid-upgrades-for-west-memphis-data-center",
+      "title": "Google expands partnership with Entergy Arkansas, will fund renewable energy and grid upgrades for West Memphis data center",
+      "normalized_title": "google expands partnership with entergy arkansas will fund renewable energy and grid upgrades for west memphis data center",
+      "published_on": "2026-10-20",
+      "primary_entity": "Google / Entergy Arkansas",
+      "event_fingerprint": "google-entergy-arkansas-renewable-ppa"
     }
   ],
   "version": 2,
