@@ -5098,6 +5098,28 @@ export const blogPosts: BlogPost[] = [
       "ratepayer protection",
     ],
   }),
+  createPost({
+    id: 309,
+    slug: "google-pjm-vpp-grid-capacity",
+    title: "Google Funds 100 MW Virtual Power Plant to Bypass Grid Limits",
+    description: "Google backs a 100 MW virtual power plant with Voltus in PJM to aggregate distributed energy resources and bypass multi-year data center grid backlogs.",
+    imageAlt: "Digital representation of distributed energy storage and power grid infrastructure for Google AI data centers",
+    publishedOn: "2026-10-20",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Google",
+      "Voltus",
+      "PJM Interconnection",
+      "virtual power plant",
+      "VPP",
+      "bring your own capacity",
+      "BYONC",
+      "grid capacity",
+      "AI energy demand",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

@@ -2762,6 +2762,15 @@
       "published_on": "2026-10-20",
       "primary_entity": "Google / Entergy Arkansas",
       "event_fingerprint": "google-entergy-arkansas-renewable-ppa"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/what-googles-virtual-power-plant-in-pjm-says-about-the-race-for-electricit/833290/",
+      "normalized_url": "https://www.utilitydive.com/news/what-googles-virtual-power-plant-in-pjm-says-about-the-race-for-electricit/833290",
+      "title": "What Google’s virtual power plant in PJM says about the race for electricity",
+      "normalized_title": "what googles virtual power plant in pjm says about the race for electricity",
+      "published_on": "2026-10-20",
+      "primary_entity": "Google / Voltus",
+      "event_fingerprint": "google-vpp-pjm-grid-capacity"
     }
   ],
   "version": 2,
