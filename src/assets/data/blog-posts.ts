@@ -5140,6 +5140,25 @@ export const blogPosts: BlogPost[] = [
       "AI infrastructure capex",
     ],
   }),
+  createPost({
+    id: 311,
+    slug: "aquaria-launches-onsite-air-to-water-pilot-for-data-center-cooling",
+    title: "Aquaria Launches Air-to-Water System for Data Center Cooling",
+    description: "Aquaria Technologies launches a pilot for Hydrogrid, a modular atmospheric water harvesting system capable of producing 265,000 gallons of cooling water daily for data centers.",
+    imageAlt: "Digital representation of modular atmospheric water harvesting containers at a data center campus",
+    publishedOn: "2026-10-21",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Aquaria Technologies",
+      "Hydrogrid",
+      "atmospheric water harvesting",
+      "data center cooling water",
+      "water supply risk",
+      "AI infrastructure",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
