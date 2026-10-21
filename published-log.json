@@ -2780,6 +2780,15 @@
       "published_on": "2026-10-20",
       "primary_entity": "Blackstone",
       "event_fingerprint": "blackstone-energy-transition-fund-v-data-centers"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/water-harvesting-firm-aquaria-launches-pilot-for-modular-onsite-water-supply-system-for-data-center-sector/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/water-harvesting-firm-aquaria-launches-pilot-for-modular-onsite-water-supply-system-for-data-center-sector",
+      "title": "Water harvesting firm Aquaria launches pilot for modular onsite water supply system for data center sector",
+      "normalized_title": "water harvesting firm aquaria launches pilot for modular onsite water supply system for data center sector",
+      "published_on": "2026-10-21",
+      "primary_entity": "Aquaria Technologies",
+      "event_fingerprint": "aquaria-hydrogrid-atmospheric-water-harvesting"
     }
   ],
   "version": 2,
