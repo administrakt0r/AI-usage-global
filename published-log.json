@@ -2789,6 +2789,15 @@
       "published_on": "2026-10-21",
       "primary_entity": "Aquaria Technologies",
       "event_fingerprint": "aquaria-hydrogrid-atmospheric-water-harvesting"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/amazon-withdraws-application-for-data-center-campus-at-gwu-site-in-ashburn-virginia/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/amazon-withdraws-application-for-data-center-campus-at-gwu-site-in-ashburn-virginia",
+      "title": "Amazon withdraws application for data center campus at GWU site in Ashburn, Virginia",
+      "normalized_title": "amazon withdraws application for data center campus at gwu site in ashburn virginia",
+      "published_on": "2026-10-21",
+      "primary_entity": "Amazon / Loudoun County",
+      "event_fingerprint": "amazon-ashburn-gwu-datacenter-withdrawal"
     }
   ],
   "version": 2,
