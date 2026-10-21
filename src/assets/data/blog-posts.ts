@@ -5159,6 +5159,26 @@ export const blogPosts: BlogPost[] = [
       "AI infrastructure",
     ],
   }),
+  createPost({
+    id: 312,
+    slug: "amazon-ashburn-gwu-datacenter-withdrawal",
+    title: "Amazon Withdraws Application for Ashburn Data Center Campus",
+    description: "Amazon withdraws plans for an 800,000 sq ft Ashburn data center campus following Loudoun County zoning opposition, dedicating 25 acres for community development.",
+    imageAlt: "Digital representation of a data center campus and community land preservation in Loudoun County, Virginia",
+    publishedOn: "2026-10-21",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Amazon",
+      "Loudoun County",
+      "Ashburn data center",
+      "Bridgefield Tech Center",
+      "Project Potomac Promise",
+      "data center zoning",
+      "data center opposition",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
