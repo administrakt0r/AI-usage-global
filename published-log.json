@@ -2807,6 +2807,15 @@
       "published_on": "2026-10-21",
       "primary_entity": "Vantage Data Centers / Heron Power",
       "event_fingerprint": "vantage-heron-1gw-solid-state-transformer-deal"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/arbol-launches-moratorium-risk-insurance-coverage/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/arbol-launches-moratorium-risk-insurance-coverage",
+      "title": "Arbol launches moratorium risk insurance coverage",
+      "normalized_title": "arbol launches moratorium risk insurance coverage",
+      "published_on": "2026-10-22",
+      "primary_entity": "Arbol",
+      "event_fingerprint": "arbol-launches-moratorium-risk-insurance"
     }
   ],
   "version": 2,

@@ -5199,6 +5199,27 @@ export const blogPosts: BlogPost[] = [
       "wide-bandgap semiconductors",
     ],
   }),
+  createPost({
+    id: 314,
+    slug: "arbol-launches-first-insurance-for-data-center-moratorium-risks",
+    title: "Arbol Launches First Insurance for Data Center Moratorium Risks",
+    description:
+      "Arbol introduces parametric moratorium risk insurance for data center developers facing construction pauses from government freezes over water and grid strain.",
+    imageAlt: "Digital representation of data center moratorium risk insurance and grid infrastructure",
+    publishedOn: "2026-10-22",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Arbol",
+      "moratorium risk insurance",
+      "data center moratoriums",
+      "parametric insurance",
+      "AI power grid strain",
+      "water consumption",
+      "construction freeze",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
