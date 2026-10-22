@@ -2798,6 +2798,15 @@
       "published_on": "2026-10-21",
       "primary_entity": "Amazon / Loudoun County",
       "event_fingerprint": "amazon-ashburn-gwu-datacenter-withdrawal"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/vantage-signs-1gw-solid-state-transformer-supply-deal-with-heron-power/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/vantage-signs-1gw-solid-state-transformer-supply-deal-with-heron-power",
+      "title": "Vantage signs 1GW solid-state transformer supply deal with Heron Power",
+      "normalized_title": "vantage signs 1gw solid state transformer supply deal with heron power",
+      "published_on": "2026-10-21",
+      "primary_entity": "Vantage Data Centers / Heron Power",
+      "event_fingerprint": "vantage-heron-1gw-solid-state-transformer-deal"
     }
   ],
   "version": 2,
