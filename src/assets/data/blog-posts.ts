@@ -5179,6 +5179,26 @@ export const blogPosts: BlogPost[] = [
       "data center opposition",
     ],
   }),
+  createPost({
+    id: 313,
+    slug: "vantage-heron-1gw-solid-state-transformer-deal",
+    title: "Vantage Signs 1 GW Solid-State Transformer Deal With Heron Power",
+    description: "Vantage Data Centers agrees to deploy over 1 GW of Heron Power solid-state transformers to support 800 VDC direct-current architecture and cut AI energy losses.",
+    imageAlt: "Digital representation of high-density 800 VDC power architecture and solid-state transformers for AI data centers",
+    publishedOn: "2026-10-21",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Vantage Data Centers",
+      "Heron Power",
+      "solid-state transformer",
+      "800 VDC",
+      "Heron Link",
+      "AI rack power density",
+      "wide-bandgap semiconductors",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
