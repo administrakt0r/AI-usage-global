@@ -2816,6 +2816,15 @@
       "published_on": "2026-10-22",
       "primary_entity": "Arbol",
       "event_fingerprint": "arbol-launches-moratorium-risk-insurance"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/microsoft-files-for-data-center-campus-in-floyd-county-georgia/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/microsoft-files-for-data-center-campus-in-floyd-county-georgia",
+      "title": "Microsoft files for data center campus in Floyd County, Georgia",
+      "normalized_title": "microsoft files for data center campus in floyd county georgia",
+      "published_on": "2026-10-22",
+      "primary_entity": "Microsoft",
+      "event_fingerprint": "microsoft-floyd-county-datacenter-campus"
     }
   ],
   "version": 2,

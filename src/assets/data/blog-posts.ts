@@ -5220,6 +5220,28 @@ export const blogPosts: BlogPost[] = [
       "construction freeze",
     ],
   }),
+  createPost({
+    id: 315,
+    slug: "microsoft-floyd-county-data-center-campus",
+    title: "Microsoft files for data center campus in Floyd County, Georgia",
+    description:
+      "Microsoft files DRI application for 422MW, 1.66M sq ft data center campus in Floyd County, Georgia, with 13,500 gpd water demand.",
+    imageAlt: "Aerial render of data center facility in Floyd County Georgia",
+    publishedOn: "2026-10-22",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Microsoft",
+      "Floyd County",
+      "Georgia Power",
+      "422MW data center",
+      "ATL80",
+      "Rome Georgia",
+      "AI power demand",
+      "water consumption",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
