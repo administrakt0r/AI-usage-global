@@ -5242,6 +5242,28 @@ export const blogPosts: BlogPost[] = [
       "water consumption",
     ],
   }),
+  createPost({
+    id: 316,
+    slug: "terrawatt-alton-illinois-gigawatt-data-center",
+    title: "Gigawatt-scale data center proposed for steel mill in Illinois",
+    description:
+      "TerraWatt proposes converting a 381-acre former steel mill in Alton, Illinois, into a 1 GW AI data center with closed-loop cooling and developer-funded grid upgrades.",
+    imageAlt: "Former steel mill industrial site in Alton, Illinois proposed for 1 GW data center redevelopment",
+    publishedOn: "2026-10-23",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "TerraWatt",
+      "Alton Steel",
+      "Illinois data center",
+      "1 GW data center",
+      "closed-loop cooling",
+      "Ameren Illinois",
+      "brownfield redevelopment",
+      "grid infrastructure",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

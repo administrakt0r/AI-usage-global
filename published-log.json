@@ -2825,6 +2825,15 @@
       "published_on": "2026-10-22",
       "primary_entity": "Microsoft",
       "event_fingerprint": "microsoft-floyd-county-datacenter-campus"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/gigawatt-scale-data-center-proposed-for-steel-mill-in-illinois/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/gigawatt-scale-data-center-proposed-for-steel-mill-in-illinois",
+      "title": "Gigawatt-scale data center proposed for steel mill in Illinois",
+      "normalized_title": "gigawatt scale data center proposed for steel mill in illinois",
+      "published_on": "2026-10-23",
+      "primary_entity": "TerraWatt / Alton Steel",
+      "event_fingerprint": "terrawatt-alton-steel-mill-gigawatt-datacenter"
     }
   ],
   "version": 2,
