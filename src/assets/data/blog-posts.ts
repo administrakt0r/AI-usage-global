@@ -5264,6 +5264,28 @@ export const blogPosts: BlogPost[] = [
       "grid infrastructure",
     ],
   }),
+  createPost({
+    id: 317,
+    slug: "google-expands-pjm-virtual-power-plant-to-1gw",
+    title: "Google Expands PJM Virtual Power Plant Capacity to Over 1 GW",
+    description: "Google tenfold scales its Voltus virtual power plant agreement to 1,170 MW in PJM, deploying aggregated distributed energy capacity to help meet AI grid demand.",
+    imageAlt: "Digital representation of distributed energy storage and power grid capacity serving Google data center footprint",
+    publishedOn: "2026-10-23",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Google",
+      "Voltus",
+      "PJM Interconnection",
+      "virtual power plant",
+      "VPP",
+      "bring your own capacity",
+      "demand response",
+      "grid strain",
+      "AI power demand",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

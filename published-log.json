@@ -2834,6 +2834,15 @@
       "published_on": "2026-10-23",
       "primary_entity": "TerraWatt / Alton Steel",
       "event_fingerprint": "terrawatt-alton-steel-mill-gigawatt-datacenter"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/google-voltus-vpp-virtual-power-pjm/833717/",
+      "normalized_url": "https://www.utilitydive.com/news/google-voltus-vpp-virtual-power-pjm/833717",
+      "title": "Google supersizes PJM virtual power plant to more than 1 GW",
+      "normalized_title": "google supersizes pjm virtual power plant to more than 1 gw",
+      "published_on": "2026-10-23",
+      "primary_entity": "Google / Voltus",
+      "event_fingerprint": "google-voltus-1gw-vpp-pjm"
     }
   ],
   "version": 2,
