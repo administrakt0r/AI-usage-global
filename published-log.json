@@ -2843,6 +2843,15 @@
       "published_on": "2026-10-23",
       "primary_entity": "Google / Voltus",
       "event_fingerprint": "google-voltus-1gw-vpp-pjm"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/oregon-city-declares-state-of-emergency-over-lost-data-center-revenue-amid-state-wide-ban/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/oregon-city-declares-state-of-emergency-over-lost-data-center-revenue-amid-state-wide-ban",
+      "title": "Oregon city declares state of emergency over lost data center revenue amid state-wide ban",
+      "normalized_title": "oregon city declares state of emergency over lost data center revenue amid state wide ban",
+      "published_on": "2026-10-23",
+      "primary_entity": "City of Umatilla",
+      "event_fingerprint": "umatilla-oregon-datacenter-emergency-declaration"
     }
   ],
   "version": 2,

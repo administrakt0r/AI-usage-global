@@ -5286,6 +5286,26 @@ export const blogPosts: BlogPost[] = [
       "AI power demand",
     ],
   }),
+  createPost({
+    id: 318,
+    slug: "umatilla-oregon-data-center-emergency-declaration",
+    title: "Oregon City Declares Emergency Over Lost AI Data Center Revenue",
+    description: "The City of Umatilla declares a local state of emergency as Governor Kotek's data center permit pause threatens $5 billion in private AI investments and municipal revenue.",
+    imageAlt: "Digital representation of a municipal emergency declaration and data center infrastructure in Oregon",
+    publishedOn: "2026-10-23",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Umatilla Oregon",
+      "data center emergency declaration",
+      "Governor Tina Kotek",
+      "data center moratorium",
+      "Amazon Web Services",
+      "Sabey Data Centers",
+      "AI data center revenue",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
