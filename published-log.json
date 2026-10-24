@@ -2852,6 +2852,15 @@
       "published_on": "2026-10-23",
       "primary_entity": "City of Umatilla",
       "event_fingerprint": "umatilla-oregon-datacenter-emergency-declaration"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/spacexai-data-center-mississippi-memphis-elon-musk/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/spacexai-data-center-mississippi-memphis-elon-musk",
+      "title": "SpaceXAI facing $6.1m fine in Mississippi for building data centers without securing correct permits",
+      "normalized_title": "spacexai facing 6 1m fine in mississippi for building data centers without securing correct permits",
+      "published_on": "2026-10-24",
+      "primary_entity": "SpaceXAI / Mississippi Department of Environmental Quality",
+      "event_fingerprint": "spacexai-mississippi-datacenter-permit-fines"
     }
   ],
   "version": 2,

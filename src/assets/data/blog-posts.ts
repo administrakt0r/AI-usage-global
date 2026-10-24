@@ -5306,6 +5306,25 @@ export const blogPosts: BlogPost[] = [
       "AI data center revenue",
     ],
   }),
+  createPost({
+    id: 319,
+    slug: "spacexai-mississippi-data-center-permit-fines",
+    title: "SpaceXAI Facing $6.1M Fine in Mississippi for Unpermitted Data Centers",
+    description: "Mississippi environmental regulators propose up to $6.1 million in fines against SpaceXAI for constructing data centers without required stormwater permits.",
+    imageAlt: "Digital representation of data center construction and environmental regulatory oversight in Mississippi",
+    publishedOn: "2026-10-24",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "SpaceXAI",
+      "Mississippi MDEQ",
+      "stormwater permit fine",
+      "data center environmental impact",
+      "NAACP lawsuit",
+      "unpermitted gas turbines",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
