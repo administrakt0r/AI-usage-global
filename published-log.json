@@ -2870,6 +2870,15 @@
       "published_on": "2026-10-24",
       "primary_entity": "Silk Cloud / Fuse Energy",
       "event_fingerprint": "silk-cloud-fuse-energy-gpu-deployments"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/core-stack-jv-adds-more-data-centers-to-1bn-italy-network/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/core-stack-jv-adds-more-data-centers-to-1bn-italy-network",
+      "title": "Core Stack JV adds more data centers to €1bn Italy network",
+      "normalized_title": "core stack jv adds more data centers to 1bn italy network",
+      "published_on": "2026-10-25",
+      "primary_entity": "Green Arrow Capital / Core Stack",
+      "event_fingerprint": "core-stack-italy-renewable-data-centers"
     }
   ],
   "version": 2,
