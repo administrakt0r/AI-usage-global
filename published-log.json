@@ -2879,6 +2879,15 @@
       "published_on": "2026-10-25",
       "primary_entity": "Green Arrow Capital / Core Stack",
       "event_fingerprint": "core-stack-italy-renewable-data-centers"
+    },
+    {
+      "canonical_url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
+      "normalized_url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else",
+      "title": "What the US Movement Against Data Centers Can Learn From Abroad",
+      "normalized_title": "what the us movement against data centers can learn from abroad",
+      "published_on": "2026-10-25",
+      "primary_entity": "WIRED / Paris Marx",
+      "event_fingerprint": "global-anti-data-center-movement-lessons"
     }
   ],
   "version": 2,

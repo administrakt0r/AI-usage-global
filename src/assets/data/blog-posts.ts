@@ -5365,6 +5365,26 @@ export const blogPosts: BlogPost[] = [
       "brownfield data center",
     ],
   }),
+  createPost({
+    id: 322,
+    slug: "global-anti-data-center-movement-lessons",
+    title: "Global Resistance Movement Exposes AI Data Center Resource Strain",
+    description: "Global precedents in Ireland, Oregon, and Chile reveal how hyperscale AI data centers trigger power grid moratoriums, secret water consumption, and off-grid gas generation.",
+    imageAlt: "Graphic representation of global data center infrastructure and energy grid resistance",
+    publishedOn: "2026-10-25",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "AI data centers",
+      "water consumption",
+      "grid capacity",
+      "data center moratorium",
+      "Ireland energy grid",
+      "The Dalles Oregon Google",
+      "Paris Marx Hyperscale",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
