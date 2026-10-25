@@ -5345,6 +5345,26 @@ export const blogPosts: BlogPost[] = [
       "regional compute",
     ],
   }),
+  createPost({
+    id: 321,
+    slug: "core-stack-italy-renewable-data-centers",
+    title: "Core Stack JV adds more data centers to €1bn Italy network",
+    description: "Green Arrow Capital and Core Stack partner to invest over €1B in 13 Italian data centers paired with co-located renewable energy plants and battery storage.",
+    imageAlt: "Digital representation of data centers and renewable energy infrastructure in Italy",
+    publishedOn: "2026-10-25",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Core Stack",
+      "Green Arrow Capital",
+      "Italy data centers",
+      "renewable energy data centers",
+      "battery energy storage",
+      "BESS",
+      "brownfield data center",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
