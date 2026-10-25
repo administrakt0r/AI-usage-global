@@ -2861,6 +2861,15 @@
       "published_on": "2026-10-24",
       "primary_entity": "SpaceXAI / Mississippi Department of Environmental Quality",
       "event_fingerprint": "spacexai-mississippi-datacenter-permit-fines"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/georgias-silk-cloud-deploys-nvidia-blackwell-ultra-gpus/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/georgias-silk-cloud-deploys-nvidia-blackwell-ultra-gpus",
+      "title": "Georgia's Silk Cloud deploys Nvidia Blackwell Ultra GPUs",
+      "normalized_title": "georgias silk cloud deploys nvidia blackwell ultra gpus",
+      "published_on": "2026-10-24",
+      "primary_entity": "Silk Cloud / Fuse Energy",
+      "event_fingerprint": "silk-cloud-fuse-energy-gpu-deployments"
     }
   ],
   "version": 2,

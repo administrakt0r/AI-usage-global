@@ -5325,6 +5325,26 @@ export const blogPosts: BlogPost[] = [
       "unpermitted gas turbines",
     ],
   }),
+  createPost({
+    id: 320,
+    slug: "georgias-silk-cloud-deploys-nvidia-blackwell-ultra-gpus",
+    title: "Georgia's Silk Cloud deploys Nvidia Blackwell Ultra GPUs",
+    description: "Silk Cloud in Georgia and UK energy supplier Fuse Energy announce new regional AI compute infrastructure deployments using Nvidia GPUs.",
+    imageAlt: "Digital representation of high-density AI data center server racks and energy infrastructure",
+    publishedOn: "2026-10-24",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Silk Cloud",
+      "Fuse Energy",
+      "Nvidia Blackwell",
+      "Georgia AI",
+      "UK AI data centers",
+      "grid power pipeline",
+      "regional compute",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
