@@ -2888,6 +2888,15 @@
       "published_on": "2026-10-25",
       "primary_entity": "WIRED / Paris Marx",
       "event_fingerprint": "global-anti-data-center-movement-lessons"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/meta-details-ohio-prometheus-data-center-campus-with-first-phase-live/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/meta-details-ohio-prometheus-data-center-campus-with-first-phase-live",
+      "title": "Meta details Ohio Prometheus data center campus, with first phase live",
+      "normalized_title": "meta details ohio prometheus data center campus with first phase live",
+      "published_on": "2026-10-25",
+      "primary_entity": "Meta",
+      "event_fingerprint": "meta-prometheus-ohio-gigawatt-supercluster"
     }
   ],
   "version": 2,
