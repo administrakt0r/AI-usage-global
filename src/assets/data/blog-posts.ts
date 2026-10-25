@@ -5385,6 +5385,27 @@ export const blogPosts: BlogPost[] = [
       "Paris Marx Hyperscale",
     ],
   }),
+  createPost({
+    id: 323,
+    slug: "meta-ohio-prometheus-datacenter-launch",
+    title: "Meta details Ohio Prometheus data center campus, with first phase live",
+    description:
+      "Meta details its Prometheus AI supercluster in New Albany, Ohio, converting traditional data center buildings into a gigawatt-scale campus with Nvidia GB200 and GB300 chips.",
+    imageAlt: "Meta Prometheus AI supercluster campus in New Albany, Ohio",
+    publishedOn: "2026-10-25",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Meta",
+      "Prometheus supercluster",
+      "New Albany Ohio",
+      "Nvidia GB200",
+      "Nvidia GB300",
+      "liquid cooling",
+      "AI data center",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
