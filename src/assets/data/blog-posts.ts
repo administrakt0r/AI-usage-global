@@ -5427,6 +5427,27 @@ export const blogPosts: BlogPost[] = [
       "AI infrastructure",
     ],
   }),
+  createPost({
+    id: 325,
+    slug: "anthropic-discloses-417b-compute-commitments-in-s1-filing",
+    title: "Anthropic Discloses $417B Compute Commitments in S-1 Filing",
+    description:
+      "Anthropic's SEC S-1 IPO filing reveals $417 billion in long-term compute and data center payment obligations, highlighting the immense infrastructure costs of frontier AI scaling.",
+    imageAlt: "Anthropic Claude branding and data center compute infrastructure",
+    publishedOn: "2026-10-26",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Anthropic",
+      "S-1 filing",
+      "SEC IPO",
+      "compute commitments",
+      "data center liabilities",
+      "cloud infrastructure",
+      "AI scaling costs",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
