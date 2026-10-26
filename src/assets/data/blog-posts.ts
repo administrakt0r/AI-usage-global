@@ -5406,6 +5406,27 @@ export const blogPosts: BlogPost[] = [
       "AI data center",
     ],
   }),
+  createPost({
+    id: 324,
+    slug: "aws-montgomery-county-missouri-expansion",
+    title: "AWS Plans 15-Building Data Center Expansion in Missouri",
+    description:
+      "AWS proposes a 15-building expansion across 890 acres in Montgomery County, Missouri, alongside community talks for potential data center development in Posey County, Indiana.",
+    imageAlt: "Aerial view of data center land development in Missouri",
+    publishedOn: "2026-10-26",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "AWS",
+      "Amazon Web Services",
+      "Montgomery County Missouri",
+      "Posey County Indiana",
+      "data center expansion",
+      "CenterPoint Energy",
+      "AI infrastructure",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

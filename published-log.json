@@ -2897,6 +2897,15 @@
       "published_on": "2026-10-25",
       "primary_entity": "Meta",
       "event_fingerprint": "meta-prometheus-ohio-gigawatt-supercluster"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/aws-plans-to-expand-data-center-footprint-in-montgomery-county-missouri/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/aws-plans-to-expand-data-center-footprint-in-montgomery-county-missouri",
+      "title": "AWS plans to expand data center footprint in Montgomery County, Missouri",
+      "normalized_title": "aws plans to expand data center footprint in montgomery county missouri",
+      "published_on": "2026-10-26",
+      "primary_entity": "Amazon Web Services",
+      "event_fingerprint": "aws-montgomery-county-missouri-expansion"
     }
   ],
   "version": 2,
