@@ -5448,6 +5448,27 @@ export const blogPosts: BlogPost[] = [
       "AI scaling costs",
     ],
   }),
+  createPost({
+    id: 326,
+    slug: "spacex-apollo-40b-gpu-financing",
+    title: "SpaceX Secures $40 Billion GPU Lease Deal With Apollo",
+    description:
+      "SpaceX locks in a $40 billion financing deal with Apollo Global Management to lease Nvidia Vera Rubin GPUs and data center hardware for its AI infrastructure buildout.",
+    imageAlt: "Digital representation of GPU server racks and data center compute infrastructure financing",
+    publishedOn: "2026-10-26",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "SpaceX",
+      "Apollo Global Management",
+      "Nvidia Vera Rubin",
+      "GPU financing",
+      "AI compute costs",
+      "data center capex",
+      "Grok",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
