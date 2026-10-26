@@ -5469,6 +5469,27 @@ export const blogPosts: BlogPost[] = [
       "Grok",
     ],
   }),
+  createPost({
+    id: 327,
+    slug: "karman-nexgen-montreal-power-orchestration",
+    title: "Karman Boosts NexGen AI Server Capacity 60% in Montreal",
+    description:
+      "Karman deploys AI power orchestration software at NexGen Cloud's Montreal data center, allowing 16 Nvidia B300 servers to run within a 10-server power budget.",
+    imageAlt: "Digital representation of AI data center power orchestration and server rack energy management",
+    publishedOn: "2026-10-27",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Karman",
+      "NexGen Cloud",
+      "Montreal data center",
+      "AI power orchestration",
+      "Nvidia B300",
+      "compute capacity",
+      "grid constraints",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
