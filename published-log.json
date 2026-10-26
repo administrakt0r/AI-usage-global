@@ -2906,6 +2906,15 @@
       "published_on": "2026-10-26",
       "primary_entity": "Amazon Web Services",
       "event_fingerprint": "aws-montgomery-county-missouri-expansion"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/anthropic-files-s-1-for-ipo-with-417bn-in-compute-commitments/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/anthropic-files-s-1-for-ipo-with-417bn-in-compute-commitments",
+      "title": "Anthropic files S-1 for IPO, with $417bn in compute commitments",
+      "normalized_title": "anthropic files s 1 for ipo with 417bn in compute commitments",
+      "published_on": "2026-10-26",
+      "primary_entity": "Anthropic",
+      "event_fingerprint": "anthropic-s1-ipo-compute-commitments"
     }
   ],
   "version": 2,
