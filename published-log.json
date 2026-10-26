@@ -2924,6 +2924,15 @@
       "published_on": "2026-10-26",
       "primary_entity": "SpaceX / Apollo Global Management",
       "event_fingerprint": "spacex-apollo-40b-gpu-financing-deal"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/karman-completes-power-orchestration-pilot-at-nextgen-data-center-in-montreal-canada/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/karman-completes-power-orchestration-pilot-at-nextgen-data-center-in-montreal-canada",
+      "title": "Karman completes power orchestration pilot at NextGen data center in Montreal, Canada",
+      "normalized_title": "karman completes power orchestration pilot at nextgen data center in montreal canada",
+      "published_on": "2026-10-27",
+      "primary_entity": "Karman / NexGen Cloud",
+      "event_fingerprint": "karman-nexgen-montreal-power-orchestration"
     }
   ],
   "version": 2,
