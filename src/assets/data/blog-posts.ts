@@ -5490,6 +5490,25 @@ export const blogPosts: BlogPost[] = [
       "grid constraints",
     ],
   }),
+  createPost({
+    id: 328,
+    slug: "spain-revises-data-center-renewable-mandate",
+    title: "Spain Revises Renewable Energy Mandate for Data Centers",
+    description: "Spain eases data center clean power mandates by raising the threshold to 10 MW and extending renewable matching timelines as grid requests surpass 10 GW.",
+    imageAlt: "Solar panels and wind turbines supplying power to data centers in Spain",
+    publishedOn: "2026-10-27",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Spain data center mandate",
+      "renewable energy mandate",
+      "AI energy consumption",
+      "80% hourly matching",
+      "grid interconnection queue",
+      "European AI infrastructure",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

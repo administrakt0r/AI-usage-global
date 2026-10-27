@@ -2933,6 +2933,15 @@
       "published_on": "2026-10-27",
       "primary_entity": "Karman / NexGen Cloud",
       "event_fingerprint": "karman-nexgen-montreal-power-orchestration"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/spain-revises-data-center-renewable-mandate/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/spain-revises-data-center-renewable-mandate",
+      "title": "Spain Revises Renewable Energy Mandate for Data Centers",
+      "normalized_title": "spain revises renewable energy mandate for data centers",
+      "published_on": "2026-10-27",
+      "primary_entity": "Spanish Government",
+      "event_fingerprint": "spain-data-center-renewable-mandate-revision"
     }
   ],
   "version": 2,
