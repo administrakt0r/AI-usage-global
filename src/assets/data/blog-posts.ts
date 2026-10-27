@@ -5530,6 +5530,26 @@ export const blogPosts: BlogPost[] = [
       "AI energy infrastructure",
     ],
   }),
+  createPost({
+    id: 330,
+    slug: "data-center-boom-spurs-us-grid-innovation",
+    title: "The data center boom has an upside: innovation for the US grid",
+    description:
+      "Surging electricity demand from AI data centers is driving rapid innovation and modernization across the US power grid, from load orchestration software to superconducting transmission lines.",
+    imageAlt: "Digital representation of power grid transmission infrastructure and AI data center energy management",
+    publishedOn: "2026-10-27",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "AI power grid",
+      "data center energy demand",
+      "grid modernization",
+      "load orchestration",
+      "superconductive cables",
+      "utility ratepayer protection",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

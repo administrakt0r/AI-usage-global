@@ -2951,6 +2951,15 @@
       "published_on": "2026-10-27",
       "primary_entity": "Microsoft / Nscale",
       "event_fingerprint": "microsoft-abandons-uk-ai-supercomputer-grid-delays"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
+      "normalized_url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid",
+      "title": "The data center boom has an upside: innovation for the US grid",
+      "normalized_title": "the data center boom has an upside innovation for the us grid",
+      "published_on": "2026-10-27",
+      "primary_entity": "TechCrunch Disrupt / US Power Grid",
+      "event_fingerprint": "data-center-boom-spurs-us-grid-innovation"
     }
   ],
   "version": 2,
