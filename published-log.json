@@ -2942,6 +2942,15 @@
       "published_on": "2026-10-27",
       "primary_entity": "Spanish Government",
       "event_fingerprint": "spain-data-center-renewable-mandate-revision"
+    },
+    {
+      "canonical_url": "https://www.theregister.com/on-prem/2026/10/19/microsoft-abandons-uk-ai-supercomputer-as-grid-struggles-to-keep-up/5303824",
+      "normalized_url": "https://www.theregister.com/on-prem/2026/10/19/microsoft-abandons-uk-ai-supercomputer-as-grid-struggles-to-keep-up/5303824",
+      "title": "Microsoft abandons UK AI supercomputer as grid struggles to keep up",
+      "normalized_title": "microsoft abandons uk ai supercomputer as grid struggles to keep up",
+      "published_on": "2026-10-27",
+      "primary_entity": "Microsoft / Nscale",
+      "event_fingerprint": "microsoft-abandons-uk-ai-supercomputer-grid-delays"
     }
   ],
   "version": 2,

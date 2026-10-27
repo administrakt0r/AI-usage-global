@@ -5509,6 +5509,27 @@ export const blogPosts: BlogPost[] = [
       "European AI infrastructure",
     ],
   }),
+  createPost({
+    id: 329,
+    slug: "microsoft-abandons-uk-ai-supercomputer-over-power-grid-delays",
+    title: "Microsoft Abandons UK AI Supercomputer Over Power Grid Delays",
+    description: "Microsoft cancels contract for Nscale's 90 MW Essex AI data center as national power grid transmission delays stretch expected startup into the 2030s.",
+    imageAlt: "Digital representation of high-voltage power transmission lines and AI data center infrastructure in the UK",
+    publishedOn: "2026-10-27",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "Microsoft",
+      "Nscale",
+      "UK AI supercomputer",
+      "Loughton Essex",
+      "power grid delays",
+      "UK Power Networks",
+      "national transmission network",
+      "AI energy infrastructure",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
