@@ -5571,6 +5571,26 @@ export const blogPosts: BlogPost[] = [
       "data center moratoriums",
     ],
   }),
+  createPost({
+    id: 332,
+    slug: "uk-data-center-covenant-grid-priority",
+    title: "UK Budget Ties Data Center Grid Priority to Community Covenant",
+    description:
+      "UK Chancellor John Healey unveils the British Data Center Covenant, granting priority grid connections and on-site generation permits to data center operators meeting community investment and water protection standards.",
+    imageAlt: "Digital representation of UK power grid infrastructure and data center developments",
+    publishedOn: "2026-10-28",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "UK budget",
+      "John Healey",
+      "British Data Center Covenant",
+      "grid priority",
+      "water protection",
+      "data center power grid",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
