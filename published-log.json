@@ -2960,6 +2960,15 @@
       "published_on": "2026-10-27",
       "primary_entity": "TechCrunch Disrupt / US Power Grid",
       "event_fingerprint": "data-center-boom-spurs-us-grid-innovation"
+    },
+    {
+      "canonical_url": "https://www.datacenterknowledge.com/energy-power-supply/the-power-challenge-behind-hyperscale-ai-expansion",
+      "normalized_url": "https://www.datacenterknowledge.com/energy-power-supply/the-power-challenge-behind-hyperscale-ai-expansion",
+      "title": "The Power Challenge Behind Hyperscale AI Expansion",
+      "normalized_title": "the power challenge behind hyperscale ai expansion",
+      "published_on": "2026-10-28",
+      "primary_entity": "Industrial Info Resources",
+      "event_fingerprint": "iir-hyperscale-ai-power-expansion-report"
     }
   ],
   "version": 2,

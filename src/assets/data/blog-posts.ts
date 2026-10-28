@@ -5550,6 +5550,27 @@ export const blogPosts: BlogPost[] = [
       "utility ratepayer protection",
     ],
   }),
+  createPost({
+    id: 331,
+    slug: "hyperscale-ai-data-center-power-expansion-challenge",
+    title: "Hyperscale AI Power Demand Reaches Critical Bottlenecks",
+    description:
+      "Industrial Info Resources reports hyperscaler capex has hit $700 billion as global data center commitments top $7 trillion, driving 10-year grid queue delays and turbine shortages.",
+    imageAlt: "Digital representation of hyperscale data centers and power grid transmission infrastructure",
+    publishedOn: "2026-10-28",
+    category: AI_USAGE,
+    readTime: 3,
+    featured: false,
+    keywords: [
+      "hyperscaler capex",
+      "Industrial Info Resources",
+      "data center power demand",
+      "utility queue delays",
+      "gas turbines",
+      "behind-the-meter generation",
+      "data center moratoriums",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
