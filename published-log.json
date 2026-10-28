@@ -2969,6 +2969,15 @@
       "published_on": "2026-10-28",
       "primary_entity": "Industrial Info Resources",
       "event_fingerprint": "iir-hyperscale-ai-power-expansion-report"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/uk-budget-grid-connection-incentives-for-data-centers-under-new-covenant/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/uk-budget-grid-connection-incentives-for-data-centers-under-new-covenant",
+      "title": "UK budget: Grid connection incentives for data centers under new “covenant”",
+      "normalized_title": "uk budget grid connection incentives for data centers under new covenant",
+      "published_on": "2026-10-28",
+      "primary_entity": "UK Government / John Healey",
+      "event_fingerprint": "uk-data-center-covenant-priority-grid-access"
     }
   ],
   "version": 2,
