@@ -2978,6 +2978,15 @@
       "published_on": "2026-10-28",
       "primary_entity": "UK Government / John Healey",
       "event_fingerprint": "uk-data-center-covenant-priority-grid-access"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/aib-plans-50mw-ai-data-center-at-former-spartanburg-cryptomine-to-serve-nebius/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/aib-plans-50mw-ai-data-center-at-former-spartanburg-cryptomine-to-serve-nebius",
+      "title": "AIB plans 50MW AI data center at former Spartanburg cryptomine to serve Nebius",
+      "normalized_title": "aib plans 50mw ai data center at former spartanburg cryptomine to serve nebius",
+      "published_on": "2026-10-29",
+      "primary_entity": "AIB Data Centers / Nebius",
+      "event_fingerprint": "spartanburg-cryptomine-ai-conversion"
     }
   ],
   "version": 2,

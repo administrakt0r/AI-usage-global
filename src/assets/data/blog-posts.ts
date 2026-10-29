@@ -5592,6 +5592,27 @@ export const blogPosts: BlogPost[] = [
       "Ofgem",
     ],
   }),
+  createPost({
+    id: 333,
+    slug: "aib-plans-50mw-ai-data-center-at-former-south-carolina-cryptomine",
+    title: "AIB Plans 50 MW AI Data Center at Former South Carolina Cryptomine",
+    description:
+      "AIB Data Centers redevelops a former Bitcoin mining site in Spartanburg County into a 50 MW AI campus leased to Nebius under a local moratorium exemption.",
+    imageAlt: "Data center facility in Spartanburg County, South Carolina transitioning from cryptomining to AI compute",
+    publishedOn: "2026-10-29",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "AIB Data Centers",
+      "Nebius",
+      "Spartanburg County",
+      "cryptomine conversion",
+      "data center moratorium",
+      "65 MW utility power",
+      "AI infrastructure",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
