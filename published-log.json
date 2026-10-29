@@ -2996,6 +2996,15 @@
       "published_on": "2026-10-29",
       "primary_entity": "FirstEnergy",
       "event_fingerprint": "firstenergy-26gw-datacenter-pipeline-maidsville"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/700mw-data-center-project-proposed-outside-lansing-michigan/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/700mw-data-center-project-proposed-outside-lansing-michigan",
+      "title": "700MW data center project proposed outside Lansing, Michigan",
+      "normalized_title": "700mw data center project proposed outside lansing michigan",
+      "published_on": "2026-10-29",
+      "primary_entity": "Lansing Economic Area Partnership / Lighthouse Sustainability",
+      "event_fingerprint": "michigan-700mw-data-center-proposal-backlash"
     }
   ],
   "version": 2,
