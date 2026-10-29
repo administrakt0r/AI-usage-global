@@ -5633,6 +5633,27 @@ export const blogPosts: BlogPost[] = [
       "transmission upgrades",
     ],
   }),
+  createPost({
+    id: 335,
+    slug: "michigan-700mw-data-center-proposal-sparks-backlash",
+    title: "Proposed 700 MW Michigan AI Data Center Sparks Immediate Local Resistance",
+    description:
+      "LEAP and Lighthouse Sustainability propose a $10B, 700 MW data center campus in Holt, Michigan, prompting Delhi Township to terminate its economic partnership and prepare an opposing resolution.",
+    imageAlt: "Aerial view of proposed data center site land in Holt, Michigan",
+    publishedOn: "2026-10-29",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Michigan data center",
+      "700 MW data center",
+      "Delhi Township moratorium",
+      "Lansing Economic Area Partnership",
+      "Lighthouse Sustainability",
+      "Holt Economic Opportunity Park",
+      "AI power demand",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
