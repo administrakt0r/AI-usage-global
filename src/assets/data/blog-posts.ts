@@ -5613,6 +5613,26 @@ export const blogPosts: BlogPost[] = [
       "AI infrastructure",
     ],
   }),
+  createPost({
+    id: 334,
+    slug: "firstenergy-datacenter-pipeline-expansion-2026",
+    title: "FirstEnergy Data Center Pipeline Hits 26 GW as Gas Plans Expand",
+    description:
+      "FirstEnergy's data center pipeline reaches 26 GW in Q3 2026 as its West Virginia units plan a $2.7B, 1.2 GW gas plant and issue a 3 GW turbine solicitation.",
+    imageAlt: "Power transmission lines and data center energy infrastructure for FirstEnergy",
+    publishedOn: "2026-10-29",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "FirstEnergy",
+      "data center pipeline",
+      "Maidsville Energy Center",
+      "gas-fired power plant",
+      "West Virginia AI",
+      "transmission upgrades",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

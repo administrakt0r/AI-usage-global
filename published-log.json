@@ -2987,6 +2987,15 @@
       "published_on": "2026-10-29",
       "primary_entity": "AIB Data Centers / Nebius",
       "event_fingerprint": "spartanburg-cryptomine-ai-conversion"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/firstenergy-data-center-pipeline-maidsville/873149/",
+      "normalized_url": "https://www.utilitydive.com/news/firstenergy-data-center-pipeline-maidsville/873149",
+      "title": "FirstEnergy data center pipeline increases 5% to 26 GW in Q3",
+      "normalized_title": "firstenergy data center pipeline increases 5 to 26 gw in q3",
+      "published_on": "2026-10-29",
+      "primary_entity": "FirstEnergy",
+      "event_fingerprint": "firstenergy-26gw-datacenter-pipeline-maidsville"
     }
   ],
   "version": 2,
