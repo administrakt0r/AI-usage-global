@@ -5675,6 +5675,27 @@ export const blogPosts: BlogPost[] = [
       "Scope 3 emissions",
     ],
   }),
+  createPost({
+    id: 337,
+    slug: "caiso-large-load-grid-connection-rules",
+    title: "CAISO Proposes New Grid Connection Rules for Large AI Loads",
+    description:
+      "California grid operator CAISO approves rules governing 50 MW+ data centers, introducing remote disconnection powers, cost protections, and phased interconnection.",
+    imageAlt: "High-voltage electrical transmission towers and digital data center grid infrastructure in California",
+    publishedOn: "2026-10-30",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "CAISO",
+      "FERC",
+      "AI data centers",
+      "grid interconnection",
+      "large load tariff",
+      "ratepayer protection",
+      "California power grid",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

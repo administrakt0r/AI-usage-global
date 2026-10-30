@@ -3014,6 +3014,15 @@
       "published_on": "2026-10-30",
       "primary_entity": "Meta / Fortera",
       "event_fingerprint": "meta-fortera-low-carbon-cement"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/caiso-proposes-new-rules-for-large-loads-seeking-california-grid-connection/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/caiso-proposes-new-rules-for-large-loads-seeking-california-grid-connection",
+      "title": "CAISO proposes new rules for large loads seeking California grid connection",
+      "normalized_title": "caiso proposes new rules for large loads seeking california grid connection",
+      "published_on": "2026-10-30",
+      "primary_entity": "California Independent System Operator (CAISO)",
+      "event_fingerprint": "caiso-large-load-grid-connection-rules"
     }
   ],
   "version": 2,
