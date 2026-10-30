@@ -3005,6 +3005,15 @@
       "published_on": "2026-10-29",
       "primary_entity": "Lansing Economic Area Partnership / Lighthouse Sustainability",
       "event_fingerprint": "michigan-700mw-data-center-proposal-backlash"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/meta-to-buy-200000-tons-of-low-carbon-cement-associated-credits-from-fortera/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/meta-to-buy-200000-tons-of-low-carbon-cement-associated-credits-from-fortera",
+      "title": "Meta to buy 200,000 tons of low carbon cement associated credits from Fortera",
+      "normalized_title": "meta to buy 200000 tons of low carbon cement associated credits from fortera",
+      "published_on": "2026-10-30",
+      "primary_entity": "Meta / Fortera",
+      "event_fingerprint": "meta-fortera-low-carbon-cement"
     }
   ],
   "version": 2,
