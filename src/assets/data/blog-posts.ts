@@ -5654,6 +5654,27 @@ export const blogPosts: BlogPost[] = [
       "AI power demand",
     ],
   }),
+  createPost({
+    id: 336,
+    slug: "meta-fortera-low-carbon-cement",
+    title: "Meta Buys 200,000 Tons of Low-Carbon Cement Credits for AI Buildout",
+    description:
+      "Meta signs a multi-year deal with Fortera to acquire environmental attribute certificates for 200,000 tons of low-carbon cement to decarbonize AI data center construction.",
+    imageAlt: "Digital representation of low-carbon cement manufacturing and data center construction for Meta",
+    publishedOn: "2026-10-30",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Meta",
+      "Fortera",
+      "low-carbon cement",
+      "data center construction",
+      "embodied carbon",
+      "environmental attribute certificates",
+      "Scope 3 emissions",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
