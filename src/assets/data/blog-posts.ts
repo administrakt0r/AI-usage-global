@@ -5718,6 +5718,29 @@ export const blogPosts: BlogPost[] = [
       "West Virginia",
     ],
   }),
+  createPost({
+    id: 339,
+    slug: "aep-expands-capital-plan-to-100b-as-ai-loads-hit-84-gw",
+    title: "AEP Expands Capital Plan to $100B as AI Loads Hit 84 GW",
+    description:
+      "American Electric Power lifts its five-year capital plan to $100B, adding $22B for gas-fired power and transmission to serve 84 GW in contracted large data center loads.",
+    imageAlt: "High-voltage power transmission towers and electrical substations supplying a large-scale data center complex",
+    publishedOn: "2026-10-31",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "American Electric Power",
+      "AEP",
+      "AI data centers",
+      "capital expenditure",
+      "84 GW load",
+      "transmission lines",
+      "gas-fired generation",
+      "SB Energy",
+      "Ohio power grid",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
