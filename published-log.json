@@ -3023,6 +3023,15 @@
       "published_on": "2026-10-30",
       "primary_entity": "California Independent System Operator (CAISO)",
       "event_fingerprint": "caiso-large-load-grid-connection-rules"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "normalized_url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia",
+      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "normalized_title": "nvidia weighs playing the cosigner for nscales ai data center in west virginia",
+      "published_on": "2026-10-31",
+      "primary_entity": "Nvidia / Nscale",
+      "event_fingerprint": "nvidia-nscale-west-virginia-debt-guarantee"
     }
   ],
   "version": 2,

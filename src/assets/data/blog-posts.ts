@@ -5696,6 +5696,28 @@ export const blogPosts: BlogPost[] = [
       "California power grid",
     ],
   }),
+  createPost({
+    id: 338,
+    slug: "nvidia-backs-nscale-west-virginia-ai-data-center",
+    title: "Nvidia Weighs Residual Debt Guarantees for Nscale AI Data Center",
+    description:
+      "Nvidia considers residual value debt guarantees for Nscale's planned Anthropic AI data center in West Virginia to cover electrical and construction expenditures.",
+    imageAlt: "AI data center infrastructure under construction with high-voltage power transmission lines",
+    publishedOn: "2026-10-31",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Nvidia",
+      "Nscale",
+      "Anthropic",
+      "AI data centers",
+      "debt guarantees",
+      "capital expenditures",
+      "Vera Rubin chips",
+      "West Virginia",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
