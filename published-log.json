@@ -3041,6 +3041,15 @@
       "published_on": "2026-10-31",
       "primary_entity": "American Electric Power",
       "event_fingerprint": "aep-100b-capital-plan-84gw-large-loads"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
+      "normalized_url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out",
+      "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
+      "normalized_title": "can ai data centers be mass produced like cars this startup aims to find out",
+      "published_on": "2026-10-31",
+      "primary_entity": "Runware",
+      "event_fingerprint": "runware-assembly-line-modular-datacenter-factory"
     }
   ],
   "version": 2,
