@@ -3050,6 +3050,15 @@
       "published_on": "2026-10-31",
       "primary_entity": "Runware",
       "event_fingerprint": "runware-assembly-line-modular-datacenter-factory"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "normalized_url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward",
+      "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "normalized_title": "judge allows naacp lawsuit over xai data center pollution to move forward",
+      "published_on": "2026-10-31",
+      "primary_entity": "U.S. District Court / xAI / NAACP",
+      "event_fingerprint": "xai-clean-air-act-naacp-lawsuit-ruling"
     }
   ],
   "version": 2,
