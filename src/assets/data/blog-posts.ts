@@ -5741,6 +5741,28 @@ export const blogPosts: BlogPost[] = [
       "Ohio power grid",
     ],
   }),
+  createPost({
+    id: 340,
+    slug: "runware-plans-auto-style-modular-ai-data-center-factory",
+    title: "Runware Plans Auto-Style Modular AI Data Center Factory",
+    description:
+      "Runware plans an automotive-style factory to produce 30 MW daily of water-free modular AI data center pods, bypassing multi-year utility queue delays.",
+    imageAlt: "Assembly line manufacturing of modular AI data center pods with closed-loop cooling systems",
+    publishedOn: "2026-10-31",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Runware",
+      "modular data centers",
+      "closed-loop liquid cooling",
+      "waterless cooling",
+      "inference pods",
+      "grid interconnection",
+      "30 MW daily capacity",
+      "prefabricated data centers",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
