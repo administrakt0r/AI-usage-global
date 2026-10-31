@@ -3032,6 +3032,15 @@
       "published_on": "2026-10-31",
       "primary_entity": "Nvidia / Nscale",
       "event_fingerprint": "nvidia-nscale-west-virginia-debt-guarantee"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/aep-transmission-data-center-earnings/873189/",
+      "normalized_url": "https://www.utilitydive.com/news/aep-transmission-data-center-earnings/873189",
+      "title": "AEP increases investment plan 30% on generation, transmission spending",
+      "normalized_title": "aep increases investment plan 30 on generation transmission spending",
+      "published_on": "2026-10-31",
+      "primary_entity": "American Electric Power",
+      "event_fingerprint": "aep-100b-capital-plan-84gw-large-loads"
     }
   ],
   "version": 2,
