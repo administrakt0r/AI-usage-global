@@ -3059,6 +3059,15 @@
       "published_on": "2026-10-31",
       "primary_entity": "U.S. District Court / xAI / NAACP",
       "event_fingerprint": "xai-clean-air-act-naacp-lawsuit-ruling"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/finnish-police-open-criminal-investigation-into-google-over-reported-mass-tree-felling-at-data-center-site/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/finnish-police-open-criminal-investigation-into-google-over-reported-mass-tree-felling-at-data-center-site",
+      "title": "Finnish police open criminal investigation into Google over reported mass tree felling at data center site",
+      "normalized_title": "finnish police open criminal investigation into google over reported mass tree felling at data center site",
+      "published_on": "2026-10-31",
+      "primary_entity": "Finnish Police (Poliisi) / Google",
+      "event_fingerprint": "google-finland-ai-datacenter-criminal-probe"
     }
   ],
   "version": 2,

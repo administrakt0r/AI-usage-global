@@ -5785,6 +5785,18 @@ export const blogPosts: BlogPost[] = [
       "behind-the-meter power",
     ],
   }),
+  createPost({
+    id: 342,
+    slug: "finnish-police-probe-google-ai-datacenter-deforestation",
+    title: "Finnish Police Probe Google Over AI Data Center Deforestation",
+    description:
+      "Finnish police open a criminal investigation into Google subsidiary Tuike Finland over suspected environmental violations, unpermitted drainage, and felling 250,000 trees at an AI data center site.",
+    imageAlt: "Digital representation of a Finnish forest and environmental regulatory investigation at an AI data center construction site",
+    publishedOn: "2026-10-31",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
