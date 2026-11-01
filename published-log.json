@@ -3077,6 +3077,15 @@
       "published_on": "2026-11-01",
       "primary_entity": "Alphabet / Amazon / Meta / Microsoft",
       "event_fingerprint": "big-tech-740b-ai-infrastructure-capex-surge"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/dayone-signs-mou-with-sembcorp-to-integrate-power-and-energy-solutions-across-apac-data-centers/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/dayone-signs-mou-with-sembcorp-to-integrate-power-and-energy-solutions-across-apac-data-centers",
+      "title": "DayOne signs MoU with Sembcorp to integrate power and energy solutions across APAC data centers",
+      "normalized_title": "dayone signs mou with sembcorp to integrate power and energy solutions across apac data centers",
+      "published_on": "2026-11-01",
+      "primary_entity": "DayOne / Sembcorp Utilities",
+      "event_fingerprint": "dayone-sembcorp-bring-your-own-power-initiative"
     }
   ],
   "version": 2,
