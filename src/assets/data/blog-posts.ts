@@ -5763,6 +5763,28 @@ export const blogPosts: BlogPost[] = [
       "prefabricated data centers",
     ],
   }),
+  createPost({
+    id: 341,
+    slug: "judge-allows-naacp-lawsuit-over-xai-gas-turbines",
+    title: "Judge Allows NAACP Lawsuit Over xAI Data Center Gas Turbines",
+    description:
+      "A federal judge denied xAI's motion to dismiss an NAACP Clean Air Act lawsuit challenging at least 35 unpermitted gas turbines powering its Colossus AI data center.",
+    imageAlt: "Industrial natural gas turbines providing power at an artificial intelligence data center complex",
+    publishedOn: "2026-10-31",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "xAI",
+      "Clean Air Act",
+      "gas turbines",
+      "Colossus",
+      "NAACP",
+      "data center emissions",
+      "air pollution",
+      "behind-the-meter power",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
