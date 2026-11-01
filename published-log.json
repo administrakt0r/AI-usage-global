@@ -3068,6 +3068,15 @@
       "published_on": "2026-10-31",
       "primary_entity": "Finnish Police (Poliisi) / Google",
       "event_fingerprint": "google-finland-ai-datacenter-criminal-probe"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+      "normalized_url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom",
+      "title": "Cracks are emerging in the AI spending boom",
+      "normalized_title": "cracks are emerging in the ai spending boom",
+      "published_on": "2026-11-01",
+      "primary_entity": "Alphabet / Amazon / Meta / Microsoft",
+      "event_fingerprint": "big-tech-740b-ai-infrastructure-capex-surge"
     }
   ],
   "version": 2,
