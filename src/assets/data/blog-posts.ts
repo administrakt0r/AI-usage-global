@@ -5797,6 +5797,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 343,
+    slug: "big-tech-ai-capex-tops-740-billion-as-cash-flow-plunges",
+    title: "Big Tech AI Capex Tops $740 Billion as Cash Flow Plunges",
+    description:
+      "Big Tech capex commitments exceed $740 billion in 2026 for AI infrastructure, flipping Alphabet, Amazon, and Meta into negative free cash flow as debt climbs to $326 billion.",
+    imageAlt: "Digital representation of enterprise financial balance sheets and high-density AI data center server racks experiencing heavy compute workloads",
+    publishedOn: "2026-11-01",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
