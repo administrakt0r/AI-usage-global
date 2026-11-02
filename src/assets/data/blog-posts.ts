@@ -5809,6 +5809,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 344,
+    slug: "dayone-sembcorp-bring-your-own-power-initiative",
+    title: "DayOne and Sembcorp Partner on Bring Your Own Power Initiative",
+    description:
+      "DayOne and Sembcorp Utilities sign an MOU to integrate dedicated on-site power and renewables across Asian AI data centers to bypass regional grid constraints.",
+    imageAlt: "Digital representation of dedicated on-site power generation and high-density AI data center infrastructure in Asia",
+    publishedOn: "2026-11-01",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
