@@ -5821,6 +5821,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 345,
+    slug: "google-funds-160m-malaysia-water-plant-for-data-center",
+    title: "Google Invests $160 Million in Malaysian Water Treatment",
+    description:
+      "Google commits $160 million to build an off-river reservoir and water treatment plant in Negeri Sembilan, Malaysia, providing 65 million liters daily to supply both local residents and its 1GW-scale data center campus.",
+    imageAlt: "Digital representation of an off-river water reservoir, water treatment infrastructure, and high-density hyperscale data centers in Malaysia",
+    publishedOn: "2026-11-02",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (

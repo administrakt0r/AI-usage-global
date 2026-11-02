@@ -3086,6 +3086,15 @@
       "published_on": "2026-11-01",
       "primary_entity": "DayOne / Sembcorp Utilities",
       "event_fingerprint": "dayone-sembcorp-bring-your-own-power-initiative"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/google-commits-160m-to-develop-water-treatment-plant-for-planned-data-center-in-negeri-sembilan-malaysia/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/google-commits-160m-to-develop-water-treatment-plant-for-planned-data-center-in-negeri-sembilan-malaysia",
+      "title": "Google commits $160m to develop water treatment plant for planned data center in Negeri Sembilan, Malaysia",
+      "normalized_title": "google commits 160m to develop water treatment plant for planned data center in negeri sembilan malaysia",
+      "published_on": "2026-11-02",
+      "primary_entity": "Google",
+      "event_fingerprint": "google-malaysia-water-treatment-plant"
     }
   ],
   "version": 2,
