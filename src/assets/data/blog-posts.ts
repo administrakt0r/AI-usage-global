@@ -5833,6 +5833,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 346,
+    slug: "envision-deploys-first-800vdc-ai-data-center",
+    title: "Envision Deploys First 800VDC AI Data Center in Ulanqab",
+    description:
+      "Envision deploys the first operational 800VDC power system at its Galaxy AI data center in Ulanqab, China, eliminating multi-stage AC power conversions for high-density compute workloads.",
+    imageAlt: "Digital representation of an 800V direct current power system and high-density AI data center server racks in Inner Mongolia",
+    publishedOn: "2026-11-02",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
