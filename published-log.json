@@ -3095,6 +3095,15 @@
       "published_on": "2026-11-02",
       "primary_entity": "Google",
       "event_fingerprint": "google-malaysia-water-treatment-plant"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/envision-claims-to-be-running-the-worlds-first-800vdc-data-center-in-ulanqab-china/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/envision-claims-to-be-running-the-worlds-first-800vdc-data-center-in-ulanqab-china",
+      "title": "Envision claims to be running the world's first 800VDC data center in Ulanqab, China",
+      "normalized_title": "envision claims to be running the worlds first 800vdc data center in ulanqab china",
+      "published_on": "2026-11-02",
+      "primary_entity": "Envision Energy",
+      "event_fingerprint": "envision-ulanqab-800vdc-data-center"
     }
   ],
   "version": 2,
