@@ -5857,6 +5857,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 348,
+    slug: "openai-launches-grid-protectors-program",
+    title: "OpenAI Launches Grid Protectors Program for AI Data Centers",
+    description:
+      "OpenAI unveils the voluntary Grid Protectors Program to coordinate demand response, battery storage, and power curtailment during periods of extreme electric grid strain.",
+    imageAlt: "Illustration of electrical power transmission lines connected to a high-capacity AI data center campus",
+    publishedOn: "2026-11-03",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
