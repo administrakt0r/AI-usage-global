@@ -5845,6 +5845,18 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 347,
+    slug: "tract-plans-500mw-uk-data-center-campus",
+    title: "Tract Plans 500MW AI Data Center Campus in County Durham, UK",
+    description:
+      "Tract plans its first international expansion with a 500MW, seven-building data center campus in County Durham, UK, tapping into regional grid upgrades.",
+    imageAlt: "Digital rendering of planned data center buildings and electrical substation infrastructure in County Durham UK",
+    publishedOn: "2026-11-03",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (

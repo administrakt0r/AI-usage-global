@@ -3104,6 +3104,15 @@
       "published_on": "2026-11-02",
       "primary_entity": "Envision Energy",
       "event_fingerprint": "envision-ulanqab-800vdc-data-center"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/tract-expands-into-uk-plans-500mw-campus-in-durham/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/tract-expands-into-uk-plans-500mw-campus-in-durham",
+      "title": "Tract expands into UK, plans 500MW campus in Durham",
+      "normalized_title": "tract expands into uk plans 500mw campus in durham",
+      "published_on": "2026-11-03",
+      "primary_entity": "Tract",
+      "event_fingerprint": "tract-durham-500mw-uk-campus"
     }
   ],
   "version": 2,
