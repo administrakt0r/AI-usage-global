@@ -3113,6 +3113,15 @@
       "published_on": "2026-11-03",
       "primary_entity": "Tract",
       "event_fingerprint": "tract-durham-500mw-uk-campus"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/openai-launches-grid-protectors-program-to-reduce-data-center-electricity-demand-when-the-us-grid-is-under-strain-openai-has-launched-a-plan-to-reduce-the-impact-of-its-data-centers-on-the-us-grid-the-non-binding-grid-protectors-program-aims-to-re/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/openai-launches-grid-protectors-program-to-reduce-data-center-electricity-demand-when-the-us-grid-is-under-strain-openai-has-launched-a-plan-to-reduce-the-impact-of-its-data-centers-on-the-us-grid-the-non-binding-grid-protectors-program-aims-to-re",
+      "title": "OpenAI launches 'Grid Protectors Program' to reduce data center electricity demand when the US grid is under strain",
+      "normalized_title": "openai launches grid protectors program to reduce data center electricity demand when the us grid is under strain",
+      "published_on": "2026-11-03",
+      "primary_entity": "OpenAI",
+      "event_fingerprint": "openai-grid-protectors-program"
     }
   ],
   "version": 2,
