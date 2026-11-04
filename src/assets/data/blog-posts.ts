@@ -5869,6 +5869,20 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 349,
+    slug: "data-centers-jet-engines-grid-queues",
+    title:
+      "AI Data Centers Turn to Retired Jet Engines to Bypass Grid Queues",
+    description:
+      "Facing grid connection delays stretching past 2030, AI data center operators are deploying repurposed aircraft jet engines to generate behind-the-meter power.",
+    imageAlt:
+      "Industrial aeroderivative gas turbine generator repurposed from an aircraft engine installed at an AI data center site",
+    publishedOn: "2026-11-04",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
