@@ -3140,6 +3140,15 @@
       "published_on": "2026-11-04",
       "primary_entity": "California Resources Corporation / Bloom Energy",
       "event_fingerprint": "crc-bloom-energy-1gw-fuel-cells-california"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/local-data-center-moratoria-limits-and-restrictions-voted-in-across-the-us/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/local-data-center-moratoria-limits-and-restrictions-voted-in-across-the-us",
+      "title": "Local data center moratoria, limits, and restrictions voted in across the US",
+      "normalized_title": "local data center moratoria limits and restrictions voted in across the us",
+      "published_on": "2026-11-04",
+      "primary_entity": "US Municipal and County Voters",
+      "event_fingerprint": "us-local-data-center-moratoria-ballot-measures"
     }
   ],
   "version": 2,

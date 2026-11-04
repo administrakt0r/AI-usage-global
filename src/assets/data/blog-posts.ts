@@ -5897,6 +5897,20 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 351,
+    slug: "us-voters-approve-data-center-moratoria-and-limits",
+    title:
+      "US Voters Approve Dozens of Local Data Center Bans and Moratoria",
+    description:
+      "Voters across US communities passed dozens of ballot measures imposing bans, moratoria, and strict power and water limits on new data center developments.",
+    imageAlt:
+      "A polling place sign and ballot boxes with industrial utility infrastructure in the background",
+    publishedOn: "2026-11-04",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
