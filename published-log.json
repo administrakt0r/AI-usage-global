@@ -3131,6 +3131,15 @@
       "published_on": "2026-11-04",
       "primary_entity": "TechCrunch / ProEnergy / xAI",
       "event_fingerprint": "ai-datacenter-converted-jet-engine-power"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/california-resources-and-bloom-energy-eye-1gw-of-fuel-cells-across-california-to-power-data-centers-and-other-offtakers/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/california-resources-and-bloom-energy-eye-1gw-of-fuel-cells-across-california-to-power-data-centers-and-other-offtakers",
+      "title": "California Resources and Bloom Energy eye 1GW of fuel cells across California to power data centers and other offtakers",
+      "normalized_title": "california resources and bloom energy eye 1gw of fuel cells across california to power data centers and other offtakers",
+      "published_on": "2026-11-04",
+      "primary_entity": "California Resources Corporation / Bloom Energy",
+      "event_fingerprint": "crc-bloom-energy-1gw-fuel-cells-california"
     }
   ],
   "version": 2,

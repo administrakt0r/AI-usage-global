@@ -5883,6 +5883,20 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 350,
+    slug: "crc-bloom-energy-1gw-fuel-cells-california",
+    title:
+      "Bloom and CRC Target 1GW of Fuel Cells for California AI Hubs",
+    description:
+      "California Resources Corporation and Bloom Energy partner to evaluate deploying 1GW or more of solid oxide fuel cells with carbon capture for AI data centers.",
+    imageAlt:
+      "Solid oxide fuel cell generation modules and carbon capture infrastructure installed near an industrial data center campus",
+    publishedOn: "2026-11-04",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
