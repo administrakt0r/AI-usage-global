@@ -5897,6 +5897,20 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 351,
+    slug: "aps-delays-coal-plant-retirement-to-fuel-ai-data-center-surge",
+    title:
+      "APS Delays Coal Plant Retirement to Fuel AI Data Center Surge",
+    description:
+      "Arizona Public Service proposes extending Four Corners coal plant operations by seven years to 2038 to supply power for surging AI data centers.",
+    imageAlt:
+      "Coal-fired electrical generation facility operating near high-voltage transmission lines powering industrial data campuses",
+    publishedOn: "2026-11-04",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (

@@ -3140,6 +3140,15 @@
       "published_on": "2026-11-04",
       "primary_entity": "California Resources Corporation / Bloom Energy",
       "event_fingerprint": "crc-bloom-energy-1gw-fuel-cells-california"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/aps-sales-double-by-2041-proposes-extending-coal-use-to-2038/873648/",
+      "normalized_url": "https://www.utilitydive.com/news/aps-sales-double-by-2041-proposes-extending-coal-use-to-2038/873648",
+      "title": "APS Delays Coal Plant Retirement to Fuel AI Data Center Surge",
+      "normalized_title": "aps delays coal plant retirement to fuel ai data center surge",
+      "published_on": "2026-11-04",
+      "primary_entity": "Arizona Public Service",
+      "event_fingerprint": "aps-four-corners-coal-delay-data-centers"
     }
   ],
   "version": 2,
