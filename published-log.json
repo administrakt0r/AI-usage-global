@@ -3158,6 +3158,15 @@
       "published_on": "2026-11-05",
       "primary_entity": "Gina Hinojosa",
       "event_fingerprint": "texas-governor-elect-data-center-moratorium-legislation"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+      "normalized_url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder",
+      "title": "Meta warns that election backlash against data centers could make AI expansion harder",
+      "normalized_title": "meta warns that election backlash against data centers could make ai expansion harder",
+      "published_on": "2026-11-05",
+      "primary_entity": "Meta",
+      "event_fingerprint": "meta-election-backlash-ai-data-centers"
     }
   ],
   "version": 2,
