@@ -5925,6 +5925,20 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 353,
+    slug: "chemours-faizeon-two-phase-cooling",
+    title:
+      "Chemours Launches Faizeon Two-Phase Liquid Cooling for AI Hardware",
+    description:
+      "Chemours introduces Faizeon two-phase dielectric fluids to tackle rising data center heat loads and curb cooling water and energy consumption.",
+    imageAlt:
+      "High density server rack with liquid cooling tubes and dielectric fluid thermal management system",
+    publishedOn: "2026-11-06",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (

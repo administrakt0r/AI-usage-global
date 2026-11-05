@@ -3158,6 +3158,15 @@
       "published_on": "2026-11-05",
       "primary_entity": "Gina Hinojosa",
       "event_fingerprint": "texas-governor-elect-data-center-moratorium-legislation"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/chemours-releases-two-fluids-for-two-phase-liquid-cooling/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/chemours-releases-two-fluids-for-two-phase-liquid-cooling",
+      "title": "Chemours releases two fluids for two-phase liquid cooling",
+      "normalized_title": "chemours releases two fluids for two phase liquid cooling",
+      "published_on": "2026-11-06",
+      "primary_entity": "Chemours",
+      "event_fingerprint": "chemours-faizeon-two-phase-liquid-cooling"
     }
   ],
   "version": 2,
