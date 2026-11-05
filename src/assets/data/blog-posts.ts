@@ -5925,6 +5925,20 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 353,
+    slug: "meta-election-backlash-ai-data-centers",
+    title:
+      "Meta Warns Election Backlash Threatens AI Data Center Growth",
+    description:
+      "Meta warns that midterm election backlash and voter resistance over power grid strain will make developing artificial intelligence data centers significantly harder.",
+    imageAlt:
+      "Large-scale modern hyperscale data center campus with electrical infrastructure and transmission towers",
+    publishedOn: "2026-11-05",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
