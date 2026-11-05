@@ -3149,6 +3149,15 @@
       "published_on": "2026-11-04",
       "primary_entity": "Arizona Public Service",
       "event_fingerprint": "aps-four-corners-coal-delay-data-centers"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/texas-governor-elect-gina-hinojosa-promises-continued-data-center-moratorium-further-legislation/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/texas-governor-elect-gina-hinojosa-promises-continued-data-center-moratorium-further-legislation",
+      "title": "Texas governor-elect Gina Hinojosa promises continued data center moratorium, further legislation",
+      "normalized_title": "texas governorelect gina hinojosa promises continued data center moratorium further legislation",
+      "published_on": "2026-11-05",
+      "primary_entity": "Gina Hinojosa",
+      "event_fingerprint": "texas-governor-elect-data-center-moratorium-legislation"
     }
   ],
   "version": 2,

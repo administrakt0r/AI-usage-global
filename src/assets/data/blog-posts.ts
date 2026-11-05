@@ -5911,6 +5911,20 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 352,
+    slug: "texas-governor-elect-hinojosa-data-center-moratorium",
+    title:
+      "Texas Governor-Elect Hinojosa Pledges Data Center Moratorium",
+    description:
+      "Texas Governor-Elect Gina Hinojosa announces plans to maintain an immediate moratorium on data centers and pass legislation shielding water and power resources.",
+    imageAlt:
+      "Industrial electrical transmission substation and regional power grid towers under Texas skies",
+    publishedOn: "2026-11-05",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
