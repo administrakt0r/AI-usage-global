@@ -3176,6 +3176,15 @@
       "published_on": "2026-11-06",
       "primary_entity": "Google / TeraWulf",
       "event_fingerprint": "google-terawulf-kentucky-credit-backstop"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/dte-energy-ups-five-year-utility-investment-plan-to-44bn-cites-data-center-demand/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/dte-energy-ups-five-year-utility-investment-plan-to-44bn-cites-data-center-demand",
+      "title": "DTE Energy ups five-year utility investment plan to $44bn, cites data center demand",
+      "normalized_title": "dte energy ups fiveyear utility investment plan to 44bn cites data center demand",
+      "published_on": "2026-11-06",
+      "primary_entity": "DTE Energy",
+      "event_fingerprint": "dte-energy-44bn-investment-plan-data-centers"
     }
   ],
   "version": 2,

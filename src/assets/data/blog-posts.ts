@@ -5953,6 +5953,20 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 355,
+    slug: "dte-energy-44bn-investment-plan-data-centers",
+    title:
+      "DTE Energy Ups Five-Year Capital Plan to $44B on Data Center Load",
+    description:
+      "Michigan utility DTE Energy increases its five-year investment plan to $44 billion, adding $10 billion primarily to support 2.4 GW of secured data center power demand.",
+    imageAlt:
+      "Electrical transmission substation and power grid infrastructure supporting industrial computing facilities",
+    publishedOn: "2026-11-06",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
