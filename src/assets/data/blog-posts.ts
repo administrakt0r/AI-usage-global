@@ -5939,6 +5939,20 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 354,
+    slug: "google-terawulf-kentucky-credit-backstop",
+    title:
+      "Google Backstops Debt Financing for TeraWulf AI Campus",
+    description:
+      "Google agrees to serve as an investment-grade credit backstop for TeraWulf's 480MW Justified Data Campus in Kentucky, supporting a $19B Anthropic compute lease.",
+    imageAlt:
+      "High-voltage electrical substation and transmission lines powering a large industrial computing campus",
+    publishedOn: "2026-11-06",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (

@@ -3167,6 +3167,15 @@
       "published_on": "2026-11-05",
       "primary_entity": "Meta",
       "event_fingerprint": "meta-election-backlash-ai-data-centers"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/google-to-serve-as-credit-backstop-for-terawulf-data-center-in-kentucky/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/google-to-serve-as-credit-backstop-for-terawulf-data-center-in-kentucky",
+      "title": "Google to serve as credit backstop for TeraWulf data center in Kentucky",
+      "normalized_title": "google to serve as credit backstop for terawulf data center in kentucky",
+      "published_on": "2026-11-06",
+      "primary_entity": "Google / TeraWulf",
+      "event_fingerprint": "google-terawulf-kentucky-credit-backstop"
     }
   ],
   "version": 2,
