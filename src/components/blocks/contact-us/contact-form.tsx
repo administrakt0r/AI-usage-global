@@ -17,6 +17,7 @@ const ContactForm = () => {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
+  const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -32,6 +33,8 @@ const ContactForm = () => {
       message || "-",
     ];
 
+    setIsSubmitted(true);
+
     window.location.href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(resolvedSubject)}&body=${encodeURIComponent(
       bodyLines.join("\n"),
     )}`;
@@ -39,12 +42,34 @@ const ContactForm = () => {
 
   return (
     <form className="space-y-6" onSubmit={handleSubmit}>
+      {isSubmitted && (
+        <div
+          role="status"
+          aria-live="polite"
+          className="rounded-md border border-emerald-500/20 bg-emerald-500/10 p-3 text-sm text-emerald-600 dark:text-emerald-400"
+        >
+          Opening your email client... If it doesn&apos;t open automatically,
+          please email us directly at{" "}
+          <a
+            href={`mailto:${CONTACT_EMAIL}`}
+            className="font-medium underline underline-offset-2"
+          >
+            {CONTACT_EMAIL}
+          </a>
+          .
+        </div>
+      )}
+
       <div className="space-y-2">
-        <Label htmlFor="username">Name</Label>
+        <Label htmlFor="username">
+          Name <span className="text-destructive" aria-hidden="true">*</span>
+        </Label>
         <div className="relative">
           <Input
             id="username"
             type="text"
+            required
+            aria-required="true"
             placeholder="Your name"
             value={name}
             onChange={(event) => setName(event.target.value)}
@@ -58,11 +83,15 @@ const ContactForm = () => {
       </div>
 
       <div className="space-y-2">
-        <Label htmlFor="email">Email</Label>
+        <Label htmlFor="email">
+          Email <span className="text-destructive" aria-hidden="true">*</span>
+        </Label>
         <div className="relative">
           <Input
             id="email"
             type="email"
+            required
+            aria-required="true"
             placeholder="Your email"
             value={email}
             onChange={(event) => setEmail(event.target.value)}
@@ -94,9 +123,13 @@ const ContactForm = () => {
       </div>
 
       <div className="space-y-2">
-        <Label htmlFor="message">Message</Label>
+        <Label htmlFor="message">
+          Message <span className="text-destructive" aria-hidden="true">*</span>
+        </Label>
         <Textarea
           id="message"
+          required
+          aria-required="true"
           className="h-28 resize-none"
           placeholder="Write your message"
           value={message}
