@@ -3194,6 +3194,15 @@
       "published_on": "2026-11-07",
       "primary_entity": "SpaceXAI",
       "event_fingerprint": "spacexai-arizona-6gw-datacenter"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "normalized_url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google",
+      "title": "Crusoe sells troubled Wyoming data center project to Google",
+      "normalized_title": "crusoe sells troubled wyoming data center project to google",
+      "published_on": "2026-11-07",
+      "primary_entity": "Google / Crusoe",
+      "event_fingerprint": "google-acquires-crusoe-wyoming-datacenter"
     }
   ],
   "version": 2,

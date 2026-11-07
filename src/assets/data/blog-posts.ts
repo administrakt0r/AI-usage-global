@@ -5981,6 +5981,20 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 357,
+    slug: "google-acquires-crusoe-wyoming-site-in-17b-ai-data-center-push",
+    title:
+      "Google Acquires Crusoe Wyoming Site in $17B AI Data Center Push",
+    description:
+      "Google acquires Crusoe's unfinished southeastern Wyoming data center campus, committing $17 billion to build out the site with 702 MW of fuel cells and carbon capture.",
+    imageAlt:
+      "Modern hyperscale AI data center facility powered by fuel cell generation and carbon capture systems in Wyoming",
+    publishedOn: "2026-11-07",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
