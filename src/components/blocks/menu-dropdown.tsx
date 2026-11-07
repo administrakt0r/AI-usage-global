@@ -17,6 +17,11 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 import { cn } from "@/lib/utils";
 
@@ -44,6 +49,7 @@ type Props = {
   navigationData: NavigationSection[];
   activeSection?: string;
   align?: "center" | "end" | "start";
+  tooltip?: string;
 };
 
 const MenuDropdown = ({
@@ -51,10 +57,20 @@ const MenuDropdown = ({
   navigationData,
   activeSection,
   align = "start",
+  tooltip,
 }: Props) => {
-  return (
+  const content = (
     <DropdownMenu>
-      <DropdownMenuTrigger asChild>{trigger}</DropdownMenuTrigger>
+      {tooltip ? (
+        <Tooltip>
+          <TooltipTrigger asChild>
+            <DropdownMenuTrigger asChild>{trigger}</DropdownMenuTrigger>
+          </TooltipTrigger>
+          <TooltipContent>{tooltip}</TooltipContent>
+        </Tooltip>
+      ) : (
+        <DropdownMenuTrigger asChild>{trigger}</DropdownMenuTrigger>
+      )}
       <DropdownMenuContent
         className="mx-3 w-[min(93vw,500px)] sm:ml-8 md:w-[min(93vw,250px)] max-lg:md:mr-0"
         align={align}
@@ -111,6 +127,8 @@ const MenuDropdown = ({
       </DropdownMenuContent>
     </DropdownMenu>
   );
+
+  return content;
 };
 
 export default MenuDropdown;
