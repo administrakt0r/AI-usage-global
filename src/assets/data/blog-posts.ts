@@ -5967,6 +5967,20 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 356,
+    slug: "spacexai-plans-6gw-arizona-ai-data-center",
+    title:
+      "SpaceXAI Plans 6 GW AI Data Center in Arizona",
+    description:
+      "SpaceXAI files permits for a 6-gigawatt data center campus in Cochise County, Arizona, with nine computing buildings and a 24 GWh battery energy storage system.",
+    imageAlt:
+      "Large industrial high-voltage electrical substation and battery energy storage facility in an arid desert landscape",
+    publishedOn: "2026-11-07",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
