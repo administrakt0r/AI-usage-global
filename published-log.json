@@ -3203,6 +3203,15 @@
       "published_on": "2026-11-07",
       "primary_entity": "Google / Crusoe",
       "event_fingerprint": "google-acquires-crusoe-wyoming-datacenter"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+      "normalized_url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo",
+      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+      "normalized_title": "ramp data shows ai spending stalling just as anthropic nears its ipo",
+      "published_on": "2026-11-07",
+      "primary_entity": "Ramp",
+      "event_fingerprint": "ramp-ai-spending-stalls-token-volume-grows"
     }
   ],
   "version": 2,

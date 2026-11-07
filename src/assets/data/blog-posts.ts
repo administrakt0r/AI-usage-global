@@ -5995,6 +5995,20 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 358,
+    slug: "ramp-data-shows-ai-spending-stalls-despite-token-volume-growth",
+    title:
+      "Ramp Data Shows AI Spending Stalls Despite Token Growth",
+    description:
+      "Corporate AI token spending grew just 1.5% late summer despite surging usage, as aggressive API price cuts and model routing compressed enterprise compute bills.",
+    imageAlt:
+      "Data visualization displaying enterprise AI compute spending versus surging token volume metrics",
+    publishedOn: "2026-11-07",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
