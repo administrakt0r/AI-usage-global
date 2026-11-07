@@ -3185,6 +3185,15 @@
       "published_on": "2026-11-06",
       "primary_entity": "DTE Energy",
       "event_fingerprint": "dte-energy-44bn-investment-plan-data-centers"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/spacexai-data-center-arizona-cochise-county-elon-musk/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/spacexai-data-center-arizona-cochise-county-elon-musk",
+      "title": "SpaceXAI plans data center in Arizona, Musk's firm claims it will have 6GW capacity",
+      "normalized_title": "spacexai plans data center in arizona musks firm claims it will have 6gw capacity",
+      "published_on": "2026-11-07",
+      "primary_entity": "SpaceXAI",
+      "event_fingerprint": "spacexai-arizona-6gw-datacenter"
     }
   ],
   "version": 2,
