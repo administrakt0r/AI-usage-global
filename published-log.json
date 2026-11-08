@@ -3230,6 +3230,15 @@
       "published_on": "2026-11-08",
       "primary_entity": "Forschungszentrum Jülich / TenneT",
       "event_fingerprint": "ups-state-of-charge-grid-frequency-disturbances"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/more-than-100-protesters-break-into-microsoft-data-center-construction-site-in-amsterdam/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/more-than-100-protesters-break-into-microsoft-data-center-construction-site-in-amsterdam",
+      "title": "More than 100 protesters break into Microsoft data center construction site in Amsterdam",
+      "normalized_title": "more than 100 protesters break into microsoft data center construction site in amsterdam",
+      "published_on": "2026-11-09",
+      "primary_entity": "Microsoft",
+      "event_fingerprint": "microsoft-amsterdam-datacenter-protest"
     }
   ],
   "version": 2,
