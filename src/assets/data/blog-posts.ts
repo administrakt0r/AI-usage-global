@@ -6036,6 +6036,19 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 361,
+    title: "Over 100 Protesters Breach Microsoft Amsterdam Data Center Site",
+    slug: "protesters-storm-microsoft-amsterdam-data-center-site",
+    description:
+      "Over 100 environmental activists breach a 78MW Pure Data Centres construction site leased to Microsoft in Amsterdam to protest AI water consumption and grid impact.",
+    imageAlt:
+      "Construction cranes and perimeter fences outside a high-capacity hyperscale data center facility in Amsterdam",
+    publishedOn: "2026-11-09",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
