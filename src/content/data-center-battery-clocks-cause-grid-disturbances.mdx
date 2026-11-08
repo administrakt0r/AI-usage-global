@@ -1,0 +1,30 @@
+## Data Center Battery Clocks Cause Global Power Grid Disturbances
+
+### Synchronized UPS charge checks trigger recurring frequency drops
+
+A multi-year investigation by researchers at Forschungszentrum Jülich and German transmission operator TenneT has identified the source of mysterious electrical oscillations recurring every 60 seconds across power grids worldwide. The disturbances are driven by internet-connected uninterruptible power supply (UPS) batteries inside data centers checking their state of charge in unison, exposing a hidden stability risk as artificial intelligence infrastructure scales.
+
+## Key details
+
+The study, published in [Nature Energy](https://doi.org/10.1038/s41560-026-02144-0), resolved a global electrical puzzle that has puzzled transmission system operators across North America, Europe, Australia, and Asia. Using more than 80 high-resolution power quality meters on the Jülich campus sampling electrical parameters every three seconds, investigators traced persistent one-minute grid frequency dips directly to stationary battery storage systems and server UPS devices.
+
+Because commercial data center batteries synchronize their internal clocks via network time protocols, millions of units execute state-of-charge routines at the exact same second. While a single battery draw is negligible, collective synchronized demand induces measurable ultra-low frequency oscillations (UFLOs) on high-voltage grids.
+
+Grid telemetry revealed the compounding impact in regions with heavy data center concentration. In Ireland, where data centers accounted for 18% of total national electricity demand by 2022, the amplitude of recurring 60-second frequency sags quadrupled from 3 milli-Hertz (mHz) in 2016 to 12 mHz in 2021, with recent peaks exceeding 20 mHz. While Ireland's 50 Hz transmission system permits fluctuations within plus or minus 200 mHz, grid operators seek to constrain swings to 100 mHz. When coupled with sudden supply fluctuations or severe load transients, these synchronized dips risk triggering automated load-shedding and cascading regional outages.
+
+### Why this matters
+
+The findings uncover an unexpected physical failure mode linked directly to the rapid expansion of AI and cloud compute capacity. Hyperscale AI data centers deploy massive battery energy storage systems and multi-megawatt UPS arrays to guarantee continuous power for power-dense accelerator clusters. As facilities grow to gigawatt scale, uncoordinated digital control loops across battery fleets increasingly impose physical strains on host utilities, turning backup infrastructure into an active grid vulnerability.
+
+### Context
+
+Electrical grids must maintain tightly regulated operating frequencies (60 Hz in North America, 50 Hz in Europe) to prevent damage to power generation equipment, especially large hydropower turbines. Historically, low-frequency oscillations were attributed to mechanical resonances in hydroelectric plants. However, the exact 60-second periodicity and intercontinental synchrony demonstrated that the phenomenon is fundamentally cyber-physical, caused by widespread firmware standards across connected energy storage assets.
+
+## What happens next
+
+Researchers noted that the technical remedy is straightforward and low-cost: battery and UPS hardware manufacturers must deploy firmware updates that introduce randomized timing intervals to state-of-charge measurement cycles rather than executing checks on precise minute boundaries. However, because data center operators and commercial enterprises infrequently update firmware across legacy backup units, energy regulators and grid reliability councils will likely need to mandate compliance standards to safeguard national grids against collective oscillation risks.
+
+---
+
+*Source: [TechCrunch](https://techcrunch.com/2026/11/08/coordinated-disturbances-haunt-grids-worldwide-heres-how-researchers-solved-the-mystery/)*
+*Published on AI Usage Global, author: AUG Bot*

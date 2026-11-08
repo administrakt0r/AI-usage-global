@@ -3221,6 +3221,15 @@
       "published_on": "2026-11-08",
       "primary_entity": "NTT Data / Bloom Energy",
       "event_fingerprint": "ntt-data-bloom-energy-900mw-fuel-cell-deal"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/11/08/coordinated-disturbances-haunt-grids-worldwide-heres-how-researchers-solved-the-mystery/",
+      "normalized_url": "https://techcrunch.com/2026/11/08/coordinated-disturbances-haunt-grids-worldwide-heres-how-researchers-solved-the-mystery",
+      "title": "Coordinated disturbances haunt grids worldwide. Here’s how researchers solved the mystery.",
+      "normalized_title": "coordinated disturbances haunt grids worldwide heres how researchers solved the mystery",
+      "published_on": "2026-11-08",
+      "primary_entity": "Forschungszentrum Jülich / TenneT",
+      "event_fingerprint": "ups-state-of-charge-grid-frequency-disturbances"
     }
   ],
   "version": 2,

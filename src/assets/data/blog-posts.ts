@@ -6023,6 +6023,19 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 360,
+    title: "Data Center Battery Clocks Cause Global Power Grid Disturbances",
+    slug: "data-center-battery-clocks-cause-grid-disturbances",
+    description:
+      "Research reveals synchronized uninterruptible power supply battery checks in data centers trigger recurring one-minute frequency drops on power grids globally.",
+    imageAlt:
+      "Rows of industrial uninterruptible power supply battery systems and power distribution units inside a high-density AI data center",
+    publishedOn: "2026-11-08",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
