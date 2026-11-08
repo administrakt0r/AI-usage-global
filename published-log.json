@@ -3212,6 +3212,15 @@
       "published_on": "2026-11-07",
       "primary_entity": "Ramp",
       "event_fingerprint": "ramp-ai-spending-stalls-token-volume-grows"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/ntt-data-signs-900mw-fuel-cell-supply-deal-with-bloom-energy/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/ntt-data-signs-900mw-fuel-cell-supply-deal-with-bloom-energy",
+      "title": "NTT Data signs 900MW fuel cell supply deal with Bloom Energy",
+      "normalized_title": "ntt data signs 900mw fuel cell supply deal with bloom energy",
+      "published_on": "2026-11-08",
+      "primary_entity": "NTT Data / Bloom Energy",
+      "event_fingerprint": "ntt-data-bloom-energy-900mw-fuel-cell-deal"
     }
   ],
   "version": 2,

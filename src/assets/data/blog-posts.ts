@@ -6009,6 +6009,20 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 359,
+    slug: "ntt-data-signs-900mw-fuel-cell-supply-deal-with-bloom-energy",
+    title:
+      "NTT Data Signs 900 MW Bloom Energy Fuel Cell Deal for AI Data Centers",
+    description:
+      "NTT Data signs a 900-megawatt global deployment agreement with Bloom Energy for solid oxide fuel cells to bypass electric grid bottlenecks and power AI infrastructure.",
+    imageAlt:
+      "Onsite solid oxide fuel cell generation modules installed at a modern AI data center facility",
+    publishedOn: "2026-11-08",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
