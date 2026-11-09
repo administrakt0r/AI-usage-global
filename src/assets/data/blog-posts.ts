@@ -6062,6 +6062,19 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 363,
+    title: "Anthropic Spends $3.4B on Gas Turbines for 1.7 GW Power",
+    slug: "anthropic-gas-turbines-power",
+    description:
+      "Anthropic directly purchases $3.4 billion in natural gas turbines from Caterpillar to secure up to 1.7 GW of dedicated power amid mounting grid delays.",
+    imageAlt:
+      "Industrial natural gas turbine generators installed outside a hyperscale AI computing facility",
+    publishedOn: "2026-11-09",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
