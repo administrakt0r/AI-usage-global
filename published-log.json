@@ -3248,6 +3248,15 @@
       "published_on": "2026-11-09",
       "primary_entity": "Google",
       "event_fingerprint": "google-thurrock-datacenter-opposition"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+      "normalized_url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines",
+      "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
+      "normalized_title": "anthropic joins ais natural gas frenzy buys 3 4b worth of turbines",
+      "published_on": "2026-11-09",
+      "primary_entity": "Anthropic / Caterpillar",
+      "event_fingerprint": "anthropic-caterpillar-gas-turbines-purchase"
     }
   ],
   "version": 2,
