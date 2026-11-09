@@ -6075,6 +6075,20 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 364,
+    title:
+      "Norway Freezes Grid Reservations as AI Data Center Queue Reaches 31 GW",
+    slug: "norway-halts-data-center-grid-connections",
+    description:
+      "Norway suspends new data center grid connection reservations until August 2027 as project queues swell to 31.3 GW, outstripping national peak power demand.",
+    imageAlt:
+      "Electrical transmission lines and substations running through a Nordic mountain landscape",
+    publishedOn: "2026-11-09",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
