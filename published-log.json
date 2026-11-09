@@ -3257,6 +3257,15 @@
       "published_on": "2026-11-09",
       "primary_entity": "Anthropic / Caterpillar",
       "event_fingerprint": "anthropic-caterpillar-gas-turbines-purchase"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/norway-halts-grid-connection-applications-for-new-data-centers/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/norway-halts-grid-connection-applications-for-new-data-centers",
+      "title": "Norway halts grid connection applications for new data centers",
+      "normalized_title": "norway halts grid connection applications for new data centers",
+      "published_on": "2026-11-09",
+      "primary_entity": "Statnett AS / Norwegian Ministry of Digitalization",
+      "event_fingerprint": "norway-data-center-grid-connection-halt"
     }
   ],
   "version": 2,
