@@ -6049,6 +6049,19 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 362,
+    title: "Activists and Motorcyclists Protest Google UK AI Data Center",
+    slug: "google-thurrock-datacenter-opposition",
+    description:
+      "A coalition of environmental groups and local residents protests Google's proposed AI data center in Thurrock over habitat destruction and 570,000 tonnes of emissions.",
+    imageAlt:
+      "Demonstrators holding signs outside an urban corporate technology office protesting hyperscale data center construction",
+    publishedOn: "2026-11-09",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (

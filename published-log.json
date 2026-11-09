@@ -3239,6 +3239,15 @@
       "published_on": "2026-11-09",
       "primary_entity": "Microsoft",
       "event_fingerprint": "microsoft-amsterdam-datacenter-protest"
+    },
+    {
+      "canonical_url": "https://www.wired.com/story/bug-activists-and-biker-gang-members-are-teaming-up-to-protest-data-centers/",
+      "normalized_url": "https://www.wired.com/story/bug-activists-and-biker-gang-members-are-teaming-up-to-protest-data-centers",
+      "title": "Bikers and Bug-Lovers Join Forces to Fight a New Google Data Center",
+      "normalized_title": "bikers and bug lovers join forces to fight a new google data center",
+      "published_on": "2026-11-09",
+      "primary_entity": "Google",
+      "event_fingerprint": "google-thurrock-datacenter-opposition"
     }
   ],
   "version": 2,
