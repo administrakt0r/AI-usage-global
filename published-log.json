@@ -3275,6 +3275,15 @@
       "published_on": "2026-11-10",
       "primary_entity": "PPL Corporation / PPL Electric Utilities",
       "event_fingerprint": "ppl-pennsylvania-35gw-ai-pipeline"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/are-data-centers-really-paying-aes-indianas-google-deal-highlights-a-thor/873040/",
+      "normalized_url": "https://www.utilitydive.com/news/are-data-centers-really-paying-aes-indianas-google-deal-highlights-a-thor/873040",
+      "title": "Are data centers really paying their share? AES Indiana’s Google deal highlights a thorny question",
+      "normalized_title": "are data centers really paying their share aes indianas google deal highlights a thorny question",
+      "published_on": "2026-11-10",
+      "primary_entity": "Indiana Utility Regulatory Commission / AES Indiana / Google",
+      "event_fingerprint": "indiana-aes-google-74m-grid-surcharge"
     }
   ],
   "version": 2,
