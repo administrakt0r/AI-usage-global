@@ -6102,6 +6102,19 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 366,
+    title: "Indiana Approves $74M Grid Surcharge for Google Data Center",
+    slug: "indiana-approves-74m-grid-surcharge-google-data-center",
+    description:
+      "Indiana regulators approve AES Indiana's 390 MW Google data center deal, placing $73.8 million in transmission network upgrades into the utility rate base.",
+    imageAlt:
+      "Electrical substation and high-voltage transmission lines serving a commercial computing facility in Indiana",
+    publishedOn: "2026-11-10",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
