@@ -3266,6 +3266,15 @@
       "published_on": "2026-11-09",
       "primary_entity": "Statnett AS / Norwegian Ministry of Digitalization",
       "event_fingerprint": "norway-data-center-grid-connection-halt"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/ppl-advanced-stage-data-center-pipeline-hits-35gw-in-pennsylvania/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/ppl-advanced-stage-data-center-pipeline-hits-35gw-in-pennsylvania",
+      "title": "PPL advanced stage data center pipeline hits 35GW in Pennsylvania",
+      "normalized_title": "ppl advanced stage data center pipeline hits 35gw in pennsylvania",
+      "published_on": "2026-11-10",
+      "primary_entity": "PPL Corporation / PPL Electric Utilities",
+      "event_fingerprint": "ppl-pennsylvania-35gw-ai-pipeline"
     }
   ],
   "version": 2,
