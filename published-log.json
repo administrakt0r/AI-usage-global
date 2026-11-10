@@ -3284,6 +3284,15 @@
       "published_on": "2026-11-10",
       "primary_entity": "Indiana Utility Regulatory Commission / AES Indiana / Google",
       "event_fingerprint": "indiana-aes-google-74m-grid-surcharge"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/thousands-oppose-data-center-expansion-in-italy-gather-in-milan-for-protest/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/thousands-oppose-data-center-expansion-in-italy-gather-in-milan-for-protest",
+      "title": "Thousands oppose data center expansion in Italy, gather in Milan for protest",
+      "normalized_title": "thousands oppose data center expansion in italy gather in milan for protest",
+      "published_on": "2026-11-10",
+      "primary_entity": "National Network of Stop Data Center Committees / Lombardy Regional Council",
+      "event_fingerprint": "milan-stop-data-center-protests-lombardy-moratorium"
     }
   ],
   "version": 2,

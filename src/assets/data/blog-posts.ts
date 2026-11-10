@@ -6115,6 +6115,19 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 367,
+    title: "Thousands Protest Data Center Surge in Milan Over Energy and Water",
+    slug: "thousands-protest-data-center-surge-milan-energy-water",
+    description:
+      "Thousands gather in Milan to protest rapid data center expansion across Lombardy as 11 GW in project applications strain local power grids and water supplies.",
+    imageAlt:
+      "Civic demonstrators holding banners outside Milan City Hall protesting data center expansion and environmental resource consumption",
+    publishedOn: "2026-11-10",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
