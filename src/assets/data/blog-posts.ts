@@ -6089,6 +6089,19 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 365,
+    title: "PPL Pennsylvania AI Data Center Pipeline Hits 35 GW",
+    slug: "ppl-pennsylvania-data-center-pipeline-hits-35gw",
+    description:
+      "PPL reports its Pennsylvania data center pipeline reached 35.3 GW with 8.5 GW under construction, expanding its capital plan to $25 billion to meet AI load.",
+    imageAlt:
+      "High voltage electrical transmission lines and substation equipment serving an industrial data center campus in Pennsylvania",
+    publishedOn: "2026-11-10",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
