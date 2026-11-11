@@ -6128,6 +6128,19 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 368,
+    title: "SpaceX Plans $24B Gas Plant and AI Supercomputing Site at Starbase",
+    slug: "spacex-plans-24b-gas-plant-data-center-starbase-texas",
+    description:
+      "SpaceX plans an on-site natural gas power plant and supercomputing facility on a 444-acre site in Cameron County, Texas, investing up to $24 billion.",
+    imageAlt:
+      "Industrial natural gas turbine power equipment and modern computing campus infrastructure along the Texas Gulf Coast",
+    publishedOn: "2026-11-11",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
