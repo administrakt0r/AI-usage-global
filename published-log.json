@@ -3293,6 +3293,15 @@
       "published_on": "2026-11-10",
       "primary_entity": "National Network of Stop Data Center Committees / Lombardy Regional Council",
       "event_fingerprint": "milan-stop-data-center-protests-lombardy-moratorium"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/elon-musks-spacex-targets-nat-gas-plant-and-supercomputing-facility-at-starbase-city-texas/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/elon-musks-spacex-targets-nat-gas-plant-and-supercomputing-facility-at-starbase-city-texas",
+      "title": "Elon Musk’s SpaceX targets nat-gas plant and supercomputing facility at Starbase City, Texas",
+      "normalized_title": "elon musks spacex targets nat gas plant and supercomputing facility at starbase city texas",
+      "published_on": "2026-11-11",
+      "primary_entity": "SpaceX",
+      "event_fingerprint": "spacex-starbase-24b-gas-plant-supercomputing-facility"
     }
   ],
   "version": 2,
