@@ -6141,6 +6141,19 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 369,
+    title: "Ottawa, Kansas Approves 10-Year Moratorium on Large Data Centers",
+    slug: "ottawa-kansas-10-year-data-center-moratorium",
+    description:
+      "Voters in Ottawa, Kansas, approved a 10-year moratorium banning data centers larger than 25MW following community opposition to a proposed 450MW project and gas plant.",
+    imageAlt:
+      "Aerial view of Ottawa, Kansas and surrounding agricultural land representing municipal limits on utility-scale data center infrastructure",
+    publishedOn: "2026-11-11",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
