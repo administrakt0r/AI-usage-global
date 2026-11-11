@@ -3302,6 +3302,15 @@
       "published_on": "2026-11-11",
       "primary_entity": "SpaceX",
       "event_fingerprint": "spacex-starbase-24b-gas-plant-supercomputing-facility"
+    },
+    {
+      "canonical_url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+      "normalized_url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth",
+      "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+      "normalized_title": "coreweave turns to customer prepayments shorter contracts to fund ai growth",
+      "published_on": "2026-11-11",
+      "primary_entity": "CoreWeave",
+      "event_fingerprint": "coreweave-short-term-contracts-40m-per-mw"
     }
   ],
   "version": 2,

@@ -6141,6 +6141,19 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 369,
+    title: "CoreWeave Sells AI Capacity at $40M Per MW Amid Rising Power Costs",
+    slug: "coreweave-sells-ai-capacity-at-40m-per-megawatt",
+    description:
+      "CoreWeave pivots toward customer prepayments and shorter compute contracts topping $40 million per megawatt annually to fund data center buildouts amid high interest expenses.",
+    imageAlt:
+      "High-density server racks and power distribution infrastructure inside a modern AI data center",
+    publishedOn: "2026-11-11",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
