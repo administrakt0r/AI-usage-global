@@ -3302,6 +3302,15 @@
       "published_on": "2026-11-11",
       "primary_entity": "SpaceX",
       "event_fingerprint": "spacex-starbase-24b-gas-plant-supercomputing-facility"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/10-year-data-center-moratorium-approved-in-ottawa-kansas/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/10-year-data-center-moratorium-approved-in-ottawa-kansas",
+      "title": "10-year data center moratorium approved in Ottawa, Kansas",
+      "normalized_title": "10 year data center moratorium approved in ottawa kansas",
+      "published_on": "2026-11-11",
+      "primary_entity": "Ottawa City Commission / Ottawa United",
+      "event_fingerprint": "ottawa-kansas-10-year-data-center-moratorium"
     }
   ],
   "version": 2,
