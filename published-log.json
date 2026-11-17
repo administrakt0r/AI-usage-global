@@ -3311,6 +3311,15 @@
       "published_on": "2026-11-11",
       "primary_entity": "CoreWeave",
       "event_fingerprint": "coreweave-short-term-contracts-40m-per-mw"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/openai-signs-on-for-457mw-ai-capacity-with-tensorwave/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/openai-signs-on-for-457mw-ai-capacity-with-tensorwave",
+      "title": "OpenAI signs on for 457MW AI capacity with TensorWave",
+      "normalized_title": "openai signs on for 457mw ai capacity with tensorwave",
+      "published_on": "2026-11-17",
+      "primary_entity": "OpenAI / TensorWave",
+      "event_fingerprint": "openai-tensorwave-457mw-amd-capacity"
     }
   ],
   "version": 2,

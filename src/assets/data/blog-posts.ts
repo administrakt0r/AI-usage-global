@@ -6154,6 +6154,19 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 370,
+    title: "OpenAI Secures 457MW AI Compute Capacity from TensorWave",
+    slug: "openai-secures-457mw-ai-capacity-tensorwave",
+    description:
+      "OpenAI agrees to a six-year, 457-megawatt computing contract with TensorWave, deploying AMD Helios GPU racks to cut token costs and lock in dedicated data center power.",
+    imageAlt:
+      "High-density liquid-cooled server racks and electrical infrastructure inside an AI compute facility",
+    publishedOn: "2026-11-17",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
