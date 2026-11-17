@@ -120,7 +120,7 @@ This repository is useful if you are:
 - ☁️ **Cloudflare Pages deployment workflow** included
 - ✅ **CI checks** for linting, types, tests, build, and bot PR validation
 - 💧 **Live AI footprint tracker** (`/ai-footprint` and a homepage widget): running counters for AI electricity, data-centre electricity, AI water use and AI emissions, built from cited low/central/high estimates in `src/assets/data/ai-footprint.json`
-- 🤖 **Autonomous AUG Bot** (`.github/workflows/aug-bot.yml` + `newsprompt.md`) that publishes on a schedule and refreshes the footprint data weekly
+- 🤖 **AUG Bot prompt** (`newsprompt.md`): one copy-paste prompt for any coding agent that writes a post and refreshes the footprint data weekly
 - 🛡️ **Bot PR safeguards**: allow-listed files, duplicate-story rejection, footprint schema checks and append-only logs
 
 ---
@@ -317,8 +317,7 @@ The included Cloudflare deployment workflow expects these repository secrets:
 | --- | --- |
 | `CLOUDFLARE_API_TOKEN` | Authenticates Wrangler for Cloudflare Pages deployment |
 | `CLOUDFLARE_ACCOUNT_ID` | Tells Wrangler which Cloudflare account to deploy to |
-| `AUTO_MERGE_TOKEN` | PAT used by AUG Bot to push and open PRs (so checks trigger) and by auto-merge to merge them |
-| `ANTHROPIC_API_KEY` or `CLAUDE_CODE_OAUTH_TOKEN` | Authenticates Claude Code for the AUG Bot workflow |
+| `AUTO_MERGE_TOKEN` | Optional token used by the auto-merge workflow when merging eligible PRs |
 
 ---
 
@@ -501,23 +500,14 @@ This repository includes several GitHub Actions workflows:
 - **Cloudflare Pages Deploy** — deploys production output
 - **Auto Merge PR** — merges eligible PRs after successful checks
 - **Daily Post Watchdog** — verifies that the latest expected post is fresh and live
-- **AUG Bot** — runs Claude Code with `newsprompt.md` four times a day and opens one `post/*` PR per run
 
-### AUG Bot setup
+### AUG Bot prompt
 
-1. Add repository secrets:
-   - `ANTHROPIC_API_KEY`, or `CLAUDE_CODE_OAUTH_TOKEN` (generate it with `claude setup-token`)
-   - `AUTO_MERGE_TOKEN`: a fine-grained PAT for this repo with **Contents** and **Pull requests** write access. It is required because pushes made with the default `GITHUB_TOKEN` do not trigger PR Checks.
-2. Trigger it manually once: **Actions → AUG Bot → Run workflow**.
-3. Change the schedule in the `cron:` lines of `.github/workflows/aug-bot.yml`.
-
-The flow: AUG Bot opens a PR → **PR Checks** (including `validate:bot-pr`) → **Auto Merge PR** → **Cloudflare Pages Deploy**.
-
-`newsprompt.md` is the single source of truth for the bot's behaviour: sources, scope, duplicate rules, writing standards, the MDX template and the footprint refresh procedure. You can paste it into any coding agent to run a post by hand. Its sources live in `rss-feeds.json` (tiered feeds plus watch pages).
+`newsprompt.md` is the single source of truth for the bot's behaviour: sources, scope, duplicate rules, writing standards, the MDX template and the footprint refresh procedure. Paste it into any coding agent with access to this repo whenever you want a new post. No secrets or scheduling are needed. Its sources live in `rss-feeds.json` (tiered feeds plus watch pages).
 
 ### AI footprint data
 
-`src/assets/data/ai-footprint.json` holds annual low/central/high estimates, each with a derivation and source IDs. The site turns the annual central figure into a per-second rate and counts year-to-date from 1 January UTC. These are modelled estimates, not live telemetry. The bot reviews the file when `lastReviewed` is 7 or more days old, appends to `history`, and `validate:bot-pr` enforces the schema (`scripts/footprint-schema.mjs`).
+`src/assets/data/ai-footprint.json` holds annual low/central/high estimates, each with a derivation and source IDs. The site turns the annual central figure into a per-second rate and counts year-to-date from 1 January UTC. These are modelled estimates, not live telemetry. The prompt has the agent review the file when `lastReviewed` is 7 or more days old, appends to `history`, and `validate:bot-pr` enforces the schema (`scripts/footprint-schema.mjs`).
 
 There is also a repo-specific validation script for bot-generated post PRs:
 

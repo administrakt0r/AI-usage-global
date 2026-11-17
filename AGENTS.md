@@ -30,7 +30,7 @@ pnpm test         # runs all tests
 ## Autonomous bot
 
 - `newsprompt.md` is the ONLY bot prompt (sources, scope, template, footprint refresh)
-- `.github/workflows/aug-bot.yml` runs it on a schedule via `anthropics/claude-code-action`; it needs `ANTHROPIC_API_KEY`/`CLAUDE_CODE_OAUTH_TOKEN` + `AUTO_MERGE_TOKEN`
+- Run it by pasting into any coding agent; there is no scheduled workflow and no extra secrets
 - Bot branches are `post/{slug}`, PR titles `[aug-bot] <Title> - <YYYY-MM-DD>`
 - Bot may only touch `src/content/*.mdx`, `src/assets/data/blog-posts.ts`, `published-log.json`, `src/assets/data/ai-footprint.json`
 - Source list: `rss-feeds.json` (tiered feeds + watch pages)
