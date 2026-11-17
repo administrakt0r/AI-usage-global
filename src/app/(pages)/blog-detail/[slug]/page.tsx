@@ -11,6 +11,7 @@ import {
   formatDisplayTime,
   formatPostDisplayDate,
   getPostIsoDateTime,
+  getRelatedPosts,
 } from "@/lib/blog";
 import {
   SITE_APP_ICON_192_PATH,
@@ -172,9 +173,7 @@ export default async function BlogDetailPage({
     notFound();
   }
 
-  const relatedPosts = sortedBlogPosts
-    .filter((candidate) => candidate.slug !== post.slug)
-    .slice(0, 3);
+  const relatedPosts = getRelatedPosts(sortedBlogPosts, post.slug, 3);
 
   const displayTime = formatDisplayTime(post.publishedTime);
   const publishedIso = getPostIsoDateTime(post);
