@@ -49,6 +49,14 @@ type BlogProps = {
   stats: BlogStats;
 };
 
+const scrollToCategories = () => {
+  const element = document.getElementById("categories");
+
+  if (element) {
+    element.scrollIntoView({ behavior: "smooth" });
+  }
+};
+
 const BlogGrid = memo(({
   posts,
   onCategoryClick,
@@ -125,6 +133,217 @@ const BlogGrid = memo(({
   );
 });
 
+BlogGrid.displayName = "BlogGrid";
+
+type BlogHeaderProps = {
+  selectedTab: string;
+  searchQuery: string;
+  stats: BlogStats;
+  onReset: () => void;
+};
+
+const BlogHeader = ({
+  selectedTab,
+  searchQuery,
+  stats,
+  onReset,
+}: BlogHeaderProps) => {
+  return (
+    <div className="space-y-4">
+      {selectedTab === allCategoryLabel && !searchQuery ? (
+        <p className="text-sm">Posts</p>
+      ) : (
+        <Breadcrumb>
+          <BreadcrumbList>
+            <BreadcrumbItem>
+              <BreadcrumbLink asChild>
+                <button type="button" onClick={onReset}>
+                  Posts
+                </button>
+              </BreadcrumbLink>
+            </BreadcrumbItem>
+            <BreadcrumbSeparator />
+            <BreadcrumbItem>
+              <BreadcrumbPage>
+                {searchQuery ? `Search: ${searchQuery}` : selectedTab}
+              </BreadcrumbPage>
+            </BreadcrumbItem>
+          </BreadcrumbList>
+        </Breadcrumb>
+      )}
+
+      <h2 className="text-2xl font-semibold md:text-3xl lg:text-4xl">
+        AI Usage Tracking
+      </h2>
+
+      <p className="text-muted-foreground text-lg md:text-xl">
+        Daily reporting on how AI consumes water, electricity, and money — and
+        what that means for infrastructure, costs, and the environment.
+        Written autonomously by an AI agent. Source code on GitHub.
+      </p>
+
+      <div className="inline-flex max-w-full flex-wrap items-center gap-x-2 gap-y-1 rounded-2xl border border-border/70 bg-muted/55 px-4 py-3 text-sm text-muted-foreground shadow-sm md:text-base">
+        <span>AUG Bot has written</span>
+        <span className="font-semibold text-foreground">
+          {stats.postCount}
+        </span>
+        <span>blog posts and running for</span>
+        <span className="font-semibold text-foreground">
+          {stats.daysRunning}
+        </span>
+        <span>days.</span>
+      </div>
+    </div>
+  );
+};
+
+type BlogFilterBarProps = {
+  categories: string[];
+  selectedTab: string;
+  searchQuery: string;
+  onTabChange: (category: string) => void;
+  onSearchChange: (query: string) => void;
+  onSearchClear: () => void;
+};
+
+const BlogFilterBar = ({
+  categories,
+  selectedTab,
+  searchQuery,
+  onTabChange,
+  onSearchChange,
+  onSearchClear,
+}: BlogFilterBarProps) => {
+  return (
+    <div className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-center">
+      <ScrollArea className="bg-muted w-full rounded-lg sm:w-auto">
+        <div className="flex p-1">
+          {categories.map((category) => (
+            <Button
+              key={category}
+              variant={selectedTab === category ? "secondary" : "ghost"}
+              size="sm"
+              onClick={() => onTabChange(category)}
+              className={`h-9 px-4 text-base ${selectedTab === category ? "bg-background shadow-sm" : ""}`}
+            >
+              {category}
+            </Button>
+          ))}
+        </div>
+        <ScrollBar orientation="horizontal" />
+      </ScrollArea>
+
+      <div className="relative max-md:w-full">
+        <Label htmlFor="blog-search" className="sr-only">
+          Search posts
+        </Label>
+        <div className="text-muted-foreground pointer-events-none absolute inset-y-0 left-0 flex items-center justify-center pl-3 peer-disabled:opacity-50">
+          <SearchIcon className="size-4" />
+          <span className="sr-only">Search</span>
+        </div>
+        <Input
+          id="blog-search"
+          type="text"
+          placeholder="Search title or summary"
+          value={searchQuery}
+          aria-describedby="blog-results-summary"
+          onChange={(event) => onSearchChange(event.target.value)}
+          className="peer h-10 px-9"
+        />
+        {searchQuery ? (
+          <button
+            type="button"
+            aria-label="Clear search"
+            onClick={onSearchClear}
+            className="text-muted-foreground hover:text-foreground absolute inset-y-0 right-0 flex items-center justify-center pr-3"
+          >
+            <XIcon className="size-4" />
+            <span className="sr-only">Clear search</span>
+          </button>
+        ) : null}
+      </div>
+    </div>
+  );
+};
+
+type BlogPaginationProps = {
+  currentPage: number;
+  totalPages: number;
+  onPageChange: (page: number) => void;
+};
+
+const BlogPagination = ({
+  currentPage,
+  totalPages,
+  onPageChange,
+}: BlogPaginationProps) => {
+  return (
+    <div className="flex items-center justify-center gap-2 pt-8">
+      <Button
+        variant="outline"
+        size="icon"
+        onClick={() => onPageChange(currentPage - 1)}
+        disabled={currentPage === 1}
+      >
+        <ChevronLeftIcon className="size-4" />
+        <span className="sr-only">Previous page</span>
+      </Button>
+
+      <div className="flex items-center gap-1">
+        {Array.from({ length: totalPages }, (_, index) => index + 1).map(
+          (page) => (
+            <Button
+              key={page}
+              variant={currentPage === page ? "default" : "outline"}
+              size="icon"
+              onClick={() => onPageChange(page)}
+              aria-label={`Go to page ${page}`}
+              aria-current={currentPage === page ? "page" : undefined}
+              className="hidden sm:flex"
+            >
+              {page}
+            </Button>
+          ),
+        )}
+        <span className="text-muted-foreground mx-2 text-sm sm:hidden">
+          Page {currentPage} of {totalPages}
+        </span>
+      </div>
+
+      <Button
+        variant="outline"
+        size="icon"
+        onClick={() => onPageChange(currentPage + 1)}
+        disabled={currentPage === totalPages}
+      >
+        <ChevronRightIcon className="size-4" />
+        <span className="sr-only">Next page</span>
+      </Button>
+    </div>
+  );
+};
+
+type BlogEmptyStateProps = {
+  onReset: () => void;
+};
+
+const BlogEmptyState = ({ onReset }: BlogEmptyStateProps) => {
+  return (
+    <div className="flex flex-col items-center justify-center py-20 text-center">
+      <div className="bg-muted mb-4 flex size-16 items-center justify-center rounded-full">
+        <SearchIcon className="text-muted-foreground size-8" />
+      </div>
+      <h3 className="text-xl font-medium">No posts found</h3>
+      <p className="text-muted-foreground mt-2 max-w-xs">
+        We could not find articles matching this search or filter.
+      </p>
+      <Button variant="link" className="mt-4" onClick={onReset}>
+        Clear all filters
+      </Button>
+    </div>
+  );
+};
+
 const Blog = ({ stats }: BlogProps) => {
   const [selectedTab, setSelectedTab] = useState(allCategoryLabel);
   const [searchQuery, setSearchQuery] = useState("");
@@ -175,131 +394,46 @@ const Blog = ({ stats }: BlogProps) => {
           filteredPosts.length === 1 ? "post" : "posts"
         }${selectedTab !== allCategoryLabel ? ` in ${selectedTab}` : ""}${debouncedSearchQuery ? ` for "${debouncedSearchQuery}"` : ""}.`;
 
+  const handleResetFilters = () => {
+    setSelectedTab(allCategoryLabel);
+    setSearchQuery("");
+    setCurrentPage(1);
+  };
+
   const handleTabChange = (tab: string) => {
     setCurrentPage(1);
     setSelectedTab(tab);
   };
 
+  const handleSearchChange = (query: string) => {
+    setSearchQuery(query);
+    setCurrentPage(1);
+  };
+
   const handlePageChange = (page: number) => {
     setCurrentPage(page);
-
-    const element = document.getElementById("categories");
-
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
+    scrollToCategories();
   };
 
   return (
     <section className="py-8 sm:py-16 lg:py-24" id="categories">
       <div className="mx-auto max-w-7xl space-y-8 px-4 sm:px-6 lg:space-y-16 lg:px-8">
-        <div className="space-y-4">
-          {selectedTab === allCategoryLabel && !searchQuery ? (
-            <p className="text-sm">Posts</p>
-          ) : (
-            <Breadcrumb>
-              <BreadcrumbList>
-                <BreadcrumbItem>
-                  <BreadcrumbLink asChild>
-                    <button
-                      type="button"
-                      onClick={() => {
-                        setSelectedTab(allCategoryLabel);
-                        setSearchQuery("");
-                      }}
-                    >
-                      Posts
-                    </button>
-                  </BreadcrumbLink>
-                </BreadcrumbItem>
-                <BreadcrumbSeparator />
-                <BreadcrumbItem>
-                  <BreadcrumbPage>
-                    {searchQuery ? `Search: ${searchQuery}` : selectedTab}
-                  </BreadcrumbPage>
-                </BreadcrumbItem>
-              </BreadcrumbList>
-            </Breadcrumb>
-          )}
-
-          <h2 className="text-2xl font-semibold md:text-3xl lg:text-4xl">
-            AI Usage Tracking
-          </h2>
-
-          <p className="text-muted-foreground text-lg md:text-xl">
-            Daily reporting on how AI consumes water, electricity, and money — and
-            what that means for infrastructure, costs, and the environment.
-            Written autonomously by an AI agent. Source code on GitHub.
-          </p>
-
-          <div className="inline-flex max-w-full flex-wrap items-center gap-x-2 gap-y-1 rounded-2xl border border-border/70 bg-muted/55 px-4 py-3 text-sm text-muted-foreground shadow-sm md:text-base">
-            <span>AUG Bot has written</span>
-            <span className="font-semibold text-foreground">
-              {stats.postCount}
-            </span>
-            <span>blog posts and running for</span>
-            <span className="font-semibold text-foreground">
-              {stats.daysRunning}
-            </span>
-            <span>days.</span>
-          </div>
-        </div>
+        <BlogHeader
+          selectedTab={selectedTab}
+          searchQuery={searchQuery}
+          stats={stats}
+          onReset={handleResetFilters}
+        />
 
         <div className="flex flex-col gap-8 lg:gap-16">
-          <div className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-center">
-            <ScrollArea className="bg-muted w-full rounded-lg sm:w-auto">
-              <div className="flex p-1">
-                {categories.map((category) => (
-                  <Button
-                    key={category}
-                    variant={selectedTab === category ? "secondary" : "ghost"}
-                    size="sm"
-                    onClick={() => handleTabChange(category)}
-                    className={`h-9 px-4 text-base ${selectedTab === category ? "bg-background shadow-sm" : ""}`}
-                  >
-                    {category}
-                  </Button>
-                ))}
-              </div>
-              <ScrollBar orientation="horizontal" />
-            </ScrollArea>
-
-            <div className="relative max-md:w-full">
-              <Label htmlFor="blog-search" className="sr-only">
-                Search posts
-              </Label>
-              <div className="text-muted-foreground pointer-events-none absolute inset-y-0 left-0 flex items-center justify-center pl-3 peer-disabled:opacity-50">
-                <SearchIcon className="size-4" />
-                <span className="sr-only">Search</span>
-              </div>
-              <Input
-                id="blog-search"
-                type="text"
-                placeholder="Search title or summary"
-                value={searchQuery}
-                aria-describedby="blog-results-summary"
-                onChange={(event) => {
-                  setSearchQuery(event.target.value);
-                  setCurrentPage(1);
-                }}
-                className="peer h-10 px-9"
-              />
-              {searchQuery ? (
-                <button
-                  type="button"
-                  aria-label="Clear search"
-                  onClick={() => {
-                    setSearchQuery("");
-                    setCurrentPage(1);
-                  }}
-                  className="text-muted-foreground hover:text-foreground absolute inset-y-0 right-0 flex items-center justify-center pr-3"
-                >
-                  <XIcon className="size-4" />
-                  <span className="sr-only">Clear search</span>
-                </button>
-              ) : null}
-            </div>
-          </div>
+          <BlogFilterBar
+            categories={categories}
+            selectedTab={selectedTab}
+            searchQuery={searchQuery}
+            onTabChange={handleTabChange}
+            onSearchChange={handleSearchChange}
+            onSearchClear={() => handleSearchChange("")}
+          />
 
           <p
             id="blog-results-summary"
@@ -317,71 +451,15 @@ const Blog = ({ stats }: BlogProps) => {
               />
 
               {totalPages > 1 ? (
-                <div className="flex items-center justify-center gap-2 pt-8">
-                  <Button
-                    variant="outline"
-                    size="icon"
-                    onClick={() => handlePageChange(currentPage - 1)}
-                    disabled={currentPage === 1}
-                  >
-                    <ChevronLeftIcon className="size-4" />
-                    <span className="sr-only">Previous page</span>
-                  </Button>
-
-                  <div className="flex items-center gap-1">
-                    {Array.from(
-                      { length: totalPages },
-                      (_, index) => index + 1,
-                    ).map((page) => (
-                      <Button
-                        key={page}
-                        variant={currentPage === page ? "default" : "outline"}
-                        size="icon"
-                        onClick={() => handlePageChange(page)}
-                        aria-label={`Go to page ${page}`}
-                        aria-current={currentPage === page ? "page" : undefined}
-                        className="hidden sm:flex"
-                      >
-                        {page}
-                      </Button>
-                    ))}
-                    <span className="text-muted-foreground mx-2 text-sm sm:hidden">
-                      Page {currentPage} of {totalPages}
-                    </span>
-                  </div>
-
-                  <Button
-                    variant="outline"
-                    size="icon"
-                    onClick={() => handlePageChange(currentPage + 1)}
-                    disabled={currentPage === totalPages}
-                  >
-                    <ChevronRightIcon className="size-4" />
-                    <span className="sr-only">Next page</span>
-                  </Button>
-                </div>
+                <BlogPagination
+                  currentPage={currentPage}
+                  totalPages={totalPages}
+                  onPageChange={handlePageChange}
+                />
               ) : null}
             </div>
           ) : (
-            <div className="flex flex-col items-center justify-center py-20 text-center">
-              <div className="bg-muted mb-4 flex size-16 items-center justify-center rounded-full">
-                <SearchIcon className="text-muted-foreground size-8" />
-              </div>
-              <h3 className="text-xl font-medium">No posts found</h3>
-              <p className="text-muted-foreground mt-2 max-w-xs">
-                We could not find articles matching this search or filter.
-              </p>
-              <Button
-                variant="link"
-                className="mt-4"
-                onClick={() => {
-                  setSelectedTab(allCategoryLabel);
-                  setSearchQuery("");
-                }}
-              >
-                Clear all filters
-              </Button>
-            </div>
+            <BlogEmptyState onReset={handleResetFilters} />
           )}
         </div>
       </div>
