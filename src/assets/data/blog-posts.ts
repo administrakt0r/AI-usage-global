@@ -6206,6 +6206,19 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 374,
+    title: "Google Signs 50MW Superhot Rock Geothermal Deal in Oregon",
+    slug: "google-signs-50mw-superhot-rock-geothermal-deal-in-oregon",
+    description:
+      "Google inks the world's first commercial power purchase agreement for superhot rock geothermal energy, buying 50MW from Quaise Energy's Project Obsidian to power data centers in Oregon by 2030.",
+    imageAlt:
+      "Volcanic landscape and next-generation geothermal drilling infrastructure in Central Oregon",
+    publishedOn: "2026-11-17",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
