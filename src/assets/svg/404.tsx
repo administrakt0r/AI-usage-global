@@ -1,16 +1,8 @@
 import type { SVGAttributes } from "react";
 
-const Icon404 = (props: SVGAttributes<SVGElement>) => {
-  return (
-    <svg
-      width="1.21325em"
-      height="1em"
-      viewBox="0 0 586 483"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-    >
-      <path
+const FirstDigitFourPaths = () => (
+  <>
+    <path
         d="M207.891 275.994H145.943C144.721 275.994 143.729 275.003 143.729 273.782C143.729 272.559 144.721 271.57 145.943 271.57H207.891C209.113 271.57 210.104 272.559 210.104 273.782C210.104 275.003 209.113 275.994 207.891 275.994Z"
         fill="var(--primary)"
         fillOpacity="0.5"
@@ -160,7 +152,12 @@ const Icon404 = (props: SVGAttributes<SVGElement>) => {
         fill="var(--primary)"
         fillOpacity="0.4"
       />
-      <path
+  </>
+);
+
+const DigitZeroPaths = () => (
+  <>
+    <path
         d="M260.605 327.422C260.229 327.422 259.849 327.328 259.5 327.125C244.798 318.624 237.026 302.432 237.026 280.294V196.306C237.026 195.084 238.017 194.093 239.24 194.093C240.461 194.093 241.452 195.084 241.452 196.306V280.294C241.452 300.761 248.458 315.629 261.716 323.294C262.772 323.905 263.134 325.258 262.522 326.317C262.113 327.026 261.369 327.422 260.605 327.422Z"
         fill="var(--primary)"
         fillOpacity="0.1"
@@ -290,7 +287,12 @@ const Icon404 = (props: SVGAttributes<SVGElement>) => {
         fill="var(--primary)"
         fillOpacity="0.5"
       />
-      <path
+  </>
+);
+
+const SecondDigitFourPaths = () => (
+  <>
+    <path
         d="M439.175 275.994H387.248C386.027 275.994 385.036 275.003 385.036 273.782C385.036 272.559 386.027 271.57 387.248 271.57H439.175C440.397 271.57 441.387 272.559 441.387 273.782C441.387 275.003 440.397 275.994 439.175 275.994Z"
         fill="var(--primary)"
         fillOpacity="0.5"
@@ -435,7 +437,12 @@ const Icon404 = (props: SVGAttributes<SVGElement>) => {
         fill="var(--primary)"
         fillOpacity="0.5"
       />
-      <path
+  </>
+);
+
+const BackgroundAndDecorativePaths = () => (
+  <>
+    <path
         d="M87.1143 158.144C87.1143 159.977 85.6276 161.464 83.7956 161.464C81.9623 161.464 80.4756 159.977 80.4756 158.144C80.4756 156.31 81.9623 154.825 83.7956 154.825C85.6276 154.825 87.1143 156.31 87.1143 158.144Z"
         fill="var(--primary)"
         fillOpacity="0.5"
@@ -535,6 +542,23 @@ const Icon404 = (props: SVGAttributes<SVGElement>) => {
         fill="var(--primary)"
         fillOpacity="0.5"
       />
+  </>
+);
+
+const Icon404 = (props: SVGAttributes<SVGElement>) => {
+  return (
+    <svg
+      width="1.21325em"
+      height="1em"
+      viewBox="0 0 586 483"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <FirstDigitFourPaths />
+      <DigitZeroPaths />
+      <SecondDigitFourPaths />
+      <BackgroundAndDecorativePaths />
     </svg>
   );
 };
