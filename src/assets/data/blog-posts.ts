@@ -6180,6 +6180,19 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 372,
+    title: "US Bill Introduced to Ban Data Centers on Federal Lands",
+    slug: "us-bill-introduced-to-ban-data-centers-on-federal-lands",
+    description:
+      "Federal legislation H.R. 11002 would ban commercial data centers on public lands managed by the Forest Service and Interior, citing severe grid strain, water depletion, and air pollution.",
+    imageAlt:
+      "Public forest and mountain landscape bordered by electrical transmission lines",
+    publishedOn: "2026-11-17",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
