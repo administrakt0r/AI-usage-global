@@ -3356,6 +3356,15 @@
       "published_on": "2026-11-17",
       "primary_entity": "Google / Quaise Energy",
       "event_fingerprint": "google-quaise-50mw-superhot-rock-geothermal-deal"
+    },
+    {
+      "canonical_url": "https://insidelines.pjm.com/pjm-proposes-new-rules-to-protect-grid-reliability-as-data-center-demand-grows/",
+      "normalized_url": "https://insidelines.pjm.com/pjm-proposes-new-rules-to-protect-grid-reliability-as-data-center-demand-grows",
+      "title": "PJM Proposes New Rules to Protect Grid Reliability as Data Center Demand Grows",
+      "normalized_title": "pjm proposes new rules to protect grid reliability as data center demand grows",
+      "published_on": "2026-11-17",
+      "primary_entity": "PJM Interconnection",
+      "event_fingerprint": "pjm-ferc-mandatory-ride-through-50mw-data-centers"
     }
   ],
   "version": 2,

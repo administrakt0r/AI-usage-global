@@ -6219,6 +6219,19 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 375,
+    title: "PJM Mandates Grid Ride-Through Rules for 50MW Data Centers",
+    slug: "pjm-mandates-grid-ride-through-rules-for-50mw-data-centers",
+    description:
+      "PJM files FERC rules requiring data centers of 50MW or more to ride through grid disturbances after a 3.9GW sudden load drop threatened Eastern grid stability.",
+    imageAlt:
+      "High-voltage electrical transmission substation with power grid infrastructure under dramatic sky",
+    publishedOn: "2026-11-17",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
