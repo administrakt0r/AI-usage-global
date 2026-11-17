@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { GithubIcon, MailIcon, MenuIcon } from "lucide-react";
 
-import type { NavigationSection } from "@/components/blocks/menu-navigation";
 import MenuDropdown from "@/components/blocks/menu-dropdown";
 import MenuNavigation from "@/components/blocks/menu-navigation";
 import { ModeToggle } from "@/components/layout/mode-toggle";
@@ -17,6 +16,7 @@ import {
 import { useActiveSection } from "@/hooks/use-active-section";
 import { useScrollState } from "@/hooks/use-scroll-state";
 import { cn } from "@/lib/utils";
+import type { NavigationSection } from "@/types/navigation";
 
 type HeaderProps = {
   navigationData: NavigationSection[];

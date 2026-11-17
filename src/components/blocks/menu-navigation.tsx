@@ -1,5 +1,3 @@
-import type { ReactNode } from "react";
-
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -11,25 +9,9 @@ import {
 } from "@/components/ui/navigation-menu";
 
 import { cn } from "@/lib/utils";
+import type { NavigationItem, NavigationSection } from "@/types/navigation";
 
-export type NavigationItem = {
-  title: string;
-  href: string;
-};
-
-export type NavigationSection = {
-  title: string;
-  icon?: ReactNode;
-} & (
-  | {
-      items: NavigationItem[];
-      href?: never;
-    }
-  | {
-      items?: never;
-      href: string;
-    }
-);
+export type { NavigationItem, NavigationSection };
 
 type MenuNavigationProps = {
   navigationData: NavigationSection[];
