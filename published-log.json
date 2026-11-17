@@ -3347,6 +3347,15 @@
       "published_on": "2026-11-17",
       "primary_entity": "Prologis / City of Trenton",
       "event_fingerprint": "prologis-trenton-ohio-data-center-ban-lawsuit"
+    },
+    {
+      "canonical_url": "https://www.opb.org/article/2026/11/17/google-oregon-bend-la-pine-superhot-rocks-technology-energy-power/",
+      "normalized_url": "https://www.opb.org/article/2026/11/17/google-oregon-bend-la-pine-superhot-rocks-technology-energy-power",
+      "title": "Google announces world’s first deal to buy commercial superhot rock geothermal energy from Central Oregon",
+      "normalized_title": "google announces worlds first deal to buy commercial superhot rock geothermal energy from central oregon",
+      "published_on": "2026-11-17",
+      "primary_entity": "Google / Quaise Energy",
+      "event_fingerprint": "google-quaise-50mw-superhot-rock-geothermal-deal"
     }
   ],
   "version": 2,
