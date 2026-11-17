@@ -6167,6 +6167,19 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 371,
+    title: "Harvard Study Reveals US Hyperscale AI Data Center Emissions",
+    slug: "harvard-study-us-hyperscale-ai-data-center-emissions",
+    description:
+      "A Harvard study in Nature Sustainability finds 403 US hyperscale data centers consume up to 99 TWh of electricity and emit 25.7 million tons of CO2 annually.",
+    imageAlt:
+      "Aerial view of a hyperscale data center facility and electrical substation",
+    publishedOn: "2026-11-17",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (

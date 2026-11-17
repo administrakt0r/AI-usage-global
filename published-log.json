@@ -3320,6 +3320,15 @@
       "published_on": "2026-11-17",
       "primary_entity": "OpenAI / TensorWave",
       "event_fingerprint": "openai-tensorwave-457mw-amd-capacity"
+    },
+    {
+      "canonical_url": "https://hsph.harvard.edu/news/hyperscale-data-centers-energy-consumption-carbon-emissions-newly-estimated-by-researchers/",
+      "normalized_url": "https://hsph.harvard.edu/news/hyperscale-data-centers-energy-consumption-carbon-emissions-newly-estimated-by-researchers",
+      "title": "Hyperscale data centers’ energy consumption, carbon emissions newly estimated by researchers",
+      "normalized_title": "hyperscale data centers energy consumption carbon emissions newly estimated by researchers",
+      "published_on": "2026-11-17",
+      "primary_entity": "Harvard T.H. Chan School of Public Health",
+      "event_fingerprint": "harvard-study-hyperscale-datacenter-emissions"
     }
   ],
   "version": 2,
