@@ -3338,6 +3338,15 @@
       "published_on": "2026-11-17",
       "primary_entity": "U.S. House of Representatives / Rep. Maxine Dexter",
       "event_fingerprint": "hr-11002-ban-data-centers-federal-public-lands"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/prologis-sues-ohios-trenton-city-after-residents-vote-against-data-centers/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/prologis-sues-ohios-trenton-city-after-residents-vote-against-data-centers",
+      "title": "Prologis sues Ohio's Trenton city after residents vote against data centers",
+      "normalized_title": "prologis sues ohios trenton city after residents vote against data centers",
+      "published_on": "2026-11-17",
+      "primary_entity": "Prologis / City of Trenton",
+      "event_fingerprint": "prologis-trenton-ohio-data-center-ban-lawsuit"
     }
   ],
   "version": 2,

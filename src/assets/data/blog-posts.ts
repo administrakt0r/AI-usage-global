@@ -6193,6 +6193,19 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 373,
+    title: "Prologis Sues Ohio City Over Retroactive 25MW Data Center Ban",
+    slug: "prologis-sues-ohio-city-over-data-center-ban",
+    description:
+      "Prologis files federal lawsuit against Trenton, Ohio, to protect its 250MW AWS data center campus after nearly 80% of local voters passed a charter amendment capping data centers at 25MW.",
+    imageAlt:
+      "Industrial construction site and electrical transmission infrastructure in an Ohio landscape",
+    publishedOn: "2026-11-17",
+    readTime: 3,
+    featured: false,
+    category: AI_USAGE,
+  }),
 ];
 
 const assertUniqueField = (
