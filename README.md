@@ -112,14 +112,16 @@ This repository is useful if you are:
 - ⚡ **Static export architecture** using Next.js App Router
 - ✍️ **MDX-based content** in `src/content/*.mdx`
 - 🧠 **Structured blog metadata** in `src/assets/data/blog-posts.ts`
-- 🖼️ **Automatic social/post image generation** via `scripts/generate-post-images.mjs`
+- 🖼️ **Topic-aware cover images** generated per post: water, power, nuclear, geothermal, emissions, policy, compute and money themes, with the headline figure pulled from the title
 - 📡 **Automatic RSS feed generation** via `scripts/generate-rss.mjs`
 - 🔎 **Search and filtering UI** for posts on the homepage
 - 🧭 **Structured SEO setup** with metadata, Open Graph, Twitter cards, RSS, sitemap, robots, and schema.org JSON-LD
 - 🌿 **Responsible AI policy page** and clear disclosure of autonomous publishing
 - ☁️ **Cloudflare Pages deployment workflow** included
 - ✅ **CI checks** for linting, types, tests, build, and bot PR validation
-- 🤖 **Bot PR safeguards** for controlled autonomous content updates
+- 💧 **Live AI footprint tracker** (`/ai-footprint` and a homepage widget): running counters for AI electricity, data-centre electricity, AI water use and AI emissions, built from cited low/central/high estimates in `src/assets/data/ai-footprint.json`
+- 🤖 **Autonomous AUG Bot** (`.github/workflows/aug-bot.yml` + `newsprompt.md`) that publishes on a schedule and refreshes the footprint data weekly
+- 🛡️ **Bot PR safeguards**: allow-listed files, duplicate-story rejection, footprint schema checks and append-only logs
 
 ---
 
@@ -315,7 +317,8 @@ The included Cloudflare deployment workflow expects these repository secrets:
 | --- | --- |
 | `CLOUDFLARE_API_TOKEN` | Authenticates Wrangler for Cloudflare Pages deployment |
 | `CLOUDFLARE_ACCOUNT_ID` | Tells Wrangler which Cloudflare account to deploy to |
-| `AUTO_MERGE_TOKEN` | Optional token used by the auto-merge workflow when merging eligible PRs |
+| `AUTO_MERGE_TOKEN` | PAT used by AUG Bot to push and open PRs (so checks trigger) and by auto-merge to merge them |
+| `ANTHROPIC_API_KEY` or `CLAUDE_CODE_OAUTH_TOKEN` | Authenticates Claude Code for the AUG Bot workflow |
 
 ---
 
@@ -498,6 +501,23 @@ This repository includes several GitHub Actions workflows:
 - **Cloudflare Pages Deploy** — deploys production output
 - **Auto Merge PR** — merges eligible PRs after successful checks
 - **Daily Post Watchdog** — verifies that the latest expected post is fresh and live
+- **AUG Bot** — runs Claude Code with `newsprompt.md` four times a day and opens one `post/*` PR per run
+
+### AUG Bot setup
+
+1. Add repository secrets:
+   - `ANTHROPIC_API_KEY`, or `CLAUDE_CODE_OAUTH_TOKEN` (generate it with `claude setup-token`)
+   - `AUTO_MERGE_TOKEN`: a fine-grained PAT for this repo with **Contents** and **Pull requests** write access. It is required because pushes made with the default `GITHUB_TOKEN` do not trigger PR Checks.
+2. Trigger it manually once: **Actions → AUG Bot → Run workflow**.
+3. Change the schedule in the `cron:` lines of `.github/workflows/aug-bot.yml`.
+
+The flow: AUG Bot opens a PR → **PR Checks** (including `validate:bot-pr`) → **Auto Merge PR** → **Cloudflare Pages Deploy**.
+
+`newsprompt.md` is the single source of truth for the bot's behaviour: sources, scope, duplicate rules, writing standards, the MDX template and the footprint refresh procedure. You can paste it into any coding agent to run a post by hand. Its sources live in `rss-feeds.json` (tiered feeds plus watch pages).
+
+### AI footprint data
+
+`src/assets/data/ai-footprint.json` holds annual low/central/high estimates, each with a derivation and source IDs. The site turns the annual central figure into a per-second rate and counts year-to-date from 1 January UTC. These are modelled estimates, not live telemetry. The bot reviews the file when `lastReviewed` is 7 or more days old, appends to `history`, and `validate:bot-pr` enforces the schema (`scripts/footprint-schema.mjs`).
 
 There is also a repo-specific validation script for bot-generated post PRs:
 
@@ -512,6 +532,8 @@ That script checks things like:
 - metadata validity
 - source URL handling
 - generated artifact restrictions in PRs
+- duplicate stories (URL, normalized title, event fingerprint) against the published log
+- footprint data schema, forward-moving `lastReviewed` and append-only history
 
 ---
 

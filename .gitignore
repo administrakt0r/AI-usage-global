@@ -10,8 +10,6 @@
 
 # Local AI / assistant / workspace state
 /.omx
-/.Jules
-/.jules
 
 # Environment files
 .env

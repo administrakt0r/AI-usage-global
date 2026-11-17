@@ -3,6 +3,7 @@ import type { MetadataRoute } from "next";
 import { sortedBlogPosts } from "@/assets/data/blog-posts";
 
 import { getPostMachineDate } from "@/lib/blog";
+import { footprint } from "@/lib/footprint";
 import { SITE_URL } from "@/lib/site";
 
 export const dynamic = "force-static";
@@ -19,6 +20,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: latestPublishedAt,
       changeFrequency: "daily",
       priority: 1.0,
+    },
+    {
+      url: `${SITE_URL}/ai-footprint`,
+      lastModified: new Date(`${footprint.lastReviewed}T00:00:00Z`),
+      changeFrequency: "weekly",
+      priority: 0.9,
     },
     {
       url: `${SITE_URL}/about`,

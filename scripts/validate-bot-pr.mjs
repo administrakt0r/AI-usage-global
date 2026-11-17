@@ -6,12 +6,25 @@ import { fileURLToPath } from 'node:url'
 
 import ts from 'typescript'
 
+import { validateFootprintData } from './footprint-schema.mjs'
+
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const rootDir = path.resolve(__dirname, '..')
 
 const BLOG_POSTS_PATH = 'src/assets/data/blog-posts.ts'
 const PUBLISHED_LOG_PATH = 'published-log.json'
+const FOOTPRINT_PATH = 'src/assets/data/ai-footprint.json'
+
+const LOG_ENTRY_FIELDS = [
+  'canonical_url',
+  'normalized_url',
+  'title',
+  'normalized_title',
+  'published_on',
+  'primary_entity',
+  'event_fingerprint'
+]
 
 const fail = message => {
   throw new Error(message)
@@ -241,16 +254,7 @@ const main = async () => {
       return false
     }
 
-    // Allow fixing pre-existing lint errors in specific files as mandated by instructions
-    const allowedAppFiles = [
-      'src/app/(pages)/about/page.tsx',
-      'src/app/(pages)/responsible-ai-usage/page.tsx',
-      'src/components/logo.tsx',
-      'src/lib/blog.ts',
-      'scripts/validate-bot-pr.mjs'
-    ]
-
-    if (allowedAppFiles.includes(entry.path)) {
+    if (entry.path === FOOTPRINT_PATH) {
       return false
     }
 
@@ -259,7 +263,7 @@ const main = async () => {
 
   if (disallowedChange) {
     fail(
-      `Bot PRs may only change src/content/*.mdx, ${BLOG_POSTS_PATH}, and ${
+      `Bot PRs may only change src/content/*.mdx, ${BLOG_POSTS_PATH}, ${FOOTPRINT_PATH}, and ${
         branchConfig.requiresPublishedLog ? PUBLISHED_LOG_PATH : 'no published log file'
       }. Disallowed change: ${disallowedChange.path}`
     )
@@ -411,6 +415,33 @@ const main = async () => {
     const lastEntry =
       headPublishedLog.published[headPublishedLog.published.length - 1]
 
+    if (typeof lastEntry !== 'object' || lastEntry === null) {
+      fail(`${PUBLISHED_LOG_PATH} entries must be objects with ${LOG_ENTRY_FIELDS.join(', ')}.`)
+    }
+
+    const missingFields = LOG_ENTRY_FIELDS.filter(
+      field => typeof lastEntry[field] !== 'string' || lastEntry[field].trim() === ''
+    )
+
+    if (missingFields.length > 0) {
+      fail(`The new ${PUBLISHED_LOG_PATH} entry is missing: ${missingFields.join(', ')}`)
+    }
+
+    if (lastEntry.published_on !== newPost.publishedOn) {
+      fail(`The new log entry published_on (${lastEntry.published_on}) must match the post publishedOn (${newPost.publishedOn}).`)
+    }
+
+    for (const field of ['canonical_url', 'normalized_url', 'normalized_title', 'event_fingerprint']) {
+      const duplicate = basePublishedLog.published.find(
+        entry => typeof entry === 'object' && entry !== null &&
+          String(entry[field] ?? '').toLowerCase() === lastEntry[field].toLowerCase()
+      )
+
+      if (duplicate) {
+        fail(`Duplicate story: ${field} "${lastEntry[field]}" was already published on ${duplicate.published_on}.`)
+      }
+    }
+
     const appendedUrl = typeof lastEntry === 'string'
       ? lastEntry
       : lastEntry.canonical_url
@@ -441,6 +472,33 @@ const main = async () => {
 
     if (!logsMatch) {
       fail(`${PUBLISHED_LOG_PATH} must remain unchanged for opinion bot PRs.`)
+    }
+  }
+
+  if (changedFiles.some(entry => entry.path === FOOTPRINT_PATH)) {
+    const footprintEntry = changedFiles.find(entry => entry.path === FOOTPRINT_PATH)
+
+    if (!footprintEntry.status.startsWith('M')) {
+      fail(`${FOOTPRINT_PATH} may only be modified, not added or deleted (status ${footprintEntry.status}).`)
+    }
+
+    const headFootprint = await readJsonFile(FOOTPRINT_PATH)
+    const baseFootprint = readJsonFromRef(baseRef, FOOTPRINT_PATH)
+    const footprintErrors = validateFootprintData(headFootprint)
+
+    if (footprintErrors.length > 0) {
+      fail(`${FOOTPRINT_PATH} is invalid:\n- ${footprintErrors.join('\n- ')}`)
+    }
+
+    if (headFootprint.lastReviewed <= baseFootprint.lastReviewed) {
+      fail(`${FOOTPRINT_PATH} changes must advance lastReviewed (base ${baseFootprint.lastReviewed}, head ${headFootprint.lastReviewed}).`)
+    }
+
+    const baseHistory = JSON.stringify(baseFootprint.history ?? [])
+    const headHistoryPrefix = JSON.stringify((headFootprint.history ?? []).slice(0, (baseFootprint.history ?? []).length))
+
+    if (baseHistory !== headHistoryPrefix) {
+      fail(`${FOOTPRINT_PATH} must only append to history, never rewrite it.`)
     }
   }
 

@@ -2,6 +2,7 @@ import { sortedBlogPosts } from "@/assets/data/blog-posts";
 
 import HeroSection from "@/components/blocks/hero-section/hero-section";
 import Blog from "@/components/blocks/blog-component/blog-component";
+import FootprintWidget from "@/components/blocks/footprint/footprint-widget";
 
 import { getBlogStats, getPostIsoDateTime } from "@/lib/blog";
 import {
@@ -108,6 +109,7 @@ const Home = () => {
   return (
     <div>
       <HeroSection blogData={sortedBlogPosts} />
+      <FootprintWidget />
       <Blog stats={homepageStats} />
       <section
         className="border-t py-12 sm:py-16"
