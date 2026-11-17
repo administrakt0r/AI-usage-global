@@ -1,7 +1,7 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { cn } from './utils.ts';
+import { cn, serializeJsonLd } from './utils.ts';
 
 describe('cn utility function', () => {
   it('merges basic class strings', () => {
@@ -50,6 +50,51 @@ describe('cn utility function', () => {
         'bg-blue-500' // This should override bg-red-500
       ),
       'base-class array-class1 array-class2 conditional-class p-4 bg-blue-500'
+    );
+  });
+});
+
+describe('serializeJsonLd utility function', () => {
+  it('serializes simple JSON objects correctly', () => {
+    const data = { name: 'AI Usage Global', url: 'https://aiusageglobal.org' };
+
+    assert.equal(
+      serializeJsonLd(data),
+      '{"name":"AI Usage Global","url":"https://aiusageglobal.org"}'
+    );
+  });
+
+  it('escapes <, >, and & characters to unicode escape sequences', () => {
+    const data = {
+      html: '<script>alert("XSS")</script>',
+      query: 'a & b > c',
+    };
+
+    const serialized = serializeJsonLd(data);
+
+    assert.equal(serialized.includes('<'), false);
+    assert.equal(serialized.includes('>'), false);
+    assert.equal(serialized.includes('&'), false);
+
+    assert.equal(
+      serialized,
+      '{"html":"\\u003cscript\\u003ealert(\\"XSS\\")\\u003c/script\\u003e","query":"a \\u0026 b \\u003e c"}'
+    );
+  });
+
+  it('escapes line terminators U+2028 and U+2029', () => {
+    const data = {
+      lineSeparator: 'Line1\u2028Line2',
+      paragraphSeparator: 'Para1\u2029Para2',
+    };
+
+    const serialized = serializeJsonLd(data);
+
+    assert.equal(serialized.includes('\u2028'), false);
+    assert.equal(serialized.includes('\u2029'), false);
+    assert.equal(
+      serialized,
+      '{"lineSeparator":"Line1\\u2028Line2","paragraphSeparator":"Para1\\u2029Para2"}'
     );
   });
 });
