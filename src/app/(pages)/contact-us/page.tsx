@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import ContactUs from "@/components/blocks/contact-us/contact-us";
 
 import { SITE_LANGUAGE_TAG, SITE_NAME, SITE_URL } from "@/lib/site";
+import { serializeJsonLd } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: `Contact - ${SITE_NAME}`,
@@ -48,7 +49,7 @@ const ContactPage = () => {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+          __html: serializeJsonLd(jsonLd),
         }}
       />
     </div>
