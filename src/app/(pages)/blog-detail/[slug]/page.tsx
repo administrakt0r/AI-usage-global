@@ -6,7 +6,12 @@ import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
-import { blogPosts, sortedBlogPosts } from "@/assets/data/blog-posts";
+import {
+  adjacentPostsBySlug,
+  blogPosts,
+  blogPostsBySlug,
+  sortedBlogPosts,
+} from "@/assets/data/blog-posts";
 import {
   formatDisplayTime,
   formatPostDisplayDate,
@@ -40,7 +45,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const post = blogPosts.find((candidate) => candidate.slug === slug);
+  const post = blogPostsBySlug.get(slug);
 
   if (!post) return {};
 
@@ -92,16 +97,9 @@ const PostNavigation = ({
 }: {
   currentPost: (typeof blogPosts)[0];
 }) => {
-  const currentIndex = sortedBlogPosts.findIndex(
-    (post) => post.slug === currentPost.slug,
-  );
-
-  const newerPost = currentIndex > 0 ? sortedBlogPosts[currentIndex - 1] : null;
-
-  const olderPost =
-    currentIndex < sortedBlogPosts.length - 1
-      ? sortedBlogPosts[currentIndex + 1]
-      : null;
+  const adjacent = adjacentPostsBySlug.get(currentPost.slug);
+  const newerPost = adjacent?.newerPost ?? null;
+  const olderPost = adjacent?.olderPost ?? null;
 
   return (
     <div className="flex w-full flex-col gap-3 sm:flex-row sm:justify-between">
@@ -158,7 +156,7 @@ export default async function BlogDetailPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const post = blogPosts.find((candidate) => candidate.slug === slug);
+  const post = blogPostsBySlug.get(slug);
 
   if (!post) {
     notFound();
