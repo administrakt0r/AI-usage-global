@@ -3329,6 +3329,15 @@
       "published_on": "2026-11-17",
       "primary_entity": "Harvard T.H. Chan School of Public Health",
       "event_fingerprint": "harvard-study-hyperscale-datacenter-emissions"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/bill-introduced-to-ban-data-center-development-on-some-federally-owned-land-in-us/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/bill-introduced-to-ban-data-center-development-on-some-federally-owned-land-in-us",
+      "title": "Bill introduced to ban data center development on some federally-owned land in US",
+      "normalized_title": "bill introduced to ban data center development on some federally owned land in us",
+      "published_on": "2026-11-17",
+      "primary_entity": "U.S. House of Representatives / Rep. Maxine Dexter",
+      "event_fingerprint": "hr-11002-ban-data-centers-federal-public-lands"
     }
   ],
   "version": 2,
