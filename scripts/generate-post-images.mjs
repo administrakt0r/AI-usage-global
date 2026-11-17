@@ -165,7 +165,11 @@ const getTitleLayout = (title) => {
     const lines = wrapTitle(title, maxChars);
 
     if (lines.length <= MAX_TITLE_LINES) {
-      const longestLine = Math.max(...lines.map((line) => line.length));
+      const longestLine = lines.reduce(
+        (max, line) => (line.length > max ? line.length : max),
+        0,
+      );
+
       let fontSize = 68;
 
       if (lines.length >= 4 || longestLine > 28) {
