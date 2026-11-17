@@ -10,6 +10,7 @@ import {
   SITE_NAME,
   SITE_URL,
 } from "@/lib/site";
+import { serializeJsonLd } from "@/lib/utils";
 
 const latestPosts = sortedBlogPosts.slice(0, 3);
 const homepageStats = getBlogStats(sortedBlogPosts);
@@ -147,7 +148,7 @@ const Home = () => {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+          __html: serializeJsonLd(jsonLd),
         }}
       />
     </div>
