@@ -297,7 +297,12 @@ const main = async () => {
     fail(`${PUBLISHED_LOG_PATH} must not be updated for opinion bot PRs.`)
   }
 
-  const contentFile = await fs.readFile(path.join(rootDir, contentChange.path), 'utf8')
+  const [contentFile, headBlogPostsSource, headPublishedLog] = await Promise.all([
+    fs.readFile(path.join(rootDir, contentChange.path), 'utf8'),
+    fs.readFile(path.join(rootDir, BLOG_POSTS_PATH), 'utf8'),
+    readJsonFile(PUBLISHED_LOG_PATH)
+  ])
+
   const markdownLinks = extractMarkdownLinks(contentFile)
   const invalidLink = markdownLinks.find(link => !isHttpsUrl(link))
 
@@ -307,7 +312,6 @@ const main = async () => {
     )
   }
 
-  const headBlogPostsSource = await fs.readFile(path.join(rootDir, BLOG_POSTS_PATH), 'utf8')
   const baseBlogPostsSource = git('show', `${baseRef}:${BLOG_POSTS_PATH}`)
 
   const headBlogPosts = loadBlogPostsFromSource(headBlogPostsSource, BLOG_POSTS_PATH)
@@ -385,7 +389,6 @@ const main = async () => {
     )
   }
 
-  const headPublishedLog = await readJsonFile(PUBLISHED_LOG_PATH)
   const basePublishedLog = readJsonFromRef(baseRef, PUBLISHED_LOG_PATH)
 
   if (
