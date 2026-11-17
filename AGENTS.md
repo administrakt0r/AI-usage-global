@@ -14,7 +14,7 @@ pnpm test         # runs all tests
 
 - Uses Node's built-in `node:test` runner via `tsx --test`
 - Test files: `src/**/*.test.ts`
-- Run single test: `tsx --test src/lib/blog.test.ts`
+- Run single test: `pnpm exec tsx --test src/lib/blog.test.ts`
 
 ## Build pipeline
 
@@ -26,6 +26,23 @@ pnpm test         # runs all tests
 - Cloudflare Pages (not Vercel)
 - Auto-deploys on push to `main`
 - URL: https://aiusageglobal.pages.dev
+
+## Autonomous bot
+
+- `newsprompt.md` is the ONLY bot prompt (sources, scope, template, footprint refresh)
+- Run it by pasting into any coding agent; there is no scheduled workflow and no extra secrets
+- Bot branches are `post/{slug}`, PR titles `[aug-bot] <Title> - <YYYY-MM-DD>`
+- Bot may only touch `src/content/*.mdx`, `src/assets/data/blog-posts.ts`, `published-log.json`, `src/assets/data/ai-footprint.json`
+- Source list: `rss-feeds.json` (tiered feeds + watch pages)
+
+## AI footprint tracker
+
+- Data: `src/assets/data/ai-footprint.json` (schema in `scripts/footprint-schema.mjs`)
+- Logic: `src/lib/footprint.ts`; UI: `src/components/blocks/footprint/`, page `src/app/(pages)/ai-footprint/page.tsx`
+
+## Post images
+
+- `scripts/generate-post-images.mjs` renders topic-themed covers; topic + headline stat come from `scripts/post-image-topics.mjs` (tested in `src/lib/post-image-topics.test.ts`)
 
 ## Validation
 

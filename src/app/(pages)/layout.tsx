@@ -16,6 +16,10 @@ const navigationData: NavigationSection[] = [
     href: "/#categories",
   },
   {
+    title: "AI Footprint",
+    href: "/ai-footprint",
+  },
+  {
     title: "About",
     href: "/about",
   },

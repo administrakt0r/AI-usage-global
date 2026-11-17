@@ -24,6 +24,7 @@ jobs:
           AUTO_MERGE_TOKEN: ${{ secrets.AUTO_MERGE_TOKEN }}
           FALLBACK_GITHUB_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
+          REPO_OWNER: ${{ github.repository_owner }}
           RUN_HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
           RUN_ID: ${{ github.event.workflow_run.id }}
         run: |
@@ -50,7 +51,7 @@ jobs:
           # GitHub can briefly report UNKNOWN or UNSTABLE immediately after a
           # successful workflow_run before the PR becomes mergeable.
           for attempt in 1 2 3 4 5 6; do
-            pr_json="$(gh pr view "$pr_number" --repo "$REPO" --json state,baseRefName,isDraft,mergeStateStatus,headRefName,headRefOid)"
+            pr_json="$(gh pr view "$pr_number" --repo "$REPO" --json state,baseRefName,isDraft,mergeStateStatus,headRefName,headRefOid,isCrossRepository,author)"
             merge_state="$(printf '%s' "$pr_json" | jq -r '.mergeStateStatus')"
 
             case "$merge_state" in
@@ -68,6 +69,21 @@ jobs:
           base_ref="$(printf '%s' "$pr_json" | jq -r '.baseRefName')"
           is_draft="$(printf '%s' "$pr_json" | jq -r '.isDraft')"
           head_ref="$(printf '%s' "$pr_json" | jq -r '.headRefName')"
+
+          # Public repo: never auto-merge PRs from forks or from accounts other
+          # than the repository owner / the bot token's account.
+          if [ "$(printf '%s' "$pr_json" | jq -r '.isCrossRepository')" != "false" ]; then
+            echo "Pull request #$pr_number comes from a fork; skipping auto-merge."
+            exit 0
+          fi
+
+          pr_author="$(printf '%s' "$pr_json" | jq -r '.author.login')"
+          token_user="$(gh api user --jq '.login' 2>/dev/null || true)"
+
+          if [ "$pr_author" != "$REPO_OWNER" ] && [ "$pr_author" != "$token_user" ] && [ "$pr_author" != "app/github-actions" ] && [ "$pr_author" != "github-actions[bot]" ]; then
+            echo "Pull request #$pr_number author '$pr_author' is not trusted for auto-merge; skipping."
+            exit 0
+          fi
           head_sha="$(printf '%s' "$pr_json" | jq -r '.headRefOid')"
 
           if [ "$state" != "OPEN" ]; then

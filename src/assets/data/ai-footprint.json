@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "lastReviewed": "2026-11-17",
+  "estimateYear": 2026,
+  "reviewedBy": "AUG Bot",
+  "methodology": "Annual figures are AUG estimates for the estimate year, derived from the cited studies by applying each study's published growth path to its latest measured year. Low and high bounds keep the spread between independent studies instead of hiding it. Live counters divide the annual central figure evenly across the year, so they illustrate scale and are not real-time metering.",
+  "metrics": [
+    {
+      "id": "ai-electricity",
+      "label": "AI electricity use",
+      "scope": "AI-focused data centres worldwide",
+      "unit": "TWh",
+      "annual": { "low": 120, "central": 195, "high": 230 },
+      "baseline": { "year": 2025, "value": 155, "note": "IEA estimate for AI-focused data centres" },
+      "projection": { "year": 2030, "value": 465, "note": "IEA: AI-focused consumption roughly triples 2025-2030" },
+      "derivation": "Central: IEA's 155 TWh (2025) grown on its path to roughly triple by 2030 (about 25% a year). Low: UNU-INWEH's estimate that AI was about one-fifth of 448 TWh in 2025, grown at the same rate. High: de Vries-Gao's ~23 GW AI power demand in 2025, at high utilisation and continued growth.",
+      "sourceIds": ["iea-2026", "unu-inweh-2026", "devries-2025"]
+    },
+    {
+      "id": "datacenter-electricity",
+      "label": "All data centre electricity",
+      "scope": "All data centres worldwide (AI and conventional), excluding crypto mining",
+      "unit": "TWh",
+      "annual": { "low": 515, "central": 555, "high": 600 },
+      "baseline": { "year": 2025, "value": 485, "note": "IEA estimate, 17% growth in 2025" },
+      "projection": { "year": 2030, "value": 950, "note": "IEA: about 3% of global electricity demand" },
+      "derivation": "Central: IEA path from 485 TWh (2025) to 950 TWh (2030), about 14% a year. Low: UNU-INWEH's 448 TWh (2025) on its path to 945 TWh. High: 2025's 17% growth rate repeated.",
+      "sourceIds": ["iea-2026", "unu-inweh-2026"]
+    },
+    {
+      "id": "ai-water",
+      "label": "AI water footprint",
+      "scope": "Water withdrawn for on-site cooling plus water used to generate AI's electricity",
+      "unit": "billion L",
+      "annual": { "low": 390, "central": 800, "high": 1100 },
+      "baseline": { "year": 2025, "value": 900, "note": "UNU-INWEH estimate for AI workloads; de Vries-Gao gives 312.5-764.6 billion L" },
+      "projection": { "year": 2030, "value": 9300, "note": "UNU-INWEH: all data centres, about the domestic water needs of 1.3 billion people" },
+      "derivation": "Low: de Vries-Gao's 2025 lower bound (312.5 billion L) plus 25% growth. High: UNU-INWEH's ~900 billion L for AI in 2025 plus growth, minus efficiency gains. Central: midpoint of the two studies' 2025 figures, grown about 20%.",
+      "sourceIds": ["unu-inweh-2026", "devries-2025"]
+    },
+    {
+      "id": "ai-emissions",
+      "label": "AI carbon emissions",
+      "scope": "CO2 from electricity used by AI systems",
+      "unit": "Mt CO2",
+      "annual": { "low": 40, "central": 70, "high": 100 },
+      "baseline": { "year": 2025, "value": 56, "note": "Midpoint of de Vries-Gao's 32.6-79.7 Mt CO2 range" },
+      "projection": { "year": 2030, "value": 399, "note": "UNU-INWEH: all data centres, up from 189 Mt in 2025" },
+      "derivation": "de Vries-Gao's 2025 range (32.6-79.7 Mt CO2) grown about 25% with AI electricity, partly offset by grid decarbonisation. Consistent with AI being roughly one-fifth of UNU-INWEH's 189 Mt for all data centres.",
+      "sourceIds": ["devries-2025", "unu-inweh-2026"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "iea-2026",
+      "title": "Key questions on energy and AI",
+      "publisher": "International Energy Agency",
+      "published": "2026",
+      "url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary"
+    },
+    {
+      "id": "unu-inweh-2026",
+      "title": "Environmental Cost of AI's Energy Use: Carbon, Water and Land Footprints",
+      "publisher": "United Nations University Institute for Water, Environment and Health",
+      "published": "2026-06",
+      "url": "https://techwireasia.com/2026/06/ai-data-centres-power-water-use-2030/"
+    },
+    {
+      "id": "devries-2025",
+      "title": "The carbon and water footprints of data centers and what this could mean for artificial intelligence",
+      "publisher": "Patterns (Cell Press), A. de Vries-Gao",
+      "published": "2025-12",
+      "url": "https://research.vu.nl/en/publications/the-carbon-and-water-footprints-of-data-centers-and-what-this-cou/"
+    },
+    {
+      "id": "owid-2026",
+      "title": "How much energy do data centers and artificial intelligence use?",
+      "publisher": "Our World in Data",
+      "published": "2026",
+      "url": "https://ourworldindata.org/how-much-energy-do-data-centers-and-artificial-intelligence-use"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-11-17",
+      "note": "Initial tracker built from IEA (2026), UNU-INWEH (June 2026) and de Vries-Gao (Patterns, Dec 2025)."
+    }
+  ]
+}

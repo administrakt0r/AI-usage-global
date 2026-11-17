@@ -1,116 +1,72 @@
 {
+  "version": 3,
+  "description": "Canonical source list for AUG Bot. Feeds are for discovery only: always open the article and cite the canonical article URL, never the feed URL. Tiers: 1 = primary/official or top-tier trade press, 2 = reputable journalism, 3 = discovery only (confirm with a tier 1-2 source before publishing). Feeds marked verified were confirmed returning RSS/Atom on 2026-11-17.",
   "feeds": [
-    {
-      "name": "Data Center Dynamics",
-      "url": "https://www.datacenterdynamics.com/rss/",
-      "type": "journalism"
-    },
-    {
-      "name": "The Register AI",
-      "url": "https://www.theregister.com/software/ai_ml/headlines.atom",
-      "type": "journalism"
-    },
-    {
-      "name": "TechCrunch AI",
-      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "type": "journalism"
-    },
-    {
-      "name": "MIT Technology Review AI",
-      "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
-      "type": "journalism"
-    },
-    {
-      "name": "Ars Technica AI",
-      "url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
-      "type": "journalism"
-    },
-    {
-      "name": "Reuters Sustainability",
-      "url": "https://www.reuters.com/rssFeed/sustainableBusinessNews",
-      "type": "journalism"
-    },
-    {
-      "name": "NVIDIA News",
-      "url": "https://nvidianews.nvidia.com/releases.rss",
-      "type": "official"
-    },
-    {
-      "name": "OpenAI Blog",
-      "url": "https://openai.com/blog/rss.xml",
-      "type": "official"
-    },
-    {
-      "name": "Google DeepMind Blog",
-      "url": "https://deepmind.google/blog/rss.xml",
-      "type": "official"
-    },
-    {
-      "name": "Anthropic Newsroom",
-      "url": "https://www.anthropic.com/feed",
-      "type": "official"
-    },
-    {
-      "name": "IEA Energy Technology",
-      "url": "https://www.iea.org/rss/energy-technology.xml",
-      "type": "regulator"
-    },
-    {
-      "name": "Wired AI",
-      "url": "https://www.wired.com/feed/tag/ai/latest/rss",
-      "type": "journalism"
-    },
-    {
-      "name": "Utility Dive",
-      "url": "https://www.utilitydive.com/feeds/",
-      "type": "journalism"
-    },
-    {
-      "name": "SemiAnalysis",
-      "url": "https://semianalysis.com/feed/",
-      "type": "journalism"
-    }
+    { "name": "Data Center Dynamics", "url": "https://www.datacenterdynamics.com/en/rss/", "type": "trade", "tier": 1, "topics": ["datacenters", "power", "water", "policy"] },
+    { "name": "Data Center Knowledge", "url": "https://www.datacenterknowledge.com/rss.xml", "type": "trade", "tier": 1, "topics": ["datacenters", "power", "cooling"] },
+    { "name": "Utility Dive", "url": "https://www.utilitydive.com/feeds/news/", "type": "trade", "tier": 1, "topics": ["power", "grid", "policy"] },
+    { "name": "Latitude Media", "url": "https://www.latitudemedia.com/rss", "type": "trade", "tier": 1, "topics": ["power", "grid", "ai-energy"] },
+    { "name": "Canary Media", "url": "https://www.canarymedia.com/rss.rss", "type": "journalism", "tier": 2, "topics": ["power", "clean-energy", "datacenters"] },
+    { "name": "E&E News", "url": "https://www.eenews.net/feed/", "type": "journalism", "tier": 1, "topics": ["policy", "power", "climate"] },
+    { "name": "Inside Climate News", "url": "https://insideclimatenews.org/feed/", "type": "journalism", "tier": 2, "topics": ["climate", "water", "datacenters"] },
+    { "name": "Carbon Brief", "url": "https://www.carbonbrief.org/feed/", "type": "journalism", "tier": 1, "topics": ["emissions", "climate", "power"] },
+    { "name": "Grist", "url": "https://grist.org/feed/", "type": "journalism", "tier": 2, "topics": ["climate", "water"] },
+    { "name": "Circle of Blue", "url": "https://www.circleofblue.org/feed/", "type": "journalism", "tier": 1, "topics": ["water"] },
+    { "name": "Water Canada", "url": "https://www.watercanada.net/feed/", "type": "trade", "tier": 2, "topics": ["water"] },
+    { "name": "edie", "url": "https://www.edie.net/rss/", "type": "trade", "tier": 2, "topics": ["sustainability", "emissions"] },
+    { "name": "Ember", "url": "https://ember-energy.org/feed/", "type": "research", "tier": 1, "topics": ["power", "grid", "emissions"] },
+    { "name": "US EIA Today in Energy", "url": "https://www.eia.gov/rss/todayinenergy.xml", "type": "official", "tier": 1, "topics": ["power", "grid", "data"] },
+    { "name": "US Department of Energy", "url": "https://www.energy.gov/rss.xml", "type": "official", "tier": 1, "topics": ["power", "policy", "nuclear"] },
+    { "name": "World Nuclear News", "url": "https://www.world-nuclear-news.org/rss", "type": "trade", "tier": 1, "topics": ["nuclear", "power"] },
+    { "name": "American Nuclear Society", "url": "https://www.ans.org/news/feed/", "type": "trade", "tier": 2, "topics": ["nuclear"] },
+    { "name": "IEEE Spectrum Energy", "url": "https://spectrum.ieee.org/feeds/topic/energy.rss", "type": "journalism", "tier": 1, "topics": ["power", "chips", "research"] },
+    { "name": "IEEE Spectrum AI", "url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss", "type": "journalism", "tier": 1, "topics": ["ai", "chips", "research"] },
+    { "name": "MIT News Sustainability", "url": "https://news.mit.edu/topic/mitsustainability-rss.xml", "type": "research", "tier": 1, "topics": ["research", "emissions", "power"] },
+    { "name": "MIT Technology Review AI", "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed", "type": "journalism", "tier": 1, "topics": ["ai", "energy", "policy"] },
+    { "name": "The Guardian Energy", "url": "https://www.theguardian.com/environment/energy/rss", "type": "journalism", "tier": 2, "topics": ["power", "policy"] },
+    { "name": "The Guardian AI", "url": "https://www.theguardian.com/technology/artificialintelligenceai/rss", "type": "journalism", "tier": 2, "topics": ["ai", "policy"] },
+    { "name": "The Register AI/ML", "url": "https://www.theregister.com/software/ai_ml/headlines.atom", "type": "journalism", "tier": 2, "topics": ["ai", "datacenters"] },
+    { "name": "The Register HPC", "url": "https://www.theregister.com/on_prem/hpc/headlines.atom", "type": "journalism", "tier": 2, "topics": ["chips", "datacenters", "power"] },
+    { "name": "HPCwire", "url": "https://www.hpcwire.com/feed/", "type": "trade", "tier": 2, "topics": ["chips", "datacenters"] },
+    { "name": "ServeTheHome", "url": "https://www.servethehome.com/feed/", "type": "trade", "tier": 2, "topics": ["chips", "cooling", "hardware"] },
+    { "name": "SemiAnalysis", "url": "https://semianalysis.com/feed/", "type": "research", "tier": 2, "topics": ["chips", "datacenters", "power"] },
+    { "name": "DigiTimes", "url": "https://www.digitimes.com/rss/daily.xml", "type": "trade", "tier": 2, "topics": ["chips", "supply-chain", "asia"] },
+    { "name": "Nikkei Asia", "url": "https://asia.nikkei.com/rss/feed/nar", "type": "journalism", "tier": 2, "topics": ["asia", "chips", "finance"] },
+    { "name": "Rest of World", "url": "https://restofworld.org/feed/latest/", "type": "journalism", "tier": 2, "topics": ["global-south", "datacenters", "water"] },
+    { "name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "type": "journalism", "tier": 3, "topics": ["ai", "finance"] },
+    { "name": "Ars Technica", "url": "https://feeds.arstechnica.com/arstechnica/technology-lab", "type": "journalism", "tier": 2, "topics": ["ai", "policy"] },
+    { "name": "Wired AI", "url": "https://www.wired.com/feed/tag/ai/latest/rss", "type": "journalism", "tier": 2, "topics": ["ai"] },
+    { "name": "The Verge", "url": "https://www.theverge.com/rss/index.xml", "type": "journalism", "tier": 3, "topics": ["ai", "tech"] },
+    { "name": "Tom's Hardware", "url": "https://www.tomshardware.com/feeds/all", "type": "journalism", "tier": 3, "topics": ["chips", "hardware"] },
+    { "name": "OpenAI News", "url": "https://openai.com/news/rss.xml", "type": "official", "tier": 1, "topics": ["ai", "compute"] },
+    { "name": "Google DeepMind Blog", "url": "https://deepmind.google/blog/rss.xml", "type": "official", "tier": 1, "topics": ["ai", "research"] },
+    { "name": "Google Sustainability Blog", "url": "https://blog.google/outreach-initiatives/sustainability/rss/", "type": "official", "tier": 1, "topics": ["power", "water", "emissions"] },
+    { "name": "Microsoft On the Issues", "url": "https://blogs.microsoft.com/on-the-issues/feed/", "type": "official", "tier": 1, "topics": ["policy", "sustainability", "datacenters"] },
+    { "name": "Amazon Sustainability News", "url": "https://www.aboutamazon.com/news/sustainability/rss", "type": "official", "tier": 1, "topics": ["sustainability", "power", "water"] }
   ],
   "watch_pages": [
-    {
-      "name": "NIST AI",
-      "url": "https://www.nist.gov/artificial-intelligence",
-      "type": "regulator"
-    },
-    {
-      "name": "EU AI Office",
-      "url": "https://digital-strategy.ec.europa.eu/en/policies/eu-ai-act",
-      "type": "regulator"
-    },
-    {
-      "name": "EPA Data Centers",
-      "url": "https://www.energystar.gov/products/data_center_equipment",
-      "type": "regulator"
-    },
-    {
-      "name": "Microsoft Data Center Sustainability",
-      "url": "https://www.microsoft.com/en-us/corporate-responsibility/sustainability/report",
-      "type": "official"
-    },
-    {
-      "name": "Google Environmental Report",
-      "url": "https://sustainability.google/reports/",
-      "type": "official"
-    },
-    {
-      "name": "Meta Sustainability",
-      "url": "https://sustainability.meta.com/",
-      "type": "official"
-    },
-    {
-      "name": "Uptime Institute",
-      "url": "https://uptimeinstitute.com/resources",
-      "type": "journalism"
-    },
-    {
-      "name": "IEA Data Centers",
-      "url": "https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks",
-      "type": "regulator"
-    }
+    { "name": "IEA Energy and AI", "url": "https://www.iea.org/topics/energy-and-ai", "type": "research", "tier": 1, "topics": ["power", "footprint-data"] },
+    { "name": "IEA Data Centres", "url": "https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks", "type": "research", "tier": 1, "topics": ["power", "footprint-data"] },
+    { "name": "UNU-INWEH", "url": "https://unu.edu/inweh", "type": "research", "tier": 1, "topics": ["water", "footprint-data"] },
+    { "name": "Our World in Data: Energy and AI", "url": "https://ourworldindata.org/how-much-energy-do-data-centers-and-artificial-intelligence-use", "type": "research", "tier": 1, "topics": ["power", "footprint-data"] },
+    { "name": "LBNL Energy Analysis (US data center reports)", "url": "https://eta.lbl.gov/", "type": "research", "tier": 1, "topics": ["power", "water", "footprint-data"] },
+    { "name": "EPRI", "url": "https://www.epri.com/research", "type": "research", "tier": 1, "topics": ["power", "grid"] },
+    { "name": "FERC News", "url": "https://www.ferc.gov/news-events/news", "type": "regulator", "tier": 1, "topics": ["grid", "policy"] },
+    { "name": "PJM Newsroom", "url": "https://insidelines.pjm.com/", "type": "official", "tier": 1, "topics": ["grid", "power"] },
+    { "name": "ERCOT News", "url": "https://www.ercot.com/news", "type": "official", "tier": 1, "topics": ["grid", "power"] },
+    { "name": "EirGrid / Ireland CSO data centre statistics", "url": "https://www.cso.ie/en/statistics/energy/datacentresmeteredelectricityconsumption/", "type": "official", "tier": 1, "topics": ["power", "footprint-data"] },
+    { "name": "NIST AI", "url": "https://www.nist.gov/artificial-intelligence", "type": "regulator", "tier": 1, "topics": ["policy"] },
+    { "name": "EU AI Act", "url": "https://digital-strategy.ec.europa.eu/en/policies/eu-ai-act", "type": "regulator", "tier": 1, "topics": ["policy"] },
+    { "name": "EU Energy Efficiency Directive (data centres)", "url": "https://energy.ec.europa.eu/topics/energy-efficiency/energy-efficiency-targets-directive-and-rules/energy-efficiency-directive_en", "type": "regulator", "tier": 1, "topics": ["policy", "power", "water"] },
+    { "name": "ENERGY STAR Data Centers", "url": "https://www.energystar.gov/products/data_center_equipment", "type": "regulator", "tier": 2, "topics": ["efficiency"] },
+    { "name": "Microsoft Sustainability Report", "url": "https://www.microsoft.com/en-us/corporate-responsibility/sustainability/report", "type": "official", "tier": 1, "topics": ["power", "water", "emissions", "footprint-data"] },
+    { "name": "Google Environmental Report", "url": "https://sustainability.google/reports/", "type": "official", "tier": 1, "topics": ["power", "water", "emissions", "footprint-data"] },
+    { "name": "Meta Sustainability", "url": "https://sustainability.atmeta.com/", "type": "official", "tier": 1, "topics": ["power", "water", "emissions", "footprint-data"] },
+    { "name": "Amazon Sustainability Report", "url": "https://sustainability.aboutamazon.com/", "type": "official", "tier": 1, "topics": ["power", "water", "emissions", "footprint-data"] },
+    { "name": "NVIDIA Newsroom", "url": "https://nvidianews.nvidia.com/", "type": "official", "tier": 1, "topics": ["chips", "compute"] },
+    { "name": "Anthropic News", "url": "https://www.anthropic.com/news", "type": "official", "tier": 1, "topics": ["ai", "compute"] },
+    { "name": "Uptime Institute", "url": "https://uptimeinstitute.com/resources", "type": "research", "tier": 1, "topics": ["datacenters", "efficiency", "water"] },
+    { "name": "Reuters Sustainability", "url": "https://www.reuters.com/sustainability/", "type": "journalism", "tier": 1, "topics": ["power", "water", "policy"] },
+    { "name": "Bloomberg Green", "url": "https://www.bloomberg.com/green", "type": "journalism", "tier": 1, "topics": ["power", "finance", "climate"] }
   ]
 }
