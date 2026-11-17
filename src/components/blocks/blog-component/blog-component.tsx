@@ -37,7 +37,14 @@ import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 import { useDebouncedValue } from "@/hooks/use-debounced-value";
 
 const allCategoryLabel = "All";
-const nonFeaturedPosts = sortedBlogPosts.filter((post) => !post.featured);
+
+const nonFeaturedPosts = sortedBlogPosts
+  .filter((post) => !post.featured)
+  .map((post) => ({
+    ...post,
+    searchableTitle: post.title.toLowerCase(),
+    searchableDescription: post.description.toLowerCase(),
+  }));
 
 const uniqueCategories = [
   ...new Set(nonFeaturedPosts.map((post) => post.category)),
@@ -149,8 +156,8 @@ const Blog = ({ stats }: BlogProps) => {
       }
 
       const matchesSearch =
-        post.title.toLowerCase().includes(normalizedQuery) ||
-        post.description.toLowerCase().includes(normalizedQuery);
+        post.searchableTitle.includes(normalizedQuery) ||
+        post.searchableDescription.includes(normalizedQuery);
 
       return matchesCategory && matchesSearch;
     });
