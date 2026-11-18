@@ -3383,6 +3383,15 @@
       "published_on": "2026-11-18",
       "primary_entity": "Bell Canada / University of Saskatchewan",
       "event_fingerprint": "bell-canada-1-2gw-regina-indirect-water-demand-study"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/cleanview-us-data-center-construction-slows-in-q3-2026-following-record-breaking-q2/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/cleanview-us-data-center-construction-slows-in-q3-2026-following-record-breaking-q2",
+      "title": "Cleanview: US data center construction slows in Q3 2026 following record-breaking Q2",
+      "normalized_title": "cleanview us data center construction slows in q3 2026 following record breaking q2",
+      "published_on": "2026-11-18",
+      "primary_entity": "Cleanview",
+      "event_fingerprint": "cleanview-q3-2026-us-data-center-construction-slowdown"
     }
   ],
   "version": 2,

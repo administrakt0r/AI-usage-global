@@ -6277,6 +6277,29 @@ export const blogPosts: BlogPost[] = [
       "Assiniboine River",
     ],
   }),
+  createPost({
+    id: 378,
+    title: "Cleanview Finds 58GW of US Data Center Power Under Construction",
+    slug: "cleanview-finds-58gw-of-us-data-center-power-under-construction",
+    description:
+      "Cleanview data shows 58GW of US data center capacity is under construction, nearly doubling the nation's operational fleet despite a Q3 slowdown to 8.4GW.",
+    imageAlt:
+      "Aerial perspective of industrial data center construction site with high-voltage electrical substation and transmission lines",
+    publishedOn: "2026-11-18",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Cleanview",
+      "data center construction",
+      "58GW",
+      "power capacity",
+      "Texas data centers",
+      "hyperscale infrastructure",
+      "grid strain",
+      "Amazon Google Meta",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
