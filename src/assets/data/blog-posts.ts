@@ -6254,6 +6254,29 @@ export const blogPosts: BlogPost[] = [
       "TCEQ",
     ],
   }),
+  createPost({
+    id: 377,
+    title: "Bell Canada 1.2GW AI Campus Masks Heavy Indirect Water Demand",
+    slug: "bell-canada-1-2gw-ai-campus-masks-heavy-indirect-water-demand",
+    description:
+      "A study warns Bell Canada's planned 1.2GW AI campus will force heavy indirect water consumption from coal-fired power plants across drought-prone Saskatchewan.",
+    imageAlt:
+      "Industrial data center cooling infrastructure and prairie river basin power generation landscape",
+    publishedOn: "2026-11-18",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Bell Canada",
+      "Saskatchewan",
+      "SaskPower",
+      "AI data center",
+      "indirect water consumption",
+      "closed-loop cooling",
+      "coal power plants",
+      "Assiniboine River",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
