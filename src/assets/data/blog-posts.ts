@@ -6232,6 +6232,28 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     category: AI_USAGE,
   }),
+  createPost({
+    id: 376,
+    title: "Cameron County Rejects SpaceX Tax Abatement for $24B AI Site",
+    slug: "cameron-county-rejects-spacex-tax-abatement-for-24b-ai-site",
+    description:
+      "Cameron County commissioners vote 3-2 to reject a 10-year property tax abatement for SpaceX's planned $24B data center and 750MW natural gas power plant.",
+    imageAlt:
+      "Digital representation of a data center industrial site and natural gas power infrastructure in South Texas",
+    publishedOn: "2026-11-18",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Cameron County",
+      "SpaceX",
+      "tax abatement",
+      "Starbase",
+      "AI data center",
+      "natural gas turbines",
+      "TCEQ",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

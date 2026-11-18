@@ -3365,6 +3365,15 @@
       "published_on": "2026-11-17",
       "primary_entity": "PJM Interconnection",
       "event_fingerprint": "pjm-ferc-mandatory-ride-through-50mw-data-centers"
+    },
+    {
+      "canonical_url": "https://www.newsweek.com/texas-county-blocks-tax-break-spacex-data-center-12733396",
+      "normalized_url": "https://www.newsweek.com/texas-county-blocks-tax-break-spacex-data-center-12733396",
+      "title": "Texas County Blocks Tax Break for SpaceX Data Center",
+      "normalized_title": "texas county blocks tax break for spacex data center",
+      "published_on": "2026-11-18",
+      "primary_entity": "Cameron County Commissioners Court / SpaceX",
+      "event_fingerprint": "cameron-county-rejects-spacex-24b-tax-abatement"
     }
   ],
   "version": 2,
