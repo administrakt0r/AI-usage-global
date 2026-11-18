@@ -3374,6 +3374,15 @@
       "published_on": "2026-11-18",
       "primary_entity": "Cameron County Commissioners Court / SpaceX",
       "event_fingerprint": "cameron-county-rejects-spacex-24b-tax-abatement"
+    },
+    {
+      "canonical_url": "https://theconversation.com/data-centres-may-consume-far-more-water-than-developers-suggest-296245",
+      "normalized_url": "https://theconversation.com/data-centres-may-consume-far-more-water-than-developers-suggest-296245",
+      "title": "Data centres may consume far more water than developers suggest",
+      "normalized_title": "data centres may consume far more water than developers suggest",
+      "published_on": "2026-11-18",
+      "primary_entity": "Bell Canada / University of Saskatchewan",
+      "event_fingerprint": "bell-canada-1-2gw-regina-indirect-water-demand-study"
     }
   ],
   "version": 2,
