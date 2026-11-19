@@ -3392,6 +3392,15 @@
       "published_on": "2026-11-18",
       "primary_entity": "Cleanview",
       "event_fingerprint": "cleanview-q3-2026-us-data-center-construction-slowdown"
+    },
+    {
+      "canonical_url": "https://www.datacenterknowledge.com/data-center-chips/nvidia-ai-surge-comes-with-118-billion-in-guarantees",
+      "normalized_url": "https://www.datacenterknowledge.com/data-center-chips/nvidia-ai-surge-comes-with-118-billion-in-guarantees",
+      "title": "Nvidia AI Surge Comes with $118 Billion in Guarantees",
+      "normalized_title": "nvidia ai surge comes with 118 billion in guarantees",
+      "published_on": "2026-11-19",
+      "primary_entity": "Nvidia / SB Energy / OpenAI",
+      "event_fingerprint": "nvidia-118b-infrastructure-guarantees-4-25gw-ohio-campus"
     }
   ],
   "version": 2,

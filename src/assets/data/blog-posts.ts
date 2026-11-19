@@ -6300,6 +6300,29 @@ export const blogPosts: BlogPost[] = [
       "Amazon Google Meta",
     ],
   }),
+  createPost({
+    id: 379,
+    title: "Nvidia Backs $118B in Guarantees to Power 4.25GW of AI Data Centers",
+    slug: "nvidia-backs-118b-in-guarantees-to-power-4-25gw-of-ai-data-centers",
+    description:
+      "Nvidia disclosed $118 billion in infrastructure guarantees, including $105 billion backing 4.25GW of power across nine buildings at an Ohio data center campus.",
+    imageAlt:
+      "Aerial perspective of massive industrial substation and high-voltage transmission towers supplying multi-gigawatt AI data center campus",
+    publishedOn: "2026-11-19",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Nvidia",
+      "$118 billion guarantees",
+      "4.25GW",
+      "PORTS-Pike campus",
+      "SB Energy",
+      "OpenAI",
+      "data center power",
+      "Ohio grid",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
