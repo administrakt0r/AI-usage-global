@@ -4,6 +4,11 @@ import { GithubIcon, LeafIcon, RssIcon } from "lucide-react";
 import Logo from "@/components/logo";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 import { CONTACT_EMAIL, SITE_NAME } from "@/lib/site";
 
 const colorStyles = {
@@ -88,13 +93,19 @@ const FooterTop = () => (
           GitHub repo
         </a>
       </Button>
-      <Link
-        href="/rss.xml"
-        className="text-muted-foreground hover:text-foreground"
-      >
-        <RssIcon className="size-5" />
-        <span className="sr-only">RSS</span>
-      </Link>
+      <Tooltip>
+        <TooltipTrigger asChild>
+          <Link
+            href="/rss.xml"
+            aria-label="RSS Feed"
+            className="text-muted-foreground hover:text-foreground inline-flex items-center justify-center rounded-md p-1 focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none"
+          >
+            <RssIcon className="size-5" />
+            <span className="sr-only">RSS Feed</span>
+          </Link>
+        </TooltipTrigger>
+        <TooltipContent side="top">RSS Feed</TooltipContent>
+      </Tooltip>
     </div>
   </div>
 );
