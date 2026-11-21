@@ -3410,6 +3410,15 @@
       "published_on": "2026-11-21",
       "primary_entity": "Spanish Government / MITECO",
       "event_fingerprint": "spain-enacts-data-center-royal-decree-80pct-hourly-clean-power"
+    },
+    {
+      "canonical_url": "https://www.watercanada.net/alberta-proposes-new-restrictions-on-data-centres/",
+      "normalized_url": "https://www.watercanada.net/alberta-proposes-new-restrictions-on-data-centres",
+      "title": "Alberta proposes new restrictions on data centres",
+      "normalized_title": "alberta proposes new restrictions on data centres",
+      "published_on": "2026-11-21",
+      "primary_entity": "Government of Alberta",
+      "event_fingerprint": "alberta-bill-42-data-centre-restrictions-water-power"
     }
   ],
   "version": 2,
