@@ -3419,6 +3419,15 @@
       "published_on": "2026-11-21",
       "primary_entity": "Government of Alberta",
       "event_fingerprint": "alberta-bill-42-data-centre-restrictions-water-power"
+    },
+    {
+      "canonical_url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119",
+      "normalized_url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119",
+      "title": "Study reveals data centers’ long-distance damage to air quality",
+      "normalized_title": "study reveals data centers long distance damage to air quality",
+      "published_on": "2026-11-21",
+      "primary_entity": "MIT / Environmental Research Letters",
+      "event_fingerprint": "mit-study-data-center-power-emissions-650-mortalities"
     }
   ],
   "version": 2,

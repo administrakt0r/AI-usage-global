@@ -6367,6 +6367,28 @@ export const blogPosts: BlogPost[] = [
       "ratepayer protection",
     ],
   }),
+  createPost({
+    id: 382,
+    title: "MIT Study Links 5.3% of US Power Deaths to Data Center Emissions",
+    slug: "mit-study-links-5-3-of-us-power-deaths-to-data-center-emissions",
+    description:
+      "An MIT study links data center electricity demand to 650 annual US deaths and 5.3% of power-sector mortalities, with severe impacts in downwind states.",
+    imageAlt:
+      "Atmospheric chemical transport visualization showing power plant emissions and air pollution spreading downwind from US data center grid clusters",
+    publishedOn: "2026-11-21",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "MIT data center study",
+      "data center air pollution",
+      "power sector emissions",
+      "PM2.5 premature mortality",
+      "GEOS-Chem grid modeling",
+      "Ohio Valley fossil generation",
+      "data center public health",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
