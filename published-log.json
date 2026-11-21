@@ -3401,6 +3401,15 @@
       "published_on": "2026-11-19",
       "primary_entity": "Nvidia / SB Energy / OpenAI",
       "event_fingerprint": "nvidia-118b-infrastructure-guarantees-4-25gw-ohio-campus"
+    },
+    {
+      "canonical_url": "https://www.miteco.gob.es/es/prensa/ultimas-noticias/2026/noviembre/el-gobierno-aprueba-el-real-decreto-para-la-sostenibilidad-energ.html",
+      "normalized_url": "https://www.miteco.gob.es/es/prensa/ultimas-noticias/2026/noviembre/el-gobierno-aprueba-el-real-decreto-para-la-sostenibilidad-energ.html",
+      "title": "El Gobierno aprueba el Real Decreto para la sostenibilidad energética, medioambiental y de resiliencia y soberanía digital de los centros de datos",
+      "normalized_title": "el gobierno aprueba el real decreto para la sostenibilidad energetica medioambiental y de resiliencia y soberania digital de los centros de datos",
+      "published_on": "2026-11-21",
+      "primary_entity": "Spanish Government / MITECO",
+      "event_fingerprint": "spain-enacts-data-center-royal-decree-80pct-hourly-clean-power"
     }
   ],
   "version": 2,
