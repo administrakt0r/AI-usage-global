@@ -6345,6 +6345,28 @@ export const blogPosts: BlogPost[] = [
       "Spain grid access",
     ],
   }),
+  createPost({
+    id: 381,
+    title: "Alberta Mandates Near-Zero Water Cooling for 10MW Data Centres",
+    slug: "alberta-mandates-near-zero-water-cooling-for-10mw-data-centres",
+    description:
+      "Alberta introduces Bill 42 to mandate near-zero cooling water, 600-meter home setbacks, and full developer grid funding for data centres of 10MW or larger.",
+    imageAlt:
+      "Aerial perspective of rural agricultural landscape and industrial electrical substation under provincial data center planning regulations in Alberta",
+    publishedOn: "2026-11-21",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Alberta Bill 42",
+      "data centre water use",
+      "near-zero cooling water",
+      "600m data centre setback",
+      "Alberta Utilities Commission",
+      "AESO interconnection queue",
+      "ratepayer protection",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
