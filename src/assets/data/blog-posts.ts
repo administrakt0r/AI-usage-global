@@ -6323,6 +6323,28 @@ export const blogPosts: BlogPost[] = [
       "Ohio grid",
     ],
   }),
+  createPost({
+    id: 380,
+    title: "Spain Mandates 80% Hourly Clean Power for 10MW Data Centers",
+    slug: "spain-mandates-80-hourly-clean-power-for-10mw-data-centers",
+    description:
+      "Spain approves a royal decree requiring data centers over 10 MW to match 80% of power with hourly clean energy and meet strict water efficiency limits.",
+    imageAlt:
+      "Substation and high-voltage power lines supplying electrical grid infrastructure across an industrial data center landscape in Spain",
+    publishedOn: "2026-11-21",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Spain data center law",
+      "Royal Decree 10MW",
+      "80% hourly clean power",
+      "data center water efficiency",
+      "Sara Aagesen MITECO",
+      "hourly renewable matching",
+      "Spain grid access",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
