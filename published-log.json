@@ -3455,6 +3455,15 @@
       "published_on": "2026-11-22",
       "primary_entity": "CyrusOne KEP / Kansai Electric Power Co.",
       "event_fingerprint": "cyrusone-kep-topping-out-48mw-osaka"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/us-senate-passes-bill-requiring-data-centers-to-pay-more-for-grid-infrastructure/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/us-senate-passes-bill-requiring-data-centers-to-pay-more-for-grid-infrastructure",
+      "title": "US Senate passes bill requiring data centers to pay more for grid infrastructure",
+      "normalized_title": "us senate passes bill requiring data centers to pay more for grid infrastructure",
+      "published_on": "2026-11-22",
+      "primary_entity": "US Senate / FERC",
+      "event_fingerprint": "us-senate-passes-baaja-bill-ferc-20mw-data-center-grid-costs"
     }
   ],
   "version": 2,
