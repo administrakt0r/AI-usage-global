@@ -6433,6 +6433,28 @@ export const blogPosts: BlogPost[] = [
       "Roanoke River watershed",
     ],
   }),
+  createPost({
+    id: 385,
+    title: "CyrusOne KEP Tops Out 48MW Data Center in Osaka, Japan",
+    slug: "cyrusone-kep-tops-out-48mw-data-center-in-osaka-japan",
+    description:
+      "CyrusOne KEP tops out its 48MW OSK1 data center in Kansai, Japan, backed by a 70 MVA substation under a 1 trillion yen utility-scale expansion plan.",
+    imageAlt:
+      "Structural steel framing and architectural rendering of the 48MW CyrusOne KEP OSK1 hyperscale data center facility in Kansai, Japan",
+    publishedOn: "2026-11-22",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "CyrusOne KEP Japan",
+      "OSK1 data center Osaka",
+      "Kansai Electric Power Company",
+      "48MW hyperscale capacity",
+      "70 MVA utility substation",
+      "Keihanna Availability Zone",
+      "Japan AI data centers",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
