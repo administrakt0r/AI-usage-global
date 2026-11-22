@@ -6455,6 +6455,28 @@ export const blogPosts: BlogPost[] = [
       "Japan AI data centers",
     ],
   }),
+  createPost({
+    id: 386,
+    title: "US Senate Passes BAAJA Bill Requiring 20MW Data Centers to Fund Grid",
+    slug: "us-senate-passes-baaja-bill-requiring-20mw-data-centers-to-fund-grid",
+    description:
+      "US Senate passes the BAAJA bill directing FERC to require data centers over 20MW to fund grid upgrades and accelerating interstate transmission permits.",
+    imageAlt:
+      "US Capitol dome and high-voltage transmission power lines representing data center grid policy",
+    publishedOn: "2026-11-22",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "US Senate",
+      "BAAJA",
+      "FERC ratepayer protection",
+      "data center power grid",
+      "transmission line permitting",
+      "electricity demand",
+      "grid infrastructure costs",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
