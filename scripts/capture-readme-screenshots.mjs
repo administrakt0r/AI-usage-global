@@ -10,7 +10,11 @@ const outputDir = path.join(rootDir, 'docs', 'images')
 
 await fs.mkdir(outputDir, { recursive: true })
 
-const browser = await chromium.launch({ headless: true })
+// Set README_SCREENSHOT_CHROME to a local Chrome/Chromium binary to skip `playwright install`.
+const browser = await chromium.launch({
+  headless: true,
+  executablePath: process.env.README_SCREENSHOT_CHROME || undefined,
+})
 
 const desktopContext = await browser.newContext({
   viewport: { width: 1440, height: 1080 },
@@ -50,18 +54,11 @@ await captureViewport({
 
 await captureViewport({
   context: desktopContext,
-  url: '/',
-  fileName: 'search-and-filter.png',
+  url: '/ai-footprint',
+  fileName: 'ai-footprint.png',
   beforeShot: async (page) => {
-    await page.locator('#categories').scrollIntoViewIfNeeded()
-    await page.waitForTimeout(500)
+    await page.waitForTimeout(1500)
   },
-})
-
-await captureViewport({
-  context: desktopContext,
-  url: '/responsible-ai-usage',
-  fileName: 'responsible-ai-page.png',
 })
 
 await captureViewport({
