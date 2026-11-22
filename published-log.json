@@ -2667,7 +2667,7 @@
     {
       "canonical_url": "https://www.datacenterdynamics.com/en/news/uk-govt-rejects-ai-growth-zone-bid-to-power-data-center-with-drax-biomass-plant-in-selby-north-yorkshire/",
       "normalized_url": "https://www.datacenterdynamics.com/en/news/uk-govt-rejects-ai-growth-zone-bid-to-power-data-center-with-drax-biomass-plant-in-selby-north-yorkshire",
-      "title": "UK gov’t rejects AI Growth Zone bid to power data center with Drax biomass plant in Selby, North Yorkshire",
+      "title": "UK gov\u2019t rejects AI Growth Zone bid to power data center with Drax biomass plant in Selby, North Yorkshire",
       "normalized_title": "uk govt rejects ai growth zone bid to power data center with drax biomass plant in selby north yorkshire",
       "published_on": "2026-10-18",
       "primary_entity": "UK Government / Drax Group",
@@ -2712,7 +2712,7 @@
     {
       "canonical_url": "https://www.wired.com/story/data-center-industry-is-trying-to-woo-kids/",
       "normalized_url": "https://www.wired.com/story/data-center-industry-is-trying-to-woo-kids",
-      "title": "Data Centers Have a New PR Plan: Your Kid’s Field Trip",
+      "title": "Data Centers Have a New PR Plan: Your Kid\u2019s Field Trip",
       "normalized_title": "data centers have a new pr plan your kids field trip",
       "published_on": "2026-10-18",
       "primary_entity": "7x24 Exchange International / AFCOM",
@@ -2766,7 +2766,7 @@
     {
       "canonical_url": "https://www.utilitydive.com/news/what-googles-virtual-power-plant-in-pjm-says-about-the-race-for-electricit/833290/",
       "normalized_url": "https://www.utilitydive.com/news/what-googles-virtual-power-plant-in-pjm-says-about-the-race-for-electricit/833290",
-      "title": "What Google’s virtual power plant in PJM says about the race for electricity",
+      "title": "What Google\u2019s virtual power plant in PJM says about the race for electricity",
       "normalized_title": "what googles virtual power plant in pjm says about the race for electricity",
       "published_on": "2026-10-20",
       "primary_entity": "Google / Voltus",
@@ -2874,7 +2874,7 @@
     {
       "canonical_url": "https://www.datacenterdynamics.com/en/news/core-stack-jv-adds-more-data-centers-to-1bn-italy-network/",
       "normalized_url": "https://www.datacenterdynamics.com/en/news/core-stack-jv-adds-more-data-centers-to-1bn-italy-network",
-      "title": "Core Stack JV adds more data centers to €1bn Italy network",
+      "title": "Core Stack JV adds more data centers to \u20ac1bn Italy network",
       "normalized_title": "core stack jv adds more data centers to 1bn italy network",
       "published_on": "2026-10-25",
       "primary_entity": "Green Arrow Capital / Core Stack",
@@ -2973,7 +2973,7 @@
     {
       "canonical_url": "https://www.datacenterdynamics.com/en/news/uk-budget-grid-connection-incentives-for-data-centers-under-new-covenant/",
       "normalized_url": "https://www.datacenterdynamics.com/en/news/uk-budget-grid-connection-incentives-for-data-centers-under-new-covenant",
-      "title": "UK budget: Grid connection incentives for data centers under new “covenant”",
+      "title": "UK budget: Grid connection incentives for data centers under new \u201ccovenant\u201d",
       "normalized_title": "uk budget grid connection incentives for data centers under new covenant",
       "published_on": "2026-10-28",
       "primary_entity": "UK Government / John Healey",
@@ -3027,7 +3027,7 @@
     {
       "canonical_url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
       "normalized_url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia",
-      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "title": "Nvidia weighs playing the cosigner for Nscale\u2019s AI data center in West Virginia",
       "normalized_title": "nvidia weighs playing the cosigner for nscales ai data center in west virginia",
       "published_on": "2026-10-31",
       "primary_entity": "Nvidia / Nscale",
@@ -3225,10 +3225,10 @@
     {
       "canonical_url": "https://techcrunch.com/2026/11/08/coordinated-disturbances-haunt-grids-worldwide-heres-how-researchers-solved-the-mystery/",
       "normalized_url": "https://techcrunch.com/2026/11/08/coordinated-disturbances-haunt-grids-worldwide-heres-how-researchers-solved-the-mystery",
-      "title": "Coordinated disturbances haunt grids worldwide. Here’s how researchers solved the mystery.",
+      "title": "Coordinated disturbances haunt grids worldwide. Here\u2019s how researchers solved the mystery.",
       "normalized_title": "coordinated disturbances haunt grids worldwide heres how researchers solved the mystery",
       "published_on": "2026-11-08",
-      "primary_entity": "Forschungszentrum Jülich / TenneT",
+      "primary_entity": "Forschungszentrum J\u00fclich / TenneT",
       "event_fingerprint": "ups-state-of-charge-grid-frequency-disturbances"
     },
     {
@@ -3252,7 +3252,7 @@
     {
       "canonical_url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
       "normalized_url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines",
-      "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
+      "title": "Anthropic joins AI\u2019s natural gas frenzy, buys $3.4B worth of turbines",
       "normalized_title": "anthropic joins ais natural gas frenzy buys 3 4b worth of turbines",
       "published_on": "2026-11-09",
       "primary_entity": "Anthropic / Caterpillar",
@@ -3279,7 +3279,7 @@
     {
       "canonical_url": "https://www.utilitydive.com/news/are-data-centers-really-paying-aes-indianas-google-deal-highlights-a-thor/873040/",
       "normalized_url": "https://www.utilitydive.com/news/are-data-centers-really-paying-aes-indianas-google-deal-highlights-a-thor/873040",
-      "title": "Are data centers really paying their share? AES Indiana’s Google deal highlights a thorny question",
+      "title": "Are data centers really paying their share? AES Indiana\u2019s Google deal highlights a thorny question",
       "normalized_title": "are data centers really paying their share aes indianas google deal highlights a thorny question",
       "published_on": "2026-11-10",
       "primary_entity": "Indiana Utility Regulatory Commission / AES Indiana / Google",
@@ -3297,7 +3297,7 @@
     {
       "canonical_url": "https://www.datacenterdynamics.com/en/news/elon-musks-spacex-targets-nat-gas-plant-and-supercomputing-facility-at-starbase-city-texas/",
       "normalized_url": "https://www.datacenterdynamics.com/en/news/elon-musks-spacex-targets-nat-gas-plant-and-supercomputing-facility-at-starbase-city-texas",
-      "title": "Elon Musk’s SpaceX targets nat-gas plant and supercomputing facility at Starbase City, Texas",
+      "title": "Elon Musk\u2019s SpaceX targets nat-gas plant and supercomputing facility at Starbase City, Texas",
       "normalized_title": "elon musks spacex targets nat gas plant and supercomputing facility at starbase city texas",
       "published_on": "2026-11-11",
       "primary_entity": "SpaceX",
@@ -3324,7 +3324,7 @@
     {
       "canonical_url": "https://hsph.harvard.edu/news/hyperscale-data-centers-energy-consumption-carbon-emissions-newly-estimated-by-researchers/",
       "normalized_url": "https://hsph.harvard.edu/news/hyperscale-data-centers-energy-consumption-carbon-emissions-newly-estimated-by-researchers",
-      "title": "Hyperscale data centers’ energy consumption, carbon emissions newly estimated by researchers",
+      "title": "Hyperscale data centers\u2019 energy consumption, carbon emissions newly estimated by researchers",
       "normalized_title": "hyperscale data centers energy consumption carbon emissions newly estimated by researchers",
       "published_on": "2026-11-17",
       "primary_entity": "Harvard T.H. Chan School of Public Health",
@@ -3351,7 +3351,7 @@
     {
       "canonical_url": "https://www.opb.org/article/2026/11/17/google-oregon-bend-la-pine-superhot-rocks-technology-energy-power/",
       "normalized_url": "https://www.opb.org/article/2026/11/17/google-oregon-bend-la-pine-superhot-rocks-technology-energy-power",
-      "title": "Google announces world’s first deal to buy commercial superhot rock geothermal energy from Central Oregon",
+      "title": "Google announces world\u2019s first deal to buy commercial superhot rock geothermal energy from Central Oregon",
       "normalized_title": "google announces worlds first deal to buy commercial superhot rock geothermal energy from central oregon",
       "published_on": "2026-11-17",
       "primary_entity": "Google / Quaise Energy",
@@ -3405,7 +3405,7 @@
     {
       "canonical_url": "https://www.miteco.gob.es/es/prensa/ultimas-noticias/2026/noviembre/el-gobierno-aprueba-el-real-decreto-para-la-sostenibilidad-energ.html",
       "normalized_url": "https://www.miteco.gob.es/es/prensa/ultimas-noticias/2026/noviembre/el-gobierno-aprueba-el-real-decreto-para-la-sostenibilidad-energ.html",
-      "title": "El Gobierno aprueba el Real Decreto para la sostenibilidad energética, medioambiental y de resiliencia y soberanía digital de los centros de datos",
+      "title": "El Gobierno aprueba el Real Decreto para la sostenibilidad energ\u00e9tica, medioambiental y de resiliencia y soberan\u00eda digital de los centros de datos",
       "normalized_title": "el gobierno aprueba el real decreto para la sostenibilidad energetica medioambiental y de resiliencia y soberania digital de los centros de datos",
       "published_on": "2026-11-21",
       "primary_entity": "Spanish Government / MITECO",
@@ -3423,7 +3423,7 @@
     {
       "canonical_url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119",
       "normalized_url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119",
-      "title": "Study reveals data centers’ long-distance damage to air quality",
+      "title": "Study reveals data centers\u2019 long-distance damage to air quality",
       "normalized_title": "study reveals data centers long distance damage to air quality",
       "published_on": "2026-11-21",
       "primary_entity": "MIT / Environmental Research Letters",
@@ -3432,7 +3432,7 @@
     {
       "canonical_url": "https://www.datacenterknowledge.com/data-center-site-selection/melbourne-overtakes-sydney-in-australia-s-data-center-pipeline",
       "normalized_url": "https://www.datacenterknowledge.com/data-center-site-selection/melbourne-overtakes-sydney-in-australia-s-data-center-pipeline",
-      "title": "Melbourne Overtakes Sydney in Australia’s Data Center Pipeline",
+      "title": "Melbourne Overtakes Sydney in Australia\u2019s Data Center Pipeline",
       "normalized_title": "melbourne overtakes sydney in australias data center pipeline",
       "published_on": "2026-11-22",
       "primary_entity": "DC Byte / Data Centres Australia",
@@ -3446,6 +3446,15 @@
       "published_on": "2026-11-22",
       "primary_entity": "Microsoft / US Army Corps of Engineers",
       "event_fingerprint": "microsoft-mecklenburg-316-acre-lvl16-campus"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/cyrusone-and-kep-top-out-48mw-data-center-in-osaka-japan/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/cyrusone-and-kep-top-out-48mw-data-center-in-osaka-japan",
+      "title": "CyrusOne and KEP top out 48MW data center in Osaka, Japan",
+      "normalized_title": "cyrusone and kep top out 48mw data center in osaka japan",
+      "published_on": "2026-11-22",
+      "primary_entity": "CyrusOne KEP / Kansai Electric Power Co.",
+      "event_fingerprint": "cyrusone-kep-topping-out-48mw-osaka"
     }
   ],
   "version": 2,
