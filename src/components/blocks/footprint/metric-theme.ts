@@ -32,10 +32,10 @@ const THEMES: Record<string, MetricTheme> = {
   },
   "datacenter-electricity": {
     icon: ServerIcon,
-    card: "border-violet-500/30 bg-linear-to-br from-violet-500/12 via-card to-card dark:from-violet-400/10",
-    badge: "bg-violet-500/15 text-violet-600 dark:text-violet-300",
-    number: "bg-linear-to-r from-violet-500 to-indigo-600 dark:from-violet-300 dark:to-indigo-300",
-    accent: "text-violet-700 dark:text-violet-300",
+    card: "border-slate-500/35 bg-linear-to-br from-slate-500/12 via-card to-card dark:from-slate-400/10",
+    badge: "bg-slate-500/15 text-slate-700 dark:text-slate-200",
+    number: "bg-linear-to-r from-slate-600 to-zinc-800 dark:from-slate-200 dark:to-zinc-400",
+    accent: "text-slate-800 dark:text-slate-200",
   },
   "ai-water": {
     icon: DropletsIcon,
