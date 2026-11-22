@@ -3428,6 +3428,15 @@
       "published_on": "2026-11-21",
       "primary_entity": "MIT / Environmental Research Letters",
       "event_fingerprint": "mit-study-data-center-power-emissions-650-mortalities"
+    },
+    {
+      "canonical_url": "https://www.datacenterknowledge.com/data-center-site-selection/melbourne-overtakes-sydney-in-australia-s-data-center-pipeline",
+      "normalized_url": "https://www.datacenterknowledge.com/data-center-site-selection/melbourne-overtakes-sydney-in-australia-s-data-center-pipeline",
+      "title": "Melbourne Overtakes Sydney in Australia’s Data Center Pipeline",
+      "normalized_title": "melbourne overtakes sydney in australias data center pipeline",
+      "published_on": "2026-11-22",
+      "primary_entity": "DC Byte / Data Centres Australia",
+      "event_fingerprint": "dc-byte-australia-datacenter-pipeline-26-8gw-melbourne-sydney"
     }
   ],
   "version": 2,
