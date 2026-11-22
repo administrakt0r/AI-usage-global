@@ -3437,6 +3437,15 @@
       "published_on": "2026-11-22",
       "primary_entity": "DC Byte / Data Centres Australia",
       "event_fingerprint": "dc-byte-australia-datacenter-pipeline-26-8gw-melbourne-sydney"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/microsoft-files-for-3167-acre-data-center-campus-in-mecklenburg-county-virginia/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/microsoft-files-for-3167-acre-data-center-campus-in-mecklenburg-county-virginia",
+      "title": "Microsoft files for 316.7-acre data center campus in Mecklenburg County, Virginia",
+      "normalized_title": "microsoft files for 3167acre data center campus in mecklenburg county virginia",
+      "published_on": "2026-11-22",
+      "primary_entity": "Microsoft / US Army Corps of Engineers",
+      "event_fingerprint": "microsoft-mecklenburg-316-acre-lvl16-campus"
     }
   ],
   "version": 2,
