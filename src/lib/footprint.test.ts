@@ -4,6 +4,7 @@ import assert from 'node:assert/strict';
 import data from '../assets/data/ai-footprint.json' with { type: 'json' };
 import { validateFootprintData } from '../../scripts/footprint-schema.mjs';
 import {
+  formatHumanCount,
   getCounterUnit,
   getDaysSinceReview,
   getPerSecondRate,
@@ -58,5 +59,32 @@ describe('footprint math', () => {
     assert.equal(getDaysSinceReview('2026-11-17', now), 8);
     assert.equal(isFootprintStale('2026-11-17', now), true);
     assert.equal(isFootprintStale('2026-11-20', now), false);
+  });
+});
+
+describe('everyday comparisons', () => {
+  it('gives every metric at least one sourced comparison', () => {
+    for (const item of data.metrics) {
+      assert.ok((item.comparisons ?? []).length > 0, `${item.id} has no comparison`);
+    }
+  });
+
+  it('rejects comparisons with a bad amount or unknown source', () => {
+    const broken = structuredClone(data);
+
+    broken.metrics[0].comparisons = [{ id: 'x', per: 0, label: 'something odd', sourceIds: ['nope'] }];
+
+    const errors = validateFootprintData(broken);
+
+    assert.ok(errors.some((error) => error.includes('positive')));
+    assert.ok(errors.some((error) => error.includes('unknown source nope')));
+  });
+
+  it('formats counts for people, not spreadsheets', () => {
+    assert.equal(formatHumanCount(1.74), '1.7');
+    assert.equal(formatHumanCount(532_412.6), '532,413');
+    assert.equal(formatHumanCount(16_730_000), '16.7 million');
+    assert.equal(formatHumanCount(2_670_000_000), '2.7 billion');
+    assert.equal(formatHumanCount(267_000_000_000), '267 billion');
   });
 });

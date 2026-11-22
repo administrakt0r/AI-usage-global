@@ -4,6 +4,14 @@ export type FootprintRange = { low: number; central: number; high: number };
 
 export type FootprintPoint = { year: number; value: number; note: string };
 
+/** An everyday equivalent: counter value / `per` = how many of `label`. */
+export type FootprintComparison = {
+  id: string;
+  per: number;
+  label: string;
+  sourceIds: string[];
+};
+
 export type FootprintMetric = {
   id: string;
   label: string;
@@ -14,6 +22,7 @@ export type FootprintMetric = {
   projection?: FootprintPoint;
   derivation: string;
   sourceIds: string[];
+  comparisons?: FootprintComparison[];
 };
 
 export type FootprintSource = {
@@ -101,3 +110,22 @@ const whole = new Intl.NumberFormat("en-US", { maximumFractionDigits: 0 });
 export const formatCompact = (value: number) => compact.format(value);
 
 export const formatWhole = (value: number) => whole.format(value);
+
+/** Human-friendly count: "532,400", "2.7 million", "1.7". */
+export const formatHumanCount = (value: number) => {
+  const abs = Math.abs(value);
+
+  if (abs >= 1e9) {
+    return `${(value / 1e9).toFixed(abs >= 1e11 ? 0 : 1)} billion`;
+  }
+
+  if (abs >= 1e7) {
+    return `${(value / 1e6).toFixed(abs >= 1e8 ? 0 : 1)} million`;
+  }
+
+  if (abs >= 100) {
+    return Math.round(value).toLocaleString("en-US");
+  }
+
+  return value.toLocaleString("en-US", { maximumFractionDigits: 1 });
+};

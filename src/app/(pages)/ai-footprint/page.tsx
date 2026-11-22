@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ZapIcon } from "lucide-react";
 
-import { METRIC_ICONS } from "@/components/blocks/footprint/footprint-widget";
 import LiveCounter from "@/components/blocks/footprint/live-counter";
+import { getMetricTheme } from "@/components/blocks/footprint/metric-theme";
 
 import { footprint, formatCompact, getSource } from "@/lib/footprint";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
+import { cn } from "@/lib/utils";
 
 const PAGE_DESCRIPTION =
   "Live estimates of global AI electricity use, water footprint and carbon emissions, with low and high ranges, methodology and sources from IEA, UNU-INWEH and peer-reviewed research.";
@@ -75,15 +75,30 @@ const AiFootprintPage = () => {
 
       <section aria-label="Live counters" className="grid gap-5 sm:grid-cols-2">
         {footprint.metrics.map((metric) => {
-          const Icon = METRIC_ICONS[metric.id] ?? ZapIcon;
+          const theme = getMetricTheme(metric.id);
+          const Icon = theme.icon;
+
+          const comparisonSourceIds = [
+            ...new Set(metric.comparisons?.flatMap((item) => item.sourceIds) ?? []),
+          ];
 
           return (
             <article
               key={metric.id}
-              className="flex flex-col gap-3 rounded-2xl border bg-card p-6 shadow-sm"
+              className={cn(
+                "flex flex-col gap-3 rounded-2xl border p-6 shadow-sm",
+                theme.card,
+              )}
             >
               <h2 className="flex items-center gap-2 text-lg font-semibold">
-                <Icon className="text-brand-green size-5" aria-hidden="true" />
+                <span
+                  className={cn(
+                    "inline-flex size-9 items-center justify-center rounded-full",
+                    theme.badge,
+                  )}
+                >
+                  <Icon className="size-5" aria-hidden="true" />
+                </span>
                 {metric.label}
               </h2>
               <p className="text-muted-foreground text-sm">{metric.scope}</p>
@@ -93,7 +108,11 @@ const AiFootprintPage = () => {
                 </p>
                 <LiveCounter
                   metric={metric}
-                  className="block text-3xl font-semibold sm:text-4xl"
+                  comparisons={metric.comparisons}
+                  className="text-3xl font-bold sm:text-4xl"
+                  numberClassName={cn("text-transparent", theme.number)}
+                  comparisonClassName="mt-3"
+                  accentClassName={theme.accent}
                 />
               </div>
               <div>
@@ -103,7 +122,7 @@ const AiFootprintPage = () => {
                 <LiveCounter
                   metric={metric}
                   mode="session"
-                  className="block text-xl font-semibold"
+                  className={cn("text-xl font-semibold", theme.accent)}
                 />
               </div>
               <dl className="grid grid-cols-3 gap-2 border-t pt-3 text-sm">
@@ -165,6 +184,28 @@ const AiFootprintPage = () => {
                     ) : null;
                   })}
                 </p>
+                {comparisonSourceIds.length > 0 && (
+                  <p className="text-muted-foreground mt-2">
+                    Comparisons use:{" "}
+                    {comparisonSourceIds.map((id, index) => {
+                      const source = getSource(id);
+
+                      return source ? (
+                        <span key={id}>
+                          {index > 0 && "; "}
+                          <a
+                            href={source.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="underline"
+                          >
+                            {source.title}
+                          </a>
+                        </span>
+                      ) : null;
+                    })}
+                  </p>
+                )}
               </details>
             </article>
           );

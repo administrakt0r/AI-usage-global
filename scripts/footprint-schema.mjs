@@ -103,6 +103,36 @@ export const validateFootprintData = data => {
         errors.push(`Metric ${label} cites unknown source ${ref}.`)
       }
     }
+
+    const comparisons = metric?.comparisons ?? []
+
+    if (!Array.isArray(comparisons)) {
+      errors.push(`Metric ${label} comparisons must be an array.`)
+    } else {
+      for (const comparison of comparisons) {
+        const name = `${label}/${comparison?.id ?? '(unknown comparison)'}`
+
+        if (!comparison?.id || typeof comparison?.label !== 'string' || comparison.label.trim().length < 8) {
+          errors.push(`Comparison ${name} needs an id and a readable label.`)
+        }
+
+        if (!isFiniteNumber(comparison?.per) || comparison.per <= 0) {
+          errors.push(`Comparison ${name} needs a positive "per" amount in counter units.`)
+        }
+
+        const comparisonRefs = Array.isArray(comparison?.sourceIds) ? comparison.sourceIds : []
+
+        if (comparisonRefs.length === 0) {
+          errors.push(`Comparison ${name} must cite at least one source.`)
+        }
+
+        for (const ref of comparisonRefs) {
+          if (!sourceIds.has(ref)) {
+            errors.push(`Comparison ${name} cites unknown source ${ref}.`)
+          }
+        }
+      }
+    }
   }
 
   const history = Array.isArray(data.history) ? data.history : []
