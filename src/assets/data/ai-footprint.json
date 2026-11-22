@@ -10,44 +10,171 @@
       "label": "AI electricity use",
       "scope": "AI-focused data centres worldwide",
       "unit": "TWh",
-      "annual": { "low": 120, "central": 195, "high": 230 },
-      "baseline": { "year": 2025, "value": 155, "note": "IEA estimate for AI-focused data centres" },
-      "projection": { "year": 2030, "value": 465, "note": "IEA: AI-focused consumption roughly triples 2025-2030" },
+      "annual": {
+        "low": 120,
+        "central": 195,
+        "high": 230
+      },
+      "baseline": {
+        "year": 2025,
+        "value": 155,
+        "note": "IEA estimate for AI-focused data centres"
+      },
+      "projection": {
+        "year": 2030,
+        "value": 465,
+        "note": "IEA: AI-focused consumption roughly triples 2025-2030"
+      },
       "derivation": "Central: IEA's 155 TWh (2025) grown on its path to roughly triple by 2030 (about 25% a year). Low: UNU-INWEH's estimate that AI was about one-fifth of 448 TWh in 2025, grown at the same rate. High: de Vries-Gao's ~23 GW AI power demand in 2025, at high utilisation and continued growth.",
-      "sourceIds": ["iea-2026", "unu-inweh-2026", "devries-2025"]
+      "sourceIds": [
+        "iea-2026",
+        "unu-inweh-2026",
+        "devries-2025"
+      ],
+      "comparisons": [
+        {
+          "id": "ev-charges",
+          "per": 65,
+          "label": "full 0–100% charges of an average electric car (65 kWh battery)",
+          "sourceIds": [
+            "iea-gevo-2025"
+          ]
+        },
+        {
+          "id": "us-homes",
+          "per": 10380,
+          "label": "US homes powered for a whole year",
+          "sourceIds": [
+            "eia-homes-2024"
+          ]
+        }
+      ]
     },
     {
       "id": "datacenter-electricity",
       "label": "All data centre electricity",
       "scope": "All data centres worldwide (AI and conventional), excluding crypto mining",
       "unit": "TWh",
-      "annual": { "low": 515, "central": 555, "high": 600 },
-      "baseline": { "year": 2025, "value": 485, "note": "IEA estimate, 17% growth in 2025" },
-      "projection": { "year": 2030, "value": 950, "note": "IEA: about 3% of global electricity demand" },
+      "annual": {
+        "low": 515,
+        "central": 555,
+        "high": 600
+      },
+      "baseline": {
+        "year": 2025,
+        "value": 485,
+        "note": "IEA estimate, 17% growth in 2025"
+      },
+      "projection": {
+        "year": 2030,
+        "value": 950,
+        "note": "IEA: about 3% of global electricity demand"
+      },
       "derivation": "Central: IEA path from 485 TWh (2025) to 950 TWh (2030), about 14% a year. Low: UNU-INWEH's 448 TWh (2025) on its path to 945 TWh. High: 2025's 17% growth rate repeated.",
-      "sourceIds": ["iea-2026", "unu-inweh-2026"]
+      "sourceIds": [
+        "iea-2026",
+        "unu-inweh-2026"
+      ],
+      "comparisons": [
+        {
+          "id": "us-homes",
+          "per": 10380,
+          "label": "US homes powered for a whole year",
+          "sourceIds": [
+            "eia-homes-2024"
+          ]
+        },
+        {
+          "id": "ev-charges",
+          "per": 65,
+          "label": "full 0–100% charges of an average electric car (65 kWh battery)",
+          "sourceIds": [
+            "iea-gevo-2025"
+          ]
+        }
+      ]
     },
     {
       "id": "ai-water",
       "label": "AI water footprint",
       "scope": "Water withdrawn for on-site cooling plus water used to generate AI's electricity",
       "unit": "billion L",
-      "annual": { "low": 390, "central": 800, "high": 1100 },
-      "baseline": { "year": 2025, "value": 900, "note": "UNU-INWEH estimate for AI workloads; de Vries-Gao gives 312.5-764.6 billion L" },
-      "projection": { "year": 2030, "value": 9300, "note": "UNU-INWEH: all data centres, about the domestic water needs of 1.3 billion people" },
+      "annual": {
+        "low": 390,
+        "central": 800,
+        "high": 1100
+      },
+      "baseline": {
+        "year": 2025,
+        "value": 900,
+        "note": "UNU-INWEH estimate for AI workloads; de Vries-Gao gives 312.5-764.6 billion L"
+      },
+      "projection": {
+        "year": 2030,
+        "value": 9300,
+        "note": "UNU-INWEH: all data centres, about the domestic water needs of 1.3 billion people"
+      },
       "derivation": "Low: de Vries-Gao's 2025 lower bound (312.5 billion L) plus 25% growth. High: UNU-INWEH's ~900 billion L for AI in 2025 plus growth, minus efficiency gains. Central: midpoint of the two studies' 2025 figures, grown about 20%.",
-      "sourceIds": ["unu-inweh-2026", "devries-2025"]
+      "sourceIds": [
+        "unu-inweh-2026",
+        "devries-2025"
+      ],
+      "comparisons": [
+        {
+          "id": "lifetimes",
+          "per": 1338641,
+          "label": "people's basic water needs for their whole lives (50 L a day for 73.3 years)",
+          "sourceIds": [
+            "ohchr-water",
+            "un-wpp-2024"
+          ]
+        },
+        {
+          "id": "world-days",
+          "per": 410000000000,
+          "label": "days of basic water for every person on Earth (8.2 billion people, 50 L each)",
+          "sourceIds": [
+            "ohchr-water",
+            "un-wpp-2024"
+          ]
+        }
+      ]
     },
     {
       "id": "ai-emissions",
       "label": "AI carbon emissions",
       "scope": "CO2 from electricity used by AI systems",
       "unit": "Mt CO2",
-      "annual": { "low": 40, "central": 70, "high": 100 },
-      "baseline": { "year": 2025, "value": 56, "note": "Midpoint of de Vries-Gao's 32.6-79.7 Mt CO2 range" },
-      "projection": { "year": 2030, "value": 399, "note": "UNU-INWEH: all data centres, up from 189 Mt in 2025" },
+      "annual": {
+        "low": 40,
+        "central": 70,
+        "high": 100
+      },
+      "baseline": {
+        "year": 2025,
+        "value": 56,
+        "note": "Midpoint of de Vries-Gao's 32.6-79.7 Mt CO2 range"
+      },
+      "projection": {
+        "year": 2030,
+        "value": 399,
+        "note": "UNU-INWEH: all data centres, up from 189 Mt in 2025"
+      },
       "derivation": "de Vries-Gao's 2025 range (32.6-79.7 Mt CO2) grown about 25% with AI electricity, partly offset by grid decarbonisation. Consistent with AI being roughly one-fifth of UNU-INWEH's 189 Mt for all data centres.",
-      "sourceIds": ["devries-2025", "unu-inweh-2026"]
+      "sourceIds": [
+        "devries-2025",
+        "unu-inweh-2026"
+      ],
+      "comparisons": [
+        {
+          "id": "car-years",
+          "per": 4.6,
+          "label": "petrol cars driven for a whole year",
+          "sourceIds": [
+            "epa-car-co2"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -78,6 +205,41 @@
       "publisher": "Our World in Data",
       "published": "2026",
       "url": "https://ourworldindata.org/how-much-energy-do-data-centers-and-artificial-intelligence-use"
+    },
+    {
+      "id": "eia-homes-2024",
+      "title": "U.S. residential electricity consumption per customer, 2024 (865 kWh a month)",
+      "publisher": "U.S. Energy Information Administration",
+      "published": "2025",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=65244"
+    },
+    {
+      "id": "iea-gevo-2025",
+      "title": "Global EV Outlook 2025: Electric vehicle batteries (65 kWh average battery-electric car pack)",
+      "publisher": "International Energy Agency",
+      "published": "2025",
+      "url": "https://www.iea.org/reports/global-ev-outlook-2025/electric-vehicle-batteries"
+    },
+    {
+      "id": "epa-car-co2",
+      "title": "Greenhouse gas emissions from a typical passenger vehicle (4.6 t CO2 a year)",
+      "publisher": "U.S. Environmental Protection Agency",
+      "published": "2023",
+      "url": "https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle"
+    },
+    {
+      "id": "un-wpp-2024",
+      "title": "World Population Prospects 2024 (8.2 billion people, life expectancy 73.3 years)",
+      "publisher": "United Nations",
+      "published": "2024",
+      "url": "https://www.un.org/sustainabledevelopment/blog/2024/07/press-release-wpp2024/"
+    },
+    {
+      "id": "ohchr-water",
+      "title": "The Right to Water, Fact Sheet No. 35 (50–100 L per person per day for basic needs)",
+      "publisher": "UN OHCHR / UN-Habitat / WHO",
+      "published": "2010",
+      "url": "https://www.ohchr.org/sites/default/files/Documents/Publications/FactSheet35en.pdf"
     }
   ],
   "history": [

@@ -1,23 +1,11 @@
 import Link from "next/link";
-import {
-  ArrowRightIcon,
-  CloudIcon,
-  DropletsIcon,
-  ServerIcon,
-  ZapIcon,
-} from "lucide-react";
-import type { LucideIcon } from "lucide-react";
+import { ArrowRightIcon } from "lucide-react";
 
 import { footprint, formatCompact } from "@/lib/footprint";
+import { cn } from "@/lib/utils";
 
 import LiveCounter from "./live-counter";
-
-export const METRIC_ICONS: Record<string, LucideIcon> = {
-  "ai-electricity": ZapIcon,
-  "datacenter-electricity": ServerIcon,
-  "ai-water": DropletsIcon,
-  "ai-emissions": CloudIcon,
-};
+import { getMetricTheme } from "./metric-theme";
 
 const WIDGET_METRICS = ["ai-electricity", "ai-water", "ai-emissions"];
 
@@ -30,7 +18,7 @@ const FootprintWidget = () => {
   return (
     <section
       aria-labelledby="footprint-widget-heading"
-      className="border-b bg-background py-10 sm:py-12"
+      className="border-b bg-background py-10 sm:py-14"
     >
       <div className="mx-auto max-w-7xl space-y-6 px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
@@ -49,27 +37,44 @@ const FootprintWidget = () => {
             href="/ai-footprint"
             className="text-brand-green inline-flex items-center gap-1 text-sm font-semibold hover:underline"
           >
-            Methodology and sources
+            See all figures and sources
             <ArrowRightIcon className="size-4" aria-hidden="true" />
           </Link>
         </div>
-        <ul className="grid gap-4 sm:grid-cols-3">
+        <ul className="grid gap-4 md:grid-cols-3">
           {metrics.map((metric) => {
-            const Icon = METRIC_ICONS[metric.id] ?? ZapIcon;
+            const theme = getMetricTheme(metric.id);
+            const Icon = theme.icon;
 
             return (
-              <li key={metric.id} className="rounded-xl border bg-card p-5">
-                <p className="text-muted-foreground flex items-center gap-2 text-sm font-medium">
-                  <Icon className="text-brand-green size-4" aria-hidden="true" />
+              <li
+                key={metric.id}
+                className={cn(
+                  "flex flex-col gap-3 rounded-2xl border p-5 shadow-sm transition-shadow hover:shadow-md",
+                  theme.card,
+                )}
+              >
+                <p className="flex items-center gap-2.5 text-sm font-semibold">
+                  <span
+                    className={cn(
+                      "inline-flex size-8 items-center justify-center rounded-full",
+                      theme.badge,
+                    )}
+                  >
+                    <Icon className="size-4" aria-hidden="true" />
+                  </span>
                   {metric.label}
                 </p>
                 <LiveCounter
                   metric={metric}
-                  className="mt-2 block text-2xl font-semibold sm:text-3xl"
+                  comparisons={metric.comparisons?.slice(0, 1)}
+                  className="text-[1.65rem] font-bold leading-tight sm:text-3xl md:text-[1.7rem] lg:text-3xl"
+                  numberClassName={cn("text-transparent", theme.number)}
+                  accentClassName={theme.accent}
                 />
-                <p className="text-muted-foreground mt-1 text-xs">
-                  ≈ {formatCompact(metric.annual.central)} {metric.unit} a year
-                  (range {formatCompact(metric.annual.low)}–
+                <p className="text-muted-foreground mt-auto border-t border-current/10 pt-3 text-xs">
+                  About {formatCompact(metric.annual.central)} {metric.unit} a
+                  year (range {formatCompact(metric.annual.low)}–
                   {formatCompact(metric.annual.high)})
                 </p>
               </li>
@@ -77,9 +82,10 @@ const FootprintWidget = () => {
           })}
         </ul>
         <p className="text-muted-foreground text-xs">
-          Modelled estimates from IEA, UNU-INWEH and peer-reviewed research,
-          last reviewed {footprint.lastReviewed}. Counters spread the yearly
-          estimate evenly; they are not live meter readings.
+          Modelled estimates from the IEA, UNU-INWEH and peer-reviewed research,
+          last reviewed {footprint.lastReviewed}. The counters spread each
+          yearly estimate evenly over the year, so they aren&apos;t live meter
+          readings.
         </p>
       </div>
     </section>

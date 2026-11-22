@@ -8,8 +8,18 @@
 # Cloudflare / Wrangler local state
 /.wrangler
 
-# Local AI / assistant / workspace state
+# Local AI / assistant / workspace state (never commit: holds local paths and session logs)
 /.omx
+/.claude
+/.codex
+/.cursor
+/.aider*
+/.continue
+/.windsurf
+/.gemini
+/.jules
+/.vscode
+/.idea
 
 # Environment files
 .env
@@ -34,6 +44,8 @@
 /dev_server.log
 /next_dev_output.log
 /verification.png
+/final-verification.png
+/*.png
 
 # Test and coverage output
 /coverage

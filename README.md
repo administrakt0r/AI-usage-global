@@ -1,8 +1,17 @@
 # AI Usage Global
 
 <p align="center">
-  <strong>A daily, static AI news site focused on the real-world cost of artificial intelligence.</strong><br />
-  Water use, power demand, compute strain, infrastructure bottlenecks, and environmental impact — published in a fast, searchable, open-source format.
+  <strong>A daily news site about what AI costs the planet.</strong><br />
+  Water, electricity, emissions, chips and the money behind them, published as a fast static site you can read, fork or run yourself.
+</p>
+
+<p align="center">
+  <a href="https://aiusageglobal.pages.dev">
+    <img alt="Visit the live site" src="https://img.shields.io/badge/Visit-Live%20Site-16a34a?style=for-the-badge&logo=googlechrome&logoColor=white" />
+  </a>
+  <a href="https://github.com/administrakt0r/AI-usage-global/fork">
+    <img alt="Fork this repository" src="https://img.shields.io/badge/Fork-This%20Project-0f4c81?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
 </p>
 
 <p align="center">
@@ -10,691 +19,226 @@
     <img alt="PR Checks" src="https://img.shields.io/github/actions/workflow/status/administrakt0r/AI-usage-global/pr-checks.yml?branch=main&style=flat-square&label=PR%20Checks" />
   </a>
   <a href="https://github.com/administrakt0r/AI-usage-global/actions/workflows/deploy-pages.yml">
-    <img alt="Cloudflare Pages Deploy" src="https://img.shields.io/github/actions/workflow/status/administrakt0r/AI-usage-global/deploy-pages.yml?branch=main&style=flat-square&label=Deploy" />
+    <img alt="Deploy" src="https://img.shields.io/github/actions/workflow/status/administrakt0r/AI-usage-global/deploy-pages.yml?branch=main&style=flat-square&label=Deploy" />
   </a>
   <a href="./LICENSE">
     <img alt="License: MIT" src="https://img.shields.io/github/license/administrakt0r/AI-usage-global?style=flat-square" />
   </a>
-  <a href="https://github.com/administrakt0r/AI-usage-global">
+  <a href="https://github.com/administrakt0r/AI-usage-global/commits/main">
     <img alt="Last commit" src="https://img.shields.io/github/last-commit/administrakt0r/AI-usage-global?style=flat-square" />
-  </a>
-  <a href="https://github.com/administrakt0r/AI-usage-global">
-    <img alt="Top language" src="https://img.shields.io/github/languages/top/administrakt0r/AI-usage-global?style=flat-square" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://aiusageglobal.pages.dev">
-    <img alt="Visit live site" src="https://img.shields.io/badge/Visit-Live%20Site-16a34a?style=for-the-badge&logo=googlechrome&logoColor=white" />
-  </a>
-  <a href="https://developers.cloudflare.com/pages/framework-guides/deploy-a-nextjs-site/">
-    <img alt="Deploy on Cloudflare Pages" src="https://img.shields.io/badge/Deploy%20on-Cloudflare%20Pages-F38020?style=for-the-badge&logo=cloudflarepages&logoColor=white" />
-  </a>
-  <a href="https://github.com/administrakt0r/AI-usage-global/fork">
-    <img alt="Fork this repository" src="https://img.shields.io/badge/Fork-This%20Project-0f4c81?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
+  <img src="./docs/images/homepage-desktop.png" alt="AI Usage Global homepage with the latest posts and the AI footprint counters" width="900" />
 </p>
 
----
+## Contents
 
-## Table of contents
-
-- [Overview](#overview)
-- [Why this project exists](#why-this-project-exists)
-- [Who this is for](#who-this-is-for)
-- [Features](#features)
-- [Visual preview](#visual-preview)
-- [Tech stack](#tech-stack)
-- [Project architecture](#project-architecture)
-- [Getting started](#getting-started)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Environment variables and configuration](#environment-variables-and-configuration)
-- [Running locally](#running-locally)
-- [Build and production output](#build-and-production-output)
-- [Deployment](#deployment)
-- [Usage examples](#usage-examples)
-- [Automation and CI](#automation-and-ci)
+- [What it is](#what-it-is)
+- [What's on the site](#whats-on-the-site)
+- [Run it locally in 2 minutes](#run-it-locally-in-2-minutes)
+- [Publish a post with AUG Bot](#publish-a-post-with-aug-bot)
+- [Write a post by hand](#write-a-post-by-hand)
+- [The AI footprint tracker](#the-ai-footprint-tracker)
+- [Deploy your own copy](#deploy-your-own-copy)
+- [How the repo is laid out](#how-the-repo-is-laid-out)
+- [Commands](#commands)
 - [Troubleshooting](#troubleshooting)
 - [FAQ](#faq)
 - [Contributing](#contributing)
+- [More from the author](#more-from-the-author)
 - [License](#license)
-- [Credits](#credits)
-- [Related projects](#related-projects)
-- [Author and maintainer](#author-and-maintainer)
-- [Support and contact](#support-and-contact)
 
----
+## What it is
 
-## Overview
+Most AI coverage is about launches, demos and benchmarks. AI Usage Global covers the other side: how much power and water data centres use, who pays for the grid upgrades, which towns are pushing back, and where the chips and the money come from.
 
-**AI Usage Global** is a Next.js 16 + MDX publication that tracks the physical and economic cost of AI: water consumption, electricity demand, compute bottlenecks, infrastructure pressure, emissions, and related policy or industry developments.
+The site publishes short news posts every day. An AI agent called **AUG Bot** writes them from a fixed list of trusted sources, and every post links to its original source. Each post goes through a pull request and a set of automatic checks before it reaches the live site. The site is part of the SHTEFAI autonomous blog publishing system.
 
-The site is built as a **static export** and deployed on **Cloudflare Pages**, which keeps it simple to host, fast to load, and easy to audit. Articles live in MDX, metadata lives in TypeScript, RSS is generated automatically, and social preview images are created from local scripts.
+It's useful if you want to:
 
-According to the maintainer, this public site is also part of the broader **SHTEFAI autonomous blog publishing system** used to run AI-assisted publishing workflows.
+- follow AI's energy and water footprint without reading 40 feeds
+- run your own small news site on Next.js, MDX and Cloudflare Pages
+- see how an AI agent can publish to a public site without being given the keys to everything
 
----
+## What's on the site
 
-## Why this project exists
-
-A lot of AI coverage focuses on launches, demos, hype, and benchmarks.
-
-This project takes a different angle.
-
-It exists to make AI infrastructure costs easier to understand:
-
-- how much power large-scale AI systems need
-- how water and cooling demands affect data centers
-- how compute shortages shape the market
-- how deployment at scale affects budgets, infrastructure, and ecology
-- how autonomous publishing can stay transparent, fast, and responsible
-
-In short: **this is an open-source, ecology-aware AI publication with a static-first architecture and a clear editorial scope.**
-
----
-
-## Who this is for
-
-This repository is useful if you are:
-
-- **a publisher** who wants a simple, fast AI news site
-- **a founder or indie builder** exploring automated publishing workflows
-- **a developer** looking for a clean Next.js + MDX + Cloudflare Pages starter
-- **a researcher or policy writer** interested in AI resource usage and infrastructure impact
-- **a non-technical operator** who wants a site that can be edited mostly through content files and structured metadata
-
----
-
-## Features
-
-- 📰 **Daily article publishing model** centered on AI usage, power, water, cost, and environmental impact
-- ⚡ **Static export architecture** using Next.js App Router
-- ✍️ **MDX-based content** in `src/content/*.mdx`
-- 🧠 **Structured blog metadata** in `src/assets/data/blog-posts.ts`
-- 🖼️ **Topic-aware cover images** generated per post: water, power, nuclear, geothermal, emissions, policy, compute and money themes, with the headline figure pulled from the title
-- 📡 **Automatic RSS feed generation** via `scripts/generate-rss.mjs`
-- 🔎 **Search and filtering UI** for posts on the homepage
-- 🧭 **Structured SEO setup** with metadata, Open Graph, Twitter cards, RSS, sitemap, robots, and schema.org JSON-LD
-- 🌿 **Responsible AI policy page** and clear disclosure of autonomous publishing
-- ☁️ **Cloudflare Pages deployment workflow** included
-- ✅ **CI checks** for linting, types, tests, build, and bot PR validation
-- 💧 **Live AI footprint tracker** (`/ai-footprint` and a homepage widget): running counters for AI electricity, data-centre electricity, AI water use and AI emissions, built from cited low/central/high estimates in `src/assets/data/ai-footprint.json`
-- 🤖 **AUG Bot prompt** (`newsprompt.md`): one copy-paste prompt for any coding agent that writes a post and refreshes the footprint data weekly
-- 🛡️ **Bot PR safeguards**: allow-listed files, duplicate-story rejection, footprint schema checks and append-only logs
-
----
-
-## Visual preview
-
-### Brand / social preview image
-
-<p align="center">
-  <img
-    src="./public/images/og-image.png"
-    alt="AI Usage Global Open Graph preview image"
-    width="800"
-  />
-</p>
-
-### README screenshots
-
-#### Homepage
-
-![AI Usage Global homepage screenshot](./docs/images/homepage-desktop.png)
-
-#### Article page
-
-![AI Usage Global article page screenshot](./docs/images/article-page.png)
-
-#### Search and post discovery
-
-![AI Usage Global search and category filtering screenshot](./docs/images/search-and-filter.png)
-
-#### Responsible AI page
-
-![AI Usage Global responsible AI policy screenshot](./docs/images/responsible-ai-page.png)
-
-#### Mobile view
-
-<p align="center">
-  <img src="./docs/images/mobile-view.png" alt="AI Usage Global mobile homepage screenshot" width="390" />
-</p>
-
-### How these screenshots were created
-
-This repository now includes a small helper script for refreshing README screenshots from a local running instance:
-
-```bash
-pnpm capture:readme-screenshots
-```
-
-The script saves images into:
-
-```text
-docs/images/
-```
-
----
-
-## Tech stack
-
-| Area | Verified from codebase |
+| Page | What you get |
 | --- | --- |
-| Framework | Next.js 16 (App Router) |
-| UI | React 19 |
-| Styling | Tailwind CSS 4 |
-| Content format | MDX |
-| Components | Radix UI primitives + custom UI components |
-| Language | TypeScript |
-| Image generation | Sharp |
-| Deployment target | Cloudflare Pages |
-| Package manager | pnpm |
-| Testing | Node test runner via `tsx --test` |
-| Linting | ESLint |
-| Feed generation | Custom RSS script |
+| Home | The latest posts, live footprint counters, search and filtering |
+| [AI Footprint](https://aiusageglobal.pages.dev/ai-footprint) | Running estimates of AI's electricity, water and CO2 for this year, with ranges and sources |
+| Articles | One story each: key facts, why it matters, open questions, a link to the source |
+| [Responsible AI](https://aiusageglobal.pages.dev/responsible-ai-usage) | How the site uses AI and what the bot is and isn't allowed to do |
+| RSS | `/rss.xml`, rebuilt on every deploy |
 
----
+Every post gets its own cover image, made automatically from its title. Water stories get a blue water theme, power stories an amber grid theme, and so on for nuclear, geothermal, emissions, policy, compute and money. If the headline has a number in it ("50MW", "$24B", "30%"), that number goes big on the cover.
 
-## Project architecture
+<p align="center">
+  <img src="./docs/images/article-page.png" alt="An article page on AI Usage Global" width="49%" />
+  <img src="./docs/images/ai-footprint.png" alt="The AI footprint tracker page" width="49%" />
+</p>
 
-### High-level flow
+<p align="center">
+  <img src="./docs/images/mobile-view.png" alt="AI Usage Global on a phone" width="300" />
+</p>
 
-1. **Articles** are stored as MDX files in `src/content/`
-2. **Post metadata** is stored in `src/assets/data/blog-posts.ts`
-3. **Derived assets** are generated automatically before local dev and production builds
-4. **Next.js exports** the site as static files
-5. **Cloudflare Pages** serves the generated output
+## Run it locally in 2 minutes
 
-### Key folders
-
-```text
-.
-├── .github/workflows/         # CI, deploy, auto-merge, watchdog workflows
-├── public/                    # Static assets, favicons, generated RSS, post images
-├── scripts/                   # RSS, image generation, bot PR validation helpers
-├── src/app/                   # Next.js App Router pages, layout, sitemap, robots, manifest
-├── src/assets/data/           # Blog post metadata
-├── src/components/            # UI and content components
-├── src/content/               # MDX article content
-├── src/hooks/                 # Reusable UI hooks
-└── src/lib/                   # Site config, blog utilities, helpers
-```
-
-### Content model
-
-To publish a post, the project needs both:
-
-- an **MDX file** in `src/content/`
-- a matching **metadata entry** in `src/assets/data/blog-posts.ts`
-
-This split keeps editing straightforward while still supporting clean metadata, RSS generation, and generated social images.
-
----
-
-## Getting started
-
-If you just want to run the site locally, this is the fastest path:
-
-```bash
-pnpm install
-pnpm dev
-```
-
-Then open:
-
-```text
-http://localhost:3000
-```
-
-Before the dev server starts, the project automatically generates:
-
-- `public/rss.xml`
-- optimized post images in `public/images/posts/`
-
----
-
-## Prerequisites
-
-Before installing, make sure you have:
-
-- **Node.js 22** (the repo includes `.node-version` set to `22`)
-- **pnpm 10.32.1** or a compatible pnpm 10 setup
-- **Git**
-
-If you are non-technical, the easiest route is usually:
-
-1. install Node.js 22
-2. install pnpm
-3. clone or download this repository
-4. run the commands shown below in a terminal inside the project folder
-
----
-
-## Installation
-
-### 1) Clone the repository
+You need [Node.js 22](https://nodejs.org/), [pnpm 10](https://pnpm.io/installation) and Git.
 
 ```bash
 git clone https://github.com/administrakt0r/AI-usage-global.git
 cd AI-usage-global
-```
-
-### 2) Install dependencies
-
-```bash
 pnpm install
-```
-
-This downloads the packages used by the site, build scripts, tests, and deployment workflow.
-
----
-
-## Environment variables and configuration
-
-### Local development
-
-For normal local development, **no environment file is required**.
-
-The site has a default public URL fallback built into the code:
-
-- `https://aiusageglobal.pages.dev`
-
-### Optional variables
-
-These are supported by the codebase:
-
-| Variable | Purpose |
-| --- | --- |
-| `NEXT_PUBLIC_APP_URL` | Overrides the public site URL used for metadata, RSS, and canonical links |
-| `CF_PAGES_URL` | Used when present to derive a Cloudflare preview/site URL |
-
-### GitHub Actions deployment secrets
-
-The included Cloudflare deployment workflow expects these repository secrets:
-
-| Secret | Purpose |
-| --- | --- |
-| `CLOUDFLARE_API_TOKEN` | Authenticates Wrangler for Cloudflare Pages deployment |
-| `CLOUDFLARE_ACCOUNT_ID` | Tells Wrangler which Cloudflare account to deploy to |
-| `AUTO_MERGE_TOKEN` | Optional token used by the auto-merge workflow when merging eligible PRs |
-
----
-
-## Running locally
-
-### Start the development server
-
-```bash
 pnpm dev
 ```
 
-What this does:
+Open <http://localhost:3000>. The first start takes a little longer because it builds the RSS feed and all the post cover images.
 
-- runs `generate:derived` first
-- generates RSS and post images
-- starts the Next.js development server
+No `.env` file or API keys are needed to run the site.
 
-### Open the site
+## Publish a post with AUG Bot
 
-Visit:
+All of the bot's instructions are in one file: [`newsprompt.md`](./newsprompt.md).
 
-```text
-http://localhost:3000
-```
+1. Open this repo in any coding agent (Claude Code, Codex, Cursor, Aider or similar).
+2. Paste the contents of `newsprompt.md` and send it.
+3. The agent picks one fresh story from the sources in [`rss-feeds.json`](./rss-feeds.json), checks it hasn't been covered before, writes the post, runs the checks and opens a pull request named `[aug-bot] <Title> - <date>`.
+4. When the checks pass, the PR merges and the site redeploys on its own.
 
-### Useful commands
+You run it whenever you like. There's no scheduler and no extra secrets to set up.
 
-```bash
-pnpm lint         # Run ESLint
-pnpm check-types  # Run TypeScript checks
-pnpm test         # Run tests
-pnpm build        # Create a production build/static export
-```
+The bot can only change four things: the new post's `.mdx` file, its entry in `blog-posts.ts`, `published-log.json`, and the footprint data file. If a PR touches anything else, `pnpm validate:bot-pr` fails and the PR won't merge. The same script also rejects stories that were already published, whether it's the same URL, the same title or the same event.
 
-### Run one test file
+## Write a post by hand
 
-```bash
-tsx --test src/lib/blog.test.ts
-```
+1. Add an MDX file to `src/content/`, for example `src/content/my-story.mdx`.
+2. Add a matching `createPost({ ... })` entry at the end of the list in `src/assets/data/blog-posts.ts`.
+3. Run `pnpm dev` and check the homepage, the article page and the cover image.
 
----
+`newsprompt.md` has the full post template and the metadata rules if you want your post to match the bot's.
 
-## Build and production output
+## The AI footprint tracker
 
-### Production build
+The counters on `/ai-footprint` and the homepage show four things:
 
-```bash
-pnpm build
-```
+- electricity used by AI
+- electricity used by all data centres
+- water used by AI, including the water used to generate its electricity
+- CO2 from AI's electricity
 
-This project runs `generate:derived` automatically before build, which means it refreshes:
+The numbers come from [`src/assets/data/ai-footprint.json`](./src/assets/data/ai-footprint.json). Each figure has a low, central and high estimate, a note on how it was worked out, and links to its sources (the IEA, United Nations University and peer-reviewed studies). The site spreads the yearly central figure evenly across the year and counts up from 1 January UTC.
 
-- generated social/post images
-- `public/rss.xml`
+These are modelled estimates. Nobody publishes live meter readings for AI's resource use.
 
-### Output
+To keep the figures current, AUG Bot rechecks the sources when the data is 7 or more days old and updates the file in the same PR as that day's post. `scripts/footprint-schema.mjs` checks every change, and the file's revision history can only grow.
 
-The project is configured with:
+## Deploy your own copy
 
-```ts
-output: 'export'
-```
+The site builds to plain static files in `out/`, so it runs on any static host. It's set up for Cloudflare Pages.
 
-So the production result is a **static export**. In this repository, the deployed output is written to:
+**The simple way:**
 
-```text
-out/
-```
+1. Fork this repo.
+2. In Cloudflare, create a Pages project and connect your fork.
+3. Set the build command to `pnpm build`, the output folder to `out`, and the Node version to 22.
 
-This makes the project a good fit for static hosting platforms, especially Cloudflare Pages.
+**With the included GitHub Actions** (deploys on every push to `main`), add these repository secrets:
 
----
+| Secret | What it's for |
+| --- | --- |
+| `CLOUDFLARE_API_TOKEN` | Lets the deploy workflow publish to Cloudflare Pages |
+| `CLOUDFLARE_ACCOUNT_ID` | Tells it which Cloudflare account to use |
+| `AUTO_MERGE_TOKEN` | Optional. Used to auto-merge bot PRs once their checks pass |
 
-## Deployment
+Optional environment variables:
 
-### Recommended: Cloudflare Pages
+| Variable | What it does |
+| --- | --- |
+| `NEXT_PUBLIC_APP_URL` | Your site's public URL, used in canonical links, RSS and social previews. Defaults to `https://aiusageglobal.pages.dev` |
+| `CF_PAGES_URL` | Set by Cloudflare automatically; used if `NEXT_PUBLIC_APP_URL` isn't set |
 
-This repository is already set up for **Cloudflare Pages** deployment.
-
-#### Live site
-
-- **Production URL:** <https://aiusageglobal.pages.dev>
-
-#### Easiest beginner path
-
-If you want to publish your own version:
-
-1. Fork this repository on GitHub
-2. Create a Cloudflare Pages project
-3. Import your forked repository
-4. Use Node.js 22
-5. Build the site with:
-
-```bash
-pnpm build
-```
-
-6. Publish the generated static output from:
+## How the repo is laid out
 
 ```text
-out
+.
+├── newsprompt.md              # The AUG Bot prompt (the only one)
+├── rss-feeds.json             # Sources the bot reads, ranked by trust
+├── published-log.json         # Every story already published, for duplicate checks
+├── src/content/               # Articles, one .mdx file each
+├── src/assets/data/           # Post metadata and the footprint data
+├── src/app/                   # Pages, sitemap, robots, manifest
+├── src/components/            # UI pieces, including the footprint counters
+├── src/lib/                   # Blog, site and footprint helpers
+├── scripts/                   # RSS, cover images, PR validation
+├── .github/workflows/         # Checks, deploy, auto-merge, daily watchdog
+└── docs/images/               # README screenshots
 ```
 
-### Included GitHub Actions deployment workflow
+Built with Next.js 16 (App Router, static export), React 19, Tailwind CSS 4, MDX, Radix UI, TypeScript and Sharp.
 
-The repo includes `.github/workflows/deploy-pages.yml`.
-
-That workflow:
-
-- installs dependencies
-- validates Cloudflare credentials
-- builds the site
-- deploys `out/` using Wrangler
-- verifies that the latest post is live
-
-The deployment command used in CI is:
+## Commands
 
 ```bash
-pnpm exec wrangler pages deploy out --project-name=aiusageglobal --branch=main
+pnpm dev                     # Local dev server
+pnpm build                   # Production build into out/
+pnpm lint                    # ESLint
+pnpm check-types             # TypeScript
+pnpm test                    # All tests
+pnpm exec tsx --test src/lib/blog.test.ts   # One test file
+pnpm generate:derived        # Rebuild RSS and cover images
+pnpm generate:post-images    # Cover images only
+pnpm generate:rss            # RSS only
+pnpm validate:bot-pr         # Run the bot PR checks on the current branch
+pnpm capture:readme-screenshots  # Refresh docs/images from a running site
 ```
 
-If you want to reuse the built-in deployment workflow, configure the required Cloudflare secrets in your GitHub repository.
-
----
-
-## Usage examples
-
-### Add a new article
-
-1. Create a new MDX file in:
-
-```text
-src/content/
-```
-
-2. Add its metadata to:
-
-```text
-src/assets/data/blog-posts.ts
-```
-
-3. Run the project locally:
-
-```bash
-pnpm dev
-```
-
-4. Open the site and verify:
-
-- homepage listing
-- article page
-- RSS feed
-- generated social image
-
-### Rebuild generated assets only
-
-```bash
-pnpm generate:derived
-```
-
-### Regenerate RSS only
-
-```bash
-pnpm generate:rss
-```
-
-### Regenerate post images only
-
-```bash
-pnpm generate:post-images
-```
-
----
-
-## Automation and CI
-
-This repository includes several GitHub Actions workflows:
-
-- **PR Checks** — runs validation, linting, type checks, tests, and build
-- **Cloudflare Pages Deploy** — deploys production output
-- **Auto Merge PR** — merges eligible PRs after successful checks
-- **Daily Post Watchdog** — verifies that the latest expected post is fresh and live
-
-### AUG Bot prompt
-
-`newsprompt.md` is the single source of truth for the bot's behaviour: sources, scope, duplicate rules, writing standards, the MDX template and the footprint refresh procedure. Paste it into any coding agent with access to this repo whenever you want a new post. No secrets or scheduling are needed. Its sources live in `rss-feeds.json` (tiered feeds plus watch pages).
-
-### AI footprint data
-
-`src/assets/data/ai-footprint.json` holds annual low/central/high estimates, each with a derivation and source IDs. The site turns the annual central figure into a per-second rate and counts year-to-date from 1 January UTC. These are modelled estimates, not live telemetry. The prompt has the agent review the file when `lastReviewed` is 7 or more days old, appends to `history`, and `validate:bot-pr` enforces the schema (`scripts/footprint-schema.mjs`).
-
-There is also a repo-specific validation script for bot-generated post PRs:
-
-```bash
-pnpm validate:bot-pr
-```
-
-That script checks things like:
-
-- branch naming rules for bot post branches
-- allowed file changes
-- metadata validity
-- source URL handling
-- generated artifact restrictions in PRs
-- duplicate stories (URL, normalized title, event fingerprint) against the published log
-- footprint data schema, forward-moving `lastReviewed` and append-only history
-
----
+The screenshot script uses Playwright. If you'd rather not download its browser, point `README_SCREENSHOT_CHROME` at a Chrome or Chromium you already have.
 
 ## Troubleshooting
 
-### `pnpm dev` fails before the server starts
+**`pnpm dev` fails before the server starts.** It builds the RSS feed and cover images first, so the problem is usually a typo in `src/assets/data/blog-posts.ts` or a broken `.mdx` file. The error message names the file.
 
-The project runs derived generation first. Check whether one of these files is causing the issue:
+**A post has no cover image, or the content looks out of date.** Run `pnpm generate:derived`, then start or build again.
 
-- `src/assets/data/blog-posts.ts`
-- `src/content/*.mdx`
-- `scripts/generate-post-images.mjs`
-- `scripts/generate-rss.mjs`
+**The Cloudflare deploy fails in GitHub Actions.** Check that `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` are set in the repo's secrets.
 
-### The site builds, but the content looks outdated
-
-Run:
-
-```bash
-pnpm generate:derived
-```
-
-Then build again.
-
-### Cloudflare deployment fails in GitHub Actions
-
-Verify that these secrets exist:
-
-- `CLOUDFLARE_API_TOKEN`
-- `CLOUDFLARE_ACCOUNT_ID`
-
-### My contact form does not send through a backend
-
-That is expected in the current codebase.
-
-The contact form uses a **`mailto:` flow** in the browser, which opens the user’s email client instead of posting to a server endpoint.
-
-### Images are missing for a post
-
-The project expects generated post images in:
-
-```text
-public/images/posts/
-```
-
-Run:
-
-```bash
-pnpm generate:post-images
-```
-
----
+**The contact form doesn't send anything to a server.** That's by design. It opens the visitor's own email app with the message filled in.
 
 ## FAQ
 
-### Is this a dynamic CMS?
+**Is there a database or CMS?** No. Posts are MDX files, metadata is a TypeScript file, and the whole site is static.
 
-No. It is a **static-exported Next.js site** with MDX content and TypeScript-based post metadata.
+**Is it clear to readers that AI writes the posts?** Yes. Every post is signed by AUG Bot, links to its source, and the Responsible AI page explains how the publishing works.
 
-### Do I need a database?
+**Can someone who doesn't code add a post?** Yes, with a bit of help. You only need to touch one `.mdx` file and one entry in `blog-posts.ts`, and copying an existing post is the easiest way to start.
 
-No database is visible in the current codebase.
-
-### Does it support RSS?
-
-Yes. The RSS file is generated into:
-
-```text
-public/rss.xml
-```
-
-### Can non-developers update content?
-
-Yes, with some guidance. The simplest editorial workflow is editing:
-
-- MDX content files in `src/content/`
-- post metadata in `src/assets/data/blog-posts.ts`
-
-### Is the publishing system transparent about AI-generated content?
-
-Yes. The site includes explicit language around autonomous publishing, AUG Bot authorship, and a dedicated Responsible AI Usage page.
-
----
+**How accurate are the footprint numbers?** They're as good as the published research, which disagrees a lot. That's why every figure shows a range and its sources.
 
 ## Contributing
 
-Contributions are welcome.
-
-A good way to contribute is to keep changes focused and easy to review:
-
-1. Fork the repository
-2. Create a branch
-3. Make your changes
-4. Run checks locally
-5. Open a pull request
-
-Recommended local validation before opening a PR:
+Fixes and ideas are welcome. Keep pull requests small and focused, and run the checks before you open one:
 
 ```bash
-pnpm lint
-pnpm check-types
-pnpm test
-pnpm build
+pnpm lint && pnpm check-types && pnpm test && pnpm build
 ```
 
-If you are changing automated publishing behavior, also review:
+If you change how the bot publishes, read `scripts/validate-bot-pr.mjs` and `.github/workflows/` first. Those files decide what a bot PR is allowed to do.
 
-```text
-scripts/validate-bot-pr.mjs
-.github/workflows/
-```
-
----
-
-## License
-
-This repository is licensed under the **MIT License**.
-
-See [LICENSE](./LICENSE) for details.
-
----
-
-## Credits
-
-- **AUG Bot** — autonomous editorial voice used across the publication
-- **administraktor.com** — project builder and operator referenced in the site
-- **Cloudflare Pages** — hosting/deployment platform used by the production site
-- **Next.js, React, Tailwind CSS, MDX, Sharp, and Wrangler** — core pieces of the implementation
-
----
-
-## Related projects
-
-### More from the author
+## More from the author
 
 If you like this project, these are worth a look too:
 
-- **[WPinEU.com](https://wpineu.com)**  
-  Europe-focused WordPress hosting with free and professional options, built for people who want a more approachable hosting experience with cPanel-backed control and dependable performance.
+- **[WPinEU.com](https://wpineu.com)**: Europe-focused WordPress hosting with free and professional plans, cPanel control and dependable performance.
+- **[LLM.kiwi](https://llm.kiwi)**: a lightweight AI API endpoint for developers, hobbyists and builders who want to prototype and test integrations quickly.
+- **[CallerHouse.com](https://callerhouse.com)**: a worldwide caller lookup where people search phone numbers, report spam and share feedback about suspicious callers.
+- **[Responsible AI](https://responsibleai.pages.dev/)**: a project about responsible AI awareness, practical ethics and a more thoughtful way to build and use AI.
+- **[administraktor.com](https://administraktor.com)**: the builder behind this site.
+- **[GitHub: administrakt0r](https://github.com/administrakt0r)**: more repositories, experiments and publishing tools.
 
-- **[LLM.kiwi](https://llm.kiwi)**  
-  A lightweight AI API endpoint for developers, hobbyists, and builders who want a simple way to prototype, test integrations, and move faster.
+Found a mistake in a post, or want to work together? Use the [contact page](https://aiusageglobal.pages.dev/contact-us). If you build on this project, a link back to this repo is always appreciated.
 
-- **[CallerHouse.com](https://callerhouse.com)**  
-  A worldwide caller intelligence platform where people can search phone numbers, report spam, and share useful feedback about suspicious callers.
+## License
 
-- **🌿 [Responsible AI](https://responsibleai.pages.dev/)**  
-  A mission-driven project focused on responsible AI awareness, practical ethics, and a more thoughtful approach to building and using intelligent systems.
-
-- **[GitHub: administrakt0r](https://github.com/administrakt0r)**  
-  Explore more repositories, experiments, and publishing tools from the same builder.
-
----
-
-## Author and maintainer
-
-Maintained by **[administrakt0r](https://github.com/administrakt0r)**.
-
-Project and ecosystem references inside the codebase also point to:
-
-- <https://administraktor.com>
-- <https://wpineu.com>
-- <https://llm.kiwi>
-
----
-
-## Support and contact
-
-If you want to report a problem, suggest a correction, or discuss collaboration:
-
-- visit the live contact page: <https://aiusageglobal.pages.dev/contact-us>
-- or email: `contact@aiusageglobal.pages.dev`
-
-If you build on top of this project, a link back to the original repository is always appreciated.
+MIT. See [LICENSE](./LICENSE).
