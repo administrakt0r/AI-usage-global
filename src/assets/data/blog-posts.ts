@@ -6389,6 +6389,28 @@ export const blogPosts: BlogPost[] = [
       "data center public health",
     ],
   }),
+  createPost({
+    id: 383,
+    title: "Melbourne Overtakes Sydney in 26.8GW Australian Data Center Pipeline",
+    slug: "melbourne-overtakes-sydney-in-26-8gw-australian-data-center-pipeline",
+    description:
+      "Melbourne surpasses Sydney in Australia's 26.8GW data center pipeline as grid bottlenecks mount, but only 1.6GW is currently operational nationwide.",
+    imageAlt:
+      "Map and conceptual diagram comparing data center capacity pipelines, grid terminal stations, and transmission bottlenecks across Melbourne and Sydney",
+    publishedOn: "2026-11-22",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "DC Byte Australia report",
+      "Melbourne data centers",
+      "Sydney grid bottlenecks",
+      "Australian data center pipeline",
+      "26.8GW tracked capacity",
+      "substation connection delays",
+      "AI compute infrastructure",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
