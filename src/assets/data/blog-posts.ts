@@ -6411,6 +6411,28 @@ export const blogPosts: BlogPost[] = [
       "AI compute infrastructure",
     ],
   }),
+  createPost({
+    id: 384,
+    title: "Microsoft Files Water Permits for 317-Acre Virginia AI Data Campus",
+    slug: "microsoft-files-water-permits-for-317-acre-virginia-ai-data-campus",
+    description:
+      "Microsoft files Clean Water Act permits for a 317-acre, five-building AI data center campus in Mecklenburg County, Virginia, impacting local wetlands.",
+    imageAlt:
+      "Aerial map and environmental planning diagram showing data center parcel boundaries, wetland impact areas, and retention ponds in Mecklenburg County, Virginia",
+    publishedOn: "2026-11-22",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Microsoft Mecklenburg data center",
+      "LVL-16 data center campus",
+      "Clean Water Act Section 404",
+      "Virginia data center wetlands",
+      "hyperscale water storage",
+      "Army Corps Norfolk District",
+      "Roanoke River watershed",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
