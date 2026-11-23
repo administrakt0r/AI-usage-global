@@ -3491,6 +3491,15 @@
       "published_on": "2026-11-23",
       "primary_entity": "PJM Interconnection / State Ratepayer Advocates",
       "event_fingerprint": "pjm-seven-state-ratepayer-advocates-capacity-auction-delay-demand"
+    },
+    {
+      "canonical_url": "https://www.theguardian.com/world/2026/nov/19/datacentres-to-create-70-more-carbon-emissions-by-2030-iea-report-warns",
+      "normalized_url": "https://theguardian.com/world/2026/nov/19/datacentres-to-create-70-more-carbon-emissions-by-2030-iea-report-warns",
+      "title": "Datacentres to create 70% more carbon emissions by 2030, IEA report warns",
+      "normalized_title": "datacentres to create 70 more carbon emissions by 2030 iea report warns",
+      "published_on": "2026-11-23",
+      "primary_entity": "International Energy Agency",
+      "event_fingerprint": "iea-projects-70-surge-in-data-center-carbon-emissions-by-2030"
     }
   ],
   "version": 2,
