@@ -3482,6 +3482,15 @@
       "published_on": "2026-11-23",
       "primary_entity": "Transparency International Australia / NextDC",
       "event_fingerprint": "transparency-international-australia-119-ministerial-meetings-fast-track"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/ratepayer-advocates-pjm-market-monitor-capacity-auction/875165/",
+      "normalized_url": "https://utilitydive.com/news/ratepayer-advocates-pjm-market-monitor-capacity-auction/875165",
+      "title": "Seven States Urge PJM to Delay Capacity Auction Over $10B Data Center Forecasts",
+      "normalized_title": "seven states urge pjm to delay capacity auction over 10b data center forecasts",
+      "published_on": "2026-11-23",
+      "primary_entity": "PJM Interconnection / State Ratepayer Advocates",
+      "event_fingerprint": "pjm-seven-state-ratepayer-advocates-capacity-auction-delay-demand"
     }
   ],
   "version": 2,

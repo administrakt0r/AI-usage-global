@@ -6523,6 +6523,29 @@ export const blogPosts: BlogPost[] = [
       "transmission bottlenecks",
     ],
   }),
+  createPost({
+    id: 389,
+    title:
+      "Seven States Urge PJM to Delay Capacity Auction Over $10B Data Center Forecasts",
+    slug: "seven-states-urge-pjm-to-delay-capacity-auction-over-10b-data-center-forecasts",
+    description:
+      "State consumer advocates and PJM's market monitor demand a halt to the December capacity auction, warning phantom data center load risks $10B in consumer costs.",
+    imageAlt:
+      "High-voltage electrical substation and transmission lines against an industrial horizon",
+    publishedOn: "2026-11-23",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "PJM Interconnection",
+      "capacity auction",
+      "Monitoring Analytics",
+      "data center power demand",
+      "ratepayer advocates",
+      "wholesale electricity prices",
+      "grid reliability",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
