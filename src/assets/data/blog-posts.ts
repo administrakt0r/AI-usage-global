@@ -6500,6 +6500,29 @@ export const blogPosts: BlogPost[] = [
       "Electricity Authority grid freeze",
     ],
   }),
+  createPost({
+    id: 388,
+    title:
+      "Data Center Bosses Log 119 Australian State Meetings Amid $1.8M Push",
+    slug: "data-center-bosses-log-119-australian-state-meetings-amid-1-8m-push",
+    description:
+      "Data center operators logged 119 meetings with Australian state leaders over three years as political donations surged to $1.8M amid grid disputes.",
+    imageAlt:
+      "Conceptual illustration of political lobbying, government buildings, and electrical transmission lines connecting Australian data centers",
+    publishedOn: "2026-11-23",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Australia data centers",
+      "Transparency International Australia",
+      "NextDC",
+      "ministerial lobbying",
+      "data center power grid",
+      "Queensland data center framework",
+      "transmission bottlenecks",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

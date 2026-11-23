@@ -3473,6 +3473,15 @@
       "published_on": "2026-11-23",
       "primary_entity": "Nebius / Mega Or",
       "event_fingerprint": "nebius-mega-or-134mw-israel-expansion"
+    },
+    {
+      "canonical_url": "https://www.theguardian.com/australia-news/2026/nov/23/datacentre-bosses-met-australian-state-premiers-and-ministers-almost-120-times-in-three-years-analysis-finds",
+      "normalized_url": "https://theguardian.com/australia-news/2026/nov/23/datacentre-bosses-met-australian-state-premiers-and-ministers-almost-120-times-in-three-years-analysis-finds",
+      "title": "Datacentre bosses met Australian state premiers and ministers almost 120 times in three years, analysis finds",
+      "normalized_title": "datacentre bosses met australian state premiers and ministers almost 120 times in three years analysis finds",
+      "published_on": "2026-11-23",
+      "primary_entity": "Transparency International Australia / NextDC",
+      "event_fingerprint": "transparency-international-australia-119-ministerial-meetings-fast-track"
     }
   ],
   "version": 2,
