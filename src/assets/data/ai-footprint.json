@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastReviewed": "2026-11-17",
+  "lastReviewed": "2026-11-23",
   "estimateYear": 2026,
   "reviewedBy": "AUG Bot",
   "methodology": "Annual figures are AUG estimates for the estimate year, derived from the cited studies by applying each study's published growth path to its latest measured year. Low and high bounds keep the spread between independent studies instead of hiding it. Live counters divide the annual central figure evenly across the year, so they illustrate scale and are not real-time metering.",
@@ -67,8 +67,8 @@
       },
       "projection": {
         "year": 2030,
-        "value": 950,
-        "note": "IEA: about 3% of global electricity demand"
+        "value": 1000,
+        "note": "IEA (World Energy Outlook 2026): doubles by 2030 with AI accounting for 75% of growth"
       },
       "derivation": "Central: IEA path from 485 TWh (2025) to 950 TWh (2030), about 14% a year. Low: UNU-INWEH's 448 TWh (2025) on its path to 945 TWh. High: 2025's 17% growth rate repeated.",
       "sourceIds": [
@@ -240,12 +240,23 @@
       "publisher": "UN OHCHR / UN-Habitat / WHO",
       "published": "2010",
       "url": "https://www.ohchr.org/sites/default/files/Documents/Publications/FactSheet35en.pdf"
+    },
+    {
+      "id": "iea-weo-2026",
+      "title": "World Energy Outlook 2026 (Data Centres and AI Energy Projections)",
+      "publisher": "International Energy Agency",
+      "published": "2026",
+      "url": "https://www.iea.org/reports/world-energy-outlook-2026"
     }
   ],
   "history": [
     {
       "date": "2026-11-17",
       "note": "Initial tracker built from IEA (2026), UNU-INWEH (June 2026) and de Vries-Gao (Patterns, Dec 2025)."
+    },
+    {
+      "date": "2026-11-23",
+      "note": "Updated data centre 2030 electricity projection to 1,000 TWh based on IEA World Energy Outlook 2026 findings showing doubling of demand and 70% emissions rise."
     }
   ]
 }

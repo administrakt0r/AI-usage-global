@@ -6546,6 +6546,29 @@ export const blogPosts: BlogPost[] = [
       "grid reliability",
     ],
   }),
+  createPost({
+    id: 390,
+    title: "IEA Projects 70% Surge in Data Center Carbon Emissions by 2030",
+    slug: "iea-projects-70-surge-in-data-center-carbon-emissions-by-2030",
+    description:
+      "Global data centre carbon emissions will rise 70% by 2030 as US gas and Chinese coal feed surging AI power demand, according to the International Energy Agency.",
+    imageAlt:
+      "Industrial power plant with cooling towers and transmission lines under an overcast sky",
+    publishedOn: "2026-11-23",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "International Energy Agency",
+      "IEA",
+      "data center emissions",
+      "carbon footprint",
+      "natural gas power",
+      "coal generation",
+      "AI electricity demand",
+      "World Energy Outlook",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
