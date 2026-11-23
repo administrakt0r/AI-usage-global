@@ -6477,6 +6477,29 @@ export const blogPosts: BlogPost[] = [
       "grid infrastructure costs",
     ],
   }),
+  createPost({
+    id: 387,
+    title:
+      "Nebius Expands Israel AI Data Center Capacity by 134MW with Mega Or",
+    slug: "nebius-expands-israel-ai-data-center-capacity-by-134mw-with-mega-or",
+    description:
+      "Nebius signs deal with Mega Or to add 134MW of data center capacity in Israel, bringing its leased compute footprint to 222MW amid grid constraints.",
+    imageAlt:
+      "Modern data center server hall with glowing blue LED racks representing AI compute expansion in Israel",
+    publishedOn: "2026-11-23",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Nebius",
+      "Mega Or",
+      "Israel AI data centers",
+      "Beit Shemesh",
+      "data center power grid",
+      "134MW capacity",
+      "Electricity Authority grid freeze",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

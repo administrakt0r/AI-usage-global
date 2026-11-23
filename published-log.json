@@ -3464,6 +3464,15 @@
       "published_on": "2026-11-22",
       "primary_entity": "US Senate / FERC",
       "event_fingerprint": "us-senate-passes-baaja-bill-ferc-20mw-data-center-grid-costs"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/nebius-expands-israel-data-center-lease-with-mega-or-by-134mw/",
+      "normalized_url": "https://www.datacenterdynamics.com/en/news/nebius-expands-israel-data-center-lease-with-mega-or-by-134mw",
+      "title": "Nebius Expands Israel AI Data Center Capacity by 134MW with Mega Or",
+      "normalized_title": "nebius expands israel ai data center capacity by 134mw with mega or",
+      "published_on": "2026-11-23",
+      "primary_entity": "Nebius / Mega Or",
+      "event_fingerprint": "nebius-mega-or-134mw-israel-expansion"
     }
   ],
   "version": 2,
