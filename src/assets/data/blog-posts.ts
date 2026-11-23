@@ -6569,6 +6569,31 @@ export const blogPosts: BlogPost[] = [
       "World Energy Outlook",
     ],
   }),
+  createPost({
+    id: 391,
+    title: "AWS and PPC Detail 300MW Data Center at Greek Coal Site",
+    slug: "aws-and-ppc-detail-300mw-data-center-at-greek-coal-site",
+    description:
+      "A 737-page environmental filing outlines plans for four data halls, 203,000 cubic meters of annual cooling water, and an expansion route to 1GW in Western Macedonia.",
+    imageAlt:
+      "Former industrial power station and modern data hall structures under Mediterranean sky",
+    publishedOn: "2026-11-23",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Amazon Web Services",
+      "AWS",
+      "Public Power Corporation",
+      "PPC",
+      "Kozani",
+      "Agios Dimitrios",
+      "data center cooling",
+      "coal transition",
+      "hybrid cooling",
+      "Greece data centers",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

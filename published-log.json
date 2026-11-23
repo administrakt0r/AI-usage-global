@@ -3500,6 +3500,15 @@
       "published_on": "2026-11-23",
       "primary_entity": "International Energy Agency",
       "event_fingerprint": "iea-projects-70-surge-in-data-center-carbon-emissions-by-2030"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/details-shared-of-aws-300mw-data-center-in-kozani-greece/",
+      "normalized_url": "https://datacenterdynamics.com/en/news/details-shared-of-aws-300mw-data-center-in-kozani-greece",
+      "title": "Details shared of AWS' 300MW data center in Kozani, Greece",
+      "normalized_title": "details shared of aws 300mw data center in kozani greece",
+      "published_on": "2026-11-23",
+      "primary_entity": "AWS / PPC",
+      "event_fingerprint": "aws-ppc-300mw-kozani-greece-coal-site"
     }
   ],
   "version": 2,
