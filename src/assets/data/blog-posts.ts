@@ -6713,6 +6713,30 @@ export const blogPosts: BlogPost[] = [
       "critical IT load power",
     ],
   }),
+  createPost({
+    id: 397,
+    title:
+      "L&T's LTN Compute to Deploy Nvidia B300 GPUs at 250MW Chennai Campus",
+    slug: "ltn-compute-deploys-nvidia-b300-gpus-at-250mw-chennai-ai-factory",
+    description:
+      "Larsen & Toubro subsidiary LTN Compute secures a ₹2,500–₹5,000 crore order to deploy Nvidia B300 GPUs in Chennai as part of a 10,000-GPU cluster backed by 250 MW of planned Phase 1 power.",
+    imageAlt:
+      "High-density AI server racks and substation infrastructure at an industrial data center campus in Chennai",
+    publishedOn: "2026-11-24",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "LTN Compute",
+      "Vyoma.AI",
+      "Larsen & Toubro",
+      "Nvidia B300 GPUs",
+      "Chennai AI Factory",
+      "10000 GPU cluster",
+      "250 MW data center",
+      "India AI infrastructure",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
