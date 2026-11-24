@@ -6665,6 +6665,30 @@ export const blogPosts: BlogPost[] = [
       "enterprise compute procurement",
     ],
   }),
+  createPost({
+    id: 395,
+    title:
+      "North Carolina Rejects Clean Tariff Mandate Amid 9.5% Duke Rate Hike",
+    slug: "north-carolina-rejects-clean-tariff-mandate-amid-9-5-percent-duke-rate-hike",
+    description:
+      "North Carolina regulators refuse to force Duke Energy to offer clean power tariffs to data center operators, while approving a 9.5% rate hike on households.",
+    imageAlt:
+      "Electric utility transmission towers and power lines running through North Carolina under an overcast sky",
+    publishedOn: "2026-11-24",
+    readTime: 5,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "North Carolina Utilities Commission",
+      "Duke Energy clean transition tariff",
+      "data center power procurement",
+      "residential rate hike",
+      "Corporate Energy Buyers Association",
+      "large load data center tariff",
+      "AI data center electricity demand",
+      "monopoly utility clean energy",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
