@@ -3545,6 +3545,15 @@
       "published_on": "2026-11-24",
       "primary_entity": "North Carolina Utilities Commission / Duke Energy",
       "event_fingerprint": "ncuc-declines-mandatory-clean-transition-tariff-duke-rate-hike"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/applied-digital-signs-54bn-18-year-lease-with-unnamed-hyperscaler/",
+      "normalized_url": "https://datacenterdynamics.com/en/news/applied-digital-signs-54bn-18-year-lease-with-unnamed-hyperscaler",
+      "title": "Applied Digital signs $5.4bn 18-year lease with unnamed hyperscaler",
+      "normalized_title": "applied digital signs 54bn 18year lease with unnamed hyperscaler",
+      "published_on": "2026-11-24",
+      "primary_entity": "Applied Digital / Macquarie Asset Management",
+      "event_fingerprint": "applied-digital-5-4bn-18-year-lease-150mw-hyperscaler"
     }
   ],
   "version": 2,

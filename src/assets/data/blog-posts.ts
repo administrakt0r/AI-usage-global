@@ -6689,6 +6689,30 @@ export const blogPosts: BlogPost[] = [
       "monopoly utility clean energy",
     ],
   }),
+  createPost({
+    id: 396,
+    title:
+      "Applied Digital Signs $5.4B 18-Year Hyperscale Lease for 150MW AI Load",
+    slug: "applied-digital-signs-5-4b-18-year-hyperscale-lease-150mw",
+    description:
+      "Applied Digital locks in an 18-year, $5.4 billion contract with an unnamed investment-grade hyperscaler for 150 MW of critical IT load, pushing total contracted revenue past $41 billion.",
+    imageAlt:
+      "Aerial view of a massive hyperscale AI data center campus with electrical substations and industrial cooling units",
+    publishedOn: "2026-11-24",
+    readTime: 5,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Applied Digital hyperscale lease",
+      "150 MW AI data center",
+      "data center power capacity",
+      "Macquarie Asset Management",
+      "hyperscale AI infrastructure",
+      "Delta Forge AI campus",
+      "data center energy contracts",
+      "critical IT load power",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
