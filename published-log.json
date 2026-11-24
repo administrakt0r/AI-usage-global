@@ -3518,6 +3518,15 @@
       "published_on": "2026-11-24",
       "primary_entity": "Ohio Power Siting Board / EdgeConneX",
       "event_fingerprint": "opsb-approves-800mw-ashville-gas-plant-edgeconnex"
+    },
+    {
+      "canonical_url": "https://www.providenceri.gov/mayor-smiley-signs-executive-order-to-address-environmental-and-community-impacts-of-data-center-development/",
+      "normalized_url": "https://providenceri.gov/mayor-smiley-signs-executive-order-to-address-environmental-and-community-impacts-of-data-center-development",
+      "title": "Mayor Smiley Signs Executive Order to Address Environmental and Community Impacts of Data Center Development",
+      "normalized_title": "mayor smiley signs executive order to address environmental and community impacts of data center development",
+      "published_on": "2026-11-24",
+      "primary_entity": "City of Providence",
+      "event_fingerprint": "providence-mayor-smiley-executive-order-data-centers-zoning-grid"
     }
   ],
   "version": 2,

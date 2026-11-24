@@ -6619,6 +6619,28 @@ export const blogPosts: BlogPost[] = [
       "grid delays",
     ],
   }),
+  createPost({
+    id: 393,
+    title: "Providence Reaffirms 100% Data Center Ban and Orders Grid Review",
+    slug: "providence-reaffirms-100-data-center-ban-and-orders-grid-review",
+    description:
+      "Providence Mayor Brett Smiley signs an executive order upholding a 100% citywide data center zoning ban while directing a deep study on power and water impacts.",
+    imageAlt:
+      "City of Providence municipal skyline and electrical distribution infrastructure",
+    publishedOn: "2026-11-24",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Providence data center ban",
+      "Mayor Brett Smiley",
+      "Executive Order 2026-05",
+      "data center zoning ordinance",
+      "Rhode Island utility rates",
+      "data center water demand",
+      "AI grid strain",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
