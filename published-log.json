@@ -3509,6 +3509,15 @@
       "published_on": "2026-11-23",
       "primary_entity": "AWS / PPC",
       "event_fingerprint": "aws-ppc-300mw-kozani-greece-coal-site"
+    },
+    {
+      "canonical_url": "https://www.canarymedia.com/articles/data-centers/ohio-oks-gas-plant-for-data-centers",
+      "normalized_url": "https://canarymedia.com/articles/data-centers/ohio-oks-gas-plant-for-data-centers",
+      "title": "Ohio OKs gas plant for data centers despite local voter backlash",
+      "normalized_title": "ohio oks gas plant for data centers despite local voter backlash",
+      "published_on": "2026-11-24",
+      "primary_entity": "Ohio Power Siting Board / EdgeConneX",
+      "event_fingerprint": "opsb-approves-800mw-ashville-gas-plant-edgeconnex"
     }
   ],
   "version": 2,
