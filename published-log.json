@@ -3527,6 +3527,15 @@
       "published_on": "2026-11-24",
       "primary_entity": "City of Providence",
       "event_fingerprint": "providence-mayor-smiley-executive-order-data-centers-zoning-grid"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/ai-server-oems-hiking-prices-by-45-as-memory-shortage-bites-report/",
+      "normalized_url": "https://datacenterdynamics.com/en/news/ai-server-oems-hiking-prices-by-45-as-memory-shortage-bites-report",
+      "title": "AI server OEMs hiking prices by 45% as memory shortage bites - report",
+      "normalized_title": "ai server oems hiking prices by 45% as memory shortage bites report",
+      "published_on": "2026-11-24",
+      "primary_entity": "Dell Technologies / Server OEMs",
+      "event_fingerprint": "ai-server-oems-45-percent-price-hike-memory-shortage-dell-xtx"
     }
   ],
   "version": 2,

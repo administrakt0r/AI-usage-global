@@ -6641,6 +6641,30 @@ export const blogPosts: BlogPost[] = [
       "AI grid strain",
     ],
   }),
+  createPost({
+    id: 394,
+    title:
+      "AI Server Makers Demand 45% Price Hikes as Memory Crunch Hits Contracts",
+    slug: "ai-server-makers-demand-45-percent-price-hikes-memory-shortage",
+    description:
+      "Major server manufacturers including Dell and HPE demand retroactive surcharges of up to 45% on enterprise hardware contracts as AI high-bandwidth memory consumes foundry wafer capacity.",
+    imageAlt:
+      "High-density AI server hardware and semiconductor memory modules in an enterprise data center facility",
+    publishedOn: "2026-11-24",
+    readTime: 5,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "AI server price hike",
+      "server DRAM shortage",
+      "high-bandwidth memory",
+      "HBM wafer allocation",
+      "Dell Technologies lawsuit",
+      "XTX Markets High Court Ireland",
+      "server OEM contract renegotiation",
+      "enterprise compute procurement",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
