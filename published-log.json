@@ -3554,6 +3554,15 @@
       "published_on": "2026-11-24",
       "primary_entity": "Applied Digital / Macquarie Asset Management",
       "event_fingerprint": "applied-digital-5-4bn-18-year-lease-150mw-hyperscaler"
+    },
+    {
+      "canonical_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/6961c994-01be-4b8d-85ac-5c857530ea43.pdf",
+      "normalized_url": "https://bseindia.com/xml-data/corpfiling/AttachLive/6961c994-01be-4b8d-85ac-5c857530ea43.pdf",
+      "title": "Larsen & Toubro Secures (Large*) Order for Deploying AI Cluster",
+      "normalized_title": "larsen toubro secures large order for deploying ai cluster",
+      "published_on": "2026-11-24",
+      "primary_entity": "Larsen & Toubro / LTN Compute / Vyoma.AI",
+      "event_fingerprint": "lt-ltn-compute-nvidia-b300-10000-gpu-chennai-250mw"
     }
   ],
   "version": 2,
