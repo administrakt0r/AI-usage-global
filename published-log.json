@@ -3536,6 +3536,15 @@
       "published_on": "2026-11-24",
       "primary_entity": "Dell Technologies / Server OEMs",
       "event_fingerprint": "ai-server-oems-45-percent-price-hike-memory-shortage-dell-xtx"
+    },
+    {
+      "canonical_url": "https://www.canarymedia.com/articles/clean-energy/north-carolina-clean-transition-tariff-punt",
+      "normalized_url": "https://canarymedia.com/articles/clean-energy/north-carolina-clean-transition-tariff-punt",
+      "title": "North Carolina utility regulators punt on clean transition tariff — again",
+      "normalized_title": "north carolina utility regulators punt on clean transition tariff again",
+      "published_on": "2026-11-24",
+      "primary_entity": "North Carolina Utilities Commission / Duke Energy",
+      "event_fingerprint": "ncuc-declines-mandatory-clean-transition-tariff-duke-rate-hike"
     }
   ],
   "version": 2,
