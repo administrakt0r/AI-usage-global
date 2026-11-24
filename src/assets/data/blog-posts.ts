@@ -6594,6 +6594,31 @@ export const blogPosts: BlogPost[] = [
       "Greece data centers",
     ],
   }),
+  createPost({
+    id: 392,
+    title: "Ohio Approves 800MW Data Center Gas Plant Despite Voter Rejection",
+    slug: "ohio-approves-800mw-data-center-gas-plant-despite-voter-rejection",
+    description:
+      "The Ohio Power Siting Board approved an 800MW behind-the-meter gas plant for EdgeConneX in Ashville weeks after 81% of village voters rejected the project.",
+    imageAlt:
+      "Natural gas power plant turbines and industrial generation facility in rural Ohio landscape",
+    publishedOn: "2026-11-24",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "EdgeConneX",
+      "PowerConneX",
+      "Ohio Power Siting Board",
+      "OPSB",
+      "Ashville",
+      "natural gas plant",
+      "behind-the-meter power",
+      "data center emissions",
+      "PJM Interconnection",
+      "grid delays",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
