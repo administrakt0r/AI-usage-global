@@ -6713,6 +6713,28 @@ export const blogPosts: BlogPost[] = [
       "critical IT load power",
     ],
   }),
+  createPost({
+    id: 397,
+    title: "Vantage Drops 500MW Colorado Data Center After Aurora Moratorium",
+    slug: "vantage-drops-500mw-colorado-data-center-after-aurora-moratorium",
+    description:
+      "Vantage Data Centers withdraws its 500MW Trident campus in Aurora, Colorado, as city council passes a zoning moratorium through September 2027.",
+    imageAlt:
+      "Aerial view of a hyperscale data center site and municipal zoning map in Aurora, Colorado",
+    publishedOn: "2026-11-24",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Vantage Data Centers",
+      "Trident data center",
+      "Aurora Colorado moratorium",
+      "Resolution R2026-146",
+      "500MW data center",
+      "closed-loop cooling",
+      "data center zoning",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

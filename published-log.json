@@ -3554,6 +3554,15 @@
       "published_on": "2026-11-24",
       "primary_entity": "Applied Digital / Macquarie Asset Management",
       "event_fingerprint": "applied-digital-5-4bn-18-year-lease-150mw-hyperscaler"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/vantage-drops-plans-for-trident-data-center-after-colorados-aurora-city-passes-moratorium/",
+      "normalized_url": "https://datacenterdynamics.com/en/news/vantage-drops-plans-for-trident-data-center-after-colorados-aurora-city-passes-moratorium",
+      "title": "Vantage drops plans for Trident data center after Colorado's Aurora City passes moratorium",
+      "normalized_title": "vantage drops plans for trident data center after colorados aurora city passes moratorium",
+      "published_on": "2026-11-24",
+      "primary_entity": "Vantage Data Centers / Aurora City Council",
+      "event_fingerprint": "vantage-drops-500mw-trident-aurora-colorado-moratorium"
     }
   ],
   "version": 2,
