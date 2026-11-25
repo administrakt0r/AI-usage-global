@@ -3581,6 +3581,15 @@
       "published_on": "2026-11-25",
       "primary_entity": "FirstEnergy / Mon Power / Potomac Edison",
       "event_fingerprint": "firstenergy-wv-psc-maidsville-2-48b-1200mw-gas-plant-1012mw-datacenter"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/tva-touts-17b-data-center-deal-under-new-large-load-tariff/875630/",
+      "normalized_url": "https://utilitydive.com/news/tva-touts-17b-data-center-deal-under-new-large-load-tariff/875630",
+      "title": "TVA touts $1.7B data center deal under new large-load tariff",
+      "normalized_title": "tva touts 17b data center deal under new large load tariff",
+      "published_on": "2026-11-25",
+      "primary_entity": "Tennessee Valley Authority",
+      "event_fingerprint": "tva-signs-1-7b-capacity-commitment-charge-data-center-deal"
     }
   ],
   "version": 2,

@@ -6784,6 +6784,29 @@ export const blogPosts: BlogPost[] = [
       "PJM Interconnection",
     ],
   }),
+  createPost({
+    id: 400,
+    title:
+      "TVA Signs $1.7B Data Center Power Deal Under Large-Load Tariff",
+    slug: "tva-signs-1-7b-data-center-power-deal-under-large-load-tariff",
+    description:
+      "TVA signs a $1.7B capacity commitment deal under its large-load data center tariff, charging $1.5M per MW above 5 MW as it plans $13B in grid investments.",
+    imageAlt:
+      "High-voltage transmission lines and substation serving large-load data center capacity in the Tennessee Valley",
+    publishedOn: "2026-11-25",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Tennessee Valley Authority",
+      "Capacity Commitment Charge",
+      "data center tariff",
+      "large-load power deal",
+      "1.5 million per MW",
+      "Clinch River SMR",
+      "TVA gas generation",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
