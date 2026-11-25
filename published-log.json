@@ -3590,6 +3590,15 @@
       "published_on": "2026-11-25",
       "primary_entity": "Tennessee Valley Authority",
       "event_fingerprint": "tva-signs-1-7b-capacity-commitment-charge-data-center-deal"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/google-planning-12gw-data-center-near-ch%C3%A2teauroux-france-report/",
+      "normalized_url": "https://datacenterdynamics.com/en/news/google-planning-12gw-data-center-near-ch%C3%A2teauroux-france-report",
+      "title": "Google plans 1.2GW data center near Châteauroux, France - report",
+      "normalized_title": "google plans 12gw data center near châteauroux france report",
+      "published_on": "2026-11-25",
+      "primary_entity": "Google / Tricolore Computing / RTE",
+      "event_fingerprint": "google-tricolore-computing-villedieu-sur-indre-1-2gw-rte-grid-request"
     }
   ],
   "version": 2,
