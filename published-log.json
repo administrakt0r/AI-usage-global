@@ -3608,6 +3608,15 @@
       "published_on": "2026-11-25",
       "primary_entity": "Digital Realty / Rolling Meadows City Council",
       "event_fingerprint": "digital-realty-rolling-meadows-156mw-240mw-substation-approval"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/ntt-signs-mou-with-bgrimm-for-400mw-data-center-project-in-thailand/",
+      "normalized_url": "https://datacenterdynamics.com/en/news/ntt-signs-mou-with-bgrimm-for-400mw-data-center-project-in-thailand",
+      "title": "NTT signs MoU with B.Grimm for 400MW data center project in Thailand",
+      "normalized_title": "ntt signs mou with bgrimm for 400mw data center project in thailand",
+      "published_on": "2026-11-25",
+      "primary_entity": "NTT Global Data Centers / B.Grimm Power",
+      "event_fingerprint": "ntt-amata-bgrimm-400mw-chonburi-thailand-mou"
     }
   ],
   "version": 2,
