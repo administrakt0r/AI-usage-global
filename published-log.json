@@ -3599,6 +3599,15 @@
       "published_on": "2026-11-25",
       "primary_entity": "Google / Tricolore Computing / RTE",
       "event_fingerprint": "google-tricolore-computing-villedieu-sur-indre-1-2gw-rte-grid-request"
+    },
+    {
+      "canonical_url": "https://www.journal-topics.com/articles/rolling-meadows-oks-data-center-amid-outcry-from-crowd-at-city-council-meeting/",
+      "normalized_url": "https://journal-topics.com/articles/rolling-meadows-oks-data-center-amid-outcry-from-crowd-at-city-council-meeting",
+      "title": "Rolling Meadows OKs Data Center Amid Outcry From Crowd At City Council Meeting",
+      "normalized_title": "rolling meadows oks data center amid outcry from crowd at city council meeting",
+      "published_on": "2026-11-25",
+      "primary_entity": "Digital Realty / Rolling Meadows City Council",
+      "event_fingerprint": "digital-realty-rolling-meadows-156mw-240mw-substation-approval"
     }
   ],
   "version": 2,
