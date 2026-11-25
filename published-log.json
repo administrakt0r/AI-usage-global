@@ -3563,6 +3563,15 @@
       "published_on": "2026-11-24",
       "primary_entity": "Larsen & Toubro / LTN Compute / Vyoma.AI",
       "event_fingerprint": "lt-ltn-compute-nvidia-b300-10000-gpu-chennai-250mw"
+    },
+    {
+      "canonical_url": "https://www.datacenterdynamics.com/en/news/vantage-drops-plans-for-trident-data-center-after-colorados-aurora-city-passes-moratorium/",
+      "normalized_url": "https://datacenterdynamics.com/en/news/vantage-drops-plans-for-trident-data-center-after-colorados-aurora-city-passes-moratorium",
+      "title": "Vantage drops plans for Trident data center after Colorado's Aurora City passes moratorium",
+      "normalized_title": "vantage drops plans for trident data center after colorados aurora city passes moratorium",
+      "published_on": "2026-11-25",
+      "primary_entity": "Vantage Data Centers / Aurora City Council",
+      "event_fingerprint": "vantage-drops-500mw-trident-data-center-aurora-moratorium"
     }
   ],
   "version": 2,
