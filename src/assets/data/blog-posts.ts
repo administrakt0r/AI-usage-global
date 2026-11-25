@@ -6807,6 +6807,29 @@ export const blogPosts: BlogPost[] = [
       "TVA gas generation",
     ],
   }),
+  createPost({
+    id: 401,
+    title:
+      "Google Seeks 1.2GW Grid Link for Second Data Center in France",
+    slug: "google-seeks-1-2gw-grid-link-for-second-data-center-in-france",
+    description:
+      "Google's Tricolore Computing sought a 1.2GW grid connection in Villedieu-sur-Indre, France, with a €67M RTE tie-in plan alongside its €8.6B Ozans project.",
+    imageAlt:
+      "High-voltage transmission lines and electrical substation serving a proposed hyperscale data center in central France",
+    publishedOn: "2026-11-25",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Google France data center",
+      "Tricolore Computing",
+      "Villedieu-sur-Indre",
+      "Chateauroux Ozans",
+      "RTE 1.2GW grid connection",
+      "France AI infrastructure",
+      "ENGIE Google MoU",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
