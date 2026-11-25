@@ -6737,6 +6737,30 @@ export const blogPosts: BlogPost[] = [
       "India AI infrastructure",
     ],
   }),
+  createPost({
+    id: 398,
+    title:
+      "Aurora Passes Data Center Moratorium as Vantage Drops 334 MW Trident Site",
+    slug: "aurora-passes-data-center-moratorium-vantage-drops-trident",
+    description:
+      "Aurora City Council unanimously pauses new data center applications across most of the city through September 30, 2027, hours after Vantage Data Centers drops its 334 MW Trident campus near residential neighborhoods.",
+    imageAlt:
+      "Municipal zoning boundary and hyperscale data center campus with electrical substations and backup power equipment",
+    publishedOn: "2026-11-25",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Aurora Colorado",
+      "data center moratorium",
+      "Vantage Data Centers",
+      "Trident data center",
+      "334 MW",
+      "zoning setback",
+      "diesel backup generators",
+      "data center tax incentives",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
