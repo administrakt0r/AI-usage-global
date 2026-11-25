@@ -3572,6 +3572,15 @@
       "published_on": "2026-11-25",
       "primary_entity": "Vantage Data Centers / Aurora City Council",
       "event_fingerprint": "vantage-drops-500mw-trident-data-center-aurora-moratorium"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/firstenergy-utilities-get-approval-for-25b-gas-plant-in-west-virginia/875646/",
+      "normalized_url": "https://utilitydive.com/news/firstenergy-utilities-get-approval-for-25b-gas-plant-in-west-virginia/875646",
+      "title": "FirstEnergy utilities get approval for $2.5B gas plant in West Virginia",
+      "normalized_title": "firstenergy utilities get approval for 25b gas plant in west virginia",
+      "published_on": "2026-11-25",
+      "primary_entity": "FirstEnergy / Mon Power / Potomac Edison",
+      "event_fingerprint": "firstenergy-wv-psc-maidsville-2-48b-1200mw-gas-plant-1012mw-datacenter"
     }
   ],
   "version": 2,

@@ -6760,6 +6760,30 @@ export const blogPosts: BlogPost[] = [
       "data center community opposition",
     ],
   }),
+  createPost({
+    id: 399,
+    title:
+      "West Virginia Approves FirstEnergy $2.48B Gas Plant for 1,012 MW Data Center Load",
+    slug: "firstenergy-wv-approves-2-48b-gas-plant-1-2gw-data-center-load",
+    description:
+      "West Virginia regulators grant Mon Power and Potomac Edison approval and a customer surcharge for the $2.48 billion, 1,200 MW Maidsville Energy Center gas plant and 70 MW of solar prompted by a 1,012 MW data center load.",
+    imageAlt:
+      "Combined-cycle natural gas power plant and high-voltage electrical substation supplying regional data center load",
+    publishedOn: "2026-11-25",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "FirstEnergy",
+      "Mon Power",
+      "West Virginia PSC",
+      "Maidsville Energy Center",
+      "1200 MW gas plant",
+      "data center electricity demand",
+      "ratepayer surcharge",
+      "PJM Interconnection",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
