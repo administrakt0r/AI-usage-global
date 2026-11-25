@@ -6854,6 +6854,29 @@ export const blogPosts: BlogPost[] = [
       "Cook County data center",
     ],
   }),
+  createPost({
+    id: 403,
+    title:
+      "NTT and B.Grimm Power Sign MoU for 400MW Data Center Campus in Thailand",
+    slug: "ntt-bgrimm-400mw-thailand-data-center-mou",
+    description:
+      "NTT Global Data Centers and Thai utility B.Grimm Power signed a $3.3B MoU to pursue a 400MW AI and cloud data center campus in Chonburi, Thailand.",
+    imageAlt:
+      "Industrial power substation and hyperscale data center campus infrastructure in Chonburi, Thailand",
+    publishedOn: "2026-11-25",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "NTT Global Data Centers",
+      "B.Grimm Power",
+      "Amata City Chonburi",
+      "400MW data center Thailand",
+      "THB 113 billion",
+      "Thailand AI infrastructure",
+      "industrial power purchase agreement",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
