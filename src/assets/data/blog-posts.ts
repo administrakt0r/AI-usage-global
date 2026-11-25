@@ -6830,6 +6830,30 @@ export const blogPosts: BlogPost[] = [
       "ENGIE Google MoU",
     ],
   }),
+  createPost({
+    id: 402,
+    title:
+      "Rolling Meadows Approves 156MW Digital Realty Campus and 240MW Substation",
+    slug: "rolling-meadows-approves-156mw-digital-realty-campus-240mw-substation",
+    description:
+      "Rolling Meadows aldermen approved rezoning and tax breaks for Digital Realty's 156MW data center and a 240MW ComEd substation, despite resident protests over grid strain and noise.",
+    imageAlt:
+      "Aerial view of a suburban commercial office redevelopment and utility substation infrastructure in Illinois",
+    publishedOn: "2026-11-25",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Digital Realty",
+      "Rolling Meadows",
+      "Commonwealth Edison",
+      "240MW substation",
+      "Class 6B incentive",
+      "suburban data center",
+      "office demolition",
+      "Cook County data center",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
