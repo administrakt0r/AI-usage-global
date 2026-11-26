@@ -3626,6 +3626,15 @@
       "published_on": "2026-11-26",
       "primary_entity": "Cheyenne Light, Fuel and Power / Bright Horizon Energy / Microsoft",
       "event_fingerprint": "cheyenne-light-ferc-filing-three-microsoft-datacenters-wyoming-3gw-pipeline"
+    },
+    {
+      "canonical_url": "https://www.latitudemedia.com/news/googles-grid-deal-in-ohio-tests-a-faster-path-to-data-center-power/",
+      "normalized_url": "https://latitudemedia.com/news/googles-grid-deal-in-ohio-tests-a-faster-path-to-data-center-power",
+      "title": "Google’s grid deal in Ohio tests a faster path to data center power",
+      "normalized_title": "googles grid deal in ohio tests a faster path to data center power",
+      "published_on": "2026-11-26",
+      "primary_entity": "Google / Ohio Power Company / AEP",
+      "event_fingerprint": "google-ohio-power-10-8m-columbus-advanced-conductor-upgrade"
     }
   ],
   "version": 2,
