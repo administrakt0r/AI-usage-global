@@ -6900,6 +6900,28 @@ export const blogPosts: BlogPost[] = [
       "Black Hills Energy",
     ],
   }),
+  createPost({
+    id: 405,
+    title: "Google Funds $10.8M Ohio Grid Upgrade to Add 700MW Capacity",
+    slug: "google-funds-10-8m-ohio-grid-upgrade-to-add-700mw-capacity",
+    description:
+      "Google and Ohio Power proposed a $10.8M Columbus advanced-conductor upgrade to deliver 24 MW early and add over 700 MW of grid headroom by 2031.",
+    imageAlt:
+      "High-voltage transmission lines carrying upgraded advanced conductors across a utility corridor in central Ohio",
+    publishedOn: "2026-11-26",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Google Ohio Power",
+      "advanced conductors",
+      "Columbus transmission upgrade",
+      "PUCO filing",
+      "700MW grid capacity",
+      "Transmission Participation Agreement",
+      "American Electric Power",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
