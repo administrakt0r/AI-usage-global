@@ -3617,6 +3617,15 @@
       "published_on": "2026-11-25",
       "primary_entity": "NTT Global Data Centers / B.Grimm Power",
       "event_fingerprint": "ntt-amata-bgrimm-400mw-chonburi-thailand-mou"
+    },
+    {
+      "canonical_url": "https://www.utilitydive.com/news/cheyenne-light-microsoft-google-data-center-bright-horizon/875739/",
+      "normalized_url": "https://utilitydive.com/news/cheyenne-light-microsoft-google-data-center-bright-horizon/875739",
+      "title": "Bright Horizon utility lands Microsoft data center deals amid Wyoming buildout",
+      "normalized_title": "bright horizon utility lands microsoft data center deals amid wyoming buildout",
+      "published_on": "2026-11-26",
+      "primary_entity": "Cheyenne Light, Fuel and Power / Bright Horizon Energy / Microsoft",
+      "event_fingerprint": "cheyenne-light-ferc-filing-three-microsoft-datacenters-wyoming-3gw-pipeline"
     }
   ],
   "version": 2,

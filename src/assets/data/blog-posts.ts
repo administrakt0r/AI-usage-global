@@ -6877,6 +6877,29 @@ export const blogPosts: BlogPost[] = [
       "industrial power purchase agreement",
     ],
   }),
+  createPost({
+    id: 404,
+    title:
+      "Cheyenne Light Files Microsoft Grid Deals Amid 3GW Wyoming Pipeline",
+    slug: "cheyenne-light-files-microsoft-grid-deals-amid-3gw-wyoming-pipeline",
+    description:
+      "Cheyenne Light filed FERC grid agreements for three Microsoft data centers in Wyoming as the utility manages a 3GW pipeline against a 439MW peak.",
+    imageAlt:
+      "High-voltage electric transmission lines and substation serving data center load in southeast Wyoming",
+    publishedOn: "2026-11-26",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Cheyenne Light Fuel and Power",
+      "Bright Horizon Energy",
+      "Microsoft Wyoming data centers",
+      "FERC transmission filing",
+      "3GW data center pipeline",
+      "Large Customer Transmission Cost Adjustment Mechanism",
+      "Black Hills Energy",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
