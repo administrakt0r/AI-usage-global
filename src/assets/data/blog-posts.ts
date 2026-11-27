@@ -6922,6 +6922,28 @@ export const blogPosts: BlogPost[] = [
       "American Electric Power",
     ],
   }),
+  createPost({
+    id: 406,
+    title: "Belgium Halts €1B Google Data Center Over River Water Cooling",
+    slug: "belgium-halts-1b-google-data-center-over-river-water-cooling",
+    description:
+      "Walloon authorities halted construction at Google's €1B Farciennes data center after inspectors flagged work tied to a revoked 600 m³/hour river-cooling permit.",
+    imageAlt:
+      "Construction site of a large hyperscale data center near the Sambre River in Farciennes, Wallonia, Belgium",
+    publishedOn: "2026-11-27",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Google Farciennes data center",
+      "Sambre River water cooling",
+      "Walloon Region construction halt",
+      "Crystal Computing Belgium",
+      "evaporative cooling permit",
+      "Belgian Council of State",
+      "data center water footprint",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
