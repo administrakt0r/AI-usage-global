@@ -6966,6 +6966,28 @@ export const blogPosts: BlogPost[] = [
       "Rivington Energy",
     ],
   }),
+  createPost({
+    id: 408,
+    title: "US EIA Proposes Mandatory 1MW Data Center Power Survey",
+    slug: "us-eia-proposes-mandatory-1mw-data-center-power-survey",
+    description:
+      "The U.S. Energy Information Administration proposed Form EIA-872, requiring 1,400 U.S. data center operators at 1 MW or more to report power and cooling use.",
+    imageAlt:
+      "Rows of server racks and cooling infrastructure inside a large U.S. data center subject to federal energy metering",
+    publishedOn: "2026-11-27",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Form EIA-872",
+      "Data Center Energy Consumption Survey",
+      "U.S. Energy Information Administration",
+      "1 MW data center reporting",
+      "Federal Register 91 FR 76760",
+      "data center electricity demand",
+      "PUE and cooling survey",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
