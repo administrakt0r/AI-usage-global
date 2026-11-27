@@ -3644,6 +3644,15 @@
       "published_on": "2026-11-27",
       "primary_entity": "Google / Crystal Computing / Walloon Region",
       "event_fingerprint": "google-farciennes-walloon-region-halts-construction-sambre-water-permit"
+    },
+    {
+      "canonical_url": "https://www.theguardian.com/environment/2026/nov/27/natural-england-objected-datacentre-ministers-abolish-bristol",
+      "normalized_url": "https://theguardian.com/environment/2026/nov/27/natural-england-objected-datacentre-ministers-abolish-bristol",
+      "title": "Natural England objected to a datacentre. Weeks later ministers threatened to abolish the agency",
+      "normalized_title": "natural england objected to a datacentre weeks later ministers threatened to abolish the agency",
+      "published_on": "2026-11-27",
+      "primary_entity": "Natural England / Environment Agency / Rivington Energy",
+      "event_fingerprint": "natural-england-environment-agency-object-rivington-40mw-avonmouth-bristol-datacentre"
     }
   ],
   "version": 2,

@@ -6944,6 +6944,28 @@ export const blogPosts: BlogPost[] = [
       "data center water footprint",
     ],
   }),
+  createPost({
+    id: 407,
+    title: "UK Watchdogs Flag 40MW Bristol Data Center Water and Flood Risks",
+    slug: "uk-watchdogs-flag-40mw-bristol-data-center-water-and-flood-risks",
+    description:
+      "Natural England and the Environment Agency objected to a 40MW Avonmouth AI data center near Bristol over flood risks, missing water data, and bird habitats.",
+    imageAlt:
+      "Port and industrial shoreline near Avonmouth, Bristol, close to the proposed 40MW AI data center site and Severn Estuary wetlands",
+    publishedOn: "2026-11-27",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "Natural England data center",
+      "Avonmouth 40MW AI data center",
+      "Bristol City Council planning",
+      "Severn Estuary Special Protection Area",
+      "Environment Agency flood risk",
+      "UK 73GW grid queue",
+      "Rivington Energy",
+    ],
+  }),
 ];
 
 const assertUniqueField = (
