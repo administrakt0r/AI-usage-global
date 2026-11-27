@@ -3635,6 +3635,15 @@
       "published_on": "2026-11-26",
       "primary_entity": "Google / Ohio Power Company / AEP",
       "event_fingerprint": "google-ohio-power-10-8m-columbus-advanced-conductor-upgrade"
+    },
+    {
+      "canonical_url": "https://itdaily.com/news/datacenter/google-data-centre-farciennes-halted/",
+      "normalized_url": "https://itdaily.com/news/datacenter/google-data-centre-farciennes-halted",
+      "title": "Walloon Region halts Google data centre construction",
+      "normalized_title": "walloon region halts google data centre construction",
+      "published_on": "2026-11-27",
+      "primary_entity": "Google / Crystal Computing / Walloon Region",
+      "event_fingerprint": "google-farciennes-walloon-region-halts-construction-sambre-water-permit"
     }
   ],
   "version": 2,
