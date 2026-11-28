@@ -6988,6 +6988,28 @@ export const blogPosts: BlogPost[] = [
       "PUE and cooling survey",
     ],
   }),
+  createPost({
+    id: 409,
+    title: "FCC Approves 1 Million SpaceX Orbital AI Data Center Satellites",
+    slug: "fcc-approves-1-million-spacex-orbital-ai-data-center-satellites",
+    description:
+      "The FCC granted SpaceX conditional approval to deploy up to 1,000,000 Starmind satellites for solar-powered orbital AI data centers in low-Earth orbit.",
+    imageAlt:
+      "Solar-powered orbital AI data center satellites in low-Earth orbit following FCC conditional approval",
+    publishedOn: "2026-11-28",
+    readTime: 4,
+    featured: false,
+    category: AI_USAGE,
+    keywords: [
+      "SpaceX Starmind",
+      "FCC Order DA 26-1273",
+      "orbital AI data centers",
+      "1 million satellites",
+      "space-based compute",
+      "orbital debris mitigation",
+      "low-Earth orbit solar power",
+    ],
+  }),
 ];
 
 const assertUniqueField = (

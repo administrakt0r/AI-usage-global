@@ -3662,6 +3662,15 @@
       "published_on": "2026-11-27",
       "primary_entity": "U.S. Energy Information Administration (EIA)",
       "event_fingerprint": "us-eia-form-872-dcecs-mandatory-1mw-data-center-energy-survey"
+    },
+    {
+      "canonical_url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf",
+      "normalized_url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf",
+      "title": "Memorandum Opinion and Order and Authorization (DA 26-1273): SpaceX Orbital Data Center System (Starmind)",
+      "normalized_title": "memorandum opinion and order and authorization da 26 1273 spacex orbital data center system starmind",
+      "published_on": "2026-11-28",
+      "primary_entity": "Federal Communications Commission / SpaceX",
+      "event_fingerprint": "fcc-approves-spacex-starmind-1m-orbital-data-center-satellites"
     }
   ],
   "version": 2,
